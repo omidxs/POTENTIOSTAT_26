@@ -1,0 +1,29 @@
+//Revision 34
+//NOTE
+// Default austriamicrosystems template for AMS Designer
+// Note:
+//      Please remember to replace the Library, Cell, and View fields
+//      for the Top Cell with the actual names used by your design.
+//END_NOTE
+
+config \7_CA_TIA_Front_tb_calib ;
+design Potentiostat.\7_CA_TIA_Front_tb_calib :schematic6;
+
+const digital behavioral, functional, schematic, symbol;
+const analog veriloga, functional, schematic, symbol;
+liblist basic, analogLib;
+
+viewlist verilogams, veriloga, behavioral, functional, \module , schematic, spectre, symbol;
+stoplist symbol, spectre;
+
+
+inst (FBIAS.fbias_por2:schematic).I1 binding :cmos_sch;
+inst (FBIAS.fbias_por2:schematic).I2 binding :cmos_sch;
+
+cell Potentiostat.\6_CA_Front_Layout  binding :schematic;
+cell Potentiostat.\7_MUX21  binding :schematic;
+cell Potentiostat.\6_TIA_Front_Layout  binding :schematic;
+cell Potentiostat.\6_Resnet  binding :schematic;
+
+
+endconfig

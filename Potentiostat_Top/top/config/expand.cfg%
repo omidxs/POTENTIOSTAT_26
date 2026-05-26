@@ -1,0 +1,46 @@
+//Revision 13
+//NOTE
+// Default austriamicrosystems template for AMS Designer
+// Note:
+//      Please remember to replace the Library, Cell, and View fields
+//      for the Top Cell with the actual names used by your design.
+//END_NOTE
+
+config top;
+design Potentiostat_Top.top:schematic;
+
+const digital behavioral, functional, schematic, symbol;
+const analog veriloga, functional, schematic, symbol;
+liblist basic, analogLib;
+
+viewlist verilogams, veriloga, behavioral, functional, \module , schematic, spectre, symbol;
+stoplist symbol, spectre;
+
+
+cell Potentiostat.\6_TIA_Front_Layout  binding :av_extracted;
+cell Potentiostat.\7_MUX21  binding :av_extracted;
+cell Potentiostat.\6_Resnet  binding :av_extracted;
+cell Potentiostat.\6_CA_Front_Layout  binding :av_extracted;
+
+inst (FBIAS.fbias_por2_f:schematic).I1 binding :cmos_sch;
+inst (FBIAS.fbias_por2_f:schematic).I2 binding :cmos_sch;
+cell FBIAS.fecg_bandgap3_layout binding :av_extracted;
+cell FBIAS.fbias_vol_ref1_layout binding :av_extracted;
+
+inst (VT26_IO_RING.IO_RING_S:schematic).I20 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I19 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I1 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I2 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I6 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I3 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I4 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I5 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I17 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I18 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I0 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I15 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I16 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S:schematic).I44 binding :cmos_sch;
+
+
+endconfig

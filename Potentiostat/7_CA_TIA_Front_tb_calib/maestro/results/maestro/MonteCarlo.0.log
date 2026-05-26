@@ -1,0 +1,54 @@
+Starting Monte Carlo Sampling...
+
+Current time: Wed May 20 12:39:18 2026 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 12345
+
+MonteCarlo.0
+Number of points completed: 100
+Number of simulation errors: 0
+MonteCarlo.0 completed. 
+Current time: Wed May 20 13:05:01 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 11
+MC	Nominal - 
+	(VDC("/vref") - VDC("/net1")):	Yield	100%
+		Min -0.00178202	Max 0.00242916	Mean 0.000189677	Number of errors 0
+MC	Nominal - 
+	Bias error:	Yield	100%
+		Min 1.32674e-05	Max 0.00444548	Mean 0.00108937	Number of errors 0
+MC	Nominal - 
+	CA Error:	Yield	100%
+		Min 4.84619e-06	Max 0.00239364	Mean 0.00075767	Number of errors 0
+MC	Nominal - 
+	MUX leakage:	Yield	100%
+		Min -3.44484e-12	Max -3.34547e-12	Mean -3.38035e-12	Number of errors 0
+MC	Nominal - 
+	MUX voltage drop:	Yield	100%
+		Min 1.95915e-05	Max 3.73379e-05	Mean 2.66409e-05	Number of errors 0
+MC	Nominal - 
+	Output noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+MC	Nominal - 
+	PSRR:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+MC	Nominal - 
+	Phase Margin:	Yield	100%
+		Min 94.5548	Max 100.429	Mean 97.4666	Number of errors 0
+MC	Nominal - 
+	TIA_Error_Adjusted:	Yield	100%
+		Min 1.18303e-05	Max 0.00242926	Mean 0.000730225	Number of errors 0
+MC	Nominal - 
+	Vout_noise/Rf:	Yield	100%
+		Min 6.01316e-11	Max 9.81317e-11	Mean 7.64549e-11	Number of errors 0
+MC	Nominal - 
+	rmsNoise(0.001 100000):	Yield	100%
+		Min 0.000193005	Max 0.00029575	Mean 0.000229432	Number of errors 0
+
+MC
+	Overall Yield	100%	Number of points passed	100	Total number of points	100
+
+Estimated yield = 100% (100/100), 0 errors
+Estimated yield (No opregions) = 100% (100/100)

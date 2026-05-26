@@ -1,0 +1,22 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
+\o Sub version:		sub-version  s364 
+\o Arguments:		-cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib -mpssession virtuoso49923 -mpshost il2244vt26_hrahimi -mpsversion 6.18 
+\o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(1441 236 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 37 1)
+\o Active cell: 37 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 37 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/VT26_IO_RING")
+\a nrListItemAction(cdsLibEditor->mainTable 37 0)
+\o Active cell: 37 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 37 0 "VT26_IO_RING")
+\a nrListItemAction(cdsLibEditor->mainTable 37 1)
+\o Active cell: 37 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/VT26_IO_RING"
+\a nrListItemAction(cdsLibEditor->mainTable 38 0)
+\o Active cell: 38 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

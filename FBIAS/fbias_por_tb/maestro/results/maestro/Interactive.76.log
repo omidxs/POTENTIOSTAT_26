@@ -1,0 +1,177 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue May 19 06:19:52 2026 
+Best design point: 1
+Design specs: 
+	DC	corner	CMOS_RES_CAP_TEMP_0 - 
+	VDC("/VBG")		1.213
+	IDC("/I2/BIAS")		205.8n
+	IDC("/I0/BIAS")		41.19n
+	TRAN	corner	CMOS_RES_CAP_TEMP_0 - 
+	DC	corner	CMOS_RES_CAP_TEMP_1 - 
+	VDC("/VBG")		1.218
+	IDC("/I2/BIAS")		332.7n
+	IDC("/I0/BIAS")		66.54n
+	TRAN	corner	CMOS_RES_CAP_TEMP_1 - 
+	DC	corner	CMOS_RES_CAP_TEMP_2 - 
+	VDC("/VBG")		1.213
+	IDC("/I2/BIAS")		204.6n
+	IDC("/I0/BIAS")		40.92n
+	TRAN	corner	CMOS_RES_CAP_TEMP_2 - 
+	DC	corner	CMOS_RES_CAP_TEMP_3 - 
+	VDC("/VBG")		1.218
+	IDC("/I2/BIAS")		408.4n
+	IDC("/I0/BIAS")		81.67n
+	TRAN	corner	CMOS_RES_CAP_TEMP_3 - 
+	DC	corner	CMOS_RES_CAP_TEMP_4 - 
+	VDC("/VBG")		1.213
+	IDC("/I2/BIAS")		207.5n
+	IDC("/I0/BIAS")		41.49n
+	TRAN	corner	CMOS_RES_CAP_TEMP_4 - 
+	DC	corner	CMOS_RES_CAP_TEMP_5 - 
+	VDC("/VBG")		1.218
+	IDC("/I2/BIAS")		343.6n
+	IDC("/I0/BIAS")		68.71n
+	TRAN	corner	CMOS_RES_CAP_TEMP_5 - 
+	DC	corner	CMOS_RES_CAP_TEMP_6 - 
+	VDC("/VBG")		1.213
+	IDC("/I2/BIAS")		206.2n
+	IDC("/I0/BIAS")		41.24n
+	TRAN	corner	CMOS_RES_CAP_TEMP_6 - 
+	DC	corner	CMOS_RES_CAP_TEMP_7 - 
+	VDC("/VBG")		1.218
+	IDC("/I2/BIAS")		336.5n
+	IDC("/I0/BIAS")		67.3n
+	TRAN	corner	CMOS_RES_CAP_TEMP_7 - 
+	DC	corner	CMOS_RES_CAP_TEMP_8 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		123.4n
+	IDC("/I0/BIAS")		24.67n
+	TRAN	corner	CMOS_RES_CAP_TEMP_8 - 
+	DC	corner	CMOS_RES_CAP_TEMP_9 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		194.9n
+	IDC("/I0/BIAS")		38.98n
+	TRAN	corner	CMOS_RES_CAP_TEMP_9 - 
+	DC	corner	CMOS_RES_CAP_TEMP_10 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		122.2n
+	IDC("/I0/BIAS")		24.44n
+	TRAN	corner	CMOS_RES_CAP_TEMP_10 - 
+	DC	corner	CMOS_RES_CAP_TEMP_11 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		324.7n
+	IDC("/I0/BIAS")		64.94n
+	TRAN	corner	CMOS_RES_CAP_TEMP_11 - 
+	DC	corner	CMOS_RES_CAP_TEMP_12 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		122.2n
+	IDC("/I0/BIAS")		24.45n
+	TRAN	corner	CMOS_RES_CAP_TEMP_12 - 
+	DC	corner	CMOS_RES_CAP_TEMP_13 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		196n
+	IDC("/I0/BIAS")		39.21n
+	TRAN	corner	CMOS_RES_CAP_TEMP_13 - 
+	DC	corner	CMOS_RES_CAP_TEMP_14 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		121.4n
+	IDC("/I0/BIAS")		24.27n
+	TRAN	corner	CMOS_RES_CAP_TEMP_14 - 
+	DC	corner	CMOS_RES_CAP_TEMP_15 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		194.5n
+	IDC("/I0/BIAS")		38.91n
+	TRAN	corner	CMOS_RES_CAP_TEMP_15 - 
+	DC	corner	CMOS_RES_CAP_TEMP_16 - 
+	VDC("/VBG")		1.213
+	IDC("/I2/BIAS")		205.8n
+	IDC("/I0/BIAS")		41.19n
+	TRAN	corner	CMOS_RES_CAP_TEMP_16 - 
+	DC	corner	CMOS_RES_CAP_TEMP_17 - 
+	VDC("/VBG")		1.218
+	IDC("/I2/BIAS")		332.7n
+	IDC("/I0/BIAS")		66.54n
+	TRAN	corner	CMOS_RES_CAP_TEMP_17 - 
+	DC	corner	CMOS_RES_CAP_TEMP_18 - 
+	VDC("/VBG")		1.213
+	IDC("/I2/BIAS")		204.6n
+	IDC("/I0/BIAS")		40.92n
+	TRAN	corner	CMOS_RES_CAP_TEMP_18 - 
+	DC	corner	CMOS_RES_CAP_TEMP_19 - 
+	VDC("/VBG")		1.218
+	IDC("/I2/BIAS")		408.4n
+	IDC("/I0/BIAS")		81.67n
+	TRAN	corner	CMOS_RES_CAP_TEMP_19 - 
+	DC	corner	CMOS_RES_CAP_TEMP_20 - 
+	VDC("/VBG")		1.213
+	IDC("/I2/BIAS")		207.5n
+	IDC("/I0/BIAS")		41.49n
+	TRAN	corner	CMOS_RES_CAP_TEMP_20 - 
+	DC	corner	CMOS_RES_CAP_TEMP_21 - 
+	VDC("/VBG")		1.218
+	IDC("/I2/BIAS")		343.6n
+	IDC("/I0/BIAS")		68.71n
+	TRAN	corner	CMOS_RES_CAP_TEMP_21 - 
+	DC	corner	CMOS_RES_CAP_TEMP_22 - 
+	VDC("/VBG")		1.213
+	IDC("/I2/BIAS")		206.2n
+	IDC("/I0/BIAS")		41.24n
+	TRAN	corner	CMOS_RES_CAP_TEMP_22 - 
+	DC	corner	CMOS_RES_CAP_TEMP_23 - 
+	VDC("/VBG")		1.218
+	IDC("/I2/BIAS")		336.5n
+	IDC("/I0/BIAS")		67.3n
+	TRAN	corner	CMOS_RES_CAP_TEMP_23 - 
+	DC	corner	CMOS_RES_CAP_TEMP_24 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		123.4n
+	IDC("/I0/BIAS")		24.67n
+	TRAN	corner	CMOS_RES_CAP_TEMP_24 - 
+	DC	corner	CMOS_RES_CAP_TEMP_25 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		194.9n
+	IDC("/I0/BIAS")		38.98n
+	TRAN	corner	CMOS_RES_CAP_TEMP_25 - 
+	DC	corner	CMOS_RES_CAP_TEMP_26 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		122.2n
+	IDC("/I0/BIAS")		24.44n
+	TRAN	corner	CMOS_RES_CAP_TEMP_26 - 
+	DC	corner	CMOS_RES_CAP_TEMP_27 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		324.7n
+	IDC("/I0/BIAS")		64.94n
+	TRAN	corner	CMOS_RES_CAP_TEMP_27 - 
+	DC	corner	CMOS_RES_CAP_TEMP_28 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		122.2n
+	IDC("/I0/BIAS")		24.45n
+	TRAN	corner	CMOS_RES_CAP_TEMP_28 - 
+	DC	corner	CMOS_RES_CAP_TEMP_29 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		196n
+	IDC("/I0/BIAS")		39.21n
+	TRAN	corner	CMOS_RES_CAP_TEMP_29 - 
+	DC	corner	CMOS_RES_CAP_TEMP_30 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		121.4n
+	IDC("/I0/BIAS")		24.27n
+	TRAN	corner	CMOS_RES_CAP_TEMP_30 - 
+	DC	corner	CMOS_RES_CAP_TEMP_31 - 
+	VDC("/VBG")		1.204
+	IDC("/I2/BIAS")		194.5n
+	IDC("/I0/BIAS")		38.91n
+	TRAN	corner	CMOS_RES_CAP_TEMP_31 - 
+	DC	corner	Nominal - 
+	VDC("/VBG")		1.212
+	IDC("/I2/BIAS")		205.4n
+	IDC("/I0/BIAS")		41.08n
+	TRAN	corner	Nominal - 
+Design parameters: 
+
+Interactive.76
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.76 completed. 
+Current time: Tue May 19 06:21:17 2026 
