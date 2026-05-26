@@ -1,0 +1,26 @@
+
+// Library name: FBIAS
+// Cell name: fbias_cur_ref_tb
+// View name: schematic
+I0 (net2 0 net5 net13 net10 net9 net8 net7 net6 net12 net15 net14 VBGP VDD \
+        VRES net11) fbias_cur_ref2_layout
+V1 (net4 0) vsource dc=VBG xfmag=1 type=dc
+V0 (net3 0) vsource dc=VDD type=dc
+R10 (net13 0) resistor r=2M isnoisy=no
+R9 (net14 0) resistor r=2M isnoisy=no
+R8 (net15 0) resistor r=2M isnoisy=no
+R7 (net12 0) resistor r=2M isnoisy=no
+R6 (net7 0) resistor r=2M isnoisy=no
+R5 (net8 0) resistor r=2M isnoisy=no
+R4 (net9 0) resistor r=2M isnoisy=no
+R3 (net10 0) resistor r=2M isnoisy=no
+R2 (net5 0) resistor r=2M isnoisy=no
+R1 (net1 0) resistor r=2M isnoisy=no
+R0 (VRES 0) resistor r=1M
+C0 (VRES 0) capacitor c=5p
+I2 (0 net2) isource dc=200n type=dc
+V3 (VDD net3) vsource type=pulse val0=0 val1=VDD_STEP period=1 delay=10u \
+        rise=1n fall=1n width=500.0m
+V2 (VBGP net4) vsource type=pulse val0=0 val1=VGB_STEP period=1 delay=10u \
+        rise=1n fall=1n width=500.0m
+IPRB0 (net6 net1) iprobe

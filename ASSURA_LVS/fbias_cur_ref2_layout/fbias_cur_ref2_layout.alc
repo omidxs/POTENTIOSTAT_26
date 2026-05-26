@@ -1,0 +1,9 @@
+!<alc> v1 63
+0    1    0 cvar layout PRIMLIB col=10 row=15 in1=C128529
+0    7    0 pmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MP5
+0    6    0 pmos4 layout PRIMLIB l="2u" w="5u" wtot="5u" in1=MP3028129
+0    5    0 pmos4 layout PRIMLIB l="5u" w="8.35u" wtot="8.35u" in1=MP428529
+0    4    0 pmos4 layout PRIMLIB l="30u" in1=MP2928129
+0    3    0 nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN628129
+0    2    0 nmos4 layout PRIMLIB l="1u" w="28.5u" wtot="28.5u" in1=MN528329
+0    9    0 fbias_cur_ref2_layout layout FBIAS

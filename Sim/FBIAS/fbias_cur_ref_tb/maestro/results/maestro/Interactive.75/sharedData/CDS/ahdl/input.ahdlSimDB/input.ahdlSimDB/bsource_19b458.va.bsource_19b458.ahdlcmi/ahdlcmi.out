@@ -1,0 +1,111 @@
+ahdlcmicompile: Compiling ahdlcmi in /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.75/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_19b458.va.bsource_19b458.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Tue May 26 07:24:39 UTC 2026 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /opt/tools/cadence/installs/SPECTRE241/bin:/opt/tools/cadence/installs/SPECTRE241/tools/bin/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/bin:/opt/tools/cadence/installs/IC618/bin:/opt/tools/cadence/installs/IC618/tools.lnx86/bin/64bit:/opt/tools/cadence/installs/IC618/tools.lnx86/bin:/opt/tools/cadence/installs/IC618/tools/bin/64bit:/opt/tools/cadence/installs/IC618/tools/bin:/opt/pdk/ams/410/cds/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/home/hrahimi/bin:/usr/local/sbin:/usr/sbin:/opt/tools/cadence/installs/IC618/tools/dfII/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/assura/bin:/opt/tools/cadence/installs/QUANTUS241/tools/bin:/opt/tools/cadence/installs/XCELIUM2409/tools/bin/64bit:/opt/tools/cadence/installs/XCELIUM2409/tools/bin:/opt/tools/cadence/installs/DDI231/GENUS231/tools.lnx86/bin:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin/64bit:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin:/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/bin:/bin
+LD_LIBRARY_PATH:  /opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libstdc++6/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/cuda/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/giganta/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/mdl/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/mmsim/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/hdf/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/python/64bit/lib:/opt/tools/cadence/installs/SPECTRE241/tools/inca/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/awrmwo/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/spectre/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/dfII/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libstdc++/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/zlib/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/abseil/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/grpc/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/protobuf/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libffi/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/ithaca/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/fmc/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit/RHEL/RHEL8:/opt/tools/cadence/installs/IC618/share/oa/lib/lnx86/opt:/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/lib/64bit:/opt/tools/cadence/installs/IC618/tools.lnx86/sev/lib/64bit:/opt/tools/cadence/installs/IC618/tools.lnx86/lib/64bit:/opt/tools/cadence/installs/IC618/tools.lnx86/lib:/opt/tools/cadence/installs/IC618/tools.lnx86/hdf5/lib/64bit:/opt/tools/cadence/installs/IC618/tools.lnx86/lz4/lib/64bit:/opt/tools/cadence/installs/IC618/tools.lnx86/python/64bit/lib:/opt/tools/cadence/installs/XCELIUM2409/tools.lnx86/lib/64bit:/opt/tools/cadence/installs/IC618/tools.lnx86/TPtools/grpc/lib64:/opt/tools/cadence/installs/IC618/tools.lnx86/TPtools/grpc/lib:/opt/tools/cadence/installs/IC618/tools.lnx86/Qt/v5/64bit/lib:/opt/tools/cadence/installs/IC618/tools/dfII/lib/64bit:/opt/tools/cadence/installs/IC618/tools/sev/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lib:/opt/tools/cadence/installs/IC618/tools/hdf5/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lz4/lib/64bit:/opt/tools/cadence/installs/IC618/tools/python/64bit/lib:/opt/tools/cadence/installs/IC618/tools/TPtools/grpc/lib64:/opt/tools/cadence/installs/IC618/tools/TPtools/grpc/lib:/opt/tools/cadence/installs/IC618/tools/Qt/v5/64bit/lib
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j8 -f GNUmakefile
+gnumake: Warning: File 'GNUmakefile' has modification time 3.1 s in the future
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+gnumake: warning:  Clock skew detected.  Your build may be incomplete.
+gnumake: Warning: File 'GNUmakefile' has modification time 3.1 s in the future
+Compiling C file bsource_19b458_func.c (optimize)
+Compiling C file bsource_19b458_DcFuncDerLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c bsource_19b458_func.c -o obj/optimize/5.0/bsource_19b458_func.o || rm -f -f obj/optimize/5.0/bsource_19b458_func.o
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c bsource_19b458_DcFuncDerLoad.c -o obj/optimize/5.0/bsource_19b458_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/bsource_19b458_DcFuncDerLoad.o
+Compiling C file bsource_19b458_DcFuncLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c bsource_19b458_DcFuncLoad.c -o obj/optimize/5.0/bsource_19b458_DcFuncLoad.o || rm -f -f obj/optimize/5.0/bsource_19b458_DcFuncLoad.o
+Compiling C file bsource_19b458_TranFuncDerLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c bsource_19b458_TranFuncDerLoad.c -o obj/optimize/5.0/bsource_19b458_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/bsource_19b458_TranFuncDerLoad.o
+Compiling C file bsource_19b458_TranFuncDerSimLoad.c (optimize)
+Compiling C file bsource_19b458_TranFuncLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c bsource_19b458_TranFuncDerSimLoad.c -o obj/optimize/5.0/bsource_19b458_TranFuncDerSimLoad.o || rm -f -f obj/optimize/5.0/bsource_19b458_TranFuncDerSimLoad.o
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c bsource_19b458_TranFuncLoad.c -o obj/optimize/5.0/bsource_19b458_TranFuncLoad.o || rm -f -f obj/optimize/5.0/bsource_19b458_TranFuncLoad.o
+Compiling C file bsource_19b458_TranFuncSimLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c bsource_19b458_TranFuncSimLoad.c -o obj/optimize/5.0/bsource_19b458_TranFuncSimLoad.o || rm -f -f obj/optimize/5.0/bsource_19b458_TranFuncSimLoad.o
+Compiling C file bsource_19b458_OpPointCalc.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c bsource_19b458_OpPointCalc.c -o obj/optimize/5.0/bsource_19b458_OpPointCalc.o || rm -f -f obj/optimize/5.0/bsource_19b458_OpPointCalc.o
+rm -f -rf bsource_19b458_TranFuncSimLoad.c
+rm -f -rf bsource_19b458_DcFuncLoad.c
+Compiling C file bsource_19b458_cmi_c.c (optimize)
+rm -f -rf bsource_19b458_TranFuncLoad.c
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/include -c bsource_19b458_cmi_c.c -o obj/optimize/5.0/bsource_19b458_cmi_c.o || rm -f -f obj/optimize/5.0/bsource_19b458_cmi_c.o
+rm -f -rf bsource_19b458_OpPointCalc.c
+rm -f -rf bsource_19b458_DcFuncDerLoad.c
+rm -f -rf bsource_19b458_TranFuncDerSimLoad.c
+rm -f -rf bsource_19b458_TranFuncDerLoad.c
+rm -f -rf bsource_19b458_func.c
+<stdin>: In function 'bsource_19b458_pGetInstanceParams':
+<stdin>:1278:69: warning: implicit declaration of function 'devGetInstKnotStatus'; did you mean 'devGetInstState'? [-Wimplicit-function-declaration]
+<stdin>: In function 'bsource_19b458_pDC_Load':
+<stdin>:1563:41: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:63: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'bsource_19b458_pCloneStencil':
+<stdin>:1892:36: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:1893:33: warning: passing argument 1 of 'aslDevMemcpy_wrap' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1371:53: note: expected 'void *' but argument is of type 'long int'
+ 1371 | ASL_FUNC_DECL_START extern void *aslDevMemcpy_wrap( void *, const void *, size_t );
+      |                                                     ^~~~~~
+<stdin>:1893:67: warning: passing argument 2 of 'aslDevMemcpy_wrap' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1371:61: note: expected 'const void *' but argument is of type 'long int'
+ 1371 | ASL_FUNC_DECL_START extern void *aslDevMemcpy_wrap( void *, const void *, size_t );
+      |                                                             ^~~~~~~~~~~~
+<stdin>: In function 'bsource_19b458_pCompare':
+<stdin>:1995:37: warning: assignment to 'long int' from 'long int *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:1996:23: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5,
+                 from /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:80:
+/usr/include/string.h:43:39: note: expected 'void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+<stdin>:1996:58: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+/usr/include/string.h:43:70: note: expected 'const void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+<stdin>:1998:37: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'bsource_19b458_pGetMatrixPointers':
+<stdin>:2172:34: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'bsource_19b458_pAnalTranLoad':
+<stdin>:2940:42: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:63: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'bsource_19b458_pNoiseBindSrcs':
+<stdin>:3182:49: warning: passing argument 3 of 'aslDevNoiseBindStartModel' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1095:95: note: expected 'char *' but argument is of type 'devModelID' {aka 'const char *'}
+ 1095 | ASL_FUNC_DECL_START extern void aslDevNoiseBindStartModel( struct noiseData *, devInstKnot *, char *, char * );
+      |                                                                                               ^~~~~~
+<stdin>: In function 'bsource_19b458_pNoiseNameSrcs':
+<stdin>:3245:44: warning: passing argument 3 of 'aslDevNoiseNameModel' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1103:97: note: expected 'char *' but argument is of type 'devModelID' {aka 'const char *'}
+ 1103 | ASL_FUNC_DECL_START extern msgSeverity aslDevNoiseNameModel( struct noiseData *, devInstKnot *, char *, char * );
+      |                                                                                                 ^~~~~~
+<stdin>: In function 'bsource_19b458_pSaveRestart':
+<stdin>:3405:4: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+<stdin>:3406:30: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1230:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1230 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'bsource_19b458_pSaveRestartInst':
+<stdin>:3474:28: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1230:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1230 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'ahdlbsource_19b458DescInstall':
+<stdin>:3621:2: warning: implicit declaration of function 'descSetDeviceType'; did you mean 'descSetDelete'? [-Wimplicit-function-declaration]
+<stdin>:3623:2: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+<stdin>:3630:2: warning: implicit declaration of function 'descSetCopySignals'; did you mean 'descSetMapSignals'? [-Wimplicit-function-declaration]
+<stdin>:3631:2: warning: implicit declaration of function 'descSetCloneStencil'; did you mean 'descSetDeleteStencil'? [-Wimplicit-function-declaration]
+<stdin>:3647:2: warning: implicit declaration of function 'descSetPreload'; did you mean 'descSetHB_Load'? [-Wimplicit-function-declaration]
+<stdin>:3654:2: warning: implicit declaration of function 'descSetNoiseLoadFreqDep'; did you mean 'descSetNoiseLoadBiasDep'? [-Wimplicit-function-declaration]
+<stdin>:3656:2: warning: implicit declaration of function 'descSetNoiseBindSrcs' [-Wimplicit-function-declaration]
+<stdin>:3657:2: warning: implicit declaration of function 'descSetNoiseNameSrcs' [-Wimplicit-function-declaration]
+<stdin>:3662:2: warning: implicit declaration of function 'descSetVATermInfo'; did you mean 'descSetGetInfo'? [-Wimplicit-function-declaration]
+<stdin>:3663:2: warning: implicit declaration of function 'descSetGetNodeNamesForBranch' [-Wimplicit-function-declaration]
+<stdin>:3664:2: warning: implicit declaration of function 'descSetGetLinearityFactor' [-Wimplicit-function-declaration]
+rm -f -rf bsource_19b458_cmi_c.c
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_bsource_19b458.so ./obj/optimize/5.0/bsource_19b458_func.o ./obj/optimize/5.0/bsource_19b458_DcFuncDerLoad.o ./obj/optimize/5.0/bsource_19b458_DcFuncLoad.o ./obj/optimize/5.0/bsource_19b458_TranFuncDerLoad.o ./obj/optimize/5.0/bsource_19b458_TranFuncDerSimLoad.o ./obj/optimize/5.0/bsource_19b458_TranFuncLoad.o ./obj/optimize/5.0/bsource_19b458_TranFuncSimLoad.o ./obj/optimize/5.0/bsource_19b458_OpPointCalc.o ./obj/optimize/5.0/bsource_19b458_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -lm -s 
+rm -f -f ./obj/optimize/5.0/bsource_19b458_func.o ./obj/optimize/5.0/bsource_19b458_DcFuncDerLoad.o ./obj/optimize/5.0/bsource_19b458_DcFuncLoad.o ./obj/optimize/5.0/bsource_19b458_TranFuncDerLoad.o ./obj/optimize/5.0/bsource_19b458_TranFuncDerSimLoad.o ./obj/optimize/5.0/bsource_19b458_TranFuncLoad.o ./obj/optimize/5.0/bsource_19b458_TranFuncSimLoad.o ./obj/optimize/5.0/bsource_19b458_OpPointCalc.o ./obj/optimize/5.0/bsource_19b458_cmi_c.o 
+gnumake: warning:  Clock skew detected.  Your build may be incomplete.

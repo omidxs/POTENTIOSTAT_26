@@ -1,0 +1,6 @@
+RCX net_via2_met2 ICT via_m3_m2
+RCX net_via1 ICT via_m2_m1
+RCX net_poly2con ICT via_m1_p2
+RCX net_poly1con ICT via_m1_p1
+RCX net_ndiffcon ICT via_m1_nd
+RCX net_pdiffcon ICT via_m1_pd

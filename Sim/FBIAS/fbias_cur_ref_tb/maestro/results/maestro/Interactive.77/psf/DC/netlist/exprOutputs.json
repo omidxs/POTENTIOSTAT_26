@@ -1,0 +1,2 @@
+{"index": 3, "analyses": false, "uniqueName": "i /R1/PLUS; tran (I)", "name": "i /R1/PLUS; tran (I)", "convertedExpression": "itime('tran \"/R1/PLUS\")", "spec": false, "evalType": false, "signalNames": false}
+{"index": 2, "analyses": false, "uniqueName": "DC_Out_current", "name": "DC_Out_current", "convertedExpression": "IDC(\"/R1/PLUS\")", "spec": false, "evalType": "point", "signalNames": false}

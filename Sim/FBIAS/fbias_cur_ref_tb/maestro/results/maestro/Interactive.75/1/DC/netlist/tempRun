@@ -1,0 +1,1 @@
+ spectre  input.scs  +escchars +log ../psf/spectre.out  -format psfbin +rtsf -raw ../psf   +preset=cx +mt +lqtimeout 900 -maxw 5 -maxn 5 +param /opt/pdk/ams/410/spectre/ams_range.lmts -env ade +adespetkn=adespe  -ahdllibdir /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.75/sharedData/CDS/ahdl/input.ahdlSimDB +logstatus  

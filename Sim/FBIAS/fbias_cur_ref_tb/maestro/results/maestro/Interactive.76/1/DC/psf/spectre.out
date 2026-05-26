@@ -1,0 +1,687 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.288.isr5 64bit -- 3 Apr 2025
+Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: hrahimi   Host: il2244vt26_hrahimi   HostID: 11AC2400   PID: 55684
+Memory  available: 3.0387 TB  physical: 3.2467 TB
+Linux   : Rocky Linux release 8.10 (Green Obsidian)
+CPU Type: Intel(R) Xeon(R) CPU E7-8857 v2 @ 3.00GHz
+        Socket: Processors [Frequency]
+        0:       0 [3000.0],  1 [3600.0],  2 [1200.0],  3 [2999.9],  4 [1200.0]
+                 5 [1200.0],  6 [1200.0],  7 [3600.0],  8 [1200.0],  9 [1200.0]
+                10 [1200.0], 11 [2999.9]
+        1:      12 [1200.0], 13 [2800.0], 14 [1200.0], 15 [1200.0], 16 [1200.0]
+                17 [1200.0], 18 [1200.0], 19 [1200.0], 20 [3600.0], 21 [2540.3]
+                22 [1200.0], 23 [3600.0]
+        2:      24 [2300.0], 25 [2999.9], 26 [1200.0], 27 [1200.0], 28 [1200.0]
+                29 [1200.0], 30 [1400.0], 31 [1200.0], 32 [1200.0], 33 [2700.0]
+                34 [1200.0], 35 [1200.0]
+        3:      36 [1200.0], 37 [3200.0], 38 [1200.0], 39 [1200.0], 40 [1200.0]
+                41 [1200.0], 42 [1200.0], 43 [1200.0], 44 [1200.0], 45 [1200.0]
+                46 [1200.0], 47 [2999.9]
+        
+System load averages (1min, 5min, 15min) : 11.8 %, 12.4 %, 12.5 %
+HPC is enabled
+
+
+Simulating `input.scs' on il2244vt26_hrahimi at 7:26:09 AM, Tue May 26, 2026 (process id: 55684).
+Current working directory: /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.76/1/DC/netlist
+Command line:
+    /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +preset=cx +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /opt/pdk/ams/410/spectre/ams_range.lmts -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D37DFB3BB245A352E52AC4368678EA759169EA4F927AEE79D15D9175FF349871D4198A1DD35DF57FD707E002A700AC1C8804FE5AE30EA979D118F874D3349879D118F874D3349813C453E93FC25E8D000036A6  \
+        -ahdllibdir  \
+        /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.76/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: OapigFLrBUJSB6Nv
+Licensing Information:
+[07:26:09.121794] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+
+Licensing Information:
+[07:26:09.372929] Periodic Lic check successful
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Warning from spectre.
+    WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation.
+
+Reading file:  /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.76/1/DC/netlist/input.scs
+
+Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'.
+
+Reading file:  /opt/pdk/ams/410/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/opt/pdk/ams/410/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/soac.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/process.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption/C35B4C3.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/cmos53.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/res.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/cap.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/bip.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/ind.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/esddiode.scs
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg
+Time for NDB Parsing: CPU = 195.679 ms, elapsed = 373.121 ms.
+Time accumulated: CPU = 380.643 ms, elapsed = 373.124 ms.
+Peak resident memory used = 178 Mbytes.
+
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Created directory /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.76/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB/ (775)
+Created directory /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.76/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_19b458.va.bsource_19b458.ahdlcmi/ (775)
+Reading file:  /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.75/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB/bsource_19b458.va.bsource_19b458.ahdlcmi/Linux-64/obj/optimize/5.0/libahdlcmi_bsource_19b458.so
+Created directory /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.76/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_19b458.va.bsource_19b458.ahdlcmi/Linux-64/obj/optimize/5.0 
+Copying files from directory /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.75/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB/bsource_19b458.va.bsource_19b458.ahdlcmi/Linux-64/ to directory /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.76/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_19b458.va.bsource_19b458.ahdlcmi/Linux-64/
+Finished copying files from /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.75/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB/bsource_19b458.va.bsource_19b458.ahdlcmi/Linux-64/ to /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.76/sharedData/CDS/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_19b458.va.bsource_19b458.ahdlcmi/Linux-64/.
+The simulator has reused the existing Verilog-A libraries for this simulation run. If you do not want to use these libraries, set the 'CDS_AHDL_REUSE_LIB' environment variable to 'NO' and rerun the simulation.
+Existing shared object for module bsource_19b458 is up to date.
+Installed compiled interface for bsource_19b458.
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-3014): The floating device I0.MN5<0>_turbo_m4 is removed.
+    WARNING (SFE-3012): The dummy device I0.MP29<0>_turbo_m2 is removed.
+
+Time for Elaboration: CPU = 139.09 ms, elapsed = 294.946 ms.
+Time accumulated: CPU = 519.918 ms, elapsed = 668.262 ms.
+Peak resident memory used = 194 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+Time for EDB Visiting: CPU = 6.692 ms, elapsed = 8.01897 ms.
+Time accumulated: CPU = 526.735 ms, elapsed = 676.406 ms.
+Peak resident memory used = 197 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2425): I0.C1<0>_turbo_m6: `Acde' = 2.393 is unusually large.
+    WARNING (CMI-2425): I0.C1<0>_turbo_m6: `Noff' = 4.732 is unusually large.
+    WARNING (CMI-2424): I0.C1<0>_turbo_m6: `Voffcv' = -867.4e-03 is unusually small.
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vminuspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vpluspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-17607): Assert `SOAC_cvar_vspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_cvar_vbpsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_cvar_vgpsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during topology check.
+    Only one connection to node `net11'.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: May 26 07:26:08 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 79
+            bsim3v3 92    
+     bsource_19b458 2     
+          capacitor 4     
+              diode 12    
+           inductor 6     
+             iprobe 1     
+            isource 1     
+           resistor 41    
+            vsource 4     
+
+Analysis and control statement inventory:
+                 dc 1     
+               info 8     
+              noise 1     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 95    
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    Spectre X preset=cx enabled.
+Warning from spectre during initial setup.
+    WARNING (CMI-2425): I0.C1<0>_turbo_m6: `Acde' = 2.393 is unusually large.
+    WARNING (CMI-2425): I0.C1<0>_turbo_m6: `Noff' = 4.732 is unusually large.
+    WARNING (CMI-2424): I0.C1<0>_turbo_m6: `Voffcv' = -867.4e-03 is unusually small.
+Notice from spectre.
+    74 warnings suppressed.
+
+Time for parsing: CPU = 20.696 ms, elapsed = 629.505 ms.
+Time accumulated: CPU = 547.532 ms, elapsed = 1.30601 s.
+Peak resident memory used = 203 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Notice from spectre during DC analysis `dcOp'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Notice from spectre during DC analysis `dcOp'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.C1<0>_turbo_m6.s1) = 199.871 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I0.net14) = 3.3 V
+I: I(V0:p) = 3.502 uA
+
+Warning from spectre during check, during DC analysis `dcOp'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C1<0>_turbo_m6.dsub2'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 21 iterations.
+DC simulation time: CPU = 88.25 ms, elapsed = 92.9539 ms.
+Total time required for dc analysis `dcOp': CPU = 88.393 ms, elapsed = 93.0851 ms, util. = 95%.
+Time accumulated: CPU = 659.356 ms, elapsed = 1.42313 s.
+Peak resident memory used = 212 Mbytes.
+
+
+Notice from spectre.
+    18 warnings suppressed.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+
+Warning from spectre during info `dcOpInfo'.
+    WARNING (CMI-2425): I0.C1<0>_dummy: `Acde' = 2.393 is unusually large.
+    WARNING (CMI-2425): I0.C1<0>_dummy: `Noff' = 4.732 is unusually large.
+    WARNING (CMI-2424): I0.C1<0>_dummy: `Voffcv' = -867.4e-03 is unusually small.
+
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 us)
+*************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.C1<0>_turbo_m6.s1) = 199.863 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+Warning from spectre during check, during IC analysis, during transient analysis `tran'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C1<0>_turbo_m6.dsub2'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 1.684 ms, elapsed = 1.6849 ms.
+
+Opening the PSF file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 us
+    step = 100 ns
+    maxstep = 1 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   12      (current)
+                 save   73      (voltage)
+
+    tran: time = 2.5 us       (2.5 %), step = 1 us            (1 %)
+    tran: time = 7.5 us       (7.5 %), step = 1 us            (1 %)
+    tran: time = 13.16 us    (13.2 %), step = 875.1 ns     (875 m%)
+    tran: time = 18.11 us    (18.1 %), step = 1 us            (1 %)
+    tran: time = 23.11 us    (23.1 %), step = 1 us            (1 %)
+    tran: time = 28.11 us    (28.1 %), step = 1 us            (1 %)
+    tran: time = 33.11 us    (33.1 %), step = 1 us            (1 %)
+    tran: time = 38.11 us    (38.1 %), step = 1 us            (1 %)
+    tran: time = 43.11 us    (43.1 %), step = 1 us            (1 %)
+    tran: time = 48.11 us    (48.1 %), step = 1 us            (1 %)
+    tran: time = 53.11 us    (53.1 %), step = 1 us            (1 %)
+    tran: time = 58.11 us    (58.1 %), step = 1 us            (1 %)
+    tran: time = 63.11 us    (63.1 %), step = 1 us            (1 %)
+    tran: time = 68.11 us    (68.1 %), step = 1 us            (1 %)
+    tran: time = 73.11 us    (73.1 %), step = 1 us            (1 %)
+    tran: time = 78.11 us    (78.1 %), step = 1 us            (1 %)
+    tran: time = 83.11 us    (83.1 %), step = 1 us            (1 %)
+    tran: time = 88.11 us    (88.1 %), step = 1 us            (1 %)
+    tran: time = 93.11 us    (93.1 %), step = 1 us            (1 %)
+    tran: time = 98.11 us    (98.1 %), step = 1 us            (1 %)
+Number of accepted tran steps =             127
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I0.net14) = 3.321 V
+I: I(V0:p) = 14.65 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (3.0 %)       1 (2.9 %)       2 (1.5 %)       3 (99.3 %)
+         4 (2.2 %)       6 (1.5 %)       7 (2.2 %)       8 (2.1 %)
+         9 (3.6 %)      10 (3.6 %)      11 (62.6 %)     12 (15.7 %)
+        13 (21.7 %)     14 (10.9 %)     15 (13.0 %)     16 (8.0 %)
+        17 (7.4 %)      18 (5.8 %)      19 (40.4 %)     20 (5.8 %)
+        21 (2.9 %)      22 (10.1 %)     23 (9.5 %)      24 (5.1 %)
+        25 (100.0 %)    26 (6.6 %)      27 (20.0 %)     28 (7.3 %)
+        29 (9.4 %)      30 (11.4 %)     31 (1.4 %)      32 (8.7 %)
+        33 (10.9 %)     34 (14.7 %)     35 (5.8 %)      36 (3.6 %)
+        37 (9.4 %)      38 (11.8 %)     39 (4.3 %)      40 (5.0 %)
+        41 (33.6 %)     42 (2.2 %)      43 (2.2 %)      44 (4.3 %)
+        45 (3.6 %)      46 (15.3 %)     47 (100.0 %)    
+        Total: 732.6%
+Initial condition solution time: CPU = 1.718 ms, elapsed = 1.71995 ms.
+Intrinsic tran analysis time:    CPU = 25.067 ms, elapsed = 26.2072 ms.
+Total time required for tran analysis `tran': CPU = 29.411 ms, elapsed = 31.0931 ms, util. = 94.6%.
+Time accumulated: CPU = 697.876 ms, elapsed = 1.46619 s.
+Peak resident memory used = 215 Mbytes.
+
+
+Notice from spectre.
+    18 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+
+Warning from spectre during info `finalTimeOP'.
+    WARNING (CMI-2425): I0.C1<0>_dummy: `Acde' = 2.393 is unusually large.
+    WARNING (CMI-2425): I0.C1<0>_dummy: `Noff' = 4.732 is unusually large.
+    WARNING (CMI-2424): I0.C1<0>_dummy: `Voffcv' = -867.4e-03 is unusually small.
+Warning from spectre.
+    WARNING (CMI-2425): I0.C1<0>_turbo_m6: `Acde' = 2.393 is unusually large.
+    WARNING (CMI-2425): I0.C1<0>_turbo_m6: `Noff' = 4.732 is unusually large.
+    WARNING (CMI-2424): I0.C1<0>_turbo_m6: `Voffcv' = -867.4e-03 is unusually small.
+
+
+**************************************************
+Noise Analysis `noise': freq = (10 mHz -> 100 MHz)
+**************************************************
+
+Notice from spectre during DC analysis, during Noise analysis `noise'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.C1<0>_turbo_m6.d1) = 199.871 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+Warning from spectre during check, during DC analysis, during Noise analysis `noise'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R0.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C1<0>_turbo_m6.dsub2'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 21 iterations.
+DC simulation time: CPU = 3.05 ms, elapsed = 3.05009 ms.
+
+Opening the PSF file ../psf/noise.noise ...
+    noise: freq = 17.78 mHz    (2.5 %), step = 1.934 mHz    (500 m%)
+    noise: freq = 19.95 mHz      (3 %), step = 2.17 mHz     (500 m%)
+    noise: freq = 22.39 mHz    (3.5 %), step = 2.435 mHz    (500 m%)
+    noise: freq = 25.12 mHz      (4 %), step = 2.732 mHz    (500 m%)
+    noise: freq = 28.18 mHz    (4.5 %), step = 3.065 mHz    (500 m%)
+    noise: freq = 31.62 mHz      (5 %), step = 3.439 mHz    (500 m%)
+    noise: freq = 35.48 mHz    (5.5 %), step = 3.859 mHz    (500 m%)
+    noise: freq = 39.81 mHz      (6 %), step = 4.329 mHz    (500 m%)
+    noise: freq = 44.67 mHz    (6.5 %), step = 4.858 mHz    (500 m%)
+    noise: freq = 50.12 mHz      (7 %), step = 5.45 mHz     (500 m%)
+    noise: freq = 56.23 mHz    (7.5 %), step = 6.115 mHz    (500 m%)
+    noise: freq = 63.1 mHz       (8 %), step = 6.862 mHz    (500 m%)
+    noise: freq = 70.79 mHz    (8.5 %), step = 7.699 mHz    (500 m%)
+    noise: freq = 79.43 mHz      (9 %), step = 8.638 mHz    (500 m%)
+    noise: freq = 89.13 mHz    (9.5 %), step = 9.692 mHz    (500 m%)
+    noise: freq = 100 mHz       (10 %), step = 10.87 mHz    (500 m%)
+    noise: freq = 112.2 mHz   (10.5 %), step = 12.2 mHz     (500 m%)
+    noise: freq = 125.9 mHz     (11 %), step = 13.69 mHz    (500 m%)
+    noise: freq = 141.3 mHz   (11.5 %), step = 15.36 mHz    (500 m%)
+    noise: freq = 158.5 mHz     (12 %), step = 17.24 mHz    (500 m%)
+    noise: freq = 177.8 mHz   (12.5 %), step = 19.34 mHz    (500 m%)
+    noise: freq = 199.5 mHz     (13 %), step = 21.7 mHz     (500 m%)
+    noise: freq = 223.9 mHz   (13.5 %), step = 24.35 mHz    (500 m%)
+    noise: freq = 251.2 mHz     (14 %), step = 27.32 mHz    (500 m%)
+    noise: freq = 281.8 mHz   (14.5 %), step = 30.65 mHz    (500 m%)
+    noise: freq = 316.2 mHz     (15 %), step = 34.39 mHz    (500 m%)
+    noise: freq = 354.8 mHz   (15.5 %), step = 38.59 mHz    (500 m%)
+    noise: freq = 398.1 mHz     (16 %), step = 43.29 mHz    (500 m%)
+    noise: freq = 446.7 mHz   (16.5 %), step = 48.58 mHz    (500 m%)
+    noise: freq = 501.2 mHz     (17 %), step = 54.5 mHz     (500 m%)
+    noise: freq = 562.3 mHz   (17.5 %), step = 61.15 mHz    (500 m%)
+    noise: freq = 631 mHz       (18 %), step = 68.62 mHz    (500 m%)
+    noise: freq = 707.9 mHz   (18.5 %), step = 76.99 mHz    (500 m%)
+    noise: freq = 794.3 mHz     (19 %), step = 86.38 mHz    (500 m%)
+    noise: freq = 891.3 mHz   (19.5 %), step = 96.92 mHz    (500 m%)
+    noise: freq = 1 Hz          (20 %), step = 108.7 mHz    (500 m%)
+    noise: freq = 1.122 Hz    (20.5 %), step = 122 mHz      (500 m%)
+    noise: freq = 1.259 Hz      (21 %), step = 136.9 mHz    (500 m%)
+    noise: freq = 1.413 Hz    (21.5 %), step = 153.6 mHz    (500 m%)
+    noise: freq = 1.585 Hz      (22 %), step = 172.4 mHz    (500 m%)
+    noise: freq = 1.778 Hz    (22.5 %), step = 193.4 mHz    (500 m%)
+    noise: freq = 1.995 Hz      (23 %), step = 217 mHz      (500 m%)
+    noise: freq = 2.239 Hz    (23.5 %), step = 243.5 mHz    (500 m%)
+    noise: freq = 2.512 Hz      (24 %), step = 273.2 mHz    (500 m%)
+    noise: freq = 2.818 Hz    (24.5 %), step = 306.5 mHz    (500 m%)
+    noise: freq = 3.162 Hz      (25 %), step = 343.9 mHz    (500 m%)
+    noise: freq = 3.548 Hz    (25.5 %), step = 385.9 mHz    (500 m%)
+    noise: freq = 3.981 Hz      (26 %), step = 432.9 mHz    (500 m%)
+    noise: freq = 4.467 Hz    (26.5 %), step = 485.8 mHz    (500 m%)
+    noise: freq = 5.012 Hz      (27 %), step = 545 mHz      (500 m%)
+    noise: freq = 5.623 Hz    (27.5 %), step = 611.5 mHz    (500 m%)
+    noise: freq = 6.31 Hz       (28 %), step = 686.2 mHz    (500 m%)
+    noise: freq = 7.079 Hz    (28.5 %), step = 769.9 mHz    (500 m%)
+    noise: freq = 7.943 Hz      (29 %), step = 863.8 mHz    (500 m%)
+    noise: freq = 8.913 Hz    (29.5 %), step = 969.2 mHz    (500 m%)
+    noise: freq = 10 Hz         (30 %), step = 1.087 Hz     (500 m%)
+    noise: freq = 11.22 Hz    (30.5 %), step = 1.22 Hz      (500 m%)
+    noise: freq = 12.59 Hz      (31 %), step = 1.369 Hz     (500 m%)
+    noise: freq = 14.13 Hz    (31.5 %), step = 1.536 Hz     (500 m%)
+    noise: freq = 15.85 Hz      (32 %), step = 1.724 Hz     (500 m%)
+    noise: freq = 17.78 Hz    (32.5 %), step = 1.934 Hz     (500 m%)
+    noise: freq = 19.95 Hz      (33 %), step = 2.17 Hz      (500 m%)
+    noise: freq = 22.39 Hz    (33.5 %), step = 2.435 Hz     (500 m%)
+    noise: freq = 25.12 Hz      (34 %), step = 2.732 Hz     (500 m%)
+    noise: freq = 28.18 Hz    (34.5 %), step = 3.065 Hz     (500 m%)
+    noise: freq = 31.62 Hz      (35 %), step = 3.439 Hz     (500 m%)
+    noise: freq = 35.48 Hz    (35.5 %), step = 3.859 Hz     (500 m%)
+    noise: freq = 39.81 Hz      (36 %), step = 4.329 Hz     (500 m%)
+    noise: freq = 44.67 Hz    (36.5 %), step = 4.858 Hz     (500 m%)
+    noise: freq = 50.12 Hz      (37 %), step = 5.45 Hz      (500 m%)
+    noise: freq = 56.23 Hz    (37.5 %), step = 6.115 Hz     (500 m%)
+    noise: freq = 63.1 Hz       (38 %), step = 6.862 Hz     (500 m%)
+    noise: freq = 70.79 Hz    (38.5 %), step = 7.699 Hz     (500 m%)
+    noise: freq = 79.43 Hz      (39 %), step = 8.638 Hz     (500 m%)
+    noise: freq = 89.13 Hz    (39.5 %), step = 9.692 Hz     (500 m%)
+    noise: freq = 100 Hz        (40 %), step = 10.87 Hz     (500 m%)
+    noise: freq = 112.2 Hz    (40.5 %), step = 12.2 Hz      (500 m%)
+    noise: freq = 125.9 Hz      (41 %), step = 13.69 Hz     (500 m%)
+    noise: freq = 141.3 Hz    (41.5 %), step = 15.36 Hz     (500 m%)
+    noise: freq = 158.5 Hz      (42 %), step = 17.24 Hz     (500 m%)
+    noise: freq = 177.8 Hz    (42.5 %), step = 19.34 Hz     (500 m%)
+    noise: freq = 199.5 Hz      (43 %), step = 21.7 Hz      (500 m%)
+    noise: freq = 223.9 Hz    (43.5 %), step = 24.35 Hz     (500 m%)
+    noise: freq = 251.2 Hz      (44 %), step = 27.32 Hz     (500 m%)
+    noise: freq = 281.8 Hz    (44.5 %), step = 30.65 Hz     (500 m%)
+    noise: freq = 316.2 Hz      (45 %), step = 34.39 Hz     (500 m%)
+    noise: freq = 354.8 Hz    (45.5 %), step = 38.59 Hz     (500 m%)
+    noise: freq = 398.1 Hz      (46 %), step = 43.29 Hz     (500 m%)
+    noise: freq = 446.7 Hz    (46.5 %), step = 48.58 Hz     (500 m%)
+    noise: freq = 501.2 Hz      (47 %), step = 54.5 Hz      (500 m%)
+    noise: freq = 562.3 Hz    (47.5 %), step = 61.15 Hz     (500 m%)
+    noise: freq = 631 Hz        (48 %), step = 68.62 Hz     (500 m%)
+    noise: freq = 707.9 Hz    (48.5 %), step = 76.99 Hz     (500 m%)
+    noise: freq = 794.3 Hz      (49 %), step = 86.38 Hz     (500 m%)
+    noise: freq = 891.3 Hz    (49.5 %), step = 96.92 Hz     (500 m%)
+    noise: freq = 1 kHz         (50 %), step = 108.7 Hz     (500 m%)
+    noise: freq = 1.122 kHz   (50.5 %), step = 122 Hz       (500 m%)
+    noise: freq = 1.259 kHz     (51 %), step = 136.9 Hz     (500 m%)
+    noise: freq = 1.413 kHz   (51.5 %), step = 153.6 Hz     (500 m%)
+    noise: freq = 1.585 kHz     (52 %), step = 172.4 Hz     (500 m%)
+    noise: freq = 1.778 kHz   (52.5 %), step = 193.4 Hz     (500 m%)
+    noise: freq = 1.995 kHz     (53 %), step = 217 Hz       (500 m%)
+    noise: freq = 2.239 kHz   (53.5 %), step = 243.5 Hz     (500 m%)
+    noise: freq = 2.512 kHz     (54 %), step = 273.2 Hz     (500 m%)
+    noise: freq = 2.818 kHz   (54.5 %), step = 306.5 Hz     (500 m%)
+    noise: freq = 3.162 kHz     (55 %), step = 343.9 Hz     (500 m%)
+    noise: freq = 3.548 kHz   (55.5 %), step = 385.9 Hz     (500 m%)
+    noise: freq = 3.981 kHz     (56 %), step = 432.9 Hz     (500 m%)
+    noise: freq = 4.467 kHz   (56.5 %), step = 485.8 Hz     (500 m%)
+    noise: freq = 5.012 kHz     (57 %), step = 545 Hz       (500 m%)
+    noise: freq = 5.623 kHz   (57.5 %), step = 611.5 Hz     (500 m%)
+    noise: freq = 6.31 kHz      (58 %), step = 686.2 Hz     (500 m%)
+    noise: freq = 7.079 kHz   (58.5 %), step = 769.9 Hz     (500 m%)
+    noise: freq = 7.943 kHz     (59 %), step = 863.8 Hz     (500 m%)
+    noise: freq = 8.913 kHz   (59.5 %), step = 969.2 Hz     (500 m%)
+    noise: freq = 10 kHz        (60 %), step = 1.087 kHz    (500 m%)
+    noise: freq = 11.22 kHz   (60.5 %), step = 1.22 kHz     (500 m%)
+    noise: freq = 12.59 kHz     (61 %), step = 1.369 kHz    (500 m%)
+    noise: freq = 14.13 kHz   (61.5 %), step = 1.536 kHz    (500 m%)
+    noise: freq = 15.85 kHz     (62 %), step = 1.724 kHz    (500 m%)
+    noise: freq = 17.78 kHz   (62.5 %), step = 1.934 kHz    (500 m%)
+    noise: freq = 19.95 kHz     (63 %), step = 2.17 kHz     (500 m%)
+    noise: freq = 22.39 kHz   (63.5 %), step = 2.435 kHz    (500 m%)
+    noise: freq = 25.12 kHz     (64 %), step = 2.732 kHz    (500 m%)
+    noise: freq = 28.18 kHz   (64.5 %), step = 3.065 kHz    (500 m%)
+    noise: freq = 31.62 kHz     (65 %), step = 3.439 kHz    (500 m%)
+    noise: freq = 35.48 kHz   (65.5 %), step = 3.859 kHz    (500 m%)
+    noise: freq = 39.81 kHz     (66 %), step = 4.329 kHz    (500 m%)
+    noise: freq = 44.67 kHz   (66.5 %), step = 4.858 kHz    (500 m%)
+    noise: freq = 50.12 kHz     (67 %), step = 5.45 kHz     (500 m%)
+    noise: freq = 56.23 kHz   (67.5 %), step = 6.115 kHz    (500 m%)
+    noise: freq = 63.1 kHz      (68 %), step = 6.862 kHz    (500 m%)
+    noise: freq = 70.79 kHz   (68.5 %), step = 7.699 kHz    (500 m%)
+    noise: freq = 79.43 kHz     (69 %), step = 8.638 kHz    (500 m%)
+    noise: freq = 89.13 kHz   (69.5 %), step = 9.692 kHz    (500 m%)
+    noise: freq = 100 kHz       (70 %), step = 10.87 kHz    (500 m%)
+    noise: freq = 112.2 kHz   (70.5 %), step = 12.2 kHz     (500 m%)
+    noise: freq = 125.9 kHz     (71 %), step = 13.69 kHz    (500 m%)
+    noise: freq = 141.3 kHz   (71.5 %), step = 15.36 kHz    (500 m%)
+    noise: freq = 158.5 kHz     (72 %), step = 17.24 kHz    (500 m%)
+    noise: freq = 177.8 kHz   (72.5 %), step = 19.34 kHz    (500 m%)
+    noise: freq = 199.5 kHz     (73 %), step = 21.7 kHz     (500 m%)
+    noise: freq = 223.9 kHz   (73.5 %), step = 24.35 kHz    (500 m%)
+    noise: freq = 251.2 kHz     (74 %), step = 27.32 kHz    (500 m%)
+    noise: freq = 281.8 kHz   (74.5 %), step = 30.65 kHz    (500 m%)
+    noise: freq = 316.2 kHz     (75 %), step = 34.39 kHz    (500 m%)
+    noise: freq = 354.8 kHz   (75.5 %), step = 38.59 kHz    (500 m%)
+    noise: freq = 398.1 kHz     (76 %), step = 43.29 kHz    (500 m%)
+    noise: freq = 446.7 kHz   (76.5 %), step = 48.58 kHz    (500 m%)
+    noise: freq = 501.2 kHz     (77 %), step = 54.5 kHz     (500 m%)
+    noise: freq = 562.3 kHz   (77.5 %), step = 61.15 kHz    (500 m%)
+    noise: freq = 631 kHz       (78 %), step = 68.62 kHz    (500 m%)
+    noise: freq = 707.9 kHz   (78.5 %), step = 76.99 kHz    (500 m%)
+    noise: freq = 794.3 kHz     (79 %), step = 86.38 kHz    (500 m%)
+    noise: freq = 891.3 kHz   (79.5 %), step = 96.92 kHz    (500 m%)
+    noise: freq = 1 MHz         (80 %), step = 108.7 kHz    (500 m%)
+    noise: freq = 1.122 MHz   (80.5 %), step = 122 kHz      (500 m%)
+    noise: freq = 1.259 MHz     (81 %), step = 136.9 kHz    (500 m%)
+    noise: freq = 1.413 MHz   (81.5 %), step = 153.6 kHz    (500 m%)
+    noise: freq = 1.585 MHz     (82 %), step = 172.4 kHz    (500 m%)
+    noise: freq = 1.778 MHz   (82.5 %), step = 193.4 kHz    (500 m%)
+    noise: freq = 1.995 MHz     (83 %), step = 217 kHz      (500 m%)
+    noise: freq = 2.239 MHz   (83.5 %), step = 243.5 kHz    (500 m%)
+    noise: freq = 2.512 MHz     (84 %), step = 273.2 kHz    (500 m%)
+    noise: freq = 2.818 MHz   (84.5 %), step = 306.5 kHz    (500 m%)
+    noise: freq = 3.162 MHz     (85 %), step = 343.9 kHz    (500 m%)
+    noise: freq = 3.548 MHz   (85.5 %), step = 385.9 kHz    (500 m%)
+    noise: freq = 3.981 MHz     (86 %), step = 432.9 kHz    (500 m%)
+    noise: freq = 4.467 MHz   (86.5 %), step = 485.8 kHz    (500 m%)
+    noise: freq = 5.012 MHz     (87 %), step = 545 kHz      (500 m%)
+    noise: freq = 5.623 MHz   (87.5 %), step = 611.5 kHz    (500 m%)
+    noise: freq = 6.31 MHz      (88 %), step = 686.2 kHz    (500 m%)
+    noise: freq = 7.079 MHz   (88.5 %), step = 769.9 kHz    (500 m%)
+    noise: freq = 7.943 MHz     (89 %), step = 863.8 kHz    (500 m%)
+    noise: freq = 8.913 MHz   (89.5 %), step = 969.2 kHz    (500 m%)
+    noise: freq = 10 MHz        (90 %), step = 1.087 MHz    (500 m%)
+    noise: freq = 11.22 MHz   (90.5 %), step = 1.22 MHz     (500 m%)
+    noise: freq = 12.59 MHz     (91 %), step = 1.369 MHz    (500 m%)
+    noise: freq = 14.13 MHz   (91.5 %), step = 1.536 MHz    (500 m%)
+    noise: freq = 15.85 MHz     (92 %), step = 1.724 MHz    (500 m%)
+    noise: freq = 17.78 MHz   (92.5 %), step = 1.934 MHz    (500 m%)
+    noise: freq = 19.95 MHz     (93 %), step = 2.17 MHz     (500 m%)
+    noise: freq = 22.39 MHz   (93.5 %), step = 2.435 MHz    (500 m%)
+    noise: freq = 25.12 MHz     (94 %), step = 2.732 MHz    (500 m%)
+    noise: freq = 28.18 MHz   (94.5 %), step = 3.065 MHz    (500 m%)
+    noise: freq = 31.62 MHz     (95 %), step = 3.439 MHz    (500 m%)
+    noise: freq = 35.48 MHz   (95.5 %), step = 3.859 MHz    (500 m%)
+    noise: freq = 39.81 MHz     (96 %), step = 4.329 MHz    (500 m%)
+    noise: freq = 44.67 MHz   (96.5 %), step = 4.858 MHz    (500 m%)
+    noise: freq = 50.12 MHz     (97 %), step = 5.45 MHz     (500 m%)
+    noise: freq = 56.23 MHz   (97.5 %), step = 6.115 MHz    (500 m%)
+    noise: freq = 63.1 MHz      (98 %), step = 6.862 MHz    (500 m%)
+    noise: freq = 70.79 MHz   (98.5 %), step = 7.699 MHz    (500 m%)
+    noise: freq = 79.43 MHz     (99 %), step = 8.638 MHz    (500 m%)
+    noise: freq = 89.13 MHz   (99.5 %), step = 9.692 MHz    (500 m%)
+    noise: freq = 100 MHz      (100 %), step = 10.87 MHz    (500 m%)
+Accumulated DC solution time =            3.088 ms.
+Intrinsic noise analysis time =              57.076 ms.
+Total time required for noise analysis `noise': CPU = 50.028 ms, elapsed = 60.7951 ms, util. = 82.3%.
+Time accumulated: CPU = 754.413 ms, elapsed = 1.53658 s.
+Peak resident memory used = 215 Mbytes.
+
+
+Notice from spectre.
+    18 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+
+Warning from spectre during info `element'.
+    WARNING (CMI-2425): I0.C1<0>_dummy: `Acde' = 2.393 is unusually large.
+    WARNING (CMI-2425): I0.C1<0>_dummy: `Noff' = 4.732 is unusually large.
+    WARNING (CMI-2424): I0.C1<0>_dummy: `Voffcv' = -867.4e-03 is unusually small.
+
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[07:26:11.245056] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+[07:26:11.245115] Feature usage summary:
+[07:26:11.245115] Virtuoso_Multi_mode_Simulation
+[07:26:11.245115] Spectre_X_MMSIM_Lk
+
+
+Aggregate audit (7:26:11 AM, Tue May 26, 2026):
+Time used: CPU = 777 ms, elapsed = 1.57 s, util. = 49.6%.
+Time spent in licensing: elapsed = 72.8 ms.
+Peak memory used = 215 Mbytes.
+Simulation started at: 7:26:09 AM, Tue May 26, 2026, ended at: 7:26:11 AM, Tue May 26, 2026, with elapsed time (wall clock): 1.57 s.
+spectre completes with 0 errors, 57 warnings, and 17 notices.

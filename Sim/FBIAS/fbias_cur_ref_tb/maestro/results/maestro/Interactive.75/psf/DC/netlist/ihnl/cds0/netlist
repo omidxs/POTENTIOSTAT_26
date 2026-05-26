@@ -1,0 +1,7 @@
+    R1 (PLUS net9) rpolyh w=w l=(0.5 * l) m=mult mmw=mmw
+    R2 (net9 MINUS) rpolyh w=w l=(0.5*l) m=mult mmw=mmw
+    CS0 (PLUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CS1 (MINUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CM (net9 REF) capacitor c=(0.5*(1+tanh(l/200/w))*cap) m=mult
+ends rpolyhc
+// End of subcircuit definition.

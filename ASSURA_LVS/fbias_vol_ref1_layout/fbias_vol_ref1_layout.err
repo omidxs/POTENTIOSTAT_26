@@ -1,0 +1,266 @@
+================================================================================
+Rule No. 44 : # INFO: Don't use -resimulate_extracted- Switch for standard LVS but only for QRC! #
+
+Real Error Count : 22; Flat Error Count : 108
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : cvar layout PRIMLIB col=10 row=15 in1=C128529
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                11                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       11                371.175       22.250     495.675       44.350
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -2.275     -1.550     19.825    122.950
+
+--------------------------------------------------------------------------------
+Cell Name : cvar_A1 array 11 1 0 23.15 r270
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                            10             10                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                371.175       22.250     495.675      275.850
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.550      2.275    122.950      3.325
+   2      X       -1.550     25.425    122.950     26.475
+   3      X       -1.550     48.575    122.950     49.625
+   4      X       -1.550     71.725    122.950     72.775
+   5      X       -1.550     94.875    122.950     95.925
+   6      X       -1.550    118.025    122.950    119.075
+   7      X       -1.550    141.175    122.950    142.225
+   8      X       -1.550    164.325    122.950    165.375
+   9      X       -1.550    187.475    122.950    188.525
+  10      X       -1.550    210.625    122.950    211.675
+
+--------------------------------------------------------------------------------
+Cell Name : rpolyhc layout PRIMLIB Bends=4 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="25u" r="50K" w="800n" in1=R27
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                24                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       24                277.350      156.050     293.650      172.050
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -6.000     -4.650     10.000     11.650
+
+--------------------------------------------------------------------------------
+Cell Name : pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP428729
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                24                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       24                239.275      230.100     246.675      244.200
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.200     -1.200      6.200     12.900
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN428129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                238.450      162.600     250.650      168.400
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.400     -0.250      5.400     11.950
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="5u" w="33u" wtot="33u" in1=MN528329
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                28                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       28                243.750       59.800     250.950       93.600
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.400     -0.250     33.400      6.950
+
+--------------------------------------------------------------------------------
+Cell Name : fbias_vol_ref1_layout layout FBIAS
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             7              7                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                219.650       12.200     498.075      286.900
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X      219.650     12.200    315.975    286.900
+   2      X      251.050     12.200    280.150    230.100
+   3      X      272.950     93.600    280.150     99.100
+   4      X      277.350     12.200    498.075    286.900
+   5      X      280.150     12.200    309.450    156.050
+   6      X      302.150     93.600    309.350     99.100
+   7      X      309.450     12.200    338.550    156.050
+
+================================================================================
+Rule No. 45 : # C35B4 ENG - 183 Rev9 (Last updated 26-Apr-2017 12:48) #
+
+Real Error Count : 22; Flat Error Count : 108
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : cvar layout PRIMLIB col=10 row=15 in1=C128529
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                11                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       11                371.175       22.250     495.675       44.350
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -2.275     -1.550     19.825    122.950
+
+--------------------------------------------------------------------------------
+Cell Name : cvar_A1 array 11 1 0 23.15 r270
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                            10             10                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                371.175       22.250     495.675      275.850
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.550      2.275    122.950      3.325
+   2      X       -1.550     25.425    122.950     26.475
+   3      X       -1.550     48.575    122.950     49.625
+   4      X       -1.550     71.725    122.950     72.775
+   5      X       -1.550     94.875    122.950     95.925
+   6      X       -1.550    118.025    122.950    119.075
+   7      X       -1.550    141.175    122.950    142.225
+   8      X       -1.550    164.325    122.950    165.375
+   9      X       -1.550    187.475    122.950    188.525
+  10      X       -1.550    210.625    122.950    211.675
+
+--------------------------------------------------------------------------------
+Cell Name : rpolyhc layout PRIMLIB Bends=4 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="25u" r="50K" w="800n" in1=R27
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                24                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       24                277.350      156.050     293.650      172.050
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -6.000     -4.650     10.000     11.650
+
+--------------------------------------------------------------------------------
+Cell Name : pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP428729
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                24                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       24                239.275      230.100     246.675      244.200
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.200     -1.200      6.200     12.900
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN428129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                238.450      162.600     250.650      168.400
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.400     -0.250      5.400     11.950
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="5u" w="33u" wtot="33u" in1=MN528329
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                28                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       28                243.750       59.800     250.950       93.600
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.400     -0.250     33.400      6.950
+
+--------------------------------------------------------------------------------
+Cell Name : fbias_vol_ref1_layout layout FBIAS
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             7              7                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                219.650       12.200     498.075      286.900
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X      219.650     12.200    315.975    286.900
+   2      X      251.050     12.200    280.150    230.100
+   3      X      272.950     93.600    280.150     99.100
+   4      X      277.350     12.200    498.075    286.900
+   5      X      280.150     12.200    309.450    156.050
+   6      X      302.150     93.600    309.350     99.100
+   7      X      309.450     12.200    338.550    156.050
+

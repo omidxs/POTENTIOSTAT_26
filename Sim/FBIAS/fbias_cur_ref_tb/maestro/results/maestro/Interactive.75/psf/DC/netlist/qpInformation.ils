@@ -1,0 +1,1 @@
+(nil plottableAnalyses tran(ac noise dc) signals ((nil fullName "/VRES" sigExpr "VT(\"/VRES\")") (nil fullName "/R1/PLUS" sigExpr "IT(\"/R1/PLUS\")")) plottableExpressions ((nil name "i /R1/PLUS; tran (I)" expression itime('tran "/R1/PLUS")) (nil name "DC_Out_current" expression IDC("/R1/PLUS"))))

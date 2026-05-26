@@ -1,0 +1,78 @@
+\# Program start time:     UTC 2026.05.26 16:57:50.730
+\# Local time: UTC (UTC+00:00) 2026.05.26 16:57:50.730
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service6.log -mpssession virtuoso53030 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_53030_1779780238 -scopedPid 53030 -axlSession fnxSession1 -axlServiceIdFlag 6 -uuid 0cc15d5a-fedb-4298-843d-3ceeb4b3c8d7 -heartbeat /dev/shm/swift-heartbeat.Nsm2doSBd5 -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service6.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CF65E132D0AD65800001DE8 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	il2244vt26_hrahimi (x86_64)
+\# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:745 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        702 MB
+\# Available memory:	  2,342,476 MB
+\# System memory:	  3,104,512 MB
+\# Maximum memory size:	  3,103,931 MB
+\# Max mem available:	  2,342,597 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,677 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		hrahimi
+\o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
+\# Process Id:		118553
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         231 MB, process size 1,873 MB at UTC 2026.05.26 16:57:52.505
+\o Loading adexl.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 
+\# Memory report: on exit            250 MB, process size 1,930 MB at UTC 2026.05.26 16:57:53.701
+\# Memory report: peak usage         250 MB, process size 1,930 MB

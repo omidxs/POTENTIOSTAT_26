@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus UI Version 24.1.0-p089
+#--------------------------------------------------------------------------------------
+
+quantus  -log_file /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/fecg_bandgap3_layout/qrc.fecg_bandgap3_layout.log -cmd /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/fecg_bandgap3_layout/qrc.fecg_bandgap3_layout.ccl 

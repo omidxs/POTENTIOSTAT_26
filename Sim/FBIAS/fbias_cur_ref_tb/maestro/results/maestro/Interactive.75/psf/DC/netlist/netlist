@@ -1,0 +1,120 @@
+
+// Library name: PRIMLIB
+// Cell name: rpolyhc
+// View name: schematic
+subckt rpolyhc PLUS MINUS REF
+parameters w=10u l=10u mult=1 mmw=0 cap=14.34f
+    R1 (PLUS net9) rpolyh w=w l=(0.5 * l) m=mult mmw=mmw
+    R2 (net9 MINUS) rpolyh w=w l=(0.5*l) m=mult mmw=mmw
+    CS0 (PLUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CS1 (MINUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CM (net9 REF) capacitor c=(0.5*(1+tanh(l/200/w))*cap) m=mult
+ends rpolyhc
+// End of subcircuit definition.
+
+// Library name: FBIAS
+// Cell name: fbias_cur_ref2
+// View name: schematic
+subckt fbias_cur_ref2 BIAS GNDA OUT1 OUT10 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7 \
+        OUT8 OUT9 VBG VDDA VRES OUT11
+    MN2 (net11 BIAS GNDA GNDA) modn w=5u l=10u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MN1 (net21 VRES net20 GNDA) modn w=10u l=1u as=5.175e-12 ad=5e-12 \
+        ps=1.535u pd=1u nrd=0.05 nrs=0.05 ng=40
+    MN0 (net2 VBG net20 GNDA) modn w=10u l=1u as=5.175e-12 ad=5e-12 \
+        ps=1.535u pd=1u nrd=0.05 nrs=0.05 ng=40
+    MN4 (net20 BIAS GNDA GNDA) modn w=5u l=10u as=4.25e-12 ad=2.5e-12 \
+        ps=6.7u pd=1u nrd=0.1 nrs=0.1 ng=2
+    MN3 (BIAS BIAS GNDA GNDA) modn w=5u l=10u as=4.25e-12 ad=2.5e-12 \
+        ps=6.7u pd=1u nrd=0.1 nrs=0.1 ng=2
+    MP27 (net14 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP26 (OUT11 net11 net14 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP25 (net13 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP24 (net12 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP23 (net10 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP22 (OUT8 net11 net13 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP17 (net9 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP16 (OUT5 net11 net9 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP15 (net8 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP14 (OUT6 net11 net8 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP13 (net7 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP12 (OUT3 net11 net7 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP11 (net5 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP19 (net6 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP18 (OUT7 net11 net6 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP21 (OUT9 net11 net12 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP20 (OUT10 net11 net10 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP8 (OUT2 net11 net4 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP9 (net4 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP10 (OUT4 net11 net5 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP7 (OUT1 net11 net1 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP6 (net1 net2 VDDA VDDA) modp w=10u l=30u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP5 (VRES net11 net24 VDDA) modp w=5u l=1u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP3 (net11 net11 net19 VDDA) modp w=5u l=2u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP2 (net19 net19 VDDA VDDA) modp w=5u l=1u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP1 (net24 net2 VDDA VDDA) modp w=10u l=30u as=6.166667e-12 ad=5e-12 \
+        ps=4.566667u pd=1u nrd=0.05 nrs=0.05 ng=6
+    MP0 (net2 net21 VDDA VDDA) modp w=5u l=5u as=2.85e-12 ad=2.5e-12 \
+        ps=2.14u pd=1u nrd=0.1 nrs=0.1 ng=10
+    MP4 (net21 net21 VDDA VDDA) modp w=5u l=5u as=2.85e-12 ad=2.5e-12 \
+        ps=2.14u pd=1u nrd=0.1 nrs=0.1 ng=10
+    R0 (net2 net3 GNDA) rpolyhc w=0.8u l=30u mult=1 mmw=0 cap=5.928f
+    C1\<0\> (net3 VRES GNDA) cvar w=990u l=0.65u row=15 col=10 m=1
+    C1\<1\> (net3 VRES GNDA) cvar w=990u l=0.65u row=15 col=10 m=1
+    C1\<2\> (net3 VRES GNDA) cvar w=990u l=0.65u row=15 col=10 m=1
+    C1\<3\> (net3 VRES GNDA) cvar w=990u l=0.65u row=15 col=10 m=1
+    C1\<4\> (net3 VRES GNDA) cvar w=990u l=0.65u row=15 col=10 m=1
+    C1\<5\> (net3 VRES GNDA) cvar w=990u l=0.65u row=15 col=10 m=1
+ends fbias_cur_ref2
+// End of subcircuit definition.
+
+// Library name: FBIAS
+// Cell name: fbias_cur_ref_tb
+// View name: schematic
+V1 (net4 0) vsource dc=VBG xfmag=1 type=dc
+V0 (net3 0) vsource dc=VDD type=dc
+R10 (net13 0) resistor r=2M isnoisy=no
+R9 (net14 0) resistor r=2M isnoisy=no
+R8 (net15 0) resistor r=2M isnoisy=no
+R7 (net12 0) resistor r=2M isnoisy=no
+R6 (net7 0) resistor r=2M isnoisy=no
+R5 (net8 0) resistor r=2M isnoisy=no
+R4 (net9 0) resistor r=2M isnoisy=no
+R3 (net10 0) resistor r=2M isnoisy=no
+R2 (net5 0) resistor r=2M isnoisy=no
+R1 (net1 0) resistor r=2M isnoisy=no
+R0 (VRES 0) resistor r=1M
+C0 (VRES 0) capacitor c=5p
+I2 (0 net2) isource dc=200n type=dc
+V3 (VDD net3) vsource type=pulse val0=0 val1=VDD_STEP period=1 delay=10u \
+        rise=1n fall=1n width=500.0m
+V2 (VBGP net4) vsource type=pulse val0=0 val1=VGB_STEP period=1 delay=10u \
+        rise=1n fall=1n width=500.0m
+IPRB0 (net6 net1) iprobe
+I0 (net2 0 net5 net13 net10 net9 net8 net7 net6 net12 net15 net14 VBGP VDD \
+        VRES net11) fbias_cur_ref2

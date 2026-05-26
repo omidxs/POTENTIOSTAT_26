@@ -1,0 +1,9 @@
+!<alc> v1 131
+0   10    0 vert10_4 layout PRIMLIB
+0    9    0 rpolyhc layout PRIMLIB Bends=4 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="52.5u" r="35K" w="2u" in1=R50
+0    8    0 pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP4282929
+0    7    0 pmos4 layout PRIMLIB l="4u" w="25u" wtot="25u" in1=MP128729
+0    6    0 pmos4 layout PRIMLIB l="350n" in1=MP928329
+0    5    0 nmos4 layout PRIMLIB l="10u" in1=MN128129
+0    4    0 nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN428129
+0   11    0 fecg_bandgap3_layout layout FBIAS

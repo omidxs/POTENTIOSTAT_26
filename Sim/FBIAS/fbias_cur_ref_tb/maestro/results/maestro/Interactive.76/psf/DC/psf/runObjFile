@@ -1,0 +1,41 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "May 26 07:26:17 2026"
+"date" "May 26 07:26:17 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+"#maeHistoryName" "Interactive.76"
+"#maeTestName" "DC"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("Design_Point")
+)
+"Design_Point=1.0" "runObject" (
+(
+"../../../1/DC/psf/logFile"
+"../../../1/DC/psf/artistLogFile"
+"../../../1/DC/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 1
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/DC/netlist"
+"dataDir" "../../../1/DC"
+ "Design_Point" 1.000000e+00
+)
+
+END

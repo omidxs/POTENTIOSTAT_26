@@ -1,0 +1,6 @@
+
+// Library name: PRIMLIB
+// Cell name: rpolyhc
+// View name: schematic
+subckt rpolyhc PLUS MINUS REF
+parameters w=10u l=10u mult=1 mmw=0 cap=14.34f

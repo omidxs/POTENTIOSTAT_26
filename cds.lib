@@ -1,4 +1,4 @@
-# File Created by  at Tue May 26 06:36:35 2026
+# File Created by  at Tue May 26 07:18:11 2026
 # assisted by CdsLibEditor
 # 
 # File Name:    :    cds.lib/lib.defs
@@ -50,3 +50,4 @@ DEFINE IOLIB_4M $AMS_DIR/cds/HK_C35/IOLIB_4M
 # --- additional HK Libraries
 DEFINE IOLIB_ANA_4M $AMS_DIR/cds/HK_C35/IOLIB_ANA_4M
 DEFINE avTech /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/etc/avtech/avTech
+DEFINE FBIAS ./FBIAS

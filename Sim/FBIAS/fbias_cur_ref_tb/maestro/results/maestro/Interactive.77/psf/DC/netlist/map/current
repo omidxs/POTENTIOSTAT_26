@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "fbias_cur_ref_tb"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.77/1/DC/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "FBIAS/fbias_cur_ref_tb/schematic" "fbias_cur_ref_tb" )
+( "PRIMLIB/rpolyhc/schematic" "rpolyhc" )
+( "FBIAS/fbias_cur_ref2_layout/schematic" "fbias_cur_ref2_layout" )
+ )
+( "fbias_cur_ref_tb" "ihnl/cds2/map" )
+( "fbias_cur_ref2_layout" "ihnl/cds3/map" )
+( "rpolyhc" "ihnl/cds0/map" )
+ )

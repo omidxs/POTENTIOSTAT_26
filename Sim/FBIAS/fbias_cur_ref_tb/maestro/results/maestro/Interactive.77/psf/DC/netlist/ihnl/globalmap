@@ -1,0 +1,17 @@
+CADENCE IHNL11140
+$model
+PRIMLIB/rpolyhc/schematic rpolyhc
+FBIAS/fbias_cur_ref2/schematic fbias_cur_ref2
+FBIAS/fbias_cur_ref_tb/schematic fbias_cur_ref_tb
+FBIAS/fbias_cur_ref2_layout/schematic fbias_cur_ref2_layout
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+VDD_STEP VDD_STEP
+VDD VDD
+VBG VBG
+temperature temperature
+VGB_STEP VGB_STEP
+$endparam
