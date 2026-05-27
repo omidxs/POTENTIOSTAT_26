@@ -1,0 +1,39 @@
+Starting Monte Carlo Sampling...
+
+Current time: Wed May 27 13:32:34 2026 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 12345
+
+MonteCarlo.4
+Number of points completed: 200
+Number of simulation errors: 0
+MonteCarlo.4 completed. 
+Current time: Wed May 27 13:37:33 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 6
+DC_MC	Nominal - 
+	IBIAS:	Yield	100%
+		Min 1.96058e-07	Max 2.05941e-07	Mean 2.01761e-07	Number of errors 0
+DC_MC	Nominal - 
+	PSRR_1Hz:	Yield	100%
+		Min -90.9117	Max -78.661	Mean -86.151	Number of errors 0
+DC_MC	Nominal - 
+	V/V /V0; xf dB20(V/V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+DC_MC	Nominal - 
+	V1600:	Yield	100%
+		Min 1.59029	Max 1.63963	Mean 1.61375	Number of errors 0
+DC_MC	Nominal - 
+	Vnoise_rms_100MHz:	Yield	100%
+		Min 0.00019114	Max 0.000210871	Mean 0.000199594	Number of errors 0
+DC_MC	Nominal - 
+	Vnoise_rms_200Hz:	Yield	100%
+		Min 1.23049e-05	Max 4.25063e-05	Mean 2.6534e-05	Number of errors 0
+
+DC_MC
+	Overall Yield	100%	Number of points passed	200	Total number of points	200
+
+Estimated yield = 100% (200/200), 0 errors
+Estimated yield (No opregions) = 100% (200/200)

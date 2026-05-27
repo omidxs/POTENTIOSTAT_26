@@ -7,7 +7,7 @@
 (unless (isCallable '_quiRestoreInputDB)
     (nprocedure (_quiRestoreInputDB args) t)
 ) ;; unless
-(_quiRestoreInputDB (_shaCCL_readPort (instring "input_db -type assura \\\n\t -design_cell_name \"fecg_bandgap3_layout layout FBIAS\" \\\n\t -run_name \"fecg_bandgap3_layout\" \\\n\t -directory_name \"/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/fecg_bandgap3_layout\" \\\n\t -format \"DFII\" \\\n\t -library_definitions_file \"/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib\"\n"))->input_db)
+(_quiRestoreInputDB (_shaCCL_readPort (instring "input_db -type assura \\\n\t -design_cell_name \"6_TIA_Front_Layout layout Potentiostat\" \\\n\t -run_name \"6_TIA_Front_Layout\" \\\n\t -directory_name \"/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout\" \\\n\t -format \"DFII\" \\\n\t -library_definitions_file \"/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib\"\n"))->input_db)
 
 ;; dummy definition
 (unless (isCallable '_quiRestoreProcessTechnology)
@@ -266,10 +266,10 @@ vuiRcxRunFormOptions = '(
 	(vuiParasiticRViaBBByLayerList	 nil)
     )
     ((?vuiRCXRunDetailsTab)
-        (vuiRcxRunDir      "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/fecg_bandgap3_layout")
+        (vuiRcxRunDir      "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout")
         (vuiQueueOptions      "bsub -q")
         (vuiDumpCmdFileIntoLog      nil)
-        (vuiRcxLogFile      "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/fecg_bandgap3_layout/qrc.fecg_bandgap3_layout.log")
+        (vuiRcxLogFile      "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/qrc.6_TIA_Front_Layout.log")
         (vuiRcxLSFMachines      "")
         (vuiRcxNumOfP      "")
         (vuiQrcLicenseQueueBool      nil)
@@ -277,7 +277,7 @@ vuiRcxRunFormOptions = '(
         (vuiDumpPeakMemoryIntoLog      nil)
         (vuiRcMachineNameTB      "")
         (vuiQrcLicQueueTimeoutValue      "1800")
-        (vuiRcxRunName      "fecg_bandgap3_layout")
+        (vuiRcxRunName      "6_TIA_Front_Layout")
         (vuiRcxRunMode      "Multi Processing")
         (vuiQueueResource      "")
         (queues      "asrcx_normal")

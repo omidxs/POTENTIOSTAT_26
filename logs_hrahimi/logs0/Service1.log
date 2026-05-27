@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2026.05.26 07:24:03.484
-\# Local time: UTC (UTC+00:00) 2026.05.26 07:24:03.484
+\# Program start time:     UTC 2026.05.26 20:56:01.614
+\# Local time: UTC (UTC+00:00) 2026.05.26 20:56:01.614
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
 \o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
-\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service1.log -mpssession virtuoso53030 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_53030_1779780238 -scopedPid 53030 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid 4fbb0c3c-2737-4001-bbfd-076992956f1d -heartbeat /dev/shm/swift-heartbeat.A4rwf7dL51 -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CF6C58EB697D65800001E00 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service1.log -mpssession virtuoso145983 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_145983_1779828956 -scopedPid 145983 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid 38d61792-d2ba-41c4-ad47-3864b5b351e5 -heartbeat /dev/shm/swift-heartbeat.ih9N8BEMa7 -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CF587C0F4D9D65B00001E05 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
 \# Host name (type):	il2244vt26_hrahimi (x86_64)
 \# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:6389 (1024x868)
+\# X display name (WxH):	:7880 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        917 MB
-\# Available memory:	  2,345,016 MB
+\# Initial sbrk value:	      1,127 MB
+\# Available memory:	  2,343,687 MB
 \# System memory:	  3,104,512 MB
-\# Maximum memory size:	  3,103,715 MB
-\# Max mem available:	  2,345,138 MB
+\# Maximum memory size:	  3,103,506 MB
+\# Max mem available:	  2,343,808 MB
 \# Initial memory used:	        121 MB
 \#        process size:	      1,677 MB
 \# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		hrahimi
 \o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
-\# Process Id:		54284
+\# Process Id:		155175
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -67,7 +67,7 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         231 MB, process size 1,873 MB at UTC 2026.05.26 07:24:05.359
+\# Memory report: using         231 MB, process size 1,873 MB at UTC 2026.05.26 20:56:03.452
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -75,12 +75,12 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso53030, host=il2244vt26_hrahimi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso145983, host=il2244vt26_hrahimi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 54284 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 155175 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [07:24:03.445314] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [20:56:01.445298] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
 \o ......................................................................................
 \o            ams AG HIT-Kit v.ams_4.10
 \o ......................................................................................
@@ -90,25 +90,40 @@
 \o ......................................................................................
 \# Current Window: window(2)
 \o Loading simulator default settings.
+\w 
+\w load( "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl" ))
+\w                                                                                  ^
+\w PARSER WARNING at line 63 column 82 of file ./.cdsinit_local
+\w *WARNING* (Parser): extra ')' ignored
+\o //
+\o //  Calibre Skill Interface * (v2022.4_16.8) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
 \o Loading simulator default settings.
 \p hitkit: ams_4.10  Tech: c35b4c3  User: hrahimi 
 \w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 54284' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 155175' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
 \i _axlRunServices()
-\# [07:24:07.197259] Periodic Lic check successful
-\# [07:24:07.197265] Feature usage summary:
+\# [20:56:06.283528] Periodic Lic check successful
+\# [20:56:06.283536] Feature usage summary:
 \o Loading simui.cxt 
-\o [2026-05-26 07:24:07.759 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 54284, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
-\# Available memory:      2,344,594 MB at UTC 2026.05.26 07:24:14.821
-\# Memory report: Maximum memory size now 2,344,905 MB at UTC 2026.05.26 07:24:14.822
-\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.05.26 07:24:14.822
+\o [2026-05-26 20:56:06.873 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 155175, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
+\# Available memory:      2,343,246 MB at UTC 2026.05.26 20:56:12.925
+\# Memory report: Maximum memory size now 2,343,560 MB at UTC 2026.05.26 20:56:12.925
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.05.26 20:56:12.925
 \o Loading vdsil.cxt 
 \# Lic Summary:
-\# [07:29:09.297250] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
-\# [07:29:09.297272] Feature usage summary:
-\# Memory report: on exit            311 MB, process size 2,068 MB at UTC 2026.05.26 07:29:09.297
-\# Memory report: peak usage         311 MB, process size 2,071 MB
+\# [20:59:27.209409] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [20:59:27.209475] Feature usage summary:
+\# Memory report: on exit            314 MB, process size 2,071 MB at UTC 2026.05.26 20:59:27.209
+\# Memory report: peak usage         314 MB, process size 2,073 MB

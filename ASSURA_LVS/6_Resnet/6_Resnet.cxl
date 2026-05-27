@@ -1,0 +1,58 @@
+C RPOLYH(RES) RPOLYH(RES)
+N PLUS PLUS
+N MINUS MINUS
+
+C PMOS4(MOS) PMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C NMOS4(MOS) NMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "Inverter schematic Potentiostat" "Inverter layout Potentiostat"
+N A A
+N Q Q
+N VDDA VDDA
+N GNDA avT1611_1
+I M_i_0 avD1_1
+I M_i_1 avD5_1
+
+C "6_Resnet schematic Potentiostat" "6_Resnet layout Potentiostat"
+N net3 avC14
+N net12 avC15
+N net1 avC48
+N net5 avC13
+N S1n avC10
+N S3n avC12
+N S0n avC9
+N S2n avC11
+N VDDA VDDA
+N GNDA GNDA
+N S<3> S<3>
+N S<2> S<2>
+N S<1> S<1>
+N S<0> S<0>
+N In In
+N Out Out
+I MN19 avD1_1
+I MN20 MN20/avD1_1
+I MN15 MN15/avD1_1
+I MN17 MN17/avD1_1
+I MP14 avD5_1
+I MP15 avD5_2
+I MP5 avI22/avD5_1
+I MP3 avD5_3
+I I11 I11
+I I13 I13
+I I6 I6
+I I12 I12
+I R5 R5/avD66_1
+I R22 R10/avD66_1
+I R20 R20/avD66_1
+I R6 avD66_1
+

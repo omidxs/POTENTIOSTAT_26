@@ -1,0 +1,5 @@
+!<alc> v1 60
+0    8    0 pmos4 layout PRIMLIB l="4u" in1=MP3428129
+0    5    0 nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN30
+0    3    0 nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN3328029
+0   10    0 6_CA_Front_Layout layout Potentiostat

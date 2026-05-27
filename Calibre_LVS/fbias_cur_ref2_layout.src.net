@@ -1,0 +1,127 @@
+* hitkit post processing done
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  FBIAS
+* Top Cell Name: fbias_cur_ref2_layout
+* View Name:     schematic
+* Netlisted on:  May 26 20:54:36 2026
+************************************************************************
+
+*.EQUATION
+*.LDD
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: FBIAS
+* Cell Name:    fbias_cur_ref2_layout
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT fbias_cur_ref2_layout BIAS GNDA OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7
++ OUT8 OUT9 OUT10 OUT11 VBG VDDA VRES
+*.PININFO BIAS:B GNDA:B OUT1:B OUT2:B OUT3:B OUT4:B OUT5:B OUT6:B OUT7:B 
+*.PININFO OUT8:B OUT9:B OUT10:B OUT11:B VBG:B VDDA:B VRES:B
+MMN5<0> GNDA GNDA GNDA GNDA nmos4 W=28.5u L=1u M=1
+MMN5<1> GNDA GNDA GNDA GNDA nmos4 M=1 W=28.5u L=1u
+MMN5<2> GNDA GNDA GNDA GNDA nmos4 W=28.5u M=1 L=1u
+MMN5<3> GNDA GNDA GNDA GNDA nmos4 W=28.5u M=1 L=1u
+MMN3<0> BIAS BIAS GNDA GNDA nmos4 W=5u L=10u M=1
+MMN3<1> BIAS BIAS GNDA GNDA nmos4 W=5u L=10u M=1
+MMN2 GC BIAS GNDA GNDA nmos4 W=5u L=10u M=1
+MMN0<0> D2 VBG S GNDA nmos4 L=1u W=28.5u M=1
+MMN0<1> D2 VBG S GNDA nmos4 L=1u W=28.5u M=1
+MMN0<2> D2 VBG S GNDA nmos4 M=1 W=28.5u L=1u
+MMN0<3> D2 VBG S GNDA nmos4 M=1 W=28.5u L=1u
+MMN0<4> D2 VBG S GNDA nmos4 M=1 W=28.5u L=1u
+MMN0<5> D2 VBG S GNDA nmos4 L=1u W=28.5u M=1
+MMN0<6> D2 VBG S GNDA nmos4 M=1 W=28.5u L=1u
+MMN0<7> D2 VBG S GNDA nmos4 L=1u W=28.5u M=1
+MMN0<8> D2 VBG S GNDA nmos4 L=1u W=28.5u M=1
+MMN0<9> D2 VBG S GNDA nmos4 L=1u W=28.5u M=1
+MMN0<10> D2 VBG S GNDA nmos4 L=1u W=28.5u M=1
+MMN0<11> D2 VBG S GNDA nmos4 M=1 W=28.5u L=1u
+MMN0<12> D2 VBG S GNDA nmos4 W=28.5u M=1 L=1u
+MMN0<13> D2 VBG S GNDA nmos4 W=28.5u L=1u M=1
+MMN6<0> BIAS BIAS BIAS GNDA nmos4 W=5u L=10u M=1
+MMN6<1> BIAS BIAS BIAS GNDA nmos4 M=1 W=5u L=10u
+MMN1<0> D1 VRES S GNDA nmos4 L=1u W=28.5u M=1
+MMN1<1> D1 VRES S GNDA nmos4 W=28.5u L=1u M=1
+MMN1<2> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN1<3> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN1<4> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN1<5> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN1<6> D1 VRES S GNDA nmos4 M=1 W=28.5u L=1u
+MMN1<7> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN1<8> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN1<9> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN1<10> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN1<11> D1 VRES S GNDA nmos4 W=28.5u L=1u M=1
+MMN1<12> D1 VRES S GNDA nmos4 W=28.5u L=1u M=1
+MMN1<13> D1 VRES S GNDA nmos4 W=28.5u M=1 L=1u
+MMN4<0> S BIAS GNDA GNDA nmos4 W=5u M=1 L=10u
+MMN4<1> S BIAS GNDA GNDA nmos4 M=1 W=5u L=10u
+MMP29<0> D2 D2 D2 VDDA pmos4 L=30u W=10u M=1
+MMP29<1> D2 D2 D2 VDDA pmos4 W=10u L=30u M=1
+MMP28<0> D1 D1 D1 VDDA pmos4 L=5u W=8.35u M=1
+MMP28<1> D1 D1 D1 VDDA pmos4 W=8.35u M=1 L=5u
+MMP28<2> D1 D1 D1 VDDA pmos4 L=5u W=8.35u M=1
+MMP28<3> D1 D1 D1 VDDA pmos4 W=8.35u L=5u M=1
+MMP1<0> C D2 VDDA VDDA pmos4 W=10u L=30u M=1
+MMP1<1> C D2 VDDA VDDA pmos4 L=30u W=10u M=1
+MMP1<2> C D2 VDDA VDDA pmos4 W=10u L=30u M=1
+MMP1<3> C D2 VDDA VDDA pmos4 W=10u L=30u M=1
+MMP1<4> C D2 VDDA VDDA pmos4 L=30u W=10u M=1
+MMP1<5> C D2 VDDA VDDA pmos4 M=1 W=10u L=30u
+MMP30<0> GC GC GC VDDA pmos4 M=1 W=5u L=2u
+MMP30<1> GC GC GC VDDA pmos4 M=1 W=5u L=2u
+MMP27 net14 D2 VDDA VDDA pmos4 W=10u L=30u M=1
+MMP26 OUT11 GC net14 VDDA pmos4 W=5u L=2u M=1
+MMP25 net13 D2 VDDA VDDA pmos4 W=10u L=30u M=1
+MMP24 net12 D2 VDDA VDDA pmos4 M=1 W=10u L=30u
+MMP23 net10 D2 VDDA VDDA pmos4 L=30u W=10u M=1
+MMP22 OUT10 GC net13 VDDA pmos4 M=1 W=5u L=2u
+MMP17 net9 D2 VDDA VDDA pmos4 M=1 W=10u L=30u
+MMP16 OUT6 GC net9 VDDA pmos4 W=5u M=1 L=2u
+MMP15 net8 D2 VDDA VDDA pmos4 M=1 W=10u L=30u
+MMP14 OUT5 GC net8 VDDA pmos4 M=1 W=5u L=2u
+MMP13 net7 D2 VDDA VDDA pmos4 M=1 W=10u L=30u
+MMP12 OUT4 GC net7 VDDA pmos4 L=2u W=5u M=1
+MMP11 net5 D2 VDDA VDDA pmos4 W=10u L=30u M=1
+MMP19 net6 D2 VDDA VDDA pmos4 W=10u M=1 L=30u
+MMP18 OUT7 GC net6 VDDA pmos4 W=5u M=1 L=2u
+MMP21 OUT9 GC net12 VDDA pmos4 L=2u W=5u M=1
+MMP20 OUT8 GC net10 VDDA pmos4 L=2u W=5u M=1
+MMP8 OUT2 GC net4 VDDA pmos4 W=5u M=1 L=2u
+MMP9 net4 D2 VDDA VDDA pmos4 L=30u W=10u M=1
+MMP10 OUT3 GC net5 VDDA pmos4 M=1 W=5u L=2u
+MMP7 OUT1 GC net1 VDDA pmos4 W=5u M=1 L=2u
+MMP6 net1 D2 VDDA VDDA pmos4 M=1 W=10u L=30u
+MMP5 VRES GC C VDDA pmos4 L=1u W=5u M=1
+MMP3 GC GC net19 VDDA pmos4 L=2u W=5u M=1
+MMP2 net19 net19 VDDA VDDA pmos4 M=1 W=5u L=1u
+MMP4<0> D1 D1 VDDA VDDA pmos4 W=8.35u M=1 L=5u
+MMP4<1> D1 D1 VDDA VDDA pmos4 W=8.35u L=5u M=1
+MMP4<2> D1 D1 VDDA VDDA pmos4 M=1 W=8.35u L=5u
+MMP4<3> D1 D1 VDDA VDDA pmos4 W=8.35u M=1 L=5u
+MMP4<4> D1 D1 VDDA VDDA pmos4 M=1 W=8.35u L=5u
+MMP4<5> D1 D1 VDDA VDDA pmos4 L=5u W=8.35u M=1
+MMP0<0> D2 D1 VDDA VDDA pmos4 W=8.35u M=1 L=5u
+MMP0<1> D2 D1 VDDA VDDA pmos4 W=8.35u M=1 L=5u
+MMP0<2> D2 D1 VDDA VDDA pmos4 W=8.35u M=1 L=5u
+MMP0<3> D2 D1 VDDA VDDA pmos4 W=8.35u L=5u M=1
+MMP0<4> D2 D1 VDDA VDDA pmos4 W=8.35u M=1 L=5u
+MMP0<5> D2 D1 VDDA VDDA pmos4 W=8.35u L=5u M=1
+RR0 D2 net3 $[RPOLYH] $W=0.8u $L=30u
+MC1<0> VRES net3 VRES GNDA CVAR L=650.00n W=990u
+MC1<1> VRES net3 VRES GNDA CVAR W=990u L=650.00n
+MC1<2> VRES net3 VRES GNDA CVAR W=990u L=650.00n
+MC1<3> VRES net3 VRES GNDA CVAR W=990u L=650.00n
+MC1<4> VRES net3 VRES GNDA CVAR W=990u L=650.00n
+MC1<5> VRES net3 VRES GNDA CVAR W=990u L=650.00n
+.ENDS
+

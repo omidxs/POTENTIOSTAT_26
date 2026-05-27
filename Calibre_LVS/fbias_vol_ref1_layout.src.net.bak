@@ -1,0 +1,120 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  FBIAS
+* Top Cell Name: fbias_vol_ref1_layout
+* View Name:     schematic
+* Netlisted on:  May 26 20:50:16 2026
+************************************************************************
+
+*.EQUATION
+*.LDD
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: FBIAS
+* Cell Name:    fbias_vol_ref1_layout
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT fbias_vol_ref1_layout BIAS GNDA V1000 V1500 V1600 VBG VDDA
+*.PININFO BIAS:B GNDA:B V1000:B V1500:B V1600:B VBG:B VDDA:B
+MMN0<0> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<1> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<2> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<3> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<4> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<5> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<6> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<7> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<8> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<9> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<10> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN0<11> D1 VBG S GNDA nmos4 W=33u L=5u M=1
+MMN1<0> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<1> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<2> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<3> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<4> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<5> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<6> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<7> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<8> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<9> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<10> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN1<11> D2 G2 S GNDA nmos4 W=33u L=5u M=1
+MMN3<0> BIAS BIAS GNDA GNDA nmos4 W=5u L=10u M=1
+MMN3<1> BIAS BIAS GNDA GNDA nmos4 W=5u L=10u M=1
+MMN5<0> GNDA GNDA GNDA GNDA nmos4 W=33u L=5u M=1
+MMN5<1> GNDA GNDA GNDA GNDA nmos4 W=33u L=5u M=1
+MMN5<2> GNDA GNDA GNDA GNDA nmos4 W=33u L=5u M=1
+MMN5<3> GNDA GNDA GNDA GNDA nmos4 W=33u L=5u M=1
+MMN4<0> S BIAS GNDA GNDA nmos4 W=5u L=10u M=1
+MMN4<1> S BIAS GNDA GNDA nmos4 W=5u L=10u M=1
+MMP10<0> D2 D2 D2 VDDA pmos4 W=5u L=10u M=1
+MMP10<1> D2 D2 D2 VDDA pmos4 W=5u L=10u M=1
+MMP10<2> D2 D2 D2 VDDA pmos4 W=5u L=10u M=1
+MMP10<3> D2 D2 D2 VDDA pmos4 W=5u L=10u M=1
+MMP2 Vo2 D1 VDDA VDDA pmos4 W=10u L=20u M=1
+MMP4<0> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<1> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<2> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<3> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<4> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<5> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<6> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<7> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<8> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<9> D2 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<0> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<1> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<2> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<3> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<4> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<5> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<6> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<7> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<8> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP0<9> D1 D2 VDDA VDDA pmos4 W=5u L=10u M=1
+RR31 net19 GNDA $[RPOLYH] $W=0.8u $L=25u
+RR30 net18 net19 $[RPOLYH] $W=0.8u $L=25u
+RR29 net16 net18 $[RPOLYH] $W=0.8u $L=25u
+RR28 net17 net16 $[RPOLYH] $W=0.8u $L=25u
+RR26 net14 net15 $[RPOLYH] $W=0.8u $L=25u
+RR25 net13 net14 $[RPOLYH] $W=0.8u $L=25u
+RR24 net12 net13 $[RPOLYH] $W=0.8u $L=25u
+RR23 net11 net12 $[RPOLYH] $W=0.8u $L=25u
+RR22 V1000 net11 $[RPOLYH] $W=0.8u $L=25u
+RR20 net10 V1000 $[RPOLYH] $W=0.8u $L=25u
+RR18 net8 G2 $[RPOLYH] $W=0.8u $L=25u
+RR17 net9 net8 $[RPOLYH] $W=0.8u $L=25u
+RR10 net1 net7 $[RPOLYH] $W=0.8u $L=25u
+RR11 net7 net6 $[RPOLYH] $W=0.8u $L=25u
+RR12 net6 net5 $[RPOLYH] $W=0.8u $L=25u
+RR13 net5 V1600 $[RPOLYH] $W=0.8u $L=25u
+RR8 net4 net2 $[RPOLYH] $W=0.8u $L=25u
+RR9 net2 net1 $[RPOLYH] $W=0.8u $L=25u
+RR0 D1 net3 $[RPOLYH] $W=2u $L=90u
+RR27 net15 net17 $[RPOLYH] $W=0.8u $L=25u
+RR14 V1600 V1500 $[RPOLYH] $W=0.8u $L=25u
+RR16 V1500 net9 $[RPOLYH] $W=0.8u $L=25u
+RR6 Vo2 net20 $[RPOLYH] $W=0.8u $L=25u
+RR19 G2 net10 $[RPOLYH] $W=0.8u $L=25u
+RR7 net20 net4 $[RPOLYH] $W=0.8u $L=25u
+MC1<0> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<1> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<2> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<3> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<4> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<5> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<6> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<7> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<8> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<9> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+MC1<10> Vo2 net3 Vo2 GNDA CVAR W=990u L=650.00n
+.ENDS
+

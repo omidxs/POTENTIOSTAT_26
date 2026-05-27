@@ -1,0 +1,114 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.36 
+Started at: 26-May-2026  20:50:15
+User Name : hrahimi
+Host Name : il2244vt26_hrahimi
+Directory : /home/hrahimi/projects/POTENTIOSTAT_26
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-217): Reading the layer map file, /opt/pdk/ams/410/cds/HK_C35/TECH_C35B4/TECH_C35B4.layermap
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 FBIAS
+strmFile                                /home/hrahimi/projects/POTENTIOSTAT_26/Calibre_LVS/fbias_vol_ref1_layout.calibre.db
+topCell                                 fbias_vol_ref1_layout
+view                                    layout
+runDir                                  /home/hrahimi/projects/POTENTIOSTAT_26/Calibre_LVS/
+logFile                                 PIPO.LOG.fbias_vol_ref1_layout
+summaryFile                             PIPO.SUM.fbias_vol_ref1_layout
+techLib                                 TECH_C35B4
+maxVertices                             1024
+layerMap                                /opt/pdk/ams/410/cds/HK_C35/TECH_C35B4/TECH_C35B4.layermap
+userSkillFile                           /opt/pdk/ams/410/cds/HK_C35/skill/ams_sdl.il
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_779828615450.
+INFO (XSTRM-223): 2. Translating stdVia TECH_C35B4/P1_C/layout as STRUCTURE P1_C_CDNS_779828615451.
+INFO (XSTRM-223): 3. Translating stdVia TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_779828615452.
+INFO (XSTRM-223): 4. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_779828615453.
+INFO (XSTRM-223): 5. Translating stdVia TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_779828615454.
+INFO (XSTRM-223): 6. Translating stdVia TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_779828615455.
+INFO (XSTRM-223): 7. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_779828615456.
+INFO (XSTRM-223): 8. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_779828615457.
+INFO (XSTRM-223): 9. Translating stdVia TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_779828615458.
+INFO (XSTRM-223): 10. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_779828615459.
+INFO (XSTRM-223): 11. Translating stdVia TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7798286154510.
+INFO (XSTRM-223): 12. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154511.
+INFO (XSTRM-223): 13. Translating stdVia TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7798286154512.
+INFO (XSTRM-223): 14. Translating stdVia TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7798286154513.
+INFO (XSTRM-223): 15. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154514.
+INFO (XSTRM-223): 16. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154515.
+INFO (XSTRM-223): 17. Translating stdVia TECH_C35B4/P1_C/layout as STRUCTURE P1_C_CDNS_7798286154516.
+INFO (XSTRM-223): 18. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154517.
+INFO (XSTRM-223): 19. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154518.
+INFO (XSTRM-223): 20. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154519.
+INFO (XSTRM-223): 21. Translating stdVia TECH_C35B4/ND_C/layout as STRUCTURE ND_C_CDNS_7798286154520.
+INFO (XSTRM-223): 22. Translating stdVia TECH_C35B4/P1_C/layout as STRUCTURE P1_C_CDNS_7798286154521.
+INFO (XSTRM-223): 23. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154522.
+INFO (XSTRM-223): 24. Translating stdVia TECH_C35B4/P1_C/layout as STRUCTURE P1_C_CDNS_7798286154523.
+INFO (XSTRM-223): 25. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154524.
+INFO (XSTRM-223): 26. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154525.
+INFO (XSTRM-223): 27. Translating stdVia TECH_C35B4/P2_C_min/layout as STRUCTURE P2_C_min_CDNS_7798286154526.
+INFO (XSTRM-223): 28. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154527.
+INFO (XSTRM-223): 29. Translating stdVia TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7798286154528.
+INFO (XSTRM-223): 30. Translating stdVia TECH_C35B4/PD_C/layout as STRUCTURE PD_C_CDNS_7798286154529.
+INFO (XSTRM-223): 31. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154530.
+INFO (XSTRM-223): 32. Translating stdVia TECH_C35B4/PD_C/layout as STRUCTURE PD_C_CDNS_7798286154531.
+INFO (XSTRM-223): 33. Translating stdVia TECH_C35B4/PD_C/layout as STRUCTURE PD_C_CDNS_7798286154532.
+INFO (XSTRM-223): 34. Translating stdVia TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7798286154533.
+INFO (XSTRM-223): 35. Translating cellView PRIMLIB/rpolyhc/layout as STRUCTURE rpolyhc_CDNS_779828615450.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (4600, 6300). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (-600, 0). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-223): 36. Translating cellView PRIMLIB/pmos4/layout as STRUCTURE pmos4_CDNS_779828615451.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (10000, 10850). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (-400, 10850). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-223): 37. Translating cellView PRIMLIB/cvar/layout as STRUCTURE cvar_CDNS_779828615452.
+INFO (XSTRM-223): 38. Translating cellView PRIMLIB/nmos4/layout as STRUCTURE nmos4_CDNS_779828615453.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (33000, 3350). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (-400, 3350). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-223): 39. Translating cellView PRIMLIB/nmos4/layout as STRUCTURE nmos4_CDNS_779828615454.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (5000, 5850). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (-400, 5850). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-223): 40. Translating cellView PRIMLIB/pmos4/layout as STRUCTURE pmos4_CDNS_779828615455.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (5000, 5850). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-236): A path with a rounded extension, an acute angle or a length segment less than half width is encountered at (-400, 5850). This path will be written as a boundary record in the GDS file.
+INFO (XSTRM-223): 41. Translating cellView PRIMLIB/rpolyhc/layout as STRUCTURE rpolyhc_CDNS_779828615456.
+INFO (XSTRM-223): 42. Translating cellView FBIAS/fbias_vol_ref1_layout/layout as STRUCTURE fbias_vol_ref1_layout.
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET1:pin' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET2:pin' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+
+Summary of Objects Translated:
+	Scalar Instances:                       93
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  1272
+	Rectangles:                             6080
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           341
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               316
+	Text:                                   19
+	TextDisplay:                            0
+	Cells:                                  42
+
+Elapsed Time: 0.4s   User Time: 0.3s   CPU Time: 0.1s   Peak VM: 14240KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

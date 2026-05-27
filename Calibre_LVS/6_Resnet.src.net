@@ -1,0 +1,71 @@
+* hitkit post processing done
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Potentiostat
+* Top Cell Name: 6_Resnet
+* View Name:     schematic
+* Netlisted on:  May 26 21:27:44 2026
+************************************************************************
+
+*.EQUATION
+*.LDD
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Potentiostat
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter A GNDA Q VDDA
+*.PININFO A:B GNDA:B Q:B VDDA:B
+MM_i_0 Q A GNDA GNDA nmos4 W=0.4u L=0.35u M=1
+MM_i_1 Q A VDDA VDDA pmos4 W=0.7u M=1 L=0.35u
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat
+* Cell Name:    6_Resnet
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6_Resnet GNDA In Out S<3> S<2> S<1> S<0> VDDA
+*.PININFO GNDA:B In:B Out:B S<3>:B S<2>:B S<1>:B S<0>:B VDDA:B
+MMN19 In S<0> net5 GNDA nmos4 M=2 L=1u W=5u
+MMN20 In S<1> net3 GNDA nmos4 W=5u L=1u M=1
+MMN15 In S<2> net1 GNDA nmos4 W=5u L=1u M=1
+MMN17 In S<3> net12 GNDA nmos4 W=5u L=1u M=1
+MMP14 net5 S0n In VDDA pmos4 W=2u M=1 L=1u
+MMP15 net3 S1n In VDDA pmos4 M=1 L=1u W=2u
+MMP5 net1 S2n In VDDA pmos4 M=1 L=1u W=2u
+MMP3 net12 S3n In VDDA pmos4 M=1 L=1u W=2u
+XI11 S<1> GNDA S1n VDDA / Inverter isoVoltagePW="isoVoltagePW=-7" isoVoltage="isoVoltage=50"
++ isoType="isoType=1"
+XI13 S<3> GNDA S3n VDDA / Inverter isoVoltagePW="isoVoltagePW=-7" isoVoltage="isoVoltage=50"
++ isoType="isoType=1"
+XI6 S<0> GNDA S0n VDDA / Inverter isoVoltagePW="isoVoltagePW=-7" isoVoltage="isoVoltage=50"
++ isoType="isoType=1"
+XI12 S<2> GNDA S2n VDDA / Inverter isoVoltagePW="isoVoltagePW=-7" isoVoltage="isoVoltage=50"
++ isoType="isoType=1"
+RR17 net7 net2 $[RPOLYH] $L=500u $W=0.8u
+RR5 net3 Out $[RPOLYH] $W=0.8u $L=500u
+RR11 net23 net21 $[RPOLYH] $L=500u $W=0.8u
+RR14 net22 net6 $[RPOLYH] $L=500u $W=0.8u
+RR10 net12 net23 $[RPOLYH] $W=0.8u $L=500u
+RR13 net20 net22 $[RPOLYH] $W=0.8u $L=500u
+RR12 net21 net20 $[RPOLYH] $W=0.8u $L=500u
+RR22 net10 Out $[RPOLYH] $L=500u $W=0.8u
+RR16 net4 net7 $[RPOLYH] $W=0.8u $L=500u
+RR15 net6 net4 $[RPOLYH] $L=500u $W=0.8u
+RR21 net8 net9 $[RPOLYH] $W=0.8u $L=500u
+RR18 net2 net10 $[RPOLYH] $W=0.8u $L=500u
+RR20 net9 Out $[RPOLYH] $W=0.8u $L=500u
+RR19 net1 net8 $[RPOLYH] $L=500u $W=0.8u
+RR6 net5 Out $[RPOLYH] $W=0.8u $L=150u
+.ENDS
+

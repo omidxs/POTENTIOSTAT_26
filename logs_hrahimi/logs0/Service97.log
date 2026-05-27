@@ -1,0 +1,1246 @@
+\# Program start time:     UTC 2026.05.27 13:30:21.929
+\# Local time: UTC (UTC+00:00) 2026.05.27 13:30:21.929
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service97.log -mpssession virtuoso145983 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_145983_1779828956 -scopedPid 145983 -axlSession fnxSession8 -axlServiceIdFlag 97 -uuid 8d1dab88-d104-49ec-bad5-cdc4dfdf97b8 -heartbeat /dev/shm/swift-heartbeat.LFYWCKyx4Z -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CF57EF40DEDD65B00001E1F -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	il2244vt26_hrahimi (x86_64)
+\# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:4914 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,336 MB
+\# Available memory:	  2,342,316 MB
+\# System memory:	  3,104,512 MB
+\# Maximum memory size:	  3,103,297 MB
+\# Max mem available:	  2,342,437 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,677 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		hrahimi
+\o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
+\# Process Id:		389582
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         231 MB, process size 1,873 MB at UTC 2026.05.27 13:30:24.207
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso145983, host=il2244vt26_hrahimi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 389582 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [13:30:21.445266] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\o ......................................................................................
+\o            ams AG HIT-Kit v.ams_4.10
+\o ......................................................................................
+\o COPYRIGHT (c) 2012 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This HIT-Kit and attached documentation are confidential information and may 
+\o only be used as authorized by the HIT-Kit license agreement.
+\o ......................................................................................
+\# Current Window: window(2)
+\o Loading simulator default settings.
+\w 
+\w load( "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl" ))
+\w                                                                                  ^
+\w PARSER WARNING at line 63 column 82 of file ./.cdsinit_local
+\w *WARNING* (Parser): extra ')' ignored
+\o //
+\o //  Calibre Skill Interface * (v2022.4_16.8) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o Loading simulator default settings.
+\p hitkit: ams_4.10  Tech: c35b4c3  User: hrahimi 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 389582' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\i _axlRunServices()
+\o Loading simui.cxt 
+\o [2026-05-27 13:30:27.885 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 389582, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:27.931 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "DC_MC", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "6151"}
+\o [2026-05-27 13:30:27.932 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "DC_MC", "testnameKey": "DC_MC"}
+\o Loading vqp.cxt 
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 97 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = FBIAS
+\o 	Cell         = fbias_bias_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.3
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/1/DC_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\# Memory report: using         379 MB, process size 2,139 MB at UTC 2026.05.27 13:30:30.156
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.3"
+\o Setting var VDD_PULSE = "0"
+\o Setting var VDD_TR = "1u"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/psf/DC_MC
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\# [13:30:32.007002] periodic Lic check successful
+\# [13:30:32.007003] Feature usage summary:
+\o Initializing the control file using cp:
+\o     cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/psf/DC_MC/netlist/control
+\# Available memory:      2,342,422 MB at UTC 2026.05.27 13:30:32.018
+\# Memory report: Maximum memory size now 2,342,834 MB at UTC 2026.05.27 13:30:32.018
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.05.27 13:30:32.018
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting May 27 13:30:32 2026
+\o Loading json.cxt 
+\o End netlisting May 27 13:30:32 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:  569
+\o 
+\o 	Elapsed time:          1.0s (569.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-27 13:30:32.802 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "DC_MC", "testnameKey": "DC_MC"}
+\o [2026-05-27 13:30:33.807 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 1, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "1:1:13", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "8225"}
+\o [2026-05-27 13:30:33.808 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "DC_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 97 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = FBIAS
+\o 	Cell         = fbias_bias_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.3
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/1/DC_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.3"
+\o Setting var VDD_PULSE = "0"
+\o Setting var VDD_TR = "1u"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/1/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/1/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:36.597 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 738.4609 MBytes, peak memory used: 738.4609 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:36.598 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "DC_MC"}
+\o [2026-05-27 13:30:36.601 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 14, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "14:1:26", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "13334"}
+\o [2026-05-27 13:30:36.601 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 14, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/14/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/14/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:37.356 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 738.4609 MBytes, peak memory used: 738.4609 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 14, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:37.357 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 14, "testname": "DC_MC"}
+\o [2026-05-27 13:30:37.359 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 27, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "27:1:39", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "15301"}
+\o [2026-05-27 13:30:37.360 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 27, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/27/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/27/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:38.102 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 738.4609 MBytes, peak memory used: 738.4609 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 27, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:38.104 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 27, "testname": "DC_MC"}
+\o [2026-05-27 13:30:38.106 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 40, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "40:1:52", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "17268"}
+\o [2026-05-27 13:30:38.106 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 40, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/40/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/40/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:38.873 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 738.4648 MBytes, peak memory used: 738.4648 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 40, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:38.874 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 40, "testname": "DC_MC"}
+\o [2026-05-27 13:30:38.877 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 53, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "53:1:65", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "19235"}
+\o [2026-05-27 13:30:38.878 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 53, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/53/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/53/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:39.617 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 740.5195 MBytes, peak memory used: 740.5195 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:39.618 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 53, "testname": "DC_MC"}
+\o [2026-05-27 13:30:39.620 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 66, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "66:1:78", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "21202"}
+\o [2026-05-27 13:30:39.621 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 66, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/66/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/66/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:40.664 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 743.5859 MBytes, peak memory used: 743.5859 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 66, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:40.665 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 66, "testname": "DC_MC"}
+\o [2026-05-27 13:30:40.668 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 79, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "79:1:91", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "23169"}
+\o [2026-05-27 13:30:40.669 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 79, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/79/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/79/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:41.381 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 746.2773 MBytes, peak memory used: 746.2773 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 79, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:41.382 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 79, "testname": "DC_MC"}
+\o [2026-05-27 13:30:41.385 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 92, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "92:1:104", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "25136"}
+\o [2026-05-27 13:30:41.386 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 92, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/92/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/92/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:42.318 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 747.5430 MBytes, peak memory used: 747.5430 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 92, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:42.319 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 92, "testname": "DC_MC"}
+\o [2026-05-27 13:30:42.323 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 105, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "105:1:117", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "27104"}
+\o [2026-05-27 13:30:42.323 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 105, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/105/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/105/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:43.132 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 747.5469 MBytes, peak memory used: 747.5469 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 105, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:43.134 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 105, "testname": "DC_MC"}
+\o [2026-05-27 13:30:43.138 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 118, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "118:1:130", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "29079"}
+\o [2026-05-27 13:30:43.139 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 118, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/118/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/118/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:43.909 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 747.5469 MBytes, peak memory used: 747.5469 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 118, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:43.911 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 118, "testname": "DC_MC"}
+\o [2026-05-27 13:30:43.914 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 131, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "131:1:143", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "31054"}
+\o [2026-05-27 13:30:43.915 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 131, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/131/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/131/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:44.736 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 747.5469 MBytes, peak memory used: 747.5469 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 131, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:44.738 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 131, "testname": "DC_MC"}
+\o [2026-05-27 13:30:44.741 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 144, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "144:1:156", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "33029"}
+\o [2026-05-27 13:30:44.742 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 144, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/144/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/144/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:46.440 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 747.5469 MBytes, peak memory used: 747.5469 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 144, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:46.442 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 144, "testname": "DC_MC"}
+\o [2026-05-27 13:30:46.446 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 157, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "157:1:169", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "35004"}
+\o [2026-05-27 13:30:46.447 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 157, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/157/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/157/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:47.357 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 747.5469 MBytes, peak memory used: 747.5469 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 157, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:47.359 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 157, "testname": "DC_MC"}
+\o [2026-05-27 13:30:47.363 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 170, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "170:1:182", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "36979"}
+\o [2026-05-27 13:30:47.366 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 170, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/170/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/170/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:48.439 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5586 MBytes, peak memory used: 749.5586 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 170, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:48.440 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 170, "testname": "DC_MC"}
+\o [2026-05-27 13:30:48.444 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 183, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "183:1:195", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "38954"}
+\o [2026-05-27 13:30:48.445 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 183, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/183/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/183/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:49.693 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.2422 MBytes, peak memory used: 752.2422 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 183, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:49.695 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 183, "testname": "DC_MC"}
+\o [2026-05-27 13:30:49.699 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 196, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "196:1:200", "HistoryName": "MonteCarlo.3", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "40929"}
+\o [2026-05-27 13:30:49.699 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 196, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/196/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.3/196/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:30:50.973 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 753.6641 MBytes, peak memory used: 753.6641 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 196, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:30:50.974 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 196, "testname": "DC_MC"}
+\o [2026-05-27 13:32:35.240 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "DC_MC", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "42904"}
+\o [2026-05-27 13:32:35.241 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "DC_MC", "testnameKey": "DC_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 97 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = FBIAS
+\o 	Cell         = fbias_bias_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.4
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/1/DC_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.3"
+\o Setting var VDD_PULSE = "0"
+\o Setting var VDD_TR = "1u"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/psf/DC_MC
+\o 
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Initializing the control file using cp:
+\o     cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/psf/DC_MC/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting May 27 13:32:38 2026
+\o [2026-05-27 13:32:38.126 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Heartbeat in netlister service {"point": 0, "testname": "DC_MC"}
+\# Memory report: using         480 MB, process size 2,245 MB at UTC 2026.05.27 13:32:40.230
+\o End netlisting May 27 13:32:47 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components: 24810
+\o 
+\o 	Elapsed time:          9.0s (2756.67/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-27 13:32:47.689 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "DC_MC", "testnameKey": "DC_MC"}
+\o [2026-05-27 13:32:48.694 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 1, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "1:1:13", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "46735"}
+\o [2026-05-27 13:32:48.695 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "DC_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 97 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = FBIAS
+\o 	Cell         = fbias_bias_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.4
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/1/DC_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.3"
+\o Setting var VDD_PULSE = "0"
+\o Setting var VDD_TR = "1u"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/1/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/1/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:51.051 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 790.4844 MBytes, peak memory used: 790.4844 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:51.053 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "DC_MC"}
+\o [2026-05-27 13:32:51.056 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 14, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "14:1:26", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "51439"}
+\o [2026-05-27 13:32:51.058 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 14, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/14/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/14/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:51.961 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 790.4844 MBytes, peak memory used: 790.4844 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 14, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:51.962 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 14, "testname": "DC_MC"}
+\o [2026-05-27 13:32:51.964 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 27, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "27:1:39", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "54519"}
+\o [2026-05-27 13:32:51.965 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 27, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/27/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/27/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:52.792 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 790.7344 MBytes, peak memory used: 790.7344 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 27, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:52.794 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 27, "testname": "DC_MC"}
+\o [2026-05-27 13:32:52.798 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 40, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "40:1:52", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "57599"}
+\o [2026-05-27 13:32:52.798 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 40, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/40/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/40/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:53.625 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 792.9180 MBytes, peak memory used: 792.9180 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 40, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:53.627 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 40, "testname": "DC_MC"}
+\o [2026-05-27 13:32:53.630 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 53, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "53:1:65", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "60679"}
+\o [2026-05-27 13:32:53.630 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 53, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/53/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/53/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:54.528 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 795.0703 MBytes, peak memory used: 795.0703 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:54.530 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 53, "testname": "DC_MC"}
+\o [2026-05-27 13:32:54.534 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 66, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "66:1:78", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "63759"}
+\o [2026-05-27 13:32:54.535 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 66, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/66/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/66/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:55.483 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 797.2070 MBytes, peak memory used: 797.2070 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 66, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:55.485 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 66, "testname": "DC_MC"}
+\o [2026-05-27 13:32:55.487 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 79, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "79:1:91", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "66839"}
+\o [2026-05-27 13:32:55.488 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 79, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/79/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/79/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:56.414 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 799.3438 MBytes, peak memory used: 799.3438 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 79, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:56.416 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 79, "testname": "DC_MC"}
+\o [2026-05-27 13:32:56.419 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 92, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "92:1:104", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "69919"}
+\o [2026-05-27 13:32:56.419 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 92, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/92/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/92/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:57.540 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 801.8828 MBytes, peak memory used: 801.8828 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 92, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:57.542 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 92, "testname": "DC_MC"}
+\o [2026-05-27 13:32:57.550 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 105, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "105:1:117", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "73000"}
+\o [2026-05-27 13:32:57.551 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 105, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/105/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/105/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:58.588 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 801.8828 MBytes, peak memory used: 801.8828 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 105, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:58.590 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 105, "testname": "DC_MC"}
+\o [2026-05-27 13:32:58.593 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 118, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "118:1:130", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "76088"}
+\o [2026-05-27 13:32:58.594 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 118, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/118/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/118/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:32:59.622 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 801.8828 MBytes, peak memory used: 801.8828 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 118, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:32:59.624 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 118, "testname": "DC_MC"}
+\o [2026-05-27 13:32:59.634 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 131, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "131:1:143", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "79176"}
+\o [2026-05-27 13:32:59.635 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 131, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/131/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/131/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:33:00.900 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 801.8828 MBytes, peak memory used: 801.8828 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 131, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:33:00.902 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 131, "testname": "DC_MC"}
+\o [2026-05-27 13:33:00.905 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 144, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "144:1:156", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "82264"}
+\o [2026-05-27 13:33:00.906 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 144, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/144/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/144/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:33:02.263 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 801.8828 MBytes, peak memory used: 801.8828 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 144, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:33:02.264 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 144, "testname": "DC_MC"}
+\o [2026-05-27 13:33:02.271 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 157, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "157:1:169", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "85352"}
+\o [2026-05-27 13:33:02.276 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 157, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/157/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/157/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:33:03.687 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 801.8828 MBytes, peak memory used: 801.8828 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 157, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:33:03.688 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 157, "testname": "DC_MC"}
+\o [2026-05-27 13:33:03.692 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 170, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "170:1:182", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "88440"}
+\o [2026-05-27 13:33:03.693 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 170, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/170/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/170/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:33:05.511 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 801.8828 MBytes, peak memory used: 801.8828 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 170, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:33:05.513 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 170, "testname": "DC_MC"}
+\o [2026-05-27 13:33:05.517 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 183, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "183:1:195", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "91528"}
+\o [2026-05-27 13:33:05.518 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 183, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/183/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/183/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:33:07.582 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 801.8828 MBytes, peak memory used: 801.8828 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 183, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:33:07.583 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 183, "testname": "DC_MC"}
+\o [2026-05-27 13:33:07.598 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 196, "testname": "DC_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "196:1:200", "HistoryName": "MonteCarlo.4", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log", "logFileSize": "94616"}
+\o [2026-05-27 13:33:07.600 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 196, "testname": "DC_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/196/DC_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_bias_tb/maestro/results/maestro/MonteCarlo.4/196/DC_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_por2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_gm_c1_f2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fecg_bandgap3_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_cur_ref2_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_vol_ref1_layout av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-27 13:33:09.981 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 802.3867 MBytes, peak memory used: 802.3867 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 389582, "testname": "DC_MC", "point": 196, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service97.log"}
+\o [2026-05-27 13:33:09.982 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 196, "testname": "DC_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [13:38:11.146880] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [13:38:11.146904] Feature usage summary:
+\# Memory report: on exit            515 MB, process size 2,277 MB at UTC 2026.05.27 13:38:11.671
+\# Memory report: peak usage         515 MB, process size 2,280 MB

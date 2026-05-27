@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/6_TIA_Front_Layout.dv
+dv_start matched                                  
+dv_cell {6_TIA_Front_Layout} {6_TIA_Front_Layout} matched
+dv_obj_count -transformed_nets {12 12} -transformed_inst {19 19} -transformed_port {6 6}
+dv_end

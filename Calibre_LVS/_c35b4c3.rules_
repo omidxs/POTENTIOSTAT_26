@@ -1,0 +1,28 @@
+//
+//  Rule file generated on Tue May 26 21:35:28 2026
+//  by Calibre Interactive v2022.4_16.8    Mon Oct 3 17:12:31 PDT 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "6_TIA_Front_Layout.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "6_TIA_Front_Layout"
+
+SOURCE PATH "6_TIA_Front_Layout.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "6_TIA_Front_Layout"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "6_TIA_Front_Layout.lvs.report"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "6_TIA_Front_Layout.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+INCLUDE "/opt/pdk/ams/410/calibre/c35b4/c35b4c3.rules"

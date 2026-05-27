@@ -1,2 +1,5 @@
-{"index": 3, "analyses": false, "uniqueName": "i /R1/PLUS; tran (I)", "name": "i /R1/PLUS; tran (I)", "convertedExpression": "itime('tran \"/R1/PLUS\")", "spec": false, "evalType": false, "signalNames": false}
-{"index": 2, "analyses": false, "uniqueName": "DC_Out_current", "name": "DC_Out_current", "convertedExpression": "IDC(\"/R1/PLUS\")", "spec": false, "evalType": "point", "signalNames": false}
+{"index": 1, "analyses": false, "uniqueName": "VDC(\"/BG_REF\")", "name": "", "convertedExpression": "VDC(\"/BG_REF\")", "spec": false, "evalType": "point", "signalNames": false}
+{"index": 3, "analyses": false, "uniqueName": "v /BG_REF; dc (V)", "name": "v /BG_REF; dc (V)", "convertedExpression": "v(\"/BG_REF\" ?result \"dc\")", "spec": false, "evalType": false, "signalNames": false}
+{"index": 5, "analyses": false, "uniqueName": "Output_noise_ECG_Vrms", "name": "Output_noise_ECG_Vrms", "convertedExpression": "sqrt(totalNoise(\"noise\" 0.01 250 nil))", "spec": false, "evalType": "point", "signalNames": false}
+{"index": 4, "analyses": false, "uniqueName": "Output_noise_Vrms", "name": "Output_noise_Vrms", "convertedExpression": "sqrt(totalNoise(\"noise\" 0.01 100000000 nil))", "spec": false, "evalType": "point", "signalNames": false}
+{"index": 6, "analyses": false, "uniqueName": "PSRR", "name": "PSRR", "convertedExpression": "db(getData(\"/V0\" ?result \"xf\"))", "spec": false, "evalType": false, "signalNames": false}

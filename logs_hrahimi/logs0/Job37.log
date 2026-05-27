@@ -1,0 +1,1091 @@
+[Simulation Monitor: 37]
+[2026-05-27 11:29:58.171 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor has successfully started up. Trying to set up communication channels to other components ... {"hostname": "il2244vt26_hrahimi", "processid": 291179, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:29:58.172 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Communication channels have been successfully set up. Start processing events ... {"hostname": "il2244vt26_hrahimi", "processid": 291179, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:29:58.172 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Considering to start history {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "Interactive.37", "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:29:58.181 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started History {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:29:58.182 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	il2244vt26_hrahimi (x86_64)
+Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025 {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "nodename": "il2244vt26_hrahimi", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "5.15.0-164-generic", "version": "#174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025"}
+[2026-05-27 11:29:58.182 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=291179
+totalPhysicalMemory=3023.749672GB,Used=1943.749718GB,totalVirtualMemory=3031.749668GB,Used=1943.777061GB
+Cpu: Cores=48, Load average:33.550000,34.610000,35.830000 {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "pid": "291179", "totalPhysicalMemory": "3023.749672", "physicalMemoryUsed": "1943.749718", "totalVirtualMemory": "3031.749668", "virtualMemoryUsed": "1943.777061", "cpuCores": "48", "processes": "29901", "loadAverage1": "33.550000", "loadAverage5": "34.610000", "loadAverage15": "35.830000", "loadAverage1Percent": "0.698958"}
+[2026-05-27 11:29:58.185 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - GroupPoints {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal", "event": "GroupPoints", "EventSource": "Simulation Monitor", "Points": "53:1:65", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "logFileSize": "2713"}
+[2026-05-27 11:29:58.287 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - GroupPoints {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal", "event": "GroupPoints", "EventSource": "spectre", "Points": "53:1:65", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fecg_bandgap_tb/maestro/results/maestro/MonteCarlo.0/53/DC_MC/groupRunDataDir/psf/spectre.out", "logFileSize": "-1"}
+[2026-05-27 11:29:58.315 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:29:58.320 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Expression evaluator launched {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:29:58.414 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:29:59.415 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.415 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.416 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.416 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.417 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.417 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.418 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.418 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 183 Mbytes. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.418 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.919 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3027): The dangling resistor I0.re712 is removed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.921 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3027): The dangling resistor I0.re715 is removed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.921 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3027): The dangling resistor I0.re718 is removed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.921 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3027): The dangling resistor I0.re858 is removed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.922 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3027): The dangling resistor I0.re721 is removed.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.922 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3015): The dangling node I0.28\:Y is removed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.922 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3015): The dangling node I0.30\:BIAS is removed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.922 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3015): The dangling node I0.24\:BIAS is removed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.923 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3015): The dangling node I0.17\:BIAS is removed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.923 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3015): The dangling node I0.23\:BIAS is removed.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.924 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    Spectre X Parasitic Optimization enabled.
+    Parasitic optimization will filter out parasitic nodes, nodes only connected to RCs, by default. To view individual parasitic nodes use individual save statements (i.e. save out), or use the 'savefilter=none' option to save all parasitic nodes. Saving all parasitic nodes may slow down simulation and create large waveform files. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.924 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 204 Mbytes. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.925 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.925 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 207 Mbytes. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.925 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-17607): Assert `SOAC_vert10_vsubpsub' is ignored because it contains an expression which is invalid or not supported by native evaluator.  {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.926 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-17607): Assert `SOAC_vert10_vcsub' is ignored because it contains an expression which is invalid or not supported by native evaluator.  {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.926 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vminuspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator.  {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.927 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vpluspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator.  {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.927 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.927 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.928 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.928 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.928 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.929 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.929 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.929 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.930 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.930 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:29:59.930 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-17607): Assert `SOAC_cpoly_vminuspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.434 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 3079 {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.434 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Spectre X preset=mx enabled.
+    75 warnings suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.436 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    Multithreading enabled: 8 threads in the system with 48 available processors. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.437 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 227 Mbytes. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.437 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is [2, 4], consider adding +mt=2 or +mt=4 on command line. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.438 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.438 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.438 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(27)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(27).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.439 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(26)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(26).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.439 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(25)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(25).bjtinsub: `minr' has the unusually small value of 10 fOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.440 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at iteration = 53 during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.940 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at iteration = 53 during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.941 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.941 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.942 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.942 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.942 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.942 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 493.308 ms, elapsed = 300.846 ms, util. = 164%. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.942 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 244 Mbytes. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.943 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at iteration = 53 during Monte Carlo analysis `mc1'.
+    183 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.943 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 2.87994 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.943 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 5.79105 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.943 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 8.73335 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.944 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 11.6951 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:01.944 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.10\:S2) = 14.6676 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.947 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.947 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.948 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.948 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.949 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.949 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.949 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.3287 s, elapsed = 2.13295 s, util. = 109%. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.950 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 250 Mbytes. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:03.950 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    56 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.952 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.952 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.953 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.953 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.953 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.954 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.954 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 918.773 ms, elapsed = 626.152 ms, util. = 147%. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.954 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 258 Mbytes. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.955 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:04.955 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:04.955 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 54, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:05.456 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `rbm' has the unusually small value of 947.928 mOhm.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:05.457 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `rbm' has the unusually small value of 947.928 mOhm.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:05.457 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `rbm' has the unusually small value of 947.928 mOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.959 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.959 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.960 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.960 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.960 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.960 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.960 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 1.42797 s, elapsed = 1.46411 s, util. = 97.5%. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.961 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 260 Mbytes. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:06.961 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    121 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:07.462 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 827.03 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:07.463 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 1.50041 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:07.464 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 2.00607 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:07.464 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 2.35474 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:07.465 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.3\:Vo2) = 2.57466 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.468 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.468 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.469 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.469 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.470 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.470 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.471 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.38559 s, elapsed = 3.20909 s, util. = 74.3%. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.471 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 261 Mbytes. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.471 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    57 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.972 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.972 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.973 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.973 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.974 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:10.974 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.479 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 721.134 ms, elapsed = 730.117 ms, util. = 98.8%. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.479 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 264 Mbytes. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.479 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.480 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.481 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.481 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.481 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(27)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(27).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.482 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(26)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(26).bjtinsub: `minr' has the unusually small value of 10 fOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 54, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:11.482 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 54, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:11.483 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 55, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:15.487 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.491 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.492 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.493 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.494 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.494 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.495 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 3.55953 s, elapsed = 3.4816 s, util. = 102%. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.495 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 266 Mbytes. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.496 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    58 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.997 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 1.99281 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.998 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 4.0551 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.998 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 6.17525 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.999 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 8.34583 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:15.999 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.10\:S2) = 10.5551 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.502 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.503 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.504 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.504 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.505 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.505 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.506 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.3127 s, elapsed = 2.82691 s, util. = 81.8%. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.506 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 268 Mbytes. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:18.506 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    50 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:19.522 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:19.523 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:19.523 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:19.523 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:19.524 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:19.524 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:20.025 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 741.867 ms, elapsed = 759.193 ms, util. = 97.7%. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:20.026 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 271 Mbytes. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:20.026 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:20.027 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `rbm' has the unusually small value of 910.428 mOhm.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:20.028 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `rbm' has the unusually small value of 910.428 mOhm.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:20.028 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `rbm' has the unusually small value of 910.428 mOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 55, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:20.029 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 55, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:20.029 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 56, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:21.030 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.039 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.040 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.040 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.041 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.041 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.042 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 569.443 ms, elapsed = 542.237 ms, util. = 105%. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.042 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 272 Mbytes. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.043 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    121 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.544 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 2.68345 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.546 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 5.41449 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.546 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 8.18855 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.547 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 10.9985 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:21.548 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.10\:S2) = 13.8294 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.552 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.552 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.553 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.553 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.554 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.554 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.554 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.3641 s, elapsed = 2.50791 s, util. = 94.3%. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.555 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 272 Mbytes. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:23.555 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    56 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:24.570 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:24.578 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:24.590 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:24.592 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:24.592 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:24.593 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:25.094 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 880.156 ms, elapsed = 773.732 ms, util. = 114%. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:25.094 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 275 Mbytes. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:25.095 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 56, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:25.095 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 56, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:25.096 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 57, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:25.597 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:25.597 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:25.597 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:25.598 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(27)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(27).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:25.599 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(26)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(26).bjtinsub: `minr' has the unusually small value of 10 fOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.600 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.601 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.601 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.601 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.602 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.602 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.602 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 601.276 ms, elapsed = 517.65 ms, util. = 116%. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.603 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 276 Mbytes. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.603 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    58 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.603 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 197.879 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.604 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 385.486 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.604 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 558.282 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.604 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 712.934 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:26.604 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.3\:Vo2) = 848.487 uV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.108 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.109 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.109 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.110 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.110 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.111 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.111 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.33288 s, elapsed = 2.58874 s, util. = 90.1%. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.112 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 277 Mbytes. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.112 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    57 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.613 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.614 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.614 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.615 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.615 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:29.616 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:30.117 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 717.045 ms, elapsed = 642.962 ms, util. = 112%. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:30.117 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 279 Mbytes. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:30.117 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:30.118 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `rbm' has the unusually small value of 960.428 mOhm.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:30.119 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `rbm' has the unusually small value of 960.428 mOhm.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:30.119 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `rbm' has the unusually small value of 960.428 mOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 57, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:30.119 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 57, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:30.119 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 58, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:31.121 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.121 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.121 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.122 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.122 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.122 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.123 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 676.637 ms, elapsed = 556.628 ms, util. = 122%. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.123 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 281 Mbytes. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.123 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    121 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.123 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 1.94608 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.124 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 3.99282 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.124 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 6.14123 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.124 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 8.38065 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:31.125 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.10\:S2) = 10.6919 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.627 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.628 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.628 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.629 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.629 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.630 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.630 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.3596 s, elapsed = 2.55269 s, util. = 92.4%. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.630 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 281 Mbytes. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:33.631 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    57 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:34.635 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:34.635 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:34.635 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:34.636 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:34.636 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:34.637 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.138 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 832.459 ms, elapsed = 749.179 ms, util. = 111%. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.138 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 283 Mbytes. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.138 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.139 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.139 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.140 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.140 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(27)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(27).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.140 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(26)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(26).bjtinsub: `minr' has the unusually small value of 10 fOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 58, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:35.141 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 58, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:35.141 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 59, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:36.142 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.142 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.143 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.144 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.145 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.146 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.146 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 580.796 ms, elapsed = 541.972 ms, util. = 107%. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.147 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 284 Mbytes. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.147 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    58 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.148 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 29.3884 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.149 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 61.5118 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.149 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 96.0289 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.149 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 132.333 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:36.150 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.3\:Vo2) = 169.717 uV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.653 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.653 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.654 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.654 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.654 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.654 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.655 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.30437 s, elapsed = 2.48107 s, util. = 92.9%. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.655 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 285 Mbytes. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:38.655 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    32 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.156 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.157 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.157 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.157 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.158 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.158 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.676 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 742.528 ms, elapsed = 675.241 ms, util. = 110%. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.677 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 285 Mbytes. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.677 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.678 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.678 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.679 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.680 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(27)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(27).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.680 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(26)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(26).bjtinsub: `minr' has the unusually small value of 10 fOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 59, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:39.681 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 59, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:39.681 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 60, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:40.688 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.689 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.689 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.689 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.690 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.690 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.691 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 607.412 ms, elapsed = 553.822 ms, util. = 110%. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.691 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 286 Mbytes. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.691 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    58 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.691 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 2.98013 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.692 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 5.98814 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:40.692 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 9.01914 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:41.193 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 12.0627 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:41.193 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.10\:S2) = 15.1131 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.196 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.197 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.197 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.197 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.197 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.197 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.198 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.27668 s, elapsed = 3.2507 s, util. = 70%. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.198 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 286 Mbytes. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:44.198 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    57 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.200 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.200 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.200 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.201 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.201 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.202 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 60, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.202 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 60, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:45.203 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 61, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:45.704 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 1.12747 s, elapsed = 1.02428 s, util. = 110%. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.704 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 287 Mbytes. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.705 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.706 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `rbm' has the unusually small value of 985.428 mOhm.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.707 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `rbm' has the unusually small value of 985.428 mOhm.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:45.707 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `rbm' has the unusually small value of 985.428 mOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.708 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.718 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.718 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.719 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.719 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.720 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.720 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 648.947 ms, elapsed = 510.398 ms, util. = 127%. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.720 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 288 Mbytes. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.720 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    121 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.721 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 1.77027 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.721 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 3.67999 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.722 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 5.71994 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.722 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 7.87033 mV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:46.723 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.10\:S2) = 10.1188 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:47.724 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 1.04 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:47.724 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 1.06 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:47.725 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 1.08 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:47.725 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 1.1 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:47.725 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 1.12 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.231 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.233 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.233 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.234 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.234 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.234 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.234 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.33997 s, elapsed = 3.4286 s, util. = 68.2%. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.235 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 289 Mbytes. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:50.235 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    164 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.237 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.237 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.238 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.239 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.239 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.239 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.240 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-17191): 
+        Tolerance relaxation is used to obtain final DC solution which may affect the accuracy of the result. This is mainly caused by the high impedance nodes in the circuit. Use the dyn_highz check to determine the high impedance nodes. Setting/assigning appropriate initial values to these nodes will usually help to improve both performance and accuracy of DC simulations. {"history": "MonteCarlo.0", "point": 61, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.240 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 61, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:51.241 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 62, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:51.242 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 884.203 ms, elapsed = 773.031 ms, util. = 114%. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.242 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 290 Mbytes. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.242 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.243 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.243 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.243 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.244 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(27)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(27).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:51.244 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(26)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(26).bjtinsub: `minr' has the unusually small value of 10 fOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.746 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.747 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.748 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.749 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.749 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.750 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.750 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 706.535 ms, elapsed = 598.422 ms, util. = 118%. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.751 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 292 Mbytes. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.751 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    58 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.751 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 0 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.752 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 85.6176 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.753 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 173.77 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.753 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 262.64 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.754 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.3\:Vo2) = 350.096 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:52.754 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.3\:Vo2) = 434.76 uV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.257 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.258 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.258 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.259 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.259 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.260 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.262 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.29964 s, elapsed = 2.85706 s, util. = 80.5%. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.262 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 292 Mbytes. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:55.262 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    215 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.264 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.265 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.265 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.266 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.266 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.267 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.768 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 713.614 ms, elapsed = 647.457 ms, util. = 110%. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.771 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 293 Mbytes. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.772 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.772 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `rbm' has the unusually small value of 935.428 mOhm.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.773 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `rbm' has the unusually small value of 935.428 mOhm.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.773 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `rbm' has the unusually small value of 935.428 mOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 62, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:56.774 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 62, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:30:56.774 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 63, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:30:57.776 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.776 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.777 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.778 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.779 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.779 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.779 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 700.288 ms, elapsed = 710.508 ms, util. = 98.6%. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.780 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 294 Mbytes. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.780 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    121 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.781 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 0 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.781 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 2.81295 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.781 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 5.64577 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:57.782 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 8.48655 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:58.284 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 11.3385 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:30:58.285 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.10\:S2) = 14.1956 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.787 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.788 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.789 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.790 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.791 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.792 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.792 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.31441 s, elapsed = 2.88452 s, util. = 80.2%. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.793 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 294 Mbytes. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:00.793 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    217 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.294 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.295 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.295 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.296 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.296 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.297 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.798 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 852.876 ms, elapsed = 728.119 ms, util. = 117%. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.800 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 296 Mbytes. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.800 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 63, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:01.801 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 63, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:31:01.801 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 64, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:31:02.303 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:02.304 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:02.305 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:02.306 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(27)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(27).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:02.307 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(26)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(26).bjtinsub: `minr' has the unusually small value of 10 fOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.319 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.319 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.320 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.320 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.321 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.322 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.322 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 604.7 ms, elapsed = 558.323 ms, util. = 108%. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.324 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 298 Mbytes. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.325 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    58 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.325 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 0 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.326 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.35\:Vo1) = 438.878 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.326 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.35\:Vo1) = 911.544 uV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.327 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.35\:Vo1) = 1.42342 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.328 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.35\:Vo1) = 1.97802 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:03.330 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.35\:Vo1) = 2.57579 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.832 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.833 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.833 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.834 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.835 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.835 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.836 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.34232 s, elapsed = 2.52378 s, util. = 92.8%. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.836 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 298 Mbytes. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:05.836 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    208 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.337 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.337 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.337 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.339 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.839 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 780.456 ms, elapsed = 679.165 ms, util. = 115%. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.840 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 298 Mbytes. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.840 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.841 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(30)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(30).bjtinsub: `rbm' has the unusually small value of 902.616 mOhm.
+    I0.Q3(30).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.841 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(29)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(29).bjtinsub: `rbm' has the unusually small value of 902.616 mOhm.
+    I0.Q3(29).bjtinsub: `minr' has the unusually small value of 10 fOhm. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.842 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre in `vert10':`I0.Q3(28)', in `fecg_bandgap3_layout':`I0', during Monte Carlo analysis `mc1'.
+    I0.Q3(28).bjtinsub: `rbm' has the unusually small value of 902.616 mOhm.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 64, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:06.842 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 64, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:31:06.842 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 65, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "event": "started", "task": "simulation"}
+[2026-05-27 11:31:08.344 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.345 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.345 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.345 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.346 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.346 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.347 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 600.301 ms, elapsed = 709.119 ms, util. = 84.7%. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.347 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 300 Mbytes. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.347 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    121 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.347 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 0 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.348 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 20e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 2.74866 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.348 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 40e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 5.54672 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.348 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 60e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 8.39137 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.349 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 80e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.10\:S2) = 11.2655 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:08.349 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 100e-03 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(I0.10\:S2) = 14.1679 mV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.851 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.852 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.852 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.852 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.852 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.852 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at VDD = 3.3 during DC analysis `dc', during Monte Carlo analysis `mc1'.
+    The value of parameter 'VDD' has been reset to the original value 3.3. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.853 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 2.37857 s, elapsed = 2.67183 s, util. = 89%. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.853 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 300 Mbytes. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:10.854 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during Monte Carlo analysis `mc1'.
+    218 notices suppressed.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.355 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.365 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.365 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CM'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.366 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS1'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.366 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R44.CS0'. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.366 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R23.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.867 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for xf analysis `xf': CPU = 787.037 ms, elapsed = 650.958 ms, util. = 121%. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.868 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 302 Mbytes. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.869 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    137 warnings suppressed. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.869 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for montecarlo analysis `mc1': CPU = 65.622 s (1m  5.6s), elapsed = 70.8053 s (1m  10.8s), util. = 92.7%. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.869 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 302 Mbytes. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.870 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 67.1 s (1m  7.1s), elapsed = 73 s (1m  13.0s), util. = 91.9%. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.871 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 106 ms. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.872 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 303 Mbytes. {"history": "MonteCarlo.0", "point": 65, "testname": "DC_MC", "cornername": "Nominal"}
+[2026-05-27 11:31:11.874 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 11:29:58 AM, Wed May 27, 2026, ended at: 11:31:11 AM, Wed May 27, 2026, with elapsed time (wall clock): 73 s (1m  13.0s). {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal", "Points": "53 54 55 56 57 58 59 60 61 62 63 64 65 "}
+[2026-05-27 11:31:11.874 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 0 errors, 228 warnings, and 271 notices. {"history": "MonteCarlo.0", "point": 53, "testname": "DC_MC", "cornername": "Nominal", "Points": "53 54 55 56 57 58 59 60 61 62 63 64 65 "}
+[2026-05-27 11:31:11.874 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one iteration {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 65, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:31:12.379 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator exited {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 65, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "exitStatus": "0"}
+[2026-05-27 11:31:12.379 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log", "simid": "1"}
+[2026-05-27 11:31:13.383 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:14.404 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:15.389 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:16.389 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:17.390 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:18.390 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:19.391 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:20.392 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:21.394 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:22.394 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:23.394 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:24.397 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:31:25.396 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '1', Linger time '300', currentRunSyn '3', currentTestSyn '4' {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:36:15.712 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Current memory used: 53.2344 MBytes, peak memory used: 53.2344 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}
+[2026-05-27 11:36:15.712 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor process exit. {"hostname": "il2244vt26_hrahimi", "processid": 291179, "history": "MonteCarlo.0", "testname": "DC_MC", "cornername": "Nominal", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job37.log"}

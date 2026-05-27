@@ -1,0 +1,260 @@
+fbias_vol_ref1_layout 1000
+INFO_PROCESS_C35B4C3
+1 1 3 May 26 20:50:42 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO : checked with c35b4c3
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+358362 149050
+359362 149050
+359362 150050
+358362 150050
+INFO_QRC_MODE_OFF
+1 1 3 May 26 20:50:42 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO : QRC_MODE turned off
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+358362 149050
+359362 149050
+359362 150050
+358362 150050
+INFO_RMETX_DEVICE_SHORTED
+1 1 3 May 26 20:50:42 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO: DRC checked without rmetx device ( metx NOT opened )
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+358362 149050
+359362 149050
+359362 150050
+358362 150050
+INFO_RMETX_VIAX_DEVICE_SHORTED
+1 1 3 May 26 20:50:42 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO: DRC checked without rmetx_viax device ( metx_viax NOT opened )
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+358362 149050
+359362 149050
+359362 150050
+358362 150050
+INFO_NWELL_HOT
+4 4 3 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO: this nwell is hot
+p 1 4
+CN rpolyhc_CDNS_779828640470 c 0 1 -1 0 289000 162050 24
+-6000 -4650
+10000 -4650
+10000 11650
+-6000 11650
+p 2 4
+CN cvar_CDNS_779828640472 c 0 -1 1 0 372725 42075 11
+-300 -300
+17500 -300
+17500 121700
+-300 121700
+p 3 10
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+275800 154500
+346700 154500
+346700 203600
+345150 203600
+345150 156050
+277350 156050
+277350 202050
+345150 202050
+345150 203600
+275800 203600
+p 4 4
+337400 244100
+362450 244100
+362450 269600
+337400 269600
+ILL_MET1_DIE_RATIO_M1R1
+1 1 3 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+M1_R_1 Minimum density of MET1 area [%] = 30 
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+219650 12200
+498075 12200
+498075 286900
+219650 286900
+ILL_MET3_DIE_RATIO_M3R1
+1 1 3 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+M3_R_1 Minimum density of MET3 area [%] = 30 
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+219650 12200
+498075 12200
+498075 286900
+219650 286900
+ILL_MET4_DIE_RATIO_M4R1
+1 1 3 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+M4_R_1 Minimum density of MET4 area [%] = 30 
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+219650 12200
+498075 12200
+498075 286900
+219650 286900
+WIDTH_RPOLYH_RECG2
+1 1 3 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+RPOLYH_G2 Minimum high precision RPOLYH width = 2
+p 1 24
+CN rpolyhc_CDNS_779828640470 c 0 1 -1 0 289000 162050 24
+-1450 -100
+250 -100
+448 0
+4800 0
+4800 2350
+0 2350
+0 3100
+4800 3100
+4800 5450
+0 5450
+0 6200
+5450 6200
+5450 7100
+3750 7100
+3552 7000
+-800 7000
+-800 4650
+4000 4650
+4000 3900
+-800 3900
+-800 1550
+4000 1550
+4000 800
+-1450 800
+INFO_TEXT_VDD
+1 1 2 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+238650 285575
+238750 285575
+238750 285675
+238650 285675
+INFO_TEXT_VSS
+1 1 2 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+242800 16575
+242900 16575
+242900 16675
+242800 16675
+INFO_GATES_CONN_VSS_ERC
+4 4 3 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+ERC Warning: Gates connected VSS/GND/VEE/VSUB, do not switch
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+244850 60200
+249850 60200
+249850 93200
+244850 93200
+p 2 4
+244850 99500
+249850 99500
+249850 132500
+244850 132500
+p 3 4
+339750 60200
+344750 60200
+344750 93200
+339750 93200
+p 4 4
+339750 99500
+344750 99500
+344750 132500
+339750 132500
+INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN
+3 3 3 May 26 20:50:43 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO : This poly2 over HRES layer is high ohmic and connected to tap or hres term
+p 1 18
+CN rpolyhc_CDNS_779828640470 c 0 1 -1 0 289000 162050 24
+-3000 -1650
+7000 -1650
+7000 8650
+6200 8650
+6200 5450
+5550 5450
+5550 -750
+1000 -750
+1000 -850
+-2200 -850
+-2200 1550
+-1550 1550
+-1550 7750
+3000 7750
+3000 7850
+6200 7850
+6200 8650
+-3000 8650
+p 2 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+280975 178350
+281875 178350
+281875 179250
+280975 179250
+p 3 4
+340700 178800
+341600 178800
+341600 179700
+340700 179700
+INFO_NWELL_GROUNDED_ERC
+2 2 3 May 26 20:50:44 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+nwell conn vss
+p 1 4
+CN fbias_vol_ref1_layout c 1 0 0 1 0 0 0
+275800 154500
+346700 154500
+346700 203600
+275800 203600
+p 2 4
+337400 244100
+362450 244100
+362450 269600
+337400 269600
+NET_AREA_RATIO_RDBS
+0 0 1 May 26 20:50:45 2026
+par009_pad_oa_min_l_wtot.rdb 0
+DENSITY_PRINT_FILES
+0 0 7 May 26 20:50:45 2026
+ratio_poly1_die.txt
+ratio_met1_die.txt
+ratio_met2_die.txt
+ratio_met3_die.txt
+ratio_met4_die.txt
+ratio_viatsv_die.txt
+ratio_mettsv_die.txt
+NET_AREA_RATIO_PRINT_FILES
+0 0 2 May 26 20:50:45 2026
+ratio_poly1_cont.txt
+ratio_poly2_cont.txt
+LAYOUT_INPUT_EXCEPTION_RDBS
+0 0 1 May 26 20:50:45 2026
+badpath_polygon.rdb 0

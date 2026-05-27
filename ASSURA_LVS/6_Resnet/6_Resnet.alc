@@ -1,0 +1,5 @@
+!<alc> v1 108
+0    8    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" gwell="N-Well" l="500u" r="1M" w="800n" in1=R17
+0    4    0 nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN20
+0    3    0 Inverter layout Potentiostat
+0    9    0 6_Resnet layout Potentiostat

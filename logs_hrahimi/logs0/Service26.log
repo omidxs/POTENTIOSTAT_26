@@ -1,0 +1,2153 @@
+\# Program start time:     UTC 2026.05.26 21:49:41.618
+\# Local time: UTC (UTC+00:00) 2026.05.26 21:49:41.618
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service26.log -mpssession virtuoso145983 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_145983_1779828956 -scopedPid 145983 -axlSession fnxSession4 -axlServiceIdFlag 26 -uuid dabcfad8-b118-403e-8a0d-f94ae7dbf043 -heartbeat /dev/shm/swift-heartbeat.krlReDV5uV -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CF59A6CE975D65B00001E09 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	il2244vt26_hrahimi (x86_64)
+\# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:6840 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,556 MB
+\# Available memory:	  2,342,882 MB
+\# System memory:	  3,104,512 MB
+\# Maximum memory size:	  3,103,077 MB
+\# Max mem available:	  2,343,004 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,677 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		hrahimi
+\o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
+\# Process Id:		215313
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         231 MB, process size 1,873 MB at UTC 2026.05.26 21:49:43.422
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso145983, host=il2244vt26_hrahimi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 215313 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [21:49:41.445354] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\o ......................................................................................
+\o            ams AG HIT-Kit v.ams_4.10
+\o ......................................................................................
+\o COPYRIGHT (c) 2012 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This HIT-Kit and attached documentation are confidential information and may 
+\o only be used as authorized by the HIT-Kit license agreement.
+\o ......................................................................................
+\# Current Window: window(2)
+\o Loading simulator default settings.
+\w 
+\w load( "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl" ))
+\w                                                                                  ^
+\w PARSER WARNING at line 63 column 82 of file ./.cdsinit_local
+\w *WARNING* (Parser): extra ')' ignored
+\o //
+\o //  Calibre Skill Interface * (v2022.4_16.8) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o Loading simulator default settings.
+\p hitkit: ams_4.10  Tech: c35b4c3  User: hrahimi 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 215313' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\i _axlRunServices()
+\o Loading simui.cxt 
+\o [2026-05-26 21:49:46.699 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 215313, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:49:46.742 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "6151"}
+\o [2026-05-26 21:49:46.743 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "testnameKey": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\# Memory report: using         339 MB, process size 2,098 MB at UTC 2026.05.26 21:49:48.485
+\o Loading vqp.cxt 
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 26 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat
+\o 	Cell         = 7_CA_TIA_Front_tb_calib
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.202
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/1/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_CA_TIA_Front_tb_calib/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "0"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "0"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "1"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "1.7"
+\o Setting var Vin_CA_AC = "1"
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "-50m"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/psf/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\# Available memory:      2,342,394 MB at UTC 2026.05.26 21:49:52.015
+\# Memory report: Maximum memory size now 2,342,811 MB at UTC 2026.05.26 21:49:52.016
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.05.26 21:49:52.016
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\# [21:49:52.042192] Periodic Lic check successful
+\# [21:49:52.042193] Feature usage summary:
+\o Begin Incremental Netlisting May 26 21:49:52 2026
+\o WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+\o directory. Netlist(s) from last session cannot be reused for incremental
+\o netlisting. Therefore, re-netlisting the design.
+\o 
+\# Memory report: using         458 MB, process size 2,222 MB at UTC 2026.05.26 21:49:54.118
+\o WARNING (ADE-6003): Terminal "CE", specified in the CDF termOrder, does not exist
+\o            in the cell-view "Potentiostat" "6_CA_Front_Layout" "av_extracted"
+\o WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+\o            termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+\o            be ignored. The terminals in the cellView will be netlisted in the alphabetical
+\o            order of their names. Eliminate the mismatch if you want the CDF termOrder
+\o            property to be used for netlisting.
+\o            To edit CDF of a cell, 
+\o            i) Open CIW->Tools->CDF->Edit.
+\o            ii) Select Library Name & Cell Name.
+\o            iii) Click on the Edit button in the simulation information section of the
+\o                 Edit CDF window.
+\o WARNING (ADE-6003): Terminal "Iin", specified in the CDF termOrder, does not exist
+\o            in the cell-view "Potentiostat" "6_TIA_Front_Layout" "av_extracted"
+\o WARNING (ADE-6003): Terminal "Vref", specified in the CDF termOrder, does not exist
+\o            in the cell-view "Potentiostat" "6_TIA_Front_Layout" "av_extracted"
+\o WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+\o            termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+\o            be ignored. The terminals in the cellView will be netlisted in the alphabetical
+\o            order of their names. Eliminate the mismatch if you want the CDF termOrder
+\o            property to be used for netlisting.
+\o            To edit CDF of a cell, 
+\o            i) Open CIW->Tools->CDF->Edit.
+\o            ii) Select Library Name & Cell Name.
+\o            iii) Click on the Edit button in the simulation information section of the
+\o                 Edit CDF window.
+\o [2026-05-26 21:50:03.003 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Heartbeat in netlister service {"point": 0, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Loading json.cxt 
+\o End netlisting May 26 21:50:08 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components: 42866
+\o 
+\o 	Elapsed time:         16.0s (2679.12/s)
+\o Errors: 0	Warnings: 5
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-26 21:50:09.111 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "testnameKey": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:10.121 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "12539"}
+\o [2026-05-26 21:50:10.121 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 26 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat
+\o 	Cell         = 7_CA_TIA_Front_tb_calib
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.202
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/1/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_CA_TIA_Front_tb_calib/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "0"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "0"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "1"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "1.7"
+\o Setting var Vin_CA_AC = "1"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "-50m"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/1/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/1/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:14.426 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:14.427 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:14.429 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "17073"}
+\o [2026-05-26 21:50:14.430 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/2/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/2/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:15.362 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 2, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:15.363 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:15.366 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "19304"}
+\o [2026-05-26 21:50:15.366 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/3/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/3/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:16.105 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 3, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:16.106 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:16.109 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "21505"}
+\o [2026-05-26 21:50:16.109 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/4/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/4/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:16.851 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 4, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:16.852 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:16.855 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "23736"}
+\o [2026-05-26 21:50:16.855 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/5/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/5/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:17.599 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 5, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:17.600 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:17.603 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "25937"}
+\o [2026-05-26 21:50:17.603 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/6/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/6/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:18.379 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 6, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:18.380 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:18.382 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "28168"}
+\o [2026-05-26 21:50:18.383 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/7/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/7/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:19.123 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 7, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:19.123 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:19.126 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "30369"}
+\o [2026-05-26 21:50:19.126 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/8/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/8/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:19.861 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 8, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:19.862 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:19.865 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "32600"}
+\o [2026-05-26 21:50:19.865 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/9/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/9/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:20.754 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 9, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:20.755 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:20.757 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "34801"}
+\o [2026-05-26 21:50:20.757 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/10/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/10/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:21.485 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 10, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:21.486 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:21.488 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 11, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "37038"}
+\o [2026-05-26 21:50:21.488 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 11, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/11/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/11/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:22.177 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 11, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:22.178 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 11, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:22.180 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 12, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "39245"}
+\o [2026-05-26 21:50:22.180 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 12, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/12/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/12/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:22.839 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 12, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:22.840 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 12, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:22.843 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 13, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "41482"}
+\o [2026-05-26 21:50:22.843 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 13, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/13/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/13/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:23.535 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 13, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:23.535 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 13, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:23.537 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 14, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "43689"}
+\o [2026-05-26 21:50:23.538 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 14, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/14/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/14/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:24.309 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 14, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:24.310 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 14, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:24.312 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 15, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "45926"}
+\o [2026-05-26 21:50:24.312 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 15, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/15/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/15/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:25.055 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 15, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:25.056 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 15, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:25.059 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 16, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "48133"}
+\o [2026-05-26 21:50:25.059 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 16, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/16/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/16/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:25.972 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 16, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:25.974 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 16, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:25.977 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 17, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "50370"}
+\o [2026-05-26 21:50:25.978 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 17, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/17/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/17/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:27.013 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 17, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:27.014 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 17, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:27.017 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 18, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "52577"}
+\o [2026-05-26 21:50:27.017 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 18, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/18/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/18/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:27.865 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 18, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:27.867 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 18, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:27.871 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 19, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "54814"}
+\o [2026-05-26 21:50:27.872 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 19, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/19/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/19/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:28.670 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 19, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:28.672 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 19, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:28.675 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 20, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "57021"}
+\o [2026-05-26 21:50:28.676 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 20, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/20/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/20/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:29.383 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 20, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:29.384 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 20, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:29.389 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 21, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "59258"}
+\o [2026-05-26 21:50:29.389 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 21, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/21/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/21/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:30.120 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 21, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:30.121 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 21, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:30.124 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 22, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "61465"}
+\o [2026-05-26 21:50:30.124 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 22, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/22/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/22/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:30.931 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 22, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:30.932 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 22, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:30.936 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 23, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "63702"}
+\o [2026-05-26 21:50:30.936 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 23, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/23/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/23/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:31.785 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 23, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:31.786 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 23, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:31.789 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 24, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "65909"}
+\o [2026-05-26 21:50:31.789 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 24, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/24/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/24/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:32.672 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 24, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:32.673 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 24, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:32.676 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 25, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "68146"}
+\o [2026-05-26 21:50:32.677 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 25, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/25/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/25/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:33.693 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 25, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:33.694 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 25, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:33.707 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 26, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "70353"}
+\o [2026-05-26 21:50:33.707 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 26, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/26/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/26/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:34.490 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 26, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:34.491 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 26, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:34.498 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 27, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "72590"}
+\o [2026-05-26 21:50:34.499 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 27, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/27/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/27/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:35.281 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 27, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:35.282 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 27, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:35.284 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 28, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "74797"}
+\o [2026-05-26 21:50:35.284 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 28, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/28/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/28/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:36.068 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 28, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:36.069 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 28, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:36.071 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 29, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "77034"}
+\o [2026-05-26 21:50:36.071 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 29, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/29/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/29/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:36.840 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 29, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:36.841 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 29, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:36.843 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 30, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "79241"}
+\o [2026-05-26 21:50:36.843 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 30, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/30/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/30/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:37.652 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 30, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:37.653 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 30, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:37.656 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 31, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "81478"}
+\o [2026-05-26 21:50:37.657 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 31, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/31/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/31/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:38.472 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 31, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:38.473 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 31, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:38.476 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 32, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "83685"}
+\o [2026-05-26 21:50:38.476 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 32, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/32/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/32/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:39.450 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 32, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:39.451 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 32, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:39.453 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 33, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "85922"}
+\o [2026-05-26 21:50:39.453 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 33, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/33/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/33/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:40.292 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 33, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:40.294 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 33, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:40.296 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 34, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "88129"}
+\o [2026-05-26 21:50:40.297 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 34, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/34/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/34/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:41.163 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 34, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:41.164 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 34, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:41.166 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 35, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "90366"}
+\o [2026-05-26 21:50:41.166 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 35, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/35/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/35/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:41.978 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 35, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:41.979 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 35, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:41.982 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 36, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "92573"}
+\o [2026-05-26 21:50:41.982 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 36, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/36/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/36/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:42.734 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 36, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:42.735 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 36, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:42.737 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 37, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "94810"}
+\o [2026-05-26 21:50:42.738 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 37, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/37/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/37/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:43.591 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 37, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:43.592 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 37, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:43.595 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 38, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "97017"}
+\o [2026-05-26 21:50:43.595 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 38, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/38/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/38/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:44.430 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 38, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:44.431 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 38, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:44.433 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 39, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "99254"}
+\o [2026-05-26 21:50:44.433 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 39, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/39/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/39/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:45.193 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 39, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:45.194 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 39, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:45.196 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 40, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "101461"}
+\o [2026-05-26 21:50:45.196 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 40, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/40/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/40/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:46.127 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 40, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:46.128 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 40, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:46.130 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 41, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "103699"}
+\o [2026-05-26 21:50:46.131 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 41, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/41/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/41/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:46.882 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 41, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:46.883 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 41, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:46.886 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 42, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "105907"}
+\o [2026-05-26 21:50:46.887 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 42, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/42/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/42/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:47.641 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 42, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:47.642 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 42, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:47.644 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 43, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "108145"}
+\o [2026-05-26 21:50:47.644 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 43, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/43/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/43/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:48.419 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 43, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:48.420 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 43, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:48.422 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 44, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "110353"}
+\o [2026-05-26 21:50:48.422 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 44, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/44/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/44/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:49.208 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 44, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:49.209 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 44, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:49.211 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 45, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "112591"}
+\o [2026-05-26 21:50:49.212 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 45, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/45/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/45/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:49.968 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 45, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:49.969 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 45, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:49.972 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 46, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "114799"}
+\o [2026-05-26 21:50:49.972 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 46, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/46/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/46/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:50.778 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 46, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:50.779 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 46, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:50.781 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 47, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "117037"}
+\o [2026-05-26 21:50:50.781 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 47, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/47/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/47/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:51.753 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 47, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:51.754 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 47, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:51.756 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 48, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "119245"}
+\o [2026-05-26 21:50:51.756 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 48, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/48/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/48/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:52.508 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 48, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:52.510 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 48, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:52.512 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 49, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "121483"}
+\o [2026-05-26 21:50:52.512 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 49, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/49/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/49/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:53.298 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 49, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:53.299 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 49, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:53.302 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 50, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "123691"}
+\o [2026-05-26 21:50:53.303 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 50, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/50/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/50/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:54.084 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 50, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:54.085 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 50, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:54.087 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 51, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "125929"}
+\o [2026-05-26 21:50:54.088 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 51, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/51/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/51/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:54.904 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 51, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:54.905 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 51, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:54.907 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 52, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "128137"}
+\o [2026-05-26 21:50:54.907 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 52, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/52/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/52/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:55.706 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 52, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:55.707 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 52, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:55.710 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 53, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "130375"}
+\o [2026-05-26 21:50:55.710 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 53, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/53/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/53/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:56.546 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:56.547 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 53, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:56.549 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 54, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "132583"}
+\o [2026-05-26 21:50:56.549 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 54, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/54/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/54/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:57.323 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 54, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:57.324 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 54, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:57.326 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 55, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "134821"}
+\o [2026-05-26 21:50:57.328 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 55, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/55/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/55/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:58.313 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 55, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:58.314 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 55, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:58.316 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 56, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "137029"}
+\o [2026-05-26 21:50:58.317 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 56, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/56/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/56/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:59.121 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 56, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:59.122 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 56, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:59.124 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 57, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "139267"}
+\o [2026-05-26 21:50:59.124 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 57, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/57/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/57/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:50:59.926 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 57, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:50:59.926 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 57, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:50:59.929 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 58, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "141475"}
+\o [2026-05-26 21:50:59.929 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 58, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/58/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/58/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:51:00.715 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 58, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:51:00.716 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 58, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:51:00.718 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 59, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "143713"}
+\o [2026-05-26 21:51:00.718 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 59, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/59/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/59/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:51:01.522 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 59, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:51:01.523 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 59, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:51:01.525 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 60, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "145921"}
+\o [2026-05-26 21:51:01.526 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 60, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/60/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/60/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:51:02.321 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 60, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:51:02.322 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 60, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:51:02.324 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 61, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "148159"}
+\o [2026-05-26 21:51:02.324 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 61, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/61/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/61/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:51:03.097 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 61, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:51:03.098 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 61, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:51:03.100 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 62, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "150367"}
+\o [2026-05-26 21:51:03.101 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 62, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/62/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/62/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:51:03.899 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 62, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:51:03.900 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 62, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:51:03.902 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 63, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "152605"}
+\o [2026-05-26 21:51:03.903 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 63, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/63/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/63/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:51:04.869 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 63, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:51:04.869 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 63, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:51:04.872 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 64, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "154813"}
+\o [2026-05-26 21:51:04.872 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 64, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/64/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/64/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:51:05.658 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 64, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:51:05.659 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 64, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o [2026-05-26 21:51:05.662 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 65, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.202", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log", "logFileSize": "157051"}
+\o [2026-05-26 21:51:05.662 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 65, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/65/Potentiostat_7_CA_TIA_Front_tb_calib_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_CA_TIA_Front_tb_calib/maestro/results/maestro/Interactive.202/65/Potentiostat_7_CA_TIA_Front_tb_calib_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-26 21:51:06.471 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 783.5391 MBytes, peak memory used: 783.5391 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 215313, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1", "point": 65, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service26.log"}
+\o [2026-05-26 21:51:06.472 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 65, "testname": "Potentiostat_7_CA_TIA_Front_tb_calib_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [21:56:08.124722] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [21:56:08.124744] Feature usage summary:
+\# Memory report: on exit            492 MB, process size 2,254 MB at UTC 2026.05.26 21:56:08.124
+\# Memory report: peak usage         492 MB, process size 2,256 MB

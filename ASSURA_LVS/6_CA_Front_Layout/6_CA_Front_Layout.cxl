@@ -1,0 +1,58 @@
+C RPOLYH(RES) RPOLYH(RES)
+N PLUS PLUS
+N MINUS MINUS
+
+C CPOLYA(CAP) CPOLYA(CAP)
+N PLUS PLUS
+N MINUS MINUS
+
+C CVAR(Generic) CVAR(Generic)
+N G G
+N S S
+N B B
+
+C PMOS4(MOS) PMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C NMOS4(MOS) NMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "6_CA_Front_Layout schematic Potentiostat" "6_CA_Front_Layout layout Potentiostat"
+N net6 avC12
+N C avC11
+N A avC8
+N Vm3 avC9
+N B avC10
+N Vm1 avC7
+N o1 avC13
+N Ibias Ibias
+N VDDA VDDA
+N Vin+ Vin+
+N Vout Vout
+N Vin- Vin-
+N GNDA GNDA
+I MN10<0> avD1_6
+I MN33<0> MN33(0)/avD1_1
+I MN30 MN30/avD1_1
+I MN11<0> avD1_8
+I MN12 MN12/avD1_1
+I MN5 MN5/avD1_1
+I MN31 MN31/avD1_1
+I MN0 avD1_1
+I MP31<0> avD5_32
+I MP35<0> avD5_1
+I MP34<0> MP34(0)/avD5_1
+I MP5<0> avD5_36
+I MP1<0> MP1(0)/avD5_1
+I MP0<0> MP0(0)/avD5_1
+I MP32<0> avD5_2
+I C2 avD85_1
+I C0/C0 avD84_1
+I R1 avD66_1
+

@@ -1,0 +1,332 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         6_Resnet.lvs.report
+LAYOUT NAME:              6_Resnet.sp ('6_Resnet')
+SOURCE NAME:              6_Resnet.src.net ('6_Resnet')
+RULE FILE:                _c35b4c3.rules_
+RULE FILE TITLE:          DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+CREATION TIME:            Tue May 26 21:27:48 2026
+CURRENT DIRECTORY:        /home/hrahimi/projects/POTENTIOSTAT_26/Calibre_LVS
+USER NAME:                hrahimi
+CALIBRE VERSION:          v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        6_Resnet                      6_Resnet
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "?VCC?" "?VDD?"
+   LVS GROUND NAME                        "?VSS?" "?GND?"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             YES
+   LVS SOFT SUBSTRATE PINS                YES
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS RELAX INITIAL CPOINTS              NONE
+   LVS REVERSE WL                         NO
+   // LVS NETLIST FILTER DEVICES          NO
+   // LVS PRESERVE BOX PORTS              NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     ALL
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   LVS SWAPPABLE HCELL PINS               GENERAL
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+   LVS EXPAND AMBIGUOUSLY HIGH SHORTED HCELLS NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES [ TOLERANCE L 0 ]
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          NO
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  mn(nmosrf)  PARALLEL NO
+   LVS REDUCE  mp(pmosrf)  PARALLEL NO
+   LVS REDUCE  C(cpolyrf)  PARALLEL NO
+   LVS REDUCE  rx  PARALLEL
+   LVS REDUCE  esddlv2  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCE  esddlv  PARALLEL [ TOLERANCE L 0 W 0 ]
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Filter
+
+   LVS FILTER  R(RP)  SHORT
+   LVS FILTER  R(RESISTOR)  SHORT
+   LVS FILTER  C(CP)  OPEN
+   LVS FILTER  C(CAPACITOR)  OPEN
+   LVS FILTER  D(p_nd)  OPEN
+   LVS FILTER  D(p_pd)  OPEN
+   LVS FILTER  D(p_nwd)  OPEN
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmosrf)  w w 1
+   TRACE PROPERTY  mn(nmosrf)  l l 1
+   TRACE PROPERTY  mn(nmosrf)  ng ng 1
+   TRACE PROPERTY  mp(pmosrf)  w w 1
+   TRACE PROPERTY  mp(pmosrf)  l l 1
+   TRACE PROPERTY  mp(pmosrf)  ng ng 1
+   TRACE PROPERTY  mn  w w 1
+   TRACE PROPERTY  mp  w w 1
+   TRACE PROPERTY  mn  l l 1
+   TRACE PROPERTY  mp  l l 1
+   TRACE PROPERTY  md  w w 1
+   TRACE PROPERTY  md  l l 1
+   TRACE PROPERTY  m(cvart)  w w 1
+   TRACE PROPERTY  m(cvart)  l l 1
+   TRACE PROPERTY  m(cvarm)  w w 1
+   TRACE PROPERTY  m(cvarm)  l l 1
+   TRACE PROPERTY  m(cvar)  w w 1
+   TRACE PROPERTY  m(cvar)  l l 1
+   TRACE PROPERTY  lddn  w w 1
+   TRACE PROPERTY  lddn  l l 1
+   TRACE PROPERTY  lddp  w w 1
+   TRACE PROPERTY  lddp  l l 1
+   TRACE PROPERTY  r  w w 1
+   TRACE PROPERTY  r  l l 1
+   TRACE PROPERTY  q(pnplat)  a a 1
+   TRACE PROPERTY  q(pnpvert10)  a a 1
+   TRACE PROPERTY  c(cpolyrf)  w w 1
+   TRACE PROPERTY  c(cpolyrf)  l l 1
+   TRACE PROPERTY  c  a a 1
+   TRACE PROPERTY  c  p p 1
+   TRACE PROPERTY  d(nd)  a a 1
+   TRACE PROPERTY  d(nd)  p p 1
+   TRACE PROPERTY  d(pd)  a a 1
+   TRACE PROPERTY  d(pd)  p p 1
+   TRACE PROPERTY  d(nwd)  a a 1
+   TRACE PROPERTY  phd(phdnwa850)  w w 1
+   TRACE PROPERTY  phd(phdnwa850)  l l 1
+   TRACE PROPERTY  phd(phdnwb850)  w w 1
+   TRACE PROPERTY  phd(phdnwb850)  l l 1
+   TRACE PROPERTY  sbd(sbd5)  w w 1
+   TRACE PROPERTY  sbd(sbd5)  l l 1
+   TRACE PROPERTY  esddlv2(esdfdn5)  w w 1
+   TRACE PROPERTY  esddlv2(esdfdn5)  l l 1
+   TRACE PROPERTY  esddlv2(esdgcn5)  w w 1
+   TRACE PROPERTY  esddlv2(esdgcn5)  l l 1
+   TRACE PROPERTY  esddlv(esdgcp5)  w w 1
+   TRACE PROPERTY  esddlv(esdgcp5)  l l 1
+   TRACE PROPERTY  esddlv(esdfdp5)  w w 1
+   TRACE PROPERTY  esddlv(esdfdp5)  l l 1
+   TRACE PROPERTY  esddlv2(esdpd12)  w w 1
+   TRACE PROPERTY  esddlv2(esdpd12)  l l 1
+   TRACE PROPERTY  esddlv2(esdpd18)  w w 1
+   TRACE PROPERTY  esddlv2(esdpd18)  l l 1
+   TRACE PROPERTY  esddlv2(esdpd26)  w w 1
+   TRACE PROPERTY  esddlv2(esdpd26)  l l 1
+   TRACE PROPERTY  esddlv2(esdpd30)  w w 1
+   TRACE PROPERTY  esddlv2(esdpd30)  l l 1
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         6_Resnet
+SOURCE CELL NAME:         6_Resnet
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              8         8
+
+ Nets:              27        27
+
+ Instances:          9         8    *    MN (4 pins)
+                     8         8         MP (4 pins)
+                    15        15         R (2 pins)
+                     9         0    *    D (2 pins)
+                ------    ------
+ Total Inst:        41        31
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              8         8
+
+ Nets:              16        16
+
+ Instances:          4         4         MN (4 pins)
+                     4         4         MP (4 pins)
+                     4         4         R (2 pins)
+                     4         4         _invv (4 pins)
+                ------    ------
+ Total Inst:        16        16
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               8          8            0            0
+
+   Nets:               16         16            0            0
+
+   Instances:           4          4            0            0    MN(NMOS4)
+                        4          4            0            0    MP(PMOS4)
+                        4          4            0            0    R(RPOLYH)
+                        4          4            0            0    _invv
+                  -------    -------    ---------    ---------
+   Total Inst:         16         16            0            0
+
+
+o Statistics:
+
+   9 layout instances were filtered and their pins removed from adjoining nets.
+
+   2 layout mos transistors were reduced to 1.
+     1 mos transistor was deleted by parallel reduction.
+
+   13 series layout resistors were reduced to 2.  11 connecting nets were deleted.
+   13 series source resistors were reduced to 2.  11 connecting nets were deleted.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDDA GNDA S<2> S<3> S<0> S<1> IN OUT
+
+
+o Voltage Names Matched by Wildcard:
+
+   Power Names from Layout:
+
+                 VDDA
+
+   Ground Names from Layout:
+
+                 GNDA
+
+   Power Names from Source:
+
+                 VDDA
+
+   Ground Names from Source:
+
+                 GNDA
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

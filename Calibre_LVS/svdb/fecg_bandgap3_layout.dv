@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/fecg_bandgap3_layout.dv
+dv_start matched                                  
+dv_cell {fecg_bandgap3_layout} {fecg_bandgap3_layout} matched
+dv_obj_count -transformed_nets {15 15} -transformed_inst {30 30} -transformed_port {4 4}
+dv_end

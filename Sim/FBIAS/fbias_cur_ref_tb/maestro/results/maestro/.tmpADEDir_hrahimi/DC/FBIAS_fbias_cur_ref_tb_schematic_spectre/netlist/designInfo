@@ -1,1 +1,1 @@
-infoDpl = `(nil simulator "spectre" libName "FBIAS" cellName "fbias_cur_ref_tb" viewName "schematic" cdslib "cds.lib" extractedViewPresent nil)
+infoDpl = `(nil simulator "spectre" libName "FBIAS" cellName "fecg_bandgap_tb" viewName "config" cdslib "cds.lib" extractedViewPresent t thirdPartyExtViews nil)

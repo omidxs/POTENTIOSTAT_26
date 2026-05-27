@@ -1,0 +1,67 @@
+*
+* Techgen(tm) Tech file Generator.
+* FullVersion        : 12.1.0-s488
+* BuildNumber        : 488 
+* IRBuildNumber      : 488 
+* VersionDate        : Mon Apr  1 15:41:48 PDT 2013
+* Bitness            : 32-bit
+* 
+*
+process c35b4-typical
+*
+*| layout_scale 1
+*| temp_reference 27
+*| auto_reorder_off true
+*
+deposition
+*step #  material   p/n                 name        thick    diel.   side     bot     angle
+step  1  substrate                       fox       0.29  3.9
+step  1  substrate                     pdiff       0.0076  3.9
+step  2  metal                         poly1       0.282  s,w:0.45,0.35,-0.025 0,0  
+step  3  dielectric p                  p2_p1       0.0412  4
+step  4  metal                         poly2       0.2  s,w:0.65,0.65,-0.125 0,0  
+step  5  dielectric p                  m1_p2       0.4038  4
+step  6  metal                          met1       0.665  0  
+step  7  dielectric p                  m2_m1       1  4.1
+step  8  metal                          met2       0.64  s,w:0.5,0.6,-0.05 0,0  
+step  9  dielectric p                 m2c_m2       0.056  4.1
+step 10  metal                       met2cap       0.15  0  
+step 11  dielectric p                 m3_m2c       0.794  4.1
+step 12  metal                          met3       0.64  s,w:0.5,0.6,-0.05 0,0  
+step 13  dielectric p                  m4_m3       1  4.1
+step 14  metal                          met4       0.925  0  
+step 15  dielectric n                  pass1       1.03   3.9   sidewall(1.03)   1.03   auto_angle
+step 16  dielectric n                  pass2       1   7.9   sidewall(1)   1   auto_angle
+step 17  dielectric p                    air       40  1
+enddeposition
+
+metal_variations auto_comb
+layer poly1 w  0.35 
+layer poly1 s  0.45 0.3
+layer poly2 w  0.65 
+layer poly2 s  0.65 0.585
+layer met1 w  0.5 
+layer met1 s  0.45 
+layer met2 w  0.6 
+layer met2 s  0.5 
+layer met2cap w  4 
+layer met2cap s  0.8 
+layer met3 w  0.6 
+layer met3 s  0.5 
+layer met4 w  0.6 
+layer met4 s  0.6 
+endmetal_variations
+
+via_effects
+* via_layer_name layer_b layer_t enc_b enc_t min_w [bot_delta top_delta minS]
+via_m4_m3 met3 met4 0.2 0.15 0.5 0 0 0.45
+via_m3_m2c met2cap met3 0.5 0.15 0.5 0 0 3.5
+via_m3_m2 met2 met3 0.2 0.15 0.5 0 0 0.45
+via_m2_m1 met1 met2 0.2 0.15 0.5 0 0 0.45
+via_m1_p2 poly2 met1 0.6 0.15 0.4 0 0 0.4
+via_m1_p1 poly1 met1 0.2 0.15 0.4 0 0 0.4
+via_m1_nd pdiff met1 0.15 0.15 0.4 0 0 0.4
+via_m1_pd pdiff met1 0.15 0.15 0.4 0 0 0.4
+endvia_effects
+endprocess
+

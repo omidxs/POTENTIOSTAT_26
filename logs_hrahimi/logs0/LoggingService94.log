@@ -1,0 +1,6 @@
+[Logging Service: 94]
+[2026-05-27 13:19:58.435 Z] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_bias_tb/maestro/results/maestro"}
+[2026-05-27 13:19:58.436 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 385556, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService94.log"}
+[2026-05-27 13:45:13.185 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 62.0312 MBytes, peak memory used: 67.8438 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 385556, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService94.log"}
+[2026-05-27 13:45:13.185 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "il2244vt26_hrahimi", "processid": 385556, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService94.log"}
+[2026-05-27 13:45:13.186 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "il2244vt26_hrahimi", "processid": 385556, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService94.log"}

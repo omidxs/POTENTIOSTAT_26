@@ -5,15 +5,15 @@ simulatorOptions options psfversion="1.4.0" temp=27 tnom=27 homotopy=all \
     ignorezerovar=yes 
 dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
 dcOpInfo info what=oppoint where=rawfile
-tran tran stop=100u write="spectre.ic" writefinal="spectre.fc" \
-    annotate=status 
-finalTimeOP info what=oppoint where=rawfile
-noise noise start=0.01 stop=100M dec=20 oprobe=IPRB0 annotate=status 
+dc dc param=VDD start=0 stop=3.3 step=20m oppoint=rawfile maxiters=150 \
+    maxsteps=10000 annotate=status
+noise ( BG_REF ) noise start=0.01 stop=100M dec=30 annotate=status 
+xf ( BG_REF ) xf start=0.01 stop=100M dec=20 annotate=status 
 modelParameter info what=models where=rawfile
 element info what=inst where=rawfile
 outputParameter info what=output where=rawfile
 designParamVals info what=parameters where=rawfile
 primitives info what=primitives where=rawfile
 subckts info what=subckts where=rawfile
-save R1:1 
+save BG_REF 
 saveOptions options save=allpub

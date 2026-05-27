@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/6_Resnet.dv
+dv_start matched                                  
+dv_cell {6_Resnet} {6_Resnet} matched
+dv_obj_count -transformed_nets {16 16} -transformed_inst {16 16} -transformed_port {8 8}
+dv_end

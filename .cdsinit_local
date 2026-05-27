@@ -59,3 +59,5 @@ setSkillPath( strcat( LocalPath " " MainPath))
 
 if( !CDS_QUIET then printf("END OF LOCAL CUSTOMIZATION.\n"))
 ;END OF THE LOCAL CUSTOMIZATION FILE
+
+load( "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl" ))

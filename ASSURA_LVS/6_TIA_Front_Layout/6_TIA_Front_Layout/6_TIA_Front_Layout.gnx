@@ -1,0 +1,40 @@
+# 2
+RPOLYH(RES): RPOLYH(RES)
+= PLUS PLUS B
+= MINUS MINUS B
+# 2
+CPOLYA(CAP): CPOLYA(CAP)
+= PLUS PLUS B
+= MINUS MINUS B
+# 3
+CVAR(Generic): CVAR(Generic)
+= G G B
+= B B B
+= S S B
+# 4
+PMOS4(MOS): PMOS4(MOS)
+= D D B
+= G G B
+= S S B
+= B B B
+# 4
+NMOS4(MOS): NMOS4(MOS)
+= D D B
+= G G B
+= S S B
+= B B B
+# 13
+6_TIA_Front_Layout schematic Potentiostat: 6_TIA_Front_Layout layout Potentiostat
+= net24 avC11
+= Vm1 avC8
+= o1 avC12
+= Vm3 avC7
+= D1 avC10
+= D2 avC9
+= S avC13
+= GNDA GNDA I
+= Ibias Ibias B
+= VDDA VDDA I
+= Vin+ Vin+ B
+= Vin- Vin- B
+= Vout Vout B

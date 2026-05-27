@@ -1,22 +1,24 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "fbias_cur_ref_tb"
-  repList "spectre cmos_sch schematic"
-  stopList "spectre"
+  blockName "fecg_bandgap_tb"
+  repList "verilogams veriloga behavioral functional module schematic spectre symbol"
+  stopList "symbol spectre"
   globalList "gnd!"
   hierDelim "."
-  netlistDir "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_cur_ref_tb/maestro/results/maestro/Interactive.77/1/DC/netlist"
+  netlistDir "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fecg_bandgap_tb/maestro/results/maestro/Interactive.36/1/DC/netlist"
  )
 ( net
 ( "gnd!" "0" )
  )
 ( model
-( "FBIAS/fbias_cur_ref_tb/schematic" "fbias_cur_ref_tb" )
-( "PRIMLIB/rpolyhc/schematic" "rpolyhc" )
-( "FBIAS/fbias_cur_ref2_layout/schematic" "fbias_cur_ref2_layout" )
+( "FBIAS/fecg_bandgap_tb/schematic" "fecg_bandgap_tb" )
+( "PRIMLIB/rpolyhc/schematic" "PRIMLIB_rpolyhc_schematic" )
+( "analogLib/presistor/schematic" "analogLib_presistor_schematic" )
+( "FBIAS/fecg_bandgap3_layout/av_extracted" "fecg_bandgap3_layout_av_extracted" )
  )
-( "fbias_cur_ref_tb" "ihnl/cds2/map" )
-( "fbias_cur_ref2_layout" "ihnl/cds3/map" )
-( "rpolyhc" "ihnl/cds0/map" )
+( "analogLib_presistor_schematic" "ihnl/cds14/map" )
+( "PRIMLIB_rpolyhc_schematic" "ihnl/cds11/map" )
+( "fecg_bandgap_tb" "ihnl/cds13/map" )
+( "fecg_bandgap3_layout_av_extracted" "ihnl/cds15/map" )
  )

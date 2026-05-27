@@ -1,0 +1,60 @@
+C RPOLYH(RES) RPOLYH(RES)
+N PLUS PLUS
+N MINUS MINUS
+
+C CPOLYA(CAP) CPOLYA(CAP)
+N PLUS PLUS
+N MINUS MINUS
+
+C CVAR(Generic) CVAR(Generic)
+N G G
+N S S
+N B B
+
+C PMOS4(MOS) PMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C NMOS4(MOS) NMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "6_TIA_Front_Layout schematic Potentiostat" "6_TIA_Front_Layout layout Potentiostat"
+N net24 avC11
+N D2 avC9
+N Vm1 avC8
+N Vm3 avC7
+N S avC13
+N D1 avC10
+N o1 avC12
+N Ibias Ibias
+N VDDA VDDA
+N GNDA GNDA
+N Vin+ Vin+
+N Vin- Vin-
+N Vout Vout
+I MN22<0> MN22(1)/avD1_1
+I MN19<0> MN19(0)/avD1_1
+I MN21<0> avD1_11
+I MN11<0> avD1_12
+I MN15 avD1_1
+I MN14 MN14/avD1_1
+I MN13 MN13/avD1_1
+I MN20<0> avD1_14
+I MN7 MN7/avD1_1
+I MP24<0> avD5_3
+I MP23<0> MP23(0)/avD5_1
+I MP21<0> avD5_1
+I MP11<0> MP11(0)/avD5_1
+I MP10<0> MP10(0)/avD5_1
+I MP20<0> avD5_25
+I MP15<0> avD5_34
+I C1 C1/avD85_1
+I C0 C0/avD85_1
+I C5<0>/C0 C5(0)/avD84_1
+I R7 avD66_1
+

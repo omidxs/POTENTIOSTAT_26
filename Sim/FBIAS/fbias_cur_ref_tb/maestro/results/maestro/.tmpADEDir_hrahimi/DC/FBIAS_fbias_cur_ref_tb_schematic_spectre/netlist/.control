@@ -1,4 +1,4 @@
  #!/bin/sh
 xargs cat > netlist <<End-Of-List
- ihnl/cds0/netlist.header ihnl/cds0/netlist ihnl/cds3/netlist.header ihnl/cds3/netlist ihnl/cds2/netlist 
+ ihnl/cds11/netlist.header ihnl/cds11/netlist ihnl/cds14/netlist.header ihnl/cds14/netlist ihnl/cds15/netlist.header ihnl/cds15/netlist ihnl/cds13/netlist 
 End-Of-List

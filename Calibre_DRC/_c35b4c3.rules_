@@ -1,0 +1,28 @@
+//
+//  Rule file generated on Tue May 26 21:34:45 2026
+//  by Calibre Interactive v2022.4_16.8    Mon Oct 3 17:12:31 PDT 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "6_TIA_Front_Layout.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "6_TIA_Front_Layout"
+
+DRC RESULTS DATABASE "6_TIA_Front_Layout.drc.results" ASCII
+DRC CELL NAME YES CELL SPACE XFORM
+
+DRC SUMMARY REPORT "6_TIA_Front_Layout.drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+VIRTUAL CONNECT REPORT YES
+VIRTUAL CONNECT NAME "?"
+
+DRC ICSTATION YES
+
+#DEFINE NO_METRES
+INCLUDE "/opt/pdk/ams/410/calibre/c35b4/c35b4c3.rules"

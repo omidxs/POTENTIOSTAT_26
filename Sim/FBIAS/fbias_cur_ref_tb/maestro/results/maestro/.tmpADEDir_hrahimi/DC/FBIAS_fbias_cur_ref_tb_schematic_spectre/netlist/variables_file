@@ -1,15 +1,14 @@
 HEADER
 "PSFversion" "1.00"
-"Time Stamp" "May 26 08:36:42 2026"
+"Time Stamp" "May 26 21:03:44 2026"
 TYPE
 "variable" STRUCT(
 "value" FLOAT DOUBLE
 ) PROP( "key" "element" )
 VALUE
+"VDD_RISE" "variable" ( 1e-6 ) PROP( )
+"VDD_PULSE" "variable" ( 0 ) PROP( )
 "VDD" "variable" ( 3.3 ) PROP( )
-"VBG" "variable" ( 1.2 ) PROP( )
-"VGB_STEP" "variable" ( 0 ) PROP( )
-"VDD_STEP" "variable" ( 20e-3 ) PROP( )
 "temperature" "variable" ( 27 ) PROP( )
 "temp" "variable" ( 27 ) PROP( )
 END

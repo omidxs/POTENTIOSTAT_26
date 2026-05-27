@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "6_TIA_Front_Layout"
+  repList "auCdl schematic cmos_sch"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/hrahimi/projects/POTENTIOSTAT_26/Calibre_LVS"
+ )
+( model
+( "Potentiostat/6_TIA_Front_Layout/schematic" "6_TIA_Front_Layout" )
+( "PRIMLIB/cpolyc/schematic" "cpolyc" )
+ )
+( "cpolyc" "ihnl/cds0/map" )
+( "6_TIA_Front_Layout" "ihnl/cds1/map" )
+ )

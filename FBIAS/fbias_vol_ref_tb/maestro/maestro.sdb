@@ -1133,1177 +1133,6 @@
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.110
-			<checkpoint>
-				<jobcontrolmode>LSCS</jobcontrolmode>
-				<corners>
-					<corner enabled="1">_default</corner>
-					<corner enabled="0">CMOS
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"restm"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"captm"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">CMOS_VDD
-						<vars>
-							<var>VDD
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"restm"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"captm"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">CMOS_VDD_TEMP
-						<vars>
-							<var>temperature
-								<value>-40 85</value>
-							</var>
-							<var>VDD
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"restm"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"captm"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="1">CMOS_RES_CAP_VDD_TEMP
-						<vars>
-							<var>temperature
-								<value>-40 85</value>
-							</var>
-							<var>VDD
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"reswp" "resws"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"capwp" "capws"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">CMOS_RES_CAP_TEMP
-						<vars>
-							<var>temperature
-								<value>-40 85</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"reswp" "resws"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"capwp" "capws"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<sharedvarinfo></sharedvarinfo>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">DC
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>fbias_vol_ref_tb</value>
-							</option>
-							<option>lib
-								<value>FBIAS</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Interactive.110</value>
-							</option>
-						</tooloptions>
-						<vars>
-							<var>VBG
-								<value>1.2</value>
-							</var>
-							<var>VDD
-								<value>3.3</value>
-							</var>
-							<var>VDD_STEP
-								<value>0</value>
-							</var>
-							<var>VGB_STEP
-								<value>10m</value>
-							</var>
-						</vars>
-						<outputs>
-							<output>VDC("/R1/PLUS")
-								<evalType>point</evalType>
-							</output>
-							<output>VT("/V1600")
-								<evalType>point</evalType>
-							</output>
-							<output>V1600
-								<evalType>point</evalType>
-							</output>
-							<output>V1500
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">DC_MC
-						<tool>ADE</tool>
-						<outputs>
-							<output>VDC("/R1/PLUS")
-								<evalType>point</evalType>
-							</output>
-							<output>VT("/V1600")
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-							<output>V1600
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-							<output>V1500
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<vars>
-							<var>VBG
-								<value>1.2</value>
-							</var>
-							<var>VDD
-								<value>0</value>
-							</var>
-							<var>VDD_STEP
-								<value>3.3</value>
-							</var>
-							<var>VGB_STEP
-								<value>0</value>
-							</var>
-						</vars>
-						<tooloptions>
-							<option>cell
-								<value>fbias_vol_ref_tb</value>
-							</option>
-							<option>lib
-								<value>FBIAS</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Interactive.110</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-					</test>
-				</tests>
-				<disabledtests>
-					<test>DC_MC</test>
-				</disabledtests>
-				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">FBIAS_fbias_cur_ref_tb_1</test>
-					<test netlist="0" netlistscope="all">DC</test>
-					<test netlist="0" netlistscope="all">DC_MC</test>
-				</checksasserts>
-				<plottingoptions>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<exploreroptions>
-					<exploreroption>waveformtemplate
-						<value>(None)</value>
-					</exploreroption>
-				</exploreroptions>
-				<incrementalsimulationoptions>
-					<incrementalSimulation>0</incrementalSimulation>
-				</incrementalsimulationoptions>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<incrementalsimsetup>
-					<useincremental>0</useincremental>
-					<reusenetlist>0</reusenetlist>
-					<reusesaverunhist>0</reusesaverunhist>
-					<copyreferenceresults>1</copyreferenceresults>
-				</incrementalsimsetup>
-				<allcornersenabled>0</allcornersenabled>
-				<runoptions>
-					<mode>Monte Carlo Sampling
-						<runoption>mismatchvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcYieldAlphaLimit
-							<value>0.05</value>
-						</runoption>
-						<runoption>dumpParamMode
-							<value>no</value>
-						</runoption>
-						<runoption>mcstartingrunnumber
-							<value>1</value>
-						</runoption>
-						<runoption>mcFilterPluginPath
-							<value></value>
-						</runoption>
-						<runoption>sssnumpoints
-							<value>7000</value>
-						</runoption>
-						<runoption>mismatchscale
-							<value>1</value>
-						</runoption>
-						<runoption>processscale
-							<value>1</value>
-						</runoption>
-						<runoption>pointsPerJobPolicy
-							<value>Group automatically</value>
-						</runoption>
-						<runoption>samplingmode
-							<value>lds</value>
-						</runoption>
-						<runoption>maxPointsPerJob
-							<value>10</value>
-						</runoption>
-						<runoption>reliabilitymode
-							<value>singlestress</value>
-						</runoption>
-						<runoption>wcdinitialpoints
-							<value>200</value>
-						</runoption>
-						<runoption>mcnumpoints
-							<value>200</value>
-						</runoption>
-						<runoption>yeyistostart
-							<value>3.0</value>
-						</runoption>
-						<runoption>mcSigmaTarget
-							<value>3</value>
-						</runoption>
-						<runoption>yeiterations
-							<value>10</value>
-						</runoption>
-						<runoption>mcYieldTarget
-							<value>99.865</value>
-						</runoption>
-						<runoption>processvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcnumbins
-							<value></value>
-						</runoption>
-						<runoption>mcFilterPluginReuseHistory
-							<value></value>
-						</runoption>
-						<runoption>yeexpectedyield
-							<value>3</value>
-						</runoption>
-						<runoption>montecarloseed
-							<value>12345</value>
-						</runoption>
-						<runoption>mcmethod
-							<value>all</value>
-						</runoption>
-						<runoption>saveallplots
-							<value>1</value>
-						</runoption>
-						<runoption>yeusehistorymc
-							<value>0</value>
-						</runoption>
-						<runoption>saveprocess
-							<value>0</value>
-						</runoption>
-						<runoption>yeuseautomcsamples
-							<value>1</value>
-						</runoption>
-						<runoption>mcStopEarly
-							<value>0</value>
-						</runoption>
-						<runoption>yecreatecorners
-							<value>0</value>
-						</runoption>
-						<runoption>mcdistandscalingmismatchenable
-							<value>0</value>
-						</runoption>
-						<runoption>parasiticanalysis
-							<value>0</value>
-						</runoption>
-						<runoption>savemismatch
-							<value>0</value>
-						</runoption>
-						<runoption>mcFilterPluginEnabled
-							<value>0</value>
-						</runoption>
-						<runoption>haveyeyieldtostart
-							<value>1</value>
-						</runoption>
-						<runoption>yeusevarreduction
-							<value>1</value>
-						</runoption>
-						<runoption>mcdistandscalingprocessenable
-							<value>0</value>
-						</runoption>
-					</mode>
-				</runoptions>
-				<jobpolicyname>Maestro Default</jobpolicyname>
-				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
-				<sortVariableValues>0</sortVariableValues>
-				<waveglobalsetups>
-					<waveglobals>
-						<waveglobal>algorithm
-							<value>Asymmetrical</value>
-						</waveglobal>
-					</waveglobals>
-				</waveglobalsetups>
-			</checkpoint>
-			<timestamp>May 24 15:43:02 2026</timestamp>
-			<uuid>{a99c777f-9dfc-4459-a64c-90b45896d996}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/1_New_repo_Saul_24_5_2026/IL2244_VT26_SAUL/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.110.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.110.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_154302642</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.110</psfdir>
-			<simdir>$AXL_PROJECT_DIR/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.110</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/1_New_repo_Saul_24_5_2026/IL2244_VT26_SAUL/FBIAS/fbias_vol_ref_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/1_New_repo_Saul_24_5_2026/IL2244_VT26_SAUL/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.110.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.110.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.111
-			<checkpoint>
-				<jobcontrolmode>LSCS</jobcontrolmode>
-				<corners>
-					<corner enabled="1">_default</corner>
-					<corner enabled="0">CMOS
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"restm"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"captm"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">CMOS_VDD
-						<vars>
-							<var>VDD
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"restm"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"captm"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">CMOS_VDD_TEMP
-						<vars>
-							<var>temperature
-								<value>-40 85</value>
-							</var>
-							<var>VDD
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"restm"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"captm"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="1">CMOS_RES_CAP_VDD_TEMP
-						<vars>
-							<var>temperature
-								<value>-40 85</value>
-							</var>
-							<var>VDD
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"reswp" "resws"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"capwp" "capws"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">CMOS_RES_CAP_TEMP
-						<vars>
-							<var>temperature
-								<value>-40 85</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
-								<modelsection>"reswp" "resws"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
-								<modelsection>"capwp" "capws"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
-								<modelsection>"biptm"</modelsection>
-							</model>
-							<model enabled="1">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
-								<modelsection>"indtm"</modelsection>
-							</model>
-							<model enabled="1">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
-								<modelsection>"esddiodetm"</modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<sharedvarinfo></sharedvarinfo>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">DC
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>fbias_vol_ref_tb</value>
-							</option>
-							<option>lib
-								<value>FBIAS</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Interactive.111</value>
-							</option>
-						</tooloptions>
-						<vars>
-							<var>VBG
-								<value>1.2</value>
-							</var>
-							<var>VDD
-								<value>3.3</value>
-							</var>
-							<var>VDD_STEP
-								<value>0</value>
-							</var>
-							<var>VGB_STEP
-								<value>10m</value>
-							</var>
-						</vars>
-						<outputs>
-							<output>VDC("/R1/PLUS")
-								<evalType>point</evalType>
-							</output>
-							<output>VT("/V1600")
-								<evalType>point</evalType>
-							</output>
-							<output>V1600
-								<evalType>point</evalType>
-							</output>
-							<output>V1500
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">DC_MC
-						<tool>ADE</tool>
-						<outputs>
-							<output>VDC("/R1/PLUS")
-								<evalType>point</evalType>
-							</output>
-							<output>VT("/V1600")
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-							<output>V1600
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-							<output>V1500
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<vars>
-							<var>VBG
-								<value>1.2</value>
-							</var>
-							<var>VDD
-								<value>0</value>
-							</var>
-							<var>VDD_STEP
-								<value>3.3</value>
-							</var>
-							<var>VGB_STEP
-								<value>0</value>
-							</var>
-						</vars>
-						<tooloptions>
-							<option>cell
-								<value>fbias_vol_ref_tb</value>
-							</option>
-							<option>lib
-								<value>FBIAS</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Interactive.111</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-					</test>
-				</tests>
-				<disabledtests>
-					<test>DC_MC</test>
-				</disabledtests>
-				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">FBIAS_fbias_cur_ref_tb_1</test>
-					<test netlist="0" netlistscope="all">DC</test>
-					<test netlist="0" netlistscope="all">DC_MC</test>
-				</checksasserts>
-				<plottingoptions>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<exploreroptions>
-					<exploreroption>waveformtemplate
-						<value>(None)</value>
-					</exploreroption>
-				</exploreroptions>
-				<incrementalsimulationoptions>
-					<incrementalSimulation>0</incrementalSimulation>
-				</incrementalsimulationoptions>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<incrementalsimsetup>
-					<useincremental>0</useincremental>
-					<reusenetlist>0</reusenetlist>
-					<reusesaverunhist>0</reusesaverunhist>
-					<copyreferenceresults>1</copyreferenceresults>
-				</incrementalsimsetup>
-				<allcornersenabled>0</allcornersenabled>
-				<runoptions>
-					<mode>Monte Carlo Sampling
-						<runoption>mismatchvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcYieldAlphaLimit
-							<value>0.05</value>
-						</runoption>
-						<runoption>dumpParamMode
-							<value>no</value>
-						</runoption>
-						<runoption>mcstartingrunnumber
-							<value>1</value>
-						</runoption>
-						<runoption>mcFilterPluginPath
-							<value></value>
-						</runoption>
-						<runoption>sssnumpoints
-							<value>7000</value>
-						</runoption>
-						<runoption>mismatchscale
-							<value>1</value>
-						</runoption>
-						<runoption>processscale
-							<value>1</value>
-						</runoption>
-						<runoption>pointsPerJobPolicy
-							<value>Group automatically</value>
-						</runoption>
-						<runoption>samplingmode
-							<value>lds</value>
-						</runoption>
-						<runoption>maxPointsPerJob
-							<value>10</value>
-						</runoption>
-						<runoption>reliabilitymode
-							<value>singlestress</value>
-						</runoption>
-						<runoption>wcdinitialpoints
-							<value>200</value>
-						</runoption>
-						<runoption>mcnumpoints
-							<value>200</value>
-						</runoption>
-						<runoption>yeyistostart
-							<value>3.0</value>
-						</runoption>
-						<runoption>mcSigmaTarget
-							<value>3</value>
-						</runoption>
-						<runoption>yeiterations
-							<value>10</value>
-						</runoption>
-						<runoption>mcYieldTarget
-							<value>99.865</value>
-						</runoption>
-						<runoption>processvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcnumbins
-							<value></value>
-						</runoption>
-						<runoption>mcFilterPluginReuseHistory
-							<value></value>
-						</runoption>
-						<runoption>yeexpectedyield
-							<value>3</value>
-						</runoption>
-						<runoption>montecarloseed
-							<value>12345</value>
-						</runoption>
-						<runoption>mcmethod
-							<value>all</value>
-						</runoption>
-						<runoption>saveallplots
-							<value>1</value>
-						</runoption>
-						<runoption>yeusehistorymc
-							<value>0</value>
-						</runoption>
-						<runoption>saveprocess
-							<value>0</value>
-						</runoption>
-						<runoption>yeuseautomcsamples
-							<value>1</value>
-						</runoption>
-						<runoption>mcStopEarly
-							<value>0</value>
-						</runoption>
-						<runoption>yecreatecorners
-							<value>0</value>
-						</runoption>
-						<runoption>mcdistandscalingmismatchenable
-							<value>0</value>
-						</runoption>
-						<runoption>parasiticanalysis
-							<value>0</value>
-						</runoption>
-						<runoption>savemismatch
-							<value>0</value>
-						</runoption>
-						<runoption>mcFilterPluginEnabled
-							<value>0</value>
-						</runoption>
-						<runoption>haveyeyieldtostart
-							<value>1</value>
-						</runoption>
-						<runoption>yeusevarreduction
-							<value>1</value>
-						</runoption>
-						<runoption>mcdistandscalingprocessenable
-							<value>0</value>
-						</runoption>
-					</mode>
-				</runoptions>
-				<jobpolicyname>Maestro Default</jobpolicyname>
-				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>May 24 16:39:44 2026</timestamp>
-			<uuid>{2eaaad18-3c4b-4d08-b5a8-06beaf0dac79}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/1_New_repo_Saul_24_5_2026/IL2244_VT26_SAUL/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.111.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.111.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_163944552</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.111</psfdir>
-			<simdir>$AXL_PROJECT_DIR/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.111</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/1_New_repo_Saul_24_5_2026/IL2244_VT26_SAUL/FBIAS/fbias_vol_ref_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/1_New_repo_Saul_24_5_2026/IL2244_VT26_SAUL/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.111.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.111.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.112
 			<checkpoint>
 				<jobcontrolmode>LSCS</jobcontrolmode>
@@ -7013,6 +5842,1184 @@
 			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/1_New_repo_Saul_24_5_2026/IL2244_VT26_SAUL/FBIAS/fbias_vol_ref_tb/maestro/results/maestro</loggingdatabasedir>
 			<runlog>/home/hrahimi/Desktop/myproject/1_New_repo_Saul_24_5_2026/IL2244_VT26_SAUL/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.119.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.119.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.120
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">CMOS
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">CMOS_VDD
+						<vars>
+							<var>VDD
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">CMOS_VDD_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">CMOS_RES_CAP_VDD_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"reswp" "resws"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"capwp" "capws"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">CMOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"reswp" "resws"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"capwp" "capws"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<sharedvarinfo></sharedvarinfo>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">DC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>fbias_vol_ref_tb</value>
+							</option>
+							<option>lib
+								<value>FBIAS</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>config</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.120</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>VBG
+								<value>1.2</value>
+							</var>
+							<var>VDD
+								<value>3.3</value>
+							</var>
+							<var>VDD_STEP
+								<value>0</value>
+							</var>
+							<var>VGB_STEP
+								<value>10m</value>
+							</var>
+						</vars>
+						<outputs>
+							<output>VDC("/R1/PLUS")
+								<evalType>point</evalType>
+							</output>
+							<output>VT("/V1600")
+								<evalType>point</evalType>
+							</output>
+							<output>V1600
+								<evalType>point</evalType>
+							</output>
+							<output>V1500
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">DC_MC
+						<tool>ADE</tool>
+						<outputs>
+							<output>VDC("/R1/PLUS")
+								<evalType>point</evalType>
+							</output>
+							<output>VT("/V1600")
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>V1600
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>V1500
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>VBG
+								<value>1.2</value>
+							</var>
+							<var>VDD
+								<value>0</value>
+							</var>
+							<var>VDD_STEP
+								<value>3.3</value>
+							</var>
+							<var>VGB_STEP
+								<value>0</value>
+							</var>
+						</vars>
+						<tooloptions>
+							<option>cell
+								<value>fbias_vol_ref_tb</value>
+							</option>
+							<option>lib
+								<value>FBIAS</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.120</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>DC_MC</test>
+				</disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">FBIAS_fbias_cur_ref_tb_1</test>
+					<test netlist="0" netlistscope="all">DC</test>
+					<test netlist="0" netlistscope="all">DC_MC</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<allcornersenabled>0</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mismatchvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcFilterPluginPath
+							<value></value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>mismatchscale
+							<value>1</value>
+						</runoption>
+						<runoption>processscale
+							<value>1</value>
+						</runoption>
+						<runoption>pointsPerJobPolicy
+							<value>Group automatically</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>maxPointsPerJob
+							<value>10</value>
+						</runoption>
+						<runoption>reliabilitymode
+							<value>singlestress</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>processvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcFilterPluginReuseHistory
+							<value></value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>mcdistandscalingmismatchenable
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>mcFilterPluginEnabled
+							<value>0</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+						<runoption>mcdistandscalingprocessenable
+							<value>0</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<jobpolicyname>Maestro Default</jobpolicyname>
+				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>May 26 21:00:03 2026</timestamp>
+			<uuid>{1c1b4859-8346-4b6b-8df0-a81acfc8ce0a}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.120.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.120.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_210003743</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.120</psfdir>
+			<simdir>$AXL_PROJECT_DIR/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.120</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_vol_ref_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.120.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.120.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.121
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">CMOS
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">CMOS_VDD
+						<vars>
+							<var>VDD
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">CMOS_VDD_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">CMOS_RES_CAP_VDD_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"reswp" "resws"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"capwp" "capws"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">CMOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/res.scs</modelfile>
+								<modelsection>"reswp" "resws"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/cap.scs</modelfile>
+								<modelsection>"capwp" "capws"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+							</model>
+							<model enabled="1">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/ind.scs</modelfile>
+								<modelsection>"indtm"</modelsection>
+							</model>
+							<model enabled="1">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/esddiode.scs</modelfile>
+								<modelsection>"esddiodetm"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<sharedvarinfo></sharedvarinfo>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">DC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>fbias_vol_ref_tb</value>
+							</option>
+							<option>lib
+								<value>FBIAS</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>config</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.121</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>VBG
+								<value>1.2</value>
+							</var>
+							<var>VDD
+								<value>3.3</value>
+							</var>
+							<var>VDD_STEP
+								<value>0</value>
+							</var>
+							<var>VGB_STEP
+								<value>10m</value>
+							</var>
+						</vars>
+						<outputs>
+							<output>VDC("/R1/PLUS")
+								<evalType>point</evalType>
+							</output>
+							<output>VT("/V1600")
+								<evalType>point</evalType>
+							</output>
+							<output>V1600
+								<evalType>point</evalType>
+							</output>
+							<output>V1500
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">DC_MC
+						<tool>ADE</tool>
+						<outputs>
+							<output>VDC("/R1/PLUS")
+								<evalType>point</evalType>
+							</output>
+							<output>VT("/V1600")
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>V1600
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>V1500
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>VBG
+								<value>1.2</value>
+							</var>
+							<var>VDD
+								<value>0</value>
+							</var>
+							<var>VDD_STEP
+								<value>3.3</value>
+							</var>
+							<var>VGB_STEP
+								<value>0</value>
+							</var>
+						</vars>
+						<tooloptions>
+							<option>cell
+								<value>fbias_vol_ref_tb</value>
+							</option>
+							<option>lib
+								<value>FBIAS</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.121</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>DC_MC</test>
+				</disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">FBIAS_fbias_cur_ref_tb_1</test>
+					<test netlist="0" netlistscope="all">DC</test>
+					<test netlist="0" netlistscope="all">DC_MC</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<allcornersenabled>0</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mismatchvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcFilterPluginPath
+							<value></value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>mismatchscale
+							<value>1</value>
+						</runoption>
+						<runoption>processscale
+							<value>1</value>
+						</runoption>
+						<runoption>pointsPerJobPolicy
+							<value>Group automatically</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>maxPointsPerJob
+							<value>10</value>
+						</runoption>
+						<runoption>reliabilitymode
+							<value>singlestress</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>processvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcFilterPluginReuseHistory
+							<value></value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>mcdistandscalingmismatchenable
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>mcFilterPluginEnabled
+							<value>0</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+						<runoption>mcdistandscalingprocessenable
+							<value>0</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<jobpolicyname>Maestro Default</jobpolicyname>
+				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>May 26 21:00:36 2026</timestamp>
+			<uuid>{b642dc2f-17e6-4112-8a05-9f74ab7e0278}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.121.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.121.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_210036460</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.121</psfdir>
+			<simdir>$AXL_PROJECT_DIR/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.121</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_vol_ref_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/FBIAS/fbias_vol_ref_tb/maestro/results/maestro/Interactive.121.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.121.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

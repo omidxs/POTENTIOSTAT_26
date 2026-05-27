@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/fbias_cur_ref2_layout.dv
+dv_start matched                                  
+dv_cell {fbias_cur_ref2_layout} {fbias_cur_ref2_layout} matched
+dv_obj_count -transformed_nets {22 22} -transformed_inst {28 28} -transformed_port {16 16}
+dv_end

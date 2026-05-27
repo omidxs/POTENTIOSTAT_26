@@ -1,5 +1,6 @@
-CADENCE IHNL11144
+CADENCE IHNL111416
 
-PRIMLIB rpolyhc schematic cds0
-FBIAS fbias_cur_ref_tb schematic cds2
-FBIAS fbias_cur_ref2_layout schematic cds3
+PRIMLIB rpolyhc schematic nil verilogams_veriloga_behavioral_functional_module_schematic_spectre_symbol FBIAS fecg_bandgap_tb config 0 cds11
+FBIAS fecg_bandgap_tb schematic nil verilogams_veriloga_behavioral_functional_module_schematic_spectre_symbol FBIAS fecg_bandgap_tb config 1 cds13
+analogLib presistor schematic nil verilogams_veriloga_behavioral_functional_module_schematic_spectre_symbol FBIAS fecg_bandgap_tb config 0 cds14
+FBIAS fecg_bandgap3_layout av_extracted nil verilogams_veriloga_behavioral_functional_module_schematic_spectre_symbol FBIAS fecg_bandgap_tb config 0 cds15

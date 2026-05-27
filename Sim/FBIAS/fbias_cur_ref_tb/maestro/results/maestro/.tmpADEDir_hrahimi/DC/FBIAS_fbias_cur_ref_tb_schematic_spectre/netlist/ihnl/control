@@ -1,17 +1,26 @@
 hnlLastStopCellInfo = '(
-                           ( "PRIMLIB" "nmos4" "spectre" "47" "1490269042" )
-                          ( "PRIMLIB" "pmos4" "spectre" "47" "1490269046" )
+                           ( "analogLib" "pcapacitor" "spectre" "30" "1725416589" )
                           ( "PRIMLIB" "rpolyh" "spectre" "28" "1438672391" )
                           ( "PRIMLIB" "pcapacitor" "spectre" "30" "1424852050" )
-                          ( "PRIMLIB" "cvar" "spectre" "37" "1340881455" )
-                          ( "analogLib" "vdc" "spectre" "33" "1725416589" )
-                          ( "analogLib" "res" "spectre" "28" "1725416589" )
                           ( "analogLib" "cap" "spectre" "30" "1725416589" )
-                          ( "analogLib" "idc" "spectre" "33" "1725416589" )
+                          ( "analogLib" "res" "spectre" "28" "1725416589" )
+                          ( "PRIMLIB" "vert10_4" "spectre" "50" "1458908670" )
+                          ( "PRIMLIB" "cpoly" "spectre" "30" "1424852043" )
+                          ( "PRIMLIB" "pnwd" "spectre" "46" "1446044225" )
+                          ( "PRIMLIB" "pmos4" "spectre" "47" "1490269046" )
+                          ( "PRIMLIB" "nmos4" "spectre" "47" "1490269042" )
+                          ( "analogLib" "vdc" "spectre" "33" "1725416589" )
                           ( "analogLib" "vpulse" "spectre" "34" "1725416589" )
-                          ( "analogLib" "iprobe" "spectre" "36" "1725416589" )
+                          ( "analogLib" "idc" "spectre" "33" "1725416589" )
                        )
-hnlLastTopViewWasConfig = 0
+hnlLastNetlistConfig = t
+hnlLastConfigFileVersion = 3
+hnlLastConfigFileTimeStamp = "1779829413"
+hnlLastSupportNewConfig = t
+hnlLastConfigInfo = '( 
+( "FBIAS" "fecg_bandgap_tb" "config" 3 "1779829413" )
+) 
+hnlLastTopViewWasConfig = 1
 hnlLastMaxNameLength = 1024
 hnlLastNamePrefix = "hnl_"
 hnlLastNetNamePrefix = "_net"
@@ -1715,6 +1724,7 @@ hnlLastParamNameDifferentFrom = '( )
 hnlLastLibInfo = '(
                     ( "PRIMLIB" "1351690742" )
                    ( "FBIAS" "1779614323" )
+                   ( "analogLib" "1725416589" )
                   )
 hnlLastConstants = '(
                       "P_CELSIUS0"
@@ -1742,8 +1752,7 @@ hnlLastConstants = '(
                     )
 hnlLastDesignVars = '(
                       "temperature"
-                      "VDD_STEP"
-                      "VGB_STEP"
-                      "VBG"
                       "VDD"
+                      "VDD_PULSE"
+                      "VDD_RISE"
                     )

@@ -14,7 +14,7 @@ vuiDRCFormTable = '(
 	format  "DFII"
 	vui2dbxor  nil
 	runName  ""
-	runDir  "ASSURA_DRC/fecg_bandgap3_layout"
+	runDir  "ASSURA_DRC/6_TIA_Front_Layout"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "c35b4c3"
@@ -29,8 +29,8 @@ vuiDRCFormTable = '(
 	avView  nil
 	additionalFunctionsButton  nil
 	limitDRCswitcher  nil
-	library  "FBIAS"
-	cell  "fecg_bandgap3_layout"
+	library  "Potentiostat"
+	cell  "6_TIA_Front_Layout"
 	view  "layout"
 	saveExtracted  nil
 	extractedView  "drc_extracted"
