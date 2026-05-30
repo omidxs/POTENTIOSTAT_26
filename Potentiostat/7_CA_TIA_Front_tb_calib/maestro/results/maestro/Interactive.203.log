@@ -1,0 +1,38 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu May 28 10:50:39 2026 
+Best design point: 1
+Design specs: 
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	Nominal - 
+	Bias error		32.49u
+	CA Error		102.7u
+	rmsNoise(0.001 100000)		223u
+	Vout_noise/Rf		73.78p
+	TIA_Error_Adjusted		157.8u
+	Phase Margin		96.86
+	MUX leakage		-10.12p
+	MUX voltage drop		53.77u
+	(VDC("/vref") - VDC("/net1"))		156.8u
+Design parameters: 
+	Cdl		10n
+	vdd		3.3
+	vtran		0
+	vref		1.615
+	vddpuls		0
+	R_ct		500K
+	Cdl_CE		10n
+	Rct_CE		100K
+	Rs_CE		10K
+	Rs_WE		10K
+	PTAT_EN		1
+	Calib_EN		0
+	S0		0
+	S1		0
+	S2		1
+	S3		0
+
+Interactive.203
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.203 completed. 
+Current time: Thu May 28 10:51:54 2026 

@@ -1,3 +1,678 @@
 Starting Single Run, Sweeps and Corners...
 
 Current time: Tue May 26 21:49:34 2026 
+Best design point: 1
+Design specs: 
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_0 - 
+	Bias error		33.53u
+	CA Error		92.66u
+	rmsNoise(0.001 100000)		310.1u
+	Vout_noise/Rf		135.6p
+	TIA_Error_Adjusted		144.4u
+	Phase Margin		94.9
+	MUX leakage		-8.132p
+	MUX voltage drop		45.82u
+	(VDC("/vref") - VDC("/net1"))		144.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_1 - 
+	Bias error		218.2u
+	CA Error		249.9u
+	rmsNoise(0.001 100000)		341.1u
+	Vout_noise/Rf		164.1p
+	TIA_Error_Adjusted		490.9u
+	Phase Margin		92.64
+	MUX leakage		-8.176p
+	MUX voltage drop		62.43u
+	(VDC("/vref") - VDC("/net1"))		485.1u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_2 - 
+	Bias error		12.76u
+	CA Error		93.19u
+	rmsNoise(0.001 100000)		289.2u
+	Vout_noise/Rf		126.4p
+	TIA_Error_Adjusted		752.6u
+	Phase Margin		94.91
+	MUX leakage		-12.09p
+	MUX voltage drop		28.11u
+	(VDC("/vref") - VDC("/net1"))		141.5u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_3 - 
+	Bias error		237.7u
+	CA Error		250.9u
+	rmsNoise(0.001 100000)		311.2u
+	Vout_noise/Rf		149.7p
+	TIA_Error_Adjusted		312.8u
+	Phase Margin		92.75
+	MUX leakage		-12.14p
+	MUX voltage drop		42.72u
+	(VDC("/vref") - VDC("/net1"))		478.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_4 - 
+	Bias error		37.33u
+	CA Error		86.96u
+	rmsNoise(0.001 100000)		286u
+	Vout_noise/Rf		125p
+	TIA_Error_Adjusted		137.5u
+	Phase Margin		95.24
+	MUX leakage		-8.131p
+	MUX voltage drop		33.18u
+	(VDC("/vref") - VDC("/net1"))		136.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_5 - 
+	Bias error		202.9u
+	CA Error		237.8u
+	rmsNoise(0.001 100000)		313.5u
+	Vout_noise/Rf		150.8p
+	TIA_Error_Adjusted		457.5u
+	Phase Margin		92.41
+	MUX leakage		-21.87p
+	MUX voltage drop		45.33u
+	(VDC("/vref") - VDC("/net1"))		453.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_6 - 
+	Bias error		37.96u
+	CA Error		88.04u
+	rmsNoise(0.001 100000)		253.9u
+	Vout_noise/Rf		111p
+	TIA_Error_Adjusted		135.5u
+	Phase Margin		95.32
+	MUX leakage		-12.09p
+	MUX voltage drop		22.62u
+	(VDC("/vref") - VDC("/net1"))		134.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_7 - 
+	Bias error		204.3u
+	CA Error		237.3u
+	rmsNoise(0.001 100000)		265.7u
+	Vout_noise/Rf		127.8p
+	TIA_Error_Adjusted		454.1u
+	Phase Margin		92.55
+	MUX leakage		-26.54p
+	MUX voltage drop		33.54u
+	(VDC("/vref") - VDC("/net1"))		449u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_8 - 
+	Bias error		2.255u
+	CA Error		83.11u
+	rmsNoise(0.001 100000)		307.5u
+	Vout_noise/Rf		134.4p
+	TIA_Error_Adjusted		125.1u
+	Phase Margin		93.99
+	MUX leakage		-8.13p
+	MUX voltage drop		108.4u
+	(VDC("/vref") - VDC("/net1"))		123.8u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_9 - 
+	Bias error		28.3u
+	CA Error		126.9u
+	rmsNoise(0.001 100000)		341u
+	Vout_noise/Rf		163.9p
+	TIA_Error_Adjusted		197u
+	Phase Margin		91.82
+	MUX leakage		-8.189p
+	MUX voltage drop		113.2u
+	(VDC("/vref") - VDC("/net1"))		196.9u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_10 - 
+	Bias error		19.06u
+	CA Error		83.26u
+	rmsNoise(0.001 100000)		286.4u
+	Vout_noise/Rf		125.1p
+	TIA_Error_Adjusted		121.3u
+	Phase Margin		94.17
+	MUX leakage		-12.09p
+	MUX voltage drop		46.1u
+	(VDC("/vref") - VDC("/net1"))		120.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_11 - 
+	Bias error		39.63u
+	CA Error		127.8u
+	rmsNoise(0.001 100000)		313.6u
+	Vout_noise/Rf		150.8p
+	TIA_Error_Adjusted		191.8u
+	Phase Margin		92
+	MUX leakage		-12.15p
+	MUX voltage drop		65.82u
+	(VDC("/vref") - VDC("/net1"))		190.8u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_12 - 
+	Bias error		15.33u
+	CA Error		80.42u
+	rmsNoise(0.001 100000)		284.2u
+	Vout_noise/Rf		124.2p
+	TIA_Error_Adjusted		120.6u
+	Phase Margin		94.33
+	MUX leakage		-8.13p
+	MUX voltage drop		60.17u
+	(VDC("/vref") - VDC("/net1"))		120u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_13 - 
+	Bias error		41.71u
+	CA Error		125.9u
+	rmsNoise(0.001 100000)		314.8u
+	Vout_noise/Rf		151.4p
+	TIA_Error_Adjusted		193.3u
+	Phase Margin		91.6
+	MUX leakage		-23.22p
+	MUX voltage drop		70.27u
+	(VDC("/vref") - VDC("/net1"))		192.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_14 - 
+	Bias error		151.7u
+	CA Error		81.81u
+	rmsNoise(0.001 100000)		250.9u
+	Vout_noise/Rf		109.7p
+	TIA_Error_Adjusted		35.02m
+	Phase Margin		94.44
+	MUX leakage		-12.09p
+	MUX voltage drop		33.91u
+	(VDC("/vref") - VDC("/net1"))		117u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_15 - 
+	Bias error		44.2u
+	CA Error		125.6u
+	rmsNoise(0.001 100000)		278.8u
+	Vout_noise/Rf		134p
+	TIA_Error_Adjusted		187.9u
+	Phase Margin		91.7
+	MUX leakage		-28.04p
+	MUX voltage drop		48.04u
+	(VDC("/vref") - VDC("/net1"))		187.6u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_16 - 
+	Bias error		27.39u
+	CA Error		92.23u
+	rmsNoise(0.001 100000)		464.4u
+	Vout_noise/Rf		103.6p
+	TIA_Error_Adjusted		144.3u
+	Phase Margin		101.8
+	MUX leakage		-8.203p
+	MUX voltage drop		51.64u
+	(VDC("/vref") - VDC("/net1"))		142.9u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_17 - 
+	Bias error		195.5u
+	CA Error		251.2u
+	rmsNoise(0.001 100000)		509.7u
+	Vout_noise/Rf		125.1p
+	TIA_Error_Adjusted		481.4u
+	Phase Margin		97.38
+	MUX leakage		-8.286p
+	MUX voltage drop		75.93u
+	(VDC("/vref") - VDC("/net1"))		476.8u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_18 - 
+	Bias error		33.94u
+	CA Error		92.1u
+	rmsNoise(0.001 100000)		437.3u
+	Vout_noise/Rf		97.56p
+	TIA_Error_Adjusted		141.4u
+	Phase Margin		101.7
+	MUX leakage		-12.16p
+	MUX voltage drop		31.91u
+	(VDC("/vref") - VDC("/net1"))		140.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_19 - 
+	Bias error		199.7u
+	CA Error		251.7u
+	rmsNoise(0.001 100000)		477.2u
+	Vout_noise/Rf		117.2p
+	TIA_Error_Adjusted		477u
+	Phase Margin		97.4
+	MUX leakage		-12.25p
+	MUX voltage drop		52.28u
+	(VDC("/vref") - VDC("/net1"))		470.5u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_20 - 
+	Bias error		31.58u
+	CA Error		87.19u
+	rmsNoise(0.001 100000)		426.3u
+	Vout_noise/Rf		95.11p
+	TIA_Error_Adjusted		136.8u
+	Phase Margin		102.7
+	MUX leakage		-8.203p
+	MUX voltage drop		37.54u
+	(VDC("/vref") - VDC("/net1"))		135.5u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_21 - 
+	Bias error		187.9u
+	CA Error		237.5u
+	rmsNoise(0.001 100000)		460.1u
+	Vout_noise/Rf		113p
+	TIA_Error_Adjusted		452.4u
+	Phase Margin		97.58
+	MUX leakage		-22.01p
+	MUX voltage drop		55.31u
+	(VDC("/vref") - VDC("/net1"))		446.3u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_22 - 
+	Bias error		35.03u
+	CA Error		87.11u
+	rmsNoise(0.001 100000)		400.9u
+	Vout_noise/Rf		89.44p
+	TIA_Error_Adjusted		134.6u
+	Phase Margin		102.7
+	MUX leakage		-12.16p
+	MUX voltage drop		25.73u
+	(VDC("/vref") - VDC("/net1"))		133.5u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_23 - 
+	Bias error		189.2u
+	CA Error		238.5u
+	rmsNoise(0.001 100000)		394.4u
+	Vout_noise/Rf		96.84p
+	TIA_Error_Adjusted		447.8u
+	Phase Margin		97.76
+	MUX leakage		-26.66p
+	MUX voltage drop		41.08u
+	(VDC("/vref") - VDC("/net1"))		441.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_24 - 
+	Bias error		17.27u
+	CA Error		82.14u
+	rmsNoise(0.001 100000)		458.7u
+	Vout_noise/Rf		102.3p
+	TIA_Error_Adjusted		122.4u
+	Phase Margin		100.6
+	MUX leakage		-8.201p
+	MUX voltage drop		120.8u
+	(VDC("/vref") - VDC("/net1"))		122.9u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_25 - 
+	Bias error		2.424u
+	CA Error		127.5u
+	rmsNoise(0.001 100000)		510.3u
+	Vout_noise/Rf		125.2p
+	TIA_Error_Adjusted		196.6u
+	Phase Margin		96.52
+	MUX leakage		-8.298p
+	MUX voltage drop		137.1u
+	(VDC("/vref") - VDC("/net1"))		195.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_26 - 
+	Bias error		10.64u
+	CA Error		83.32u
+	rmsNoise(0.001 100000)		432.3u
+	Vout_noise/Rf		96.42p
+	TIA_Error_Adjusted		83.05u
+	Phase Margin		100.8
+	MUX leakage		-12.16p
+	MUX voltage drop		52.22u
+	(VDC("/vref") - VDC("/net1"))		119.3u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_27 - 
+	Bias error		23.26u
+	CA Error		127.7u
+	rmsNoise(0.001 100000)		477.5u
+	Vout_noise/Rf		117.2p
+	TIA_Error_Adjusted		190.4u
+	Phase Margin		96.67
+	MUX leakage		-12.26p
+	MUX voltage drop		80.53u
+	(VDC("/vref") - VDC("/net1"))		189.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_28 - 
+	Bias error		8.166u
+	CA Error		79.58u
+	rmsNoise(0.001 100000)		422.6u
+	Vout_noise/Rf		94.27p
+	TIA_Error_Adjusted		120u
+	Phase Margin		101.5
+	MUX leakage		-8.201p
+	MUX voltage drop		67.81u
+	(VDC("/vref") - VDC("/net1"))		119.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_29 - 
+	Bias error		25.3u
+	CA Error		125.8u
+	rmsNoise(0.001 100000)		466u
+	Vout_noise/Rf		114.4p
+	TIA_Error_Adjusted		189.8u
+	Phase Margin		96.72
+	MUX leakage		-23.36p
+	MUX voltage drop		85.75u
+	(VDC("/vref") - VDC("/net1"))		191.3u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_30 - 
+	Bias error		10.9u
+	CA Error		79.56u
+	rmsNoise(0.001 100000)		396.5u
+	Vout_noise/Rf		88.45p
+	TIA_Error_Adjusted		389.9u
+	Phase Margin		101.6
+	MUX leakage		-12.16p
+	MUX voltage drop		38.52u
+	(VDC("/vref") - VDC("/net1"))		116.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_31 - 
+	Bias error		32.59u
+	CA Error		126u
+	rmsNoise(0.001 100000)		432.2u
+	Vout_noise/Rf		106.1p
+	TIA_Error_Adjusted		187.3u
+	Phase Margin		96.81
+	MUX leakage		-28.17p
+	MUX voltage drop		58.86u
+	(VDC("/vref") - VDC("/net1"))		186.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_32 - 
+	Bias error		32.19u
+	CA Error		92.27u
+	rmsNoise(0.001 100000)		288.8u
+	Vout_noise/Rf		126.2p
+	TIA_Error_Adjusted		142.9u
+	Phase Margin		96.96
+	MUX leakage		-8.132p
+	MUX voltage drop		45.82u
+	(VDC("/vref") - VDC("/net1"))		144.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_33 - 
+	Bias error		216.2u
+	CA Error		250.9u
+	rmsNoise(0.001 100000)		317.4u
+	Vout_noise/Rf		152.7p
+	TIA_Error_Adjusted		481u
+	Phase Margin		94.76
+	MUX leakage		-8.176p
+	MUX voltage drop		62.43u
+	(VDC("/vref") - VDC("/net1"))		485.1u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_34 - 
+	Bias error		37.27u
+	CA Error		92.84u
+	rmsNoise(0.001 100000)		277.2u
+	Vout_noise/Rf		121.2p
+	TIA_Error_Adjusted		141.8u
+	Phase Margin		97.01
+	MUX leakage		-12.09p
+	MUX voltage drop		28.11u
+	(VDC("/vref") - VDC("/net1"))		141.5u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_35 - 
+	Bias error		210.1u
+	CA Error		253.5u
+	rmsNoise(0.001 100000)		303.5u
+	Vout_noise/Rf		146p
+	TIA_Error_Adjusted		1.491m
+	Phase Margin		94.87
+	MUX leakage		-12.14p
+	MUX voltage drop		42.72u
+	(VDC("/vref") - VDC("/net1"))		478.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_36 - 
+	Bias error		36.68u
+	CA Error		86.65u
+	rmsNoise(0.001 100000)		267.4u
+	Vout_noise/Rf		116.9p
+	TIA_Error_Adjusted		140.9u
+	Phase Margin		97.44
+	MUX leakage		-8.131p
+	MUX voltage drop		33.18u
+	(VDC("/vref") - VDC("/net1"))		136.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_37 - 
+	Bias error		203.6u
+	CA Error		237.4u
+	rmsNoise(0.001 100000)		292.9u
+	Vout_noise/Rf		140.9p
+	TIA_Error_Adjusted		457.7u
+	Phase Margin		94.69
+	MUX leakage		-21.88p
+	MUX voltage drop		45.33u
+	(VDC("/vref") - VDC("/net1"))		453.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_38 - 
+	Bias error		45.22u
+	CA Error		90.76u
+	rmsNoise(0.001 100000)		250.4u
+	Vout_noise/Rf		109.5p
+	TIA_Error_Adjusted		13.54m
+	Phase Margin		97.53
+	MUX leakage		-12.09p
+	MUX voltage drop		22.62u
+	(VDC("/vref") - VDC("/net1"))		134.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_39 - 
+	Bias error		202.5u
+	CA Error		238.1u
+	rmsNoise(0.001 100000)		260.1u
+	Vout_noise/Rf		125.1p
+	TIA_Error_Adjusted		453.1u
+	Phase Margin		94.78
+	MUX leakage		-26.54p
+	MUX voltage drop		33.54u
+	(VDC("/vref") - VDC("/net1"))		449u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_40 - 
+	Bias error		2.396u
+	CA Error		82.84u
+	rmsNoise(0.001 100000)		284.4u
+	Vout_noise/Rf		124.3p
+	TIA_Error_Adjusted		124.2u
+	Phase Margin		96.17
+	MUX leakage		-8.13p
+	MUX voltage drop		108.4u
+	(VDC("/vref") - VDC("/net1"))		123.8u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_41 - 
+	Bias error		28.74u
+	CA Error		127.5u
+	rmsNoise(0.001 100000)		316.1u
+	Vout_noise/Rf		152p
+	TIA_Error_Adjusted		196.9u
+	Phase Margin		94.09
+	MUX leakage		-8.189p
+	MUX voltage drop		113.2u
+	(VDC("/vref") - VDC("/net1"))		196.9u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_42 - 
+	Bias error		18.91u
+	CA Error		83.01u
+	rmsNoise(0.001 100000)		273.6u
+	Vout_noise/Rf		119.6p
+	TIA_Error_Adjusted		120.6u
+	Phase Margin		96.4
+	MUX leakage		-12.09p
+	MUX voltage drop		46.1u
+	(VDC("/vref") - VDC("/net1"))		120.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_43 - 
+	Bias error		39.41u
+	CA Error		127.7u
+	rmsNoise(0.001 100000)		303.7u
+	Vout_noise/Rf		146p
+	TIA_Error_Adjusted		191.4u
+	Phase Margin		94.32
+	MUX leakage		-12.15p
+	MUX voltage drop		65.82u
+	(VDC("/vref") - VDC("/net1"))		190.8u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_44 - 
+	Bias error		16.31u
+	CA Error		80.27u
+	rmsNoise(0.001 100000)		264.3u
+	Vout_noise/Rf		115.5p
+	TIA_Error_Adjusted		120.4u
+	Phase Margin		96.67
+	MUX leakage		-8.13p
+	MUX voltage drop		60.17u
+	(VDC("/vref") - VDC("/net1"))		120u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_45 - 
+	Bias error		41.33u
+	CA Error		125.8u
+	rmsNoise(0.001 100000)		293.1u
+	Vout_noise/Rf		140.9p
+	TIA_Error_Adjusted		193.7u
+	Phase Margin		94.05
+	MUX leakage		-23.22p
+	MUX voltage drop		70.27u
+	(VDC("/vref") - VDC("/net1"))		192.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_46 - 
+	Bias error		53.55u
+	CA Error		80.83u
+	rmsNoise(0.001 100000)		247.5u
+	Vout_noise/Rf		108.2p
+	TIA_Error_Adjusted		2.037m
+	Phase Margin		96.81
+	MUX leakage		-12.09p
+	MUX voltage drop		33.91u
+	(VDC("/vref") - VDC("/net1"))		117u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_47 - 
+	Bias error		44.21u
+	CA Error		126u
+	rmsNoise(0.001 100000)		274.5u
+	Vout_noise/Rf		132p
+	TIA_Error_Adjusted		188.4u
+	Phase Margin		94.19
+	MUX leakage		-28.05p
+	MUX voltage drop		48.04u
+	(VDC("/vref") - VDC("/net1"))		187.6u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_48 - 
+	Bias error		25.78u
+	CA Error		91.88u
+	rmsNoise(0.001 100000)		446.8u
+	Vout_noise/Rf		99.68p
+	TIA_Error_Adjusted		141.7u
+	Phase Margin		103.9
+	MUX leakage		-8.203p
+	MUX voltage drop		51.64u
+	(VDC("/vref") - VDC("/net1"))		142.9u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_49 - 
+	Bias error		186.3u
+	CA Error		251.4u
+	rmsNoise(0.001 100000)		490.1u
+	Vout_noise/Rf		120.3p
+	TIA_Error_Adjusted		2.002m
+	Phase Margin		99.37
+	MUX leakage		-8.286p
+	MUX voltage drop		75.93u
+	(VDC("/vref") - VDC("/net1"))		476.8u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_50 - 
+	Bias error		33.28u
+	CA Error		92.26u
+	rmsNoise(0.001 100000)		434.4u
+	Vout_noise/Rf		96.92p
+	TIA_Error_Adjusted		141u
+	Phase Margin		103.9
+	MUX leakage		-12.16p
+	MUX voltage drop		31.91u
+	(VDC("/vref") - VDC("/net1"))		140.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_51 - 
+	Bias error		200.4u
+	CA Error		250.7u
+	rmsNoise(0.001 100000)		473.6u
+	Vout_noise/Rf		116.3p
+	TIA_Error_Adjusted		476.8u
+	Phase Margin		99.47
+	MUX leakage		-12.25p
+	MUX voltage drop		52.28u
+	(VDC("/vref") - VDC("/net1"))		470.5u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_52 - 
+	Bias error		32.1u
+	CA Error		86.47u
+	rmsNoise(0.001 100000)		411.7u
+	Vout_noise/Rf		91.86p
+	TIA_Error_Adjusted		136.6u
+	Phase Margin		105
+	MUX leakage		-8.203p
+	MUX voltage drop		37.54u
+	(VDC("/vref") - VDC("/net1"))		135.5u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_53 - 
+	Bias error		188.4u
+	CA Error		236.9u
+	rmsNoise(0.001 100000)		445u
+	Vout_noise/Rf		109.3p
+	TIA_Error_Adjusted		452.2u
+	Phase Margin		99.74
+	MUX leakage		-22.01p
+	MUX voltage drop		55.31u
+	(VDC("/vref") - VDC("/net1"))		446.3u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_54 - 
+	Bias error		32.07u
+	CA Error		86.71u
+	rmsNoise(0.001 100000)		397.9u
+	Vout_noise/Rf		88.76p
+	TIA_Error_Adjusted		131.2u
+	Phase Margin		105.1
+	MUX leakage		-12.16p
+	MUX voltage drop		25.73u
+	(VDC("/vref") - VDC("/net1"))		133.5u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_55 - 
+	Bias error		189.2u
+	CA Error		238.3u
+	rmsNoise(0.001 100000)		389u
+	Vout_noise/Rf		95.52p
+	TIA_Error_Adjusted		447.5u
+	Phase Margin		99.93
+	MUX leakage		-26.66p
+	MUX voltage drop		41.08u
+	(VDC("/vref") - VDC("/net1"))		441.7u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_56 - 
+	Bias error		16.91u
+	CA Error		82.25u
+	rmsNoise(0.001 100000)		440.4u
+	Vout_noise/Rf		98.22p
+	TIA_Error_Adjusted		122.6u
+	Phase Margin		102.9
+	MUX leakage		-8.201p
+	MUX voltage drop		120.8u
+	(VDC("/vref") - VDC("/net1"))		122.9u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_57 - 
+	Bias error		1.148u
+	CA Error		127.3u
+	rmsNoise(0.001 100000)		489.9u
+	Vout_noise/Rf		120.2p
+	TIA_Error_Adjusted		195.2u
+	Phase Margin		98.73
+	MUX leakage		-8.298p
+	MUX voltage drop		137.1u
+	(VDC("/vref") - VDC("/net1"))		195.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_58 - 
+	Bias error		10.14u
+	CA Error		82.8u
+	rmsNoise(0.001 100000)		428.8u
+	Vout_noise/Rf		95.63p
+	TIA_Error_Adjusted		109.5u
+	Phase Margin		103.1
+	MUX leakage		-12.16p
+	MUX voltage drop		52.22u
+	(VDC("/vref") - VDC("/net1"))		119.3u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_59 - 
+	Bias error		24.03u
+	CA Error		127.3u
+	rmsNoise(0.001 100000)		473.8u
+	Vout_noise/Rf		116.3p
+	TIA_Error_Adjusted		190.7u
+	Phase Margin		98.95
+	MUX leakage		-12.26p
+	MUX voltage drop		80.53u
+	(VDC("/vref") - VDC("/net1"))		189.1u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_60 - 
+	Bias error		6.109u
+	CA Error		79.31u
+	rmsNoise(0.001 100000)		407.4u
+	Vout_noise/Rf		90.88p
+	TIA_Error_Adjusted		118u
+	Phase Margin		104
+	MUX leakage		-8.201p
+	MUX voltage drop		67.81u
+	(VDC("/vref") - VDC("/net1"))		119.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_61 - 
+	Bias error		24.8u
+	CA Error		125.4u
+	rmsNoise(0.001 100000)		450.9u
+	Vout_noise/Rf		110.7p
+	TIA_Error_Adjusted		192.2u
+	Phase Margin		99.11
+	MUX leakage		-23.35p
+	MUX voltage drop		85.76u
+	(VDC("/vref") - VDC("/net1"))		191.3u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_62 - 
+	Bias error		16.27u
+	CA Error		80.21u
+	rmsNoise(0.001 100000)		393.4u
+	Vout_noise/Rf		87.76p
+	TIA_Error_Adjusted		115.1u
+	Phase Margin		104.1
+	MUX leakage		-12.16p
+	MUX voltage drop		38.52u
+	(VDC("/vref") - VDC("/net1"))		116.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	CMOS_VDD_Res_Cap_Temp_63 - 
+	Bias error		31.47u
+	CA Error		125.8u
+	rmsNoise(0.001 100000)		428.5u
+	Vout_noise/Rf		105.2p
+	TIA_Error_Adjusted		186.1u
+	Phase Margin		99.25
+	MUX leakage		-28.18p
+	MUX voltage drop		58.86u
+	(VDC("/vref") - VDC("/net1"))		186.2u
+	Potentiostat_7_CA_TIA_Front_tb_calib_1	corner	Nominal - 
+	Bias error		32.34u
+	CA Error		102.7u
+	rmsNoise(0.001 100000)		223u
+	Vout_noise/Rf		73.77p
+	TIA_Error_Adjusted		157.6u
+	Phase Margin		96.86
+	MUX leakage		-10.12p
+	MUX voltage drop		53.77u
+	(VDC("/vref") - VDC("/net1"))		156.8u
+Design parameters: 
+	Cdl		10n
+	vdd		3.3
+	vtran		0
+	vref		1.615
+	vddpuls		0
+	R_ct		500K
+	Cdl_CE		10n
+	Rct_CE		100K
+	Rs_CE		10K
+	Rs_WE		10K
+	PTAT_EN		1
+	Calib_EN		0
+	S0		0
+	S1		0
+	S2		1
+	S3		0
+
+Interactive.202
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.202 completed. 
+Current time: Thu May 28 10:39:11 2026 

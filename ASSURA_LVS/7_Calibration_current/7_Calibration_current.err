@@ -1,0 +1,176 @@
+================================================================================
+Rule No. 44 : # INFO: Don't use -resimulate_extracted- Switch for standard LVS but only for QRC! #
+
+Real Error Count : 7; Flat Error Count : 18
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : pmos4 layout PRIMLIB l="10u" ng="2" w="3u" wtot="6u" in1=MP21
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 5                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        5                 51.175       51.350      56.575       76.450
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.200     -1.200      4.200     23.900
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN728129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 3                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        3                 19.000       68.050      40.200       70.650
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.800     -0.250      1.800     20.950
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN0
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 3                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        3                118.300       71.950     121.500       77.750
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.400     -0.250      5.400      2.950
+
+--------------------------------------------------------------------------------
+Cell Name : Inverter layout Potentiostat
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 92.000       67.575      98.400       75.450
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.550      0.025      6.950      7.900
+
+--------------------------------------------------------------------------------
+Cell Name : 7_Calibration_current layout Potentiostat
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             3              3                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  5.950       34.900     185.100      191.900
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        5.950     34.900     77.425    191.900
+   2      X       77.425     34.900    145.750    191.900
+   3      X      145.750     34.900    185.100    191.900
+
+================================================================================
+Rule No. 45 : # C35B4 ENG - 183 Rev9 (Last updated 26-Apr-2017 12:48) #
+
+Real Error Count : 7; Flat Error Count : 18
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : pmos4 layout PRIMLIB l="10u" ng="2" w="3u" wtot="6u" in1=MP21
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 5                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        5                 51.175       51.350      56.575       76.450
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.200     -1.200      4.200     23.900
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN728129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 3                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        3                 19.000       68.050      40.200       70.650
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.800     -0.250      1.800     20.950
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN0
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 3                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        3                118.300       71.950     121.500       77.750
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.400     -0.250      5.400      2.950
+
+--------------------------------------------------------------------------------
+Cell Name : Inverter layout Potentiostat
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 92.000       67.575      98.400       75.450
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.550      0.025      6.950      7.900
+
+--------------------------------------------------------------------------------
+Cell Name : 7_Calibration_current layout Potentiostat
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             3              3                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  5.950       34.900     185.100      191.900
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        5.950     34.900     77.425    191.900
+   2      X       77.425     34.900    145.750    191.900
+   3      X      145.750     34.900    185.100    191.900
+

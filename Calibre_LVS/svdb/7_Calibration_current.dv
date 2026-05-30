@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/7_Calibration_current.dv
+dv_start matched                                  
+dv_cell {7_Calibration_current} {7_Calibration_current} matched
+dv_obj_count -transformed_nets {19 19} -transformed_inst {23 23} -transformed_port {8 8}
+dv_end

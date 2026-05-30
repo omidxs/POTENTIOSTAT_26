@@ -1,0 +1,117 @@
+
+Devices filtered by filterDevice commands : 
+
+*******************************************************************************
+Schematic Cell cpolyc schematic PRIMLIB
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+  Generic  C1
+
+1 devices filtered
+
+*******************************************************************************
+Layout Cell cvar layout PRIMLIB col=13 row=4 in1=C1
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+
+1 devices filtered
+
+*******************************************************************************
+Layout Cell Inverter layout Potentiostat
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+
+1 devices filtered
+
+*******************************************************************************
+Layout Cell cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428529
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+
+1 devices filtered
+
+*******************************************************************************
+Layout Cell 7_MUX21 layout Potentiostat
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+
+1 devices filtered
+
+*******************************************************************************
+Layout Cell 7_Calibration_current layout Potentiostat
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+      DIO  avD43_2
+      DIO  avD43_3
+      DIO  avD43_4
+      DIO  avD43_5
+      DIO  avD43_6
+
+6 devices filtered
+
+*******************************************************************************
+Layout Cell 6_TIA_Front_Layout layout Potentiostat
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+      DIO  avD43_2
+      DIO  avD43_3
+
+3 devices filtered
+
+*******************************************************************************
+Layout Cell 6_Resnet layout Potentiostat
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+      DIO  avD43_2
+      DIO  avD43_3
+      DIO  avD43_4
+      DIO  avD43_5
+
+5 devices filtered
+
+*******************************************************************************
+Layout Cell 6_CA_Front_Layout layout Potentiostat
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+      DIO  avD43_2
+      DIO  avD43_3
+      DIO  avD43_4
+
+4 devices filtered
+
+*******************************************************************************
+Layout Cell 8_CA_TIA_Front_calib layout Potentiostat
+*******************************************************************************
+
+DeviceTyp  Device
+---------  ------
+      DIO  avD43_1
+
+1 devices filtered
+

@@ -1,6 +1,6 @@
 6_TIA_Front_Layout 1000
 INFO_PROCESS_C35B4C3
-1 1 3 May 26 21:34:47 2026                     
+1 1 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 INFO : checked with c35b4c3
@@ -11,7 +11,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 154675 95150
 153675 95150
 INFO_QRC_MODE_OFF
-1 1 3 May 26 21:34:47 2026                     
+1 1 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 INFO : QRC_MODE turned off
@@ -22,7 +22,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 154675 95150
 153675 95150
 INFO_RMETX_DEVICE_SHORTED
-1 1 3 May 26 21:34:47 2026                     
+1 1 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 INFO: DRC checked without rmetx device ( metx NOT opened )
@@ -33,7 +33,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 154675 95150
 153675 95150
 INFO_RMETX_VIAX_DEVICE_SHORTED
-1 1 3 May 26 21:34:47 2026                     
+1 1 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 INFO: DRC checked without rmetx_viax device ( metx_viax NOT opened )
@@ -44,24 +44,24 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 154675 95150
 153675 95150
 INFO_NWELL_HOT
-4 4 3 May 26 21:34:48 2026                     
+4 4 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 INFO: this nwell is hot
 p 1 4
-CN cvar_CDNS_779831285591 c 0 1 1 0 3350 13950 2
+CN cvar_CDNS_779984204861 c 0 1 1 0 3350 13950 2
 -300 -300
 22450 -300
 22450 31500
 -300 31500
 p 2 4
-CN cpolyc_CDNS_779831285593 c 1 0 0 1 189400 63300 4
+CN cpolyc_CDNS_779984204863 c 1 0 0 1 189400 63300 4
 -1350 -1350
 58250 -1350
 58250 56700
 -1350 56700
 p 3 4
-CN VIA1_C_CDNS_7798312855946 c 1 0 0 1 218250 149600 3
+CN VIA1_C_CDNS_7799842048646 c 1 0 0 1 218250 149600 3
 -450 -25950
 450 -25950
 450 25950
@@ -85,7 +85,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 247650 120600
 188050 120600
 ILL_MET1_DIE_RATIO_M1R1
-1 1 3 May 26 21:34:48 2026                     
+1 1 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 M1_R_1 Minimum density of MET1 area [%] = 30 
@@ -96,7 +96,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 309800 189300
 -1450 189300
 ILL_MET2_DIE_RATIO_M2R1
-1 1 3 May 26 21:34:48 2026                     
+1 1 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 M2_R_1 Minimum density of MET2 area [%] = 30 
@@ -107,7 +107,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 309800 189300
 -1450 189300
 ILL_MET3_DIE_RATIO_M3R1
-1 1 3 May 26 21:34:48 2026                     
+1 1 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 M3_R_1 Minimum density of MET3 area [%] = 30 
@@ -118,7 +118,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 309800 189300
 -1450 189300
 ILL_MET4_DIE_RATIO_M4R1
-1 1 3 May 26 21:34:48 2026                     
+1 1 3 May 28 16:03:27 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 M4_R_1 Minimum density of MET4 area [%] = 30 
@@ -129,7 +129,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 309800 189300
 -1450 189300
 INFO_TEXT_VDD
-1 1 2 May 26 21:34:48 2026                     
+1 1 2 May 28 16:03:28 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 p 1 4
@@ -139,7 +139,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 6600 186450
 6500 186450
 INFO_TEXT_VSS
-1 1 2 May 26 21:34:48 2026                     
+1 1 2 May 28 16:03:28 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 p 1 4
@@ -149,7 +149,7 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 74150 1900
 74050 1900
 INFO_GATES_CONN_VDD_ERC
-38 38 3 May 26 21:34:48 2026                   
+38 38 3 May 28 16:03:28 2026                   
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 ERC Warning: Gates connected VDD/VCC/VBAT, do not switch
@@ -345,12 +345,12 @@ p 38 4
 167225 53900
 163225 53900
 INFO_GATES_CONN_VSS_ERC
-54 54 3 May 26 21:34:48 2026                   
+54 54 3 May 28 16:03:28 2026                   
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 ERC Warning: Gates connected VSS/GND/VEE/VSUB, do not switch
 p 1 4
-CN cvar_CDNS_779831285591 c 0 1 1 0 3350 13950 2
+CN cvar_CDNS_779984204861 c 0 1 1 0 3350 13950 2
 850 0
 1500 0
 1500 6600
@@ -622,7 +622,7 @@ p 54 4
 211650 35475
 191650 35475
 INFO_NWELL_GROUNDED_ERC
-1 1 3 May 26 21:34:48 2026                     
+1 1 3 May 28 16:03:28 2026                     
 Rule File Pathname: _c35b4c3.rules_
 Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
 nwell conn vss
@@ -637,10 +637,10 @@ CN 6_TIA_Front_Layout c 1 0 0 1 0 0 0
 307850 178650
 188050 178650
 NET_AREA_RATIO_RDBS
-0 0 1 May 26 21:34:50 2026
+0 0 1 May 28 16:03:30 2026
 par009_pad_oa_min_l_wtot.rdb 0
 DENSITY_PRINT_FILES
-0 0 7 May 26 21:34:50 2026
+0 0 7 May 28 16:03:30 2026
 ratio_poly1_die.txt
 ratio_met1_die.txt
 ratio_met2_die.txt
@@ -649,9 +649,9 @@ ratio_met4_die.txt
 ratio_viatsv_die.txt
 ratio_mettsv_die.txt
 NET_AREA_RATIO_PRINT_FILES
-0 0 2 May 26 21:34:50 2026
+0 0 2 May 28 16:03:30 2026
 ratio_poly1_cont.txt
 ratio_poly2_cont.txt
 LAYOUT_INPUT_EXCEPTION_RDBS
-0 0 1 May 26 21:34:50 2026
+0 0 1 May 28 16:03:30 2026
 badpath_polygon.rdb 0

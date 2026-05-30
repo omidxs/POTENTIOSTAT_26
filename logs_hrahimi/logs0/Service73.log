@@ -1,0 +1,2515 @@
+\# Program start time:     UTC 2026.05.30 18:27:21.646
+\# Local time: UTC (UTC+00:00) 2026.05.30 18:27:21.646
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service73.log -mpssession virtuoso660032 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_660032_1780048312 -scopedPid 660032 -axlSession fnxSession0 -axlServiceIdFlag 73 -uuid 43535826-15ec-43d5-88aa-aa2819842520 -heartbeat /dev/shm/swift-heartbeat.7psKgNFYZg -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CF8A318D001D65600001DD5 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	il2244vt26_hrahimi (x86_64)
+\# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:7337 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,047 MB
+\# Available memory:	  2,335,442 MB
+\# System memory:	  3,104,512 MB
+\# Maximum memory size:	  3,103,586 MB
+\# Max mem available:	  2,335,563 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,677 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		hrahimi
+\o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
+\# Process Id:		962831
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\# Memory report: using         226 MB, process size 1,791 MB at UTC 2026.05.30 18:27:23.104
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso660032, host=il2244vt26_hrahimi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 962831 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [18:27:21.445354] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\o ......................................................................................
+\o            ams AG HIT-Kit v.ams_4.10
+\o ......................................................................................
+\o COPYRIGHT (c) 2012 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This HIT-Kit and attached documentation are confidential information and may 
+\o only be used as authorized by the HIT-Kit license agreement.
+\o ......................................................................................
+\# Current Window: window(2)
+\o Loading simulator default settings.
+\w 
+\w load( "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl" ))
+\w                                                                                  ^
+\w PARSER WARNING at line 63 column 82 of file ./.cdsinit_local
+\w *WARNING* (Parser): extra ')' ignored
+\o //
+\o //  Calibre Skill Interface * (v2022.4_16.8) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o Loading simulator default settings.
+\p hitkit: ams_4.10  Tech: c35b4c3  User: hrahimi 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 962831' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\i _axlRunServices()
+\# [18:27:27.120297] Periodic Lic check successful
+\# [18:27:27.120298] Feature usage summary:
+\o Loading simui.cxt 
+\o [2026-05-30 18:27:27.158 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 962831, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:27.201 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "6151"}
+\o [2026-05-30 18:27:27.202 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "Poten", "testnameKey": "Poten"}
+\o Loading vqp.cxt 
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 73 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat_Top
+\o 	Cell         = top
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.303
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro/Interactive.303.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/1/Poten
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         394 MB, process size 2,154 MB at UTC 2026.05.30 18:27:30.205
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Available memory:      2,335,582 MB at UTC 2026.05.30 18:27:32.059
+\# Memory report: Maximum memory size now 2,335,996 MB at UTC 2026.05.30 18:27:32.059
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.05.30 18:27:32.059
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "0"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "0"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "0"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "1.7"
+\o Setting var Vin_CA_AC = "1"
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "-50m"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/psf/Poten
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting May 30 18:27:32 2026
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_ANA_4M AGND3ALLP schematic" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AGND3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AGND3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_ANA_4M AVDD3ALLP schematic" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_ANA_4M AVDD3ALLP schematic" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly2c symbol" has been updated since "IOLIB_ANA_4M APRIO200P schematic" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly2c/symbol' for instance 'R3' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/APRIO200P/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/APRIO200P/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M VDD3RP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M VDD3RP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M VDD3OP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M VDD3OP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M VDD3IP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M VDD3IP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3IP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3IP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3IP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3IP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M ICP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M ICP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdpmos4 symbol" has been updated since "IOLIB_4M ICP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rdiffp3 symbol" has been updated since "IOLIB_4M ICP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdpmos4/symbol' for instance 'MPLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rdiffp3/symbol' for instance 'RLIB_GC2' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M GND3RP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M GND3RP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M GND3OP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M GND3OP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-940): Same Cell name 'presistor' is present in multiple libraries -  PRIMLIB and analogLib.
+\o 
+\o End netlisting May 30 18:27:35 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   3.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-30 18:27:35.813 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "Poten", "testnameKey": "Poten"}
+\o [2026-05-30 18:27:36.827 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "40519"}
+\o [2026-05-30 18:27:36.828 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "Poten"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 73 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat_Top
+\o 	Cell         = top
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.303
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro/Interactive.303.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/1/Poten
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "0"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "0"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "0"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "1.7"
+\o Setting var Vin_CA_AC = "1"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "-50m"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/1/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/1/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:40.412 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 764.3867 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:40.413 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "Poten"}
+\o [2026-05-30 18:27:40.416 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "44563"}
+\o [2026-05-30 18:27:40.416 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/2/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/2/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:41.345 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.0391 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 2, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:41.346 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "Poten"}
+\o [2026-05-30 18:27:41.353 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "46564"}
+\o [2026-05-30 18:27:41.353 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/3/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/3/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:42.419 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 3, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:42.420 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "Poten"}
+\o [2026-05-30 18:27:42.423 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "48535"}
+\o [2026-05-30 18:27:42.423 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/4/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/4/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:43.302 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 4, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:43.303 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "Poten"}
+\o [2026-05-30 18:27:43.305 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "50536"}
+\o [2026-05-30 18:27:43.305 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/5/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/5/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:44.178 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 5, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:44.180 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "Poten"}
+\o [2026-05-30 18:27:44.182 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "52507"}
+\o [2026-05-30 18:27:44.183 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/6/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/6/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:45.122 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 6, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:45.123 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "Poten"}
+\o [2026-05-30 18:27:45.126 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "54508"}
+\o [2026-05-30 18:27:45.126 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/7/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/7/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:46.027 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 7, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:46.029 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "Poten"}
+\o [2026-05-30 18:27:46.031 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "56479"}
+\o [2026-05-30 18:27:46.032 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/8/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/8/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:46.870 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 8, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:46.871 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "Poten"}
+\o [2026-05-30 18:27:46.873 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "58480"}
+\o [2026-05-30 18:27:46.874 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/9/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/9/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:47.728 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 9, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:47.729 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "Poten"}
+\o [2026-05-30 18:27:47.731 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "60451"}
+\o [2026-05-30 18:27:47.731 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/10/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/10/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:48.612 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 10, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:48.613 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "Poten"}
+\o [2026-05-30 18:27:48.615 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 11, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "62458"}
+\o [2026-05-30 18:27:48.615 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 11, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/11/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/11/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:49.443 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 768.7852 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 11, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:49.444 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 11, "testname": "Poten"}
+\o [2026-05-30 18:27:49.446 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 12, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "64435"}
+\o [2026-05-30 18:27:49.446 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 12, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/12/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/12/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:50.433 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 12, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:50.434 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 12, "testname": "Poten"}
+\o [2026-05-30 18:27:50.436 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 13, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "66442"}
+\o [2026-05-30 18:27:50.437 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 13, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/13/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/13/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:51.235 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 13, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:51.236 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 13, "testname": "Poten"}
+\o [2026-05-30 18:27:51.238 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 14, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "68419"}
+\o [2026-05-30 18:27:51.238 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 14, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/14/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/14/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:52.106 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 14, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:52.107 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 14, "testname": "Poten"}
+\o [2026-05-30 18:27:52.109 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 15, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "70426"}
+\o [2026-05-30 18:27:52.110 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 15, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/15/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/15/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:53.031 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 15, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:53.032 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 15, "testname": "Poten"}
+\o [2026-05-30 18:27:53.035 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 16, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "72403"}
+\o [2026-05-30 18:27:53.035 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 16, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/16/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/16/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:53.920 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 16, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:53.921 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 16, "testname": "Poten"}
+\o [2026-05-30 18:27:53.923 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 17, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "74410"}
+\o [2026-05-30 18:27:53.924 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 17, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/17/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/17/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:54.832 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 17, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:54.833 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 17, "testname": "Poten"}
+\o [2026-05-30 18:27:54.836 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 18, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "76387"}
+\o [2026-05-30 18:27:54.837 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 18, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/18/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/18/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:56.398 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 18, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:56.399 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 18, "testname": "Poten"}
+\o [2026-05-30 18:27:56.403 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 19, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "78394"}
+\o [2026-05-30 18:27:56.403 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 19, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/19/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/19/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:57.671 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 19, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:57.672 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 19, "testname": "Poten"}
+\o [2026-05-30 18:27:57.676 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 20, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "80371"}
+\o [2026-05-30 18:27:57.677 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 20, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/20/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/20/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:27:59.374 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 770.8477 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 20, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:27:59.376 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 20, "testname": "Poten"}
+\o [2026-05-30 18:27:59.385 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 21, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "82378"}
+\o [2026-05-30 18:27:59.386 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 21, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/21/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/21/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:01.364 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1133 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 21, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:01.366 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 21, "testname": "Poten"}
+\o [2026-05-30 18:28:01.371 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 22, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "84355"}
+\o [2026-05-30 18:28:01.372 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 22, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/22/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/22/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:03.438 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 22, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:03.440 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 22, "testname": "Poten"}
+\o [2026-05-30 18:28:03.445 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 23, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "86362"}
+\o [2026-05-30 18:28:03.446 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 23, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/23/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/23/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:05.742 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 23, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:05.744 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 23, "testname": "Poten"}
+\o [2026-05-30 18:28:05.751 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 24, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "88339"}
+\o [2026-05-30 18:28:05.751 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 24, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/24/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/24/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:07.743 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 24, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:07.745 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 24, "testname": "Poten"}
+\o [2026-05-30 18:28:07.753 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 25, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "90346"}
+\o [2026-05-30 18:28:07.755 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 25, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/25/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/25/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:09.866 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 25, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:09.867 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 25, "testname": "Poten"}
+\o [2026-05-30 18:28:09.872 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 26, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "92323"}
+\o [2026-05-30 18:28:09.874 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 26, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/26/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/26/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:12.566 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 26, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:12.568 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 26, "testname": "Poten"}
+\o [2026-05-30 18:28:12.579 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 27, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "94330"}
+\o [2026-05-30 18:28:12.583 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 27, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/27/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/27/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:14.718 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 27, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:14.721 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 27, "testname": "Poten"}
+\o [2026-05-30 18:28:14.727 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 28, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "96307"}
+\o [2026-05-30 18:28:14.728 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 28, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/28/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/28/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:16.816 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 28, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:16.817 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 28, "testname": "Poten"}
+\o [2026-05-30 18:28:16.822 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 29, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "98314"}
+\o [2026-05-30 18:28:16.823 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 29, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/29/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/29/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:19.100 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 29, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:19.101 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 29, "testname": "Poten"}
+\o [2026-05-30 18:28:19.104 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 30, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "100291"}
+\o [2026-05-30 18:28:19.105 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 30, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/30/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/30/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:21.153 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 30, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:21.154 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 30, "testname": "Poten"}
+\o [2026-05-30 18:28:21.170 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 31, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "102299"}
+\o [2026-05-30 18:28:21.170 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 31, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/31/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/31/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:22.930 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 31, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:22.931 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 31, "testname": "Poten"}
+\o [2026-05-30 18:28:22.935 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 32, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "104277"}
+\o [2026-05-30 18:28:22.936 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 32, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/32/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/32/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:24.351 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 32, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:24.353 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 32, "testname": "Poten"}
+\o [2026-05-30 18:28:24.357 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 33, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "106285"}
+\o [2026-05-30 18:28:24.358 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 33, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/33/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/33/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:26.178 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 33, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:26.179 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 33, "testname": "Poten"}
+\o [2026-05-30 18:28:26.183 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 34, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "108263"}
+\o [2026-05-30 18:28:26.184 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 34, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/34/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/34/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:28.036 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 34, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:28.037 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 34, "testname": "Poten"}
+\o [2026-05-30 18:28:28.045 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 35, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "110271"}
+\o [2026-05-30 18:28:28.046 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 35, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/35/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/35/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:29.624 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 35, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:29.625 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 35, "testname": "Poten"}
+\o [2026-05-30 18:28:29.629 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 36, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "112249"}
+\o [2026-05-30 18:28:29.629 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 36, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/36/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/36/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:31.034 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 36, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:31.037 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 36, "testname": "Poten"}
+\o [2026-05-30 18:28:31.052 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 37, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "114257"}
+\o [2026-05-30 18:28:31.053 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 37, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/37/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/37/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:33.088 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 37, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:33.090 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 37, "testname": "Poten"}
+\o [2026-05-30 18:28:33.101 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 38, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "116235"}
+\o [2026-05-30 18:28:33.102 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 38, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/38/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/38/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:34.801 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 38, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:34.802 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 38, "testname": "Poten"}
+\o [2026-05-30 18:28:34.807 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 39, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "118243"}
+\o [2026-05-30 18:28:34.807 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 39, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/39/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/39/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:36.082 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 39, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:36.083 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 39, "testname": "Poten"}
+\o [2026-05-30 18:28:36.087 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 40, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "120221"}
+\o [2026-05-30 18:28:36.087 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 40, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/40/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/40/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:37.460 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 40, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:37.461 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 40, "testname": "Poten"}
+\o [2026-05-30 18:28:37.464 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 41, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "122229"}
+\o [2026-05-30 18:28:37.465 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 41, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/41/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/41/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:39.014 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 41, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:39.016 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 41, "testname": "Poten"}
+\o [2026-05-30 18:28:39.020 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 42, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "124207"}
+\o [2026-05-30 18:28:39.020 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 42, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/42/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/42/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:40.253 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 42, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:40.254 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 42, "testname": "Poten"}
+\o [2026-05-30 18:28:40.257 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 43, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "126215"}
+\o [2026-05-30 18:28:40.258 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 43, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/43/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/43/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:41.312 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 43, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:41.314 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 43, "testname": "Poten"}
+\o [2026-05-30 18:28:41.317 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 44, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "128193"}
+\o [2026-05-30 18:28:41.317 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 44, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/44/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/44/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:42.373 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 44, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:42.375 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 44, "testname": "Poten"}
+\o [2026-05-30 18:28:42.378 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 45, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "130201"}
+\o [2026-05-30 18:28:42.378 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 45, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/45/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/45/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:44.022 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 45, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:44.024 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 45, "testname": "Poten"}
+\o [2026-05-30 18:28:44.035 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 46, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "132179"}
+\o [2026-05-30 18:28:44.035 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 46, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/46/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/46/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:46.261 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 46, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:46.263 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 46, "testname": "Poten"}
+\o [2026-05-30 18:28:46.277 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 47, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "134187"}
+\o [2026-05-30 18:28:46.278 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 47, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/47/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/47/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:48.412 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 47, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:48.414 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 47, "testname": "Poten"}
+\o [2026-05-30 18:28:48.421 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 48, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "136165"}
+\o [2026-05-30 18:28:48.421 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 48, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/48/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/48/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:50.090 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 48, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:50.091 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 48, "testname": "Poten"}
+\o [2026-05-30 18:28:50.094 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 49, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "138173"}
+\o [2026-05-30 18:28:50.094 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 49, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/49/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/49/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:51.378 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 49, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:51.380 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 49, "testname": "Poten"}
+\o [2026-05-30 18:28:51.382 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 50, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "140151"}
+\o [2026-05-30 18:28:51.383 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 50, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/50/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/50/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:52.597 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 50, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:52.599 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 50, "testname": "Poten"}
+\o [2026-05-30 18:28:52.603 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 51, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "142159"}
+\o [2026-05-30 18:28:52.604 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 51, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/51/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/51/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:54.332 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 51, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:54.333 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 51, "testname": "Poten"}
+\o [2026-05-30 18:28:54.346 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 52, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "144137"}
+\o [2026-05-30 18:28:54.346 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 52, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/52/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/52/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:55.807 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 52, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:55.808 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 52, "testname": "Poten"}
+\o [2026-05-30 18:28:55.817 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 53, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "146145"}
+\o [2026-05-30 18:28:55.817 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 53, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/53/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/53/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:57.262 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 53, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:57.263 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 53, "testname": "Poten"}
+\o [2026-05-30 18:28:57.272 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 54, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "148123"}
+\o [2026-05-30 18:28:57.273 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 54, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/54/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/54/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:28:58.795 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 54, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:28:58.797 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 54, "testname": "Poten"}
+\o [2026-05-30 18:28:58.802 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 55, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "150131"}
+\o [2026-05-30 18:28:58.802 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 55, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/55/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/55/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:00.255 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 55, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:00.257 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 55, "testname": "Poten"}
+\o [2026-05-30 18:29:00.274 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 56, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "152109"}
+\o [2026-05-30 18:29:00.275 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 56, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/56/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/56/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:01.427 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 56, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:01.428 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 56, "testname": "Poten"}
+\o [2026-05-30 18:29:01.431 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 57, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "154117"}
+\o [2026-05-30 18:29:01.431 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 57, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/57/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/57/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:02.290 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 57, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:02.291 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 57, "testname": "Poten"}
+\o [2026-05-30 18:29:02.293 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 58, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "156095"}
+\o [2026-05-30 18:29:02.293 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 58, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/58/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/58/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:03.281 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 58, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:03.283 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 58, "testname": "Poten"}
+\o [2026-05-30 18:29:03.287 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 59, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "158103"}
+\o [2026-05-30 18:29:03.288 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 59, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/59/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/59/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:04.460 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 59, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:04.461 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 59, "testname": "Poten"}
+\o [2026-05-30 18:29:04.464 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 60, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "160081"}
+\o [2026-05-30 18:29:04.464 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 60, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/60/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/60/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:06.252 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 60, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:06.253 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 60, "testname": "Poten"}
+\o [2026-05-30 18:29:06.259 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 61, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "162089"}
+\o [2026-05-30 18:29:06.260 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 61, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/61/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/61/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:08.703 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 61, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:08.705 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 61, "testname": "Poten"}
+\o [2026-05-30 18:29:08.712 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 62, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "164067"}
+\o [2026-05-30 18:29:08.712 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 62, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "2.97"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/62/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/62/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:11.198 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 62, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:11.200 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 62, "testname": "Poten"}
+\o [2026-05-30 18:29:11.205 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 63, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "166075"}
+\o [2026-05-30 18:29:11.206 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 63, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/63/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/63/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:13.693 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 63, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:13.695 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 63, "testname": "Poten"}
+\o [2026-05-30 18:29:13.703 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 64, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "168053"}
+\o [2026-05-30 18:29:13.704 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 64, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o Setting var vdd = "3.63"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/64/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/64/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:16.259 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 64, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:16.261 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 64, "testname": "Poten"}
+\o [2026-05-30 18:29:16.269 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 65, "testname": "Poten", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.303", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log", "logFileSize": "170061"}
+\o [2026-05-30 18:29:16.277 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 65, "testname": "Poten"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/65/Poten/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.303/65/Poten
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-05-30 18:29:18.700 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 771.1172 MBytes, peak memory used: 780.0938 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 962831, "testname": "Poten", "point": 65, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service73.log"}
+\o [2026-05-30 18:29:18.701 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 65, "testname": "Poten"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [18:34:20.304682] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [18:34:20.304706] Feature usage summary:
+\# Memory report: on exit            488 MB, process size 2,250 MB at UTC 2026.05.30 18:34:20.304
+\# Memory report: peak usage         488 MB, process size 2,253 MB

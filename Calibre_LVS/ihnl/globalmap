@@ -1,6 +1,12 @@
 CADENCE IHNL11140
 $model
+Potentiostat/7_MUX21/schematic 7_MUX21
+Potentiostat/6_CA_Front_Layout/schematic 6_CA_Front_Layout
+Potentiostat/Inverter/schematic Inverter
+Potentiostat/8_CA_TIA_Front_calib/schematic 8_CA_TIA_Front_calib
+Potentiostat/7_Calibration_current/schematic 7_Calibration_current
 PRIMLIB/cpolyc/schematic cpolyc
+Potentiostat/6_Resnet/schematic 6_Resnet
 Potentiostat/6_TIA_Front_Layout/schematic 6_TIA_Front_Layout
 $endmodel
 $net

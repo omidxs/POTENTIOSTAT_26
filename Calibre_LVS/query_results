@@ -1,0 +1,6 @@
+mgc_rve_context_lcv "Potentiostat" "8_CA_TIA_Front_calib" "layout" 1000
+mgc_rve_highlight_index 0 "100MV_EN" "#00000000FFFF"
+mgc_rve_layer "M3PIN"
+mr 202.525 30.425 210.525 38.425
+mt "100MV_EN" 206.525 34.425 0.1 
+mgc_rve_zoom 200.811 28.711 212.239 40.139 1

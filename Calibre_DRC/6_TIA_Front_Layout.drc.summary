@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue May 26 21:34:46 2026
+Execution Date/Time:       Thu May 28 16:03:25 2026
 Calibre Version:           v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
 Rule File Pathname:        _c35b4c3.rules_
 Rule File Title:           DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
@@ -220,7 +220,7 @@ LAYER PAD .............. TOTAL Original Geometry Count = 0    (0)
 LAYER MET4 ............. TOTAL Original Geometry Count = 0    (0)
 LAYER MET3 ............. TOTAL Original Geometry Count = 48   (140)
 LAYER M1HOLE ........... TOTAL Original Geometry Count = 0    (0)
-LAYER MET1 ............. TOTAL Original Geometry Count = 991  (2174)
+LAYER MET1 ............. TOTAL Original Geometry Count = 990  (2173)
 LAYER M2HOLE ........... TOTAL Original Geometry Count = 0    (0)
 LAYER M3HOLE ........... TOTAL Original Geometry Count = 0    (0)
 LAYER M4HOLE ........... TOTAL Original Geometry Count = 0    (0)
@@ -1787,12 +1787,12 @@ RULECHECK ILL_ELEMENT_PMOSML4 ................................ TOTAL Result Coun
 ----------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS (BY CELL)
 ---
-CELL cvar_CDNS_779831285591 .................... TOTAL Result Count = 53 (106)
+CELL cvar_CDNS_779984204861 .................... TOTAL Result Count = 53 (106)
     RULECHECK INFO_NWELL_HOT ................... TOTAL Result Count = 1  (2)
     RULECHECK INFO_GATES_CONN_VSS_ERC .......... TOTAL Result Count = 52 (104)
-CELL cpolyc_CDNS_779831285593 .................. TOTAL Result Count = 1  (4)
+CELL cpolyc_CDNS_779984204863 .................. TOTAL Result Count = 1  (4)
     RULECHECK INFO_NWELL_HOT ................... TOTAL Result Count = 1  (4)
-CELL VIA1_C_CDNS_7798312855946 ................. TOTAL Result Count = 1  (3)
+CELL VIA1_C_CDNS_7799842048646 ................. TOTAL Result Count = 1  (3)
     RULECHECK INFO_NWELL_HOT ................... TOTAL Result Count = 1  (3)
 CELL 6_TIA_Front_Layout ........................ TOTAL Result Count = 52 (52)
     RULECHECK INFO_PROCESS_C35B4C3 ............. TOTAL Result Count = 1  (1)
@@ -1813,7 +1813,7 @@ CELL 6_TIA_Front_Layout ........................ TOTAL Result Count = 52 (52)
 --- SUMMARY
 ---
 TOTAL CPU Time:                  0
-TOTAL REAL Time:                 3
-TOTAL Original Layer Geometries: 8549 (19152)
+TOTAL REAL Time:                 4
+TOTAL Original Layer Geometries: 8548 (19151)
 TOTAL DRC RuleChecks Executed:   1384
 TOTAL DRC Results Generated:     107 (165)

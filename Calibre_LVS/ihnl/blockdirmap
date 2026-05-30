@@ -1,4 +1,10 @@
-CADENCE IHNL11142
+CADENCE IHNL11148
 
-PRIMLIB cpolyc schematic cds0
-Potentiostat 6_TIA_Front_Layout schematic cds1
+Potentiostat Inverter schematic cds0
+Potentiostat 7_MUX21 schematic cds1
+PRIMLIB cpolyc schematic cds2
+Potentiostat 6_CA_Front_Layout schematic cds3
+Potentiostat 6_Resnet schematic cds4
+Potentiostat 6_TIA_Front_Layout schematic cds5
+Potentiostat 7_Calibration_current schematic cds6
+Potentiostat 8_CA_TIA_Front_calib schematic cds7

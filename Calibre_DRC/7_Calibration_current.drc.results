@@ -1,0 +1,117 @@
+7_Calibration_current 1000
+INFO_PROCESS_C35B4C3
+1 1 3 May 30 13:44:37 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO : checked with c35b4c3
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+93875 112900
+94875 112900
+94875 113900
+93875 113900
+INFO_QRC_MODE_OFF
+1 1 3 May 30 13:44:37 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO : QRC_MODE turned off
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+93875 112900
+94875 112900
+94875 113900
+93875 113900
+INFO_RMETX_DEVICE_SHORTED
+1 1 3 May 30 13:44:37 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO: DRC checked without rmetx device ( metx NOT opened )
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+93875 112900
+94875 112900
+94875 113900
+93875 113900
+INFO_RMETX_VIAX_DEVICE_SHORTED
+1 1 3 May 30 13:44:37 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+INFO: DRC checked without rmetx_viax device ( metx_viax NOT opened )
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+93875 112900
+94875 112900
+94875 113900
+93875 113900
+ILL_MET1_DIE_RATIO_M1R1
+1 1 3 May 30 13:44:38 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+M1_R_1 Minimum density of MET1 area [%] = 30 
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+3650 34900
+185100 34900
+185100 191900
+3650 191900
+ILL_MET3_DIE_RATIO_M3R1
+1 1 3 May 30 13:44:38 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+M3_R_1 Minimum density of MET3 area [%] = 30 
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+3650 34900
+185100 34900
+185100 191900
+3650 191900
+ILL_MET4_DIE_RATIO_M4R1
+1 1 3 May 30 13:44:38 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+M4_R_1 Minimum density of MET4 area [%] = 30 
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+3650 34900
+185100 34900
+185100 191900
+3650 191900
+INFO_TEXT_VDD
+1 1 2 May 30 13:44:38 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+18200 189650
+18300 189650
+18300 189750
+18200 189750
+INFO_TEXT_VSS
+1 1 2 May 30 13:44:38 2026                     
+Rule File Pathname: _c35b4c3.rules_
+Rule File Title: DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
+p 1 4
+CN 7_Calibration_current c 1 0 0 1 0 0 0
+9500 36850
+9600 36850
+9600 36950
+9500 36950
+NET_AREA_RATIO_RDBS
+0 0 1 May 30 13:44:40 2026
+par009_pad_oa_min_l_wtot.rdb 0
+DENSITY_PRINT_FILES
+0 0 7 May 30 13:44:40 2026
+ratio_poly1_die.txt
+ratio_met1_die.txt
+ratio_met2_die.txt
+ratio_met3_die.txt
+ratio_met4_die.txt
+ratio_viatsv_die.txt
+ratio_mettsv_die.txt
+NET_AREA_RATIO_PRINT_FILES
+0 0 2 May 30 13:44:40 2026
+ratio_poly1_cont.txt
+ratio_poly2_cont.txt
+LAYOUT_INPUT_EXCEPTION_RDBS
+0 0 1 May 30 13:44:40 2026
+badpath_polygon.rdb 0

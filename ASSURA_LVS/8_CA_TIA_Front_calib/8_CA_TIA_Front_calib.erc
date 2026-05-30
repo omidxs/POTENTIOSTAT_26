@@ -1,0 +1,78 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'Inverter layout Potentiostat':
+  info: Assign pin label "VDDA" at (4.100, 7.400) to layer `net_met2'.
+  info: Assign pin label "GNDA" at (2.850, 0.550) to layer `net_met1'.
+  info: Assign pin label "A" at (1.150, 3.250) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.650, 3.550) to layer `net_met1'.
+
+ Label in cell '7_MUX21 layout Potentiostat':
+  info: Assign pin label "EN" at (4.950, 7.600) to layer `net_met3'.
+  info: Assign pin label "EN" at (5.050, 7.650) to layer `net_met3'.
+  info: Assign pin label "VDDA" at (8.150, 15.600) to layer `net_met2'.
+  info: Assign pin label "Out" at (32.650, 2.850) to layer `net_met2'.
+  info: Assign pin label "A1" at (20.450, 17.900) to layer `net_met2'.
+  info: Assign pin label "A0" at (21.700, 21.000) to layer `net_met2'.
+  info: Assign pin label "GNDA" at (6.850, 8.800) to layer `net_met1'.
+
+ Label in cell '7_Calibration_current layout Potentiostat':
+  info: Assign pin label "Calib_curr" at (159.600, 62.450) to layer `net_met3'.
+  info: Assign pin label "curr" at (10.475, 75.175) to layer `net_met2'.
+  info: Assign pin label "VDDA" at (18.250, 189.700) to layer `net_met2'.
+  info: Assign pin label "GNDA" at (9.550, 36.900) to layer `net_met1'.
+  info: Assign pin label "S<0>" at (90.575, 72.150) to layer `net_met1'.
+  info: Assign pin label "S<3>" at (108.575, 72.650) to layer `net_met1'.
+  info: Assign pin label "S<2>" at (127.725, 72.100) to layer `net_met1'.
+  info: Assign pin label "S<1>" at (145.025, 72.650) to layer `net_met1'.
+
+ Label in cell '6_TIA_Front_Layout layout Potentiostat':
+  info: Assign pin label "Ibias" at (6.850, 39.850) to layer `net_met2'.
+  info: Assign pin label "Vin-" at (92.100, 38.200) to layer `net_met2'.
+  info: Assign pin label "Vin+" at (92.050, 41.800) to layer `net_met2'.
+  info: Assign pin label "VDDA" at (6.550, 186.400) to layer `net_met2'.
+  info: Assign pin label "Vout" at (225.350, 56.700) to layer `net_met2'.
+  info: Assign pin label "Vout" at (225.550, 56.700) to layer `net_met2'.
+  info: Assign pin label "GNDA" at (74.100, 1.850) to layer `net_met1'.
+
+ Label in cell '6_Resnet layout Potentiostat':
+  info: Assign pin label "S<0>" at (63.300, 108.600) to layer `net_met3'.
+  info: Assign pin label "S<1>" at (64.300, 122.100) to layer `net_met3'.
+  info: Assign pin label "S<2>" at (62.550, 137.950) to layer `net_met3'.
+  info: Assign pin label "S<3>" at (63.500, 151.000) to layer `net_met3'.
+  info: Assign pin label "VDDA" at (53.800, 151.750) to layer `net_met2'.
+  info: Assign pin label "In" at (78.400, 152.000) to layer `net_met2'.
+  info: Assign pin label "Out" at (204.650, 83.350) to layer `net_met2'.
+  info: Assign pin label "GNDA" at (137.950, 75.900) to layer `net_met1'.
+
+ Label in cell '6_CA_Front_Layout layout Potentiostat':
+  info: Assign pin label "Ibias" at (5.150, 35.450) to layer `net_met2'.
+  info: Assign pin label "Vout" at (116.950, 51.750) to layer `net_met2'.
+  info: Assign pin label "VDDA" at (61.700, 231.450) to layer `net_met2'.
+  info: Assign pin label "Vin-" at (21.200, 68.600) to layer `net_met1'.
+  info: Assign pin label "GNDA" at (89.500, 1.800) to layer `net_met1'.
+  info: Assign pin label "Vin+" at (21.550, 70.450) to layer `net_met1'.
+
+ Label in cell '8_CA_TIA_Front_calib layout Potentiostat':
+  info: Assign pin label "EN_100mV" at (206.400, 34.250) to layer `net_met3'.
+  info: Assign pin label "v1500" at (212.125, 34.725) to layer `net_met3'.
+  info: Assign pin label "S<0>" at (313.050, 48.275) to layer `net_met3'.
+  info: Assign pin label "S<3>" at (330.800, 45.375) to layer `net_met3'.
+  info: Assign pin label "S<2>" at (350.150, 45.200) to layer `net_met3'.
+  info: Assign pin label "S<1>" at (367.275, 45.325) to layer `net_met3'.
+  info: Assign pin label "CE" at (186.675, 261.350) to layer `net_met3'.
+  info: Assign pin label "RE" at (201.925, 260.850) to layer `net_met3'.
+  info: Assign pin label "Ibias9" at (423.950, 51.425) to layer `net_met3'.
+  info: Assign pin label "V_EC" at (264.850, 260.650) to layer `net_met3'.
+  info: Assign pin label "WE" at (387.500, 260.250) to layer `net_met3'.
+  info: Assign pin label "Vref" at (614.650, 50.800) to layer `net_met3'.
+  info: Assign pin label "TIA_in" at (415.400, 260.350) to layer `net_met3'.
+  info: Assign pin label "Vout" at (740.650, 260.875) to layer `net_met3'.
+  info: Assign pin label "Ibias8" at (201.150, 37.050) to layer `net_met2'.
+  info: Assign pin label "Calib_cur" at (226.750, 33.350) to layer `net_met2'.
+  info: Assign pin label "VDDA" at (30.400, 258.425) to layer `net_met2'.
+  info: Assign pin label "Calib_EN" at (412.525, 50.725) to layer `net_met2'.
+  info: Assign pin label "GNDA" at (6.825, -17.750) to layer `net_met1'.
+
+***** End of Label Report *****
+
