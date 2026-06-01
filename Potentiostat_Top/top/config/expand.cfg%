@@ -1,4 +1,4 @@
-//Revision 22
+//Revision 23
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -17,11 +17,7 @@ viewlist verilogams, veriloga, behavioral, functional, \module , schematic, spec
 stoplist symbol, spectre;
 
 
-cell Potentiostat.\6_TIA_Front_Layout  binding :av_extracted;
-cell Potentiostat.\7_MUX21  binding :av_extracted;
-cell Potentiostat.\6_Resnet  binding :av_extracted;
-cell Potentiostat.\6_CA_Front_Layout  binding :av_extracted;
-cell Potentiostat.\7_Calibration_current  binding :av_extracted;
+cell Potentiostat.\8_CA_TIA_Front_calib  binding :av_extracted;
 
 inst (FBIAS.fbias_por2_f:schematic).I1 binding :cmos_sch;
 inst (FBIAS.fbias_por2_f:schematic).I2 binding :cmos_sch;
