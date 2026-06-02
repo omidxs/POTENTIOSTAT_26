@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Thu May 28 16:03:25 2026
+Execution Date/Time:       Tue Jun  2 12:32:26 2026
 Calibre Version:           v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
 Rule File Pathname:        _c35b4c3.rules_
 Rule File Title:           DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
@@ -1430,87 +1430,87 @@ RULECHECK SPAC_MET1_IPDEF_M1BLOCK_M1_S_2 ..................... TOTAL Result Coun
 RULECHECK SPAC_MET2_IPDEF_M2BLOCK_M2_S_2 ..................... TOTAL Result Count = 0  (0)
 RULECHECK SPAC_MET3_IPDEF_M3BLOCK_M3_S_2 ..................... TOTAL Result Count = 0  (0)
 RULECHECK SPAC_MET4THIN_IPDEF_M4BLOCK_M4_S_2 ................. TOTAL Result Count = 0  (0)
-RULECHECK OFFGRID_DUMMY_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_NTUB_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_NTUB_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_DIFF_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_DIFF_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_HVDEF_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_HVDEF_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_MIDOX_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_MIDOX_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_POLY1_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_POLY1_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_NPLUS_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_NPLUS_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_PPLUS_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_PPLUS_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_PPLUS_DPL_GUIDE001 ......................... NOT EXECUTED
-RULECHECK OFFGRID_PPLUS_DPL_ORTHOGONAL_GUIDE001 .............. NOT EXECUTED
-RULECHECK OFFGRID_HRES_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_HRES_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_POLY2_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_POLY2_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_SALEX_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_SALEX_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_CONT_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_CONT_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_MET1_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_MET1_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_M1HOLE_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_M1HOLE_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_VIA_GUIDE001 ............................... NOT EXECUTED
-RULECHECK OFFGRID_VIA_ORTHOGONAL_GUIDE001 .................... NOT EXECUTED
-RULECHECK OFFGRID_MET2_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_MET2_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_M2HOLE_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_M2HOLE_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_VIA2_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_VIA2_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_MET3_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_MET3_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_M3HOLE_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_M3HOLE_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_PAD_GUIDE001 ............................... NOT EXECUTED
-RULECHECK OFFGRID_PAD_ORTHOGONAL_GUIDE001 .................... NOT EXECUTED
-RULECHECK OFFGRID_VIA3_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_VIA3_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_MET4_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_MET4_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_M4HOLE_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_M4HOLE_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_METCAP_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_METCAP_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_PCOAT_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_PCOAT_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_CELBOX_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_CELBOX_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_ZENER_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_ZENER_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_DIODE_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_DIODE_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_TUBDEF_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_TUBDEF_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_RESDEF_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_RESDEF_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_RESTRM_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_RESTRM_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_METRES_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_METRES_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal1_GUIDE001 ..................... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal1_ORTHOGONAL_GUIDE001 .......... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal2_GUIDE001 ..................... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal2_ORTHOGONAL_GUIDE001 .......... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal3_GUIDE001 ..................... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal3_ORTHOGONAL_GUIDE001 .......... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal4_GUIDE001 ..................... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal4_ORTHOGONAL_GUIDE001 .......... NOT EXECUTED
-RULECHECK OFFGRID_DIFCUT_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_DIFCUT_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_PO1CUT_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_PO1CUT_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_PO2CUT_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_PO2CUT_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
+RULECHECK OFFGRID_DUMMY_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_NTUB_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_NTUB_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_DIFF_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_DIFF_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_HVDEF_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_HVDEF_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MIDOX_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MIDOX_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_POLY1_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_POLY1_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_NPLUS_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_NPLUS_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PPLUS_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PPLUS_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PPLUS_DPL_GUIDE001 ......................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PPLUS_DPL_ORTHOGONAL_GUIDE001 .............. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_HRES_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_HRES_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_POLY2_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_POLY2_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_SALEX_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_SALEX_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_CONT_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_CONT_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MET1_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MET1_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_M1HOLE_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_M1HOLE_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_VIA_GUIDE001 ............................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_VIA_ORTHOGONAL_GUIDE001 .................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MET2_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MET2_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_M2HOLE_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_M2HOLE_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_VIA2_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_VIA2_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MET3_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MET3_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_M3HOLE_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_M3HOLE_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PAD_GUIDE001 ............................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PAD_ORTHOGONAL_GUIDE001 .................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_VIA3_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_VIA3_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MET4_GUIDE001 .............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_MET4_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_M4HOLE_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_M4HOLE_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METCAP_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METCAP_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PCOAT_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PCOAT_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_CELBOX_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_CELBOX_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_ZENER_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_ZENER_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_DIODE_GUIDE001 ............................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_DIODE_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_TUBDEF_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_TUBDEF_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_RESDEF_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_RESDEF_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_RESTRM_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_RESTRM_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_metal1_GUIDE001 ..................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_metal1_ORTHOGONAL_GUIDE001 .......... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_metal2_GUIDE001 ..................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_metal2_ORTHOGONAL_GUIDE001 .......... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_metal3_GUIDE001 ..................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_metal3_ORTHOGONAL_GUIDE001 .......... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_metal4_GUIDE001 ..................... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_METRES_metal4_ORTHOGONAL_GUIDE001 .......... TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_DIFCUT_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_DIFCUT_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PO1CUT_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PO1CUT_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PO2CUT_GUIDE001 ............................ TOTAL Result Count = 0  (0)
+RULECHECK OFFGRID_PO2CUT_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0  (0)
 RULECHECK INFO_PADTSVPIN ..................................... TOTAL Result Count = 0  (0)
 RULECHECK ILL_PADTSVPIN_OUT_METTSV ........................... TOTAL Result Count = 0  (0)
 RULECHECK ILL_METTSV_MISS_PADTSVPIN .......................... TOTAL Result Count = 0  (0)
@@ -1787,12 +1787,12 @@ RULECHECK ILL_ELEMENT_PMOSML4 ................................ TOTAL Result Coun
 ----------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS (BY CELL)
 ---
-CELL cvar_CDNS_779984204861 .................... TOTAL Result Count = 53 (106)
+CELL cvar_CDNS_780403545331 .................... TOTAL Result Count = 53 (106)
     RULECHECK INFO_NWELL_HOT ................... TOTAL Result Count = 1  (2)
     RULECHECK INFO_GATES_CONN_VSS_ERC .......... TOTAL Result Count = 52 (104)
-CELL cpolyc_CDNS_779984204863 .................. TOTAL Result Count = 1  (4)
+CELL cpolyc_CDNS_780403545333 .................. TOTAL Result Count = 1  (4)
     RULECHECK INFO_NWELL_HOT ................... TOTAL Result Count = 1  (4)
-CELL VIA1_C_CDNS_7799842048646 ................. TOTAL Result Count = 1  (3)
+CELL VIA1_C_CDNS_7804035453346 ................. TOTAL Result Count = 1  (3)
     RULECHECK INFO_NWELL_HOT ................... TOTAL Result Count = 1  (3)
 CELL 6_TIA_Front_Layout ........................ TOTAL Result Count = 52 (52)
     RULECHECK INFO_PROCESS_C35B4C3 ............. TOTAL Result Count = 1  (1)
@@ -1813,7 +1813,7 @@ CELL 6_TIA_Front_Layout ........................ TOTAL Result Count = 52 (52)
 --- SUMMARY
 ---
 TOTAL CPU Time:                  0
-TOTAL REAL Time:                 4
+TOTAL REAL Time:                 5
 TOTAL Original Layer Geometries: 8548 (19151)
-TOTAL DRC RuleChecks Executed:   1384
+TOTAL DRC RuleChecks Executed:   1465
 TOTAL DRC Results Generated:     107 (165)

@@ -67,7 +67,7 @@
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test enabled="1">Potentiostat_7_my_bandgap_1
+			<test enabled="1">PTAT
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
@@ -123,7 +123,7 @@
 						<value>3.3</value>
 					</var>
 					<var>vddpulse
-						<value></value>
+						<value>0</value>
 					</var>
 				</vars>
 				<origoptions></origoptions>
@@ -202,7 +202,7 @@
 				<value></value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>New Win</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -359,15 +359,15 @@
 			<var>vdd
 				<value>0</value>
 				<dependentTests>
-					<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 					<dependentTest enabled="1" omitted="0">MC</dependentTest>
+					<dependentTest enabled="0">PTAT</dependentTest>
 				</dependentTests>
 			</var>
 			<var>vddpulse
 				<value>3.3</value>
 				<dependentTests>
-					<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 					<dependentTest enabled="1" omitted="0">MC</dependentTest>
+					<dependentTest enabled="0">PTAT</dependentTest>
 				</dependentTests>
 			</var>
 		</vars>
@@ -544,7 +544,7 @@
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.114
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.130
 			<checkpoint>
 				<jobcontrolmode>LSCS</jobcontrolmode>
 				<corners>
@@ -612,7 +612,7 @@
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
+					<test enabled="1">PTAT
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
@@ -631,7 +631,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Interactive.114</value>
+								<value>Interactive.130</value>
 							</option>
 						</tooloptions>
 						<outputs>
@@ -668,7 +668,7 @@
 								<value>3.3</value>
 							</var>
 							<var>vddpulse
-								<value></value>
+								<value>3.3</value>
 							</var>
 						</vars>
 						<origoptions></origoptions>
@@ -715,7 +715,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Interactive.114</value>
+								<value>Interactive.130</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -747,7 +747,7 @@
 						<value></value>
 					</plottingoption>
 					<plottingoption>plottingmode
-						<value>Append</value>
+						<value>New Win</value>
 					</plottingoption>
 					<plottingoption>plottype
 						<value>None</value>
@@ -902,17 +902,17 @@
 				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 				<vars>
 					<var>vdd
-						<value>3.3</value>
+						<value>0</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 					<var>vddpulse
-						<value>0</value>
+						<value>3.3</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
@@ -926,27 +926,27 @@
 					</waveglobals>
 				</waveglobalsetups>
 			</checkpoint>
-			<timestamp>May 19 11:00:37 2026</timestamp>
-			<uuid>{52223c0f-4606-41c3-8df3-d4ce93ea0ca9}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.114.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.114.rdb</simresults>
+			<timestamp>Jun 2 10:33:54 2026</timestamp>
+			<uuid>{608b9a45-6c19-4797-baaf-4ee75ca06e06}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.130.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.130.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_110037676</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.114</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.114</simdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_103354671</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.130</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.130</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.114.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.114.log</runlogfile>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.130.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.130.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.115
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.131
 			<checkpoint>
 				<jobcontrolmode>LSCS</jobcontrolmode>
 				<corners>
@@ -1014,7 +1014,7 @@
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
+					<test enabled="1">PTAT
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
@@ -1033,7 +1033,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Interactive.115</value>
+								<value>Interactive.131</value>
 							</option>
 						</tooloptions>
 						<outputs>
@@ -1067,10 +1067,10 @@
 						</outputs>
 						<vars>
 							<var>vdd
-								<value>3.3</value>
+								<value>0</value>
 							</var>
 							<var>vddpulse
-								<value></value>
+								<value>3.3</value>
 							</var>
 						</vars>
 						<origoptions></origoptions>
@@ -1117,7 +1117,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Interactive.115</value>
+								<value>Interactive.131</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1149,7 +1149,7 @@
 						<value></value>
 					</plottingoption>
 					<plottingoption>plottingmode
-						<value>Append</value>
+						<value>New Win</value>
 					</plottingoption>
 					<plottingoption>plottype
 						<value>None</value>
@@ -1306,15 +1306,15 @@
 					<var>vdd
 						<value>0</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 					<var>vddpulse
 						<value>3.3</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
@@ -1328,27 +1328,27 @@
 					</waveglobals>
 				</waveglobalsetups>
 			</checkpoint>
-			<timestamp>May 19 11:01:29 2026</timestamp>
-			<uuid>{6d9d5bd2-da1a-4223-8d20-99b040079624}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.115.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.115.rdb</simresults>
+			<timestamp>Jun 2 10:35:32 2026</timestamp>
+			<uuid>{3644f9c4-cd20-4b1f-af13-4484c8872b08}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.131.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.131.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_110129247</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.115</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.115</simdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_103532875</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.131</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.131</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.115.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.115.log</runlogfile>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.131.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.131.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.116
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.132
 			<checkpoint>
 				<jobcontrolmode>LSCS</jobcontrolmode>
 				<corners>
@@ -1416,7 +1416,7 @@
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
+					<test enabled="1">PTAT
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
@@ -1435,7 +1435,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Interactive.116</value>
+								<value>Interactive.132</value>
 							</option>
 						</tooloptions>
 						<outputs>
@@ -1472,7 +1472,7 @@
 								<value>3.3</value>
 							</var>
 							<var>vddpulse
-								<value></value>
+								<value>3.3</value>
 							</var>
 						</vars>
 						<origoptions></origoptions>
@@ -1519,7 +1519,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Interactive.116</value>
+								<value>Interactive.132</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1551,7 +1551,7 @@
 						<value></value>
 					</plottingoption>
 					<plottingoption>plottingmode
-						<value>Append</value>
+						<value>New Win</value>
 					</plottingoption>
 					<plottingoption>plottype
 						<value>None</value>
@@ -1706,412 +1706,17 @@
 				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 				<vars>
 					<var>vdd
-						<value>3.3</value>
+						<value>0</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 					<var>vddpulse
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
-							<dependentTest enabled="1" omitted="0">MC</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<allcornersenabled>0</allcornersenabled>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>May 19 11:02:25 2026</timestamp>
-			<uuid>{8658d795-34f3-419c-a826-d2d95f748561}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.116.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.116.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_110225523</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.116</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.116</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.116.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.116.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.117
-			<checkpoint>
-				<jobcontrolmode>LSCS</jobcontrolmode>
-				<corners>
-					<corner enabled="1">_default</corner>
-					<corner enabled="1">C1
-						<vars>
-							<var>vdd
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/res.scs</modelfile>
-								<modelsection>"restmwn" "reswp"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cap.scs</modelfile>
-								<modelsection>"capwp" "capws"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/bip.scs</modelfile>
-								<modelsection>"biphb" "biphs" "biplb"</modelsection>
-							</model>
-							<model enabled="0">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/ind.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<sharedvarinfo></sharedvarinfo>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>7_PTAT_tb</value>
-							</option>
-							<option>lib
-								<value>Potentiostat</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Interactive.117</value>
-							</option>
-						</tooloptions>
-						<outputs>
-							<output>"/V_ptat"
-								<evalType>point</evalType>
-							</output>
-							<output>/Y
-								<evalType>point</evalType>
-							</output>
-							<output>/X
-								<evalType>point</evalType>
-							</output>
-							<output>rmsNoise(0.001 100000)
-								<evalType>point</evalType>
-							</output>
-							<output>/
-								<evalType>point</evalType>
-							</output>
-							<output>/Vo
-								<evalType>point</evalType>
-							</output>
-							<output>Sensor_sensitiv
-								<evalType>point</evalType>
-							</output>
-							<output>/V_ptat
-								<evalType>point</evalType>
-							</output>
-							<output>/I14/V_ptat
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<vars>
-							<var>vdd
-								<value>3.3</value>
-							</var>
-							<var>vddpulse
-								<value></value>
-							</var>
-						</vars>
-						<origoptions></origoptions>
-					</test>
-					<test enabled="1">MC
-						<tool>ADE</tool>
-						<outputs>
-							<output>"/V_ptat"
-								<evalType>point</evalType>
-							</output>
-							<output>/Y
-								<evalType>point</evalType>
-							</output>
-							<output>/V_ptat
-								<evalType>point</evalType>
-							</output>
-							<output>/X
-								<evalType>point</evalType>
-							</output>
-							<output>rmsNoise(0.001 100000)
-								<evalType>point</evalType>
-							</output>
-							<output>/
-								<evalType>point</evalType>
-							</output>
-							<output>/Vo
-								<evalType>point</evalType>
-							</output>
-							<output>Sensor_sensitiv
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>7_PTAT_tb</value>
-							</option>
-							<option>lib
-								<value>Potentiostat</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Interactive.117</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<vars>
-							<var>vdd
-								<value></value>
-							</var>
-							<var>vddpulse
-								<value></value>
-							</var>
-						</vars>
-						<origoptions></origoptions>
-					</test>
-				</tests>
-				<disabledtests>
-					<test>Potentiostat_7_my_bandgap_1_1</test>
-					<test>MC</test>
-				</disabledtests>
-				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1</test>
-					<test netlist="0" netlistscope="all">MC</test>
-					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1_1</test>
-				</checksasserts>
-				<plottingoptions>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>plottingmode
-						<value>Append</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<exploreroptions>
-					<exploreroption>waveformtemplate
-						<value>(None)</value>
-					</exploreroption>
-				</exploreroptions>
-				<incrementalsimulationoptions>
-					<incrementalSimulation>0</incrementalSimulation>
-				</incrementalsimulationoptions>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<incrementalsimsetup>
-					<useincremental>0</useincremental>
-					<reusenetlist>0</reusenetlist>
-					<reusesaverunhist>0</reusesaverunhist>
-					<copyreferenceresults>1</copyreferenceresults>
-				</incrementalsimsetup>
-				<runoptions>
-					<mode>Monte Carlo Sampling
-						<runoption>mismatchvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcYieldAlphaLimit
-							<value>0.05</value>
-						</runoption>
-						<runoption>dumpParamMode
-							<value>yes</value>
-						</runoption>
-						<runoption>mcstartingrunnumber
-							<value>1</value>
-						</runoption>
-						<runoption>mcFilterPluginPath
-							<value></value>
-						</runoption>
-						<runoption>sssnumpoints
-							<value>7000</value>
-						</runoption>
-						<runoption>mismatchscale
-							<value>1</value>
-						</runoption>
-						<runoption>processscale
-							<value>1</value>
-						</runoption>
-						<runoption>pointsPerJobPolicy
-							<value>Group automatically</value>
-						</runoption>
-						<runoption>samplingmode
-							<value>lds</value>
-						</runoption>
-						<runoption>maxPointsPerJob
-							<value>10</value>
-						</runoption>
-						<runoption>reliabilitymode
-							<value>singlestress</value>
-						</runoption>
-						<runoption>wcdinitialpoints
-							<value>200</value>
-						</runoption>
-						<runoption>mcnumpoints
-							<value>100</value>
-						</runoption>
-						<runoption>yeyistostart
-							<value>3.0</value>
-						</runoption>
-						<runoption>mcSigmaTarget
-							<value>3</value>
-						</runoption>
-						<runoption>yeiterations
-							<value>10</value>
-						</runoption>
-						<runoption>mcYieldTarget
-							<value>99.865</value>
-						</runoption>
-						<runoption>processvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcnumbins
-							<value></value>
-						</runoption>
-						<runoption>mcFilterPluginReuseHistory
-							<value></value>
-						</runoption>
-						<runoption>yeexpectedyield
-							<value>3</value>
-						</runoption>
-						<runoption>montecarloseed
-							<value>12345</value>
-						</runoption>
-						<runoption>mcmethod
-							<value>all</value>
-						</runoption>
-						<runoption>saveallplots
-							<value>1</value>
-						</runoption>
-						<runoption>yeusehistorymc
-							<value>0</value>
-						</runoption>
-						<runoption>saveprocess
-							<value>1</value>
-						</runoption>
-						<runoption>yeuseautomcsamples
-							<value>1</value>
-						</runoption>
-						<runoption>mcStopEarly
-							<value>0</value>
-						</runoption>
-						<runoption>yecreatecorners
-							<value>0</value>
-						</runoption>
-						<runoption>mcdistandscalingmismatchenable
-							<value>0</value>
-						</runoption>
-						<runoption>parasiticanalysis
-							<value>0</value>
-						</runoption>
-						<runoption>savemismatch
-							<value>1</value>
-						</runoption>
-						<runoption>mcFilterPluginEnabled
-							<value>0</value>
-						</runoption>
-						<runoption>haveyeyieldtostart
-							<value>1</value>
-						</runoption>
-						<runoption>yeusevarreduction
-							<value>1</value>
-						</runoption>
-						<runoption>mcdistandscalingprocessenable
-							<value>0</value>
-						</runoption>
-					</mode>
-				</runoptions>
-				<jobpolicyname>Maestro Default</jobpolicyname>
-				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
-				<vars>
-					<var>vdd
 						<value>3.3</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
-						</dependentTests>
-					</var>
-					<var>vddpulse
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
-							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="1">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
@@ -2125,27 +1730,27 @@
 					</waveglobals>
 				</waveglobalsetups>
 			</checkpoint>
-			<timestamp>May 19 11:03:29 2026</timestamp>
-			<uuid>{c515bf2b-5a28-4dca-b227-48eb7d972bd0}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.117.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.117.rdb</simresults>
+			<timestamp>Jun 2 10:37:51 2026</timestamp>
+			<uuid>{4a1cc3f7-008f-40a9-b470-331344643502}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.132.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.132.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_110329633</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.117</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.117</simdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_103751972</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.132</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.132</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.117.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.117.log</runlogfile>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.132.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.132.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.118
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.133
 			<checkpoint>
 				<jobcontrolmode>LSCS</jobcontrolmode>
 				<corners>
@@ -2213,7 +1818,7 @@
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
+					<test enabled="1">PTAT
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
@@ -2232,7 +1837,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Interactive.118</value>
+								<value>Interactive.133</value>
 							</option>
 						</tooloptions>
 						<outputs>
@@ -2266,10 +1871,10 @@
 						</outputs>
 						<vars>
 							<var>vdd
-								<value>3.3</value>
+								<value>0</value>
 							</var>
 							<var>vddpulse
-								<value></value>
+								<value>3.3</value>
 							</var>
 						</vars>
 						<origoptions></origoptions>
@@ -2316,7 +1921,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Interactive.118</value>
+								<value>Interactive.133</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2348,7 +1953,7 @@
 						<value></value>
 					</plottingoption>
 					<plottingoption>plottingmode
-						<value>Append</value>
+						<value>New Win</value>
 					</plottingoption>
 					<plottingoption>plottype
 						<value>None</value>
@@ -2505,15 +2110,15 @@
 					<var>vdd
 						<value>0</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 					<var>vddpulse
 						<value>3.3</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
@@ -2527,27 +2132,27 @@
 					</waveglobals>
 				</waveglobalsetups>
 			</checkpoint>
-			<timestamp>May 19 11:04:04 2026</timestamp>
-			<uuid>{e5b0afaa-9293-41d8-8118-ed0ebf39c48e}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.118.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.118.rdb</simresults>
+			<timestamp>Jun 2 10:39:11 2026</timestamp>
+			<uuid>{9946205a-24b2-460c-8598-586d44a9dede}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.133.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.133.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_110404790</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.118</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.118</simdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_103911397</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.133</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.133</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.118.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.118.log</runlogfile>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.133.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.133.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.119
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.134
 			<checkpoint>
 				<jobcontrolmode>LSCS</jobcontrolmode>
 				<corners>
@@ -2615,7 +2220,7 @@
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
+					<test enabled="1">PTAT
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
@@ -2634,7 +2239,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Interactive.119</value>
+								<value>Interactive.134</value>
 							</option>
 						</tooloptions>
 						<outputs>
@@ -2671,7 +2276,7 @@
 								<value>3.3</value>
 							</var>
 							<var>vddpulse
-								<value></value>
+								<value>0</value>
 							</var>
 						</vars>
 						<origoptions></origoptions>
@@ -2718,7 +2323,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Interactive.119</value>
+								<value>Interactive.134</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2750,7 +2355,7 @@
 						<value></value>
 					</plottingoption>
 					<plottingoption>plottingmode
-						<value>Append</value>
+						<value>New Win</value>
 					</plottingoption>
 					<plottingoption>plottype
 						<value>None</value>
@@ -2907,49 +2512,42 @@
 					<var>vdd
 						<value>0</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 					<var>vddpulse
 						<value>3.3</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
 				<allcornersenabled>0</allcornersenabled>
 				<sortVariableValues>0</sortVariableValues>
-				<waveglobalsetups>
-					<waveglobals>
-						<waveglobal>algorithm
-							<value>Asymmetrical</value>
-						</waveglobal>
-					</waveglobals>
-				</waveglobalsetups>
 			</checkpoint>
-			<timestamp>May 19 11:08:45 2026</timestamp>
-			<uuid>{442798eb-8b23-475d-9ae3-35124d57b9aa}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.119.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.119.rdb</simresults>
+			<timestamp>Jun 2 10:40:28 2026</timestamp>
+			<uuid>{7cf6af2c-ec82-42bd-ad60-f54040fa3711}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.134.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.134.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_110845344</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.119</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.119</simdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_104028544</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.134</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.134</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.119.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.119.log</runlogfile>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.134.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.134.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.120
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.135
 			<checkpoint>
 				<jobcontrolmode>LSCS</jobcontrolmode>
 				<corners>
@@ -3017,7 +2615,7 @@
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
+					<test enabled="1">PTAT
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
@@ -3036,7 +2634,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Interactive.120</value>
+								<value>Interactive.135</value>
 							</option>
 						</tooloptions>
 						<outputs>
@@ -3073,7 +2671,7 @@
 								<value>3.3</value>
 							</var>
 							<var>vddpulse
-								<value></value>
+								<value>0</value>
 							</var>
 						</vars>
 						<origoptions></origoptions>
@@ -3120,7 +2718,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Interactive.120</value>
+								<value>Interactive.135</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3152,7 +2750,7 @@
 						<value></value>
 					</plottingoption>
 					<plottingoption>plottingmode
-						<value>Append</value>
+						<value>New Win</value>
 					</plottingoption>
 					<plottingoption>plottype
 						<value>None</value>
@@ -3309,49 +2907,42 @@
 					<var>vdd
 						<value>0</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 					<var>vddpulse
 						<value>3.3</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
 				<allcornersenabled>0</allcornersenabled>
 				<sortVariableValues>0</sortVariableValues>
-				<waveglobalsetups>
-					<waveglobals>
-						<waveglobal>algorithm
-							<value>Asymmetrical</value>
-						</waveglobal>
-					</waveglobals>
-				</waveglobalsetups>
 			</checkpoint>
-			<timestamp>May 19 11:09:24 2026</timestamp>
-			<uuid>{c639f944-7974-40df-ae23-994756d03782}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.120.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.120.rdb</simresults>
+			<timestamp>Jun 2 10:44:14 2026</timestamp>
+			<uuid>{9d080919-b105-4f26-9c90-4964634ab1c5}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.135.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.135.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_110924777</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.120</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.120</simdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_104414327</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.135</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.135</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.120.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.120.log</runlogfile>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.135.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.135.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.121
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.136
 			<checkpoint>
 				<jobcontrolmode>LSCS</jobcontrolmode>
 				<corners>
@@ -3419,7 +3010,7 @@
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
+					<test enabled="1">PTAT
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
@@ -3438,7 +3029,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Interactive.121</value>
+								<value>Interactive.136</value>
 							</option>
 						</tooloptions>
 						<outputs>
@@ -3475,7 +3066,7 @@
 								<value>3.3</value>
 							</var>
 							<var>vddpulse
-								<value></value>
+								<value>0</value>
 							</var>
 						</vars>
 						<origoptions></origoptions>
@@ -3522,7 +3113,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Interactive.121</value>
+								<value>Interactive.136</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3554,811 +3145,7 @@
 						<value></value>
 					</plottingoption>
 					<plottingoption>plottingmode
-						<value>Append</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<exploreroptions>
-					<exploreroption>waveformtemplate
-						<value>(None)</value>
-					</exploreroption>
-				</exploreroptions>
-				<incrementalsimulationoptions>
-					<incrementalSimulation>0</incrementalSimulation>
-				</incrementalsimulationoptions>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<incrementalsimsetup>
-					<useincremental>0</useincremental>
-					<reusenetlist>0</reusenetlist>
-					<reusesaverunhist>0</reusesaverunhist>
-					<copyreferenceresults>1</copyreferenceresults>
-				</incrementalsimsetup>
-				<runoptions>
-					<mode>Monte Carlo Sampling
-						<runoption>mismatchvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcYieldAlphaLimit
-							<value>0.05</value>
-						</runoption>
-						<runoption>dumpParamMode
-							<value>yes</value>
-						</runoption>
-						<runoption>mcstartingrunnumber
-							<value>1</value>
-						</runoption>
-						<runoption>mcFilterPluginPath
-							<value></value>
-						</runoption>
-						<runoption>sssnumpoints
-							<value>7000</value>
-						</runoption>
-						<runoption>mismatchscale
-							<value>1</value>
-						</runoption>
-						<runoption>processscale
-							<value>1</value>
-						</runoption>
-						<runoption>pointsPerJobPolicy
-							<value>Group automatically</value>
-						</runoption>
-						<runoption>samplingmode
-							<value>lds</value>
-						</runoption>
-						<runoption>maxPointsPerJob
-							<value>10</value>
-						</runoption>
-						<runoption>reliabilitymode
-							<value>singlestress</value>
-						</runoption>
-						<runoption>wcdinitialpoints
-							<value>200</value>
-						</runoption>
-						<runoption>mcnumpoints
-							<value>100</value>
-						</runoption>
-						<runoption>yeyistostart
-							<value>3.0</value>
-						</runoption>
-						<runoption>mcSigmaTarget
-							<value>3</value>
-						</runoption>
-						<runoption>yeiterations
-							<value>10</value>
-						</runoption>
-						<runoption>mcYieldTarget
-							<value>99.865</value>
-						</runoption>
-						<runoption>processvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcnumbins
-							<value></value>
-						</runoption>
-						<runoption>mcFilterPluginReuseHistory
-							<value></value>
-						</runoption>
-						<runoption>yeexpectedyield
-							<value>3</value>
-						</runoption>
-						<runoption>montecarloseed
-							<value>12345</value>
-						</runoption>
-						<runoption>mcmethod
-							<value>all</value>
-						</runoption>
-						<runoption>saveallplots
-							<value>1</value>
-						</runoption>
-						<runoption>yeusehistorymc
-							<value>0</value>
-						</runoption>
-						<runoption>saveprocess
-							<value>1</value>
-						</runoption>
-						<runoption>yeuseautomcsamples
-							<value>1</value>
-						</runoption>
-						<runoption>mcStopEarly
-							<value>0</value>
-						</runoption>
-						<runoption>yecreatecorners
-							<value>0</value>
-						</runoption>
-						<runoption>mcdistandscalingmismatchenable
-							<value>0</value>
-						</runoption>
-						<runoption>parasiticanalysis
-							<value>0</value>
-						</runoption>
-						<runoption>savemismatch
-							<value>1</value>
-						</runoption>
-						<runoption>mcFilterPluginEnabled
-							<value>0</value>
-						</runoption>
-						<runoption>haveyeyieldtostart
-							<value>1</value>
-						</runoption>
-						<runoption>yeusevarreduction
-							<value>1</value>
-						</runoption>
-						<runoption>mcdistandscalingprocessenable
-							<value>0</value>
-						</runoption>
-					</mode>
-				</runoptions>
-				<jobpolicyname>Maestro Default</jobpolicyname>
-				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
-				<vars>
-					<var>vdd
-						<value>3.3</value>
-						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
-							<dependentTest enabled="1" omitted="0">MC</dependentTest>
-						</dependentTests>
-					</var>
-					<var>vddpulse
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
-							<dependentTest enabled="1" omitted="0">MC</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<allcornersenabled>0</allcornersenabled>
-				<sortVariableValues>0</sortVariableValues>
-				<waveglobalsetups>
-					<waveglobals>
-						<waveglobal>algorithm
-							<value>Asymmetrical</value>
-						</waveglobal>
-					</waveglobals>
-				</waveglobalsetups>
-			</checkpoint>
-			<timestamp>May 19 11:10:13 2026</timestamp>
-			<uuid>{4e21aef2-c1b4-4d58-9d3c-83879d35a30f}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.121.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.121.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_111013485</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.121</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.121</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.121.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.121.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.122
-			<checkpoint>
-				<jobcontrolmode>LSCS</jobcontrolmode>
-				<corners>
-					<corner enabled="1">_default</corner>
-					<corner enabled="1">C1
-						<vars>
-							<var>vdd
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/res.scs</modelfile>
-								<modelsection>"restmwn" "reswp"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cap.scs</modelfile>
-								<modelsection>"capwp" "capws"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/bip.scs</modelfile>
-								<modelsection>"biphb" "biphs" "biplb"</modelsection>
-							</model>
-							<model enabled="0">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/ind.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<sharedvarinfo></sharedvarinfo>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>7_PTAT_tb</value>
-							</option>
-							<option>lib
-								<value>Potentiostat</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Interactive.122</value>
-							</option>
-						</tooloptions>
-						<outputs>
-							<output>"/V_ptat"
-								<evalType>point</evalType>
-							</output>
-							<output>/Y
-								<evalType>point</evalType>
-							</output>
-							<output>/X
-								<evalType>point</evalType>
-							</output>
-							<output>rmsNoise(0.001 100000)
-								<evalType>point</evalType>
-							</output>
-							<output>/
-								<evalType>point</evalType>
-							</output>
-							<output>/Vo
-								<evalType>point</evalType>
-							</output>
-							<output>Sensor_sensitiv
-								<evalType>point</evalType>
-							</output>
-							<output>/V_ptat
-								<evalType>point</evalType>
-							</output>
-							<output>/I14/V_ptat
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<vars>
-							<var>vdd
-								<value>3.3</value>
-							</var>
-							<var>vddpulse
-								<value></value>
-							</var>
-						</vars>
-						<origoptions></origoptions>
-					</test>
-					<test enabled="1">MC
-						<tool>ADE</tool>
-						<outputs>
-							<output>"/V_ptat"
-								<evalType>point</evalType>
-							</output>
-							<output>/Y
-								<evalType>point</evalType>
-							</output>
-							<output>/V_ptat
-								<evalType>point</evalType>
-							</output>
-							<output>/X
-								<evalType>point</evalType>
-							</output>
-							<output>rmsNoise(0.001 100000)
-								<evalType>point</evalType>
-							</output>
-							<output>/
-								<evalType>point</evalType>
-							</output>
-							<output>/Vo
-								<evalType>point</evalType>
-							</output>
-							<output>Sensor_sensitiv
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>7_PTAT_tb</value>
-							</option>
-							<option>lib
-								<value>Potentiostat</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Interactive.122</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<vars>
-							<var>vdd
-								<value></value>
-							</var>
-							<var>vddpulse
-								<value></value>
-							</var>
-						</vars>
-						<origoptions></origoptions>
-					</test>
-				</tests>
-				<disabledtests>
-					<test>Potentiostat_7_my_bandgap_1_1</test>
-					<test>MC</test>
-				</disabledtests>
-				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1</test>
-					<test netlist="0" netlistscope="all">MC</test>
-					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1_1</test>
-				</checksasserts>
-				<plottingoptions>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<exploreroptions>
-					<exploreroption>waveformtemplate
-						<value>(None)</value>
-					</exploreroption>
-				</exploreroptions>
-				<incrementalsimulationoptions>
-					<incrementalSimulation>0</incrementalSimulation>
-				</incrementalsimulationoptions>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<incrementalsimsetup>
-					<useincremental>0</useincremental>
-					<reusenetlist>0</reusenetlist>
-					<reusesaverunhist>0</reusesaverunhist>
-					<copyreferenceresults>1</copyreferenceresults>
-				</incrementalsimsetup>
-				<runoptions>
-					<mode>Monte Carlo Sampling
-						<runoption>mismatchvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcYieldAlphaLimit
-							<value>0.05</value>
-						</runoption>
-						<runoption>dumpParamMode
-							<value>yes</value>
-						</runoption>
-						<runoption>mcstartingrunnumber
-							<value>1</value>
-						</runoption>
-						<runoption>mcFilterPluginPath
-							<value></value>
-						</runoption>
-						<runoption>sssnumpoints
-							<value>7000</value>
-						</runoption>
-						<runoption>mismatchscale
-							<value>1</value>
-						</runoption>
-						<runoption>processscale
-							<value>1</value>
-						</runoption>
-						<runoption>pointsPerJobPolicy
-							<value>Group automatically</value>
-						</runoption>
-						<runoption>samplingmode
-							<value>lds</value>
-						</runoption>
-						<runoption>maxPointsPerJob
-							<value>10</value>
-						</runoption>
-						<runoption>reliabilitymode
-							<value>singlestress</value>
-						</runoption>
-						<runoption>wcdinitialpoints
-							<value>200</value>
-						</runoption>
-						<runoption>mcnumpoints
-							<value>100</value>
-						</runoption>
-						<runoption>yeyistostart
-							<value>3.0</value>
-						</runoption>
-						<runoption>mcSigmaTarget
-							<value>3</value>
-						</runoption>
-						<runoption>yeiterations
-							<value>10</value>
-						</runoption>
-						<runoption>mcYieldTarget
-							<value>99.865</value>
-						</runoption>
-						<runoption>processvary
-							<value>Gaussian</value>
-						</runoption>
-						<runoption>mcnumbins
-							<value></value>
-						</runoption>
-						<runoption>mcFilterPluginReuseHistory
-							<value></value>
-						</runoption>
-						<runoption>yeexpectedyield
-							<value>3</value>
-						</runoption>
-						<runoption>montecarloseed
-							<value>12345</value>
-						</runoption>
-						<runoption>mcmethod
-							<value>all</value>
-						</runoption>
-						<runoption>saveallplots
-							<value>1</value>
-						</runoption>
-						<runoption>yeusehistorymc
-							<value>0</value>
-						</runoption>
-						<runoption>saveprocess
-							<value>1</value>
-						</runoption>
-						<runoption>yeuseautomcsamples
-							<value>1</value>
-						</runoption>
-						<runoption>mcStopEarly
-							<value>0</value>
-						</runoption>
-						<runoption>yecreatecorners
-							<value>0</value>
-						</runoption>
-						<runoption>mcdistandscalingmismatchenable
-							<value>0</value>
-						</runoption>
-						<runoption>parasiticanalysis
-							<value>0</value>
-						</runoption>
-						<runoption>savemismatch
-							<value>1</value>
-						</runoption>
-						<runoption>mcFilterPluginEnabled
-							<value>0</value>
-						</runoption>
-						<runoption>haveyeyieldtostart
-							<value>1</value>
-						</runoption>
-						<runoption>yeusevarreduction
-							<value>1</value>
-						</runoption>
-						<runoption>mcdistandscalingprocessenable
-							<value>0</value>
-						</runoption>
-					</mode>
-				</runoptions>
-				<jobpolicyname>Maestro Default</jobpolicyname>
-				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
-				<vars>
-					<var>vdd
-						<value>3.3</value>
-						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
-							<dependentTest enabled="1" omitted="0">MC</dependentTest>
-						</dependentTests>
-					</var>
-					<var>vddpulse
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
-							<dependentTest enabled="1" omitted="0">MC</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<allcornersenabled>0</allcornersenabled>
-				<sortVariableValues>0</sortVariableValues>
-				<waveglobalsetups>
-					<waveglobals>
-						<waveglobal>algorithm
-							<value>Asymmetrical</value>
-						</waveglobal>
-					</waveglobals>
-				</waveglobalsetups>
-			</checkpoint>
-			<timestamp>May 19 11:15:58 2026</timestamp>
-			<uuid>{6c488c76-6a8d-429d-82bc-5344ab42f9d6}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.122.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.122.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_111558327</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.122</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.122</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.122.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.122.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.123
-			<checkpoint>
-				<jobcontrolmode>LSCS</jobcontrolmode>
-				<corners>
-					<corner enabled="1">_default</corner>
-					<corner enabled="1">C1
-						<vars>
-							<var>vdd
-								<value>2.97 3.63</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="1">processOption.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/processOption.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">cmos53.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs</modelfile>
-								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/res.scs</modelfile>
-								<modelsection>"restmwn" "reswp"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cap.scs</modelfile>
-								<modelsection>"capwp" "capws"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/bip.scs</modelfile>
-								<modelsection>"biphb" "biphs" "biplb"</modelsection>
-							</model>
-							<model enabled="0">ind.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/ind.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">esddiode.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<sharedvarinfo></sharedvarinfo>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Potentiostat_7_my_bandgap_1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>7_PTAT_tb</value>
-							</option>
-							<option>lib
-								<value>Potentiostat</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Interactive.123</value>
-							</option>
-						</tooloptions>
-						<outputs>
-							<output>"/V_ptat"
-								<evalType>point</evalType>
-							</output>
-							<output>/Y
-								<evalType>point</evalType>
-							</output>
-							<output>/X
-								<evalType>point</evalType>
-							</output>
-							<output>rmsNoise(0.001 100000)
-								<evalType>point</evalType>
-							</output>
-							<output>/
-								<evalType>point</evalType>
-							</output>
-							<output>/Vo
-								<evalType>point</evalType>
-							</output>
-							<output>Sensor_sensitiv
-								<evalType>point</evalType>
-							</output>
-							<output>/V_ptat
-								<evalType>point</evalType>
-							</output>
-							<output>/I14/V_ptat
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<vars>
-							<var>vdd
-								<value>3.3</value>
-							</var>
-							<var>vddpulse
-								<value></value>
-							</var>
-						</vars>
-						<origoptions></origoptions>
-					</test>
-					<test enabled="1">MC
-						<tool>ADE</tool>
-						<outputs>
-							<output>"/V_ptat"
-								<evalType>point</evalType>
-							</output>
-							<output>/Y
-								<evalType>point</evalType>
-							</output>
-							<output>/V_ptat
-								<evalType>point</evalType>
-							</output>
-							<output>/X
-								<evalType>point</evalType>
-							</output>
-							<output>rmsNoise(0.001 100000)
-								<evalType>point</evalType>
-							</output>
-							<output>/
-								<evalType>point</evalType>
-							</output>
-							<output>/Vo
-								<evalType>point</evalType>
-							</output>
-							<output>Sensor_sensitiv
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>7_PTAT_tb</value>
-							</option>
-							<option>lib
-								<value>Potentiostat</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Interactive.123</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<vars>
-							<var>vdd
-								<value></value>
-							</var>
-							<var>vddpulse
-								<value></value>
-							</var>
-						</vars>
-						<origoptions></origoptions>
-					</test>
-				</tests>
-				<disabledtests>
-					<test>Potentiostat_7_my_bandgap_1_1</test>
-					<test>MC</test>
-				</disabledtests>
-				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1</test>
-					<test netlist="0" netlistscope="all">MC</test>
-					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1_1</test>
-				</checksasserts>
-				<plottingoptions>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>plottingmode
-						<value>Replace</value>
+						<value>New Win</value>
 					</plottingoption>
 					<plottingoption>plottype
 						<value>None</value>
@@ -4515,15 +3302,410 @@
 					<var>vdd
 						<value>0</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 					<var>vddpulse
 						<value>3.3</value>
 						<dependentTests>
-							<dependentTest enabled="1" omitted="0">Potentiostat_7_my_bandgap_1</dependentTest>
 							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jun 2 10:47:30 2026</timestamp>
+			<uuid>{dd19748c-9da2-4b8f-bd73-406e54271238}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.136.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.136.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_104730064</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.136</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.136</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.136.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.136.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.137
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C1
+						<vars>
+							<var>vdd
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/res.scs</modelfile>
+								<modelsection>"restmwn" "reswp"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cap.scs</modelfile>
+								<modelsection>"capwp" "capws"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/bip.scs</modelfile>
+								<modelsection>"biphb" "biphs" "biplb"</modelsection>
+							</model>
+							<model enabled="0">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/ind.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<sharedvarinfo></sharedvarinfo>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">PTAT
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>7_PTAT_tb</value>
+							</option>
+							<option>lib
+								<value>Potentiostat</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.137</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>"/V_ptat"
+								<evalType>point</evalType>
+							</output>
+							<output>/Y
+								<evalType>point</evalType>
+							</output>
+							<output>/X
+								<evalType>point</evalType>
+							</output>
+							<output>rmsNoise(0.001 100000)
+								<evalType>point</evalType>
+							</output>
+							<output>/
+								<evalType>point</evalType>
+							</output>
+							<output>/Vo
+								<evalType>point</evalType>
+							</output>
+							<output>Sensor_sensitiv
+								<evalType>point</evalType>
+							</output>
+							<output>/V_ptat
+								<evalType>point</evalType>
+							</output>
+							<output>/I14/V_ptat
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>vdd
+								<value>3.3</value>
+							</var>
+							<var>vddpulse
+								<value>0</value>
+							</var>
+						</vars>
+						<origoptions></origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<outputs>
+							<output>"/V_ptat"
+								<evalType>point</evalType>
+							</output>
+							<output>/Y
+								<evalType>point</evalType>
+							</output>
+							<output>/V_ptat
+								<evalType>point</evalType>
+							</output>
+							<output>/X
+								<evalType>point</evalType>
+							</output>
+							<output>rmsNoise(0.001 100000)
+								<evalType>point</evalType>
+							</output>
+							<output>/
+								<evalType>point</evalType>
+							</output>
+							<output>/Vo
+								<evalType>point</evalType>
+							</output>
+							<output>Sensor_sensitiv
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>7_PTAT_tb</value>
+							</option>
+							<option>lib
+								<value>Potentiostat</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.137</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<vars>
+							<var>vdd
+								<value></value>
+							</var>
+							<var>vddpulse
+								<value></value>
+							</var>
+						</vars>
+						<origoptions></origoptions>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>Potentiostat_7_my_bandgap_1_1</test>
+					<test>MC</test>
+				</disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1</test>
+					<test netlist="0" netlistscope="all">MC</test>
+					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1_1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mismatchvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>yes</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcFilterPluginPath
+							<value></value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>mismatchscale
+							<value>1</value>
+						</runoption>
+						<runoption>processscale
+							<value>1</value>
+						</runoption>
+						<runoption>pointsPerJobPolicy
+							<value>Group automatically</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>maxPointsPerJob
+							<value>10</value>
+						</runoption>
+						<runoption>reliabilitymode
+							<value>singlestress</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>100</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>processvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcFilterPluginReuseHistory
+							<value></value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>1</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>mcdistandscalingmismatchenable
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>1</value>
+						</runoption>
+						<runoption>mcFilterPluginEnabled
+							<value>0</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+						<runoption>mcdistandscalingprocessenable
+							<value>0</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<jobpolicyname>Maestro Default</jobpolicyname>
+				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+				<vars>
+					<var>vdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vddpulse
+						<value>3.3</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
@@ -4537,23 +3719,820 @@
 					</waveglobals>
 				</waveglobalsetups>
 			</checkpoint>
-			<timestamp>May 19 11:17:33 2026</timestamp>
-			<uuid>{330f6c89-3cc3-4c2f-b108-c262b865f7aa}</uuid>
-			<resultsname>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.123.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.123.rdb</simresults>
+			<timestamp>Jun 2 10:48:39 2026</timestamp>
+			<uuid>{a5f9173b-5764-48da-bcff-21bef682699e}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.137.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.137.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_111733217</localpsfdir>
-			<psfdir>/home/hrahimi/Desktop/myproject/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.123</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.123</simdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_104840018</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.137</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.137</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/hrahimi/Desktop/myproject/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.123.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.123.log</runlogfile>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.137.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.137.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.138
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C1
+						<vars>
+							<var>vdd
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/res.scs</modelfile>
+								<modelsection>"restmwn" "reswp"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cap.scs</modelfile>
+								<modelsection>"capwp" "capws"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/bip.scs</modelfile>
+								<modelsection>"biphb" "biphs" "biplb"</modelsection>
+							</model>
+							<model enabled="0">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/ind.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<sharedvarinfo></sharedvarinfo>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">PTAT
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>7_PTAT_tb</value>
+							</option>
+							<option>lib
+								<value>Potentiostat</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.138</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>"/V_ptat"
+								<evalType>point</evalType>
+							</output>
+							<output>/Y
+								<evalType>point</evalType>
+							</output>
+							<output>/X
+								<evalType>point</evalType>
+							</output>
+							<output>rmsNoise(0.001 100000)
+								<evalType>point</evalType>
+							</output>
+							<output>/
+								<evalType>point</evalType>
+							</output>
+							<output>/Vo
+								<evalType>point</evalType>
+							</output>
+							<output>Sensor_sensitiv
+								<evalType>point</evalType>
+							</output>
+							<output>/V_ptat
+								<evalType>point</evalType>
+							</output>
+							<output>/I14/V_ptat
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>vdd
+								<value>3.3</value>
+							</var>
+							<var>vddpulse
+								<value>0</value>
+							</var>
+						</vars>
+						<origoptions></origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<outputs>
+							<output>"/V_ptat"
+								<evalType>point</evalType>
+							</output>
+							<output>/Y
+								<evalType>point</evalType>
+							</output>
+							<output>/V_ptat
+								<evalType>point</evalType>
+							</output>
+							<output>/X
+								<evalType>point</evalType>
+							</output>
+							<output>rmsNoise(0.001 100000)
+								<evalType>point</evalType>
+							</output>
+							<output>/
+								<evalType>point</evalType>
+							</output>
+							<output>/Vo
+								<evalType>point</evalType>
+							</output>
+							<output>Sensor_sensitiv
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>7_PTAT_tb</value>
+							</option>
+							<option>lib
+								<value>Potentiostat</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.138</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<vars>
+							<var>vdd
+								<value></value>
+							</var>
+							<var>vddpulse
+								<value></value>
+							</var>
+						</vars>
+						<origoptions></origoptions>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>Potentiostat_7_my_bandgap_1_1</test>
+					<test>MC</test>
+				</disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1</test>
+					<test netlist="0" netlistscope="all">MC</test>
+					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1_1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mismatchvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>yes</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcFilterPluginPath
+							<value></value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>mismatchscale
+							<value>1</value>
+						</runoption>
+						<runoption>processscale
+							<value>1</value>
+						</runoption>
+						<runoption>pointsPerJobPolicy
+							<value>Group automatically</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>maxPointsPerJob
+							<value>10</value>
+						</runoption>
+						<runoption>reliabilitymode
+							<value>singlestress</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>100</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>processvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcFilterPluginReuseHistory
+							<value></value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>1</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>mcdistandscalingmismatchenable
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>1</value>
+						</runoption>
+						<runoption>mcFilterPluginEnabled
+							<value>0</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+						<runoption>mcdistandscalingprocessenable
+							<value>0</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<jobpolicyname>Maestro Default</jobpolicyname>
+				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+				<vars>
+					<var>vdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vddpulse
+						<value>3.3</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jun 2 10:49:59 2026</timestamp>
+			<uuid>{e49919f8-197d-406a-918f-e11187da4ee4}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.138.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.138.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_104959302</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.138</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.138</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.138.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.138.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.139
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C1
+						<vars>
+							<var>vdd
+								<value>2.97 3.63</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">processOption.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/processOption.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs</modelfile>
+								<modelsection>"cmoswo" "cmoswp" "cmosws" "cmoswz"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/res.scs</modelfile>
+								<modelsection>"restmwn" "reswp"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/cap.scs</modelfile>
+								<modelsection>"capwp" "capws"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/bip.scs</modelfile>
+								<modelsection>"biphb" "biphs" "biplb"</modelsection>
+							</model>
+							<model enabled="0">ind.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/ind.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">esddiode.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<sharedvarinfo></sharedvarinfo>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">PTAT
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>7_PTAT_tb</value>
+							</option>
+							<option>lib
+								<value>Potentiostat</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.139</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>"/V_ptat"
+								<evalType>point</evalType>
+							</output>
+							<output>/Y
+								<evalType>point</evalType>
+							</output>
+							<output>/X
+								<evalType>point</evalType>
+							</output>
+							<output>rmsNoise(0.001 100000)
+								<evalType>point</evalType>
+							</output>
+							<output>/
+								<evalType>point</evalType>
+							</output>
+							<output>/Vo
+								<evalType>point</evalType>
+							</output>
+							<output>Sensor_sensitiv
+								<evalType>point</evalType>
+							</output>
+							<output>/V_ptat
+								<evalType>point</evalType>
+							</output>
+							<output>/I14/V_ptat
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>vdd
+								<value>3.3</value>
+							</var>
+							<var>vddpulse
+								<value>0</value>
+							</var>
+						</vars>
+						<origoptions></origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<outputs>
+							<output>"/V_ptat"
+								<evalType>point</evalType>
+							</output>
+							<output>/Y
+								<evalType>point</evalType>
+							</output>
+							<output>/V_ptat
+								<evalType>point</evalType>
+							</output>
+							<output>/X
+								<evalType>point</evalType>
+							</output>
+							<output>rmsNoise(0.001 100000)
+								<evalType>point</evalType>
+							</output>
+							<output>/
+								<evalType>point</evalType>
+							</output>
+							<output>/Vo
+								<evalType>point</evalType>
+							</output>
+							<output>Sensor_sensitiv
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>7_PTAT_tb</value>
+							</option>
+							<option>lib
+								<value>Potentiostat</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.139</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<vars>
+							<var>vdd
+								<value></value>
+							</var>
+							<var>vddpulse
+								<value></value>
+							</var>
+						</vars>
+						<origoptions></origoptions>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>Potentiostat_7_my_bandgap_1_1</test>
+					<test>MC</test>
+				</disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1</test>
+					<test netlist="0" netlistscope="all">MC</test>
+					<test netlist="0" netlistscope="all">Potentiostat_7_my_bandgap_1_1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mismatchvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>yes</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcFilterPluginPath
+							<value></value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>mismatchscale
+							<value>1</value>
+						</runoption>
+						<runoption>processscale
+							<value>1</value>
+						</runoption>
+						<runoption>pointsPerJobPolicy
+							<value>Group automatically</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>maxPointsPerJob
+							<value>10</value>
+						</runoption>
+						<runoption>reliabilitymode
+							<value>singlestress</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>100</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>processvary
+							<value>Gaussian</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcFilterPluginReuseHistory
+							<value></value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>1</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>mcdistandscalingmismatchenable
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>1</value>
+						</runoption>
+						<runoption>mcFilterPluginEnabled
+							<value>0</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+						<runoption>mcdistandscalingprocessenable
+							<value>0</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<jobpolicyname>Maestro Default</jobpolicyname>
+				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+				<vars>
+					<var>vdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vddpulse
+						<value>3.3</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">MC</dependentTest>
+							<dependentTest enabled="0">PTAT</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Jun 2 10:52:22 2026</timestamp>
+			<uuid>{0e46e98f-57f0-4249-ada1-b427e174143d}</uuid>
+			<resultsname>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.139.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.139.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/il2244vt26_hrahimi_hrahimi_105222417</localpsfdir>
+			<psfdir>/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.139</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.139</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat/7_PTAT_tb/maestro/results/maestro/Interactive.139.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.139.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

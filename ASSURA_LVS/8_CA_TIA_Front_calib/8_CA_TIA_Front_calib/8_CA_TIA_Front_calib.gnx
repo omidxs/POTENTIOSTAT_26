@@ -151,17 +151,17 @@ CVAR(Generic): CVAR(Generic)
 = net3 avC14
 = net1 avC48
 = net12 avC15
-= net21 avC49
+= net21 avC58
 = net2 avC54
-= net22 avC59
-= net6 avC58
-= net23 avC52
-= net7 avC51
-= net8 avC57
-= net20 avC55
-= net9 avC56
-= net10 avC53
-= net4 avC50
+= net22 avC50
+= net6 avC56
+= net23 avC53
+= net7 avC52
+= net8 avC55
+= net20 avC59
+= net9 avC49
+= net10 avC57
+= net4 avC51
 = net5 avC13
 = GNDA avT1611_1 I
 = In In B
@@ -237,8 +237,8 @@ CVAR(Generic): CVAR(Generic)
 = GNDA avT1611_2
 # 21
 8_CA_TIA_Front_calib schematic Potentiostat: 8_CA_TIA_Front_calib layout Potentiostat
-= net1 avC21
-= net2 avC22
+= net1 avC26
+= net2 avC27
 = CE CE B
 = Calib_EN Calib_EN B
 = Calib_cur Calib_cur B

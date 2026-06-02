@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Sat May 30 17:44:29 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Tue Jun  2 14:02:17 2026
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -986,31 +986,31 @@ Echoing run specific file...
 
                   Time Summary - Database
 
-reading DFII data. . . .      0 cpu      0 elap  497.3M virt      66 pf
-LVS preprocessing. . . .      1 cpu      2 elap  103.2M virt     885 pf
-duplicate inst removal .      0 cpu      0 elap  103.2M virt     885 pf
-cell boundary layer. . .      0 cpu      0 elap  103.2M virt     885 pf
-small cell flattening. .      0 cpu      0 elap  108.1M virt     885 pf
-recognize standard cells      0 cpu      0 elap  108.1M virt     885 pf
-small cell flattening. .      0 cpu      0 elap  108.1M virt     885 pf
-duplicate inst removal .      0 cpu      0 elap  108.1M virt     885 pf
-cluster overlapped insts      0 cpu      1 elap  110.6M virt     885 pf
-expand thin cells. . . .      0 cpu      0 elap  110.6M virt     885 pf
-pattern analysis . . . .      0 cpu      0 elap  122.9M virt     885 pf
-array analysis . . . . .      0 cpu      0 elap  122.9M virt     885 pf
-extended dup inst remove      0 cpu      0 elap  122.9M virt     885 pf
+reading DFII data. . . .      0 cpu      0 elap  497.9M virt      67 pf
+LVS preprocessing. . . .      1 cpu      3 elap  103.2M virt     886 pf
+duplicate inst removal .      0 cpu      0 elap  103.2M virt     886 pf
+cell boundary layer. . .      0 cpu      0 elap  103.2M virt     886 pf
+small cell flattening. .      0 cpu      0 elap  108.1M virt     886 pf
+recognize standard cells      0 cpu      0 elap  108.1M virt     886 pf
+small cell flattening. .      0 cpu      0 elap  108.1M virt     886 pf
+duplicate inst removal .      0 cpu      0 elap  108.1M virt     886 pf
+cluster overlapped insts      0 cpu      0 elap  110.6M virt     886 pf
+expand thin cells. . . .      0 cpu      0 elap  110.6M virt     886 pf
+pattern analysis . . . .      0 cpu      0 elap  122.9M virt     886 pf
+array analysis . . . . .      0 cpu      0 elap  122.9M virt     886 pf
+extended dup inst remove      0 cpu      0 elap  122.9M virt     886 pf
 cell repetition analysis      0 cpu      0 elap  103.2M virt       0 pf
 enclosing polygon proc .      0 cpu      0 elap  103.2M virt       0 pf
 overlapping array proc .      0 cpu      0 elap  105.7M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  110.6M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  110.6M virt       0 pf
 building avGrids . . . .      0 cpu      0 elap  132.7M virt       0 pf
-group shapes processing.      0 cpu      0 elap  132.7M virt      23 pf
-duplicate inst removal .      0 cpu      0 elap  132.7M virt      23 pf
-duplicate cell removal .      0 cpu      0 elap  132.7M virt      23 pf
-final VDB processing . .      0 cpu      0 elap  132.7M virt      25 pf
+group shapes processing.      0 cpu      0 elap  132.7M virt      20 pf
+duplicate inst removal .      0 cpu      0 elap  132.7M virt      20 pf
+duplicate cell removal .      0 cpu      0 elap  132.7M virt      20 pf
+final VDB processing . .      0 cpu      0 elap  132.7M virt      23 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
+TOTALS (secs). . . . . .      1 cpu      3 elap  497.9M virt   10782 pf
 
 
 ************************************************************************
@@ -1082,7 +1082,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 17
     MET1_sympin = geomOr( MET1_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 111M   task sum: 15
+    cpu: 0.0   elapsed: 0   virtual: 111M   task sum: 14
 
  ;# 18
     T?155 = geomTextShape( MET1_pintext ) 
@@ -1102,7 +1102,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 22
     MET2_sympin = geomOr( MET2_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 22
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 19
 
  ;# 23
     T?158 = geomTextShape( MET2_pintext ) 
@@ -1122,7 +1122,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 27
     MET3_sympin = geomOr( MET3_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 20
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 16
 
  ;# 28
     T?161 = geomTextShape( MET3_pintext ) 
@@ -1210,15 +1210,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 49
     NTUB = geomOr( NTUB ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 29
 
  ;# 50
  ;  region( NTUB )
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 29
 
  ;# 51
     ntub_subdefcut = geomAndNot( NTUB subdef_ring ) 
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 29
 
  ;# 52
  ;  region( ntub_subdefcut )
@@ -1250,7 +1250,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 59
     DIFF = geomOr( DIFF ) 
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 645
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 647
 
  ;# 60
     DIFCUT = geomOr( DIFCUT ) 
@@ -1258,7 +1258,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 61
     diff_cut = geomAndNot( DIFF DIFCUT ) 
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 645
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 647
 
  ;# 62
     POLY1 = geomOr( POLY1 ) 
@@ -1274,7 +1274,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 65
     POLY2 = geomOr( POLY2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 19
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 20
 
  ;# 66
     PO2CUT = geomOr( PO2CUT ) 
@@ -1282,7 +1282,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 67
     poly2_cut = geomAndNot( POLY2 PO2CUT ) 
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 19
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 20
 
  ;# 68
     poly1_n_poly2 = geomAndNot( poly1_cut poly2_cut ) 
@@ -1290,11 +1290,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 69
     CONT = geomOr( CONT ) 
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 20144
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 21727
 
  ;# 70
  ;  region( CONT )
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 20144
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 21727
 
  ;# 71
     net_poly1con = geomAnd( CONT poly1_n_poly2 ) 
@@ -1310,7 +1310,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 74
     net_poly2con = geomAnd( CONT poly2_cut ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 208
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 214
 
  ;# 75
     dataReduction( net_poly2con ) 
@@ -1318,27 +1318,27 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 76
     HRES = geomOr( HRES ) 
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 5
 
  ;# 77
  ;  region( HRES )
-    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 5
 
  ;# 78
     diffcon = geomAnd( CONT diff_cut ) 
-    cpu: 0.1   elapsed: 0   virtual: 142M   task sum: 16359
+    cpu: 0.1   elapsed: 0   virtual: 142M   task sum: 17899
 
  ;# 79
  ;  region( diffcon )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 16359
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 17899
 
  ;# 80
     VIA2 = geomOr( VIA2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 3123
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 3125
 
  ;# 81
  ;  region( VIA2 )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 3123
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 3125
 
  ;# 82
     METCAP = geomOr( METCAP ) 
@@ -1362,23 +1362,23 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 87
     via2_met2 = geomAndNot( VIA2 net_via2_metcap ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 3123
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 3125
 
  ;# 88
     VIA1 = geomOr( VIA1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8320
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8470
 
  ;# 89
  ;  region( VIA1 )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8320
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8470
 
  ;# 90
     T?205 = geomOr( VIA1 CONT ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 23923
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 25656
 
  ;# 91
     via_cont_pin = geomOr( T?205 MET1_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 23936
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 25669
 
  ;# 92
     VIA3 = geomOr( VIA3 ) 
@@ -1390,19 +1390,19 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 94
     NPLUS = geomOr( NPLUS ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 303
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 305
 
  ;# 95
     ndiff_1 = geomAnd( diff_cut NPLUS ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 331
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 333
 
  ;# 96
  ;  region( ndiff_1 )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 331
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 333
 
  ;# 97
     PPLUS = geomOr( PPLUS ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 169
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 171
 
  ;# 98
     pdiff_1 = geomAnd( diff_cut PPLUS ) 
@@ -1434,11 +1434,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 105
     RESDEF = geomOr( RESDEF ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8
 
  ;# 106
  ;  region( RESDEF )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8
 
  ;# 107
     T?222 = geomAnd( poly1_cut RESDEF ) 
@@ -1526,15 +1526,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 128
     T?238 = geomAndNot( RESDEF resdef_2p ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8
 
  ;# 129
     resdef = geomAndNot( T?238 resdef_2ph ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8
 
  ;# 130
     T?240 = geomAnd( poly2_cut resdef ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8
 
  ;# 131
     pres_1 = geomAndNot( T?240 HRES ) 
@@ -1606,39 +1606,39 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 148
     hres = geomAndNot( HRES zero_tc ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 5
 
  ;# 149
     presh_1 = geomAnd( poly2_cut hres ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 9
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 10
 
  ;# 150
     T?256 = geomAndNot( presh_1 PPLUS ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 60
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 65
 
  ;# 151
     presh = geomAnd( T?256 RESDEF ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 152
  ;  region( presh )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 153
     preshterm = geomAnd( presh_1 PPLUS ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 17
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 19
 
  ;# 154
  ;  region( preshterm )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 17
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 19
 
  ;# 155
     T?259 = geomInside( presh ntub_subdefcut ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 156
  ;  region( T?259 )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8
 
  ;# 157
     RPOLYHRF_device = geomEnclose( RFDEF T?259 ) 
@@ -1770,11 +1770,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 189
     presh_trm = geomButting( preshterm presh ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 10
 
  ;# 190
  ;  region( presh_trm )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 10
 
  ;# 191
     T?281 = geomAndNot( poly1_cut pres1 ) 
@@ -1790,23 +1790,23 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 194
     poly2_1 = geomAndNot( poly2_cut pres ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 19
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 20
 
  ;# 195
     poly2_2 = geomAndNot( poly2_1 presp ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 19
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 20
 
  ;# 196
     poly2_3 = geomAndNot( poly2_2 presph ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 19
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 20
 
  ;# 197
     poly2_4 = geomAndNot( poly2_3 presh ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 21
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 23
 
  ;# 198
     net_poly2 = geomAndNot( poly2_4 presz ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 21
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 23
 
  ;# 199
     dataReduction( net_poly2 ) 
@@ -1814,7 +1814,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 200
  ;  region( net_poly2 )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 21
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 23
 
  ;# 201
     nmos30m_hvdef_a = geomGetTexted( HVDEF HVDEF_text "NMOS30M_*" ) 
@@ -1854,11 +1854,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 210
     T?297 = geomAndNot( ntub_subdefcut RNWELL_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 29
 
  ;# 211
     net_nwell = geomOr( T?297 nmos30_ntub_clos ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 29
 
  ;# 212
     dataReduction( net_nwell ) 
@@ -1866,15 +1866,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 213
  ;  region( net_nwell )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 29
 
  ;# 214
     ndiff_2 = geomAndNot( ndiff_1 net_poly1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 473
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 475
 
  ;# 215
     net_ndiff = geomAndNot( ndiff_2 RDIFFN_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 473
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 475
 
  ;# 216
     dataReduction( net_ndiff ) 
@@ -1882,7 +1882,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 217
  ;  region( net_ndiff )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 473
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 475
 
  ;# 218
     pdiff_2 = geomAndNot( pdiff_1 net_poly1 ) 
@@ -1954,23 +1954,23 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 235
     T?311 = geomSize( NTUB 1.1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 29
 
  ;# 236
     T?314 = geomOr( T?311 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 28
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 27
 
  ;# 237
     pnpvert_0 = geomAnd( net_pdiff T?314 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 585
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 586
 
  ;# 238
  ;  region( pnpvert_0 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 585
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 586
 
  ;# 239
     T?316 = geomHoles( pnpvert_0 innermost ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
 
  ;# 240
     dataReduction( T?316 ) 
@@ -1978,7 +1978,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 241
  ;  region( T?316 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
 
  ;# 242
     pnpvert_1 = drc( T?316 area < 1000 "pnpvert_1 = drc(geomHoles(pnpvert_0 innermost) (area < 1000.0))" ) 
@@ -2178,7 +2178,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 291
     nwell_ovlp_bad = drc( nwell_hv_trans trans ovlp < 2 parallel opposite "nwell_ovlp_bad = drc(nwell_hv_trans trans (ovlp < 2.0) opposite parallel)" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 14
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 14
 
  ;# 292
  ;  region( nwell_ovlp_bad )
@@ -2226,7 +2226,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 303
     waffle_poly1_1 = geomGetHoled( net_poly1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 304
     dataReduction( waffle_poly1_1 ) 
@@ -2294,15 +2294,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 320
  ;  region( waffle_gate )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 321
     waffle_w_poly1 = geomCat( waffle_poly1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 322
  ;  region( waffle_w_poly1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 323
     waffle_w_holes_0 = geomHoles( waffle_w_poly1 innermostEmpty ) 
@@ -2310,7 +2310,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 324
     dataReduction( waffle_w_holes_0 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 325
     waffle_w_holes_0_diff = geomAnd( waffle_w_holes_0 DIFF ) 
@@ -2570,7 +2570,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 389
     T?408 = geomButtOrOver( nmosw_device_all waffle_w_ndiff_diffc_1 keep == 1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 390
     waffle_w_nmosw_2n = geomAnd( T?404 T?408 ) 
@@ -2578,43 +2578,43 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 391
     waffle_w_nmosmw_4n = geomButtOrOver( nmosmw_device_all waffle_w_ndiff_diffc_4 keep == 2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 392
     T?411 = geomButtOrOver( nmosmw_device_all waffle_w_ndiff_diffc_4 keep == 1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 393
     T?412 = geomButtOrOver( nmosmw_device_all waffle_w_ndiff_diffc_2 keep == 1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 394
     waffle_w_nmosmw_3n = geomAnd( T?411 T?412 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 395
     T?415 = geomButtOrOver( nmosmw_device_all waffle_w_ndiff_diffc_1 keep == 1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 396
     waffle_w_nmosmw_2n = geomAnd( T?411 T?415 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 397
     NMOSW_4N_device = geomCat( waffle_w_nmosw_4n ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 398
     dataReduction( NMOSW_4N_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 399
  ;  region( NMOSW_4N_device )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 400
     NMOSW_3N_device = geomCat( waffle_w_nmosw_3n ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 150M   task sum: 0
 
  ;# 401
     dataReduction( NMOSW_3N_device ) 
@@ -3558,11 +3558,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 636
     T?589 = geomAnd( ndiff_1 CONT ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8272
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 9202
 
  ;# 637
     net_ndiffcon = geomAndNot( T?589 net_poly1con ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8272
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 9202
 
  ;# 638
     dataReduction( net_ndiffcon ) 
@@ -3570,11 +3570,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 639
     T?591 = geomAnd( pdiff_1 CONT ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8087
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8697
 
  ;# 640
     net_pdiffcon = geomAndNot( T?591 net_poly1con ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8087
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8697
 
  ;# 641
     dataReduction( net_pdiffcon ) 
@@ -3610,11 +3610,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 649
     MET2 = geomOr( MET2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 258
 
  ;# 650
  ;  region( MET2 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 258
 
  ;# 651
     MET3 = geomOr( MET3 ) 
@@ -3626,7 +3626,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 653
     MET1 = geomOr( MET1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 654
     pres_w = drc( pres RESTRM sep == 0 opposite edgea ) 
@@ -3698,7 +3698,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 671
     met1_withslots = geomAndNot( MET1 M1HOLE ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 672
     M2HOLE = geomOr( M2HOLE ) 
@@ -3706,7 +3706,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 673
     met2_withslots = geomAndNot( MET2 M2HOLE ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 258
 
  ;# 674
     M3HOLE = geomOr( M3HOLE ) 
@@ -3726,11 +3726,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 678
     implant = geomOr( NPLUS PPLUS ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 472
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 476
 
  ;# 679
     net_welltap = geomAnd( net_ndiff net_nwell ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 376
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 378
 
  ;# 680
     dataReduction( net_welltap ) 
@@ -3738,7 +3738,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 681
  ;  region( net_welltap )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 376
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 378
 
  ;# 682
     net_subtap = geomAndNot( net_pdiff net_nwell ) 
@@ -3818,7 +3818,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 701
     T?794 = geomAnd( NTUB net_ndiff ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 376
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 378
 
  ;# 702
     T?795 = geomAnd( T?794 OPTDEF ) 
@@ -4194,11 +4194,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 794
     ndiff_nldd = geomCat( net_ndiff ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 473
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 475
 
  ;# 795
  ;  region( ndiff_nldd )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 473
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 475
 
  ;# 796
     T?914 = geomHoles( net_poly1 innermost ) 
@@ -4730,7 +4730,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 928
     p_nwd_1 = geomAndNot( net_nwell T?1036 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 29
 
  ;# 929
  ;  region( p_nwd_1 )
@@ -4750,7 +4750,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 933
     p_nwd_2 = geomAndNot( p_nwd_1 T?1039 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 29
 
  ;# 934
  ;  region( p_nwd_2 )
@@ -4762,7 +4762,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 936
     p_nwd_3 = geomAndNot( p_nwd_2 T?1041 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 29
 
  ;# 937
     T?1043 = geomOr( diodes_modeled ) 
@@ -4770,7 +4770,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 938
     p_nwd_4 = geomAndNot( p_nwd_3 T?1043 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 30
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 29
 
  ;# 939
     T?1045 = geomOr( cvar cvar_all_c35 ) 
@@ -4778,7 +4778,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 940
     p_nwd_5 = geomAndNot( p_nwd_4 T?1045 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 50
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 49
 
  ;# 941
     T?1047 = geomStraddle( p_nwd_2 ZD2SM24_device ) 
@@ -4786,7 +4786,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 942
     P_NWD_device = geomAndNot( p_nwd_5 T?1047 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 50
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 49
 
  ;# 943
     dataReduction( P_NWD_device ) 
@@ -4794,7 +4794,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 944
  ;  region( P_NWD_device )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 50
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 49
 
  ;# 945
     p_pd_1 = geomAndNot( pdiode_1 DIODE ) 
@@ -5801,1469 +5801,1469 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
  ;# 1195
     bad_spirlay_all_1 = geomAndNot( bad_spirlay_all T?1305  )
     errorLayer( bad_spirlay_all_1 "ERC Warning : illegal layer under spiral" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1196
     inddef_texted_all = geomGetTexted( INDDEF INDDEF_text "*" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1197
     inddef_not_texted = geomAndNot( INDDEF inddef_texted_all  )
     errorLayer( inddef_not_texted "ERC Warning : Each INDDEF shape must be marked with a single INDDEF text label" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1198
     inddef_text_shape = geomTextShape( INDDEF_text ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1199
  ;  region( inddef_text_shape )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1200
     inddef_text_shape_bad = geomEnclose( INDDEF inddef_text_shape 1 < keep  )
     errorLayer( inddef_text_shape_bad "ERC Warning : multiple text on INDEF" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1201
     METRES = geomOr( METRES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1202
  ;  region( METRES )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1203
     T?1323 = geomCat( CONT VIA2 VIA1 VIA3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 28727
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 30401
 
  ;# 1204
  ;  region( T?1323 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 28727
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 30401
 
  ;# 1205
     METRES_bad = geomOverlap( METRES T?1323  )
     errorLayer( METRES_bad "Error: METRES overlapping CONT or VIAx" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1206
     METRES_good = geomAndNot( METRES METRES_bad ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1207
     MET1RES = geomOr( MET1RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1208
  ;  region( MET1RES )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1209
     T?1327 = geomCat( CONT VIA1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 25949
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 27621
 
  ;# 1210
  ;  region( T?1327 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 25949
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 27621
 
  ;# 1211
     MET1RES_bad = geomOverlap( MET1RES T?1327  )
     errorLayer( MET1RES_bad "Error: MET1RES overlapping CONT or VIA1" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1212
     MET1RES_good = geomAndNot( MET1RES MET1RES_bad ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1213
     MET2RES = geomOr( MET2RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1214
  ;  region( MET2RES )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1215
     T?1331 = geomCat( VIA2 VIA1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 9924
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10052
 
  ;# 1216
  ;  region( T?1331 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 9924
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10052
 
  ;# 1217
     MET2RES_bad = geomOverlap( MET2RES T?1331  )
     errorLayer( MET2RES_bad "Error: MET2RES overlapping VIA1 or VIA2" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1218
     MET2RES_good = geomAndNot( MET2RES MET2RES_bad ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1219
     MET3RES = geomOr( MET3RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1220
  ;  region( MET3RES )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1221
     T?1335 = geomCat( VIA2 VIA3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2778
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2780
 
  ;# 1222
  ;  region( T?1335 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2778
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2780
 
  ;# 1223
     MET3RES_bad = geomOverlap( MET3RES T?1335  )
     errorLayer( MET3RES_bad "Error: MET3RES overlapping VIA2 or VIA3" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1224
     MET3RES_good = geomAndNot( MET3RES MET3RES_bad ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1225
     MET4RES = geomOr( MET4RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1226
  ;  region( MET4RES )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1227
     MET4RES_bad = geomOverlap( MET4RES VIA3  )
     errorLayer( MET4RES_bad "Error: MET4RES overlapping VIA3" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1228
     MET4RES_good = geomAndNot( MET4RES MET4RES_bad ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1229
     T?1341 = geomOr( METRES_good MET1RES_good ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1230
     rmet1_1 = geomAnd( met1_withslots T?1341 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1231
  ;  region( rmet1_1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1232
     T?1343 = geomSize( rmet1_1 0.1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1233
     T?1346 = geomOr( T?1343 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1234
     T?1347 = geomAndNot( T?1346 rmet1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1235
     rmet1_trm = geomAnd( T?1347 met1_withslots ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1236
     dataReduction( rmet1_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1237
  ;  region( rmet1_trm )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1238
     T?1349 = geomOr( rmet1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1239
  ;  region( T?1349 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1240
     rmet1_2 = geomGetRectangle( T?1349 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1241
     dataReduction( rmet1_2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1242
  ;  region( rmet1_2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1243
     errorLayer( geomAndNot( rmet1_1 rmet1_2 ) "Error: MET1 resistors (shorts) must be rectangular" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1244
     RMET1_device = geomButtOrOver( rmet1_2 rmet1_trm keep == 2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1245
  ;  region( RMET1_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1246
     errorLayer( geomAndNot( rmet1_2 RMET1_device ) "Error: Number of MET1 resistor terminals != 2" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1247
     T?1354 = geomOr( METRES_good MET2RES_good ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1248
     rmet2_1 = geomAnd( met2_withslots T?1354 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1249
  ;  region( rmet2_1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1250
     T?1356 = geomSize( rmet2_1 0.1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1251
     T?1359 = geomOr( T?1356 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1252
     T?1360 = geomAndNot( T?1359 rmet2_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1253
     rmet2_trm = geomAnd( T?1360 met2_withslots ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1254
     dataReduction( rmet2_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1255
  ;  region( rmet2_trm )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1256
     T?1362 = geomOr( rmet2_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1257
  ;  region( T?1362 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1258
     rmet2_2 = geomGetRectangle( T?1362 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1259
     dataReduction( rmet2_2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1260
  ;  region( rmet2_2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1261
     errorLayer( geomAndNot( rmet2_1 rmet2_2 ) "Error: MET2 resistors (shorts) must be rectangular" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1262
     RMET2_device = geomButtOrOver( rmet2_2 rmet2_trm keep == 2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1263
  ;  region( RMET2_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1264
     errorLayer( geomAndNot( rmet2_2 RMET2_device ) "Error: Number of MET2 resistor terminals != 2" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1265
     T?1367 = geomOr( METRES_good MET3RES_good ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1266
     rmet3_1 = geomAnd( met3_withslots T?1367 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1267
  ;  region( rmet3_1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1268
     T?1369 = geomSize( rmet3_1 0.1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1269
     T?1372 = geomOr( T?1369 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1270
     T?1373 = geomAndNot( T?1372 rmet3_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1271
     rmet3_trm = geomAnd( T?1373 met3_withslots ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1272
     dataReduction( rmet3_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1273
  ;  region( rmet3_trm )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1274
     T?1375 = geomOr( rmet3_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1275
  ;  region( T?1375 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1276
     rmet3_2 = geomGetRectangle( T?1375 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1277
     dataReduction( rmet3_2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1278
  ;  region( rmet3_2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1279
     errorLayer( geomAndNot( rmet3_1 rmet3_2 ) "Error: MET3 resistors (shorts) must be rectangular" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1280
     RMET3_device = geomButtOrOver( rmet3_2 rmet3_trm keep == 2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1281
  ;  region( RMET3_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1282
     errorLayer( geomAndNot( rmet3_2 RMET3_device ) "Error: Number of MET3 resistor terminals != 2" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1283
     T?1380 = geomOr( METRES_good MET4RES_good ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1284
     rmet4_1 = geomAnd( met4_withslots T?1380 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1285
  ;  region( rmet4_1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1286
     T?1382 = geomSize( rmet4_1 0.1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1287
     T?1385 = geomOr( T?1382 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1288
     T?1386 = geomAndNot( T?1385 rmet4_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1289
     rmet4_trm = geomAnd( T?1386 met4_withslots ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1290
     dataReduction( rmet4_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1291
  ;  region( rmet4_trm )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1292
     T?1388 = geomOr( rmet4_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1293
  ;  region( T?1388 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1294
     rmet4_2 = geomGetRectangle( T?1388 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1295
     dataReduction( rmet4_2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1296
  ;  region( rmet4_2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1297
     errorLayer( geomAndNot( rmet4_1 rmet4_2 ) "Error: MET4 resistors (shorts) must be rectangular" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1298
     RMET4_device = geomButtOrOver( rmet4_2 rmet4_trm keep == 2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1299
  ;  region( RMET4_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1300
     errorLayer( geomAndNot( rmet4_2 RMET4_device ) "Error: Number of MET4 resistor terminals != 2" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1301
     met1_withslots_trunc = geomAndNot( met1_withslots RMET1_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 1302
     met2_withslots_trunc = geomAndNot( met2_withslots RMET2_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 258
 
  ;# 1303
     met3_withslots_trunc = geomAndNot( met3_withslots RMET3_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 94
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 94
 
  ;# 1304
     T?1396 = geomAnd( met1_withslots_trunc met2_withslots_trunc ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2085
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2109
 
  ;# 1305
  ;  region( T?1396 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2085
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2109
 
  ;# 1306
     m1m2_commonx = geomStraddle( T?1396 VIA1 ) 
-    cpu: 0.1   elapsed: 0   virtual: 145M   task sum: 1322
+    cpu: 0.1   elapsed: 0   virtual: 147M   task sum: 1336
 
  ;# 1307
     METRES_VIA1 = geomOr( METRES_VIA1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1308
  ;  region( METRES_VIA1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1309
     RVIA1_device = geomAnd( m1m2_commonx METRES_VIA1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1310
  ;  region( RVIA1_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1311
     T?1400 = geomAndNot( m1m2_commonx RVIA1_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1322
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1336
 
  ;# 1312
  ;  region( T?1400 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1322
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1336
 
  ;# 1313
     T?1401 = geomButtOrOver( T?1400 RVIA1_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1314
     errorLayer( geomAnd( T?1401 VIA1 ) "RVIA1 Definition layer: does not open all via conncetion, is shorted" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1315
     T?1403 = geomButtOrOver( VIA1 RVIA1_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1316
     T?1404 = geomAnd( METRES_VIA1 T?1403 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1317
  ;  region( T?1404 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1318
     errorLayer( geomGetEdge( T?1404 inside T?1403 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1319
     errorLayer( geomAvoiding( METRES_VIA1 RVIA1_device ) "RVIA1 Definition layer: does not define a device" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1320
     T?1407 = geomAnd( METRES_VIA1 METRES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1321
     T?1408 = geomAnd( METRES_VIA1 MET1RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1322
     T?1409 = geomAnd( METRES_VIA1 MET2RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1323
     errorLayer( geomCat( T?1407 T?1408 T?1409 ) "RVIA1 Definition layer: over METRES" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1324
     T?1411 = geomAnd( met2_withslots_trunc met3_withslots_trunc ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1250
 
  ;# 1325
  ;  region( T?1411 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1250
 
  ;# 1326
     m2m3_commonx = geomStraddle( T?1411 VIA2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 351
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 351
 
  ;# 1327
     METRES_VIA2 = geomOr( METRES_VIA2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1328
  ;  region( METRES_VIA2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1329
     RVIA2_device = geomAnd( m2m3_commonx METRES_VIA2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1330
  ;  region( RVIA2_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1331
     T?1415 = geomAndNot( m2m3_commonx RVIA2_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 351
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 351
 
  ;# 1332
  ;  region( T?1415 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 351
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 351
 
  ;# 1333
     T?1416 = geomButtOrOver( T?1415 RVIA2_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1334
     errorLayer( geomAnd( T?1416 VIA2 ) "RVIA2 Definition layer: does not open all via conncetion, is shorted" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1335
     T?1418 = geomButtOrOver( VIA2 RVIA2_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1336
     T?1419 = geomAnd( METRES_VIA2 T?1418 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1337
  ;  region( T?1419 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1338
     errorLayer( geomGetEdge( T?1419 inside T?1418 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1339
     errorLayer( geomAvoiding( METRES_VIA2 RVIA2_device ) "RVIA2 Definition layer : does not define a device" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1340
     T?1422 = geomAnd( METRES_VIA2 METRES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1341
     T?1423 = geomAnd( METRES_VIA2 MET2RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1342
     T?1424 = geomAnd( METRES_VIA2 MET3RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1343
     errorLayer( geomCat( T?1422 T?1423 T?1424 ) "RVIA2 Definition layer: over METRES" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1344
     met4_withslots_trunc = geomAndNot( met4_withslots RMET4_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1345
     T?1427 = geomAnd( met3_withslots_trunc met4_withslots_trunc ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1346
  ;  region( T?1427 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1347
     m3m4_commonx = geomStraddle( T?1427 VIA3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1348
     METRES_VIA3 = geomOr( METRES_VIA3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1349
  ;  region( METRES_VIA3 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1350
     RVIA3_device = geomAnd( m3m4_commonx METRES_VIA3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1351
  ;  region( RVIA3_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1352
     T?1431 = geomAndNot( m3m4_commonx RVIA3_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1353
  ;  region( T?1431 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1354
     T?1432 = geomButtOrOver( T?1431 RVIA3_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1355
     errorLayer( geomAnd( T?1432 VIA3 ) "RVIA3 Definition layer: does not open all via conncetion, is shorted" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1356
     T?1434 = geomButtOrOver( VIA3 RVIA3_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1357
     T?1435 = geomAnd( METRES_VIA3 T?1434 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1358
  ;  region( T?1435 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1359
     errorLayer( geomGetEdge( T?1435 inside T?1434 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1360
     errorLayer( geomAvoiding( METRES_VIA3 RVIA3_device ) "RVIA3 Definition layer : does not define a device" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1361
     T?1438 = geomAnd( METRES_VIA3 METRES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1362
     T?1439 = geomAnd( METRES_VIA3 MET2RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1363
     T?1440 = geomAnd( METRES_VIA3 MET3RES ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1364
     errorLayer( geomCat( T?1438 T?1439 T?1440 ) "RVIA3 Definition layer: over METRES" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1365
     T?1442 = geomCat( spiral_body RMET1_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1366
     T?1443 = geomOr( T?1442 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1367
     net_met1 = geomAndNot( met1_withslots T?1443 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 1368
  ;  region( net_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 1369
     T?1445 = geomCat( spiral_body RMET2_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1370
     T?1446 = geomOr( T?1445 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1371
     net_met2 = geomAndNot( met2_withslots T?1446 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 258
 
  ;# 1372
  ;  region( net_met2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 258
 
  ;# 1373
     T?1448 = geomCat( spiral_body RMET3_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1374
     T?1449 = geomOr( T?1448 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1375
     net_met3 = geomAndNot( met3_withslots T?1449 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 94
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 94
 
  ;# 1376
  ;  region( net_met3 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 94
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 94
 
  ;# 1377
     T?1451 = geomCat( spiral_body RVIA1_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1378
     T?1452 = geomOr( T?1451 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1379
     net_via1 = geomAndNot( VIA1 T?1452 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8320
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8470
 
  ;# 1380
     dataReduction( net_via1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1381
     T?1454 = geomCat( spiral_body RVIA2_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1382
     T?1455 = geomOr( T?1454 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1383
     net_via2_met2 = geomAndNot( via2_met2 T?1455 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 3123
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 3125
 
  ;# 1384
     dataReduction( net_via2_met2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1385
     net_metcap = geomCat( METCAP ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1386
     T?1458 = geomCat( spiral_body RMET4_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1387
     T?1459 = geomOr( T?1458 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1388
     net_met4 = geomAndNot( met4_withslots T?1459 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1389
  ;  region( net_met4 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1390
     T?1461 = geomCat( spiral_body RVIA3_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1391
     T?1462 = geomOr( T?1461 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1392
     net_via3 = geomAndNot( VIA3 T?1462 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1393
     dataReduction( net_via3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1394
     VIATSV = geomOr( VIATSV ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1395
     tsv_term_bot = geomAnd( MET1 VIATSV ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1396
     dataReduction( tsv_term_bot ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1397
  ;  region( tsv_term_bot )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1398
     METTSV = geomOr( METTSV ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1399
     dataReduction( METTSV ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1400
  ;  region( METTSV )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1401
     tsv_term_top = geomAnd( METTSV VIATSV ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1402
     dataReduction( tsv_term_top ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1403
  ;  region( tsv_term_top )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1404
     tsv_dev = geomAnd( tsv_term_bot tsv_term_top ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1405
     rblock = geomCat( RFDEF ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1406
  ;  region( rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1407
     rblock_poly1_1 = geomCat( rblock ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1408
     rblock_poly1_1 = geomOr( rblock_poly1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1409
  ;  region( rblock_poly1_1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1410
     T?1473 = geomSize( rblock_poly1_1 0.36 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1411
     T?1476 = geomOr( T?1473 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1412
     outside_rblock_poly1 = geomAndNot( T?1476 rblock_poly1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1413
     poly1_outside_rblock = geomAnd( net_poly1 outside_rblock_poly1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1414
  ;  region( poly1_outside_rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1415
     T?1479 = geomSize( rblock_poly1_1 -0.35 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1416
     inside_rblock_poly1 = geomAndNot( rblock_poly1_1 T?1479 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1417
     poly1_inside_rblock = geomAnd( net_poly1 inside_rblock_poly1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1418
  ;  region( poly1_inside_rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1419
     T?1482 = drc( poly1_outside_rblock width < 0.35 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1420
  ;  region( T?1482 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1421
     rblock_poly1_2 = geomButtOrOver( poly1_inside_rblock T?1482 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1422
     rblock_poly1_3 = geomButtOrOver( net_poly1 waffle_gate ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1423
     T?1485 = geomAndNot( rblock_poly1_1 rblock_poly1_2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1424
     T?1486 = geomCat( rblock_poly1_3 T?1485 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1425
     T?1487 = geomOr( T?1486 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1426
     rblock_poly1 = geomAnd( T?1487 net_poly1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 29
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 29
 
  ;# 1427
     dataReduction( rblock_poly1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1428
  ;  region( rblock_poly1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 29
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 29
 
  ;# 1429
     T?1491 = geomSize( rblock_poly1_1 0.66 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1430
     T?1494 = geomOr( T?1491 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1431
     outside_rblock_poly2 = geomAndNot( T?1494 rblock_poly1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1432
     poly2_outside_rblock = geomAnd( net_poly2 outside_rblock_poly2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1433
  ;  region( poly2_outside_rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1434
     T?1497 = geomSize( rblock_poly1_1 -0.65 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1435
     inside_rblock_poly2 = geomAndNot( rblock_poly1_1 T?1497 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1436
     poly2_inside_rblock = geomAnd( net_poly2 inside_rblock_poly2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1437
  ;  region( poly2_inside_rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1438
     T?1500 = drc( poly2_outside_rblock width < 0.65 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1439
  ;  region( T?1500 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1440
     rblock_poly2_2 = geomButtOrOver( poly2_inside_rblock T?1500 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1441
     presx_w = geomCat( pres_w presp_w presph_w presz_w ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1442
     T?4491 = drcEdgePrep( presx_w ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1443
  ;  region( T?4491 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1444
     presx_wexp = geomCat( pres_wexp presp_wexp presph_wexp presz_wexp ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1445
  ;  region( presx_wexp )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1446
     T?1504 = geomOr( resdef resdef_2p ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
 
  ;# 1447
     T?1505 = geomOr( T?1504 resdef_2ph ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
 
  ;# 1448
     presx_w = geomOr( T?4491 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1449
     T?1507 = geomSize( presx_w 2.05 edges ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1450
     T?1508 = geomOr( T?1507 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1451
     T?1509 = geomAnd( T?1508 net_poly2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1452
  ;  region( T?1509 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1453
     T?1510 = geomButtOrOver( T?1509 presx_wexp ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1454
     pres_wexp_block = geomOr( T?1505 T?1510 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
 
  ;# 1455
     T?1512 = geomOr( presh_trm pres_wexp_block ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
 
  ;# 1456
     T?1513 = geomOr( T?1512 rblock_poly1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 9
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 1457
     T?1514 = geomAndNot( T?1513 rblock_poly2_2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 9
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 1458
     rblock_poly2 = geomAnd( T?1514 net_poly2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 1459
     dataReduction( rblock_poly2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1460
  ;  region( rblock_poly2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 1461
     T?1518 = geomSize( rblock_poly1_1 0.51 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1462
     T?1521 = geomOr( T?1518 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1463
     outside_rblock_met1 = geomAndNot( T?1521 rblock_poly1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1464
     met1_outside_rblock = geomAnd( net_met1 outside_rblock_met1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1
 
  ;# 1465
  ;  region( met1_outside_rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1
 
  ;# 1466
     T?1524 = geomSize( rblock_poly1_1 -0.5 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1467
     inside_rblock_met1 = geomAndNot( rblock_poly1_1 T?1524 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1468
     met1_inside_rblock = geomAnd( net_met1 inside_rblock_met1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 59
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 59
 
  ;# 1469
  ;  region( met1_inside_rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 59
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 59
 
  ;# 1470
     T?1527 = drc( met1_outside_rblock width < 0.5 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1
 
  ;# 1471
  ;  region( T?1527 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1
 
  ;# 1472
     rblock_met1_2 = geomButtOrOver( met1_inside_rblock T?1527 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1
 
  ;# 1473
     T?1529 = geomAnd( rblock_poly2 net_met1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 36
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 39
 
  ;# 1474
  ;  region( T?1529 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 36
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 39
 
  ;# 1475
     rblock_met1_block = geomButtOrOver( T?1529 CONT ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 36
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 39
 
  ;# 1476
     T?1531 = geomOr( rblock_met1_block rblock_poly1_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 38
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 41
 
  ;# 1477
     T?1532 = geomAndNot( T?1531 rblock_met1_2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 38
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 41
 
  ;# 1478
     rblock_met1 = geomAnd( T?1532 net_met1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 240
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 243
 
  ;# 1479
     dataReduction( rblock_met1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1480
  ;  region( rblock_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 240
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 243
 
  ;# 1481
     T?1536 = geomCat( cvar cmim ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 84
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 84
 
  ;# 1482
  ;  region( T?1536 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 84
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 84
 
  ;# 1483
     rblock_met2_1 = geomOverlap( rblock T?1536 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1484
  ;  region( rblock_met2_1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1485
     T?1538 = geomSize( rblock_met2_1 0.61 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1486
     T?1541 = geomOr( T?1538 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1487
     outside_rblock_met2 = geomAndNot( T?1541 rblock_met2_1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1488
     met2_outside_rblock = geomAnd( net_met2 outside_rblock_met2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 6
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
 
  ;# 1489
  ;  region( met2_outside_rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 6
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
 
  ;# 1490
     T?1544 = geomSize( rblock_met2_1 -0.6 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1491
     inside_rblock_met2 = geomAndNot( rblock_met2_1 T?1544 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1492
     met2_inside_rblock = geomAnd( net_met2 inside_rblock_met2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 5
 
  ;# 1493
  ;  region( met2_inside_rblock )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 5
 
  ;# 1494
     T?1547 = drc( met2_outside_rblock width < 0.6 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1
 
  ;# 1495
  ;  region( T?1547 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1
 
  ;# 1496
     rblock_met2_2 = geomButtOrOver( met2_inside_rblock T?1547 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 1497
     rblock_met2 = geomAndNot( rblock_met2_1 rblock_met2_2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 6
 
  ;# 1498
     dataReduction( rblock_met2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1499
  ;  region( rblock_met2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 6
 
  ;# 1500
     rblock_metcap = geomOverlap( rblock cmim ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1501
     dataReduction( rblock_metcap ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1502
  ;  region( rblock_metcap )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1503
     rblock_met3 = geomCat( rblock_metcap ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1504
     dataReduction( rblock_met3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1505
  ;  region( rblock_met3 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1506
     rblock_met4 = geomEmpty( ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1507
     dataReduction( rblock_met4 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1508
  ;  region( rblock_met4 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1509
     T?1555 = geomSize( cmim 0.9 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1510
     cblock_met2cap_met2 = geomOr( T?1555 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1511
     dataReduction( cblock_met2cap_met2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1512
    rcxLayer( cblock_met2cap_met2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1513
     cblock_met1_fox = geomCat( RPOLY2RF_device PMOSRF_device NMOSRF_device CPOLYRF_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1514
     dataReduction( cblock_met1_fox ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1515
    rcxLayer( cblock_met1_fox )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1516
     T?1560 = geomSize( cpoly 0.9 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 3
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 3
 
  ;# 1517
     cblock_poly2_poly1 = geomOr( T?1560 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 3
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 3
 
  ;# 1518
     dataReduction( cblock_poly2_poly1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1519
    rcxLayer( cblock_poly2_poly1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1520
     cblock_poly1_psub = geomCat( pres1 gate HVDEF ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 434
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 434
 
  ;# 1521
     dataReduction( cblock_poly1_psub ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1522
    rcxLayer( cblock_poly1_psub )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1523
     cblock_poly2_psub = geomCat( presp presph pres presz presh ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
 
  ;# 1524
     dataReduction( cblock_poly2_psub ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1525
    rcxLayer( cblock_poly2_psub )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1526
     POLY1_pinshape_bad = geomOutside( POLY1_pinshape net_poly1  )
     errorLayer( POLY1_pinshape_bad "ERROR : POLY1 pin outside poly1" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1527
     MET1_pinshape_bad = geomOutside( MET1_pinshape net_met1  )
     errorLayer( MET1_pinshape_bad "ERROR : MET1 pin outside met1" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1528
     MET2_pinshape_bad = geomOutside( MET2_pinshape net_met2  )
     errorLayer( MET2_pinshape_bad "ERROR : MET2 pin outside met2" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1529
     PADTSV_pinshape_bad = geomOutside( PADTSV_pinshape METTSV  )
     errorLayer( PADTSV_pinshape_bad "ERROR: PADTSV pin outside METTSV" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1530
     T?1570 = geomOutside( MET3_pinshape net_met3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1531
  ;  region( T?1570 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1532
     MET3_pinshape_bad = geomAvoiding( T?1570 INDDEF  )
     errorLayer( MET3_pinshape_bad "ERROR : MET3 pin outside met3" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1533
     T?1572 = geomOutside( MET4_pinshape net_met4 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1534
  ;  region( T?1572 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1535
     MET4_pinshape_bad = geomAvoiding( T?1572 INDDEF  )
     errorLayer( MET4_pinshape_bad "ERROR : MET4 pin outside met4" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1536
     PAD_pinshape_bad = geomOutside( PAD_pinshape net_met4  )
     errorLayer( PAD_pinshape_bad "ERROR : PAD pin outside pad metal" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1537
     net_poly1 = geomOr( net_poly1 POLY1_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 343
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 343
 
  ;# 1538
     dataReduction( net_poly1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1539
  ;  region( net_poly1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 343
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 343
 
  ;# 1540
     net_met1 = geomOr( net_met1 MET1_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 1541
     dataReduction( net_met1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1542
  ;  region( net_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 1543
     net_pdiffcon = groupVias(  via(net_pdiffcon) conn1(net_met1) conn2(net_subtap net_psd) )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1544
     dataReduction( net_pdiffcon ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1545
  ;  region( net_pdiffcon )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8087
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8697
 
  ;# 1546
     net_ndiffcon = groupVias(  via(net_ndiffcon) conn1(net_met1) conn2(net_welltap net_nsd) )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1547
     dataReduction( net_ndiffcon ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1548
  ;  region( net_ndiffcon )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8272
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 9202
 
  ;# 1549
     net_poly2con = groupVias(  via(net_poly2con) conn1(net_met1) conn2(net_poly2) )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1550
     dataReduction( net_poly2con ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1551
  ;  region( net_poly2con )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 208
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 214
 
  ;# 1552
     net_met2 = geomOr( net_met2 MET2_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 258
 
  ;# 1553
     dataReduction( net_met2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1554
  ;  region( net_met2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 250
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 258
 
  ;# 1555
     net_via1 = groupVias(  via(net_via1) conn1(net_met2) conn2(net_met1) )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1556
     dataReduction( net_via1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1557
  ;  region( net_via1 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7146
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 7272
 
  ;# 1558
     net_met3 = geomOr( net_met3 MET3_pinshape ) 
@@ -7271,71 +7271,71 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1559
     dataReduction( net_met3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1560
  ;  region( net_met3 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 94
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 94
 
  ;# 1561
     net_via2_met2 = groupVias(  via(net_via2_met2) conn1(net_met3) conn2(net_met2) )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1562
     dataReduction( net_via2_met2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1563
  ;  region( net_via2_met2 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2778
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2780
 
  ;# 1564
     net_met4 = geomOr( net_met4 MET4_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1565
     dataReduction( net_met4 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1566
  ;  region( net_met4 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1567
     net_via3 = groupVias(  via(net_via3) conn1(net_met4) conn2(net_met3) )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1568
     dataReduction( net_via3 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1569
  ;  region( net_via3 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1570
     net_optdef = geomOr( OPTDEF ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1571
     dataReduction( net_optdef ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1572
  ;  region( net_optdef )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1573
     net_metcap = geomOr( net_metcap ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1574
     dataReduction( net_metcap ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1575
  ;  region( net_metcap )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1576
     T?1596 = geomCat( rblock_poly1 ) 
@@ -7351,7 +7351,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1579
     T?1597 = geomCat( rblock_poly2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 1580
     dataReduction( T?1597 ) 
@@ -7359,11 +7359,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1581
  ;  region( T?1597 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 1582
     T?1598 = geomCat( rblock_met1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 240
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 243
 
  ;# 1583
     dataReduction( T?1598 ) 
@@ -7371,11 +7371,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1584
  ;  region( T?1598 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 240
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 243
 
  ;# 1585
     T?1599 = geomCat( rblock_met2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 6
 
  ;# 1586
     dataReduction( T?1599 ) 
@@ -7383,7 +7383,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1587
  ;  region( T?1599 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 6
 
  ;# 1588
     T?1600 = geomCat( rblock_metcap ) 
@@ -7447,27 +7447,27 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1603
  ;  via( net_via2_met2 net_met3 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2778
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2780
 
  ;# 1604
  ;  via( net_via2_met2 net_met2 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2778
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2780
 
  ;# 1605
  ;  via( net_via1 net_met2 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 7146
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 7272
 
  ;# 1606
  ;  via( net_via1 net_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 7146
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 7272
 
  ;# 1607
  ;  via( net_poly2con net_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 208
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 214
 
  ;# 1608
  ;  via( net_poly2con net_poly2 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 208
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 214
 
  ;# 1609
  ;  via( net_poly1con net_met1 )
@@ -7479,35 +7479,35 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1611
  ;  via( net_ndiffcon net_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8272
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 9202
 
  ;# 1612
  ;  via( net_ndiffcon net_welltap )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8272
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 9202
 
  ;# 1613
  ;  via( net_ndiffcon net_nsd )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8272
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 9202
 
  ;# 1614
  ;  via( net_pdiffcon net_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8087
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8697
 
  ;# 1615
  ;  via( net_pdiffcon net_subtap )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8087
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8697
 
  ;# 1616
  ;  via( net_pdiffcon net_psd )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8087
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8697
 
  ;# 1617
  ;  via( net_met1 net_sbd_anode_diff )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 1618
  ;  via( net_met1 sbdcon )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1359
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 1387
 
  ;# 1619
  ;  via( spiral_term spiral_term11 )
@@ -7567,15 +7567,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1633
  ;  overlap( net_ndiff net_welltap )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 473
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 475
 
  ;# 1634
  ;  overlap( net_ndiff net_nsd )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 473
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 475
 
  ;# 1635
  ;  overlap( net_ndiff nmosh_d_term )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 473
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 475
 
  ;# 1636
  ;  overlap( net_pdiff net_subtap )
@@ -7591,15 +7591,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 1639
  ;  overlap( rblock_poly2 T?1597 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 1640
  ;  overlap( rblock_met1 T?1598 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 240
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 243
 
  ;# 1641
  ;  overlap( rblock_met2 T?1599 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 6
 
  ;# 1642
  ;  overlap( rblock_metcap T?1600 )
@@ -7623,7 +7623,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
         ( PAD_pintext net_met4 PAD_pinshape )
         ( OPTDEF_pintext net_optdef OPTDEF_pinshape )
         ( PADTSV_pintext METTSV PADTSV_pinshape ))
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 1646
     mustJoinNet()
@@ -9135,7 +9135,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 2013
     extractDevice( "PMOSM4" T?3649 net_poly1( "G" ) net_psd( "S" "D" ) PMOSM_WAFFLE_bulk( "B" ) targetLayer( POLY1 ) spiceModel("MODPM") cellView("pmosm4 auLvs PRIMLIB"))
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 1   virtual: 145M   task sum: 0
 
  ;# 2014
     unstable_device_for_PMOSM_WAFFLE_device_Device_8 = unstableDevices( "PMOSM4" PMOSM_WAFFLE_device_Device_8 PMOSM_WAFFLE_device_Device_8)
@@ -14063,31 +14063,31 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 3245
     T?4203 = _geomPushDown( P_NWD_device NTUB and ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 50
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 49
 
  ;# 3246
     T?3754 = _geomExtractMerge( T?4203 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 108
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 113
 
  ;# 3247
     unstable_device_for_P_NWD_device_DIODE_43 = unstableDevices( "P_NWD" P_NWD_device_DIODE_43 T?3754)
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 79
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 84
 
  ;# 3248
     dataReduction( T?3754 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 23
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 22
 
  ;# 3249
  ;  region( T?3754 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 23
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 22
 
  ;# 3250
     T?4205 = _geomPushDown( net_psub T?3754 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 37
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 36
 
  ;# 3251
     T?4206 = geomMerge( T?4205 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 22
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 21
 
  ;# 3252
     dataReduction( T?4206 ) 
@@ -14123,11 +14123,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 3260
  ;  region( P_NWD_device_DIODE_43_shape )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 23
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 22
 
  ;# 3261
  ;  region( P_NWD_device_DIODE_43 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 23
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 22
 
  ;# 3262
    saveRecognition( P_NWD_device ("device" "drawing") )
@@ -16803,11 +16803,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 3930
     T?2930 = geomInside( presh net_nwell ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 3931
     RPOLYH_NTUB_device = geomAndNot( T?2930 RFDEF ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 3932
     dataReduction( RPOLYH_NTUB_device ) 
@@ -16815,7 +16815,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 3933
  ;  region( RPOLYH_NTUB_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 3934
     T?2932 = geomAndNot( presh RPOLYH_NTUB_device ) 
@@ -16835,7 +16835,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 3938
     presh_ntub_trm = geomButting( presh_trm RPOLYH_NTUB_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 10
 
  ;# 3939
     presh_psub_trm = geomButting( presh_trm RPOLYH_PSUB_device ) 
@@ -17039,11 +17039,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 3989
     T?4308 = _geomPushDown( RPOLYH_NTUB_device POLY2 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 3990
     T?3823 = _geomExtractMerge( T?4308 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
 
  ;# 3991
     unstable_device_for_RPOLYH_NTUB_device_RES_66 = unstableDevices( "RPOLYH" RPOLYH_NTUB_device_RES_66 T?3823)
@@ -17055,7 +17055,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 3993
  ;  region( T?3823 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
 
  ;# 3994
     T?4310 = _geomPushDown( net_poly2 T?3823 and ) 
@@ -17087,15 +17087,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4001
  ;  region( RPOLYH_NTUB_device_RES_66_shape )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
 
  ;# 4002
  ;  region( RPOLYH_NTUB_device_RES_66 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
 
  ;# 4003
     T?3825 = geomOr( T?3823 T?4309 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
 
  ;# 4004
     errorLayer( geomAndNot( T?3825 RPOLYH_NTUB_device_RES_66 ) "malformed device RPOLYH_NTUB_device" ) 
@@ -17107,7 +17107,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4006
     T?2967  = geomGetEdge( T?3823 butting presh_ntub_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 10
 
  ;# 4007
     dataReduction( T?2967 ) 
@@ -17115,11 +17115,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4008
  ;  region( T?2967 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 10
 
  ;# 4009
     T?2969  = geomGetEdge( T?3823 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 168
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 176
 
  ;# 4010
     dataReduction( T?2969 ) 
@@ -17127,7 +17127,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4011
     T?2970  = geomGetEdge( T?2969 over net_psub ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 740
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 748
 
  ;# 4012
     dataReduction( T?2970 ) 
@@ -17135,7 +17135,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4013
     T?2971  = geomGetEdge( T?2970 outside presh_ntub_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 706
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 712
 
  ;# 4014
     dataReduction( T?2971 ) 
@@ -17143,11 +17143,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4015
  ;  region( T?2971 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 706
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 712
 
  ;# 4016
     T?2973  = geomGetEdge( T?3823 over net_psub ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 740
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 748
 
  ;# 4017
     dataReduction( T?2973 ) 
@@ -17155,19 +17155,19 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4018
  ;  region( T?2973 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 740
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 748
 
  ;# 4019
     T?2975 = geomAndNot( RPOLYH_NTUB_device presh_ntub_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 4020
  ;  region( T?2975 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 8
 
  ;# 4021
     T?2976  = geomGetEdge( T?2975 outside presh_ntub_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 160
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 166
 
  ;# 4022
     dataReduction( T?2976 ) 
@@ -17175,7 +17175,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4023
  ;  region( T?2976 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 160
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 166
 
  ;# 4024
     w  = measureParameter( length ( RPOLYH_NTUB_device butting presh_ntub_trm ) 5e-07 ) 
@@ -17231,7 +17231,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4037
     saveProperty( RPOLYH_NTUB_device "gwell" "N-Well" )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 5
 
  ;# 4038
     T?2986 = geomInside( presz net_nwell ) 
@@ -19111,7 +19111,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4507
     c = calculateParameter( ( a * 8.6e-16 ) * 1e+12 + ( p * 8.6e-17 ) * 1e+06 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 4508
     nameParameter( c "c" )
@@ -19139,11 +19139,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4514
     T?4391 = _geomPushDown( CPOLY_NTUB_device POLY2 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 3
 
  ;# 4515
     T?3877 = _geomExtractMerge( T?4391 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 3
 
  ;# 4516
     unstable_device_for_CPOLY_NTUB_device_CAP_84 = unstableDevices( "CPOLYA" CPOLY_NTUB_device_CAP_84 T?3877)
@@ -19155,7 +19155,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4518
  ;  region( T?3877 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 3
 
  ;# 4519
     T?4393 = _geomPushDown( net_poly2 T?3877 and ) 
@@ -19199,15 +19199,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4529
  ;  region( CPOLY_NTUB_device_CAP_84_shape )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 3
 
  ;# 4530
  ;  region( CPOLY_NTUB_device_CAP_84 )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 3
 
  ;# 4531
     T?3879 = geomOr( T?3877 T?4392 ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 3
 
  ;# 4532
     errorLayer( geomAndNot( T?3879 CPOLY_NTUB_device_CAP_84 ) "malformed device CPOLY_NTUB_device" ) 
@@ -19251,31 +19251,31 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4542
     saveProperty( CPOLY_NTUB_device "gwell" "N-Well" )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 3
 
  ;# 4543
     cvar_ele = geomOr( cvar ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 84
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 84
 
  ;# 4544
  ;  region( cvar_ele )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 84
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 84
 
  ;# 4545
     cvar_ndiff = geomEnclose( ndiff_1 cvar_ele ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 6
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 6
 
  ;# 4546
  ;  region( cvar_ndiff )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 6
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 6
 
  ;# 4547
     cvar_ndiff_gap = drc( cvar_ndiff sep < 1.8 parallel opposite "cvar_ndiff_gap = drc(cvar_ndiff (sep < 1.8) opposite parallel)" ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 4
 
  ;# 4548
     T?3226 = geomOr( cvar_ndiff_gap ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 4
 
  ;# 4549
     cvar_ndiff_closed = geomOr( cvar_ndiff T?3226 ) 
@@ -19283,11 +19283,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4550
     net1_cvar = geomButtOrOver( net_poly1 cvar_ele ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 29
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 29
 
  ;# 4551
     T?3229 = geomOr( cvar_ndiff_closed ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 4552
     T?3230 = geomAnd( T?3229 net1_cvar ) 
@@ -19307,39 +19307,39 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4556
     cvar_ndiff_cross = geomSize( cvar_ndiff_cross1 -0.1 edges ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 58
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 58
 
  ;# 4557
  ;  region( cvar_ndiff_cross )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 58
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 58
 
  ;# 4558
     CVAR_device = geomOr( cvar_ndiff_closed ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 4559
     dataReduction( CVAR_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 4560
  ;  region( CVAR_device )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 4561
     T?4397 = _geomPushDown( CVAR_device POLY1 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 4562
  ;  region( T?4397 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 4563
     T?4398 = geomAvoiding( T?4397 net_psub ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 4564
     T?4399 = geomAndNot( T?4397 T?4398 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 2
 
  ;# 4565
     T?3880 = _geomExtractMerge( T?4399 ) 
@@ -20631,7 +20631,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4887
     net_presh_trm = geomCat( presh_trm ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 4888
     dataReduction( net_presh_trm ) 
@@ -20639,7 +20639,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 4889
  ;  region( net_presh_trm )
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 10
 
  ;# 4890
     geomStamp( net_presh_trm net_poly2 ) 
@@ -21455,23 +21455,23 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  497.3M virt   10780 pf
 
  ;# 5093
     errorLayer( geomCat( bkgnd ) "# INFO: Don't use -resimulate_extracted- Switch for standard LVS but only for QRC! #" ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 25
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 27
 
  ;# 5094
     errorLayer( geomCat( bkgnd2 ) "# C35B4 ENG - 183 Rev9 (Last updated 26-Apr-2017 12:48) #" ) 
-    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 25
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 27
 
 
 ************************************************************************
 
                   Run Summary
 
-Total cells checked = 20
+Total cells checked = 19
 Total rules checked = 5094
 
-Run time =  8.00 seconds
-CPU time =  2.75 seconds
-VM HWM   =   497 Mbytes
+Run time =  7.00 seconds
+CPU time =  2.63 seconds
+VM HWM   =   498 Mbytes
 Disk HWM =     0 Mbytes
 Disk end =     0 Mbytes
 Eman HWM =     0 Mbytes

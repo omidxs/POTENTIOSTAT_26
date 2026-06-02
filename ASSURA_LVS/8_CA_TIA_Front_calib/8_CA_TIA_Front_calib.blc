@@ -9,7 +9,7 @@
 "6_TIA_Front_Layout layout Potentiostat" "6_TIA_Front_Layout schematic Potentiostat" "CPOLYA(CAP)" "NMOS4(MOS)" "RPOLYH(RES)" "CVAR(Generic)" "PMOS4(MOS)"
 "6_Resnet layout Potentiostat" "6_Resnet schematic Potentiostat" "NMOS4(MOS)" "RPOLYH(RES)" "PMOS4(MOS)"
 "6_CA_Front_Layout layout Potentiostat" "6_CA_Front_Layout schematic Potentiostat" "CPOLYA(CAP)" "NMOS4(MOS)" "RPOLYH(RES)" "CVAR(Generic)" "PMOS4(MOS)"
-"8_CA_TIA_Front_calib layout Potentiostat" "8_CA_TIA_Front_calib schematic Potentiostat" "CPOLYA(CAP)"
+"8_CA_TIA_Front_calib layout Potentiostat" "8_CA_TIA_Front_calib schematic Potentiostat" "CPOLYA(CAP)" "RPOLYH(RES)" "CVAR(Generic)"
 Devices filtered from layout
 "pcapacitor"
 "P_DN_PS"

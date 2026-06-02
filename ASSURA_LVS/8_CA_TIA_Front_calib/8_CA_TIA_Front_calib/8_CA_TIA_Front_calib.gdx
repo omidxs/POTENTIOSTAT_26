@@ -505,16 +505,22 @@ D MP1 MP1/avD5_2
 S MP1 MP1/avD5_3
 D MP1 MP1/avD5_4
 I I0 I0 Inverter Inverter
-# 12
+# 18
 8_CA_TIA_Front_calib schematic Potentiostat: 8_CA_TIA_Front_calib layout Potentiostat
 I I35 I35 7_MUX21 7_MUX21
 I I30 I30 7_MUX21 7_MUX21
-D C4<0>/C0 C4(3)/avD84_1
-D C4<1>/C0 C4(4)/avD84_1
-D C4<2>/C0 C4(5)/avD84_1
-D C4<3>/C0 C4(0)/avD84_1
-D C4<4>/C0 C4(1)/avD84_1
-D C4<5>/C0 C4(2)/avD84_1
+D C4<0>/C0 C4(0)/avD84_1
+D C4<1>/C0 C4(1)/avD84_1
+D C4<2>/C0 C4(2)/avD84_1
+D C4<3>/C0 C4(3)/avD84_1
+D C4<4>/C0 C4(4)/avD84_1
+D C4<5>/C0 C4(5)/avD84_1
+D C4<6>/C0 C4(6)/avD84_1
+D C4<7>/C0 C4(7)/avD84_1
+D C4<8>/C0 C4(8)/avD84_1
+D C4<9>/C0 C4(9)/avD84_1
+D C0 C0/avD85_1
+D R0 avD66_1
 I I22 I22 6_CA_Front_Layout 6_CA_Front_Layout
 I I28 I28 6_Resnet 6_Resnet
 I I33 I33 6_TIA_Front_Layout 6_TIA_Front_Layout

@@ -4,7 +4,7 @@
 * Library Name:  Potentiostat
 * Top Cell Name: 8_CA_TIA_Front_calib
 * View Name:     schematic
-* Netlisted on:  May 30 17:43:21 2026
+* Netlisted on:  Jun  2 14:01:47 2026
 ************************************************************************
 
 *.EQUATION
@@ -539,8 +539,14 @@ CC4<2> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
 CC4<3> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
 CC4<4> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
 CC4<5> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<6> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<7> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<8> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<9> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
 XI22 GNDA Ibias8 VDDA net1 RE CE / 6_CA_Front_Layout
 XI28 GNDA TIA_in Vout S<3> S<2> S<1> S<0> VDDA / 6_Resnet
+MC0 Calib_cur GNDA Calib_cur GNDA CVAR W=343.2u L=650.00n
+RR0 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
 XI33 GNDA Ibias9 VDDA Vref TIA_in Vout / 6_TIA_Front_Layout
 XI36 net2 GNDA S<3> S<2> S<1> S<0> VDDA Calib_cur / 7_Calibration_current
 .ENDS

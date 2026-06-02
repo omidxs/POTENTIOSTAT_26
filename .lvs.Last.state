@@ -14,7 +14,7 @@ vuiLVSFormTable = '(
 	schematicSource  "DFII"
 	layoutSource  "DFII"
 	runName  ""
-	runDir  "ASSURA_LVS/8_CA_TIA_Front_calib"
+	runDir  "ASSURA_LVS/8_Poten_PTAT"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "c35b4c3"
@@ -32,12 +32,12 @@ vuiLVSFormTable = '(
 	avCompareView  nil
 	additionalFunctionsButton  nil
 	schLibrary  "Potentiostat"
-	schCell  "8_CA_TIA_Front_calib"
+	schCell  "8_Poten_PTAT"
 	schView  "schematic"
 	existingSchNetlist  nil
 	useVerilogTopCell  nil
 	layLibrary  "Potentiostat"
-	layCell  "8_CA_TIA_Front_calib"
+	layCell  "8_Poten_PTAT"
 	layView  "layout"
 	layUseExistingNL  nil
 	extractButton  nil

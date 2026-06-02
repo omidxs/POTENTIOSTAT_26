@@ -16,7 +16,7 @@ LAYOUT NAME:              8_CA_TIA_Front_calib.sp ('8_CA_TIA_Front_calib')
 SOURCE NAME:              8_CA_TIA_Front_calib.src.net ('8_CA_TIA_Front_calib')
 RULE FILE:                _c35b4c3.rules_
 RULE FILE TITLE:          DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
-CREATION TIME:            Sat May 30 17:43:25 2026
+CREATION TIME:            Tue Jun  2 14:01:51 2026
 CURRENT DIRECTORY:        /home/hrahimi/projects/POTENTIOSTAT_26/Calibre_LVS
 USER NAME:                hrahimi
 CALIBRE VERSION:          v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
@@ -242,14 +242,14 @@ INITIAL NUMBERS OF OBJECTS
 
  Nets:              72        72
 
- Instances:          3         3         M (4 pins)
+ Instances:          4         4         M (4 pins)
                    113        70    *    MN (4 pins)
                    368       351    *    MP (4 pins)
-                    11        11         C (2 pins)
-                    17        17         R (2 pins)
+                    15        15         C (2 pins)
+                    18        18         R (2 pins)
                     34         0    *    D (2 pins)
                 ------    ------
- Total Inst:       546       452
+ Total Inst:       552       458
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -261,18 +261,18 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
  Nets:              53        53
 
- Instances:          3         3         M (4 pins)
+ Instances:          4         4         M (4 pins)
                     23        23         MN (4 pins)
                     24        24         MP (4 pins)
                      3         3         C (2 pins)
-                     6         6         R (2 pins)
+                     7         7         R (2 pins)
                      2         2         _invb (6 pins)
                      9         9         _invv (4 pins)
                      1         1         _mx2v (6 pins)
                      3         3         _smn2v (4 pins)
                      4         4         _smp2v (4 pins)
                 ------    ------
- Total Inst:        78        78
+ Total Inst:        80        80
 
 
        * = Number of objects in layout different from number in source.
@@ -291,18 +291,18 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
    Nets:               53         53            0            0
 
-   Instances:           3          3            0            0    M(CVAR)
+   Instances:           4          4            0            0    M(CVAR)
                        23         23            0            0    MN(NMOS4)
                        24         24            0            0    MP(PMOS4)
                         3          3            0            0    C(CPOLYA)
-                        6          6            0            0    R(RPOLYH)
+                        7          7            0            0    R(RPOLYH)
                         2          2            0            0    _invb
                         9          9            0            0    _invv
                         1          1            0            0    _mx2v
                         3          3            0            0    _smn2v
                         4          4            0            0    _smp2v
                   -------    -------    ---------    ---------
-   Total Inst:         78         78            0            0
+   Total Inst:         80         80            0            0
 
 
 o Statistics:
@@ -314,8 +314,8 @@ o Statistics:
    362 source mos transistors were reduced to 30.
      332 mos transistors were deleted by parallel reduction.
 
-   10 parallel layout capacitors were reduced to 2.
-   10 parallel source capacitors were reduced to 2.
+   14 parallel layout capacitors were reduced to 2.
+   14 parallel source capacitors were reduced to 2.
 
    13 series layout resistors were reduced to 2.  11 connecting nets were deleted.
    13 series source resistors were reduced to 2.  11 connecting nets were deleted.
@@ -348,23 +348,23 @@ o Voltage Names Matched by Wildcard:
 
 o Matched Mosfets Which Have Been Unequally Reduced:
 
-       X6/X153/M0(456.075,108.600)                               XI33/MMN19<0>
-       X6/X155/M3(441.075,125.800)                               XI33/MMN19<1>
-       X6/X155/M2(446.075,125.800)                               ** missing smashed mosfet ** 
-       X6/X155/M1(451.075,125.800)                               ** missing smashed mosfet ** 
-       X6/X155/M0(456.075,125.800)                               ** missing smashed mosfet ** 
-       X6/X153/M3(441.075,108.600)                               ** missing smashed mosfet ** 
-       X6/X153/M2(446.075,108.600)                               ** missing smashed mosfet ** 
-       X6/X153/M1(451.075,108.600)                               ** missing smashed mosfet ** 
+       X10/X323/M0(456.075,108.600)                              XI33/MMN19<0>
+       X10/X325/M3(441.075,125.800)                              XI33/MMN19<1>
+       X10/X325/M2(446.075,125.800)                              ** missing smashed mosfet ** 
+       X10/X325/M1(451.075,125.800)                              ** missing smashed mosfet ** 
+       X10/X325/M0(456.075,125.800)                              ** missing smashed mosfet ** 
+       X10/X323/M3(441.075,108.600)                              ** missing smashed mosfet ** 
+       X10/X323/M2(446.075,108.600)                              ** missing smashed mosfet ** 
+       X10/X323/M1(451.075,108.600)                              ** missing smashed mosfet ** 
 
-       X3/X32/M0(242.450,93.850)                                 XI36/MMN7<0>
-       X3/X34/M3(257.450,101.050)                                XI36/MMN7<1>
-       X3/X34/M2(252.450,101.050)                                ** missing smashed mosfet **
-       X3/X34/M1(247.450,101.050)                                ** missing smashed mosfet **
-       X3/X34/M0(242.450,101.050)                                ** missing smashed mosfet **
-       X3/X32/M3(257.450,93.850)                                 ** missing smashed mosfet **
-       X3/X32/M2(252.450,93.850)                                 ** missing smashed mosfet **
-       X3/X32/M1(247.450,93.850)                                 ** missing smashed mosfet **
+       X13/X47/M0(242.450,93.850)                                XI36/MMN7<0>
+       X13/X49/M3(257.450,101.050)                               XI36/MMN7<1>
+       X13/X49/M2(252.450,101.050)                               ** missing smashed mosfet **
+       X13/X49/M1(247.450,101.050)                               ** missing smashed mosfet **
+       X13/X49/M0(242.450,101.050)                               ** missing smashed mosfet **
+       X13/X47/M3(257.450,93.850)                                ** missing smashed mosfet **
+       X13/X47/M2(252.450,93.850)                                ** missing smashed mosfet **
+       X13/X47/M1(247.450,93.850)                                ** missing smashed mosfet **
 
 
 

@@ -178,14 +178,16 @@ Pre-expand Statistics
 Cell/Device                               schematic  layout
 (7_Calibration_current schematic Potentiostat, 7_Calibration_current) Cell              1       1
 (6_TIA_Front_Layout schematic Potentiostat, 6_TIA_Front_Layout) Cell          1       1
+(RPOLYH) RES                                      1       1
+(CVAR) Generic                                    1       0*
 (6_Resnet schematic Potentiostat, 6_Resnet) Cell          1       1
 (6_CA_Front_Layout schematic Potentiostat, 6_CA_Front_Layout) Cell            1       1
-(cpolyc schematic PRIMLIB, _) Cell                6       0*
+(cpolyc schematic PRIMLIB, _) Cell               10       0*
 (7_MUX21 schematic Potentiostat, 7_MUX21) Cell            2       2
-(_, cpolyc layout PRIMLIB area="1...) Cell        0       1*
-(_, cpolyc_VAR1 layout PRIMLIB ar...) Cell        0       5*
+(_, cvar layout PRIMLIB col=13 ro...) Cell        0       1*
+(_, cpolyc layout PRIMLIB area="1...) Cell        0      10*
                                              ------  ------
-Total                                            12      12
+Total                                            18      18
 
 Reduce Statistics
 =================                               Original             Reduced
@@ -195,8 +197,10 @@ Cell/Device                               schematic  layout   schematic  layout
 (6_TIA_Front_Layout) Cell                         1       1           1       1
 (7_Calibration_current) Cell                      1       1           1       1
 (7_MUX21) Cell                                    2       2           2       2
-(CPOLYA) CAP                                      6       6           1       1
+(RPOLYH) RES                                      1       1           1       1
+(CPOLYA) CAP                                     10      10           1       1
+(CVAR) Generic                                    1       1           1       1
                                              ------  ------      ------  ------
-Total                                            12      12           7       7
+Total                                            18      18           9       9
 
 Schematic and Layout Match

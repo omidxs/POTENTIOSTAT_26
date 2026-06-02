@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/7_PTAT_Layout.dv
+dv_start matched                                  
+dv_cell {7_PTAT_Layout} {7_PTAT_Layout} matched
+dv_obj_count -transformed_nets {26 26} -transformed_inst {55 55} -transformed_port {5 5}
+dv_end

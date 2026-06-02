@@ -1,26 +1,26 @@
 //
-//  Rule file generated on Sat May 30 17:43:21 2026
+//  Rule file generated on Tue Jun 2 15:29:31 2026
 //  by Calibre Interactive v2022.4_16.8    Mon Oct 3 17:12:31 PDT 2022
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH "8_CA_TIA_Front_calib.calibre.db"
+LAYOUT PATH "8_Poten_PTAT.calibre.db"
 LAYOUT SYSTEM GDSII
-LAYOUT PRIMARY "8_CA_TIA_Front_calib"
+LAYOUT PRIMARY "8_Poten_PTAT"
 
-SOURCE PATH "8_CA_TIA_Front_calib.src.net"
+SOURCE PATH "8_Poten_PTAT.src.net"
 SOURCE SYSTEM SPICE
-SOURCE PRIMARY "8_CA_TIA_Front_calib"
+SOURCE PRIMARY "8_Poten_PTAT"
 
 MASK SVDB DIRECTORY "svdb" QUERY
 
-LVS REPORT "8_CA_TIA_Front_calib.lvs.report"
+LVS REPORT "8_Poten_PTAT.lvs.report"
 
 LVS EXECUTE ERC YES
 
-ERC RESULTS DATABASE "8_CA_TIA_Front_calib.erc.results"
+ERC RESULTS DATABASE "8_Poten_PTAT.erc.results"
 ERC CELL NAME YES CELL SPACE XFORM
 
 DRC ICSTATION YES

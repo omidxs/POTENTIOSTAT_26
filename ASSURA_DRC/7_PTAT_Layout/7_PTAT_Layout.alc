@@ -1,0 +1,18 @@
+!<alc> v1 160
+0   30    0 G23_2_3_12300_14100_r270 sub_array
+0   11    0 cpolyc layout PRIMLIB area="2.31n" c="2p" gwell="N-Well" l="48.4u" perimeter="192.1u" rbottom="Cont" rleft="Cont" rright="Cont" id_=8d84e3685e3786f2 in1=C228229
+0    7    0 pmos4 layout PRIMLIB l="4u" in1=MP2328329
+0    6    0 nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN2228129
+0    4    0 nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN1928129
+0    1    0 cpolyc layout PRIMLIB area="3.47n" c="3p" gwell="N-Well" l="59.25u" perimeter="235.5u" rbottom="Cont" rleft="Cont" id_=d867af616155d7ec in1=C0
+0   27    0 vert10_4 layout PRIMLIB
+0   26    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
+0   25    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26
+0   23    0 pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP928129
+0   22    0 pmos4 layout PRIMLIB l="350n" in1=MP628129
+0   21    0 pmos4 layout PRIMLIB l="2u" in1=MP1281029
+0   19    0 nmos4 layout PRIMLIB l="10u" in1=MN628129
+0   17    0 nmos4 layout PRIMLIB l="20u" in1=MN1128129
+0   16    0 nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129
+0   10    0 6_CA_Front_Layout layout Potentiostat
+0   28    0 7_PTAT_Layout layout Potentiostat

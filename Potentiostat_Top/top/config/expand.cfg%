@@ -1,4 +1,4 @@
-//Revision 23
+//Revision 31
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -18,10 +18,12 @@ stoplist symbol, spectre;
 
 
 cell Potentiostat.\8_CA_TIA_Front_calib  binding :av_extracted;
+cell Potentiostat.\7_PTAT_Layout  binding :schematic;
+cell Potentiostat.\8_Poten_PTAT  binding :schematic;
 
 inst (FBIAS.fbias_por2_f:schematic).I1 binding :cmos_sch;
 inst (FBIAS.fbias_por2_f:schematic).I2 binding :cmos_sch;
-cell FBIAS.fbias_bias2_f binding :av_extracted;
+cell FBIAS.fbias_bias2_f binding :schematic;
 
 inst (VT26_IO_RING.IO_RING_S:schematic).I20 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S:schematic).I19 binding :cmos_sch;

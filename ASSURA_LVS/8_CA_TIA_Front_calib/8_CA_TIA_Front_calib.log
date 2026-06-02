@@ -1,5 +1,5 @@
-2026/05/30 17:44:28 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:28 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:16 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:16 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
             Assura (R) Physical Verification Version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25
             Release 4.1_USR6_EHF13
@@ -8,18 +8,18 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/assura on Sat May 30 17:44:28 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/assura on Tue Jun  2 14:02:16 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/aveng /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/30 17:44:29 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:29 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:16 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:16 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Sat May 30 17:44:29 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Tue Jun  2 14:02:17 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -70,15 +70,15 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 
 
 Starting dfIIToVdb...
-2026/05/30 17:44:29 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:29 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-2026/05/30 17:44:30 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:30 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:17 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:17 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:17 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:17 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Sat May 30 17:44:30 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Tue Jun  2 14:02:18 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -121,8 +121,8 @@ Compiling rules...
 
 WARNING LVS Run detected.
 Non-legacy mode has been disabled for this LVS run
-2026/05/30 17:44:31 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:31 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:19 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:19 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 *WARNING* Failed to obtain license for Assura_LVS
 No Assura license available.
@@ -141,23 +141,23 @@ Reading the design data...
 Finished dfIIToVdb.
 
 Building the VDB part 2 in background mode.
-2026/05/30 17:44:32 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:32 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:19 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:19 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Building tables for LVS Preprocessing in background mode.
 
 
 Starting /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/vdbToCells /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib 8_CA_TIA_Front_calib
-2026/05/30 17:44:32 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:32 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:20 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:20 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/vdbToCells
 
 Starting Nvn PreExtraction...
 
 Starting /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/nvn /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf -preExtract -exec1 -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/30 17:44:33 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:33 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:21 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:21 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_DRC_XL
@@ -165,18 +165,18 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Sat May 30 17:44:33 2026
+run on il2244vt26_hrahimi at Tue Jun  2 14:02:21 2026
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
  running dfIIToVldb -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.vlr /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf
-2026/05/30 17:44:34 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:34 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:21 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:21 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Sat May 30 17:44:34 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Tue Jun  2 14:02:22 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -200,12 +200,12 @@ Top Cell Name: "8_CA_TIA_Front_calib"
 Top Cell View: "schematic"
 Output Data Base Name: "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.sdb"
 Simulator Name: "auCdl"
-Failed to obtain license for "Assura_LVS". 
-Checking out license for Phys_Ver_Sys_LVS_XL
 ERROR (LMF-02005): License call failed for feature Assura_LVS, version 4.100 and quantity 1. The license server search path is defined as 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se. The FLEXnet error message is as follows,
     FLEXnet ERROR(-5, 0, 0): No such feature exists.
 
 Run 'lic_error LMF-02005' for more information.
+Failed to obtain license for "Assura_LVS". 
+Checking out license for Phys_Ver_Sys_LVS_XL
 Failed to obtain license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_LVS_XL
 Failed to obtain license for Phys_Ver_Sys_LVS_XL
@@ -234,8 +234,9 @@ Net Listing Mode is Analog
 *WARNING* Connection error: The instTerm. REF, on instance R20 in cell 6_Resnet schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
 *WARNING* Connection error: The instTerm. REF, on instance R19 in cell 6_Resnet schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
 *WARNING* Connection error: The instTerm. REF, on instance R6 in cell 6_Resnet schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-writing /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.sdb
 *WARNING* Connection error: The instTerm. REF, on instance R7 in cell 6_TIA_Front_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
+writing /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.sdb
+*WARNING* Connection error: The instTerm. REF, on instance R0 in cell 8_CA_TIA_Front_calib schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
  inputting /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.sdb
 Reading layout network
  inputting network ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.ldb
@@ -267,11 +268,11 @@ Finished /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/nvn
 Executing: substrate_all = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2026/05/30 17:44:35 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:35 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:22 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:22 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.15  elap: 6  pf: 1  in: 0  out: 128  virt: 103M  phys: 566M
+cpu: 0.14  elap: 6  pf: 1  in: 0  out: 128  virt: 103M  phys: 567M
 
 Running the Task Processor, 19 cells, 5094 steps...
 
@@ -1511,10 +1512,10 @@ Executing: geomStamp(net_nwell net_welltap)
 Executing: (saveInterconnect (net_ndiff "ndiff") (net_ndiffcon "CONT") (net_pdiff "pdiff...
 
 Executing: extractMOS("NMOS4" NMOS_device (net_poly1 "G") (net_nsd "S" "D") (net_psub "B...
-         2 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="1u" ng="2" wtot="20u" in1=MN1'.
          4 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN30'.
-         1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN3328029'.
+         2 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="1u" ng="2" wtot="20u" in1=MN1'.
          1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN20'.
+         1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN3328029'.
          1 'NMOS4' created in cell 'Inverter layout Potentiostat'.
         10 'NMOS4' created in cell '7_Calibration_current layout Potentiostat'.
         24 'NMOS4' created in cell '6_TIA_Front_Layout layout Potentiostat'.
@@ -1633,8 +1634,8 @@ Executing: saveProperty(NMOSM_WAFFLE_device "nrd" 0.5)
 
 Executing: extractMOS("PMOS4" PMOS_device (net_poly1 "G") (net_psd "S" "D") (net_nwell "...
          1 'PMOS4' created in cell 'pmos4'.
-         4 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="1u" ng="4" wtot="40u" in1=MP2'.
          2 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="10u" ng="2" w="3u" wtot="6u" in1=MP21'.
+         4 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="1u" ng="4" wtot="40u" in1=MP2'.
          1 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="4u" in1=MP3428129'.
          1 'PMOS4' created in cell 'Inverter layout Potentiostat'.
        100 'PMOS4' created in cell '7_Calibration_current layout Potentiostat'.
@@ -2339,9 +2340,8 @@ Executing: nameParameter(perimeter "perimeter")
 Executing: nameParameter(perimeter "pj")
 
 Executing: extractDIODE("P_NWD" P_NWD_device (net_psub "PLUS") (net_nwell "MINUS") (targ...
-         1 'P_NWD' created in cell 'cvar layout PRIMLIB col=13 row=4 in1=C1'.
+         1 'P_NWD' created in cell 'cvar layout PRIMLIB col=13 row=4 in1=C0'.
          1 'P_NWD' created in cell 'Inverter layout Potentiostat'.
-         1 'P_NWD' created in cell 'cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428529'.
          1 'P_NWD' created in cell '7_MUX21 layout Potentiostat'.
          6 'P_NWD' created in cell '7_Calibration_current layout Potentiostat'.
          3 'P_NWD' created in cell '6_TIA_Front_Layout layout Potentiostat'.
@@ -2716,10 +2716,11 @@ Executing: nameParameter(r "r")
 Executing: saveProperty(RPOLYH_PSUB_device "gwell" "Substrate")
 
 Executing: extractRES("RPOLYH" RPOLYH_NTUB_device (net_poly2 "PLUS" "MINUS") (net_nwell ...
-         1 'RPOLYH' created in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" gwell="N-Well" l="500u" r="1M" w="800n" in1=R17'.
+         1 'RPOLYH' created in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'.
          1 'RPOLYH' created in cell '6_TIA_Front_Layout layout Potentiostat'.
          1 'RPOLYH' created in cell '6_Resnet layout Potentiostat'.
          1 'RPOLYH' created in cell '6_CA_Front_Layout layout Potentiostat'.
+         1 'RPOLYH' created in cell '8_CA_TIA_Front_calib layout Potentiostat'.
 
 Executing: saveRecognition(RPOLYH_NTUB_device "device")
 
@@ -2995,8 +2996,7 @@ Executing: saveProperty(CPOLY_PSUB_device "gwell" "Substrate")
 
 Executing: extractCAP("CPOLYA" CPOLY_NTUB_device (net_poly2 "PLUS") (net_poly1 "MINUS") ...
          1 'CPOLYA' created in cell 'cpolyc layout PRIMLIB area="2.89n" c="2.5p" gwell="N-Well" l="54.1u" perimeter="214.9u" rbottom="Cont" rleft="Cont" id_=d867af612fc4b764 in1=C528229'.
-         1 'CPOLYA' created in cell 'cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428529'.
-         1 'CPOLYA' created in cell 'cpolyc_VAR1 layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428529'.
+         1 'CPOLYA' created in cell 'cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428929'.
          1 'CPOLYA' created in cell '6_CA_Front_Layout layout Potentiostat'.
 
 Executing: saveRecognition(CPOLY_NTUB_device "device")
@@ -3036,7 +3036,7 @@ Executing: cvar_ndiff_cross = geomSize(cvar_ndiff_cross1 -0.1 edges)
 Executing: CVAR_device = geomOr(cvar_ndiff_closed)
 
 Executing: extractDevice("CVAR" CVAR_device (net_poly1 "G") (net_welltap "B") (net_psub ...
-         1 'CVAR' created in cell 'cvar layout PRIMLIB col=13 row=4 in1=C1'.
+         1 'CVAR' created in cell 'cvar layout PRIMLIB col=13 row=4 in1=C0'.
          1 'CVAR' created in cell '6_CA_Front_Layout layout Potentiostat'.
 
 Executing: saveRecognition(CVAR_device "device")
@@ -3208,12 +3208,12 @@ Executing: errorLayer(bkgnd2 "# INFO: Don't use -resimulate_extracted- Switch fo
 Executing: errorLayer(bkgnd3 "# C35B4 ENG - 183 Rev9 (Last updated 26-Apr-2017 12:48) #")
 
 Finished running rules. Task processor time in main process:
-cpu: 1.46  elap: 2  pf: 318  in: 0  out: 1216  virt: 147M  phys: 718M
+cpu: 1.36  elap: 1  pf: 322  in: 0  out: 1216  virt: 147M  phys: 719M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 39  in: 0  out: 6528  virt: 152M  phys: 729M
+cpu: 0.01  elap: 0  pf: 39  in: 0  out: 6536  virt: 152M  phys: 731M
 
 
 *****  aveng terminated normally  *****
@@ -3222,8 +3222,8 @@ cpu: 0.01  elap: 0  pf: 39  in: 0  out: 6528  virt: 152M  phys: 729M
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/aveng
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avrpt /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf -exec1
-2026/05/30 17:44:37 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:37 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:25 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:25 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3253,14 +3253,14 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avrpt on Sat May 30 17:44:38 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avrpt on Tue Jun  2 14:02:25 2026
 
 
    Creating Error Database '8_CA_TIA_Front_calib'...
 
    Reading VDB ...
-2026/05/30 17:44:38 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:38 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:25 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:25 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -3307,8 +3307,8 @@ Rule      Message                                    FlatCount     RealCount
 (   41)  ERROR : MET3 pin outside met3                       0            0
 (   42)  ERROR : MET4 pin outside met4                       0            0
 (   43)  ERROR : PAD pin outside pad metal                   0            0
-(   44)  # INFO: Don't use -resimulate_extracted-          133           25
-(   45)  # C35B4 ENG - 183 Rev9 (Last updated 26-          133           25
+(   44)  # INFO: Don't use -resimulate_extracted-          140           27
+(   45)  # C35B4 ENG - 183 Rev9 (Last updated 26-          140           27
 (   46)  malformed device NMOSH_device                       0            0
 (   47)  malformed device NMOSMH_device                      0            0
 (   48)  malformed device NMOS30M_device                     0            0
@@ -3452,7 +3452,7 @@ Rule      Message                                    FlatCount     RealCount
 (  284)  unstable device for NMOS_WAFFLE_device_D            0            0
 (  286)  unstable device for NMOS_device_MOS_1               0            0
 --------------------------------------------------------------------------------
-Total  errors:                                             266           50
+Total  errors:                                             280           54
 --------------------------------------------------------------------------------
 
    Finished creating Error Database ...
@@ -3461,13 +3461,13 @@ Total  errors:                                             266           50
    Rule 44 done.
    Rule 45 done.
 
-avrpt cpu sec:    0.08  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.07  elapsed:     0  virtual:    93M
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avrpt
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/30 17:44:38 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:38 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:26 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:26 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3498,9 +3498,9 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avnx /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/30 17:44:39 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:39 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.16s.
+2026/06/02 14:02:27 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:27 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3539,28 +3539,28 @@ Checking out license for Pegasus_LVS
 @(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avnx on Sat May 30 17:44:40 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avnx on Tue Jun  2 14:02:27 2026
 
 avnx started...
-2026/05/30 17:44:40 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:40 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-cpu: 0.14  elap: 0  pf: 0  in: 0  out: 160  virt: 575M  phys: 995M
+2026/06/02 14:02:27 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:27 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+cpu: 0.13  elap: 0  pf: 0  in: 0  out: 160  virt: 574M  phys: 991M
 
 Run time =  0.00 seconds
-CPU time =  0.21 seconds
+CPU time =  0.19 seconds
 
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.02  elap: 0  pf: 0  in: 0  out: 13688  virt: 502M  phys: 995M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13712  virt: 498M  phys: 992M
 ***** avnx terminated normally ***** 
 
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avnx
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/nvn /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf -postExtract -exec1 -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/30 17:44:41 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:41 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:28 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:28 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_DRC_XL
@@ -3568,7 +3568,7 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Sat May 30 17:44:41 2026
+run on il2244vt26_hrahimi at Tue Jun  2 14:02:28 2026
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
@@ -3620,20 +3620,20 @@ cpu=0.01m  wall=0.00m  mem=76.14mb
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/nvn
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa 8_CA_TIA_Front_calib.snn 8_CA_TIA_Front_calib.tre 8_CA_TIA_Front_calib.cel
-2026/05/30 17:44:42 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:42 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:29 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:29 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa 8_CA_TIA_Front_calib.lnn 8_CA_TIA_Front_calib.tre2 8_CA_TIA_Front_calib.cel2
-2026/05/30 17:44:43 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:43 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:29 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:29 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/ercChk /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf
-2026/05/30 17:44:43 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:43 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:30 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:30 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -3675,8 +3675,8 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/ercChk
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/8_CA_TIA_Front_calib.rsf -trp -exec1
-2026/05/30 17:44:45 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/30 17:44:45 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/02 14:02:31 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/02 14:02:31 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3711,7 +3711,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Sat May 30 17:44:45 2026
+Run ended: Tue Jun  2 14:02:31 2026
 
 *****  Assura terminated normally  *****
 

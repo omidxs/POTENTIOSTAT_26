@@ -1,0 +1,1801 @@
+\# Program start time:     UTC 2026.06.01 19:28:36.789
+\# Local time: UTC (UTC+00:00) 2026.06.01 19:28:36.789
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service173.log -mpssession virtuoso1198870 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_1198870_1780294063 -scopedPid 1198870 -axlSession fnxSession0 -axlServiceIdFlag 173 -uuid 0e503e61-d8bf-4148-b355-c5e6c277585b -heartbeat /dev/shm/swift-heartbeat.n0Cz3LlD8g -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CFE527D2164D65000001DD9 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	il2244vt26_hrahimi (x86_64)
+\# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:3119 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        883 MB
+\# Available memory:	  2,334,868 MB
+\# System memory:	  3,104,512 MB
+\# Maximum memory size:	  3,103,750 MB
+\# Max mem available:	  2,334,989 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,677 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		hrahimi
+\o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
+\# Process Id:		1712915
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         248 MB, process size 1,928 MB at UTC 2026.06.01 19:28:39.215
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso1198870, host=il2244vt26_hrahimi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 1712915 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [19:28:36.445418] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\o ......................................................................................
+\o            ams AG HIT-Kit v.ams_4.10
+\o ......................................................................................
+\o COPYRIGHT (c) 2012 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This HIT-Kit and attached documentation are confidential information and may 
+\o only be used as authorized by the HIT-Kit license agreement.
+\o ......................................................................................
+\# Current Window: window(2)
+\o Loading simulator default settings.
+\w 
+\w load( "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl" ))
+\w                                                                                  ^
+\w PARSER WARNING at line 63 column 82 of file ./.cdsinit_local
+\w *WARNING* (Parser): extra ')' ignored
+\o //
+\o //  Calibre Skill Interface * (v2022.4_16.8) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o Loading simulator default settings.
+\p hitkit: ams_4.10  Tech: c35b4c3  User: hrahimi 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 1712915' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\i _axlRunServices()
+\# [19:28:42.164920] Periodic Lic check successful
+\# [19:28:42.164936] Feature usage summary:
+\o Loading simui.cxt 
+\o [2026-06-01 19:28:42.199 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:28:42.249 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "Poten_MC", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "6161"}
+\o [2026-06-01 19:28:42.250 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "Poten_MC", "testnameKey": "Poten_MC"}
+\o Loading vqp.cxt 
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 173 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat_Top
+\o 	Cell         = top
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.0
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/Poten_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         395 MB, process size 2,154 MB at UTC 2026.06.01 19:28:45.172
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "1"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "0"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "0"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "1.7"
+\o Setting var Vin_CA_AC = "1"
+\o Loading monte.cxt 
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "-50m"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/psf/Poten_MC
+\o 
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_ANA_4M AGND3ALLP schematic" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_ANA_4M AVDD3ALLP schematic" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_ANA_4M AVDD3ALLP schematic" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly2c symbol" has been updated since "IOLIB_ANA_4M APRIO200P schematic" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M VDD3RP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M VDD3RP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M VDD3OP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M VDD3OP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M VDD3IP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M VDD3IP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M ICP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M ICP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdpmos4 symbol" has been updated since "IOLIB_4M ICP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rdiffp3 symbol" has been updated since "IOLIB_4M ICP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M GND3RP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M GND3RP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (SCH-2162): "PRIMLIB rpoly1c symbol" has been updated since "IOLIB_4M GND3OP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\# Available memory:      2,334,514 MB at UTC 2026.06.01 19:28:47.326
+\# Memory report: Maximum memory size now 2,334,980 MB at UTC 2026.06.01 19:28:47.327
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.06.01 19:28:47.327
+\w *WARNING* (SCH-2162): "ESDLIB esdnmos4 symbol" has been updated since "IOLIB_4M GND3OP cmos_sch" was last saved. Validate that the schematic is correct and run Check and Save to suppress this warning.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jun  1 19:28:47 2026
+\o WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+\o directory. Netlist(s) from last session cannot be reused for incremental
+\o netlisting. Therefore, re-netlisting the design.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AGND3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AGND3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly2c/symbol' for instance 'R3' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/APRIO200P/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/APRIO200P/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3IP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3IP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3IP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3IP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdpmos4/symbol' for instance 'MPLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rdiffp3/symbol' for instance 'RLIB_GC2' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-940): Same Cell name 'presistor' is present in multiple libraries -  PRIMLIB and analogLib.
+\o 
+\# Memory report: using         521 MB, process size 2,286 MB at UTC 2026.06.01 19:28:51.281
+\o [2026-06-01 19:28:58.019 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Heartbeat in netlister service {"point": 0, "testname": "Poten_MC"}
+\o [2026-06-01 19:29:09.020 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Heartbeat in netlister service {"point": 0, "testname": "Poten_MC"}
+\o [2026-06-01 19:29:20.033 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Heartbeat in netlister service {"point": 0, "testname": "Poten_MC"}
+\o Loading json.cxt 
+\o End netlisting Jun  1 19:29:21 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components: 83119
+\o 
+\o 	Elapsed time:         34.0s (2444.68/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-06-01 19:29:22.426 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "Poten_MC", "testnameKey": "Poten_MC"}
+\o [2026-06-01 19:29:22.429 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "PTAT_MC", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "42162"}
+\o [2026-06-01 19:29:22.429 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "PTAT_MC", "testnameKey": "PTAT_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 173 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat_Top
+\o 	Cell         = top
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.0
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/PTAT_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "1"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "0"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "0"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "0"
+\o Setting var Vin_CA_AC = "0"
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "0"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/psf/PTAT_MC
+\o 
+\w *WARNING* (CMGR-1313): Constraints of type 'guardRing' must have unique members of type 'modgen'. Member 'Modgen_1' has been found twice for this constraint.
+\w *WARNING* (CMGR-1524): Atleast one constraint has been found in the cache "(Potentiostat 6_Resnet schematic)" with an inconsistent storage format. The constraint(s) has been marked disabled.
+\w *WARNING* (CMGR-1313): Constraints of type 'guardRing' must have unique members of type 'modgen'. Member 'Modgen_2' has been found twice for this constraint.
+\w *WARNING* (CMGR-1313): Constraints of type 'guardRing' must have unique members of type 'modgen'. Member 'Modgen_4' has been found twice for this constraint.
+\w *WARNING* (CMGR-1313): Constraints of type 'guardRing' must have unique members of type 'modgen'. Member 'Modgen_3' has been found twice for this constraint.
+\w *WARNING* (CMGR-1524): Atleast one constraint has been found in the cache "(Potentiostat 7_Calibration_current schematic)" with an inconsistent storage format. The constraint(s) has been marked disabled.
+\w *WARNING* (CMGR-1313): Constraints of type 'guardRing' must have unique members of type 'modgen'. Member 'Modgen_5' has been found twice for this constraint.
+\w *WARNING* (CMGR-1313): Constraints of type 'guardRing' must have unique members of type 'modgen'. Member 'Modgen_6' has been found twice for this constraint.
+\w *WARNING* (CMGR-1524): Atleast one constraint has been found in the cache "(Potentiostat 7_PTAT_Layout schematic)" with an inconsistent storage format. The constraint(s) has been marked disabled.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jun  1 19:29:25 2026
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AGND3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AGND3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/AVDD3ALLP/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly2c/symbol' for instance 'R3' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_ANA_4M/APRIO200P/schematic'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_ANA_4M/APRIO200P/schematic' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3IP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3IP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/VDD3IP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/VDD3IP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdpmos4/symbol' for instance 'MPLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rdiffp3/symbol' for instance 'RLIB_GC2' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/ICP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/ICP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3RP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3RP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'PRIMLIB/rpoly1c/symbol' for instance 'RLIB_GC1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o WARNING (OSSHNL-325): Place master 'ESDLIB/esdnmos4/symbol' for instance 'MNLIB_DR1' has been modified since the last
+\o extraction of its parent cellview 'IOLIB_4M/GND3OP/cmos_sch'.
+\o Connectivity changes in the place master can cause issues in the generated
+\o netlist. To resolve such issues:
+\o -Reextract the parent cellview 'IOLIB_4M/GND3OP/cmos_sch' and regenerate the netlist. To avoid
+\o multiple Check and Save operations, use the Check Hierarchy form or the
+\o schHiCheckHier SKILL function to do a hierarchical check and save on the top
+\o cell and then generate the netlist.
+\o -Ignore all connectivity checks for this place master by specifying it to the
+\o list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+\o -Change the severity of modification errors by setting the environment variable
+\o simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+\o and non-connectivity changes, thereby generating an incorrect netlist.
+\o To avoid reporting of non-connectivity changes after performing a hierarchical
+\o check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+\o 't' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+\o variable, set simSymbolModifiedAction to 'error' to receive reports of only
+\o connectivity issues during netlisting.
+\o The variable simSymbolModifiedAction controls the severity of this message,
+\o which can be 'ignore', 'warning', or 'error'.
+\o 
+\o End netlisting Jun  1 19:29:25 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:  363
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-06-01 19:29:26.627 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "PTAT_MC", "testnameKey": "PTAT_MC"}
+\o [2026-06-01 19:29:26.629 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "TIA_Gain_Linearity_MC", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "73570"}
+\o [2026-06-01 19:29:26.630 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "TIA_Gain_Linearity_MC", "testnameKey": "TIA_Gain_Linearity_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 173 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat_Top
+\o 	Cell         = top
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.0
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/TIA_Gain_Linearity_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "1"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "1"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "0"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "1.615"
+\o Setting var Vin_CA_AC = "0"
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "0"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/psf/TIA_Gain_Linearity_MC
+\o 
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-06-01 19:29:31.038 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "TIA_Gain_Linearity_MC", "testnameKey": "TIA_Gain_Linearity_MC"}
+\o [2026-06-01 19:29:32.044 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 1, "testname": "Poten_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "1:1:38", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "76572"}
+\o [2026-06-01 19:29:32.045 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "Poten_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 173 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat_Top
+\o 	Cell         = top
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.0
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/Poten_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "1"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "0"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "0"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "1.7"
+\o Setting var Vin_CA_AC = "1"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "-50m"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/Poten_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/Poten_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:35.663 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 872.4922 MBytes, peak memory used: 872.4922 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "Poten_MC", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:35.664 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "Poten_MC"}
+\o [2026-06-01 19:29:35.667 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 39, "testname": "Poten_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "39:1:76", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "81201"}
+\o [2026-06-01 19:29:35.668 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 39, "testname": "Poten_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/39/Poten_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/39/Poten_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:37.058 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 875.7188 MBytes, peak memory used: 875.7188 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "Poten_MC", "point": 39, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:37.059 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 39, "testname": "Poten_MC"}
+\o [2026-06-01 19:29:37.062 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 77, "testname": "Poten_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "77:1:114", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "83633"}
+\o [2026-06-01 19:29:37.062 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 77, "testname": "Poten_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/77/Poten_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/77/Poten_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:38.454 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 878.2109 MBytes, peak memory used: 878.2109 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "Poten_MC", "point": 77, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:38.455 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 77, "testname": "Poten_MC"}
+\o [2026-06-01 19:29:38.458 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 115, "testname": "Poten_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "115:1:152", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "86066"}
+\o [2026-06-01 19:29:38.458 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 115, "testname": "Poten_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/115/Poten_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/115/Poten_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:39.805 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 880.9219 MBytes, peak memory used: 880.9219 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "Poten_MC", "point": 115, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:39.806 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 115, "testname": "Poten_MC"}
+\o [2026-06-01 19:29:39.809 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 153, "testname": "Poten_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "153:1:190", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "88506"}
+\o [2026-06-01 19:29:39.809 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 153, "testname": "Poten_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/153/Poten_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/153/Poten_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:41.340 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 883.4062 MBytes, peak memory used: 883.4062 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "Poten_MC", "point": 153, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:41.342 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 153, "testname": "Poten_MC"}
+\o [2026-06-01 19:29:41.345 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 191, "testname": "Poten_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "191:1:200", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "90946"}
+\o [2026-06-01 19:29:41.345 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 191, "testname": "Poten_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/191/Poten_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/191/Poten_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:42.599 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 885.8906 MBytes, peak memory used: 885.8906 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "Poten_MC", "point": 191, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:42.600 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 191, "testname": "Poten_MC"}
+\o [2026-06-01 19:29:43.605 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 1, "testname": "PTAT_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "1:1:38", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "93386"}
+\o [2026-06-01 19:29:43.605 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "PTAT_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 173 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat_Top
+\o 	Cell         = top
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.0
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/PTAT_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "1"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "0"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "0"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "0"
+\o Setting var Vin_CA_AC = "0"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "0"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/PTAT_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/PTAT_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:46.322 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 885.8906 MBytes, peak memory used: 885.8906 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "PTAT_MC", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:46.323 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "PTAT_MC"}
+\o [2026-06-01 19:29:46.331 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 39, "testname": "PTAT_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "39:1:76", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "97143"}
+\o [2026-06-01 19:29:46.331 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 39, "testname": "PTAT_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/39/PTAT_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/39/PTAT_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:47.216 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 885.8906 MBytes, peak memory used: 885.8906 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "PTAT_MC", "point": 39, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:47.217 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 39, "testname": "PTAT_MC"}
+\o [2026-06-01 19:29:47.219 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 77, "testname": "PTAT_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "77:1:114", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "99127"}
+\o [2026-06-01 19:29:47.220 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 77, "testname": "PTAT_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/77/PTAT_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/77/PTAT_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:48.063 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 885.8906 MBytes, peak memory used: 885.8906 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "PTAT_MC", "point": 77, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:48.063 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 77, "testname": "PTAT_MC"}
+\o [2026-06-01 19:29:48.066 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 115, "testname": "PTAT_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "115:1:152", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "101112"}
+\o [2026-06-01 19:29:48.066 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 115, "testname": "PTAT_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/115/PTAT_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/115/PTAT_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:48.900 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 885.8906 MBytes, peak memory used: 885.8906 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "PTAT_MC", "point": 115, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:48.901 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 115, "testname": "PTAT_MC"}
+\o [2026-06-01 19:29:48.904 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 153, "testname": "PTAT_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "153:1:190", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "103105"}
+\o [2026-06-01 19:29:48.904 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 153, "testname": "PTAT_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/153/PTAT_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/153/PTAT_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:49.748 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 885.8906 MBytes, peak memory used: 885.8906 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "PTAT_MC", "point": 153, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:49.749 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 153, "testname": "PTAT_MC"}
+\o [2026-06-01 19:29:49.751 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 191, "testname": "PTAT_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "191:1:200", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "105098"}
+\o [2026-06-01 19:29:49.751 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 191, "testname": "PTAT_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/191/PTAT_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/191/PTAT_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:50.578 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 885.8906 MBytes, peak memory used: 885.8906 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "PTAT_MC", "point": 191, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:50.579 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 191, "testname": "PTAT_MC"}
+\o [2026-06-01 19:29:51.584 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 1, "testname": "TIA_Gain_Linearity_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "1:1:38", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "107091"}
+\o [2026-06-01 19:29:51.585 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "TIA_Gain_Linearity_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 173 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Potentiostat_Top
+\o 	Cell         = top
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MonteCarlo.0
+\o 	Results DB   = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/TIA_Gain_Linearity_MC
+\o 	Results Loc  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro
+\o 	Project Dir  = /home/hrahimi/projects/POTENTIOSTAT_26/Sim
+\o 	Setup DB loc = /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Calib_EN = "1"
+\o Setting var Cdl = "10n"
+\o Setting var Cdl_CE = "10n"
+\o Setting var Idc = "0"
+\o Setting var Iin_TIA_AC = "1"
+\o Setting var Ipulse = "0"
+\o Setting var PTAT_EN = "0"
+\o Setting var R_ct = "500k"
+\o Setting var Rct_CE = "100k"
+\o Setting var Rs_CE = "10k"
+\o Setting var Rs_WE = "10k"
+\o Setting var S0 = "0"
+\o Setting var S1 = "0"
+\o Setting var S2 = "1"
+\o Setting var S3 = "0"
+\o Setting var Vb = "1.615"
+\o Setting var Vin_CA_AC = "0"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o Setting var vdd = "3.3"
+\o Setting var vddpuls = "0"
+\o Setting var vpuls = "0"
+\o Setting var vref = "1.615"
+\o Setting var vtran = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/TIA_Gain_Linearity_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/1/TIA_Gain_Linearity_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:55.192 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 895.9922 MBytes, peak memory used: 895.9922 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "TIA_Gain_Linearity_MC", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:55.193 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "TIA_Gain_Linearity_MC"}
+\o [2026-06-01 19:29:55.198 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 39, "testname": "TIA_Gain_Linearity_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "39:1:76", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "111390"}
+\o [2026-06-01 19:29:55.200 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 39, "testname": "TIA_Gain_Linearity_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/39/TIA_Gain_Linearity_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/39/TIA_Gain_Linearity_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:56.907 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 898.2695 MBytes, peak memory used: 898.2695 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "TIA_Gain_Linearity_MC", "point": 39, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:56.909 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 39, "testname": "TIA_Gain_Linearity_MC"}
+\o [2026-06-01 19:29:56.918 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 77, "testname": "TIA_Gain_Linearity_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "77:1:114", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "113901"}
+\o [2026-06-01 19:29:56.919 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 77, "testname": "TIA_Gain_Linearity_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/77/TIA_Gain_Linearity_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/77/TIA_Gain_Linearity_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:29:58.815 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 900.6172 MBytes, peak memory used: 900.6172 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "TIA_Gain_Linearity_MC", "point": 77, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:29:58.817 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 77, "testname": "TIA_Gain_Linearity_MC"}
+\o [2026-06-01 19:29:58.826 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 115, "testname": "TIA_Gain_Linearity_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "115:1:152", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "116413"}
+\o [2026-06-01 19:29:58.827 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 115, "testname": "TIA_Gain_Linearity_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/115/TIA_Gain_Linearity_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/115/TIA_Gain_Linearity_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:30:00.828 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.9531 MBytes, peak memory used: 902.9531 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "TIA_Gain_Linearity_MC", "point": 115, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:30:00.830 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 115, "testname": "TIA_Gain_Linearity_MC"}
+\o [2026-06-01 19:30:00.838 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 153, "testname": "TIA_Gain_Linearity_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "153:1:190", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "118932"}
+\o [2026-06-01 19:30:00.840 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 153, "testname": "TIA_Gain_Linearity_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/153/TIA_Gain_Linearity_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/153/TIA_Gain_Linearity_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:30:03.502 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 905.2969 MBytes, peak memory used: 905.2969 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "TIA_Gain_Linearity_MC", "point": 153, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:30:03.504 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 153, "testname": "TIA_Gain_Linearity_MC"}
+\o [2026-06-01 19:30:03.519 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"point": 191, "testname": "TIA_Gain_Linearity_MC", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "191:1:200", "HistoryName": "MonteCarlo.0", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log", "logFileSize": "121451"}
+\o [2026-06-01 19:30:03.520 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 191, "testname": "TIA_Gain_Linearity_MC"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/191/TIA_Gain_Linearity_MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.0/191/TIA_Gain_Linearity_MC/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'Potentiostat 8_Poten_PTAT av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'FBIAS fbias_bias2_f av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Memory report: using         622 MB, process size 2,386 MB at UTC 2026.06.01 19:30:06.249
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-06-01 19:30:06.539 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.6484 MBytes, peak memory used: 907.6484 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1712915, "testname": "TIA_Gain_Linearity_MC", "point": 191, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service173.log"}
+\o [2026-06-01 19:30:06.540 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 191, "testname": "TIA_Gain_Linearity_MC"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [19:35:08.296904] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [19:35:08.296921] Feature usage summary:
+\# Memory report: on exit            622 MB, process size 2,384 MB at UTC 2026.06.01 19:35:08.297
+\# Memory report: peak usage         622 MB, process size 2,386 MB

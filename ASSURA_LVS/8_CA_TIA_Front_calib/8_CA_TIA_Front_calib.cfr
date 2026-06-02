@@ -12,7 +12,7 @@ DeviceTyp  Device
 1 devices filtered
 
 *******************************************************************************
-Layout Cell cvar layout PRIMLIB col=13 row=4 in1=C1
+Layout Cell cvar layout PRIMLIB col=13 row=4 in1=C0
 *******************************************************************************
 
 DeviceTyp  Device
@@ -23,16 +23,6 @@ DeviceTyp  Device
 
 *******************************************************************************
 Layout Cell Inverter layout Potentiostat
-*******************************************************************************
-
-DeviceTyp  Device
----------  ------
-      DIO  avD43_1
-
-1 devices filtered
-
-*******************************************************************************
-Layout Cell cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428529
 *******************************************************************************
 
 DeviceTyp  Device

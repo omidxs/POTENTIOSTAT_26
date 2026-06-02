@@ -7,7 +7,7 @@
 (unless (isCallable '_quiRestoreInputDB)
     (nprocedure (_quiRestoreInputDB args) t)
 ) ;; unless
-(_quiRestoreInputDB (_shaCCL_readPort (instring "input_db -type assura \\\n\t -design_cell_name \"8_CA_TIA_Front_calib layout Potentiostat\" \\\n\t -run_name \"8_CA_TIA_Front_calib\" \\\n\t -directory_name \"/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib\" \\\n\t -format \"DFII\" \\\n\t -library_definitions_file \"/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib\"\n"))->input_db)
+(_quiRestoreInputDB (_shaCCL_readPort (instring "input_db -type assura \\\n\t -design_cell_name \"8_Poten_PTAT layout Potentiostat\" \\\n\t -run_name \"8_Poten_PTAT\" \\\n\t -directory_name \"/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT\" \\\n\t -format \"DFII\" \\\n\t -library_definitions_file \"/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib\"\n"))->input_db)
 
 ;; dummy definition
 (unless (isCallable '_quiRestoreProcessTechnology)
@@ -266,10 +266,10 @@ vuiRcxRunFormOptions = '(
 	(vuiParasiticRViaBBByLayerList	 nil)
     )
     ((?vuiRCXRunDetailsTab)
-        (vuiRcxRunDir      "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib")
-        (vuiQueueOptions      "bsub -q")
+        (vuiRcxRunDir      "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT")
+        (vuiQueueOptions      "bsub")
         (vuiDumpCmdFileIntoLog      nil)
-        (vuiRcxLogFile      "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_CA_TIA_Front_calib/qrc.8_CA_TIA_Front_calib.log")
+        (vuiRcxLogFile      "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/qrc.8_Poten_PTAT.log")
         (vuiRcxLSFMachines      "")
         (vuiRcxNumOfP      "")
         (vuiQrcLicenseQueueBool      nil)
@@ -277,7 +277,7 @@ vuiRcxRunFormOptions = '(
         (vuiDumpPeakMemoryIntoLog      nil)
         (vuiRcMachineNameTB      "")
         (vuiQrcLicQueueTimeoutValue      "1800")
-        (vuiRcxRunName      "8_CA_TIA_Front_calib")
+        (vuiRcxRunName      "8_Poten_PTAT")
         (vuiRcxRunMode      "Multi Processing")
         (vuiQueueResource      "")
         (queues      "asrcx_normal")

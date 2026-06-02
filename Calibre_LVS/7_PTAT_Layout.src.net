@@ -1,0 +1,513 @@
+* hitkit post processing done
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Potentiostat
+* Top Cell Name: 7_PTAT_Layout
+* View Name:     schematic
+* Netlisted on:  Jun  2 15:19:34 2026
+************************************************************************
+
+*.EQUATION
+*.LDD
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: PRIMLIB
+* Cell Name:    cpolyc
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT cpolyc MINUS PLUS SUB area=100p perimeter=40u
+*.PININFO MINUS:B PLUS:B SUB:B
+CC1 MINUS SUB $[CP]
+CC0 MINUS PLUS $[CPOLYA] $A=(area)*1e+12 $P=(perimeter)*1e+6
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat
+* Cell Name:    6_CA_Front_Layout
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6_CA_Front_Layout GNDA Ibias VDDA Vin+ Vin- Vout
+*.PININFO GNDA:B Ibias:B VDDA:B Vin+:B Vin-:B Vout:B
+MMN10<0> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN10<1> Vm1 Vm1 GNDA GNDA nmos4 M=1 L=4u W=1u
+MMN10<2> Vm1 Vm1 GNDA GNDA nmos4 M=1 W=1u L=4u
+MMN10<3> Vm1 Vm1 GNDA GNDA nmos4 M=1 L=4u W=1u
+MMN33<0> GNDA GNDA GNDA GNDA nmos4 L=20u W=5u M=1
+MMN33<1> GNDA GNDA GNDA GNDA nmos4 M=1 W=5u L=20u
+MMN30 Vm3 Ibias o1 GNDA nmos4 L=4u W=1u M=4
+MMN11<0> o1 Vm1 GNDA GNDA nmos4 L=4u W=1u M=1
+MMN11<1> o1 Vm1 GNDA GNDA nmos4 M=1 L=4u W=1u
+MMN11<2> o1 Vm1 GNDA GNDA nmos4 M=1 W=1u L=4u
+MMN11<3> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN12 C B GNDA GNDA nmos4 M=1 W=5u L=20u
+MMN5 B B GNDA GNDA nmos4 L=20u W=5u M=1
+MMN31 Ibias Ibias Vm1 GNDA nmos4 M=4 L=4u W=1u
+MMN0 Vout C GNDA GNDA nmos4 M=5 W=20u L=4u
+MMP31<0> A Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP31<1> A Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP31<2> A Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP31<3> A Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP31<4> A Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP31<5> A Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP31<6> A Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP31<7> A Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<0> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<1> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<2> VDDA VDDA VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP35<3> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP35<4> VDDA VDDA VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP35<5> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP35<6> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<7> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<8> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP35<9> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP35<10> VDDA VDDA VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP35<11> VDDA VDDA VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<12> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<13> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<14> VDDA VDDA VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<15> VDDA VDDA VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP35<16> VDDA VDDA VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<17> VDDA VDDA VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP35<18> VDDA VDDA VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<19> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<20> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP35<21> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<22> VDDA VDDA VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<23> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<24> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP35<25> VDDA VDDA VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<26> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP35<27> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<28> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<29> VDDA VDDA VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<30> VDDA VDDA VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP35<31> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP35<32> VDDA VDDA VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP35<33> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP35<34> VDDA VDDA VDDA VDDA pmos4 L=10u W=2u M=1
+MMP35<35> VDDA VDDA VDDA VDDA pmos4 W=2u L=10u M=1
+MMP34<0> A A A A pmos4 M=1 W=10u L=4u
+MMP34<1> A A A A pmos4 M=1 W=10u L=4u
+MMP34<2> A A A A pmos4 W=10u L=4u M=1
+MMP34<3> A A A A pmos4 M=1 W=10u L=4u
+MMP5<0> Vm3 Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP5<1> Vm3 Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP1<0> C Vin+ A A pmos4 M=1 L=4u W=10u
+MMP1<1> C Vin+ A A pmos4 M=1 W=10u L=4u
+MMP1<2> C Vin+ A A pmos4 M=1 L=4u W=10u
+MMP1<3> C Vin+ A A pmos4 L=4u W=10u M=1
+MMP1<4> C Vin+ A A pmos4 M=1 W=10u L=4u
+MMP1<5> C Vin+ A A pmos4 L=4u W=10u M=1
+MMP1<6> C Vin+ A A pmos4 L=4u W=10u M=1
+MMP1<7> C Vin+ A A pmos4 M=1 L=4u W=10u
+MMP1<8> C Vin+ A A pmos4 M=1 W=10u L=4u
+MMP1<9> C Vin+ A A pmos4 W=10u L=4u M=1
+MMP0<0> B Vin- A A pmos4 M=1 W=10u L=4u
+MMP0<1> B Vin- A A pmos4 L=4u W=10u M=1
+MMP0<2> B Vin- A A pmos4 M=1 L=4u W=10u
+MMP0<3> B Vin- A A pmos4 M=1 W=10u L=4u
+MMP0<4> B Vin- A A pmos4 W=10u L=4u M=1
+MMP0<5> B Vin- A A pmos4 M=1 L=4u W=10u
+MMP0<6> B Vin- A A pmos4 L=4u W=10u M=1
+MMP0<7> B Vin- A A pmos4 W=10u L=4u M=1
+MMP0<8> B Vin- A A pmos4 L=4u W=10u M=1
+MMP0<9> B Vin- A A pmos4 M=1 L=4u W=10u
+MMP32<0> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<1> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<2> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<3> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<4> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<5> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<6> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<7> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<8> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<9> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<10> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<11> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<12> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<13> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<14> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<15> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<16> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<17> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<18> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<19> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<20> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<21> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<22> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<23> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<24> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<25> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<26> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<27> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<28> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<29> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<30> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<31> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<32> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<33> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<34> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<35> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<36> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<37> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<38> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<39> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<40> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<41> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<42> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<43> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
+MMP32<44> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<45> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<46> Vout Vm3 VDDA VDDA pmos4 M=1 L=10u W=2u
+MMP32<47> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MMP32<48> Vout Vm3 VDDA VDDA pmos4 M=1 W=2u L=10u
+MMP32<49> Vout Vm3 VDDA VDDA pmos4 L=10u W=2u M=1
+MC2 Ibias GNDA Ibias GNDA CVAR W=211.2u L=650.00n
+CC0 Vout net6 $[CPOLYA] $P=(235.5u)*1e+6 $A=(3.47n)*1e+12
+RR1 net6 C $[RPOLYH] $W=2u $L=90u
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat
+* Cell Name:    7_PTAT_Layout
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 7_PTAT_Layout GNDA Ibias VDDA V_ptat_inv vref
+*.PININFO GNDA:B Ibias:B VDDA:B V_ptat_inv:B vref:B
+QQ2<0> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<1> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<2> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<3> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<4> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<5> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<6> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<7> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<8> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<9> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<10> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<11> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<12> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<13> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<14> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<15> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<16> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<17> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<18> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<19> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<20> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<21> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<22> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<23> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<24> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<25> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<26> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<27> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<28> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<29> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<30> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ2<31> GNDA GNDA GNDA PNPVERT10 area=(1)*1e-12
+QQ1<0> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<1> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<2> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<3> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<4> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<5> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<6> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<7> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<8> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<9> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<10> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<11> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<12> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<13> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<14> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<15> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<16> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<17> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<18> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<19> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<20> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<21> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<22> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<23> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<24> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<25> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<26> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<27> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<28> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<29> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<30> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<31> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<32> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<33> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<34> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<35> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<36> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<37> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<38> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<39> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<40> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<41> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<42> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<43> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<44> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<45> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<46> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ1<47> GNDA GNDA U PNPVERT10 area=(1)*1e-12
+QQ0 GNDA GNDA X PNPVERT10 area=(1)*1e-12
+MMN9<0> Vm2 Ibias GNDA GNDA nmos4 W=5u L=10u M=1
+MMN9<1> Vm2 Ibias GNDA GNDA nmos4 M=1 W=5u L=10u
+MMN11<0> D1 D1 D1 GNDA nmos4 M=1 W=10u L=20u
+MMN11<1> D1 D1 D1 GNDA nmos4 M=1 W=10u L=20u
+MMN6<0> D2 D2 GNDA GNDA nmos4 M=1 L=10u W=10u
+MMN6<1> D2 D2 GNDA GNDA nmos4 L=10u W=10u M=1
+MMN4<0> Vm1 Ibias GNDA GNDA nmos4 W=5u L=10u M=1
+MMN4<1> Vm1 Ibias GNDA GNDA nmos4 W=5u L=10u M=1
+MMN4<2> Vm1 Ibias GNDA GNDA nmos4 M=1 W=5u L=10u
+MMN4<3> Vm1 Ibias GNDA GNDA nmos4 W=5u L=10u M=1
+MMN10<0> Ibias Ibias Ibias GNDA nmos4 W=5u L=10u M=1
+MMN10<1> Ibias Ibias Ibias GNDA nmos4 M=1 L=10u W=5u
+MMN3<0> Ibias Ibias GNDA GNDA nmos4 L=10u W=5u M=1
+MMN3<1> Ibias Ibias GNDA GNDA nmos4 M=1 W=5u L=10u
+MMN7 V_ptat Vs net4 GNDA nmos4 M=1 L=10u W=5u
+MMN8 Vi Vi GNDA GNDA nmos4 M=1 W=0.5u L=10u
+MMN5<0> Vs D2 GNDA GNDA nmos4 W=10u L=10u M=1
+MMN5<1> Vs D2 GNDA GNDA nmos4 M=1 W=10u L=10u
+MMN2 net4 Vo1 GNDA GNDA nmos4 W=5u L=1u M=2
+MMN1 D1 D1 GNDA GNDA nmos4 M=1 W=10u L=20u
+MMN0 Vo1 D1 GNDA GNDA nmos4 W=10u L=20u M=1
+RR15 net8 net10 $[RPOLYH] $L=50u $W=0.8u
+RR14 net10 net2 $[RPOLYH] $W=0.8u $L=50u
+RR18 V_ptat_inv net11 $[RPOLYH] $L=50u $W=0.8u
+RR17 net11 net9 $[RPOLYH] $W=0.8u $L=50u
+RR16 net9 net8 $[RPOLYH] $L=50u $W=0.8u
+RR10 net2 net5 $[RPOLYH] $W=0.8u $L=50u
+RR31 GNDA GNDA $[RPOLYH] $L=5u $W=0.8u
+RR30 net15 X $[RPOLYH] $L=150u $W=2u
+RR29 net16 net15 $[RPOLYH] $L=150u $W=2u
+RR25 Y U $[RPOLYH] $L=150u $W=2u
+RR24 Y U $[RPOLYH] $W=2u $L=150u
+RR23 net14 Y $[RPOLYH] $W=2u $L=150u
+RR22 net13 net14 $[RPOLYH] $W=2u $L=150u
+RR21 net3 net13 $[RPOLYH] $L=150u $W=2u
+RR20 net12 net3 $[RPOLYH] $W=2u $L=150u
+RR9 net5 net6 $[RPOLYH] $W=0.8u $L=50u
+RR6 V_ptat net7 $[RPOLYH] $W=0.8u $L=50u
+RR8 net6 net7 $[RPOLYH] $W=0.8u $L=50u
+RR26 V_ptat net18 $[RPOLYH] $L=150u $W=2u
+RR28 net17 net16 $[RPOLYH] $L=150u $W=2u
+RR27 net18 net17 $[RPOLYH] $W=2u $L=150u
+RR19 V_ptat net12 $[RPOLYH] $W=2u $L=150u
+CC2<0> V_ptat_inv net7 $[CPOLYA] $P=(192.1u)*1e+6 $A=(2.31n)*1e+12
+CC2<1> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<2> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<3> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<4> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<5> V_ptat_inv net7 $[CPOLYA] $P=(192.1u)*1e+6 $A=(2.31n)*1e+12
+CC2<6> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<7> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<8> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<9> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<10> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<11> V_ptat_inv net7 $[CPOLYA] $P=(192.1u)*1e+6 $A=(2.31n)*1e+12
+CC2<12> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<13> V_ptat_inv net7 $[CPOLYA] $P=(192.1u)*1e+6 $A=(2.31n)*1e+12
+CC2<14> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<15> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<16> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<17> V_ptat_inv net7 $[CPOLYA] $P=(192.1u)*1e+6 $A=(2.31n)*1e+12
+CC2<18> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC2<19> V_ptat_inv net7 $[CPOLYA] $A=(2.31n)*1e+12 $P=(192.1u)*1e+6
+CC0 V_ptat Vo1 $[CPOLYA] $P=(235.5u)*1e+6 $A=(3.47n)*1e+12
+MMP13<0> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<1> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<2> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<3> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
+MMP13<4> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<5> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<6> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
+MMP13<7> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<8> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<9> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<10> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<11> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
+MMP13<12> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<13> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<14> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<15> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<16> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<17> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
+MMP13<18> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<19> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<20> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<21> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<22> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<23> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<24> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<25> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<26> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<27> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<28> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
+MMP13<29> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<30> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
+MMP13<31> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<32> VDDA VDDA VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP13<33> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<34> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<35> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP13<36> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP13<37> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP7<0> S1 Vm2 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP7<1> S1 Vm2 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP14<0> Vm2 Vm2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP14<1> Vm2 Vm2 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP16<0> VDDA VDDA VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP16<1> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
+MMP16<2> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
+MMP16<3> VDDA VDDA VDDA VDDA pmos4 L=10u W=5u M=1
+MMP12<0> S1 S1 S1 S1 pmos4 M=1 W=10u L=0.35u
+MMP12<1> S1 S1 S1 S1 pmos4 M=1 W=10u L=0.35u
+MMP12<2> S1 S1 S1 S1 pmos4 M=1 W=10u L=0.35u
+MMP12<3> S1 S1 S1 S1 pmos4 L=0.35u W=10u M=1
+MMP11<0> S S S S pmos4 W=10u L=2u M=1
+MMP11<1> S S S S pmos4 L=2u W=10u M=1
+MMP11<2> S S S S pmos4 W=10u L=2u M=1
+MMP11<3> S S S S pmos4 W=10u L=2u M=1
+MMP1<0> Vo1 X S S pmos4 M=1 W=10u L=2u
+MMP1<1> Vo1 X S S pmos4 W=10u L=2u M=1
+MMP1<2> Vo1 X S S pmos4 W=10u L=2u M=1
+MMP1<3> Vo1 X S S pmos4 W=10u L=2u M=1
+MMP1<4> Vo1 X S S pmos4 M=1 L=2u W=10u
+MMP1<5> Vo1 X S S pmos4 W=10u L=2u M=1
+MMP1<6> Vo1 X S S pmos4 M=1 W=10u L=2u
+MMP1<7> Vo1 X S S pmos4 M=1 L=2u W=10u
+MMP1<8> Vo1 X S S pmos4 L=2u W=10u M=1
+MMP1<9> Vo1 X S S pmos4 W=10u L=2u M=1
+MMP1<10> Vo1 X S S pmos4 M=1 L=2u W=10u
+MMP1<11> Vo1 X S S pmos4 M=1 L=2u W=10u
+MMP1<12> Vo1 X S S pmos4 M=1 W=10u L=2u
+MMP1<13> Vo1 X S S pmos4 W=10u L=2u M=1
+MMP1<14> Vo1 X S S pmos4 M=1 W=10u L=2u
+MMP1<15> Vo1 X S S pmos4 M=1 W=10u L=2u
+MMP1<16> Vo1 X S S pmos4 W=10u L=2u M=1
+MMP1<17> Vo1 X S S pmos4 M=1 L=2u W=10u
+MMP1<18> Vo1 X S S pmos4 L=2u W=10u M=1
+MMP1<19> Vo1 X S S pmos4 L=2u W=10u M=1
+MMP9<0> Ib2 Vm2 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP9<1> Ib2 Vm2 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP8<0> Vi Vm2 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP8<1> Vi Vm2 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<0> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<1> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<2> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<3> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<4> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<5> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<6> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<7> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<8> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<9> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<10> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<11> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<12> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<13> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<14> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<15> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<16> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<17> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<18> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<19> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<20> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<21> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<22> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<23> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<24> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<25> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<26> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<27> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<28> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<29> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<30> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<31> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<32> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<33> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<34> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<35> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<36> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<37> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<38> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<39> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<40> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<41> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<42> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<43> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<44> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<45> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP4<46> V_ptat Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP4<47> V_ptat Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP4<48> V_ptat Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP4<49> V_ptat Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP5<0> D2 V_ptat S1 S1 pmos4 M=1 L=0.35u W=10u
+MMP5<1> D2 V_ptat S1 S1 pmos4 M=1 L=0.35u W=10u
+MMP0<0> D1 Y S S pmos4 M=1 W=10u L=2u
+MMP0<1> D1 Y S S pmos4 W=10u L=2u M=1
+MMP0<2> D1 Y S S pmos4 M=1 W=10u L=2u
+MMP0<3> D1 Y S S pmos4 M=1 W=10u L=2u
+MMP0<4> D1 Y S S pmos4 W=10u L=2u M=1
+MMP0<5> D1 Y S S pmos4 M=1 L=2u W=10u
+MMP0<6> D1 Y S S pmos4 L=2u W=10u M=1
+MMP0<7> D1 Y S S pmos4 L=2u W=10u M=1
+MMP0<8> D1 Y S S pmos4 M=1 L=2u W=10u
+MMP0<9> D1 Y S S pmos4 W=10u L=2u M=1
+MMP0<10> D1 Y S S pmos4 M=1 L=2u W=10u
+MMP0<11> D1 Y S S pmos4 L=2u W=10u M=1
+MMP0<12> D1 Y S S pmos4 M=1 L=2u W=10u
+MMP0<13> D1 Y S S pmos4 L=2u W=10u M=1
+MMP0<14> D1 Y S S pmos4 M=1 L=2u W=10u
+MMP0<15> D1 Y S S pmos4 W=10u L=2u M=1
+MMP0<16> D1 Y S S pmos4 M=1 W=10u L=2u
+MMP0<17> D1 Y S S pmos4 L=2u W=10u M=1
+MMP0<18> D1 Y S S pmos4 L=2u W=10u M=1
+MMP0<19> D1 Y S S pmos4 M=1 W=10u L=2u
+MMP6<0> Vs Vi S1 S1 pmos4 M=1 W=10u L=0.35u
+MMP6<1> Vs Vi S1 S1 pmos4 M=1 W=10u L=0.35u
+MMP2<0> Vm1 Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP2<1> Vm1 Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP3<0> S Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP3<1> S Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP3<2> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP3<3> S Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP3<4> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP3<5> S Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP3<6> S Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP3<7> S Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP3<8> S Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP3<9> S Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP3<10> S Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP3<11> S Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MMP3<12> S Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP3<13> S Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP3<14> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP3<15> S Vm1 VDDA VDDA pmos4 M=1 L=10u W=5u
+MMP3<16> S Vm1 VDDA VDDA pmos4 M=1 W=5u L=10u
+MMP3<17> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP3<18> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
+MMP3<19> S Vm1 VDDA VDDA pmos4 L=10u W=5u M=1
+MC5 VDDA GNDA VDDA GNDA CVAR W=475.2u L=650.00n
+MC4 VDDA GNDA VDDA GNDA CVAR L=650.00n W=356.4u
+MC1 Ibias GNDA Ibias GNDA CVAR W=343.2u L=650.00n
+MC3 VDDA GNDA VDDA GNDA CVAR W=686.4u L=650.00n
+XI3 GNDA Ib2 VDDA vref net7 V_ptat_inv / 6_CA_Front_Layout isoVoltagePW="isoVoltagePW=-7"
++ isoVoltage="isoVoltage=50" isoType="isoType=1"
+.ENDS
+

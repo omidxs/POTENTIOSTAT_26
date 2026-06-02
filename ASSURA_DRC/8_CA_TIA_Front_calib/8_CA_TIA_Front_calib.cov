@@ -1,25 +1,4 @@
 ================================================================================
-Rule No. 7022 : PO_R_1 Minimum density of POLY1 area [%] = 14
-
-Real Error Count : 1; Flat Error Count : 1                     
-================================================================================
-
---------------------------------------------------------------------------------
-Cell Name : 8_CA_TIA_Front_calib layout Potentiostat
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 1                1  
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1           X2           Y2    
-
-  1        1                -25.800      -19.850     1039.675      288.175
-
-Shape               Environments Status & Error Marker
-
-         1           X1         Y1         X2         Y2    Cov        Real area
-
-   1     X      -25.800    -19.850   1039.675    288.175  0.140        45881.253
-================================================================================
 Rule No. 7384 : M3_R_1 Minimum density of MET3 area [%] = 30
 
 Real Error Count : 1; Flat Error Count : 1                     
@@ -39,4 +18,4 @@ Shape               Environments Status & Error Marker
 
          1           X1         Y1         X2         Y2    Cov        Real area
 
-   1     X      -25.800    -19.850   1039.675    288.175  0.065        21425.294
+   1     X      -25.800    -19.850   1039.675    288.175  0.065        21427.106

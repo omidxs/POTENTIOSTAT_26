@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue May 26 21:27:16 2026
+Execution Date/Time:       Tue Jun  2 12:21:08 2026
 Calibre Version:           v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
 Rule File Pathname:        _c35b4c3.rules_
 Rule File Title:           DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
@@ -189,7 +189,7 @@ LAYER PO1CUT ........... TOTAL Original Geometry Count = 0    (0)
 LAYER POLY1 ............ TOTAL Original Geometry Count = 42   (91)
 LAYER PO2CUT ........... TOTAL Original Geometry Count = 0    (0)
 LAYER POLY2 ............ TOTAL Original Geometry Count = 63   (474)
-LAYER CONT ............. TOTAL Original Geometry Count = 1914 (2060)
+LAYER CONT ............. TOTAL Original Geometry Count = 1919 (2091)
 LAYER RESDEF ........... TOTAL Original Geometry Count = 42   (315)
 LAYER PPLUS ............ TOTAL Original Geometry Count = 19   (59)
 LAYER HRES ............. TOTAL Original Geometry Count = 2    (15)
@@ -208,7 +208,7 @@ LAYER HVDEF ............ TOTAL Original Geometry Count = 0    (0)
 LAYER LVTDEF ........... TOTAL Original Geometry Count = 0    (0)
 LAYER MIDOX ............ TOTAL Original Geometry Count = 0    (0)
 LAYER PPLUS_DPL ........ TOTAL Original Geometry Count = 0    (0)
-LAYER MET2 ............. TOTAL Original Geometry Count = 73   (111)
+LAYER MET2 ............. TOTAL Original Geometry Count = 76   (114)
 LAYER METCAP ........... TOTAL Original Geometry Count = 0    (0)
 LAYER DIODE ............ TOTAL Original Geometry Count = 0    (0)
 LAYER PAD_BARC ......... TOTAL Original Geometry Count = 0    (0)
@@ -218,9 +218,9 @@ LAYER PFIMP ............ TOTAL Original Geometry Count = 0    (0)
 LAYER FIDEF ............ TOTAL Original Geometry Count = 0    (0)
 LAYER PAD .............. TOTAL Original Geometry Count = 0    (0)
 LAYER MET4 ............. TOTAL Original Geometry Count = 0    (0)
-LAYER MET3 ............. TOTAL Original Geometry Count = 5    (8)
+LAYER MET3 ............. TOTAL Original Geometry Count = 9    (12)
 LAYER M1HOLE ........... TOTAL Original Geometry Count = 0    (0)
-LAYER MET1 ............. TOTAL Original Geometry Count = 168  (303)
+LAYER MET1 ............. TOTAL Original Geometry Count = 173  (308)
 LAYER M2HOLE ........... TOTAL Original Geometry Count = 0    (0)
 LAYER M3HOLE ........... TOTAL Original Geometry Count = 0    (0)
 LAYER M4HOLE ........... TOTAL Original Geometry Count = 0    (0)
@@ -1787,7 +1787,7 @@ RULECHECK ILL_ELEMENT_PMOSML4 ................................ TOTAL Result Coun
 ----------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS (BY CELL)
 ---
-CELL rpolyhc_CDNS_779830835800 ........................ TOTAL Result Count = 3  (42)
+CELL rpolyhc_CDNS_780402867210 ........................ TOTAL Result Count = 3  (42)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1  (14)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1  (14)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1  (14)
@@ -1811,7 +1811,7 @@ CELL 6_Resnet ......................................... TOTAL Result Count = 16 
 --- SUMMARY
 ---
 TOTAL CPU Time:                  0
-TOTAL REAL Time:                 4
-TOTAL Original Layer Geometries: 2421 (3785)
+TOTAL REAL Time:                 5
+TOTAL Original Layer Geometries: 2438 (3828)
 TOTAL DRC RuleChecks Executed:   1384
 TOTAL DRC Results Generated:     19 (58)

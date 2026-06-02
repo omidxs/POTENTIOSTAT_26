@@ -1,0 +1,17 @@
+[Logging Service: 195]
+[2026-06-02 11:16:34.425 Z] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
+[2026-06-02 11:16:34.425 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 1881875, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService195.log"}
+[2026-06-02 11:19:13.128 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "delete from meta;"}
+[2026-06-02 11:19:14.132 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "insert into meta (key, value) values('version','1');"}
+[2026-06-02 11:19:47.006 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 11:19:48.009 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 11:21:45.975 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 11:21:46.982 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 11:21:47.990 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "delete from meta;"}
+[2026-06-02 11:21:48.994 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "insert into meta (key, value) values('version','1');"}
+[2026-06-02 11:35:09.816 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "delete from meta;"}
+[2026-06-02 11:35:10.819 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "insert into meta (key, value) values('version','1');"}
+[2026-06-02 11:35:11.823 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 11:45:17.424 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 59.7422 MBytes, peak memory used: 59.7422 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1881875, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService195.log"}
+[2026-06-02 11:45:17.424 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "il2244vt26_hrahimi", "processid": 1881875, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService195.log"}
+[2026-06-02 11:45:17.424 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "il2244vt26_hrahimi", "processid": 1881875, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService195.log"}

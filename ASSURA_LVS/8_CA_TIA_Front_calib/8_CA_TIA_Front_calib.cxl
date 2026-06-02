@@ -202,8 +202,8 @@ I MP1 MP1/avD5_1
 I I0 I0
 
 C "8_CA_TIA_Front_calib schematic Potentiostat" "8_CA_TIA_Front_calib layout Potentiostat"
-N net2 avC22
-N net1 avC21
+N net2 avC27
+N net1 avC26
 N Ibias9 Ibias9
 N Ibias8 Ibias8
 N Vref Vref
@@ -225,7 +225,9 @@ N v1500 v1500
 N EN_100mV EN_100mV
 I I35 I35
 I I30 I30
-I C4<0>/C0 C4(3)/avD84_1
+I C4<0>/C0 C4(0)/avD84_1
+I C0 C0/avD85_1
+I R0 avD66_1
 I I22 I22
 I I28 I28
 I I33 I33

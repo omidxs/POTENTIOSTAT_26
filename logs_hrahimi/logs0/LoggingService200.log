@@ -1,0 +1,80 @@
+[Logging Service: 200]
+[2026-06-02 15:37:35.464 Z] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
+[2026-06-02 15:37:35.465 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 2007375, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService200.log"}
+[2026-06-02 15:37:36.621 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "delete from meta;"}
+[2026-06-02 15:37:37.624 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "insert into meta (key, value) values('version','1');"}
+[2026-06-02 15:38:01.750 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:38:02.755 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:38:03.760 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:38:07.267 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:38:22.783 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:38:23.787 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:38:24.791 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:38:34.296 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:38:39.731 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:21.117 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "database is locked"}
+[2026-06-02 15:42:22.120 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:23.123 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:30.561 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "delete from meta;"}
+[2026-06-02 15:42:31.565 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "database is locked", "sql": "insert into meta (key, value) values('version','1');"}
+[2026-06-02 15:42:32.569 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:33.574 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "database is locked"}
+[2026-06-02 15:42:34.577 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:41.017 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:42.021 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "database is locked"}
+[2026-06-02 15:42:43.025 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:44.029 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "database is locked"}
+[2026-06-02 15:42:56.469 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:57.473 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:58.476 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:42:59.480 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:00.484 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:01.488 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:02.493 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:06.982 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:12.729 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:13.734 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:14.739 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:15.743 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:16.747 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:17.750 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:24.758 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:25.761 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:30.504 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:31.509 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:43:32.514 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:45:44.610 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 15:46:16.069 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:14:00.823 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:14:26.866 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:15:22.455 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:15:23.460 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:16:16.572 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:16:17.576 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:16:35.558 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:16:36.562 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:16:49.083 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:04.600 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:05.604 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:19.117 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:33.636 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:40.997 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:42.000 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:49.162 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:50.166 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:51.169 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:17:58.720 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:19:35.805 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:19:39.311 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:19:40.315 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:19:41.318 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:19:58.339 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:19:59.341 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:20:22.031 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:20:23.035 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:20:26.017 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:20:27.024 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:20:29.049 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 17:37:32.045 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 61.4609 MBytes, peak memory used: 72.5977 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 2007375, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService200.log"}
+[2026-06-02 17:37:32.045 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "il2244vt26_hrahimi", "processid": 2007375, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService200.log"}
+[2026-06-02 17:37:32.045 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "il2244vt26_hrahimi", "processid": 2007375, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService200.log"}

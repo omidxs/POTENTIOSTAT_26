@@ -1,0 +1,8 @@
+[Logging Service: 198]
+[2026-06-02 14:06:19.574 Z] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
+[2026-06-02 14:06:19.574 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 1943966, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService198.log"}
+[2026-06-02 14:11:58.484 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 14:11:59.878 Z] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "database is locked"}
+[2026-06-02 14:22:03.299 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 58.7773 MBytes, peak memory used: 58.7773 MBytes {"hostname": "il2244vt26_hrahimi", "processid": 1943966, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService198.log"}
+[2026-06-02 14:22:03.299 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "il2244vt26_hrahimi", "processid": 1943966, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService198.log"}
+[2026-06-02 14:22:03.300 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "il2244vt26_hrahimi", "processid": 1943966, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService198.log"}
