@@ -1,7 +1,7 @@
 ================================================================================
 Rule No. 44 : # INFO: Don't use -resimulate_extracted- Switch for standard LVS but only for QRC! #
 
-Real Error Count : 76; Flat Error Count : 530
+Real Error Count : 77; Flat Error Count : 528
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ Cell Name : vert10_4 layout PRIMLIB
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       81               1400.925      100.850    1417.725      117.650
+  1       81               1400.925      109.550    1417.725      126.350
 
 Shape               Environments Status & Error Marker 
 
@@ -44,7 +44,7 @@ Cell Name : pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP928129
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1      122               1266.200      243.800    1280.300      251.200
+  1      122               1266.200      252.500    1280.300      259.900
 
 Shape               Environments Status & Error Marker 
 
@@ -60,7 +60,7 @@ Cell Name : cpolyc layout PRIMLIB area="2.31n" c="2p" gwell="N-Well" l="48.4u" p
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       20               1762.975       51.400    1816.875      103.750
+  1       20               1762.975       60.100    1816.875      112.450
 
 Shape               Environments Status & Error Marker 
 
@@ -83,22 +83,6 @@ Shape               Environments Status & Error Marker
           1           X1         Y1         X2         Y2
 
    1      X       -6.000     -4.650     50.150     20.950
-
---------------------------------------------------------------------------------
-Cell Name : pmos4 layout PRIMLIB l="4u" in1=MP2328329
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                72                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1       72               1588.500       99.175    1596.600      111.575
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X       -1.200     -1.200     11.200      6.900
 
 --------------------------------------------------------------------------------
 Cell Name : pmos4 layout PRIMLIB l="10u" ng="2" w="3u" wtot="6u" in1=MP21
@@ -133,36 +117,36 @@ Shape               Environments Status & Error Marker
    1      X       -1.200     -1.200     11.200      9.900
 
 --------------------------------------------------------------------------------
-Cell Name : nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN2228129
+Cell Name : pmos4 layout PRIMLIB l="4u" in1=MP3428129
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                12                1
+                             1              1                72                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       12               1629.175       62.725    1634.975       84.925
+  1       72               1588.500      107.875    1596.600      120.275
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -0.400     -0.250      5.400     21.950
+   1      X       -1.200     -1.200     11.200      6.900
 
 --------------------------------------------------------------------------------
-Cell Name : nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN1928129
+Cell Name : nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN0
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                10                1
+                             1              1                 6                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       10               1572.150       75.600    1593.350       78.200
+  1        6                815.700      205.775     821.500      208.975
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -0.800     -0.250      1.800     20.950
+   1      X       -0.400     -0.250      5.400      2.950
 
 --------------------------------------------------------------------------------
 Cell Name : nmos4 layout PRIMLIB l="1u" ng="2" wtot="20u" in1=MN1
@@ -181,36 +165,36 @@ Shape               Environments Status & Error Marker
    1      X       -0.700     -0.250     10.700      4.950
 
 --------------------------------------------------------------------------------
-Cell Name : nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN20
+Cell Name : nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN728129
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 6                1
+                             1              1                10                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        6                815.700      205.775     821.500      208.975
+  1       10               1572.150       84.300    1593.350       86.900
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -0.400     -0.250      5.400      2.950
+   1      X       -0.800     -0.250      1.800     20.950
 
 --------------------------------------------------------------------------------
-Cell Name : cvar layout PRIMLIB col=13 row=4 in1=C0
+Cell Name : nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN3328029
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 4                1
+                             1              1                12                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        4               1072.800       43.075    1099.850       77.375
+  1       12               1629.175       71.425    1634.975       93.625
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -2.275     -1.550     24.775     32.750
+   1      X       -0.400     -0.250      5.400     21.950
 
 --------------------------------------------------------------------------------
 Cell Name : cpolyc layout PRIMLIB area="3.47n" c="3p" gwell="N-Well" l="59.25u" perimeter="235.5u" rbottom="Cont" rleft="Cont" id_=d867af616155d7ec in1=C0
@@ -220,7 +204,7 @@ Cell Name : cpolyc layout PRIMLIB area="3.47n" c="3p" gwell="N-Well" l="59.25u" 
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        3               1304.275      138.050    1369.025      201.250
+  1        3               1304.275      146.750    1369.025      209.950
 
 Shape               Environments Status & Error Marker 
 
@@ -245,7 +229,7 @@ Shape               Environments Status & Error Marker
    1      X       -1.350     -1.350     58.250     56.700
 
 --------------------------------------------------------------------------------
-Cell Name : Inverter layout Potentiostat
+Cell Name : Inverter layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                10                1
@@ -268,7 +252,7 @@ Cell Name : pmos4_A3 array 10 11 12.3 14.1 r270
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        1               1093.250      122.300    1230.350      256.600
+  1        1               1093.250      131.000    1230.350      265.300
 
 Shape               Environments Status & Error Marker 
 
@@ -292,7 +276,7 @@ Cell Name : vert10_4_A2 array 9 9 16.9 18.7 r0
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        1               1400.925      100.850    1552.925      267.250
+  1        1               1400.925      109.550    1552.925      275.950
 
 Shape               Environments Status & Error Marker 
 
@@ -324,7 +308,7 @@ Cell Name : cpolyc_A1 array 4 5 54.9 53.35 mx
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        1               1762.975       51.400    2036.475      263.800
+  1        1               1762.975       60.100    2036.475      272.500
 
 Shape               Environments Status & Error Marker 
 
@@ -335,22 +319,6 @@ Shape               Environments Status & Error Marker
    3      X      162.350    -51.000    272.150    161.400
 
 --------------------------------------------------------------------------------
-Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 9                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1        9               1499.550       49.725    1525.150       64.975
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X       -6.000     -4.650      9.250     20.950
-
---------------------------------------------------------------------------------
 Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26
 
                    Cell Errors    Real Errors   Cell Placements     Environments
@@ -358,7 +326,7 @@ Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleC
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       12               1278.250       45.500    1319.250       72.250
+  1       12               1278.250       54.200    1319.250       80.950
 
 Shape               Environments Status & Error Marker 
 
@@ -367,20 +335,20 @@ Shape               Environments Status & Error Marker
    1      X       -7.750     -5.750     19.000     35.250
 
 --------------------------------------------------------------------------------
-Cell Name : pmos4 layout PRIMLIB l="350n" in1=MP628129
+Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 8                1
+                             1              1                 9                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        8               1264.600      189.750    1269.050      202.150
+  1        9               1499.550       58.425    1525.150       73.675
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -1.200     -1.200     11.200      3.250
+   1      X       -6.000     -4.650      9.250     20.950
 
 --------------------------------------------------------------------------------
 Cell Name : pmos4 layout PRIMLIB l="2u" in1=MP1281029
@@ -390,13 +358,45 @@ Cell Name : pmos4 layout PRIMLIB l="2u" in1=MP1281029
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       44               1163.150       62.575    1169.250       74.975
+  1       44               1163.150       71.275    1169.250       83.675
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
    1      X       -1.200     -1.200     11.200      4.900
+
+--------------------------------------------------------------------------------
+Cell Name : pmos4 layout PRIMLIB l="350n" in1=MP628129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 8                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        8               1264.600      198.450    1269.050      210.850
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.200     -1.200     11.200      3.250
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="20u" in1=MN1128129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4               1104.275       53.000    1115.075       75.200
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.400     -0.250     10.400     21.950
 
 --------------------------------------------------------------------------------
 Cell Name : nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129
@@ -406,7 +406,7 @@ Cell Name : nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       11               1081.725       81.450    1087.525       93.650
+  1       11               1081.725       90.150    1087.525      102.350
 
 Shape               Environments Status & Error Marker 
 
@@ -422,29 +422,13 @@ Cell Name : nmos4 layout PRIMLIB l="10u" in1=MN628129
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        4               1264.600      147.400    1276.800      158.200
+  1        4               1264.600      156.100    1276.800      166.900
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
    1      X       -0.400     -0.250     10.400     11.950
-
---------------------------------------------------------------------------------
-Cell Name : nmos4 layout PRIMLIB l="20u" in1=MN1128129
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 4                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1        4               1104.275       44.300    1115.075       66.500
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X       -0.400     -0.250     10.400     21.950
 
 --------------------------------------------------------------------------------
 Cell Name : cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428929
@@ -463,7 +447,7 @@ Shape               Environments Status & Error Marker
    1      X       -1.350     -1.350     46.100     44.550
 
 --------------------------------------------------------------------------------
-Cell Name : 7_MUX21 layout Potentiostat
+Cell Name : 7_MUX21 layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                 2                1
@@ -479,7 +463,7 @@ Shape               Environments Status & Error Marker
    1      X        0.425      0.750     46.800     23.300
 
 --------------------------------------------------------------------------------
-Cell Name : 7_Calibration_current layout Potentiostat
+Cell Name : 7_Calibration_current layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              3              3                 1                1
@@ -497,10 +481,10 @@ Shape               Environments Status & Error Marker
    3      X      145.750     34.900    185.100    191.900
 
 --------------------------------------------------------------------------------
-Cell Name : 6_TIA_Front_Layout layout Potentiostat
+Cell Name : 6_TIA_Front_Layout layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             2              2                 1                1
+                             3              3                 1                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
@@ -510,11 +494,12 @@ Shape               Environments Status & Error Marker
 
           1           X1         Y1         X2         Y2
 
-   1      X       -1.450      0.000    188.050    189.300
-   2      X      188.050      0.000    309.800    189.300
+   1      X       -1.450      0.000    247.650    189.300
+   2      X      190.550      0.000    309.800    189.300
+   3      X      190.550     17.125    212.750     17.575
 
 --------------------------------------------------------------------------------
-Cell Name : 6_Resnet layout Potentiostat
+Cell Name : 6_Resnet layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              2              2                 1                1
@@ -531,14 +516,14 @@ Shape               Environments Status & Error Marker
    2      X       74.750     73.500    295.900    176.800
 
 --------------------------------------------------------------------------------
-Cell Name : 6_CA_Front_Layout layout Potentiostat
+Cell Name : 6_CA_Front_Layout layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              3              3                 2                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        2               1566.975       41.800    1756.000      279.850
+  1        2               1566.975       50.500    1756.000      288.550
 
 Shape               Environments Status & Error Marker 
 
@@ -549,10 +534,10 @@ Shape               Environments Status & Error Marker
    3      X       97.675     55.225    121.850     67.625
 
 --------------------------------------------------------------------------------
-Cell Name : 8_CA_TIA_Front_calib layout Potentiostat
+Cell Name : 8_CA_TIA_Front_calib layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             4              4                 1                1
+                             6              6                 1                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
@@ -562,35 +547,36 @@ Shape               Environments Status & Error Marker
 
           1           X1         Y1         X2         Y2
 
-   1      X      -25.800    -19.850    765.925    288.175
-   2      X      765.925    -19.850   1012.150    288.175
-   3      X      910.075     71.300    957.525     71.900
-   4      X      957.525    -19.850   1039.675    288.175
+   1      X      -25.800    -19.850    813.375    288.175
+   2      X      765.925     71.300    813.375     71.900
+   3      X      766.125    242.800   1012.150    288.175
+   4      X      813.375    -19.850   1012.150    139.500
+   5      X      958.125     71.300   1005.575     71.900
+   6      X     1012.150    -19.850   1039.675    288.175
 
 --------------------------------------------------------------------------------
-Cell Name : 7_PTAT_Layout layout Potentiostat
+Cell Name : 7_PTAT_Layout layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             7              7                 1                1
+                             6              6                 1                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        1               1071.175       13.450    2067.725      304.675
+  1        1               1070.550        6.200    2067.725      313.375
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -2.500    179.800    156.675    471.025
-   2      X       32.600    179.800     63.900    288.650
-   3      X       58.050    232.850     63.900    288.650
-   4      X       63.900    179.800    203.325    471.025
-   5      X      190.925    179.800    315.575    471.025
-   6      X      190.925    324.550    203.125    326.550
-   7      X      315.575    179.800    994.050    471.025
+   1      X       -3.125    163.850    156.675    471.025
+   2      X       38.850    163.850     63.900    288.650
+   3      X       63.900    163.850    203.325    471.025
+   4      X      190.925    163.850    315.575    471.025
+   5      X      190.925    324.550    203.125    326.550
+   6      X      315.575    163.850    994.050    471.025
 
 --------------------------------------------------------------------------------
-Cell Name : 8_Poten_PTAT layout Potentiostat
+Cell Name : 8_Poten_PTAT layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                 1                1
@@ -608,7 +594,7 @@ Shape               Environments Status & Error Marker
 ================================================================================
 Rule No. 45 : # C35B4 ENG - 183 Rev9 (Last updated 26-Apr-2017 12:48) #
 
-Real Error Count : 76; Flat Error Count : 530
+Real Error Count : 77; Flat Error Count : 528
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -635,7 +621,7 @@ Cell Name : vert10_4 layout PRIMLIB
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       81               1400.925      100.850    1417.725      117.650
+  1       81               1400.925      109.550    1417.725      126.350
 
 Shape               Environments Status & Error Marker 
 
@@ -651,7 +637,7 @@ Cell Name : pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP928129
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1      122               1266.200      243.800    1280.300      251.200
+  1      122               1266.200      252.500    1280.300      259.900
 
 Shape               Environments Status & Error Marker 
 
@@ -667,7 +653,7 @@ Cell Name : cpolyc layout PRIMLIB area="2.31n" c="2p" gwell="N-Well" l="48.4u" p
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       20               1762.975       51.400    1816.875      103.750
+  1       20               1762.975       60.100    1816.875      112.450
 
 Shape               Environments Status & Error Marker 
 
@@ -690,22 +676,6 @@ Shape               Environments Status & Error Marker
           1           X1         Y1         X2         Y2
 
    1      X       -6.000     -4.650     50.150     20.950
-
---------------------------------------------------------------------------------
-Cell Name : pmos4 layout PRIMLIB l="4u" in1=MP2328329
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                72                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1       72               1588.500       99.175    1596.600      111.575
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X       -1.200     -1.200     11.200      6.900
 
 --------------------------------------------------------------------------------
 Cell Name : pmos4 layout PRIMLIB l="10u" ng="2" w="3u" wtot="6u" in1=MP21
@@ -740,36 +710,36 @@ Shape               Environments Status & Error Marker
    1      X       -1.200     -1.200     11.200      9.900
 
 --------------------------------------------------------------------------------
-Cell Name : nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN2228129
+Cell Name : pmos4 layout PRIMLIB l="4u" in1=MP3428129
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                12                1
+                             1              1                72                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       12               1629.175       62.725    1634.975       84.925
+  1       72               1588.500      107.875    1596.600      120.275
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -0.400     -0.250      5.400     21.950
+   1      X       -1.200     -1.200     11.200      6.900
 
 --------------------------------------------------------------------------------
-Cell Name : nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN1928129
+Cell Name : nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN0
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                10                1
+                             1              1                 6                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       10               1572.150       75.600    1593.350       78.200
+  1        6                815.700      205.775     821.500      208.975
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -0.800     -0.250      1.800     20.950
+   1      X       -0.400     -0.250      5.400      2.950
 
 --------------------------------------------------------------------------------
 Cell Name : nmos4 layout PRIMLIB l="1u" ng="2" wtot="20u" in1=MN1
@@ -788,36 +758,36 @@ Shape               Environments Status & Error Marker
    1      X       -0.700     -0.250     10.700      4.950
 
 --------------------------------------------------------------------------------
-Cell Name : nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN20
+Cell Name : nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN728129
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 6                1
+                             1              1                10                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        6                815.700      205.775     821.500      208.975
+  1       10               1572.150       84.300    1593.350       86.900
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -0.400     -0.250      5.400      2.950
+   1      X       -0.800     -0.250      1.800     20.950
 
 --------------------------------------------------------------------------------
-Cell Name : cvar layout PRIMLIB col=13 row=4 in1=C0
+Cell Name : nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN3328029
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 4                1
+                             1              1                12                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        4               1072.800       43.075    1099.850       77.375
+  1       12               1629.175       71.425    1634.975       93.625
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -2.275     -1.550     24.775     32.750
+   1      X       -0.400     -0.250      5.400     21.950
 
 --------------------------------------------------------------------------------
 Cell Name : cpolyc layout PRIMLIB area="3.47n" c="3p" gwell="N-Well" l="59.25u" perimeter="235.5u" rbottom="Cont" rleft="Cont" id_=d867af616155d7ec in1=C0
@@ -827,7 +797,7 @@ Cell Name : cpolyc layout PRIMLIB area="3.47n" c="3p" gwell="N-Well" l="59.25u" 
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        3               1304.275      138.050    1369.025      201.250
+  1        3               1304.275      146.750    1369.025      209.950
 
 Shape               Environments Status & Error Marker 
 
@@ -852,7 +822,7 @@ Shape               Environments Status & Error Marker
    1      X       -1.350     -1.350     58.250     56.700
 
 --------------------------------------------------------------------------------
-Cell Name : Inverter layout Potentiostat
+Cell Name : Inverter layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                10                1
@@ -875,7 +845,7 @@ Cell Name : pmos4_A3 array 10 11 12.3 14.1 r270
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        1               1093.250      122.300    1230.350      256.600
+  1        1               1093.250      131.000    1230.350      265.300
 
 Shape               Environments Status & Error Marker 
 
@@ -899,7 +869,7 @@ Cell Name : vert10_4_A2 array 9 9 16.9 18.7 r0
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        1               1400.925      100.850    1552.925      267.250
+  1        1               1400.925      109.550    1552.925      275.950
 
 Shape               Environments Status & Error Marker 
 
@@ -931,7 +901,7 @@ Cell Name : cpolyc_A1 array 4 5 54.9 53.35 mx
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        1               1762.975       51.400    2036.475      263.800
+  1        1               1762.975       60.100    2036.475      272.500
 
 Shape               Environments Status & Error Marker 
 
@@ -942,22 +912,6 @@ Shape               Environments Status & Error Marker
    3      X      162.350    -51.000    272.150    161.400
 
 --------------------------------------------------------------------------------
-Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 9                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1        9               1499.550       49.725    1525.150       64.975
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X       -6.000     -4.650      9.250     20.950
-
---------------------------------------------------------------------------------
 Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26
 
                    Cell Errors    Real Errors   Cell Placements     Environments
@@ -965,7 +919,7 @@ Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleC
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       12               1278.250       45.500    1319.250       72.250
+  1       12               1278.250       54.200    1319.250       80.950
 
 Shape               Environments Status & Error Marker 
 
@@ -974,20 +928,20 @@ Shape               Environments Status & Error Marker
    1      X       -7.750     -5.750     19.000     35.250
 
 --------------------------------------------------------------------------------
-Cell Name : pmos4 layout PRIMLIB l="350n" in1=MP628129
+Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 8                1
+                             1              1                 9                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        8               1264.600      189.750    1269.050      202.150
+  1        9               1499.550       58.425    1525.150       73.675
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -1.200     -1.200     11.200      3.250
+   1      X       -6.000     -4.650      9.250     20.950
 
 --------------------------------------------------------------------------------
 Cell Name : pmos4 layout PRIMLIB l="2u" in1=MP1281029
@@ -997,13 +951,45 @@ Cell Name : pmos4 layout PRIMLIB l="2u" in1=MP1281029
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       44               1163.150       62.575    1169.250       74.975
+  1       44               1163.150       71.275    1169.250       83.675
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
    1      X       -1.200     -1.200     11.200      4.900
+
+--------------------------------------------------------------------------------
+Cell Name : pmos4 layout PRIMLIB l="350n" in1=MP628129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 8                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        8               1264.600      198.450    1269.050      210.850
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.200     -1.200     11.200      3.250
+
+--------------------------------------------------------------------------------
+Cell Name : nmos4 layout PRIMLIB l="20u" in1=MN1128129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4               1104.275       53.000    1115.075       75.200
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.400     -0.250     10.400     21.950
 
 --------------------------------------------------------------------------------
 Cell Name : nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129
@@ -1013,7 +999,7 @@ Cell Name : nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       11               1081.725       81.450    1087.525       93.650
+  1       11               1081.725       90.150    1087.525      102.350
 
 Shape               Environments Status & Error Marker 
 
@@ -1029,29 +1015,13 @@ Cell Name : nmos4 layout PRIMLIB l="10u" in1=MN628129
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        4               1264.600      147.400    1276.800      158.200
+  1        4               1264.600      156.100    1276.800      166.900
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
    1      X       -0.400     -0.250     10.400     11.950
-
---------------------------------------------------------------------------------
-Cell Name : nmos4 layout PRIMLIB l="20u" in1=MN1128129
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 4                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1        4               1104.275       44.300    1115.075       66.500
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X       -0.400     -0.250     10.400     21.950
 
 --------------------------------------------------------------------------------
 Cell Name : cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428929
@@ -1070,7 +1040,7 @@ Shape               Environments Status & Error Marker
    1      X       -1.350     -1.350     46.100     44.550
 
 --------------------------------------------------------------------------------
-Cell Name : 7_MUX21 layout Potentiostat
+Cell Name : 7_MUX21 layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                 2                1
@@ -1086,7 +1056,7 @@ Shape               Environments Status & Error Marker
    1      X        0.425      0.750     46.800     23.300
 
 --------------------------------------------------------------------------------
-Cell Name : 7_Calibration_current layout Potentiostat
+Cell Name : 7_Calibration_current layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              3              3                 1                1
@@ -1104,10 +1074,10 @@ Shape               Environments Status & Error Marker
    3      X      145.750     34.900    185.100    191.900
 
 --------------------------------------------------------------------------------
-Cell Name : 6_TIA_Front_Layout layout Potentiostat
+Cell Name : 6_TIA_Front_Layout layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             2              2                 1                1
+                             3              3                 1                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
@@ -1117,11 +1087,12 @@ Shape               Environments Status & Error Marker
 
           1           X1         Y1         X2         Y2
 
-   1      X       -1.450      0.000    188.050    189.300
-   2      X      188.050      0.000    309.800    189.300
+   1      X       -1.450      0.000    247.650    189.300
+   2      X      190.550      0.000    309.800    189.300
+   3      X      190.550     17.125    212.750     17.575
 
 --------------------------------------------------------------------------------
-Cell Name : 6_Resnet layout Potentiostat
+Cell Name : 6_Resnet layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              2              2                 1                1
@@ -1138,14 +1109,14 @@ Shape               Environments Status & Error Marker
    2      X       74.750     73.500    295.900    176.800
 
 --------------------------------------------------------------------------------
-Cell Name : 6_CA_Front_Layout layout Potentiostat
+Cell Name : 6_CA_Front_Layout layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              3              3                 2                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        2               1566.975       41.800    1756.000      279.850
+  1        2               1566.975       50.500    1756.000      288.550
 
 Shape               Environments Status & Error Marker 
 
@@ -1156,10 +1127,10 @@ Shape               Environments Status & Error Marker
    3      X       97.675     55.225    121.850     67.625
 
 --------------------------------------------------------------------------------
-Cell Name : 8_CA_TIA_Front_calib layout Potentiostat
+Cell Name : 8_CA_TIA_Front_calib layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             4              4                 1                1
+                             6              6                 1                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
@@ -1169,35 +1140,36 @@ Shape               Environments Status & Error Marker
 
           1           X1         Y1         X2         Y2
 
-   1      X      -25.800    -19.850    765.925    288.175
-   2      X      765.925    -19.850   1012.150    288.175
-   3      X      910.075     71.300    957.525     71.900
-   4      X      957.525    -19.850   1039.675    288.175
+   1      X      -25.800    -19.850    813.375    288.175
+   2      X      765.925     71.300    813.375     71.900
+   3      X      766.125    242.800   1012.150    288.175
+   4      X      813.375    -19.850   1012.150    139.500
+   5      X      958.125     71.300   1005.575     71.900
+   6      X     1012.150    -19.850   1039.675    288.175
 
 --------------------------------------------------------------------------------
-Cell Name : 7_PTAT_Layout layout Potentiostat
+Cell Name : 7_PTAT_Layout layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             7              7                 1                1
+                             6              6                 1                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1        1               1071.175       13.450    2067.725      304.675
+  1        1               1070.550        6.200    2067.725      313.375
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -2.500    179.800    156.675    471.025
-   2      X       32.600    179.800     63.900    288.650
-   3      X       58.050    232.850     63.900    288.650
-   4      X       63.900    179.800    203.325    471.025
-   5      X      190.925    179.800    315.575    471.025
-   6      X      190.925    324.550    203.125    326.550
-   7      X      315.575    179.800    994.050    471.025
+   1      X       -3.125    163.850    156.675    471.025
+   2      X       38.850    163.850     63.900    288.650
+   3      X       63.900    163.850    203.325    471.025
+   4      X      190.925    163.850    315.575    471.025
+   5      X      190.925    324.550    203.125    326.550
+   6      X      315.575    163.850    994.050    471.025
 
 --------------------------------------------------------------------------------
-Cell Name : 8_Poten_PTAT layout Potentiostat
+Cell Name : 8_Poten_PTAT layout Potentiostat_cpoly
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                 1                1

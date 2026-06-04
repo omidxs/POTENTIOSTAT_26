@@ -72,7 +72,7 @@ if( isFile("LVSinclude_local.rsf") then
 ;----------------------------------------------------------------------------
 
 avParameters(
-  ?inputLayout ( "df2" "Potentiostat" )
+  ?inputLayout ( "df2" "Potentiostat_cpoly" )
   ?cellName "8_Poten_PTAT"
   ?viewName "layout"
   ?workingDirectory "ASSURA_LVS/8_Poten_PTAT"

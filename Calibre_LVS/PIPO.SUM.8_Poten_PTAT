@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
           : sub-version  IC6.1.8-64b.500.36 
-Started at: 02-Jun-2026  15:29:29
+Started at: 03-Jun-2026  11:33:23
 User Name : hrahimi
 Host Name : il2244vt26_hrahimi
 Directory : /home/hrahimi/projects/POTENTIOSTAT_26
@@ -15,247 +15,254 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-PRIMLIB/nmos4/layout            0        0       0        143    62     0         11     0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        44     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        27     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        282    0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        14     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
-Potentiostat/6_Resnet/layout    28       0       0        1878   10     155       8      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        13     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        29     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA2_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        44     15     0         3      0             0      0     0     0       0       
-Potentiostat/6_CA_Front_Layout/layout                           138      0       0        2725   23     731       6      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        17     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        73     27     0         5      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        16     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        72     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        9      8      0         2      0             0      0     0     0       0       
-PRIMLIB/cvar/layout             0        0       0        1468   836    0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        8      0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA1_C/layout        0        0       0        32     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        152    0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
-PRIMLIB/rpolyhc/layout          0        0       0        60     4      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        50     0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        9      8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        15     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        8      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        20     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        13     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        122    0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        16     27     0         5      0             0      0     0     0       0       
-PRIMLIB/cpolyc/layout           0        0       0        467    20     0         4      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        15     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        52     0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        19     15     0         3      0             0      0     0     0       0       
-Potentiostat/6_TIA_Front_Layout/layout                          137      0       0        3167   27     713       7      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        22     0      0         0      0             0      0     0     0       0       
-PRIMLIB/rpolyhc/layout          0        0       0        14     4      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        13     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        335    0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        15     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        52     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/PD_C/layout          0        0       0        11     0      0         0      0             0      0     0     0       0       
-PRIMLIB/rpolyhc/layout          0        0       0        126    12     0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        17     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        16     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        27     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        38     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        22     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
-PRIMLIB/cpolyc/layout           0        0       0        336    20     0         4      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        29     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        14     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        14     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-PRIMLIB/cpolyc/layout           0        0       0        384    20     0         4      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-PRIMLIB/cvar/layout             0        0       0        788    456    0         0      0             0      0     0     0       0       
-PRIMLIB/vert10_4/layout         0        0       7        236    0      0         7      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        23     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        47     0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA2_C/layout        0        0       0        27     0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        15     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        32     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        27     0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        11     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
-Potentiostat/8_CA_TIA_Front_calib/layout                        18       0       0        1984   11     75        19     0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
-PRIMLIB/cvar/layout             0        0       0        1044   596    0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        22     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
-PRIMLIB/rpolyhc/layout          0        0       14       150    20     0         4      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        62     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        12     0      0         0      0             0      0     0     0       0       
-PRIMLIB/cvar/layout             0        0       0        472    302    0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        15     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        16     0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        8      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        51     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        56     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        32     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        14     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        5      8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        1002   0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        14     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        30     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        72     0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        15     8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        15     0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        26     15     0         3      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        16     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        14     0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        17     8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        20     0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
 PRIMLIB/rpolyhc/layout          0        0       0        12     4      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        52     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        1002   0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        27     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        56     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        102    0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        13     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        103    0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        26     15     0         3      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P2_C_min/layout      0        0       0        3      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        183    0      0         0      0             0      0     0     0       0       
-Potentiostat/8_Poten_PTAT/layout                                2        0       0        47     0      7         25     0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-PRIMLIB/rpolyhc/layout          0        0       4        14     4      0         0      0             0      0     0     0       0       
-TECH_C35B4/PD_C/layout          0        0       0        503    0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        17     8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        226    0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        158    33     0         6      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        53     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        9      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        26     15     0         3      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        5      8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        23     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        29     8      0         2      0             0      0     0     0       0       
-PRIMLIB/cvar/layout             0        0       0        748    444    0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
-PRIMLIB/cpolyc/layout           0        0       0        430    20     0         4      0             0      0     0     0       0       
-Potentiostat/Inverter/layout    2        0       2        5      1      2         4      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        302    0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
-PRIMLIB/rpolyhc/layout          0        0       0        58     4      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        8      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        5      8      0         2      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        50     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        7      8      0         2      0             0      0     0     0       0       
-Potentiostat/7_MUX21/layout     5        0       0        276    7      18        7      0             0      0     0     0       0       
-TECH_C35B4/PD_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        62     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-PRIMLIB/pmos4/layout            0        0       0        7      8      0         2      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        3      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        152    0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        9      8      0         2      0             0      0     0     0       0       
 TECH_C35B4/VIA2_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
-PRIMLIB/nmos4/layout            0        0       0        23     15     0         3      0             0      0     0     0       0       
-Potentiostat/7_Calibration_current/layout                       124      0       0        1928   17     387       8      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        22     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+PRIMLIB/rpolyhc/layout          0        0       0        58     4      0         0      0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        377    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        102    0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        47     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        32     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        152    0      0         0      0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        384    20     0         4      0             0      0     0     0       0       
 TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        9      8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        62     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        26     15     0         3      0             0      0     0     0       0       
+PRIMLIB/rpolyhc/layout          0        0       14       150    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
+Potentiostat_cpoly/8_Poten_PTAT/layout                          2        0       0        49     0      8         25     0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        50     0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        143    62     0         11     0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        430    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        282    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+PRIMLIB/rpolyhc/layout          0        0       0        126    12     0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        22     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        52     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        103    0      0         0      0             0      0     0     0       0       
+TECH_C35B4/PD_C/layout          0        0       0        503    0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        11     8      0         2      0             0      0     0     0       0       
+Potentiostat_cpoly/7_MUX21/layout                               5        0       0        276    7      18        7      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        56     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        32     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        13     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        27     0      0         0      0             0      0     0     0       0       
+Potentiostat_cpoly/8_CA_TIA_Front_calib/layout                  21       0       1        2705   25     81        19     0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        8      0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA2_C/layout        0        0       0        32     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/P1_C/layout          0        0       0        14     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        51     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        52     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        27     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
 PRIMLIB/nmos4/layout            0        0       0        5      8      0         2      0             0      0     0     0       0       
-TECH_C35B4/PD_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        77     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA2_C/layout        0        0       0        30     0      0         0      0             0      0     0     0       0       
-Potentiostat/7_PTAT_Layout/layout                               324      0       0        7537   52     1343      8      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        14     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/ND_C/layout          0        0       0        11     0      0         0      0             0      0     0     0       0       
-PRIMLIB/rpolyhc/layout          0        0       0        58     4      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA1_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
-TECH_C35B4/VIA1_C/layout        0        0       0        32     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
+PRIMLIB/rpolyhc/layout          0        0       0        60     4      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        44     15     0         3      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P2_C_min/layout      0        0       0        3      0      0         0      0             0      0     0     0       0       
+Potentiostat_cpoly/7_PTAT_Layout/layout                         326      0       0        7672   56     1353      8      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        335    0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        27     8      0         2      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        183    0      0         0      0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        336    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        8      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        62     0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        17     0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        29     8      0         2      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        23     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        17     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        302    0      0         0      0             0      0     0     0       0       
+Potentiostat_cpoly/6_TIA_Front_Layout/layout                    137      0       1        3223   31     711       7      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        5      8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        23     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        52     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        22     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        13     0      0         0      0             0      0     0     0       0       
+PRIMLIB/cvar/layout             0        0       0        1468   836    0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+PRIMLIB/vert10_4/layout         0        0       7        236    0      0         7      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+PRIMLIB/rpolyhc/layout          0        0       4        14     4      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        7      8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        51     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        53     0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        15     8      0         2      0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        406    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        51     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        29     8      0         2      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        158    33     0         6      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        14     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        15     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        22     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        52     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+PRIMLIB/rpolyhc/layout          0        0       0        14     4      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        16     27     0         5      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        19     15     0         3      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        23     15     0         3      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/PD_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
+PRIMLIB/cvar/layout             0        0       0        788    456    0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        44     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        12     0      0         0      0             0      0     0     0       0       
+Potentiostat_cpoly/6_CA_Front_Layout/layout                     137      0       0        2725   23     731       6      0             0      0     0     0       0       
+TECH_C35B4/PD_C/layout          0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        226    0      0         0      0             0      0     0     0       0       
+Potentiostat_cpoly/Inverter/layout                              2        0       2        5      1      2         4      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        27     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        14     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        9      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        322    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
+Potentiostat_cpoly/7_Calibration_current/layout                 124      0       0        1928   17     387       8      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        32     0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        29     8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        77     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        626    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/PD_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        50     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        12     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        16     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        16     0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        15     8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        27     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        282    0      0         0      0             0      0     0     0       0       
+Potentiostat_cpoly/6_Resnet/layout                              28       0       0        1878   10     155       8      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        17     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        8      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        52     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        122    0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        8      0      0         0      0             0      0     0     0       0       
+PRIMLIB/nmos4/layout            0        0       0        27     8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        13     0      0         0      0             0      0     0     0       0       
+PRIMLIB/cvar/layout             0        0       0        1044   596    0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        7      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        13     0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        7      8      0         2      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA2_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        3      0      0         0      0             0      0     0     0       0       
+PRIMLIB/rpolyhc/layout          0        0       0        58     4      0         0      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        22     0      0         0      0             0      0     0     0       0       
+PRIMLIB/pmos4/layout            0        0       0        73     27     0         5      0             0      0     0     0       0       
+TECH_C35B4/VIA1_C/layout        0        0       0        56     0      0         0      0             0      0     0     0       0       
+PRIMLIB/cpolyc/layout           0        0       0        467    20     0         4      0             0      0     0     0       0       
+TECH_C35B4/P1_C/layout          0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_C35B4/ND_C/layout          0        0       0        5      0      0         0      0             0      0     0     0       0       
 TECH_C35B4/VIA1_C/layout        0        0       0        16     0      0         0      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -263,247 +270,254 @@ TECH_C35B4/VIA1_C/layout        0        0       0        16     0      0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
 ---------------------------------------------------------------------------------------------------------------------------------------
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
-Potentiostat/6_Resnet/layout    0        0          0          0          0          0     0        0         61        0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-Potentiostat/6_CA_Front_Layout/layout                           0        0          0          0          0          0     0        0         764       0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/cvar/layout             0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/8_Poten_PTAT/layout                          0        0          0          0          0          0     0        0         6         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
-Potentiostat/6_TIA_Front_Layout/layout                          0        0          0          0          0          0     0        0         750       0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/PD_C/layout          0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/cvar/layout             0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/vert10_4/layout         0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-Potentiostat/8_CA_TIA_Front_calib/layout                        0        0          0          0          0          0     0        0         78        0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/cvar/layout             0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/7_MUX21/layout                               0        0          0          0          0          0     0        0         23        0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/cvar/layout             0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/8_CA_TIA_Front_calib/layout                  0        0          0          0          0          0     0        0         82        0        
 TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/P2_C_min/layout      0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-Potentiostat/8_Poten_PTAT/layout                                0        0          0          0          0          0     0        0         6         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/PD_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/7_PTAT_Layout/layout                         0        0          0          0          0          0     0        0         1213      0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/6_TIA_Front_Layout/layout                    0        0          0          0          0          0     0        0         749       0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/cvar/layout             0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/vert10_4/layout         0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
-Potentiostat/Inverter/layout    0        0          0          0          0          0     0        0         6         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
-Potentiostat/7_MUX21/layout     0        0          0          0          0          0     0        0         23        0        
-TECH_C35B4/PD_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-Potentiostat/7_Calibration_current/layout                       0        0          0          0          0          0     0        0         414       0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/PD_C/layout          0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
-Potentiostat/7_PTAT_Layout/layout                               0        0          0          0          0          0     0        0         1211      0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/PD_C/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cvar/layout             0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/6_CA_Front_Layout/layout                     0        0          0          0          0          0     0        0         764       0        
+TECH_C35B4/PD_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/Inverter/layout                              0        0          0          0          0          0     0        0         6         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/7_Calibration_current/layout                 0        0          0          0          0          0     0        0         414       0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/PD_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+Potentiostat_cpoly/6_Resnet/layout                              0        0          0          0          0          0     0        0         61        0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/nmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cvar/layout             0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
 PRIMLIB/rpolyhc/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/pmos4/layout            0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
-TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+PRIMLIB/cpolyc/layout           0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_C35B4/ND_C/layout          0        0          0          0          0          0     0        0         0         0        
 TECH_C35B4/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
 ---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -512,33 +526,33 @@ TECH_C35B4/VIA1_C/layout        0        0          0          0          0     
 Cadence         Cadence         Stream  Stream   
 Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
 ---------------------------------------------------------------------------------------------------------------------------------------
-MET1            drawing         35      0         5        831      1597     0        0             0    0   0   0     0      2266   
-PPLUS           drawing         24      0         1        156      25       0        0             0    0   0   0     0      0      
+MET1            drawing         35      0         7        762      1227     0        0             0    0   0   0     0      2277   
+PPLUS           drawing         24      0         1        156      27       0        0             0    0   0   0     0      0      
 PIN             metal1          61      2         0        0        0        20       0             0    0   0   0     0      0      
-MET2            drawing         37      0         0        312      828      0        0             0    0   0   0     0      453    
+MET2            drawing         37      0         0        317      601      0        0             0    0   0   0     0      453    
 HRES            drawing         29      0         0        8        0        0        0             0    0   0   0     0      0      
 PIN             metal3          61      4         0        0        0        45       0             0    0   0   0     0      0      
-text            drawing         61      0         0        0        0        105      0             0    0   0   0     0      0      
-POLY1           drawing         20      0         0        372      537      0        0             0    0   0   0     0      507    
-NPLUS           drawing         23      0         1        84       40       0        0             0    0   0   0     0      0      
-CONT            drawing         34      0         0        25453    0        0        0             0    0   0   0     0      0      
-POLY2           drawing         30      0         9        136      20       0        0             0    0   0   0     0      0      
-RFDEF           drawing         62      26        0        5        0        0        0             0    0   0   0     0      0      
-MET3            drawing         39      0         0        197      0        0        0             0    0   0   0     0      205    
-DIFF            drawing         10      0         2        109      191      0        0             0    0   0   0     0      0      
+text            drawing         61      0         0        0        0        125      0             0    0   0   0     0      0      
+POLY1           drawing         20      0         0        293      429      0        0             0    0   0   0     0      507    
+NPLUS           drawing         23      0         1        78       64       0        0             0    0   0   0     0      0      
+CONT            drawing         34      0         0        27595    0        0        0             0    0   0   0     0      0      
+POLY2           drawing         30      0         9        141      25       0        0             0    0   0   0     0      0      
+RFDEF           drawing         62      26        0        3        0        0        0             0    0   0   0     0      0      
+MET3            drawing         39      0         0        197      0        0        0             0    0   0   0     0      209    
+DIFF            drawing         10      0         2        103      217      0        0             0    0   0   0     0      0      
 PIN             metal2          61      3         0        0        0        27       0             0    0   0   0     0      0      
-NTUB            drawing         5       0         0        88       40       0        0             0    0   0   0     0      0      
-VIA1            drawing         36      0         0        3891     0        0        0             0    0   0   0     0      0      
-VIA2            drawing         38      0         0        1465     0        0        0             0    0   0   0     0      0      
+NTUB            drawing         5       0         0        106      64       0        0             0    0   0   0     0      0      
+VIA1            drawing         36      0         0        3503     0        0        0             0    0   0   0     0      0      
+VIA2            drawing         38      0         0        1475     0        0        0             0    0   0   0     0      0      
 RESDEF          drawing         62      13        9        101      0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
-	Scalar Instances:		778
+	Scalar Instances:		782
 	Array Instances:		0
-	Polygons:			27
-	Paths:				3278
-	Rectangles:			33208
+	Polygons:			29
+	Paths:				2654
+	Rectangles:			34838
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
@@ -550,15 +564,15 @@ Summary of Objects Translated:
 	Area Halos:			0
 	Markers:			0
 	Rows:				0
-	Standard Vias:			3313
+	Standard Vias:			3318
 	Custom Vias:			0
 	CdsGen Vias:			0
-	Pathsegs:			3431
-	Text:				197
+	Pathsegs:			3446
+	Text:				217
 	TextDisplay:		0
-	Cells:				242
+	Cells:				249
 Design Libraries: 
 
+DEFINE Potentiostat_cpoly	/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_cpoly
 DEFINE PRIMLIB	/opt/pdk/ams/410/cds/HK_C35/PRIMLIB
 DEFINE TECH_C35B4	/opt/pdk/ams/410/cds/HK_C35/TECH_C35B4
-DEFINE Potentiostat	/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat

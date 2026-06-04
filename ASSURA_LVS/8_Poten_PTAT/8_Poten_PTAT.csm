@@ -1,13 +1,13 @@
-Schematic                                   | Layout                                   | Status
--------------------------------------------------------------------------------------------------
-6_CA_Front_Layout schematic Potentiostat    | 6_CA_Front_Layout layout Potentiostat    | matched
-7_PTAT_Layout schematic Potentiostat        | 7_PTAT_Layout layout Potentiostat        | matched
-Inverter schematic Potentiostat             | Inverter layout Potentiostat             | matched
-7_Calibration_current schematic Potentiostat| 7_Calibration_current layout Potentiostat| matched
-6_TIA_Front_Layout schematic Potentiostat   | 6_TIA_Front_Layout layout Potentiostat   | matched
-6_Resnet schematic Potentiostat             | 6_Resnet layout Potentiostat             | matched
-7_MUX21 schematic Potentiostat              | 7_MUX21 layout Potentiostat              | matched
-8_CA_TIA_Front_calib schematic Potentiostat | 8_CA_TIA_Front_calib layout Potentiostat | matched
-8_Poten_PTAT schematic Potentiostat         | 8_Poten_PTAT layout Potentiostat         | matched
+Schematic                                         | Layout                                         | Status
+-------------------------------------------------------------------------------------------------------------
+Inverter schematic Potentiostat_cpoly             | Inverter layout Potentiostat_cpoly             | matched
+7_Calibration_current schematic Potentiostat_cpoly| 7_Calibration_current layout Potentiostat_cpoly| matched
+7_MUX21 schematic Potentiostat_cpoly              | 7_MUX21 layout Potentiostat_cpoly              | matched
+6_TIA_Front_Layout schematic Potentiostat_cpoly   | 6_TIA_Front_Layout layout Potentiostat_cpoly   | matched
+6_Resnet schematic Potentiostat_cpoly             | 6_Resnet layout Potentiostat_cpoly             | matched
+6_CA_Front_Layout schematic Potentiostat_cpoly    | 6_CA_Front_Layout layout Potentiostat_cpoly    | matched
+8_CA_TIA_Front_calib schematic Potentiostat_cpoly | 8_CA_TIA_Front_calib layout Potentiostat_cpoly | matched
+7_PTAT_Layout schematic Potentiostat_cpoly        | 7_PTAT_Layout layout Potentiostat_cpoly        | matched
+8_Poten_PTAT schematic Potentiostat_cpoly         | 8_Poten_PTAT layout Potentiostat_cpoly         | matched
 
 Schematic and Layout Match

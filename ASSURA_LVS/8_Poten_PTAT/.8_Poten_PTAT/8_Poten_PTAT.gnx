@@ -69,15 +69,15 @@ PNPVERT10(BJT): PNPVERT10(BJT)
 = C C B
 = B B B
 = E E B
-# 165
+# 169
 7_PTAT_Layout schematic Potentiostat: 7_PTAT_Layout layout Potentiostat
 = V_ptat avC15
 = Vo1 avC12
-= Ib2 avC66
+= Ib2 avC621
 = net7 Vin-
+= D1 avC6
 = D2 avC14
 = Vs avC11
-= D1 avC6
 = Vm1 avC7
 = Vm2 avC17
 = net4 avC18
@@ -86,28 +86,32 @@ PNPVERT10(BJT): PNPVERT10(BJT)
 = Y avC9
 = Vi avC16
 = S1 avC13
-= net18 avC72
-= net15 avC61
-= net14 avC71
-= net16 avC68
-= net3 avC73
-= U avC69
-= net13 avC67
-= net12 avC62
-= net17 avC70
-= net2 avC63
-= net10 avC64
-= net8 avC75
-= net11 avC78
-= net9 avC77
-= net5 avC74
-= net6 avC76
+= net18 avC627
+= net15 avC616
+= net14 avC626
+= net16 avC623
+= net3 avC628
+= U avC624
+= net13 avC622
+= net12 avC617
+= net17 avC625
+= net2 avC618
+= net10 avC619
+= net8 avC630
+= net11 avC633
+= net9 avC632
+= net5 avC629
+= net6 avC631
 = GNDA avT1611_1 I
 = Ibias Ibias B
 = VDDA VDDA I
 = V_ptat_inv V_ptat_inv B
 = vref vref B
 = GNDA GNDA
+= GNDA avT3238_5
+= GNDA avT3238_4
+= GNDA avT3238_3
+= GNDA avT3238_2
 = GNDA avT3238_1
 = GNDA avT3183_9
 = GNDA avT3183_81
@@ -364,17 +368,17 @@ Inverter schematic Potentiostat: Inverter layout Potentiostat
 = net3 avC14
 = net1 avC48
 = net12 avC15
-= net21 avC49
+= net21 avC58
 = net2 avC54
-= net22 avC59
-= net6 avC58
-= net23 avC52
-= net7 avC51
-= net8 avC57
-= net20 avC55
-= net9 avC56
-= net10 avC53
-= net4 avC50
+= net22 avC50
+= net6 avC56
+= net23 avC53
+= net7 avC52
+= net8 avC55
+= net20 avC59
+= net9 avC49
+= net10 avC57
+= net4 avC51
 = net5 avC13
 = GNDA avT1611_1 I
 = In In B
@@ -407,10 +411,10 @@ Inverter schematic Potentiostat: Inverter layout Potentiostat
 = GNDA avT1611_4
 = GNDA avT1611_3
 = GNDA avT1611_2
-# 137
+# 138
 8_CA_TIA_Front_calib schematic Potentiostat: 8_CA_TIA_Front_calib layout Potentiostat
-= net1 avC21
-= net2 avC22
+= net1 avC26
+= net2 avC27
 = GNDA avT1611_1 I
 = CE CE B
 = Calib_EN Calib_EN B
@@ -431,6 +435,7 @@ Inverter schematic Potentiostat: Inverter layout Potentiostat
 = WE WE B
 = v1500 v1500 B
 = GNDA GNDA
+= GNDA avT3238_4
 = GNDA avT3238_3
 = GNDA avT3238_2
 = GNDA avT3238_1

@@ -72,14 +72,13 @@ if( isFile("LVSinclude_local.rsf") then
 ;----------------------------------------------------------------------------
 
 avParameters(
-  ?inputLayout ( "df2" "Potentiostat" )
+  ?inputLayout ( "df2" "Potentiostat_Cpoly_replaced" )
   ?cellName "6_Resnet"
   ?viewName "layout"
   ?workingDirectory "ASSURA_LVS/6_Resnet"
   ?technology "c35b4c3"
   ?techLib "./assura_tech.lib"
   ?techRuleSet "Full"
-  ?set ("resimulate_extracted")
   ?avrpt t
   ?overwrite t
 )

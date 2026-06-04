@@ -1,5 +1,5 @@
-2026/06/02 15:19:56 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:19:56 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:58 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:58 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
             Assura (R) Physical Verification Version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25
             Release 4.1_USR6_EHF13
@@ -8,18 +8,18 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/assura on Tue Jun  2 15:19:56 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/assura on Wed Jun  3 09:55:58 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/aveng /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:19:57 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:19:57 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:59 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:59 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Tue Jun  2 15:19:57 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Wed Jun  3 09:55:59 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -59,7 +59,7 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
  Summary Report: 7_PTAT_Layout.sum
  RSF           : /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf
- Library Name  : Potentiostat
+ Library Name  : Potentiostat_cpoly
  CDSLIB Path   : "/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib"
  Cell Name     : 7_PTAT_Layout
  View Name     : layout
@@ -70,15 +70,15 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 
 
 Starting dfIIToVdb...
-2026/06/02 15:19:57 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:19:57 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-2026/06/02 15:19:57 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:19:57 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:59 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:59 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:59 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:59 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Tue Jun  2 15:19:58 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Wed Jun  3 09:56:00 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -121,8 +121,8 @@ Compiling rules...
 
 WARNING LVS Run detected.
 Non-legacy mode has been disabled for this LVS run
-2026/06/02 15:19:59 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:19:59 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 *WARNING* Failed to obtain license for Assura_LVS
 No Assura license available.
@@ -141,23 +141,23 @@ Reading the design data...
 Finished dfIIToVdb.
 
 Building the VDB part 2 in background mode.
-2026/06/02 15:19:59 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:19:59 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Building tables for LVS Preprocessing in background mode.
 
 
 Starting /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/vdbToCells /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout 7_PTAT_Layout
-2026/06/02 15:20:00 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:00 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:02 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:02 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/vdbToCells
 
 Starting Nvn PreExtraction...
 
 Starting /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/nvn /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf -preExtract -exec1 -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:20:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:03 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:03 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_DRC_XL
@@ -165,18 +165,18 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Tue Jun  2 15:20:01 2026
+run on il2244vt26_hrahimi at Wed Jun  3 09:56:03 2026
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
  running dfIIToVldb -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.vlr /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf
-2026/06/02 15:20:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:03 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:03 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Tue Jun  2 15:20:02 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Wed Jun  3 09:56:04 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -195,17 +195,17 @@ function namePrefix redefined
 function termMapping redefined
 function termOrder redefined
 function instParams redefined
-Top Cell Library: "Potentiostat"
+Top Cell Library: "Potentiostat_cpoly"
 Top Cell Name: "7_PTAT_Layout"
 Top Cell View: "schematic"
 Output Data Base Name: "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.sdb"
 Simulator Name: "auCdl"
-Failed to obtain license for "Assura_LVS". 
-Checking out license for Phys_Ver_Sys_LVS_XL
 ERROR (LMF-02005): License call failed for feature Assura_LVS, version 4.100 and quantity 1. The license server search path is defined as 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se. The FLEXnet error message is as follows,
     FLEXnet ERROR(-5, 0, 0): No such feature exists.
 
 Run 'lic_error LMF-02005' for more information.
+Failed to obtain license for "Assura_LVS". 
+Checking out license for Phys_Ver_Sys_LVS_XL
 Failed to obtain license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_LVS_XL
 Failed to obtain license for Phys_Ver_Sys_LVS_XL
@@ -218,111 +218,112 @@ View List: "auCdl schematic cmos_sch symbol"
 Stop List: "auCdl"
 Net Listing Mode is Analog
 *WARNING* Device information not found for cell pcapacitor in library PRIMLIB.
-*WARNING* Connection error: The instTerm. REF, on instance R1 in cell 6_CA_Front_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R15 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R14 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R18 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R17 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R16 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R10 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R31 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R30 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R29 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R25 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R24 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R23 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R22 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R21 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R20 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R9 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R6 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R8 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R26 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R28 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R27 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. REF, on instance R19 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
-*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. REF, on instance R1 in cell 6_CA_Front_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R15 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R14 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R18 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R17 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R16 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R10 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R31 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R32 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R30 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R29 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R25 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R24 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R23 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R22 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R21 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R20 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R9 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R6 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R8 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R26 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R28 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R27 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R19 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q2<0:31> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q1<0:47> in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
 writing /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.sdb
-*WARNING* Connection error: The instTerm. SUB, on instance Q0 in cell 7_PTAT_Layout schematic Potentiostat does not have a corresponding terminal in the master, PNPVERT10.
+*WARNING* Connection error: The instTerm. SUB, on instance Q0 in cell 7_PTAT_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, PNPVERT10.
  inputting /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.sdb
 Reading layout network
  inputting network ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.ldb
@@ -354,15 +355,15 @@ Finished /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/nvn
 Executing: substrate_all = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2026/06/02 15:20:02 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:02 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:04 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:04 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.14  elap: 6  pf: 1  in: 0  out: 128  virt: 103M  phys: 567M
+cpu: 0.11  elap: 6  pf: 1  in: 0  out: 128  virt: 103M  phys: 564M
 
-Running the Task Processor, 19 cells, 5094 steps...
+Running the Task Processor, 19 cells, 4533 steps...
 
-Top Cell is '7_PTAT_Layout layout Potentiostat'
+Top Cell is '7_PTAT_Layout layout Potentiostat_cpoly'
 
 Executing: bkgnd = geomBkgnd()
 
@@ -461,8 +462,6 @@ Executing: zero_tc = geomGetTexted(HRES HRES_text "RPOLYZ")
 Executing: presz_1 = geomAnd(poly2_cut zero_tc)
 
 Executing: presz = geomAnd(geomAndNot(presz_1 PPLUS) RESDEF)
-
-Executing: preszterm = geomAnd(presz_1 PPLUS)
 
 Executing: hres = geomAndNot(HRES zero_tc)
 
@@ -847,22 +846,6 @@ Executing: net_pdiffcon = geomAndNot(geomAnd(pdiff_1 CONT) net_poly1con)
 Executing: te_pro_pad = drc(PAD (area < 2401))
 
 Executing: net_bondpad = geomAndNot(PAD te_pro_pad)
-
-Executing: pres_w = geomGetEdge(pres butting RESTRM)
-
-Executing: pres_wexp = geomSize(pres_w 0.1)
-
-Executing: presp_w = geomGetEdge(presp butting RESTRM)
-
-Executing: presp_wexp = geomSize(presp_w 0.1)
-
-Executing: presph_w = geomGetEdge(presph butting RESTRM)
-
-Executing: presph_wexp = geomSize(presph_w 0.1)
-
-Executing: presz_w = geomGetEdge(presz butting preszterm)
-
-Executing: presz_wexp = geomSize(presz_w 0.1)
 
 Executing: met1_withslots = geomAndNot(MET1 M1HOLE)
 
@@ -1466,74 +1449,6 @@ Executing: tsv_term_top = geomAnd(METTSV VIATSV)
 
 Executing: tsv_dev = geomAnd(tsv_term_bot tsv_term_top)
 
-Executing: rblock = geomCat(RFDEF)
-
-Executing: rblock_poly1_1 = geomCat(rblock)
-
-Executing: outside_rblock_poly1 = geomAndNot(geomSize(rblock_poly1_1 (0.35 + 0.01)) rblo...
-
-Executing: poly1_outside_rblock = geomAnd(net_poly1 outside_rblock_poly1)
-
-Executing: inside_rblock_poly1 = geomAndNot(rblock_poly1_1 geomSize(rblock_poly1_1 -0.35))
-
-Executing: poly1_inside_rblock = geomAnd(net_poly1 inside_rblock_poly1)
-
-Executing: rblock_poly1_2 = geomButtOrOver(poly1_inside_rblock drc(poly1_outside_rblock ...
-
-Executing: rblock_poly1_3 = geomButtOrOver(net_poly1 waffle_gate)
-
-Executing: rblock_poly1 = geomAnd(geomCat(geomAndNot(rblock_poly1_1 rblock_poly1_2) rblo...
-
-Executing: outside_rblock_poly2 = geomAndNot(geomSize(rblock_poly2_1 (0.65 + 0.01)) rblo...
-
-Executing: poly2_outside_rblock = geomAnd(net_poly2 outside_rblock_poly2)
-
-Executing: inside_rblock_poly2 = geomAndNot(rblock_poly2_1 geomSize(rblock_poly2_1 -0.65))
-
-Executing: poly2_inside_rblock = geomAnd(net_poly2 inside_rblock_poly2)
-
-Executing: rblock_poly2_2 = geomButtOrOver(poly2_inside_rblock drc(poly2_outside_rblock ...
-
-Executing: presx_w = geomCat(pres_w presp_w presph_w presz_w)
-
-Executing: presx_wexp = geomCat(pres_wexp presp_wexp presph_wexp presz_wexp)
-
-Executing: pres_wexp_block = geomOr(geomOr(resdef resdef_2p resdef_2ph) geomButtOrOver(g...
-
-Executing: rblock_poly2 = geomAnd(geomAndNot(geomOr(presh_trm pres_wexp_block rblock_pol...
-
-Executing: outside_rblock_met1 = geomAndNot(geomSize(rblock_met1_1 (0.5 + 0.01)) rblock_...
-
-Executing: met1_outside_rblock = geomAnd(net_met1 outside_rblock_met1)
-
-Executing: inside_rblock_met1 = geomAndNot(rblock_met1_1 geomSize(rblock_met1_1 -0.5))
-
-Executing: met1_inside_rblock = geomAnd(net_met1 inside_rblock_met1)
-
-Executing: rblock_met1_2 = geomButtOrOver(met1_inside_rblock drc(met1_outside_rblock (wi...
-
-Executing: rblock_met1_block = geomButtOrOver(geomAnd(rblock_poly2 net_met1) CONT)
-
-Executing: rblock_met1 = geomAnd(geomAndNot(geomOr(rblock_met1_block rblock_met1_1) rblo...
-
-Executing: rblock_met2_1 = geomOverlap(rblock geomCat(cvar cmim))
-
-Executing: outside_rblock_met2 = geomAndNot(geomSize(rblock_met2_1 (0.6 + 0.01)) rblock_...
-
-Executing: met2_outside_rblock = geomAnd(net_met2 outside_rblock_met2)
-
-Executing: inside_rblock_met2 = geomAndNot(rblock_met2_1 geomSize(rblock_met2_1 -0.6))
-
-Executing: met2_inside_rblock = geomAnd(net_met2 inside_rblock_met2)
-
-Executing: rblock_met2_2 = geomButtOrOver(met2_inside_rblock drc(met2_outside_rblock (wi...
-
-Executing: rblock_met2 = geomAndNot(rblock_met2_1 rblock_met2_2)
-
-Executing: rblock_metcap = geomOverlap(rblock cmim)
-
-Executing: rblock_met4 = geomEmpty()
-
 Executing: cblock_met2cap_met2 = geomSize(cmim 0.9)
 
 Executing: rcxLayer(cblock_met2cap_met2)
@@ -1591,20 +1506,14 @@ Executing: geomConnect((label POLY1_pintext net_poly1 POLY1_pinshape) (label MET
  See the label report in "7_PTAT_Layout.erc" file for details.
 
 
-Executing: geomStamp(net_psub net_subtap)
-
-Executing: geomStamp(net_nwell net_welltap)
-
-Executing: (saveInterconnect (net_ndiff "ndiff") (net_ndiffcon "CONT") (net_pdiff "pdiff...
-
 Executing: extractMOS("NMOS4" NMOS_device (net_poly1 "G") (net_nsd "S" "D") (net_psub "B...
          1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN3328029'.
          4 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN30'.
-         1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129'.
          1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="20u" in1=MN1128129'.
          1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="10u" in1=MN628129'.
-        13 'NMOS4' created in cell '6_CA_Front_Layout layout Potentiostat'.
-         3 'NMOS4' created in cell '7_PTAT_Layout layout Potentiostat'.
+         1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129'.
+        13 'NMOS4' created in cell '6_CA_Front_Layout layout Potentiostat_cpoly'.
+         3 'NMOS4' created in cell '7_PTAT_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(NMOS_device "device")
 
@@ -1630,10 +1539,6 @@ Executing: nameParameter(weff "w")
 
 Executing: nameParameter(weff "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOS_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOS_device shared)
-
 Executing: NMOS_WAFFLE_bulk = geomCat(NMOS_WAFFLE_device)
 
 Executing: geomStamp(NMOS_WAFFLE_bulk net_psub)
@@ -1651,14 +1556,6 @@ Executing: nameParameter(l "l")
 Executing: nameParameter(w "w")
 
 Executing: nameParameter(w "wtot")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOS_WAFFLE_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOS_WAFFLE_device shared)
-
-Executing: saveProperty(NMOS_WAFFLE_device "nrs" 0.5)
-
-Executing: saveProperty(NMOS_WAFFLE_device "nrd" 0.5)
 
 Executing: extractMOS("NMOSM4" NMOSM_device (net_poly1 "G") (net_nsd "S" "D") (net_psub ...
 
@@ -1686,10 +1583,6 @@ Executing: nameParameter(weff "w")
 
 Executing: nameParameter(weff "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSM_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSM_device shared)
-
 Executing: NMOSM_WAFFLE_bulk = geomCat(NMOSM_WAFFLE_device)
 
 Executing: geomStamp(NMOSM_WAFFLE_bulk net_psub)
@@ -1708,20 +1601,12 @@ Executing: nameParameter(w "w")
 
 Executing: nameParameter(w "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSM_WAFFLE_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSM_WAFFLE_device shared)
-
-Executing: saveProperty(NMOSM_WAFFLE_device "nrs" 0.5)
-
-Executing: saveProperty(NMOSM_WAFFLE_device "nrd" 0.5)
-
 Executing: extractMOS("PMOS4" PMOS_device (net_poly1 "G") (net_psd "S" "D") (net_nwell "...
          1 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP928129'.
          1 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="4u" in1=MP3428129'.
-         1 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="350n" in1=MP628129'.
          1 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="2u" in1=MP1281029'.
-        96 'PMOS4' created in cell '6_CA_Front_Layout layout Potentiostat'.
+         1 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="350n" in1=MP628129'.
+        96 'PMOS4' created in cell '6_CA_Front_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(PMOS_device "device")
 
@@ -1747,10 +1632,6 @@ Executing: nameParameter(weff "w")
 
 Executing: nameParameter(weff "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOS_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOS_device shared)
-
 Executing: PMOS_WAFFLE_bulk = geomCat(PMOS_WAFFLE_device)
 
 Executing: geomStamp(PMOS_WAFFLE_bulk net_nwell)
@@ -1768,14 +1649,6 @@ Executing: nameParameter(l "l")
 Executing: nameParameter(w "w")
 
 Executing: nameParameter(w "wtot")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOS_WAFFLE_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOS_WAFFLE_device shared)
-
-Executing: saveProperty(PMOS_WAFFLE_device "nrs" 0.5)
-
-Executing: saveProperty(PMOS_WAFFLE_device "nrd" 0.5)
 
 Executing: extractMOS("PMOSM4" PMOSM_device (net_poly1 "G") (net_psd "S" "D") (net_nwell...
 
@@ -1803,10 +1676,6 @@ Executing: nameParameter(weff "w")
 
 Executing: nameParameter(weff "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSM_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSM_device shared)
-
 Executing: PMOSM_WAFFLE_bulk = geomCat(PMOSM_WAFFLE_device)
 
 Executing: geomStamp(PMOSM_WAFFLE_bulk net_nwell)
@@ -1824,14 +1693,6 @@ Executing: nameParameter(l "l")
 Executing: nameParameter(w "w")
 
 Executing: nameParameter(w "wtot")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSM_WAFFLE_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSM_WAFFLE_device shared)
-
-Executing: saveProperty(PMOSM_WAFFLE_device "nrs" 0.5)
-
-Executing: saveProperty(PMOSM_WAFFLE_device "nrd" 0.5)
 
 Executing: extractDevice("RCX_DUMMY" NMOSL_device (net_poly1 "PLUS" "MINUS") (cellView "...
 
@@ -1873,18 +1734,6 @@ Executing: saveProperty(NMOSW_4N_device "SUBTYPE" "W_4N")
 
 Executing: saveProperty(NMOSW_4N_device "model" "nmosw_4n")
 
-Executing: attachParameter(as ("as" "S") NMOSW_4N_device)
-
-Executing: attachParameter(ps ("ps" "S") NMOSW_4N_device)
-
-Executing: attachParameter(ad ("ad" "D") NMOSW_4N_device)
-
-Executing: attachParameter(pd ("pd" "D") NMOSW_4N_device)
-
-Executing: saveProperty(NMOSW_4N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSW_4N_device "nrd" 0.0)
-
 Executing: NMOSW_3N_bulk = geomCat(NMOSW_3N_device)
 
 Executing: geomStamp(NMOSW_3N_bulk net_psub)
@@ -1906,14 +1755,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(NMOSW_3N_device "SUBTYPE" "W_3N")
 
 Executing: saveProperty(NMOSW_3N_device "model" "nmosw_3n")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSW_3N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSW_3N_device)
-
-Executing: saveProperty(NMOSW_3N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSW_3N_device "nrd" 0.0)
 
 Executing: NMOSW_2N_bulk = geomCat(NMOSW_2N_device)
 
@@ -1937,14 +1778,6 @@ Executing: saveProperty(NMOSW_2N_device "SUBTYPE" "W_2N")
 
 Executing: saveProperty(NMOSW_2N_device "model" "nmosw_2n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSW_2N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSW_2N_device)
-
-Executing: saveProperty(NMOSW_2N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSW_2N_device "nrd" 0.0)
-
 Executing: NMOSMW_4N_bulk = geomCat(NMOSMW_4N_device)
 
 Executing: geomStamp(NMOSMW_4N_bulk net_psub)
@@ -1966,18 +1799,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(NMOSMW_4N_device "SUBTYPE" "W_4N")
 
 Executing: saveProperty(NMOSMW_4N_device "model" "nmosmw_4n")
-
-Executing: attachParameter(as ("as" "S") NMOSMW_4N_device)
-
-Executing: attachParameter(ps ("ps" "S") NMOSMW_4N_device)
-
-Executing: attachParameter(ad ("ad" "D") NMOSMW_4N_device)
-
-Executing: attachParameter(pd ("pd" "D") NMOSMW_4N_device)
-
-Executing: saveProperty(NMOSMW_4N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSMW_4N_device "nrd" 0.0)
 
 Executing: NMOSMW_3N_bulk = geomCat(NMOSMW_3N_device)
 
@@ -2001,14 +1822,6 @@ Executing: saveProperty(NMOSMW_3N_device "SUBTYPE" "W_3N")
 
 Executing: saveProperty(NMOSMW_3N_device "model" "nmosmw_3n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSMW_3N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSMW_3N_device)
-
-Executing: saveProperty(NMOSMW_3N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSMW_3N_device "nrd" 0.0)
-
 Executing: NMOSMW_2N_bulk = geomCat(NMOSMW_2N_device)
 
 Executing: geomStamp(NMOSMW_2N_bulk net_psub)
@@ -2030,14 +1843,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(NMOSMW_2N_device "SUBTYPE" "W_2N")
 
 Executing: saveProperty(NMOSMW_2N_device "model" "nmosmw_2n")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSMW_2N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSMW_2N_device)
-
-Executing: saveProperty(NMOSMW_2N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSMW_2N_device "nrd" 0.0)
 
 Executing: PMOSW_4N_bulk = geomCat(PMOSW_4N_device)
 
@@ -2061,18 +1866,6 @@ Executing: saveProperty(PMOSW_4N_device "SUBTYPE" "W_4N")
 
 Executing: saveProperty(PMOSW_4N_device "model" "pmosw_4n")
 
-Executing: attachParameter(as ("as" "S") PMOSW_4N_device)
-
-Executing: attachParameter(ps ("ps" "S") PMOSW_4N_device)
-
-Executing: attachParameter(ad ("ad" "D") PMOSW_4N_device)
-
-Executing: attachParameter(pd ("pd" "D") PMOSW_4N_device)
-
-Executing: saveProperty(PMOSW_4N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSW_4N_device "nrd" 0.0)
-
 Executing: PMOSW_3N_bulk = geomCat(PMOSW_3N_device)
 
 Executing: geomStamp(PMOSW_3N_bulk net_nwell)
@@ -2094,14 +1887,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(PMOSW_3N_device "SUBTYPE" "W_3N")
 
 Executing: saveProperty(PMOSW_3N_device "model" "pmosw_3n")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSW_3N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSW_3N_device)
-
-Executing: saveProperty(PMOSW_3N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSW_3N_device "nrd" 0.0)
 
 Executing: PMOSW_2N_bulk = geomCat(PMOSW_2N_device)
 
@@ -2125,14 +1910,6 @@ Executing: saveProperty(PMOSW_2N_device "SUBTYPE" "W_2N")
 
 Executing: saveProperty(PMOSW_2N_device "model" "pmosw_2n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSW_2N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSW_2N_device)
-
-Executing: saveProperty(PMOSW_2N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSW_2N_device "nrd" 0.0)
-
 Executing: PMOSMW_4N_bulk = geomCat(PMOSMW_4N_device)
 
 Executing: geomStamp(PMOSMW_4N_bulk net_nwell)
@@ -2154,18 +1931,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(PMOSMW_4N_device "SUBTYPE" "W_4N")
 
 Executing: saveProperty(PMOSMW_4N_device "model" "pmosmw_4n")
-
-Executing: attachParameter(as ("as" "S") PMOSMW_4N_device)
-
-Executing: attachParameter(ps ("ps" "S") PMOSMW_4N_device)
-
-Executing: attachParameter(ad ("ad" "D") PMOSMW_4N_device)
-
-Executing: attachParameter(pd ("pd" "D") PMOSMW_4N_device)
-
-Executing: saveProperty(PMOSMW_4N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSMW_4N_device "nrd" 0.0)
 
 Executing: PMOSMW_3N_bulk = geomCat(PMOSMW_3N_device)
 
@@ -2189,14 +1954,6 @@ Executing: saveProperty(PMOSMW_3N_device "SUBTYPE" "W_3N")
 
 Executing: saveProperty(PMOSMW_3N_device "model" "pmosmw_3n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSMW_3N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSMW_3N_device)
-
-Executing: saveProperty(PMOSMW_3N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSMW_3N_device "nrd" 0.0)
-
 Executing: PMOSMW_2N_bulk = geomCat(PMOSMW_2N_device)
 
 Executing: geomStamp(PMOSMW_2N_bulk net_nwell)
@@ -2219,14 +1976,6 @@ Executing: saveProperty(PMOSMW_2N_device "SUBTYPE" "W_2N")
 
 Executing: saveProperty(PMOSMW_2N_device "model" "pmosmw_2n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSMW_2N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSMW_2N_device)
-
-Executing: saveProperty(PMOSMW_2N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSMW_2N_device "nrd" 0.0)
-
 Executing: nmosh_dummy = geomAnd(NMOSH_device net_nwell)
 
 Executing: extractDevice("NMOSH" NMOSH_device (net_poly1 "G") (net_nsd "S") (nmosh_d_ter...
@@ -2237,18 +1986,6 @@ Executing: attachParameter(l1 "l" NMOSH_device)
 
 Executing: attachParameter(w1 "w" NMOSH_device)
 
-Executing: attachParameter(as ("as" "S") NMOSH_device shared)
-
-Executing: attachParameter(ps ("ps" "S") NMOSH_device shared)
-
-Executing: attachParameter(nrs "nrs" NMOSH_device)
-
-Executing: saveProperty(NMOSH_device "nrd" 0.0)
-
-Executing: saveProperty(NMOSH_device "ad" 0.0)
-
-Executing: saveProperty(NMOSH_device "pd" 0.0)
-
 Executing: nmosmh_dummy = geomAnd(NMOSMH_device net_nwell)
 
 Executing: extractDevice("NMOSMH" NMOSMH_device (net_poly1 "G") (net_nsd "S") (nmosh_d_t...
@@ -2258,18 +1995,6 @@ Executing: saveRecognition(NMOSMH_device "device")
 Executing: attachParameter(l1 "l" NMOSMH_device)
 
 Executing: attachParameter(w1 "w" NMOSMH_device)
-
-Executing: attachParameter(as ("as" "S") NMOSMH_device shared)
-
-Executing: attachParameter(ps ("ps" "S") NMOSMH_device shared)
-
-Executing: attachParameter(nrs "nrs" NMOSMH_device)
-
-Executing: saveProperty(NMOSMH_device "nrd" 0.0)
-
-Executing: saveProperty(NMOSMH_device "ad" 0.0)
-
-Executing: saveProperty(NMOSMH_device "pd" 0.0)
 
 Executing: extractDevice("RCX_DUMMY" NMOSHL_device (net_poly1 "PLUS" "MINUS") (cellView ...
 
@@ -2301,14 +2026,6 @@ Executing: attachParameter(w "wtot" NMOS30M_device)
 
 Executing: attachParameter(wg "wg" NMOS30M_device)
 
-Executing: attachParameter(as ("as" "S") NMOS30M_device shared)
-
-Executing: attachParameter(ps ("ps" "S") NMOS30M_device shared)
-
-Executing: attachParameter(nrs "nrs" NMOS30M_device)
-
-Executing: saveProperty(NMOS30M_device "nrd" 0.0)
-
 Executing: extractDevice("NMOS18T" NMOS18T_device (net_poly1 "G") (net_ndiff_source "S")...
 
 Executing: saveRecognition(NMOS18T_device "device")
@@ -2320,14 +2037,6 @@ Executing: attachParameter(w "w" NMOS18T_device)
 Executing: attachParameter(w "wtot" NMOS18T_device)
 
 Executing: attachParameter(wg "wg" NMOS18T_device)
-
-Executing: attachParameter(as ("as" "S") NMOS18T_device shared)
-
-Executing: attachParameter(ps ("ps" "S") NMOS18T_device shared)
-
-Executing: attachParameter(nrs "nrs" NMOS18T_device)
-
-Executing: saveProperty(NMOS18T_device "nrd" 0.0)
 
 Executing: extractDevice("RCX_DUMMY" PMOSD30M_device (net_poly1 "PLUS" "MINUS") (cellVie...
 
@@ -2351,23 +2060,7 @@ Executing: nameParameter(perimeter "pj")
 
 Executing: P_ND_device = geomAndNot(geomAndNot(geomAndNot(ndiode_1 DIODE) nmosh_d) HVDEF)
 
-Executing: extractDIODE("P_ND" P_ND_device (net_psub "PLUS") (net_nsd "MINUS") (targetLa...
-
-Executing: saveRecognition(P_ND_device "device")
-
-Executing: ad = measureParameter(area (P_ND_device) 1e-12)
-
-Executing: pd1 = measureParameter(length (P_ND_device coincident DIFF) 1e-06)
-
-Executing: pd = calculateParameter(((ad - ad) + pd1))
-
-Executing: nameParameter(ad "ad")
-
-Executing: nameParameter(pd "pd")
-
-Executing: nameParameter(ad "area")
-
-Executing: nameParameter(pd "pj")
+Executing: extractDevice("RCX_DUMMY" P_ND_device (net_nsd "PLUS" "MINUS") (cellView "pca...
 
 Executing: extractDIODE("PD" PD_device (net_psd "PLUS") (net_nwell "MINUS") (targetLayer...
 
@@ -2385,23 +2078,7 @@ Executing: nameParameter(perimeter "perimeter")
 
 Executing: nameParameter(perimeter "pj")
 
-Executing: extractDIODE("P_PD" P_PD_device (net_psd "PLUS") (net_nwell "MINUS") (targetL...
-
-Executing: saveRecognition(P_PD_device "device")
-
-Executing: ad = measureParameter(area (P_PD_device) 1e-12)
-
-Executing: pd1 = measureParameter(length (P_PD_device coincident DIFF) 1e-06)
-
-Executing: pd = calculateParameter(((ad - ad) + pd1))
-
-Executing: nameParameter(ad "ad")
-
-Executing: nameParameter(pd "pd")
-
-Executing: nameParameter(ad "area")
-
-Executing: nameParameter(pd "pj")
+Executing: extractDevice("RCX_DUMMY" P_PD_device (net_psd "PLUS" "MINUS") (cellView "pca...
 
 Executing: extractDIODE("NWD" NWD_device (net_psub "PLUS") (net_nwell "MINUS") (targetLa...
 
@@ -2419,23 +2096,7 @@ Executing: nameParameter(perimeter "perimeter")
 
 Executing: nameParameter(perimeter "pj")
 
-Executing: extractDIODE("P_NWD" P_NWD_device (net_psub "PLUS") (net_nwell "MINUS") (targ...
-         4 'P_NWD' created in cell '6_CA_Front_Layout layout Potentiostat'.
-        11 'P_NWD' created in cell '7_PTAT_Layout layout Potentiostat'.
-
-Executing: saveRecognition(P_NWD_device "device")
-
-Executing: area = measureParameter(area (P_NWD_device) 1e-12)
-
-Executing: perimeter1 = measureParameter(length (P_NWD_device coincident NTUB) 1e-06)
-
-Executing: perimeter = calculateParameter(((area - area) + perimeter1))
-
-Executing: nameParameter(area "area")
-
-Executing: nameParameter(perimeter "perimeter")
-
-Executing: nameParameter(perimeter "pj")
+Executing: extractDevice("RCX_DUMMY" P_NWD_device (net_nwell "PLUS" "MINUS") (cellView "...
 
 Executing: extractDIODE("ZD2SM24" ZD2SM24_device (net_psd "A") (net_welltap "C") (net_ps...
 
@@ -2790,10 +2451,10 @@ Executing: nameParameter(r "r")
 Executing: saveProperty(RPOLYH_PSUB_device "gwell" "Substrate")
 
 Executing: extractRES("RPOLYH" RPOLYH_NTUB_device (net_poly2 "PLUS" "MINUS") (net_nwell ...
-         1 'RPOLYH' created in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26'.
          1 'RPOLYH' created in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9'.
-         1 'RPOLYH' created in cell '6_CA_Front_Layout layout Potentiostat'.
-         1 'RPOLYH' created in cell '7_PTAT_Layout layout Potentiostat'.
+         1 'RPOLYH' created in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26'.
+         1 'RPOLYH' created in cell '6_CA_Front_Layout layout Potentiostat_cpoly'.
+         2 'RPOLYH' created in cell '7_PTAT_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(RPOLYH_NTUB_device "device")
 
@@ -3071,6 +2732,7 @@ Executing: saveProperty(CPOLY_PSUB_device "gwell" "Substrate")
 Executing: extractCAP("CPOLYA" CPOLY_NTUB_device (net_poly2 "PLUS") (net_poly1 "MINUS") ...
          1 'CPOLYA' created in cell 'cpolyc layout PRIMLIB area="2.31n" c="2p" gwell="N-Well" l="48.4u" perimeter="192.1u" rbottom="Cont" rleft="Cont" rright="Cont" id_=8d84e3685e3786f2 in1=C228229'.
          1 'CPOLYA' created in cell 'cpolyc layout PRIMLIB area="3.47n" c="3p" gwell="N-Well" l="59.25u" perimeter="235.5u" rbottom="Cont" rleft="Cont" id_=d867af616155d7ec in1=C0'.
+         2 'CPOLYA' created in cell '7_PTAT_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(CPOLY_NTUB_device "device")
 
@@ -3109,8 +2771,7 @@ Executing: cvar_ndiff_cross = geomSize(cvar_ndiff_cross1 -0.1 edges)
 Executing: CVAR_device = geomOr(cvar_ndiff_closed)
 
 Executing: extractDevice("CVAR" CVAR_device (net_poly1 "G") (net_welltap "B") (net_psub ...
-         1 'CVAR' created in cell '6_CA_Front_Layout layout Potentiostat'.
-         4 'CVAR' created in cell '7_PTAT_Layout layout Potentiostat'.
+         3 'CVAR' created in cell '7_PTAT_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(CVAR_device "device")
 
@@ -3276,17 +2937,17 @@ Executing: extractDevice("SP090S155D" SP090S155D_device (spiral_term11 "P1") (sp
 
 Executing: saveRecognition(SP090S155D_device "device")
 
-Executing: errorLayer(bkgnd2 "# INFO: Don't use -resimulate_extracted- Switch for standard LVS but only for QRC! #")
+Executing: errorLayer(bkgnd1 "# INFO: Set -resimulate_extracted- Switch for QRC! #")
 
 Executing: errorLayer(bkgnd3 "# C35B4 ENG - 183 Rev9 (Last updated 26-Apr-2017 12:48) #")
 
 Finished running rules. Task processor time in main process:
-cpu: 1.51  elap: 1  pf: 331  in: 0  out: 1200  virt: 162M  phys: 745M
+cpu: 1.37  elap: 1  pf: 291  in: 0  out: 1072  virt: 160M  phys: 734M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 41  in: 0  out: 6520  virt: 162M  phys: 755M
+cpu: 0.01  elap: 0  pf: 37  in: 0  out: 6520  virt: 160M  phys: 743M
 
 
 *****  aveng terminated normally  *****
@@ -3295,8 +2956,8 @@ cpu: 0.01  elap: 0  pf: 41  in: 0  out: 6520  virt: 162M  phys: 755M
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/aveng
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avrpt /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf -exec1
-2026/06/02 15:20:05 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:05 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:07 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:07 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3326,14 +2987,14 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avrpt on Tue Jun  2 15:20:05 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avrpt on Wed Jun  3 09:56:07 2026
 
 
    Creating Error Database '7_PTAT_Layout'...
 
    Reading VDB ...
-2026/06/02 15:20:05 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:05 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:07 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:07 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -3380,7 +3041,7 @@ Rule      Message                                    FlatCount     RealCount
 (   41)  ERROR : MET3 pin outside met3                       0            0
 (   42)  ERROR : MET4 pin outside met4                       0            0
 (   43)  ERROR : PAD pin outside pad metal                   0            0
-(   44)  # INFO: Don't use -resimulate_extracted-          385           52
+(   44)  # INFO: Set -resimulate_extracted- Switc          385           52
 (   45)  # C35B4 ENG - 183 Rev9 (Last updated 26-          385           52
 (   46)  malformed device NMOSH_device                       0            0
 (   47)  malformed device NMOSMH_device                      0            0
@@ -3481,11 +3142,11 @@ Rule      Message                                    FlatCount     RealCount
 (  196)  unstable device for PHDNWB850_device_pad            0            0
 (  198)  unstable device for PHDNWA850_device_ntu            0            0
 (  200)  unstable device for ZD2SM24_device_DIODE            0            0
-(  202)  unstable device for P_NWD_device_DIODE_4            0            0
+(  202)  unstable device for P_NWD_device_Device_            0            0
 (  204)  unstable device for NWD_device_DIODE_42             0            0
-(  206)  unstable device for P_PD_device_DIODE_41            0            0
+(  206)  unstable device for P_PD_device_Device_4            0            0
 (  208)  unstable device for PD_device_DIODE_40              0            0
-(  210)  unstable device for P_ND_device_DIODE_39            0            0
+(  210)  unstable device for P_ND_device_Device_3            0            0
 (  212)  unstable device for ND_device_DIODE_38              0            0
 (  214)  unstable device for PMOS30M_device_Devic            0            0
 (  216)  unstable device for PMOSD30M_device_Devi            0            0
@@ -3534,13 +3195,13 @@ Total  errors:                                             770          104
    Rule 44 done.
    Rule 45 done.
 
-avrpt cpu sec:    0.07  elapsed:     1  virtual:    93M
+avrpt cpu sec:    0.08  elapsed:     0  virtual:    93M
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avrpt
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:20:06 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:06 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:08 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:08 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3571,8 +3232,8 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avnx /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:20:07 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:07 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:09 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:09 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -3612,12 +3273,12 @@ Checking out license for Pegasus_LVS
 @(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avnx on Tue Jun  2 15:20:07 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avnx on Wed Jun  3 09:56:09 2026
 
 avnx started...
-2026/06/02 15:20:08 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:08 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-cpu: 0.14  elap: 1  pf: 0  in: 0  out: 136  virt: 575M  phys: 993M
+2026/06/03 09:56:09 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:09 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+cpu: 0.15  elap: 1  pf: 0  in: 0  out: 128  virt: 574M  phys: 990M
 
 Run time =  1.00 seconds
 CPU time =  0.22 seconds
@@ -3625,15 +3286,15 @@ CPU time =  0.22 seconds
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13704  virt: 502M  phys: 993M
+cpu: 0.02  elap: 0  pf: 0  in: 0  out: 13680  virt: 501M  phys: 991M
 ***** avnx terminated normally ***** 
 
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avnx
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/nvn /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf -postExtract -exec1 -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:20:08 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:08 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:10 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:10 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_DRC_XL
@@ -3641,7 +3302,7 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Tue Jun  2 15:20:09 2026
+run on il2244vt26_hrahimi at Wed Jun  3 09:56:10 2026
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
@@ -3679,28 +3340,28 @@ Preprocessing layout network phase 1
 *WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
-Comparing 6_CA_Front_Layout schematic Potentiostat vs 6_CA_Front_Layout layout Potentiostat
-Top cell  7_PTAT_Layout schematic Potentiostat vs 7_PTAT_Layout layout Potentiostat
+Comparing 6_CA_Front_Layout schematic Potentiostat_cpoly vs 6_CA_Front_Layout layout Potentiostat_cpoly
+Top cell  7_PTAT_Layout schematic Potentiostat_cpoly vs 7_PTAT_Layout layout Potentiostat_cpoly
 Schematic and Layout Match
-cpu=0.01m  wall=0.00m  mem=76.23mb
+cpu=0.01m  wall=0.02m  mem=76.21mb
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/nvn
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa 7_PTAT_Layout.snn 7_PTAT_Layout.tre 7_PTAT_Layout.cel
-2026/06/02 15:20:09 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:09 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:11 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:11 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa 7_PTAT_Layout.lnn 7_PTAT_Layout.tre2 7_PTAT_Layout.cel2
-2026/06/02 15:20:10 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:10 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:12 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:12 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/ercChk /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf
-2026/06/02 15:20:11 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:11 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:13 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:13 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -3742,8 +3403,8 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/ercChk
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/7_PTAT_Layout/7_PTAT_Layout.rsf -trp -exec1
-2026/06/02 15:20:12 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:20:12 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:56:14 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:56:14 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3778,7 +3439,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Tue Jun  2 15:20:12 2026
+Run ended: Wed Jun  3 09:56:14 2026
 
 *****  Assura terminated normally  *****
 

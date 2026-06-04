@@ -1,7 +1,7 @@
 
 ***** Begin Label Report *****
 
- Label in cell '7_MUX21 layout Potentiostat':
+ Label in cell '7_MUX21 layout Potentiostat_cpoly':
   info: Assign pin label "EN" at (4.950, 7.600) to layer `net_met3'.
   info: Assign pin label "EN" at (5.050, 7.650) to layer `net_met3'.
   info: Assign pin label "VDDA" at (8.150, 15.600) to layer `net_met2'.
@@ -11,7 +11,7 @@
   info: Assign pin label "GNDA" at (6.850, 8.800) to layer `net_met1'.
   info: Assign net label "Q_Inverter_avC_2" at (8.800, 11.750) to layer `net_met1'.
 
- Label in cell '7_Calibration_current layout Potentiostat':
+ Label in cell '7_Calibration_current layout Potentiostat_cpoly':
   info: Assign pin label "Calib_curr" at (159.600, 62.450) to layer `net_met3'.
   info: Assign pin label "curr" at (10.475, 75.175) to layer `net_met2'.
   info: Assign pin label "VDDA" at (18.250, 189.700) to layer `net_met2'.
@@ -25,7 +25,7 @@
   info: Assign net label "Q_Inverter_avC_5" at (135.250, 71.100) to layer `net_met1'.
   info: Assign net label "Q_Inverter_avC_6" at (151.850, 71.100) to layer `net_met1'.
 
- Label in cell '6_TIA_Front_Layout layout Potentiostat':
+ Label in cell '6_TIA_Front_Layout layout Potentiostat_cpoly':
   info: Assign pin label "Ibias" at (6.850, 39.850) to layer `net_met2'.
   info: Assign pin label "Vin-" at (92.100, 38.200) to layer `net_met2'.
   info: Assign pin label "Vin+" at (92.050, 41.800) to layer `net_met2'.
@@ -34,7 +34,7 @@
   info: Assign pin label "Vout" at (225.550, 56.700) to layer `net_met2'.
   info: Assign pin label "GNDA" at (74.100, 1.850) to layer `net_met1'.
 
- Label in cell '6_CA_Front_Layout layout Potentiostat':
+ Label in cell '6_CA_Front_Layout layout Potentiostat_cpoly':
   info: Assign pin label "Ibias" at (5.150, 35.450) to layer `net_met2'.
   info: Assign pin label "Vout" at (116.950, 51.750) to layer `net_met2'.
   info: Assign pin label "VDDA" at (61.700, 231.450) to layer `net_met2'.
@@ -42,13 +42,13 @@
   info: Assign pin label "GNDA" at (89.500, 1.800) to layer `net_met1'.
   info: Assign pin label "Vin+" at (21.550, 70.450) to layer `net_met1'.
 
- Label in cell 'Inverter layout Potentiostat':
+ Label in cell 'Inverter layout Potentiostat_cpoly':
   info: Assign pin label "VDDA" at (4.100, 7.400) to layer `net_met2'.
   info: Assign pin label "GNDA" at (2.850, 0.550) to layer `net_met1'.
   info: Assign pin label "A" at (1.150, 3.250) to layer `net_met1'.
   info: Assign pin label "Q" at (6.650, 3.550) to layer `net_met1'.
 
- Label in cell '8_CA_TIA_Front_calib layout Potentiostat':
+ Label in cell '8_CA_TIA_Front_calib layout Potentiostat_cpoly':
   info: Assign pin label "EN_100mV" at (206.400, 34.250) to layer `net_met3'.
   info: Assign pin label "v1500" at (212.125, 34.725) to layer `net_met3'.
   info: Assign pin label "S<0>" at (313.050, 48.275) to layer `net_met3'.

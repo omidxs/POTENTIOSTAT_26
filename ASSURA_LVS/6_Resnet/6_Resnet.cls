@@ -1,5 +1,5 @@
 *******************************************************************************
-****** Inverter schematic Potentiostat  <vs>  Inverter layout Potentiostat
+****** Inverter schematic Potentiostat_Cpoly_replaced  <vs>  Inverter layout Potentiostat
 *******************************************************************************
 
 Filter/Reduce statistics only. Network matching was OK.
@@ -21,7 +21,7 @@ Cell/Device                               schematic  layout   schematic  layout
 Total                                             2       2           2       2
 
 *******************************************************************************
-****** 6_Resnet schematic Potentiostat  <vs>  6_Resnet layout Potentiostat
+****** 6_Resnet schematic Potentiostat_Cpoly_replaced  <vs>  6_Resnet layout Potentiostat_Cpoly_replaced
 *******************************************************************************
 
 Filter/Reduce statistics only. Network matching was OK.
@@ -30,7 +30,7 @@ Pre-expand Statistics
 ======================                          Original       
 Cell/Device                               schematic  layout
 (RPOLYH) RES                                     15       1*
-(Inverter schematic Potentiostat, Inverter) Cell          4       4
+(Inverter schematic Potentiostat_Cpoly_replaced, Inverter) Cell               4       4
 (PMOS4) MOS                                       4       3*
 (NMOS4) MOS                                       4       2*
 (_, nmos4 layout PRIMLIB l="1u" w...) Cell        0       3*

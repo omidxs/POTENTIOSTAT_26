@@ -1,5 +1,5 @@
 *******************************************************************************
-****** 6_CA_Front_Layout schematic Potentiostat  <vs>  6_CA_Front_Layout layout Potentiostat
+****** 6_CA_Front_Layout schematic Potentiostat_cpoly  <vs>  6_CA_Front_Layout layout Potentiostat_cpoly
 *******************************************************************************
 
 Filter/Reduce statistics only. Network matching was OK.
@@ -9,7 +9,6 @@ Pre-expand Statistics
 Cell/Device                               schematic  layout
 (RPOLYH) RES                                      1       1
 (cpolyc schematic PRIMLIB, _) Cell                1       0*
-(CVAR) Generic                                    1       1
 (PMOS4) MOS                                     120      96*
 (NMOS4) MOS                                      15      13*
 (_, nmos4 layout PRIMLIB l="20u" ...) Cell        0       4*
@@ -17,7 +16,7 @@ Cell/Device                               schematic  layout
 (_, pmos4 layout PRIMLIB l="4u" i...) Cell        0      24*
 (CPOLYA) CAP                                      0       1*
                                              ------  ------
-Total                                           138     142
+Total                                           137     141
 
 Reduce Statistics
 =================                               Original             Reduced
@@ -26,8 +25,7 @@ Cell/Device                               schematic  layout   schematic  layout
 (PMOS4) MOS                                     120     120           7       7
 (RPOLYH) RES                                      1       1           1       1
 (CPOLYA) CAP                                      1       1           1       1
-(CVAR) Generic                                    1       1           1       1
                                              ------  ------      ------  ------
-Total                                           138     148          18      18
+Total                                           137     147          17      17
 
 Schematic and Layout Match

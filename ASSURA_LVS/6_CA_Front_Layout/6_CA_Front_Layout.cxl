@@ -6,11 +6,6 @@ C CPOLYA(CAP) CPOLYA(CAP)
 N PLUS PLUS
 N MINUS MINUS
 
-C CVAR(Generic) CVAR(Generic)
-N G G
-N S S
-N B B
-
 C PMOS4(MOS) PMOS4(MOS)
 N D D
 N G G
@@ -23,7 +18,7 @@ N G G
 N S S
 N B B
 
-C "6_CA_Front_Layout schematic Potentiostat" "6_CA_Front_Layout layout Potentiostat"
+C "6_CA_Front_Layout schematic Potentiostat_cpoly" "6_CA_Front_Layout layout Potentiostat_cpoly"
 N net6 avC12
 N C avC11
 N A avC8
@@ -52,7 +47,6 @@ I MP5<0> avD5_36
 I MP1<0> MP1(0)/avD5_1
 I MP0<0> MP0(0)/avD5_1
 I MP32<0> avD5_2
-I C2 avD85_1
 I C0/C0 avD84_1
 I R1 avD66_1
 

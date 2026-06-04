@@ -1,12 +1,12 @@
 CADENCE IHNL111410
 
-Potentiostat Inverter schematic cds0
-Potentiostat 7_MUX21 schematic cds1
-PRIMLIB cpolyc schematic cds2
-Potentiostat 6_CA_Front_Layout schematic cds3
-Potentiostat 6_Resnet schematic cds4
-Potentiostat 6_TIA_Front_Layout schematic cds5
-Potentiostat 7_Calibration_current schematic cds6
-Potentiostat 8_CA_TIA_Front_calib schematic cds7
-Potentiostat 7_PTAT_Layout schematic cds8
-Potentiostat 8_Poten_PTAT schematic cds9
+PRIMLIB cpolyc schematic cds0
+Potentiostat_cpoly 6_CA_Front_Layout schematic cds1
+Potentiostat_cpoly 7_PTAT_Layout schematic cds2
+Potentiostat_cpoly Inverter schematic cds3
+Potentiostat_cpoly 6_Resnet schematic cds4
+Potentiostat_cpoly 6_TIA_Front_Layout schematic cds5
+Potentiostat_cpoly 7_MUX21 schematic cds6
+Potentiostat_cpoly 7_Calibration_current schematic cds7
+Potentiostat_cpoly 8_CA_TIA_Front_calib schematic cds8
+Potentiostat_cpoly 8_Poten_PTAT schematic cds9

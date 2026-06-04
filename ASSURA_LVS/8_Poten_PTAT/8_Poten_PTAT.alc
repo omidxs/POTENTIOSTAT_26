@@ -1,32 +1,31 @@
 !<alc> v1 160
-0   50    0 vert10_4 layout PRIMLIB
-0   44    0 pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP928129
-0   34    0 cpolyc layout PRIMLIB area="2.31n" c="2p" gwell="N-Well" l="48.4u" perimeter="192.1u" rbottom="Cont" rleft="Cont" rright="Cont" id_=8d84e3685e3786f2 in1=C228229
-0   24    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5
-0   22    0 pmos4 layout PRIMLIB l="4u" in1=MP2328329
-0   20    0 pmos4 layout PRIMLIB l="10u" ng="2" w="3u" wtot="6u" in1=MP21
-0   19    0 pmos4 layout PRIMLIB l="1u" ng="4" wtot="40u" in1=MP2
-0   16    0 nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN2228129
-0   15    0 nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN1928129
-0   12    0 nmos4 layout PRIMLIB l="1u" ng="2" wtot="20u" in1=MN1
-0   11    0 nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN20
-0    6    0 cvar layout PRIMLIB col=13 row=4 in1=C0
-0    5    0 cpolyc layout PRIMLIB area="3.47n" c="3p" gwell="N-Well" l="59.25u" perimeter="235.5u" rbottom="Cont" rleft="Cont" id_=d867af616155d7ec in1=C0
+0   53    0 vert10_4 layout PRIMLIB
+0   47    0 pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP928129
+0   35    0 cpolyc layout PRIMLIB area="2.31n" c="2p" gwell="N-Well" l="48.4u" perimeter="192.1u" rbottom="Cont" rleft="Cont" rright="Cont" id_=8d84e3685e3786f2 in1=C228229
+0   26    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5
+0   22    0 pmos4 layout PRIMLIB l="10u" ng="2" w="3u" wtot="6u" in1=MP21
+0   21    0 pmos4 layout PRIMLIB l="1u" ng="4" wtot="40u" in1=MP2
+0   18    0 pmos4 layout PRIMLIB l="4u" in1=MP3428129
+0   14    0 nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN0
+0   13    0 nmos4 layout PRIMLIB l="1u" ng="2" wtot="20u" in1=MN1
+0   11    0 nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN728129
+0    9    0 nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN3328029
+0    6    0 cpolyc layout PRIMLIB area="3.47n" c="3p" gwell="N-Well" l="59.25u" perimeter="235.5u" rbottom="Cont" rleft="Cont" id_=d867af616155d7ec in1=C0
 0    4    0 cpolyc layout PRIMLIB area="2.89n" c="2.5p" gwell="N-Well" l="54.1u" perimeter="214.9u" rbottom="Cont" rleft="Cont" id_=d867af612fc4b764 in1=C528229
-0    3    0 Inverter layout Potentiostat
-0   49    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
-0   46    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26
-0   45    0 pmos4 layout PRIMLIB l="350n" in1=MP628129
-0   43    0 pmos4 layout PRIMLIB l="2u" in1=MP1281029
-0   42    0 nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129
-0   41    0 nmos4 layout PRIMLIB l="10u" in1=MN628129
-0   40    0 nmos4 layout PRIMLIB l="20u" in1=MN1128129
-0   33    0 cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428929
-0   32    0 7_MUX21 layout Potentiostat
-0   31    0 7_Calibration_current layout Potentiostat
-0   30    0 6_TIA_Front_Layout layout Potentiostat
-0   29    0 6_Resnet layout Potentiostat
-0   28    0 6_CA_Front_Layout layout Potentiostat
-0   52    0 8_CA_TIA_Front_calib layout Potentiostat
-0   51    0 7_PTAT_Layout layout Potentiostat
-0   53    0 8_Poten_PTAT layout Potentiostat
+0    3    0 Inverter layout Potentiostat_cpoly
+0   52    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26
+0   51    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
+0   49    0 pmos4 layout PRIMLIB l="2u" in1=MP1281029
+0   48    0 pmos4 layout PRIMLIB l="350n" in1=MP628129
+0   45    0 nmos4 layout PRIMLIB l="20u" in1=MN1128129
+0   44    0 nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN928129
+0   43    0 nmos4 layout PRIMLIB l="10u" in1=MN628129
+0   36    0 cpolyc layout PRIMLIB area="1.73n" c="1.5p" gwell="N-Well" l="41.95u" perimeter="166.3u" rbottom="Cont" rleft="Cont" id_=d867af61708d568b in1=C428929
+0   32    0 7_MUX21 layout Potentiostat_cpoly
+0   31    0 7_Calibration_current layout Potentiostat_cpoly
+0   30    0 6_TIA_Front_Layout layout Potentiostat_cpoly
+0   29    0 6_Resnet layout Potentiostat_cpoly
+0   28    0 6_CA_Front_Layout layout Potentiostat_cpoly
+0   55    0 8_CA_TIA_Front_calib layout Potentiostat_cpoly
+0   54    0 7_PTAT_Layout layout Potentiostat_cpoly
+0   56    0 8_Poten_PTAT layout Potentiostat_cpoly

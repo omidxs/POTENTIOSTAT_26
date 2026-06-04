@@ -1,5 +1,5 @@
-2026/05/28 16:04:40 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:40 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:13 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:13 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
             Assura (R) Physical Verification Version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25
             Release 4.1_USR6_EHF13
@@ -8,18 +8,18 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/assura on Thu May 28 16:04:40 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/assura on Wed Jun  3 10:48:14 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/aveng /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/28 16:04:41 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:41 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:14 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:14 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Thu May 28 16:04:41 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Wed Jun  3 10:48:15 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -59,7 +59,7 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
  Summary Report: 6_TIA_Front_Layout.sum
  RSF           : /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf
- Library Name  : Potentiostat
+ Library Name  : Potentiostat_cpoly
  CDSLIB Path   : "/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib"
  Cell Name     : 6_TIA_Front_Layout
  View Name     : layout
@@ -70,15 +70,15 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 
 
 Starting dfIIToVdb...
-2026/05/28 16:04:41 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:41 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-2026/05/28 16:04:42 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:42 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:15 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:15 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:15 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:15 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Thu May 28 16:04:42 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Wed Jun  3 10:48:16 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -121,8 +121,8 @@ Compiling rules...
 
 WARNING LVS Run detected.
 Non-legacy mode has been disabled for this LVS run
-2026/05/28 16:04:43 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:43 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:17 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:17 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 *WARNING* Failed to obtain license for Assura_LVS
 No Assura license available.
@@ -141,23 +141,23 @@ Reading the design data...
 Finished dfIIToVdb.
 
 Building the VDB part 2 in background mode.
-2026/05/28 16:04:44 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:44 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:17 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:17 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Building tables for LVS Preprocessing in background mode.
 
 
 Starting /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/vdbToCells /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout 6_TIA_Front_Layout
-2026/05/28 16:04:44 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:44 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:18 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:18 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/vdbToCells
 
 Starting Nvn PreExtraction...
 
 Starting /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/nvn /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf -preExtract -exec1 -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/28 16:04:45 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:45 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:19 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:19 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_DRC_XL
@@ -165,18 +165,18 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Thu May 28 16:04:46 2026
+run on il2244vt26_hrahimi at Wed Jun  3 10:48:19 2026
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
  running dfIIToVldb -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.vlr /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf
-2026/05/28 16:04:46 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:46 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:19 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:19 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Thu May 28 16:04:46 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Wed Jun  3 10:48:20 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -195,16 +195,16 @@ function namePrefix redefined
 function termMapping redefined
 function termOrder redefined
 function instParams redefined
-Top Cell Library: "Potentiostat"
+Top Cell Library: "Potentiostat_cpoly"
 Top Cell Name: "6_TIA_Front_Layout"
 Top Cell View: "schematic"
 Output Data Base Name: "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.sdb"
 Simulator Name: "auCdl"
-Failed to obtain license for "Assura_LVS". 
 ERROR (LMF-02005): License call failed for feature Assura_LVS, version 4.100 and quantity 1. The license server search path is defined as 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se. The FLEXnet error message is as follows,
     FLEXnet ERROR(-5, 0, 0): No such feature exists.
 
 Run 'lic_error LMF-02005' for more information.
+Failed to obtain license for "Assura_LVS". 
 Checking out license for Phys_Ver_Sys_LVS_XL
 Failed to obtain license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_LVS_XL
@@ -218,8 +218,9 @@ View List: "auCdl schematic cmos_sch symbol"
 Stop List: "auCdl"
 Net Listing Mode is Analog
 *WARNING* Device information not found for cell pcapacitor in library PRIMLIB.
+*WARNING* Connection error: The instTerm. REF, on instance R32 in cell 6_TIA_Front_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
 writing /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.sdb
-*WARNING* Connection error: The instTerm. REF, on instance R7 in cell 6_TIA_Front_Layout schematic Potentiostat does not have a corresponding terminal in the master, RPOLYH.
+*WARNING* Connection error: The instTerm. REF, on instance R7 in cell 6_TIA_Front_Layout schematic Potentiostat_cpoly does not have a corresponding terminal in the master, RPOLYH.
  inputting /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.sdb
 Reading layout network
  inputting network ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.ldb
@@ -251,15 +252,15 @@ Finished /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/nvn
 Executing: substrate_all = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2026/05/28 16:04:47 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:47 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:20 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:20 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.14  elap: 6  pf: 1  in: 0  out: 128  virt: 103M  phys: 565M
+cpu: 0.12  elap: 5  pf: 1  in: 0  out: 128  virt: 103M  phys: 563M
 
-Running the Task Processor, 6 cells, 5094 steps...
+Running the Task Processor, 5 cells, 4533 steps...
 
-Top Cell is '6_TIA_Front_Layout layout Potentiostat'
+Top Cell is '6_TIA_Front_Layout layout Potentiostat_cpoly'
 
 Executing: bkgnd = geomBkgnd()
 
@@ -358,8 +359,6 @@ Executing: zero_tc = geomGetTexted(HRES HRES_text "RPOLYZ")
 Executing: presz_1 = geomAnd(poly2_cut zero_tc)
 
 Executing: presz = geomAnd(geomAndNot(presz_1 PPLUS) RESDEF)
-
-Executing: preszterm = geomAnd(presz_1 PPLUS)
 
 Executing: hres = geomAndNot(HRES zero_tc)
 
@@ -744,22 +743,6 @@ Executing: net_pdiffcon = geomAndNot(geomAnd(pdiff_1 CONT) net_poly1con)
 Executing: te_pro_pad = drc(PAD (area < 2401))
 
 Executing: net_bondpad = geomAndNot(PAD te_pro_pad)
-
-Executing: pres_w = geomGetEdge(pres butting RESTRM)
-
-Executing: pres_wexp = geomSize(pres_w 0.1)
-
-Executing: presp_w = geomGetEdge(presp butting RESTRM)
-
-Executing: presp_wexp = geomSize(presp_w 0.1)
-
-Executing: presph_w = geomGetEdge(presph butting RESTRM)
-
-Executing: presph_wexp = geomSize(presph_w 0.1)
-
-Executing: presz_w = geomGetEdge(presz butting preszterm)
-
-Executing: presz_wexp = geomSize(presz_w 0.1)
 
 Executing: met1_withslots = geomAndNot(MET1 M1HOLE)
 
@@ -1363,74 +1346,6 @@ Executing: tsv_term_top = geomAnd(METTSV VIATSV)
 
 Executing: tsv_dev = geomAnd(tsv_term_bot tsv_term_top)
 
-Executing: rblock = geomCat(RFDEF)
-
-Executing: rblock_poly1_1 = geomCat(rblock)
-
-Executing: outside_rblock_poly1 = geomAndNot(geomSize(rblock_poly1_1 (0.35 + 0.01)) rblo...
-
-Executing: poly1_outside_rblock = geomAnd(net_poly1 outside_rblock_poly1)
-
-Executing: inside_rblock_poly1 = geomAndNot(rblock_poly1_1 geomSize(rblock_poly1_1 -0.35))
-
-Executing: poly1_inside_rblock = geomAnd(net_poly1 inside_rblock_poly1)
-
-Executing: rblock_poly1_2 = geomButtOrOver(poly1_inside_rblock drc(poly1_outside_rblock ...
-
-Executing: rblock_poly1_3 = geomButtOrOver(net_poly1 waffle_gate)
-
-Executing: rblock_poly1 = geomAnd(geomCat(geomAndNot(rblock_poly1_1 rblock_poly1_2) rblo...
-
-Executing: outside_rblock_poly2 = geomAndNot(geomSize(rblock_poly2_1 (0.65 + 0.01)) rblo...
-
-Executing: poly2_outside_rblock = geomAnd(net_poly2 outside_rblock_poly2)
-
-Executing: inside_rblock_poly2 = geomAndNot(rblock_poly2_1 geomSize(rblock_poly2_1 -0.65))
-
-Executing: poly2_inside_rblock = geomAnd(net_poly2 inside_rblock_poly2)
-
-Executing: rblock_poly2_2 = geomButtOrOver(poly2_inside_rblock drc(poly2_outside_rblock ...
-
-Executing: presx_w = geomCat(pres_w presp_w presph_w presz_w)
-
-Executing: presx_wexp = geomCat(pres_wexp presp_wexp presph_wexp presz_wexp)
-
-Executing: pres_wexp_block = geomOr(geomOr(resdef resdef_2p resdef_2ph) geomButtOrOver(g...
-
-Executing: rblock_poly2 = geomAnd(geomAndNot(geomOr(presh_trm pres_wexp_block rblock_pol...
-
-Executing: outside_rblock_met1 = geomAndNot(geomSize(rblock_met1_1 (0.5 + 0.01)) rblock_...
-
-Executing: met1_outside_rblock = geomAnd(net_met1 outside_rblock_met1)
-
-Executing: inside_rblock_met1 = geomAndNot(rblock_met1_1 geomSize(rblock_met1_1 -0.5))
-
-Executing: met1_inside_rblock = geomAnd(net_met1 inside_rblock_met1)
-
-Executing: rblock_met1_2 = geomButtOrOver(met1_inside_rblock drc(met1_outside_rblock (wi...
-
-Executing: rblock_met1_block = geomButtOrOver(geomAnd(rblock_poly2 net_met1) CONT)
-
-Executing: rblock_met1 = geomAnd(geomAndNot(geomOr(rblock_met1_block rblock_met1_1) rblo...
-
-Executing: rblock_met2_1 = geomOverlap(rblock geomCat(cvar cmim))
-
-Executing: outside_rblock_met2 = geomAndNot(geomSize(rblock_met2_1 (0.6 + 0.01)) rblock_...
-
-Executing: met2_outside_rblock = geomAnd(net_met2 outside_rblock_met2)
-
-Executing: inside_rblock_met2 = geomAndNot(rblock_met2_1 geomSize(rblock_met2_1 -0.6))
-
-Executing: met2_inside_rblock = geomAnd(net_met2 inside_rblock_met2)
-
-Executing: rblock_met2_2 = geomButtOrOver(met2_inside_rblock drc(met2_outside_rblock (wi...
-
-Executing: rblock_met2 = geomAndNot(rblock_met2_1 rblock_met2_2)
-
-Executing: rblock_metcap = geomOverlap(rblock cmim)
-
-Executing: rblock_met4 = geomEmpty()
-
 Executing: cblock_met2cap_met2 = geomSize(cmim 0.9)
 
 Executing: rcxLayer(cblock_met2cap_met2)
@@ -1488,16 +1403,10 @@ Executing: geomConnect((label POLY1_pintext net_poly1 POLY1_pinshape) (label MET
  See the label report in "6_TIA_Front_Layout.erc" file for details.
 
 
-Executing: geomStamp(net_psub net_subtap)
-
-Executing: geomStamp(net_nwell net_welltap)
-
-Executing: (saveInterconnect (net_ndiff "ndiff") (net_ndiffcon "CONT") (net_pdiff "pdiff...
-
 Executing: extractMOS("NMOS4" NMOS_device (net_poly1 "G") (net_nsd "S" "D") (net_psub "B...
          1 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="20u" w="5u" wtot="5u" in1=MN2228129'.
          4 'NMOS4' created in cell 'nmos4 layout PRIMLIB l="4u" ng="4" w="1u" wtot="4u" in1=MN1928129'.
-        24 'NMOS4' created in cell '6_TIA_Front_Layout layout Potentiostat'.
+        24 'NMOS4' created in cell '6_TIA_Front_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(NMOS_device "device")
 
@@ -1523,10 +1432,6 @@ Executing: nameParameter(weff "w")
 
 Executing: nameParameter(weff "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOS_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOS_device shared)
-
 Executing: NMOS_WAFFLE_bulk = geomCat(NMOS_WAFFLE_device)
 
 Executing: geomStamp(NMOS_WAFFLE_bulk net_psub)
@@ -1544,14 +1449,6 @@ Executing: nameParameter(l "l")
 Executing: nameParameter(w "w")
 
 Executing: nameParameter(w "wtot")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOS_WAFFLE_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOS_WAFFLE_device shared)
-
-Executing: saveProperty(NMOS_WAFFLE_device "nrs" 0.5)
-
-Executing: saveProperty(NMOS_WAFFLE_device "nrd" 0.5)
 
 Executing: extractMOS("NMOSM4" NMOSM_device (net_poly1 "G") (net_nsd "S" "D") (net_psub ...
 
@@ -1579,10 +1476,6 @@ Executing: nameParameter(weff "w")
 
 Executing: nameParameter(weff "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSM_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSM_device shared)
-
 Executing: NMOSM_WAFFLE_bulk = geomCat(NMOSM_WAFFLE_device)
 
 Executing: geomStamp(NMOSM_WAFFLE_bulk net_psub)
@@ -1601,17 +1494,9 @@ Executing: nameParameter(w "w")
 
 Executing: nameParameter(w "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSM_WAFFLE_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSM_WAFFLE_device shared)
-
-Executing: saveProperty(NMOSM_WAFFLE_device "nrs" 0.5)
-
-Executing: saveProperty(NMOSM_WAFFLE_device "nrd" 0.5)
-
 Executing: extractMOS("PMOS4" PMOS_device (net_poly1 "G") (net_psd "S" "D") (net_nwell "...
          1 'PMOS4' created in cell 'pmos4 layout PRIMLIB l="4u" in1=MP2328329'.
-        84 'PMOS4' created in cell '6_TIA_Front_Layout layout Potentiostat'.
+        84 'PMOS4' created in cell '6_TIA_Front_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(PMOS_device "device")
 
@@ -1637,10 +1522,6 @@ Executing: nameParameter(weff "w")
 
 Executing: nameParameter(weff "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOS_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOS_device shared)
-
 Executing: PMOS_WAFFLE_bulk = geomCat(PMOS_WAFFLE_device)
 
 Executing: geomStamp(PMOS_WAFFLE_bulk net_nwell)
@@ -1658,14 +1539,6 @@ Executing: nameParameter(l "l")
 Executing: nameParameter(w "w")
 
 Executing: nameParameter(w "wtot")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOS_WAFFLE_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOS_WAFFLE_device shared)
-
-Executing: saveProperty(PMOS_WAFFLE_device "nrs" 0.5)
-
-Executing: saveProperty(PMOS_WAFFLE_device "nrd" 0.5)
 
 Executing: extractMOS("PMOSM4" PMOSM_device (net_poly1 "G") (net_psd "S" "D") (net_nwell...
 
@@ -1693,10 +1566,6 @@ Executing: nameParameter(weff "w")
 
 Executing: nameParameter(weff "wtot")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSM_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSM_device shared)
-
 Executing: PMOSM_WAFFLE_bulk = geomCat(PMOSM_WAFFLE_device)
 
 Executing: geomStamp(PMOSM_WAFFLE_bulk net_nwell)
@@ -1714,14 +1583,6 @@ Executing: nameParameter(l "l")
 Executing: nameParameter(w "w")
 
 Executing: nameParameter(w "wtot")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSM_WAFFLE_device shared)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSM_WAFFLE_device shared)
-
-Executing: saveProperty(PMOSM_WAFFLE_device "nrs" 0.5)
-
-Executing: saveProperty(PMOSM_WAFFLE_device "nrd" 0.5)
 
 Executing: extractDevice("RCX_DUMMY" NMOSL_device (net_poly1 "PLUS" "MINUS") (cellView "...
 
@@ -1763,18 +1624,6 @@ Executing: saveProperty(NMOSW_4N_device "SUBTYPE" "W_4N")
 
 Executing: saveProperty(NMOSW_4N_device "model" "nmosw_4n")
 
-Executing: attachParameter(as ("as" "S") NMOSW_4N_device)
-
-Executing: attachParameter(ps ("ps" "S") NMOSW_4N_device)
-
-Executing: attachParameter(ad ("ad" "D") NMOSW_4N_device)
-
-Executing: attachParameter(pd ("pd" "D") NMOSW_4N_device)
-
-Executing: saveProperty(NMOSW_4N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSW_4N_device "nrd" 0.0)
-
 Executing: NMOSW_3N_bulk = geomCat(NMOSW_3N_device)
 
 Executing: geomStamp(NMOSW_3N_bulk net_psub)
@@ -1796,14 +1645,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(NMOSW_3N_device "SUBTYPE" "W_3N")
 
 Executing: saveProperty(NMOSW_3N_device "model" "nmosw_3n")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSW_3N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSW_3N_device)
-
-Executing: saveProperty(NMOSW_3N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSW_3N_device "nrd" 0.0)
 
 Executing: NMOSW_2N_bulk = geomCat(NMOSW_2N_device)
 
@@ -1827,14 +1668,6 @@ Executing: saveProperty(NMOSW_2N_device "SUBTYPE" "W_2N")
 
 Executing: saveProperty(NMOSW_2N_device "model" "nmosw_2n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSW_2N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSW_2N_device)
-
-Executing: saveProperty(NMOSW_2N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSW_2N_device "nrd" 0.0)
-
 Executing: NMOSMW_4N_bulk = geomCat(NMOSMW_4N_device)
 
 Executing: geomStamp(NMOSMW_4N_bulk net_psub)
@@ -1856,18 +1689,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(NMOSMW_4N_device "SUBTYPE" "W_4N")
 
 Executing: saveProperty(NMOSMW_4N_device "model" "nmosmw_4n")
-
-Executing: attachParameter(as ("as" "S") NMOSMW_4N_device)
-
-Executing: attachParameter(ps ("ps" "S") NMOSMW_4N_device)
-
-Executing: attachParameter(ad ("ad" "D") NMOSMW_4N_device)
-
-Executing: attachParameter(pd ("pd" "D") NMOSMW_4N_device)
-
-Executing: saveProperty(NMOSMW_4N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSMW_4N_device "nrd" 0.0)
 
 Executing: NMOSMW_3N_bulk = geomCat(NMOSMW_3N_device)
 
@@ -1891,14 +1712,6 @@ Executing: saveProperty(NMOSMW_3N_device "SUBTYPE" "W_3N")
 
 Executing: saveProperty(NMOSMW_3N_device "model" "nmosmw_3n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSMW_3N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSMW_3N_device)
-
-Executing: saveProperty(NMOSMW_3N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSMW_3N_device "nrd" 0.0)
-
 Executing: NMOSMW_2N_bulk = geomCat(NMOSMW_2N_device)
 
 Executing: geomStamp(NMOSMW_2N_bulk net_psub)
@@ -1920,14 +1733,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(NMOSMW_2N_device "SUBTYPE" "W_2N")
 
 Executing: saveProperty(NMOSMW_2N_device "model" "nmosmw_2n")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") NMOSMW_2N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") NMOSMW_2N_device)
-
-Executing: saveProperty(NMOSMW_2N_device "nrs" 0.0)
-
-Executing: saveProperty(NMOSMW_2N_device "nrd" 0.0)
 
 Executing: PMOSW_4N_bulk = geomCat(PMOSW_4N_device)
 
@@ -1951,18 +1756,6 @@ Executing: saveProperty(PMOSW_4N_device "SUBTYPE" "W_4N")
 
 Executing: saveProperty(PMOSW_4N_device "model" "pmosw_4n")
 
-Executing: attachParameter(as ("as" "S") PMOSW_4N_device)
-
-Executing: attachParameter(ps ("ps" "S") PMOSW_4N_device)
-
-Executing: attachParameter(ad ("ad" "D") PMOSW_4N_device)
-
-Executing: attachParameter(pd ("pd" "D") PMOSW_4N_device)
-
-Executing: saveProperty(PMOSW_4N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSW_4N_device "nrd" 0.0)
-
 Executing: PMOSW_3N_bulk = geomCat(PMOSW_3N_device)
 
 Executing: geomStamp(PMOSW_3N_bulk net_nwell)
@@ -1984,14 +1777,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(PMOSW_3N_device "SUBTYPE" "W_3N")
 
 Executing: saveProperty(PMOSW_3N_device "model" "pmosw_3n")
-
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSW_3N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSW_3N_device)
-
-Executing: saveProperty(PMOSW_3N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSW_3N_device "nrd" 0.0)
 
 Executing: PMOSW_2N_bulk = geomCat(PMOSW_2N_device)
 
@@ -2015,14 +1800,6 @@ Executing: saveProperty(PMOSW_2N_device "SUBTYPE" "W_2N")
 
 Executing: saveProperty(PMOSW_2N_device "model" "pmosw_2n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSW_2N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSW_2N_device)
-
-Executing: saveProperty(PMOSW_2N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSW_2N_device "nrd" 0.0)
-
 Executing: PMOSMW_4N_bulk = geomCat(PMOSMW_4N_device)
 
 Executing: geomStamp(PMOSMW_4N_bulk net_nwell)
@@ -2044,18 +1821,6 @@ Executing: nameParameter(w "wtot")
 Executing: saveProperty(PMOSMW_4N_device "SUBTYPE" "W_4N")
 
 Executing: saveProperty(PMOSMW_4N_device "model" "pmosmw_4n")
-
-Executing: attachParameter(as ("as" "S") PMOSMW_4N_device)
-
-Executing: attachParameter(ps ("ps" "S") PMOSMW_4N_device)
-
-Executing: attachParameter(ad ("ad" "D") PMOSMW_4N_device)
-
-Executing: attachParameter(pd ("pd" "D") PMOSMW_4N_device)
-
-Executing: saveProperty(PMOSMW_4N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSMW_4N_device "nrd" 0.0)
 
 Executing: PMOSMW_3N_bulk = geomCat(PMOSMW_3N_device)
 
@@ -2079,14 +1844,6 @@ Executing: saveProperty(PMOSMW_3N_device "SUBTYPE" "W_3N")
 
 Executing: saveProperty(PMOSMW_3N_device "model" "pmosmw_3n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSMW_3N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSMW_3N_device)
-
-Executing: saveProperty(PMOSMW_3N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSMW_3N_device "nrd" 0.0)
-
 Executing: PMOSMW_2N_bulk = geomCat(PMOSMW_2N_device)
 
 Executing: geomStamp(PMOSMW_2N_bulk net_nwell)
@@ -2109,14 +1866,6 @@ Executing: saveProperty(PMOSMW_2N_device "SUBTYPE" "W_2N")
 
 Executing: saveProperty(PMOSMW_2N_device "model" "pmosmw_2n")
 
-Executing: attachParameter(as ("ad" "D") ("as" "S") PMOSMW_2N_device)
-
-Executing: attachParameter(ps ("pd" "D") ("ps" "S") PMOSMW_2N_device)
-
-Executing: saveProperty(PMOSMW_2N_device "nrs" 0.0)
-
-Executing: saveProperty(PMOSMW_2N_device "nrd" 0.0)
-
 Executing: nmosh_dummy = geomAnd(NMOSH_device net_nwell)
 
 Executing: extractDevice("NMOSH" NMOSH_device (net_poly1 "G") (net_nsd "S") (nmosh_d_ter...
@@ -2127,18 +1876,6 @@ Executing: attachParameter(l1 "l" NMOSH_device)
 
 Executing: attachParameter(w1 "w" NMOSH_device)
 
-Executing: attachParameter(as ("as" "S") NMOSH_device shared)
-
-Executing: attachParameter(ps ("ps" "S") NMOSH_device shared)
-
-Executing: attachParameter(nrs "nrs" NMOSH_device)
-
-Executing: saveProperty(NMOSH_device "nrd" 0.0)
-
-Executing: saveProperty(NMOSH_device "ad" 0.0)
-
-Executing: saveProperty(NMOSH_device "pd" 0.0)
-
 Executing: nmosmh_dummy = geomAnd(NMOSMH_device net_nwell)
 
 Executing: extractDevice("NMOSMH" NMOSMH_device (net_poly1 "G") (net_nsd "S") (nmosh_d_t...
@@ -2148,18 +1885,6 @@ Executing: saveRecognition(NMOSMH_device "device")
 Executing: attachParameter(l1 "l" NMOSMH_device)
 
 Executing: attachParameter(w1 "w" NMOSMH_device)
-
-Executing: attachParameter(as ("as" "S") NMOSMH_device shared)
-
-Executing: attachParameter(ps ("ps" "S") NMOSMH_device shared)
-
-Executing: attachParameter(nrs "nrs" NMOSMH_device)
-
-Executing: saveProperty(NMOSMH_device "nrd" 0.0)
-
-Executing: saveProperty(NMOSMH_device "ad" 0.0)
-
-Executing: saveProperty(NMOSMH_device "pd" 0.0)
 
 Executing: extractDevice("RCX_DUMMY" NMOSHL_device (net_poly1 "PLUS" "MINUS") (cellView ...
 
@@ -2191,14 +1916,6 @@ Executing: attachParameter(w "wtot" NMOS30M_device)
 
 Executing: attachParameter(wg "wg" NMOS30M_device)
 
-Executing: attachParameter(as ("as" "S") NMOS30M_device shared)
-
-Executing: attachParameter(ps ("ps" "S") NMOS30M_device shared)
-
-Executing: attachParameter(nrs "nrs" NMOS30M_device)
-
-Executing: saveProperty(NMOS30M_device "nrd" 0.0)
-
 Executing: extractDevice("NMOS18T" NMOS18T_device (net_poly1 "G") (net_ndiff_source "S")...
 
 Executing: saveRecognition(NMOS18T_device "device")
@@ -2210,14 +1927,6 @@ Executing: attachParameter(w "w" NMOS18T_device)
 Executing: attachParameter(w "wtot" NMOS18T_device)
 
 Executing: attachParameter(wg "wg" NMOS18T_device)
-
-Executing: attachParameter(as ("as" "S") NMOS18T_device shared)
-
-Executing: attachParameter(ps ("ps" "S") NMOS18T_device shared)
-
-Executing: attachParameter(nrs "nrs" NMOS18T_device)
-
-Executing: saveProperty(NMOS18T_device "nrd" 0.0)
 
 Executing: extractDevice("RCX_DUMMY" PMOSD30M_device (net_poly1 "PLUS" "MINUS") (cellVie...
 
@@ -2241,23 +1950,7 @@ Executing: nameParameter(perimeter "pj")
 
 Executing: P_ND_device = geomAndNot(geomAndNot(geomAndNot(ndiode_1 DIODE) nmosh_d) HVDEF)
 
-Executing: extractDIODE("P_ND" P_ND_device (net_psub "PLUS") (net_nsd "MINUS") (targetLa...
-
-Executing: saveRecognition(P_ND_device "device")
-
-Executing: ad = measureParameter(area (P_ND_device) 1e-12)
-
-Executing: pd1 = measureParameter(length (P_ND_device coincident DIFF) 1e-06)
-
-Executing: pd = calculateParameter(((ad - ad) + pd1))
-
-Executing: nameParameter(ad "ad")
-
-Executing: nameParameter(pd "pd")
-
-Executing: nameParameter(ad "area")
-
-Executing: nameParameter(pd "pj")
+Executing: extractDevice("RCX_DUMMY" P_ND_device (net_nsd "PLUS" "MINUS") (cellView "pca...
 
 Executing: extractDIODE("PD" PD_device (net_psd "PLUS") (net_nwell "MINUS") (targetLayer...
 
@@ -2275,23 +1968,7 @@ Executing: nameParameter(perimeter "perimeter")
 
 Executing: nameParameter(perimeter "pj")
 
-Executing: extractDIODE("P_PD" P_PD_device (net_psd "PLUS") (net_nwell "MINUS") (targetL...
-
-Executing: saveRecognition(P_PD_device "device")
-
-Executing: ad = measureParameter(area (P_PD_device) 1e-12)
-
-Executing: pd1 = measureParameter(length (P_PD_device coincident DIFF) 1e-06)
-
-Executing: pd = calculateParameter(((ad - ad) + pd1))
-
-Executing: nameParameter(ad "ad")
-
-Executing: nameParameter(pd "pd")
-
-Executing: nameParameter(ad "area")
-
-Executing: nameParameter(pd "pj")
+Executing: extractDevice("RCX_DUMMY" P_PD_device (net_psd "PLUS" "MINUS") (cellView "pca...
 
 Executing: extractDIODE("NWD" NWD_device (net_psub "PLUS") (net_nwell "MINUS") (targetLa...
 
@@ -2309,23 +1986,7 @@ Executing: nameParameter(perimeter "perimeter")
 
 Executing: nameParameter(perimeter "pj")
 
-Executing: extractDIODE("P_NWD" P_NWD_device (net_psub "PLUS") (net_nwell "MINUS") (targ...
-         1 'P_NWD' created in cell 'cvar layout PRIMLIB col=13 row=4 in1=C1'.
-         3 'P_NWD' created in cell '6_TIA_Front_Layout layout Potentiostat'.
-
-Executing: saveRecognition(P_NWD_device "device")
-
-Executing: area = measureParameter(area (P_NWD_device) 1e-12)
-
-Executing: perimeter1 = measureParameter(length (P_NWD_device coincident NTUB) 1e-06)
-
-Executing: perimeter = calculateParameter(((area - area) + perimeter1))
-
-Executing: nameParameter(area "area")
-
-Executing: nameParameter(perimeter "perimeter")
-
-Executing: nameParameter(perimeter "pj")
+Executing: extractDevice("RCX_DUMMY" P_NWD_device (net_nwell "PLUS" "MINUS") (cellView "...
 
 Executing: extractDIODE("ZD2SM24" ZD2SM24_device (net_psd "A") (net_welltap "C") (net_ps...
 
@@ -2680,7 +2341,7 @@ Executing: nameParameter(r "r")
 Executing: saveProperty(RPOLYH_PSUB_device "gwell" "Substrate")
 
 Executing: extractRES("RPOLYH" RPOLYH_NTUB_device (net_poly2 "PLUS" "MINUS") (net_nwell ...
-         1 'RPOLYH' created in cell '6_TIA_Front_Layout layout Potentiostat'.
+         2 'RPOLYH' created in cell '6_TIA_Front_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(RPOLYH_NTUB_device "device")
 
@@ -2956,6 +2617,7 @@ Executing: saveProperty(CPOLY_PSUB_device "gwell" "Substrate")
 
 Executing: extractCAP("CPOLYA" CPOLY_NTUB_device (net_poly2 "PLUS") (net_poly1 "MINUS") ...
          1 'CPOLYA' created in cell 'cpolyc layout PRIMLIB area="2.89n" c="2.5p" gwell="N-Well" l="54.1u" perimeter="214.9u" rbottom="Cont" rleft="Cont" id_=d867af612fc4b764 in1=C528229'.
+         1 'CPOLYA' created in cell '6_TIA_Front_Layout layout Potentiostat_cpoly'.
 
 Executing: saveRecognition(CPOLY_NTUB_device "device")
 
@@ -2994,7 +2656,6 @@ Executing: cvar_ndiff_cross = geomSize(cvar_ndiff_cross1 -0.1 edges)
 Executing: CVAR_device = geomOr(cvar_ndiff_closed)
 
 Executing: extractDevice("CVAR" CVAR_device (net_poly1 "G") (net_welltap "B") (net_psub ...
-         1 'CVAR' created in cell 'cvar layout PRIMLIB col=13 row=4 in1=C1'.
 
 Executing: saveRecognition(CVAR_device "device")
 
@@ -3160,17 +2821,17 @@ Executing: extractDevice("SP090S155D" SP090S155D_device (spiral_term11 "P1") (sp
 
 Executing: saveRecognition(SP090S155D_device "device")
 
-Executing: errorLayer(bkgnd2 "# INFO: Don't use -resimulate_extracted- Switch for standard LVS but only for QRC! #")
+Executing: errorLayer(bkgnd1 "# INFO: Set -resimulate_extracted- Switch for QRC! #")
 
 Executing: errorLayer(bkgnd3 "# C35B4 ENG - 183 Rev9 (Last updated 26-Apr-2017 12:48) #")
 
 Finished running rules. Task processor time in main process:
-cpu: 0.83  elap: 1  pf: 394  in: 0  out: 1200  virt: 147M  phys: 716M
+cpu: 0.69  elap: 1  pf: 333  in: 0  out: 1072  virt: 147M  phys: 709M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 16  in: 0  out: 6488  virt: 152M  phys: 728M
+cpu: 0.01  elap: 0  pf: 16  in: 0  out: 6488  virt: 152M  phys: 722M
 
 
 *****  aveng terminated normally  *****
@@ -3179,8 +2840,8 @@ cpu: 0.01  elap: 0  pf: 16  in: 0  out: 6488  virt: 152M  phys: 728M
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/aveng
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avrpt /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf -exec1
-2026/05/28 16:04:49 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:49 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:22 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:22 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3210,14 +2871,14 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avrpt on Thu May 28 16:04:49 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avrpt on Wed Jun  3 10:48:22 2026
 
 
    Creating Error Database '6_TIA_Front_Layout'...
 
    Reading VDB ...
-2026/05/28 16:04:49 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:49 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:22 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:22 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -3264,8 +2925,8 @@ Rule      Message                                    FlatCount     RealCount
 (   41)  ERROR : MET3 pin outside met3                       0            0
 (   42)  ERROR : MET4 pin outside met4                       0            0
 (   43)  ERROR : PAD pin outside pad metal                   0            0
-(   44)  # INFO: Don't use -resimulate_extracted-           39            7
-(   45)  # C35B4 ENG - 183 Rev9 (Last updated 26-           39            7
+(   44)  # INFO: Set -resimulate_extracted- Switc           38            7
+(   45)  # C35B4 ENG - 183 Rev9 (Last updated 26-           38            7
 (   46)  malformed device NMOSH_device                       0            0
 (   47)  malformed device NMOSMH_device                      0            0
 (   48)  malformed device NMOS30M_device                     0            0
@@ -3365,11 +3026,11 @@ Rule      Message                                    FlatCount     RealCount
 (  196)  unstable device for PHDNWB850_device_pad            0            0
 (  198)  unstable device for PHDNWA850_device_ntu            0            0
 (  200)  unstable device for ZD2SM24_device_DIODE            0            0
-(  202)  unstable device for P_NWD_device_DIODE_4            0            0
+(  202)  unstable device for P_NWD_device_Device_            0            0
 (  204)  unstable device for NWD_device_DIODE_42             0            0
-(  206)  unstable device for P_PD_device_DIODE_41            0            0
+(  206)  unstable device for P_PD_device_Device_4            0            0
 (  208)  unstable device for PD_device_DIODE_40              0            0
-(  210)  unstable device for P_ND_device_DIODE_39            0            0
+(  210)  unstable device for P_ND_device_Device_3            0            0
 (  212)  unstable device for ND_device_DIODE_38              0            0
 (  214)  unstable device for PMOS30M_device_Devic            0            0
 (  216)  unstable device for PMOSD30M_device_Devi            0            0
@@ -3409,7 +3070,7 @@ Rule      Message                                    FlatCount     RealCount
 (  284)  unstable device for NMOS_WAFFLE_device_D            0            0
 (  286)  unstable device for NMOS_device_MOS_1               0            0
 --------------------------------------------------------------------------------
-Total  errors:                                              78           14
+Total  errors:                                              76           14
 --------------------------------------------------------------------------------
 
    Finished creating Error Database ...
@@ -3418,13 +3079,13 @@ Total  errors:                                              78           14
    Rule 44 done.
    Rule 45 done.
 
-avrpt cpu sec:    0.08  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.09  elapsed:     0  virtual:    93M
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avrpt
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/28 16:04:50 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:50 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:23 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:23 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3455,8 +3116,8 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avnx /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf -exec1 -LVS -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/28 16:04:50 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:50 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:24 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:24 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -3496,28 +3157,28 @@ Checking out license for Pegasus_LVS
 @(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avnx on Thu May 28 16:04:51 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avnx on Wed Jun  3 10:48:24 2026
 
 avnx started...
-2026/05/28 16:04:51 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:51 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-cpu: 0.13  elap: 0  pf: 0  in: 0  out: 24  virt: 570M  phys: 988M
+2026/06/03 10:48:24 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:24 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+cpu: 0.12  elap: 1  pf: 0  in: 0  out: 24  virt: 569M  phys: 986M
 
-Run time =  0.00 seconds
-CPU time =  0.22 seconds
+Run time =  1.00 seconds
+CPU time =  0.19 seconds
 
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.02  elap: 0  pf: 0  in: 0  out: 13256  virt: 501M  phys: 989M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13248  virt: 500M  phys: 986M
 ***** avnx terminated normally ***** 
 
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avnx
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/nvn /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf -postExtract -exec1 -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/05/28 16:04:52 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:52 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:25 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:25 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 Checking out license for Phys_Ver_Sys_DRC_XL
@@ -3525,7 +3186,7 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Thu May 28 16:04:52 2026
+run on il2244vt26_hrahimi at Wed Jun  3 10:48:26 2026
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
@@ -3564,27 +3225,28 @@ Preprocessing layout network phase 1
 *WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
-Top cell  6_TIA_Front_Layout schematic Potentiostat vs 6_TIA_Front_Layout layout Potentiostat
+Comparing cpolyc schematic PRIMLIB vs cpolyc layout PRIMLIB area="2.89n" c="2.5p" gwell="N-Well" l="54.1u" perimeter="214.9u" rbottom="Cont" rleft="Cont" id_=d867af612fc4b764 in1=C528229
+Top cell  6_TIA_Front_Layout schematic Potentiostat_cpoly vs 6_TIA_Front_Layout layout Potentiostat_cpoly
 Schematic and Layout Match
-cpu=0.01m  wall=0.00m  mem=75.86mb
+cpu=0.01m  wall=0.02m  mem=75.78mb
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/nvn
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa 6_TIA_Front_Layout.snn 6_TIA_Front_Layout.tre 6_TIA_Front_Layout.cel
-2026/05/28 16:04:53 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:53 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:26 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:26 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa 6_TIA_Front_Layout.lnn 6_TIA_Front_Layout.tre2 6_TIA_Front_Layout.cel2
-2026/05/28 16:04:54 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:54 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:27 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:27 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/ercChk /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf
-2026/05/28 16:04:54 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:54 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:28 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:28 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -3626,8 +3288,8 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/ercChk
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/6_TIA_Front_Layout/6_TIA_Front_Layout.rsf -trp -exec1
-2026/05/28 16:04:56 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/05/28 16:04:56 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 10:48:29 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 10:48:29 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -3662,7 +3324,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Thu May 28 16:04:56 2026
+Run ended: Wed Jun  3 10:48:29 2026
 
 *****  Assura terminated normally  *****
 

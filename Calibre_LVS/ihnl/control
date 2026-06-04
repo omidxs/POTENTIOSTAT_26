@@ -1,11 +1,11 @@
 hnlLastStopCellInfo = '(
-                           ( "PRIMLIB" "nmos4" "auCdl" "47" "1490269042" )
-                          ( "PRIMLIB" "pmos4" "auCdl" "47" "1490269046" )
+                           ( "PRIMLIB" "vert10_4" "auCdl" "50" "1458908670" )
+                          ( "PRIMLIB" "nmos4" "auCdl" "47" "1490269042" )
+                          ( "PRIMLIB" "rpolyhc" "auCdl" "46" "1438672402" )
                           ( "PRIMLIB" "pcapacitor" "auCdl" "32" "1424852050" )
                           ( "PRIMLIB" "cpoly" "auCdl" "30" "1424852043" )
+                          ( "PRIMLIB" "pmos4" "auCdl" "47" "1490269046" )
                           ( "PRIMLIB" "cvar" "auCdl" "43" "1340881455" )
-                          ( "PRIMLIB" "rpolyhc" "auCdl" "46" "1438672402" )
-                          ( "PRIMLIB" "vert10_4" "auCdl" "50" "1458908670" )
                        )
 hnlLastTopViewWasConfig = 0
 hnlLastMaxNameLength = 60
@@ -84,7 +84,7 @@ hnlLastNetNameDifferentFrom = '( )
 hnlLastTermNameDifferentFrom = '( )
 hnlLastParamNameDifferentFrom = '( )
 hnlLastLibInfo = '(
-                    ( "Potentiostat" "1774624388" )
-                   ( "PRIMLIB" "1351690742" )
+                    ( "PRIMLIB" "1351690742" )
+                   ( "Potentiostat_cpoly" "1780476486" )
                   )
 hnlLastDesignVars = '( )

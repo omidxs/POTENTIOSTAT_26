@@ -1,10 +1,10 @@
 ************************************************************************
 * auCdl Netlist:
 * 
-* Library Name:  Potentiostat
+* Library Name:  Potentiostat_cpoly
 * Top Cell Name: 8_Poten_PTAT
 * View Name:     schematic
-* Netlisted on:  Jun  2 15:29:31 2026
+* Netlisted on:  Jun  3 11:33:24 2026
 ************************************************************************
 
 *.EQUATION
@@ -14,33 +14,6 @@
 .PARAM
 
 
-
-************************************************************************
-* Library Name: Potentiostat
-* Cell Name:    Inverter
-* View Name:    schematic
-************************************************************************
-
-.SUBCKT Inverter A GNDA Q VDDA
-*.PININFO A:B GNDA:B Q:B VDDA:B
-MM_i_0 Q A GNDA GNDA nmos4 W=0.4u L=0.35u M=1
-MM_i_1 Q A VDDA VDDA pmos4 W=0.7u L=0.35u M=1
-.ENDS
-
-************************************************************************
-* Library Name: Potentiostat
-* Cell Name:    7_MUX21
-* View Name:    schematic
-************************************************************************
-
-.SUBCKT 7_MUX21 A0 A1 EN GNDA Out VDDA
-*.PININFO A0:B A1:B EN:B GNDA:B Out:B VDDA:B
-MMN1 A1 EN Out GNDA nmos4 W=10u L=1u M=2
-MMN0 A0 SN Out GNDA nmos4 W=10u L=1u M=2
-MMP2 Out SN A1 VDDA pmos4 W=10u L=1u M=4
-MMP1 Out EN A0 VDDA pmos4 W=10u L=1u M=4
-XI0 EN GNDA SN VDDA / Inverter
-.ENDS
 
 ************************************************************************
 * Library Name: PRIMLIB
@@ -55,7 +28,7 @@ CC0 MINUS PLUS $[CPOLYA] area=area perimeter=perimeter
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat
+* Library Name: Potentiostat_cpoly
 * Cell Name:    6_CA_Front_Layout
 * View Name:    schematic
 ************************************************************************
@@ -197,362 +170,12 @@ MMP32<46> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
 MMP32<47> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
 MMP32<48> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
 MMP32<49> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
-MC2 Ibias GNDA Ibias GNDA CVAR W=211.2u L=650.00n
 CC0 Vout net6 $[CPOLYA] area=3.47n perimeter=235.5u
 RR1 net6 C $[RPOLYH] $W=2u $L=90u
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat
-* Cell Name:    6_Resnet
-* View Name:    schematic
-************************************************************************
-
-.SUBCKT 6_Resnet GNDA In Out S<3> S<2> S<1> S<0> VDDA
-*.PININFO GNDA:B In:B Out:B S<3>:B S<2>:B S<1>:B S<0>:B VDDA:B
-MMN19 In S<0> net5 GNDA nmos4 W=5u L=1u M=2
-MMN20 In S<1> net3 GNDA nmos4 W=5u L=1u M=1
-MMN15 In S<2> net1 GNDA nmos4 W=5u L=1u M=1
-MMN17 In S<3> net12 GNDA nmos4 W=5u L=1u M=1
-MMP14 net5 S0n In VDDA pmos4 W=2u L=1u M=1
-MMP15 net3 S1n In VDDA pmos4 W=2u L=1u M=1
-MMP5 net1 S2n In VDDA pmos4 W=2u L=1u M=1
-MMP3 net12 S3n In VDDA pmos4 W=2u L=1u M=1
-XI11 S<1> GNDA S1n VDDA / Inverter
-XI13 S<3> GNDA S3n VDDA / Inverter
-XI6 S<0> GNDA S0n VDDA / Inverter
-XI12 S<2> GNDA S2n VDDA / Inverter
-RR17 net7 net2 $[RPOLYH] $W=0.8u $L=500u
-RR5 net3 Out $[RPOLYH] $W=0.8u $L=500u
-RR11 net23 net21 $[RPOLYH] $W=0.8u $L=500u
-RR14 net22 net6 $[RPOLYH] $W=0.8u $L=500u
-RR10 net12 net23 $[RPOLYH] $W=0.8u $L=500u
-RR13 net20 net22 $[RPOLYH] $W=0.8u $L=500u
-RR12 net21 net20 $[RPOLYH] $W=0.8u $L=500u
-RR22 net10 Out $[RPOLYH] $W=0.8u $L=500u
-RR16 net4 net7 $[RPOLYH] $W=0.8u $L=500u
-RR15 net6 net4 $[RPOLYH] $W=0.8u $L=500u
-RR21 net8 net9 $[RPOLYH] $W=0.8u $L=500u
-RR18 net2 net10 $[RPOLYH] $W=0.8u $L=500u
-RR20 net9 Out $[RPOLYH] $W=0.8u $L=500u
-RR19 net1 net8 $[RPOLYH] $W=0.8u $L=500u
-RR6 net5 Out $[RPOLYH] $W=0.8u $L=150u
-.ENDS
-
-************************************************************************
-* Library Name: Potentiostat
-* Cell Name:    6_TIA_Front_Layout
-* View Name:    schematic
-************************************************************************
-
-.SUBCKT 6_TIA_Front_Layout GNDA Ibias VDDA Vin+ Vin- Vout
-*.PININFO GNDA:B Ibias:B VDDA:B Vin+:B Vin-:B Vout:B
-MMN22<0> GNDA GNDA GNDA GNDA nmos4 W=5u L=20u M=1
-MMN22<1> GNDA GNDA GNDA GNDA nmos4 W=5u L=20u M=1
-MMN19<0> Vm3 Ibias o1 GNDA nmos4 W=1u L=4u M=4
-MMN19<1> Vm3 Ibias o1 GNDA nmos4 W=1u L=4u M=4
-MMN21<0> Vm1 Vm1 Vm1 GNDA nmos4 W=1u L=4u M=1
-MMN21<1> Vm1 Vm1 Vm1 GNDA nmos4 W=1u L=4u M=1
-MMN11<0> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN11<1> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN11<2> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN11<3> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN15 Vout D2 GNDA GNDA nmos4 W=10u L=2u M=10
-MMN14 D2 D1 GNDA GNDA nmos4 W=5u L=20u M=1
-MMN13 D1 D1 GNDA GNDA nmos4 W=5u L=20u M=1
-MMN20<0> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN20<1> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN20<2> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN20<3> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN20<4> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN20<5> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN20<6> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN20<7> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN7 Ibias Ibias Vm1 GNDA nmos4 W=1u L=4u M=4
-MMP24<0> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<1> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<2> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<3> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<4> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<5> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<6> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<7> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<8> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<9> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<10> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<11> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<12> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<13> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<14> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<15> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<16> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<17> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<18> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<19> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<20> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<21> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<22> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<23> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<24> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<25> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<26> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<27> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<28> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<29> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<30> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<31> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<32> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP24<33> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
-MMP23<0> VDDA VDDA VDDA VDDA pmos4 W=10u L=4u M=1
-MMP23<1> VDDA VDDA VDDA VDDA pmos4 W=10u L=4u M=1
-MMP23<2> VDDA VDDA VDDA VDDA pmos4 W=10u L=4u M=1
-MMP23<3> VDDA VDDA VDDA VDDA pmos4 W=10u L=4u M=1
-MMP21<0> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<1> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<2> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<3> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<4> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<5> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<6> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<7> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<8> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<9> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<10> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<11> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<12> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<13> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<14> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<15> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<16> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<17> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<18> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<19> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<20> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<21> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<22> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<23> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<24> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<25> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<26> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<27> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<28> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<29> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<30> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<31> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<32> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<33> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<34> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<35> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<36> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<37> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<38> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP21<39> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP11<0> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<1> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<2> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<3> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<4> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<5> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<6> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<7> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<8> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP11<9> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
-MMP10<0> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<1> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<2> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<3> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<4> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<5> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<6> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<7> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<8> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP10<9> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
-MMP20<0> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP20<1> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP20<2> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP20<3> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP20<4> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP20<5> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP20<6> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP20<7> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP15<0> Vm3 Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MMP15<1> Vm3 Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
-MC1 Vm1 GNDA Vm1 GNDA CVAR W=343.2u L=650.00n
-MC0 Ibias GNDA Ibias GNDA CVAR W=343.2u L=650.00n
-CC5<0> Vout net24 $[CPOLYA] area=2.89n perimeter=214.9u
-CC5<1> Vout net24 $[CPOLYA] area=2.89n perimeter=214.9u
-CC5<2> Vout net24 $[CPOLYA] area=2.89n perimeter=214.9u
-CC5<3> Vout net24 $[CPOLYA] area=2.89n perimeter=214.9u
-RR7 net24 D2 $[RPOLYH] $W=2u $L=30u
-.ENDS
-
-************************************************************************
-* Library Name: Potentiostat
-* Cell Name:    7_Calibration_current
-* View Name:    schematic
-************************************************************************
-
-.SUBCKT 7_Calibration_current Calib_curr GNDA S<3> S<2> S<1> S<0> VDDA curr
-*.PININFO Calib_curr:B GNDA:B S<3>:B S<2>:B S<1>:B S<0>:B VDDA:B curr:B
-MMP24 P1 Vmc D1 VDDA pmos4 W=3u L=10u M=2
-MMP7 Vmc Vmc Vm3 VDDA pmos4 W=3u L=10u M=2
-MMP19<0> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
-MMP19<1> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
-MMP19<2> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
-MMP19<3> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
-MMP19<4> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
-MMP19<5> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
-MMP23 P2 Vmc D2 VDDA pmos4 W=3u L=10u M=2
-MMP14 Calib_curr S0n P1 VDDA pmos4 W=2u L=1u M=1
-MMP3<0> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<1> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<2> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<3> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<4> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<5> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<6> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<7> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<8> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<9> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<10> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<11> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<12> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<13> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<14> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<15> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<16> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<17> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<18> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP3<19> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP6 Calib_curr S1n P2 VDDA pmos4 W=2u L=1u M=1
-MMP5 Calib_curr S2n P3 VDDA pmos4 W=2u L=1u M=1
-MMP4 Calib_curr S3n P4 VDDA pmos4 W=2u L=1u M=1
-MMP2<0> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP2<1> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP2<2> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP2<3> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP2<4> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP2<5> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP1<0> D4 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP1<1> D4 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP21 P4 Vmc D4 VDDA pmos4 W=3u L=10u M=2
-MMP8<0> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<1> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<2> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<3> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<4> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<5> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<6> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<7> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<8> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<9> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<10> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<11> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<12> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<13> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<14> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<15> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<16> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<17> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<18> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<19> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<20> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<21> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<22> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<23> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<24> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<25> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<26> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<27> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<28> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<29> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<30> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<31> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<32> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<33> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<34> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<35> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<36> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<37> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<38> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<39> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<40> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<41> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<42> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<43> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<44> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<45> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<46> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<47> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<48> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<49> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<50> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<51> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<52> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<53> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<54> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<55> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<56> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<57> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<58> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP8<59> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP22 P3 Vmc D3 VDDA pmos4 W=3u L=10u M=2
-MMP0<0> Vm3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMP0<1> Vm3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
-MMN2<0> Vm1 Vm1 Vm1 GNDA nmos4 W=1u L=4u M=1
-MMN2<1> Vm1 Vm1 Vm1 GNDA nmos4 W=1u L=4u M=1
-MMN20<0> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN20<1> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN1 P1 S<0> Calib_curr GNDA nmos4 W=5u L=1u M=2
-MMN0 P2 S<1> Calib_curr GNDA nmos4 W=5u L=1u M=1
-MMN15 P3 S<2> Calib_curr GNDA nmos4 W=5u L=1u M=1
-MMN17 P4 S<3> Calib_curr GNDA nmos4 W=5u L=1u M=1
-MMN7<0> curr curr Vm1 GNDA nmos4 W=1u L=4u M=4
-MMN7<1> curr curr Vm1 GNDA nmos4 W=1u L=4u M=4
-MMN11<0> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN11<1> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN11<2> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN11<3> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
-MMN19 Vmc curr o1 GNDA nmos4 W=1u L=4u M=4
-XI12 S<2> GNDA S2n VDDA / Inverter
-XI13 S<3> GNDA S3n VDDA / Inverter
-XI6 S<0> GNDA S0n VDDA / Inverter
-XI11 S<1> GNDA S1n VDDA / Inverter
-.ENDS
-
-************************************************************************
-* Library Name: Potentiostat
-* Cell Name:    8_CA_TIA_Front_calib
-* View Name:    schematic
-************************************************************************
-
-.SUBCKT 8_CA_TIA_Front_calib CE Calib_EN Calib_cur EN_100mV GNDA Ibias8 Ibias9 
-+ RE S<3> S<2> S<1> S<0> TIA_in VDDA V_EC Vout Vref WE v1500
-*.PININFO CE:B Calib_EN:B Calib_cur:B EN_100mV:B GNDA:B Ibias8:B Ibias9:B RE:B 
-*.PININFO S<3>:B S<2>:B S<1>:B S<0>:B TIA_in:B VDDA:B V_EC:B Vout:B Vref:B 
-*.PININFO WE:B v1500:B
-XI35 V_EC v1500 EN_100mV GNDA net1 VDDA / 7_MUX21
-XI30 WE net2 Calib_EN GNDA TIA_in VDDA / 7_MUX21
-CC4<0> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<1> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<2> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<3> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<4> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<5> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<6> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<7> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<8> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-CC4<9> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
-XI22 GNDA Ibias8 VDDA net1 RE CE / 6_CA_Front_Layout
-XI28 GNDA TIA_in Vout S<3> S<2> S<1> S<0> VDDA / 6_Resnet
-MC0 Calib_cur GNDA Calib_cur GNDA CVAR W=343.2u L=650.00n
-RR0 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
-XI33 GNDA Ibias9 VDDA Vref TIA_in Vout / 6_TIA_Front_Layout
-XI36 net2 GNDA S<3> S<2> S<1> S<0> VDDA Calib_cur / 7_Calibration_current
-.ENDS
-
-************************************************************************
-* Library Name: Potentiostat
+* Library Name: Potentiostat_cpoly
 * Cell Name:    7_PTAT_Layout
 * View Name:    schematic
 ************************************************************************
@@ -668,6 +291,7 @@ RR17 net11 net9 $[RPOLYH] $W=0.8u $L=50u
 RR16 net9 net8 $[RPOLYH] $W=0.8u $L=50u
 RR10 net2 net5 $[RPOLYH] $W=0.8u $L=50u
 RR31 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
+RR32 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
 RR30 net15 X $[RPOLYH] $W=2u $L=150u
 RR29 net16 net15 $[RPOLYH] $W=2u $L=150u
 RR25 Y U $[RPOLYH] $W=2u $L=150u
@@ -683,6 +307,8 @@ RR26 V_ptat net18 $[RPOLYH] $W=2u $L=150u
 RR28 net17 net16 $[RPOLYH] $W=2u $L=150u
 RR27 net18 net17 $[RPOLYH] $W=2u $L=150u
 RR19 V_ptat net12 $[RPOLYH] $W=2u $L=150u
+CC6 GNDA Ibias $[CPOLYA] area=688p perimeter=118u
+CC7 GNDA Ibias $[CPOLYA] area=2.2n perimeter=260u
 CC2<0> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
 CC2<1> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
 CC2<2> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
@@ -880,13 +506,391 @@ MMP3<18> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
 MMP3<19> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
 MC5 VDDA GNDA VDDA GNDA CVAR W=475.2u L=650.00n
 MC4 VDDA GNDA VDDA GNDA CVAR W=356.4u L=650.00n
-MC1 Ibias GNDA Ibias GNDA CVAR W=343.2u L=650.00n
 MC3 VDDA GNDA VDDA GNDA CVAR W=686.4u L=650.00n
 XI3 GNDA Ib2 VDDA vref net7 V_ptat_inv / 6_CA_Front_Layout
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat
+* Library Name: Potentiostat_cpoly
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter A GNDA Q VDDA
+*.PININFO A:B GNDA:B Q:B VDDA:B
+MM_i_0 Q A GNDA GNDA nmos4 W=0.4u L=0.35u M=1
+MM_i_1 Q A VDDA VDDA pmos4 W=0.7u L=0.35u M=1
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat_cpoly
+* Cell Name:    6_Resnet
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6_Resnet GNDA In Out S<3> S<2> S<1> S<0> VDDA
+*.PININFO GNDA:B In:B Out:B S<3>:B S<2>:B S<1>:B S<0>:B VDDA:B
+MMN19 In S<0> net5 GNDA nmos4 W=5u L=1u M=2
+MMN20 In S<1> net3 GNDA nmos4 W=5u L=1u M=1
+MMN15 In S<2> net1 GNDA nmos4 W=5u L=1u M=1
+MMN17 In S<3> net12 GNDA nmos4 W=5u L=1u M=1
+MMP14 net5 S0n In VDDA pmos4 W=2u L=1u M=1
+MMP15 net3 S1n In VDDA pmos4 W=2u L=1u M=1
+MMP5 net1 S2n In VDDA pmos4 W=2u L=1u M=1
+MMP3 net12 S3n In VDDA pmos4 W=2u L=1u M=1
+XI11 S<1> GNDA S1n VDDA / Inverter
+XI13 S<3> GNDA S3n VDDA / Inverter
+XI6 S<0> GNDA S0n VDDA / Inverter
+XI12 S<2> GNDA S2n VDDA / Inverter
+RR17 net7 net2 $[RPOLYH] $W=0.8u $L=500u
+RR5 net3 Out $[RPOLYH] $W=0.8u $L=500u
+RR11 net23 net21 $[RPOLYH] $W=0.8u $L=500u
+RR14 net22 net6 $[RPOLYH] $W=0.8u $L=500u
+RR10 net12 net23 $[RPOLYH] $W=0.8u $L=500u
+RR13 net20 net22 $[RPOLYH] $W=0.8u $L=500u
+RR12 net21 net20 $[RPOLYH] $W=0.8u $L=500u
+RR22 net10 Out $[RPOLYH] $W=0.8u $L=500u
+RR16 net4 net7 $[RPOLYH] $W=0.8u $L=500u
+RR15 net6 net4 $[RPOLYH] $W=0.8u $L=500u
+RR21 net8 net9 $[RPOLYH] $W=0.8u $L=500u
+RR18 net2 net10 $[RPOLYH] $W=0.8u $L=500u
+RR20 net9 Out $[RPOLYH] $W=0.8u $L=500u
+RR19 net1 net8 $[RPOLYH] $W=0.8u $L=500u
+RR6 net5 Out $[RPOLYH] $W=0.8u $L=150u
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat_cpoly
+* Cell Name:    6_TIA_Front_Layout
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6_TIA_Front_Layout GNDA Ibias VDDA Vin+ Vin- Vout
+*.PININFO GNDA:B Ibias:B VDDA:B Vin+:B Vin-:B Vout:B
+MMN22<0> GNDA GNDA GNDA GNDA nmos4 W=5u L=20u M=1
+MMN22<1> GNDA GNDA GNDA GNDA nmos4 W=5u L=20u M=1
+MMN19<0> Vm3 Ibias o1 GNDA nmos4 W=1u L=4u M=4
+MMN19<1> Vm3 Ibias o1 GNDA nmos4 W=1u L=4u M=4
+MMN21<0> Vm1 Vm1 Vm1 GNDA nmos4 W=1u L=4u M=1
+MMN21<1> Vm1 Vm1 Vm1 GNDA nmos4 W=1u L=4u M=1
+MMN11<0> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN11<1> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN11<2> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN11<3> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN15 Vout D2 GNDA GNDA nmos4 W=10u L=2u M=10
+MMN14 D2 D1 GNDA GNDA nmos4 W=5u L=20u M=1
+MMN13 D1 D1 GNDA GNDA nmos4 W=5u L=20u M=1
+MMN20<0> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN20<1> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN20<2> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN20<3> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN20<4> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN20<5> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN20<6> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN20<7> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN7 Ibias Ibias Vm1 GNDA nmos4 W=1u L=4u M=4
+MMP24<0> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<1> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<2> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<3> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<4> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<5> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<6> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<7> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<8> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<9> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<10> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<11> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<12> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<13> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<14> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<15> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<16> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<17> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<18> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<19> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<20> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<21> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<22> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<23> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<24> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<25> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<26> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<27> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<28> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<29> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<30> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<31> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<32> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP24<33> VDDA VDDA VDDA VDDA pmos4 W=1u L=10u M=1
+MMP23<0> VDDA VDDA VDDA VDDA pmos4 W=10u L=4u M=1
+MMP23<1> VDDA VDDA VDDA VDDA pmos4 W=10u L=4u M=1
+MMP23<2> VDDA VDDA VDDA VDDA pmos4 W=10u L=4u M=1
+MMP23<3> VDDA VDDA VDDA VDDA pmos4 W=10u L=4u M=1
+MMP21<0> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<1> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<2> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<3> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<4> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<5> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<6> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<7> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<8> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<9> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<10> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<11> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<12> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<13> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<14> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<15> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<16> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<17> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<18> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<19> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<20> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<21> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<22> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<23> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<24> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<25> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<26> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<27> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<28> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<29> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<30> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<31> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<32> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<33> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<34> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<35> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<36> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<37> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<38> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP21<39> Vout Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP11<0> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<1> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<2> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<3> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<4> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<5> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<6> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<7> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<8> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP11<9> D2 Vin+ S VDDA pmos4 W=10u L=4u M=1
+MMP10<0> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<1> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<2> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<3> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<4> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<5> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<6> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<7> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<8> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP10<9> D1 Vin- S VDDA pmos4 W=10u L=4u M=1
+MMP20<0> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP20<1> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP20<2> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP20<3> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP20<4> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP20<5> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP20<6> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP20<7> S Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP15<0> Vm3 Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+MMP15<1> Vm3 Vm3 VDDA VDDA pmos4 W=1u L=10u M=1
+CC5<0> Vout net24 $[CPOLYA] area=2.89n perimeter=214.9u
+CC5<1> Vout net24 $[CPOLYA] area=2.89n perimeter=214.9u
+CC5<2> Vout net24 $[CPOLYA] area=2.89n perimeter=214.9u
+CC5<3> Vout net24 $[CPOLYA] area=2.89n perimeter=214.9u
+CC9 GNDA Vm1 $[CPOLYA] area=1.32n perimeter=172u
+RR32 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
+RR7 net24 D2 $[RPOLYH] $W=2u $L=30u
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat_cpoly
+* Cell Name:    7_MUX21
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 7_MUX21 A0 A1 EN GNDA Out VDDA
+*.PININFO A0:B A1:B EN:B GNDA:B Out:B VDDA:B
+MMN1 A1 EN Out GNDA nmos4 W=10u L=1u M=2
+MMN0 A0 SN Out GNDA nmos4 W=10u L=1u M=2
+MMP2 Out SN A1 VDDA pmos4 W=10u L=1u M=4
+MMP1 Out EN A0 VDDA pmos4 W=10u L=1u M=4
+XI0 EN GNDA SN VDDA / Inverter
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat_cpoly
+* Cell Name:    7_Calibration_current
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 7_Calibration_current Calib_curr GNDA S<3> S<2> S<1> S<0> VDDA curr
+*.PININFO Calib_curr:B GNDA:B S<3>:B S<2>:B S<1>:B S<0>:B VDDA:B curr:B
+MMP24 P1 Vmc D1 VDDA pmos4 W=3u L=10u M=2
+MMP7 Vmc Vmc Vm3 VDDA pmos4 W=3u L=10u M=2
+MMP19<0> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
+MMP19<1> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
+MMP19<2> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
+MMP19<3> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
+MMP19<4> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
+MMP19<5> Vm3 Vm3 Vm3 VDDA pmos4 W=3u L=10u M=1
+MMP23 P2 Vmc D2 VDDA pmos4 W=3u L=10u M=2
+MMP14 Calib_curr S0n P1 VDDA pmos4 W=2u L=1u M=1
+MMP3<0> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<1> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<2> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<3> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<4> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<5> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<6> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<7> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<8> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<9> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<10> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<11> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<12> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<13> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<14> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<15> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<16> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<17> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<18> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP3<19> D2 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP6 Calib_curr S1n P2 VDDA pmos4 W=2u L=1u M=1
+MMP5 Calib_curr S2n P3 VDDA pmos4 W=2u L=1u M=1
+MMP4 Calib_curr S3n P4 VDDA pmos4 W=2u L=1u M=1
+MMP2<0> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP2<1> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP2<2> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP2<3> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP2<4> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP2<5> D3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP1<0> D4 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP1<1> D4 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP21 P4 Vmc D4 VDDA pmos4 W=3u L=10u M=2
+MMP8<0> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<1> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<2> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<3> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<4> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<5> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<6> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<7> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<8> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<9> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<10> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<11> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<12> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<13> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<14> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<15> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<16> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<17> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<18> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<19> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<20> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<21> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<22> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<23> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<24> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<25> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<26> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<27> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<28> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<29> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<30> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<31> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<32> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<33> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<34> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<35> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<36> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<37> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<38> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<39> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<40> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<41> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<42> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<43> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<44> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<45> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<46> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<47> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<48> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<49> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<50> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<51> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<52> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<53> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<54> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<55> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<56> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<57> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<58> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP8<59> D1 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP22 P3 Vmc D3 VDDA pmos4 W=3u L=10u M=2
+MMP0<0> Vm3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMP0<1> Vm3 Vm3 VDDA VDDA pmos4 W=3u L=10u M=1
+MMN2<0> Vm1 Vm1 Vm1 GNDA nmos4 W=1u L=4u M=1
+MMN2<1> Vm1 Vm1 Vm1 GNDA nmos4 W=1u L=4u M=1
+MMN20<0> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN20<1> o1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN1 P1 S<0> Calib_curr GNDA nmos4 W=5u L=1u M=2
+MMN0 P2 S<1> Calib_curr GNDA nmos4 W=5u L=1u M=1
+MMN15 P3 S<2> Calib_curr GNDA nmos4 W=5u L=1u M=1
+MMN17 P4 S<3> Calib_curr GNDA nmos4 W=5u L=1u M=1
+MMN7<0> curr curr Vm1 GNDA nmos4 W=1u L=4u M=4
+MMN7<1> curr curr Vm1 GNDA nmos4 W=1u L=4u M=4
+MMN11<0> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN11<1> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN11<2> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN11<3> Vm1 Vm1 GNDA GNDA nmos4 W=1u L=4u M=1
+MMN19 Vmc curr o1 GNDA nmos4 W=1u L=4u M=4
+XI12 S<2> GNDA S2n VDDA / Inverter
+XI13 S<3> GNDA S3n VDDA / Inverter
+XI6 S<0> GNDA S0n VDDA / Inverter
+XI11 S<1> GNDA S1n VDDA / Inverter
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat_cpoly
+* Cell Name:    8_CA_TIA_Front_calib
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8_CA_TIA_Front_calib CE Calib_EN Calib_cur EN_100mV GNDA Ibias8 Ibias9 
++ RE S<3> S<2> S<1> S<0> TIA_in VDDA V_EC Vout Vref WE v1500
+*.PININFO CE:B Calib_EN:B Calib_cur:B EN_100mV:B GNDA:B Ibias8:B Ibias9:B RE:B 
+*.PININFO S<3>:B S<2>:B S<1>:B S<0>:B TIA_in:B VDDA:B V_EC:B Vout:B Vref:B 
+*.PININFO WE:B v1500:B
+XI22 GNDA Ibias8 VDDA net1 RE CE / 6_CA_Front_Layout
+CC5 GNDA Calib_cur $[CPOLYA] area=1.73n perimeter=170.4u
+CC4<0> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<1> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<2> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<3> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<4> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<5> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<6> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<7> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<8> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC4<9> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
+CC3 GNDA Ibias9 $[CPOLYA] area=2.4n perimeter=200u
+XI28 GNDA TIA_in Vout S<3> S<2> S<1> S<0> VDDA / 6_Resnet
+XI33 GNDA Ibias9 VDDA Vref TIA_in Vout / 6_TIA_Front_Layout
+XI35 V_EC v1500 EN_100mV GNDA net1 VDDA / 7_MUX21
+XI30 WE net2 Calib_EN GNDA TIA_in VDDA / 7_MUX21
+RR32 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
+RR0 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
+RR1 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
+XI36 net2 GNDA S<3> S<2> S<1> S<0> VDDA Calib_cur / 7_Calibration_current
+.ENDS
+
+************************************************************************
+* Library Name: Potentiostat_cpoly
 * Cell Name:    8_Poten_PTAT
 * View Name:    schematic
 ************************************************************************
@@ -896,8 +900,8 @@ XI3 GNDA Ib2 VDDA vref net7 V_ptat_inv / 6_CA_Front_Layout
 *.PININFO CE:B Calib_EN:B Calib_i_cur:B EN_100mV:B GNDA:B Ib8:B Ib9:B Ib10:B 
 *.PININFO POT_OUT:B RE:B S<3>:B S<2>:B S<1>:B S<0>:B TIA_in:B VDDA:B VPI:B 
 *.PININFO V_EC:B WE:B v1500:B v1600:B
+XI56 GNDA Ib10 VDDA VPI v1600 / 7_PTAT_Layout
 XI25 CE Calib_EN Calib_i_cur EN_100mV GNDA Ib8 Ib9 RE S<3> S<2> S<1> S<0> 
 + TIA_in VDDA V_EC POT_OUT v1600 WE v1500 / 8_CA_TIA_Front_calib
-XI56 GNDA Ib10 VDDA VPI v1600 / 7_PTAT_Layout
 .ENDS
 

@@ -31,12 +31,12 @@ vuiLVSFormTable = '(
 	avView  nil
 	avCompareView  nil
 	additionalFunctionsButton  nil
-	schLibrary  "Potentiostat"
+	schLibrary  "Potentiostat_cpoly"
 	schCell  "8_Poten_PTAT"
 	schView  "schematic"
 	existingSchNetlist  nil
 	useVerilogTopCell  nil
-	layLibrary  "Potentiostat"
+	layLibrary  "Potentiostat_cpoly"
 	layCell  "8_Poten_PTAT"
 	layView  "layout"
 	layUseExistingNL  nil

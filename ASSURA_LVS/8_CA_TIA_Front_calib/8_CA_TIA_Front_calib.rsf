@@ -72,14 +72,13 @@ if( isFile("LVSinclude_local.rsf") then
 ;----------------------------------------------------------------------------
 
 avParameters(
-  ?inputLayout ( "df2" "Potentiostat" )
+  ?inputLayout ( "df2" "Potentiostat_cpoly" )
   ?cellName "8_CA_TIA_Front_calib"
   ?viewName "layout"
   ?workingDirectory "ASSURA_LVS/8_CA_TIA_Front_calib"
   ?technology "c35b4c3"
   ?techLib "./assura_tech.lib"
   ?techRuleSet "Full"
-  ?set ("resimulate_extracted")
   ?avrpt t
   ?overwrite t
 )

@@ -1,25 +1,10 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
 \o Sub version:		sub-version  s364 
-\o Arguments:		-cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib -mpssession virtuoso660032 -mpshost il2244vt26_hrahimi -mpsversion 6.18 
+\o Arguments:		-cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib -mpssession virtuoso2148911 -mpshost il2244vt26_hrahimi -mpsversion 6.18 
 \o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		5.9.1
 \a nrSetCurrentWindow(cdsLibEditor)
-\a nrResizeWindow(cdsLibEditor list(1444 252 500 400))
-\a nrListItemAction(cdsLibEditor->mainTable 42 0)
-\o Active cell: 42 0 ""
-\a nrListItemAction(cdsLibEditor->mainTable 42 1)
-\o Active cell: 42 1 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 42 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/POWER_TRACKS/")
-\a nrListItemAction(cdsLibEditor->mainTable 42 0)
-\o Active cell: 42 0 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 42 0 "POWER_TRACKS")
-\a nrListItemAction(cdsLibEditor->mainTable 41 1)
-\o Active cell: 41 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/FBIAS/"
-\o QUESTION (CLE-205): You have made changes which have not been saved. \n\nWould you like to save your changes? 
-\a nrSetWindowVisibility(needSaveDialog "show")
-\a nrSetCurrentWindow(needSaveDialog)
-\a nrResizeWindow(needSaveDialog list(1500 344 369 136))
-\a needSaveDialog->yesButton->value = t
+\a nrResizeWindow(cdsLibEditor list(1418 252 500 400))
 \a exit(0)

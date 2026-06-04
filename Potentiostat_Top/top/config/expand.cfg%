@@ -1,4 +1,4 @@
-//Revision 31
+//Revision 36
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -17,13 +17,11 @@ viewlist verilogams, veriloga, behavioral, functional, \module , schematic, spec
 stoplist symbol, spectre;
 
 
-cell Potentiostat.\8_CA_TIA_Front_calib  binding :av_extracted;
-cell Potentiostat.\7_PTAT_Layout  binding :schematic;
-cell Potentiostat.\8_Poten_PTAT  binding :schematic;
+cell Potentiostat.\8_Poten_PTAT  binding :av_extracted;
 
 inst (FBIAS.fbias_por2_f:schematic).I1 binding :cmos_sch;
 inst (FBIAS.fbias_por2_f:schematic).I2 binding :cmos_sch;
-cell FBIAS.fbias_bias2_f binding :schematic;
+cell FBIAS.fbias_bias2_f binding :av_extracted;
 
 inst (VT26_IO_RING.IO_RING_S:schematic).I20 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S:schematic).I19 binding :cmos_sch;
@@ -53,6 +51,7 @@ inst (VT26_IO_RING.IO_RING_S_V:schematic).I6 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_V:schematic).I15 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_V:schematic).I16 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_V:schematic).I44 binding :cmos_sch;
+cell VT26_IO_RING.IO_RING_S_VH binding :drc_extracted;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I44 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I20 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I19 binding :cmos_sch;
@@ -67,6 +66,23 @@ inst (VT26_IO_RING.IO_RING_S_VH:schematic).I3 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I2 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I1 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I0 binding :cmos_sch;
+cell VT26_IO_RING.IO_RING_S_VHS binding :drc_extracted;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I0 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I1 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I2 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I3 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I4 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I5 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I6 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I15 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I16 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I17 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I18 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I19 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I20 binding :cmos_sch;
+inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I44 binding :cmos_sch;
+
+cell Potentiostat_cpoly.\8_Poten_PTAT  binding :av_extracted;
 
 
 endconfig

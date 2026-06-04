@@ -1,21 +1,21 @@
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Tue Jun  2 12:23:32 2026
+run on il2244vt26_hrahimi at Wed Jun  3 08:21:22 2026
 
-Schematic                        | Layout                        | Status
--------------------------------------------------------------------------------
-Inverter schematic Potentiostat  | Inverter layout Potentiostat  | matched  
-6_Resnet schematic Potentiostat  | 6_Resnet layout Potentiostat  | matched  
+Schematic                                     | Layout                                     | Status
+-----------------------------------------------------------------------------------------------------
+Inverter schematic Potentiostat_Cpoly_replaced| Inverter layout Potentiostat               | matched
+6_Resnet schematic Potentiostat_Cpoly_replaced| 6_Resnet layout Potentiostat_Cpoly_replaced| matched
 
 Schematic and Layout Match
 
 Schematic:
-  Library:Potentiostat
+  Library:Potentiostat_Cpoly_replaced
   Cell   :6_Resnet
   View   :schematic
 
 Layout:
-  Library:Potentiostat
+  Library:Potentiostat_Cpoly_replaced
   Cell   :6_Resnet
   View   :layout
 

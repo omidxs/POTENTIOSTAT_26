@@ -1,0 +1,33 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Apr 23 18:51:18 2026 
+Best design point: 1
+Design specs: 
+	MC	corner	Nominal - 
+	Bias Error		40.44u
+	CA Error		207.7u
+	rmsNoise(0.001 100000)		401.2u
+	R_TIA		1.006M
+	TIA_Error_Adjusted		168.7u
+	Phase Margin		68.21
+Design parameters: 
+	vdd		3.3
+	vtran		0
+	vref		1.6
+	Vb		1.7
+	vddpuls		0
+	R_ct		1M
+	Ib8		200n
+	Ib9		200n
+	Cdl		10n
+	Cdl_CE		10n
+	Rct_CE		100K
+	Rs_CE		10K
+	Rs_WE		10K
+	Idc		0
+
+Interactive.521
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.521 completed. 
+Current time: Thu Apr 23 18:51:32 2026 

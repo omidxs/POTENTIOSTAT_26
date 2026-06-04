@@ -1,5 +1,5 @@
-2026/06/02 15:14:10 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:14:10 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:33 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:33 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
             Assura (R) Physical Verification Version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25
             Release 4.1_USR6_EHF13
@@ -8,18 +8,18 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/assura on Tue Jun  2 15:14:10 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/assura on Wed Jun  3 09:55:34 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/aveng /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_DRC/7_PTAT_Layout/7_PTAT_Layout.rsf -restart -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:14:11 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:14:11 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:34 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:34 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Tue Jun  2 15:14:11 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/aveng on Wed Jun  3 09:55:34 2026
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -59,7 +59,7 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
  Summary Report: 7_PTAT_Layout.sum
  RSF           : /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_DRC/7_PTAT_Layout/7_PTAT_Layout.rsf
- Library Name  : Potentiostat
+ Library Name  : Potentiostat_cpoly
  CDSLIB Path   : "/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib"
  Cell Name     : 7_PTAT_Layout
  View Name     : layout
@@ -68,8 +68,8 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
  Work Directory: /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_DRC/7_PTAT_Layout
  Operating Mode: Legacy Mode is Off
 
-2026/06/02 15:14:11 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:14:11 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:35 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:35 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_DRC
 *WARNING* Failed to obtain license for Assura_DRC
 No Assura license available.
@@ -83,25 +83,25 @@ Checking out license for Pegasus_DRC
 Restarting with VDB Build 2 
 
 Building the VDB part 2 in background mode.
-2026/06/02 15:14:11 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:14:11 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:35 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:35 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Executing: substrate_all = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2026/06/02 15:14:12 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:14:12 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:35 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:35 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 
 Running in restart mode.
 
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.20  elap: 1  pf: 1  in: 0  out: 40  virt: 172M  phys: 840M
+cpu: 0.20  elap: 2  pf: 1  in: 0  out: 40  virt: 172M  phys: 839M
 
 Running the Task Processor, 19 cells, 12713 steps...
 
-Top Cell is '7_PTAT_Layout layout Potentiostat'
+Top Cell is '7_PTAT_Layout layout Potentiostat_cpoly'
 
 Executing: bkgnd = geomBkgnd()
 
@@ -7215,17 +7215,17 @@ Executing: bkgnd3 = geomOr(substrate_all)
 	   errorLayer(bkgnd3 "# INFO: C35B4/C35B3 ASSURA DRC DECK (REV9 DATE 26-Apr-2011) Last modified 07-Sept-2016 #")
 
 Finished running rules. Task processor time in main process:
-cpu: 3.30  elap: 3  pf: 344  in: 0  out: 3136  virt: 204M  phys: 1407M
+cpu: 3.32  elap: 3  pf: 350  in: 0  out: 3136  virt: 206M  phys: 1402M
 
 Started output post-processing ...
 
 Nothing to postprocess: No grid cells in the design
 
 Finished output post-processing
-cpu: 0.34  elap: 1  pf: 0  in: 0  out: 0  virt: 504M  phys: 1613M
+cpu: 0.35  elap: 1  pf: 0  in: 0  out: 0  virt: 504M  phys: 1617M
 
 Finished building the persistent database.
-cpu: 0.02  elap: 0  pf: 7  in: 0  out: 6504  virt: 506M  phys: 1624M
+cpu: 0.01  elap: 0  pf: 7  in: 0  out: 6504  virt: 506M  phys: 1629M
 
 
 *****  aveng terminated normally  *****
@@ -7234,8 +7234,8 @@ cpu: 0.02  elap: 0  pf: 7  in: 0  out: 6504  virt: 506M  phys: 1624M
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/aveng
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avrpt /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_DRC/7_PTAT_Layout/7_PTAT_Layout.rsf
-2026/06/02 15:14:17 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:14:17 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:40 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:40 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -7265,14 +7265,14 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avrpt on Tue Jun  2 15:14:17 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/avrpt on Wed Jun  3 09:55:41 2026
 
 
    Creating Error Database '7_PTAT_Layout'...
 
    Reading VDB ...
-2026/06/02 15:14:17 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:14:17 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:41 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:41 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -7696,7 +7696,7 @@ Rule      Message                                    FlatCount     RealCount
 (  418)  REC002 REC002 VIA3 not multiple 45 degre            0            0
 (  419)  REC002 REC002 MET4 not multiple 45 degre            0            0
 (  420)  REC002 REC002 PAD not multiple 45 degree            0            0
-(  421)  INFO: hot nwell                                   213           21
+(  421)  INFO: hot nwell                                   212           20
 (  422)  NW_W_1 Minimum NTUB width = 1.7                     0            0
 (  423)  NW_W_2 Minimum HOT_NTUB width = 3                   0            0
 (  424)  NW_S_1 Minimum spacing of NTUB with diff            0            0
@@ -7944,7 +7944,7 @@ Rule      Message                                    FlatCount     RealCount
 (  666)  E1IPCT Minimum PPLUS enclosure of POLY2C            0            0
 (  667)  E1IPCT Minimum PPLUS enclosure of POLY2C            0            0
 (  668)  S1IPP2 Minimum PPLUS to RPOLYH spacing =            0            0
-(  669)  RPOLYH_G2 Minimum high precision RPOLYH           439           95
+(  669)  RPOLYH_G2 Minimum high precision RPOLYH           446          102
 (  670)  W4P2 Minimum RPOLYZ width = 0.8                     0            0
 (  671)  S4P2P2 Minimum RPOLYZ spacing = 0.75                0            0
 (  672)  S4P2P2 Minimum RPOLYZ spacing = 0.75 not            0            0
@@ -8048,7 +8048,7 @@ Rule      Message                                    FlatCount     RealCount
 (  770)  ERC Warning: Floating met4                          0            0
 (  771)  ERC Warning: possible Z Diode                       0            0
 (  772)  ERC Warning: Gates connected to VDD/VCC            78           78
-(  773)  ERC Warning: Gates connected to VSS/GND           316          316
+(  773)  ERC Warning: Gates connected to VSS/GND           232          232
 (  774)  ERC Warning: floating gate not connected            0            0
 (  775)  ERC Warning: Distance well taps > 50                0            0
 (  776)  ERC Warning: illegal contact covering po            0            0
@@ -8753,7 +8753,7 @@ Rule      Message                                    FlatCount     RealCount
 ( 1475)  spiral_open_spiral_term22: ERC Warning :            0            0
 ( 1476)  # INFO: C35B4/C35B3 ASSURA DRC DECK (REV            1            1
 --------------------------------------------------------------------------------
-Total  errors:                                            1049          512
+Total  errors:                                             971          434
 --------------------------------------------------------------------------------
 
    Finished creating Error Database ...
@@ -8766,13 +8766,13 @@ Total  errors:                                            1049          512
    Rule 773 done.
    Rule 1476 done.
 
-avrpt cpu sec:    0.32  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.35  elapsed:     0  virtual:    93M
 
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avrpt
 
 Starting /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_DRC/7_PTAT_Layout/7_PTAT_Layout.rsf -restart -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:14:18 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:14:18 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 09:55:42 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 09:55:42 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Loading all available p-cell functions
 AMS_DB set to cds
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
@@ -8803,7 +8803,7 @@ Loading tech rule set file : /opt/pdk/ams/410/assura/c35b4/c35b4c3/techRuleSets
 Finished /opt/tools/cadence/installs/ASSURA41_618//tools.lnx86/assura/bin/avcallproc
 
 
-Run ended: Tue Jun  2 15:14:18 2026
+Run ended: Wed Jun  3 09:55:42 2026
 
 *****  Assura terminated normally  *****
 

@@ -43,13 +43,13 @@ WARNING (LBRCXU-241): No technology dir found at /opt/pdk/ams/410/assura/c35b4/c
 INFO (LBRCXU-108): Starting
 
  runUserCmd /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/rcxToDfII /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/__qrc.rcx_cmd -t -f /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/extview.tmp -w /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:30:36 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:30:36 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 11:34:31 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 11:34:31 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: rcxToDfII_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:42 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/rcxToDfII on Tue Jun  2 15:30:36 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/rcxToDfII on Wed Jun  3 11:34:31 2026
 
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
 	  Defined in assura_tech map file /opt/pdk/ams/410/assura/c35b4/assura_tech.lib at line 20
@@ -104,16 +104,16 @@ AMS_DB set to cds
 *WARNING* No library model for device "SP090S155D auLvs SPIRALS_4M".
 INFO (LBRCXM-612): Done Executing :runUserCmd
 
-2026/06/02 15:30:37 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:30:37 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 11:34:31 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 11:34:31 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 INFO (LBRCXU-108): Starting
 
  /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/avRCXxref /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/__qrc.rcx_cmd -useRunName
-2026/06/02 15:30:38 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:30:38 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 11:34:32 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 11:34:32 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 @(#)$CDS: avRCXxref_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Tue Jun  2 15:30:38 2026
+run on il2244vt26_hrahimi at Wed Jun  3 11:34:33 2026
 Reading rsf
 INFO (LBRCXU-114): Finished /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/avRCXxref
 
@@ -130,7 +130,7 @@ INFO (CAPGEN-41199):
 
 Techgen -trans results will be written to directory: /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT
 
-/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/tTWF020508DIPnJQ
+/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/tTWF020508b1k7o8
 INFO (CAPGEN-41737): Lvs connect layers MET1_pinshape MET2_pinshape MET3_pinshape MET4_pinshape METTSV OPTDEF_pinshape PADTSV_pinshape PAD_pinshape POLY1_pinshape T?1596 T?1597 T?1598 T?1599 T?1600 T?1601 T?1602 net_bondpad net_ndiff net_optdef net_pdiff rblock_met1 rblock_met2 rblock_met3 rblock_met4 rblock_metcap rblock_poly1 rblock_poly2 sbdcon spiral_term11 spiral_term22 tsv_term_bot tsv_term_top are not mapped in layer_setup file
 
 INFO (CAPGEN-41804): Lvs stamped by net_met1 layers rmet1_trm are not mapped in layer_setup file
@@ -145,9 +145,9 @@ INFO (CAPGEN-41804): Lvs stamped by net_psd layers pnpvert3_e are not mapped in 
 
 INFO (CAPGEN-41809):  Lvs connect via PAD net_met1 spiral_term are not mapped in layer_setup file.
 
-2026/06/02 15:30:39 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:30:39 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-rcxspice took  0.44 user, 0.48 sys, 1.00 elapsed, 30496.0 kbytes
+2026/06/03 11:34:34 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 11:34:34 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+rcxspice took  0.43 user, 0.47 sys, 1.00 elapsed, 30432.0 kbytes
 
 Successfully created RCX script '/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx.sh'
 WARNING (LBRCXM-617): Unable to obtain 1 license(s) of QTS100 24.10
@@ -314,8 +314,8 @@ vdbToRcx /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT \
 	8_Poten_PTAT -unit meters -- -V1 -H satfile -r \
 	/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT.xcn \
 	-df2 -xgl
-2026/06/02 15:30:40 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:30:40 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 11:34:34 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 11:34:34 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 @(#)$CDS: vdbToRcx_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:42 (sjfhw885) $
 20.1.2 Linux 64 bit - (Tue Mar 22 09:20:33 PDT 2022)
 Opening LVS data for 8_Poten_PTAT in /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT
@@ -324,111 +324,111 @@ Build pins/attributes took 0.1 sec.
 Processing MET3_pintext                         45 shapes 0.0 sec.
 Processing MET2_pintext                         27 shapes 0.0 sec.
 Processing MET1_pintext                         20 shapes 0.0 sec.
-create satfile took  0.71 user, 0.02 sys, 1.00 elapsed, 159084.0 kbytes
-write edge MET3_pintext took  0.00 user, 0.00 sys, 0.00 elapsed, 159388.0 kbytes
-write edge MET2_pintext took  0.00 user, 0.00 sys, 0.00 elapsed, 159388.0 kbytes
-write edge MET1_pintext took  0.00 user, 0.00 sys, 0.00 elapsed, 159388.0 kbytes
+create satfile took  0.69 user, 0.01 sys, 0.00 elapsed, 158936.0 kbytes
+write edge MET3_pintext took  0.00 user, 0.00 sys, 0.00 elapsed, 158936.0 kbytes
+write edge MET2_pintext took  0.00 user, 0.00 sys, 0.00 elapsed, 159240.0 kbytes
+write edge MET1_pintext took  0.00 user, 0.00 sys, 0.00 elapsed, 159240.0 kbytes
 Building net map file.		0.0 sec.
-create netmap file took 0.01 user, 0.00 sys, 0.00 elapsed, 159388.0 kbytes
-create net file took 0.00 user, 0.00 sys, 0.00 elapsed, 159388.0 kbytes
+create netmap file took 0.01 user, 0.00 sys, 0.00 elapsed, 159240.0 kbytes
+create net file took 0.00 user, 0.00 sys, 0.00 elapsed, 159240.0 kbytes
 Device creation took 0.0 sec
-Processing net_pdiffcon                      13642 shapes 0.0 sec.
-write edge net_pdiffcon took  0.01 user, 0.01 sys, 0.00 elapsed, 161236.0 kbytes
-Processing net_ndiffcon                      14993 shapes 0.0 sec.
-write edge net_ndiffcon took  0.01 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-Processing net_poly2con                        293 shapes 0.0 sec.
-write edge net_poly2con took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-Processing net_via2_met2                      5128 shapes 0.0 sec.
-write edge net_via2_met2 took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-Processing net_via1                          13111 shapes 0.0 sec.
-write edge net_via1 took  0.01 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-Processing net_presh_trm                        16 shapes 0.0 sec.
-write edge net_presh_trm took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-write edge CVAR_device_Device_85 took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-write edge CPOLY_NTUB_device_CAP_84 took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-write edge VERT10_device_BJT_82 took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-Processing CVAR_device_Device_85                 5 shapes 0.0 sec.
-Processing CPOLY_NTUB_device_CAP_84              4 shapes 0.0 sec.
+Processing net_pdiffcon                      14314 shapes 0.0 sec.
+write edge net_pdiffcon took  0.01 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+Processing net_ndiffcon                      15821 shapes 0.0 sec.
+write edge net_ndiffcon took  0.01 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+Processing net_poly2con                        659 shapes 0.0 sec.
+write edge net_poly2con took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+Processing net_via2_met2                      5138 shapes 0.0 sec.
+write edge net_via2_met2 took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+Processing net_via1                          12748 shapes 0.0 sec.
+write edge net_via1 took  0.01 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+Processing net_presh_trm                        24 shapes 0.0 sec.
+write edge net_presh_trm took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+write edge CVAR_device_Device_85 took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+write edge CPOLY_NTUB_device_CAP_84 took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+write edge VERT10_device_BJT_82 took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+Processing CVAR_device_Device_85                 3 shapes 0.0 sec.
+Processing CPOLY_NTUB_device_CAP_84              9 shapes 0.0 sec.
 Processing VERT10_device_BJT_82                  1 shapes 0.0 sec.
 Processing pnpvert10_c                           1 shapes 0.0 sec.
-write edge pnpvert10_c took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-write edge RPOLYH_NTUB_device_RES_66 took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-Processing RPOLYH_NTUB_device_RES_66             8 shapes 0.0 sec.
+write edge pnpvert10_c took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+write edge RPOLYH_NTUB_device_RES_66 took  0.01 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+Processing RPOLYH_NTUB_device_RES_66            12 shapes 0.0 sec.
 Processing net_pdiff_d_ntub                    587 shapes 0.0 sec.
-write edge net_pdiff_d_ntub took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
+write edge net_pdiff_d_ntub took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
 Processing net_ndiff_d_sub                     108 shapes 0.0 sec.
-write edge net_ndiff_d_sub took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-write edge P_NWD_device_DIODE_43 took  0.00 user, 0.00 sys, 0.00 elapsed, 161236.0 kbytes
-write edge PMOS_device_MOS_5 took  0.01 user, 0.00 sys, 0.00 elapsed, 161520.0 kbytes
-write edge NMOS_device_MOS_1 took  0.00 user, 0.00 sys, 0.00 elapsed, 161520.0 kbytes
-Processing P_NWD_device_DIODE_43                32 shapes 0.0 sec.
+write edge net_ndiff_d_sub took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+write edge P_NWD_device_DIODE_43 took  0.00 user, 0.00 sys, 0.00 elapsed, 161088.0 kbytes
+write edge PMOS_device_MOS_5 took  0.00 user, 0.00 sys, 1.00 elapsed, 161368.0 kbytes
+write edge NMOS_device_MOS_1 took  0.00 user, 0.00 sys, 0.00 elapsed, 161368.0 kbytes
+Processing P_NWD_device_DIODE_43                34 shapes 0.0 sec.
 Processing PMOS_device_MOS_5                   295 shapes 0.0 sec.
 Processing NMOS_device_MOS_1                    64 shapes 0.0 sec.
-Processing T?1599                               10 shapes 0.0 sec.
-write edge T?1599 took  0.00 user, 0.00 sys, 0.00 elapsed, 161520.0 kbytes
-Processing T?1598                              807 shapes 0.0 sec.
-write edge T?1598 took  0.00 user, 0.01 sys, 0.00 elapsed, 161520.0 kbytes
-Processing T?1597                               16 shapes 0.0 sec.
-write edge T?1597 took  0.00 user, 0.00 sys, 0.00 elapsed, 161828.0 kbytes
-Processing T?1596                              109 shapes 0.0 sec.
-write edge T?1596 took  0.00 user, 0.00 sys, 0.00 elapsed, 161828.0 kbytes
+Processing T?1599                                3 shapes 0.0 sec.
+write edge T?1599 took  0.00 user, 0.00 sys, 0.00 elapsed, 161368.0 kbytes
+Processing T?1598                              610 shapes 0.0 sec.
+write edge T?1598 took  0.00 user, 0.00 sys, 0.00 elapsed, 161368.0 kbytes
+Processing T?1597                               24 shapes 0.0 sec.
+write edge T?1597 took  0.00 user, 0.00 sys, 0.00 elapsed, 161676.0 kbytes
+Processing T?1596                               80 shapes 0.0 sec.
+write edge T?1596 took  0.00 user, 0.00 sys, 0.00 elapsed, 161676.0 kbytes
 Processing net_met3                            158 shapes 0.0 sec.
-write edge net_met3 took  0.00 user, 0.00 sys, 0.00 elapsed, 161828.0 kbytes
-Processing net_met2                            453 shapes 0.0 sec.
-write edge net_met2 took  0.00 user, 0.00 sys, 0.00 elapsed, 162092.0 kbytes
-Processing net_met1                           2601 shapes 0.0 sec.
-write edge net_met1 took  0.01 user, 0.00 sys, 0.00 elapsed, 162356.0 kbytes
-Processing net_poly1                           721 shapes 0.0 sec.
-write edge net_poly1 took  0.00 user, 0.00 sys, 0.00 elapsed, 162356.0 kbytes
-write edge cblock_poly2_psub took  0.00 user, 0.00 sys, 0.00 elapsed, 162356.0 kbytes
-write edge cblock_poly1_psub took  0.00 user, 0.00 sys, 0.00 elapsed, 162356.0 kbytes
-write edge cblock_poly2_poly1 took  0.00 user, 0.00 sys, 0.00 elapsed, 162356.0 kbytes
-write edge cblock_met1_fox took  0.00 user, 0.00 sys, 0.00 elapsed, 162356.0 kbytes
-write edge cblock_met2cap_met2 took  0.00 user, 0.00 sys, 0.00 elapsed, 162356.0 kbytes
-Processing cblock_poly2_psub                    13 shapes 0.0 sec.
-Processing cblock_poly1_psub                   673 shapes 0.0 sec.
-Processing cblock_poly2_poly1                    4 shapes 0.0 sec.
+write edge net_met3 took  0.01 user, 0.00 sys, 0.00 elapsed, 161676.0 kbytes
+Processing net_met2                            450 shapes 0.0 sec.
+write edge net_met2 took  0.00 user, 0.00 sys, 0.00 elapsed, 161676.0 kbytes
+Processing net_met1                           2413 shapes 0.0 sec.
+write edge net_met1 took  0.00 user, 0.01 sys, 0.00 elapsed, 161940.0 kbytes
+Processing net_poly1                           697 shapes 0.0 sec.
+write edge net_poly1 took  0.00 user, 0.00 sys, 0.00 elapsed, 162204.0 kbytes
+write edge cblock_poly2_psub took  0.00 user, 0.00 sys, 0.00 elapsed, 162204.0 kbytes
+write edge cblock_poly1_psub took  0.00 user, 0.00 sys, 0.00 elapsed, 162204.0 kbytes
+write edge cblock_poly2_poly1 took  0.00 user, 0.00 sys, 0.00 elapsed, 162204.0 kbytes
+write edge cblock_met1_fox took  0.00 user, 0.00 sys, 0.00 elapsed, 162204.0 kbytes
+write edge cblock_met2cap_met2 took  0.00 user, 0.00 sys, 0.00 elapsed, 162204.0 kbytes
+Processing cblock_poly2_psub                    17 shapes 0.0 sec.
+Processing cblock_poly1_psub                   589 shapes 0.0 sec.
+Processing cblock_poly2_poly1                    9 shapes 0.0 sec.
 Processing cblock_met1_fox                       0 shapes 0.0 sec.
 Processing cblock_met2cap_met2                   0 shapes 0.0 sec.
-Processing rblock_met2                          10 shapes 0.0 sec.
-write edge rblock_met2 took  0.00 user, 0.00 sys, 0.00 elapsed, 162620.0 kbytes
-Processing rblock_met1                         807 shapes 0.0 sec.
-write edge rblock_met1 took  0.00 user, 0.00 sys, 0.00 elapsed, 162620.0 kbytes
-Processing rblock_poly2                         16 shapes 0.0 sec.
-write edge rblock_poly2 took  0.00 user, 0.01 sys, 0.00 elapsed, 162620.0 kbytes
-Processing rblock_poly1                        109 shapes 0.0 sec.
-write edge rblock_poly1 took  0.00 user, 0.00 sys, 0.00 elapsed, 162620.0 kbytes
+Processing rblock_met2                           3 shapes 0.0 sec.
+write edge rblock_met2 took  0.00 user, 0.00 sys, 0.00 elapsed, 162204.0 kbytes
+Processing rblock_met1                         610 shapes 0.0 sec.
+write edge rblock_met1 took  0.00 user, 0.00 sys, 0.00 elapsed, 162468.0 kbytes
+Processing rblock_poly2                         24 shapes 0.0 sec.
+write edge rblock_poly2 took  0.00 user, 0.00 sys, 0.00 elapsed, 162468.0 kbytes
+Processing rblock_poly1                         80 shapes 0.0 sec.
+write edge rblock_poly1 took  0.01 user, 0.00 sys, 0.00 elapsed, 162468.0 kbytes
 Processing net_psd                             587 shapes 0.0 sec.
-write edge net_psd took  0.00 user, 0.00 sys, 0.00 elapsed, 162884.0 kbytes
+write edge net_psd took  0.00 user, 0.00 sys, 0.00 elapsed, 162468.0 kbytes
 Processing net_nsd                             108 shapes 0.0 sec.
-write edge net_nsd took  0.00 user, 0.00 sys, 0.00 elapsed, 162884.0 kbytes
-Processing net_subtap                           35 shapes 0.0 sec.
-write edge net_subtap took  0.00 user, 0.00 sys, 0.00 elapsed, 162884.0 kbytes
-Processing net_welltap                         772 shapes 0.0 sec.
-write edge net_welltap took  0.00 user, 0.00 sys, 0.00 elapsed, 162884.0 kbytes
+write edge net_nsd took  0.00 user, 0.00 sys, 0.00 elapsed, 162468.0 kbytes
+Processing net_subtap                           37 shapes 0.0 sec.
+write edge net_subtap took  0.00 user, 0.00 sys, 0.00 elapsed, 162732.0 kbytes
+Processing net_welltap                         691 shapes 0.0 sec.
+write edge net_welltap took  0.00 user, 0.00 sys, 0.00 elapsed, 162732.0 kbytes
 Processing pnpvert10_e                           1 shapes 0.0 sec.
-write edge pnpvert10_e took  0.00 user, 0.00 sys, 0.00 elapsed, 162884.0 kbytes
-Processing net_pdiff                           622 shapes 0.0 sec.
-write edge net_pdiff took  0.00 user, 0.00 sys, 0.00 elapsed, 163148.0 kbytes
-Processing net_ndiff                           880 shapes 0.0 sec.
-write edge net_ndiff took  0.00 user, 0.00 sys, 0.00 elapsed, 163148.0 kbytes
-Processing net_nwell                            47 shapes 0.0 sec.
-write edge net_nwell took  0.00 user, 0.00 sys, 0.00 elapsed, 163148.0 kbytes
-Processing net_poly2                            37 shapes 0.0 sec.
-write edge net_poly2 took  0.00 user, 0.00 sys, 0.00 elapsed, 163148.0 kbytes
-Processing net_poly1con                       3607 shapes 0.0 sec.
-write edge net_poly1con took  0.01 user, 0.00 sys, 0.00 elapsed, 163148.0 kbytes
+write edge pnpvert10_e took  0.00 user, 0.00 sys, 0.00 elapsed, 162732.0 kbytes
+Processing net_pdiff                           624 shapes 0.0 sec.
+write edge net_pdiff took  0.00 user, 0.00 sys, 0.00 elapsed, 162732.0 kbytes
+Processing net_ndiff                           799 shapes 0.0 sec.
+write edge net_ndiff took  0.00 user, 0.00 sys, 0.00 elapsed, 162996.0 kbytes
+Processing net_nwell                            49 shapes 0.0 sec.
+write edge net_nwell took  0.00 user, 0.00 sys, 0.00 elapsed, 162996.0 kbytes
+Processing net_poly2                            50 shapes 0.0 sec.
+write edge net_poly2 took  0.01 user, 0.00 sys, 0.00 elapsed, 162996.0 kbytes
+Processing net_poly1con                       3871 shapes 0.0 sec.
+write edge net_poly1con took  0.00 user, 0.00 sys, 0.00 elapsed, 162996.0 kbytes
 Processing net_psub                              1 shapes 0.0 sec.
-write edge net_psub took  0.00 user, 0.00 sys, 0.00 elapsed, 163412.0 kbytes
+write edge net_psub took  0.00 user, 0.00 sys, 0.00 elapsed, 162996.0 kbytes
 Processing MET3_pinshape                        44 shapes 0.0 sec.
-write edge MET3_pinshape took  0.00 user, 0.00 sys, 0.00 elapsed, 163412.0 kbytes
+write edge MET3_pinshape took  0.00 user, 0.00 sys, 0.00 elapsed, 162996.0 kbytes
 Processing MET2_pinshape                        28 shapes 0.0 sec.
-write edge MET2_pinshape took  0.00 user, 0.00 sys, 0.00 elapsed, 163412.0 kbytes
+write edge MET2_pinshape took  0.00 user, 0.00 sys, 0.00 elapsed, 163260.0 kbytes
 Processing MET1_pinshape                        23 shapes 0.0 sec.
-write edge MET1_pinshape took  0.00 user, 0.00 sys, 0.00 elapsed, 163412.0 kbytes
-sort edges took  0.09 user, 0.50 sys, 1.00 elapsed, 6636.0 kbytes
-sort labels took  0.00 user, 0.04 sys, 0.00 elapsed, 5092.0 kbytes
-sort edges and labels took  0.14 user, 0.66 sys, 1.00 elapsed, 163412.0 kbytes
+write edge MET1_pinshape took  0.00 user, 0.00 sys, 0.00 elapsed, 163260.0 kbytes
+sort edges took  0.05 user, 0.50 sys, 0.00 elapsed, 6372.0 kbytes
+sort labels took  0.00 user, 0.03 sys, 0.00 elapsed, 5048.0 kbytes
+sort edges and labels took  0.10 user, 0.65 sys, 0.00 elapsed, 163260.0 kbytes
 
 	vdbToRcx System Usage:
 	Elapsed:     2 seconds.
@@ -442,11 +442,11 @@ export GOALIE2DIR
 #==========================================================#
 
 densitymap -V -TC -o met3.den 55 net_met3
-densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 6552.0 kbytes
+densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 6568.0 kbytes
 densitymap -V -TC -o met2.den 55 net_met2
-densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 6656.0 kbytes
+densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 6552.0 kbytes
 densitymap -V -TC -o met1.den 47.5 net_met1
-densitymap took 0.00 user, 0.01 sys, 0.00 elapsed, 6512.0 kbytes
+densitymap took 0.01 user, 0.00 sys, 0.00 elapsed, 6572.0 kbytes
 /bin/cp NMOS_device_MOS_1 NMOS_device_MOS_1_orig
 geom NMOS_device_MOS_1 net_nsd - NMOS_device_MOS_1,10,i,1
 /bin/cp PMOS_device_MOS_5 PMOS_device_MOS_5_orig
@@ -498,106 +498,106 @@ inter net_poly2 net_poly2__c -t net_poly2_net_poly2__c_butt:edge
 #==========================================================#
 
 geom -V net_via2_met2 net_met3 net_met2 - net_via2_met2_net_met3_net_met2,111,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 8304.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8468.0 kbytes
 geom -V net_via1 net_met2 net_met1 - net_via1_net_met2_net_met1,111,i,2
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 9888.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 9796.0 kbytes
 geom -V net_poly2con net_met1 net_poly2 - net_poly2con_net_met1_net_poly2,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8296.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8176.0 kbytes
 geom -V net_poly1con net_met1 net_poly1 - net_poly1con_net_met1_net_poly1,111,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 8536.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 8496.0 kbytes
 geom -V net_ndiffcon net_met1 net_welltap - net_ndiffcon_net_met1_net_welltap,111,i,2
-geom took  0.00 user, 0.02 sys, 0.00 elapsed, 9620.0 kbytes
+geom took  0.01 user, 0.01 sys, 0.00 elapsed, 9704.0 kbytes
 geom -V net_ndiffcon net_met1 net_nsd - net_ndiffcon_net_met1_net_nsd,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 9400.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 9548.0 kbytes
 geom -V net_ndiffcon net_welltap net_nsd - net_ndiffcon_net_welltap_net_nsd,111,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 8872.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 9064.0 kbytes
 geom -V net_pdiffcon net_met1 net_subtap - net_pdiffcon_net_met1_net_subtap,111,i,2
-geom took  0.01 user, 0.01 sys, 0.00 elapsed, 9600.0 kbytes
+geom took  0.01 user, 0.01 sys, 0.00 elapsed, 9632.0 kbytes
 geom -V net_pdiffcon net_met1 net_psd - net_pdiffcon_net_met1_net_psd,111,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 9368.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 9584.0 kbytes
 geom -V net_pdiffcon net_subtap net_psd - net_pdiffcon_net_subtap_net_psd,111,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 9152.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8976.0 kbytes
 geom -V net_met1 MET1_pinshape - net_met1_MET1_pinshape_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7968.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7948.0 kbytes
 geom -V net_met2 MET2_pinshape - net_met2_MET2_pinshape_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7712.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7636.0 kbytes
 geom -V net_met3 MET3_pinshape - net_met3_MET3_pinshape_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7652.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7540.0 kbytes
 geom -V net_welltap net_ndiff - net_welltap_net_ndiff_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7760.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7732.0 kbytes
 geom -V net_nsd net_ndiff - net_nsd_net_ndiff_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7688.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7836.0 kbytes
 geom -V net_subtap net_pdiff - net_subtap_net_pdiff_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7704.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7748.0 kbytes
 geom -V net_psd net_pdiff - net_psd_net_pdiff_ovia,11,i,1
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7736.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7828.0 kbytes
 geom -V T?1596 rblock_poly1 - T?1596_rblock_poly1_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7752.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7412.0 kbytes
 geom -V T?1597 rblock_poly2 - T?1597_rblock_poly2_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7432.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7488.0 kbytes
 geom -V T?1598 rblock_met1 - T?1598_rblock_met1_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7660.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7836.0 kbytes
 geom -V T?1599 rblock_met2 - T?1599_rblock_met2_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7512.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7388.0 kbytes
 geom -V net_ndiff_d_sub net_ndiff - net_ndiff_d_sub_net_ndiff_ovia,11,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7772.0 kbytes
 geom -V net_pdiff_d_ntub net_pdiff - net_pdiff_d_ntub_net_pdiff_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7780.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7844.0 kbytes
 geom -V pnpvert10_e net_psd - pnpvert10_e_net_psd_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7744.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7656.0 kbytes
 geom -V net_presh_trm net_poly2 - net_presh_trm_net_poly2_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7636.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7440.0 kbytes
 geom -V net_via2_met2 net_met3 net_met2__c - net_via2_met2_net_met3_net_met2__c,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8316.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8108.0 kbytes
 geom -V net_via1 net_met2__c net_met1__c - net_via1_net_met2__c_net_met1__c,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8900.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 8584.0 kbytes
 geom -V net_via1 net_met2 net_met1__c - net_via1_net_met2_net_met1__c,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8852.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8916.0 kbytes
 geom -V net_via1 net_met2__c net_met1 - net_via1_net_met2__c_net_met1,111,i,2
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 9528.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 9388.0 kbytes
 geom -V net_poly2con net_met1__c net_poly2__c - net_poly2con_net_met1__c_net_poly2__c,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7752.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7832.0 kbytes
 geom -V net_poly2con net_met1 net_poly2__c - net_poly2con_net_met1_net_poly2__c,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8244.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8384.0 kbytes
 geom -V net_poly2con net_met1__c net_poly2 - net_poly2con_net_met1__c_net_poly2,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7776.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7780.0 kbytes
 geom -V net_poly1con net_met1__c net_poly1__c - net_poly1con_net_met1__c_net_poly1__c,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7924.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 8100.0 kbytes
 geom -V net_poly1con net_met1 net_poly1__c - net_poly1con_net_met1_net_poly1__c,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8460.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 8404.0 kbytes
 geom -V net_poly1con net_met1__c net_poly1 - net_poly1con_net_met1__c_net_poly1,111,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 8236.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8276.0 kbytes
 geom -V net_ndiffcon net_met1__c net_welltap - net_ndiffcon_net_met1__c_net_welltap,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 9120.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 9008.0 kbytes
 geom -V net_ndiffcon net_met1__c net_nsd - net_ndiffcon_net_met1__c_net_nsd,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8964.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 9068.0 kbytes
 geom -V net_pdiffcon net_met1__c net_subtap - net_pdiffcon_net_met1__c_net_subtap,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 9056.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 8956.0 kbytes
 geom -V net_pdiffcon net_met1__c net_psd - net_pdiffcon_net_met1__c_net_psd,111,i,2
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 9052.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 9032.0 kbytes
 geom -V net_met1__c MET1_pinshape - net_met1__c_MET1_pinshape_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7784.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7656.0 kbytes
 geom -V net_met2__c MET2_pinshape - net_met2__c_MET2_pinshape_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7548.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7564.0 kbytes
 geom -V net_presh_trm net_poly2__c - net_presh_trm_net_poly2__c_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7464.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7420.0 kbytes
 geom -V net_met1 net_met1_net_met1__c_butt - net_met1_net_met1_net_met1__c_butt_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7928.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7996.0 kbytes
 geom -V net_met1__c net_met1_net_met1__c_butt - net_met1__c_net_met1_net_met1__c_butt_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7768.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7736.0 kbytes
 geom -V net_met2 net_met2_net_met2__c_butt - net_met2_net_met2_net_met2__c_butt_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7580.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7616.0 kbytes
 geom -V net_met2__c net_met2_net_met2__c_butt - net_met2__c_net_met2_net_met2__c_butt_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7628.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7580.0 kbytes
 geom -V net_poly1 net_poly1_net_poly1__c_butt - net_poly1_net_poly1_net_poly1__c_butt_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7188.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7144.0 kbytes
 geom -V net_poly1__c net_poly1_net_poly1__c_butt - net_poly1__c_net_poly1_net_poly1__c_butt_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7132.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7076.0 kbytes
 geom -V net_poly2 net_poly2_net_poly2__c_butt - net_poly2_net_poly2_net_poly2__c_butt_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7252.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7184.0 kbytes
 geom -V net_poly2__c net_poly2_net_poly2__c_butt - net_poly2__c_net_poly2_net_poly2__c_butt_ovia,11,i,1
 
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7176.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7140.0 kbytes
 #==========================================================#
 # Flatten net file, routing, via and device layers
 #==========================================================#
@@ -607,28 +607,31 @@ beginFlattenInputs
 export SAVEDIR
 /bin/mv -f NET h_NET
 flatnet -V -li -h '/' h_NET NET
-id: 20, mnet: 4
-id: 20, mnet: 4
-id: 20, mnet: 4
-id: 20, mnet: 4
-id: 20, mnet: 4
-id: 20, mnet: 4
-id: 20, mnet: 4
-id: 20, mnet: 4
-id: 20, mnet: 4
-id: 20, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
+id: 19, mnet: 4
 id: 5, mnet: 5
 id: 5, mnet: 5
 id: 5, mnet: 6
 id: 5, mnet: 6
 id: 5, mnet: 7
-id: 20, mnet: 15
+id: 19, mnet: 15
 id: 5, mnet: 5
 id: 5, mnet: 5
 id: 5, mnet: 6
 id: 5, mnet: 6
 id: 5, mnet: 7
-id: 20, mnet: 15
+id: 19, mnet: 15
+id: 9, mnet: 5
+id: 9, mnet: 5
+id: 9, mnet: 5
 id: 9, mnet: 5
 id: 9, mnet: 5
 id: 9, mnet: 5
@@ -637,473 +640,469 @@ id: 9, mnet: 5
 id: 9, mnet: 8
 id: 9, mnet: 8
 id: 9, mnet: 8
-id: 9, mnet: 5
-id: 9, mnet: 5
-id: 9, mnet: 5
 id: 9, mnet: 7
 id: 9, mnet: 7
 id: 9, mnet: 7
 id: 9, mnet: 7
-id: 20, mnet: 76
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 8
-id: 14, mnet: 8
-id: 14, mnet: 8
-id: 14, mnet: 140
-id: 14, mnet: 140
-id: 14, mnet: 4
-id: 14, mnet: 4
-id: 14, mnet: 4
-id: 14, mnet: 4
-id: 20, mnet: 67
-id: 17, mnet: 5
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 9
-id: 17, mnet: 5
-id: 17, mnet: 5
-id: 17, mnet: 5
-id: 17, mnet: 7
-id: 17, mnet: 7
-id: 17, mnet: 7
-id: 17, mnet: 7
-id: 20, mnet: 78
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 8
-id: 19, mnet: 8
-id: 19, mnet: 4
-id: 20, mnet: 148
-id: 20, mnet: 140
-id: 35, mnet: 191
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 22, mnet: 5
-id: 34, mnet: 341
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 20084.0 kbytes
-mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 24, mnet: 6
-id: 34, mnet: 406
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 26, mnet: 4
-id: 34, mnet: 61
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 9
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 34, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 19, mnet: 8
-id: 19, mnet: 8
-id: 19, mnet: 4
-id: 34, mnet: 148
-id: 34, mnet: 140
-id: 34, mnet: 4
-id: 35, mnet: 882
+id: 19, mnet: 76
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 8
+id: 13, mnet: 8
+id: 13, mnet: 8
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 4
+id: 13, mnet: 4
+id: 13, mnet: 4
+id: 13, mnet: 4
+id: 19, mnet: 66
+id: 16, mnet: 5
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 9
+id: 16, mnet: 5
+id: 16, mnet: 5
+id: 16, mnet: 5
+id: 16, mnet: 7
+id: 16, mnet: 7
+id: 16, mnet: 7
+id: 16, mnet: 7
+id: 19, mnet: 78
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 8
+id: 18, mnet: 8
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 4
+id: 19, mnet: 46
+id: 34, mnet: 192
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 21, mnet: 5
+id: 33, mnet: 341
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 19608.0 kbytes
+
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 23, mnet: 6
+id: 33, mnet: 406
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 25, mnet: 4
+id: 33, mnet: 61
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 9
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 33, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 8
+id: 18, mnet: 8
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 4
+id: 33, mnet: 46
+id: 33, mnet: 4
+id: 34, mnet: 881
 netprint -V -N1 power_list:power_list_nums NET
 flattenTransistorData NMOS_device_MOS_1 meters
-flattub took  0.00 user, 0.01 sys, 0.00 elapsed, 10792.0 kbytes
-flatnet took 0.01 user, 0.01 sys, 0.00 elapsed, 18676.0 kbytes
+flattub took  0.00 user, 0.01 sys, 0.00 elapsed, 10692.0 kbytes
+flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 18452.0 kbytes
 id: 5, mnet: 3
 id: 5, mnet: 3
 id: 5, mnet: 2
 id: 5, mnet: 3
 id: 5, mnet: 3
 id: 5, mnet: 2
+id: 9, mnet: 2
+id: 9, mnet: 2
+id: 9, mnet: 2
 id: 9, mnet: 5
 id: 9, mnet: 5
 id: 9, mnet: 5
@@ -1111,60 +1110,57 @@ id: 9, mnet: 2
 id: 9, mnet: 2
 id: 9, mnet: 2
 id: 9, mnet: 2
-id: 9, mnet: 2
-id: 9, mnet: 2
-id: 9, mnet: 2
-id: 20, mnet: 11
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 14, mnet: 5
-id: 20, mnet: 25
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 20, mnet: 3
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 20, mnet: 14
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 5
-id: 19, mnet: 5
-id: 34, mnet: 14
-id: 35, mnet: 4
+id: 19, mnet: 11
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 5
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 19, mnet: 25
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 19, mnet: 3
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 19, mnet: 14
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 18, mnet: 5
+id: 18, mnet: 5
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 33, mnet: 14
+id: 34, mnet: 4
 WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
@@ -1187,9 +1183,9 @@ WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layou
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
-flattrans took 0.00 user, 0.02 sys, 0.00 elapsed, 6764.0 kbytes
+flattrans took 0.00 user, 0.02 sys, 0.00 elapsed, 6672.0 kbytes
 flattenTransistorData PMOS_device_MOS_5 meters
-flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 10948.0 kbytes
+flattub took  0.00 user, 0.01 sys, 0.00 elapsed, 10808.0 kbytes
 id: 5, mnet: 5
 id: 5, mnet: 5
 id: 5, mnet: 2
@@ -1205,263 +1201,263 @@ id: 9, mnet: 2
 id: 9, mnet: 2
 id: 9, mnet: 2
 id: 9, mnet: 2
-id: 20, mnet: 101
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 20, mnet: 85
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 20, mnet: 4
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 20, mnet: 97
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 22, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mneflatnet took 0.00 user, 0.03 sys, 0.00 elapsed, 18944.0 kbytes
+id: 19, mnet: 101
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 19, mnet: 85
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 19, mnet: 4
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 19, mnet: 97
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 21, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mneflatnet took 0.01 user, 0.01 sys, 0.00 elapsed, 19140.0 kbytes
 t: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 19, mnet: 2
-id: 34, mnet: 97
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 18, mnet: 2
+id: 33, mnet: 97
 WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
@@ -1484,91 +1480,91 @@ WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layou
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
-flattrans took 0.00 user, 0.02 sys, 0.00 elapsed, 6696.0 kbytes
+flattrans took 0.00 user, 0.02 sys, 0.00 elapsed, 6568.0 kbytes
 flattenBJTData VERT10_device_BJT_82 meters
-flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 10776.0 kbytes
-flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 17840.0 kbytes
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
-id: 24, mnet: 2
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 10916.0 kbytes
+flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 17972.0 kbytes
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
+id: 23, mnet: 2
 WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
@@ -1591,51 +1587,51 @@ WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layou
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
-flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6616.0 kbytes
+flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6764.0 kbytes
 flattenResData RPOLYH_NTUB_device_RES_66 meters
-flattub took  0.01 user, 0.01 sys, 0.00 elapsed, 10772.0 kbytes
-flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 18144.0 kbytes
-id: 20, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 35, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 34, mnet: 2
-id: 35, mnet: 2
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 10872.0 kbytes
+flatnet took 0.00 user, 0.01 sys, 0.00 elapsed, 18180.0 kbytes
+id: 19, mnet: 3
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 19, mnet: 2
+id: 19, mnet: 2
+id: 34, mnet: 4
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 33, mnet: 2
+id: 34, mnet: 3
 WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
@@ -1658,47 +1654,50 @@ WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layou
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
-flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6780.0 kbytes
+flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6612.0 kbytes
 flattenCapData CPOLY_NTUB_device_CAP_84 meters
-flattub took  0.00 user, 0.01 sys, 0.00 elapsed, 10672.0 kbytes
-flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 18096.0 kbytes
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 20, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 14, mnet: 2
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 10764.0 kbytes
+flatnet took 0.00 user, 0.01 sys, 0.00 elapsed, 18224.0 kbytes
 id: 19, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
-id: 26, mnet: 2
 id: 19, mnet: 2
-id: 34, mnet: 2
+id: 19, mnet: 2
+id: 19, mnet: 2
+id: 19, mnet: 2
+id: 19, mnet: 2
+id: 19, mnet: 2
+id: 19, mnet: 2
+id: 19, mnet: 2
+id: 19, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 13, mnet: 2
+id: 19, mnet: 2
+id: 18, mnet: 2
+id: 34, mnet: 3
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 25, mnet: 2
+id: 18, mnet: 2
+id: 33, mnet: 2
+id: 34, mnet: 3
 WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
@@ -1721,33 +1720,29 @@ WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layou
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
-flattrans took 0.00 user, 0.02 sys, 0.00 elapsed, 6688.0 kbytes
+flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6656.0 kbytes
 flattenDiodeData P_NWD_device_DIODE_43 meters
-flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 10648.0 kbytes
-flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 18124.0 kbytes
+flattub took  0.00 user, 0.01 sys, 0.00 elapsed, 10696.0 kbytes
+flatnet took 0.00 user, 0.01 sys, 0.00 elapsed, 18116.0 kbytes
 id: 5, mnet: 2
-id: 20, mnet: 2
+id: 19, mnet: 2
 id: 5, mnet: 2
-id: 20, mnet: 2
+id: 19, mnet: 2
 id: 9, mnet: 2
 id: 9, mnet: 2
 id: 9, mnet: 2
 id: 9, mnet: 2
-id: 20, mnet: 7
-id: 14, mnet: 2
-id: 14, mnet: 2
-id: 20, mnet: 4
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 17, mnet: 2
-id: 20, mnet: 6
-id: 20, mnet: 5
-id: 20, mnet: 2
-id: 35, mnet: 2
-id: 34, mnet: 5
-id: 34, mnet: 2
-id: 35, mnet: 11
+id: 19, mnet: 7
+id: 19, mnet: 5
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 16, mnet: 2
+id: 19, mnet: 6
+id: 19, mnet: 4
+id: 34, mnet: 4
+id: 33, mnet: 4
+id: 34, mnet: 12
 WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
@@ -1770,7 +1765,7 @@ WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layou
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
-flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6708.0 kbytes
+flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6776.0 kbytes
 flattenDeviceData BOX meters
 WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
@@ -1794,9 +1789,9 @@ WARNING (LBMISC-215292): parameter 'Bends' is not defined in cell 'rpolyhc layou
 
 WARNING (LBMISC-215292): parameter 'Dummy' is not defined in cell 'rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="500u" r="1M" w="800n" in1=R5'
 
-flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6880.0 kbytes
+flattrans took 0.00 user, 0.01 sys, 0.00 elapsed, 6924.0 kbytes
 flattenLayers cblock_poly2_poly1 cblock_poly1_psub cblock_poly2_psub
-flattub took  0.00 user, 0.02 sys, 0.00 elapsed, 6968.0 kbytes
+flattub took  0.00 user, 0.03 sys, 0.00 elapsed, 6972.0 kbytes
 flattenLayers -m net_via2_met2 net_via1 net_poly2con net_poly1con \
 	net_ndiffcon net_pdiffcon net_met3 net_met2 net_met1 net_poly2 \
 	net_presh_trm net_poly1 net_welltap net_subtap net_ndiff_d_sub \
@@ -1837,7 +1832,7 @@ flattenLayers -m net_via2_met2 net_via1 net_poly2con net_poly1con \
 	net_poly2_net_poly2__c_butt \
 	net_poly2__c_net_poly2_net_poly2__c_butt_ovia CVAR_device_Device_85 \
 	NMOS_device_MOS_1_orig PMOS_device_MOS_5_orig
-flattub took  0.22 user, 0.06 sys, 0.00 elapsed, 21200.0 kbytes
+flattub took  0.22 user, 0.06 sys, 1.00 elapsed, 20772.0 kbytes
 endFlattenInputs
 
 #==========================================================#
@@ -1863,9 +1858,9 @@ reconnect -cgnd ${CAP_GROUND} -float floatlvsnetsfile -tf \
 iprint -count floatlvsnetsfile > floatlvsnetsfile.txt
 geom NMOS_device_MOS_1,PMOS_device_MOS_5 - qrcgate,1,i,1
 geom -V  NMOS_device_MOS_1,PMOS_device_MOS_5 - qrcpoly__0,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7012.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6892.0 kbytes
 geom -V  qrcpoly__0 - qrcpoly,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6852.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6960.0 kbytes
 /bin/rm -f qrcpoly__0
 iprint -count floatlvsnetsfile > input_nets_summary.log
 iprint -imerge power_list_nums floatlvsnetsfile power_list_nums2
@@ -1877,125 +1872,125 @@ cp power_list_nums2 power_list_nums
 #==========================================================#
 
 selectNetsByNumber power_list_nums MET1_pinshape p_rMET1_pinshape np_rMET1_pinshape
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6004.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5900.0 kbytes
 selectNetsByNumber power_list_nums MET2_pinshape p_rMET2_pinshape np_rMET2_pinshape
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5972.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6040.0 kbytes
 selectNetsByNumber power_list_nums MET3_pinshape p_rMET3_pinshape np_rMET3_pinshape
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5924.0 kbytes
 selectNetsByNumber power_list_nums T?1596 p_rT?1596 np_rT?1596
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5920.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5980.0 kbytes
 selectNetsByNumber power_list_nums T?1597 p_rT?1597 np_rT?1597
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6004.0 kbytes
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5916.0 kbytes
 selectNetsByNumber power_list_nums T?1598 p_rT?1598 np_rT?1598
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5976.0 kbytes
-selectNetsByNumber power_list_nums T?1599 p_rT?1599 np_rT?1599
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5972.0 kbytes
-selectNetsByNumber power_list_nums net_met1 p_rnet_met1 np_rnet_met1
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5968.0 kbytes
-selectNetsByNumber power_list_nums net_met1__c p_rnet_met1__c np_rnet_met1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5900.0 kbytes
-selectNetsByNumber power_list_nums net_met1_net_met1__c_butt p_rnet_met1_net_met1__c_butt np_rnet_met1_net_met1__c_butt
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6004.0 kbytes
-selectNetsByNumber power_list_nums net_met2 p_rnet_met2 np_rnet_met2
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5916.0 kbytes
-selectNetsByNumber power_list_nums net_met2__c p_rnet_met2__c np_rnet_met2__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5920.0 kbytes
-selectNetsByNumber power_list_nums net_met2_net_met2__c_butt p_rnet_met2_net_met2__c_butt np_rnet_met2_net_met2__c_butt
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5960.0 kbytes
-selectNetsByNumber power_list_nums net_met3 p_rnet_met3 np_rnet_met3
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6004.0 kbytes
-selectNetsByNumber power_list_nums net_ndiff p_rnet_ndiff np_rnet_ndiff
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5976.0 kbytes
-selectNetsByNumber power_list_nums net_ndiff_d_sub p_rnet_ndiff_d_sub np_rnet_ndiff_d_sub
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5912.0 kbytes
-selectNetsByNumber power_list_nums net_nsd p_rnet_nsd np_rnet_nsd
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5980.0 kbytes
-selectNetsByNumber power_list_nums net_pdiff p_rnet_pdiff np_rnet_pdiff
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6028.0 kbytes
-selectNetsByNumber power_list_nums net_pdiff_d_ntub p_rnet_pdiff_d_ntub np_rnet_pdiff_d_ntub
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5976.0 kbytes
-selectNetsByNumber power_list_nums net_poly1 p_rnet_poly1 np_rnet_poly1
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6100.0 kbytes
-selectNetsByNumber power_list_nums net_poly1__c p_rnet_poly1__c np_rnet_poly1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6032.0 kbytes
-selectNetsByNumber power_list_nums net_poly1_net_poly1__c_butt p_rnet_poly1_net_poly1__c_butt np_rnet_poly1_net_poly1__c_butt
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5992.0 kbytes
-selectNetsByNumber power_list_nums net_poly2 p_rnet_poly2 np_rnet_poly2
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5900.0 kbytes
-selectNetsByNumber power_list_nums net_poly2__c p_rnet_poly2__c np_rnet_poly2__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6068.0 kbytes
-selectNetsByNumber power_list_nums net_poly2_net_poly2__c_butt p_rnet_poly2_net_poly2__c_butt np_rnet_poly2_net_poly2__c_butt
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5904.0 kbytes
-selectNetsByNumber power_list_nums net_presh_trm p_rnet_presh_trm np_rnet_presh_trm
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6096.0 kbytes
-selectNetsByNumber power_list_nums net_psd p_rnet_psd np_rnet_psd
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6076.0 kbytes
-selectNetsByNumber power_list_nums net_subtap p_rnet_subtap np_rnet_subtap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5900.0 kbytes
-selectNetsByNumber power_list_nums net_welltap p_rnet_welltap np_rnet_welltap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6032.0 kbytes
-selectNetsByNumber power_list_nums pnpvert10_e p_rpnpvert10_e np_rpnpvert10_e
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5964.0 kbytes
-selectNetsByNumber power_list_nums rblock_met1 p_rrblock_met1 np_rrblock_met1
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6024.0 kbytes
-selectNetsByNumber power_list_nums rblock_met2 p_rrblock_met2 np_rrblock_met2
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6156.0 kbytes
-selectNetsByNumber power_list_nums rblock_poly1 p_rrblock_poly1 np_rrblock_poly1
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5980.0 kbytes
-selectNetsByNumber power_list_nums rblock_poly2 p_rrblock_poly2 np_rrblock_poly2
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5980.0 kbytes
-selectNetsByNumber power_list_nums net_psub p_rnet_psub np_rnet_psub
+selectNetsByNumber power_list_nums T?1599 p_rT?1599 np_rT?1599
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6096.0 kbytes
-selectNetsByNumber power_list_nums net_nwell p_rnet_nwell np_rnet_nwell
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5976.0 kbytes
-selectNetsByNumber power_list_nums pnpvert10_c p_rpnpvert10_c np_rpnpvert10_c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6156.0 kbytes
-selectNetsByNumber power_list_nums net_poly1con_net_met1_net_poly1 p_rnet_poly1con_net_met1_net_poly1 np_rnet_poly1con_net_met1_net_poly1
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5936.0 kbytes
-selectNetsByNumber power_list_nums net_poly2con_net_met1_net_poly2 p_rnet_poly2con_net_met1_net_poly2 np_rnet_poly2con_net_met1_net_poly2
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5944.0 kbytes
-selectNetsByNumber power_list_nums net_presh_trm_net_poly2_ovia p_rnet_presh_trm_net_poly2_ovia np_rnet_presh_trm_net_poly2_ovia
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6008.0 kbytes
-selectNetsByNumber power_list_nums net_via1_net_met2_net_met1 p_rnet_via1_net_met2_net_met1 np_rnet_via1_net_met2_net_met1
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5984.0 kbytes
-selectNetsByNumber power_list_nums net_via2_met2_net_met3_net_met2 p_rnet_via2_met2_net_met3_net_met2 np_rnet_via2_met2_net_met3_net_met2
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5976.0 kbytes
-selectNetsByNumber power_list_nums net_via2_met2_net_met3_net_met2__c p_rnet_via2_met2_net_met3_net_met2__c np_rnet_via2_met2_net_met3_net_met2__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5944.0 kbytes
-selectNetsByNumber power_list_nums net_via1_net_met2__c_net_met1__c p_rnet_via1_net_met2__c_net_met1__c np_rnet_via1_net_met2__c_net_met1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5968.0 kbytes
-selectNetsByNumber power_list_nums net_via1_net_met2_net_met1__c p_rnet_via1_net_met2_net_met1__c np_rnet_via1_net_met2_net_met1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6148.0 kbytes
-selectNetsByNumber power_list_nums net_via1_net_met2__c_net_met1 p_rnet_via1_net_met2__c_net_met1 np_rnet_via1_net_met2__c_net_met1
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5944.0 kbytes
-selectNetsByNumber power_list_nums net_poly2con_net_met1__c_net_poly2__c p_rnet_poly2con_net_met1__c_net_poly2__c np_rnet_poly2con_net_met1__c_net_poly2__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5920.0 kbytes
-selectNetsByNumber power_list_nums net_poly2con_net_met1_net_poly2__c p_rnet_poly2con_net_met1_net_poly2__c np_rnet_poly2con_net_met1_net_poly2__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5988.0 kbytes
-selectNetsByNumber power_list_nums net_poly2con_net_met1__c_net_poly2 p_rnet_poly2con_net_met1__c_net_poly2 np_rnet_poly2con_net_met1__c_net_poly2
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6016.0 kbytes
-selectNetsByNumber power_list_nums net_poly1con_net_met1__c_net_poly1__c p_rnet_poly1con_net_met1__c_net_poly1__c np_rnet_poly1con_net_met1__c_net_poly1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5972.0 kbytes
-selectNetsByNumber power_list_nums net_poly1con_net_met1_net_poly1__c p_rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1con_net_met1_net_poly1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5980.0 kbytes
-selectNetsByNumber power_list_nums net_poly1con_net_met1__c_net_poly1 p_rnet_poly1con_net_met1__c_net_poly1 np_rnet_poly1con_net_met1__c_net_poly1
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5984.0 kbytes
-selectNetsByNumber power_list_nums net_ndiffcon_net_met1_net_welltap p_rnet_ndiffcon_net_met1_net_welltap np_rnet_ndiffcon_net_met1_net_welltap
+selectNetsByNumber power_list_nums net_met1 p_rnet_met1 np_rnet_met1
 epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5984.0 kbytes
-selectNetsByNumber power_list_nums net_ndiffcon_net_met1_net_nsd p_rnet_ndiffcon_net_met1_net_nsd np_rnet_ndiffcon_net_met1_net_nsd
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5924.0 kbytes
-selectNetsByNumber power_list_nums net_pdiffcon_net_met1_net_subtap p_rnet_pdiffcon_net_met1_net_subtap np_rnet_pdiffcon_net_met1_net_subtap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5924.0 kbytes
-selectNetsByNumber power_list_nums net_pdiffcon_net_met1_net_psd p_rnet_pdiffcon_net_met1_net_psd np_rnet_pdiffcon_net_met1_net_psd
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5944.0 kbytes
-selectNetsByNumber power_list_nums net_ndiffcon_net_met1__c_net_welltap p_rnet_ndiffcon_net_met1__c_net_welltap np_rnet_ndiffcon_net_met1__c_net_welltap
+selectNetsByNumber power_list_nums net_met1__c p_rnet_met1__c np_rnet_met1__c
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5920.0 kbytes
-selectNetsByNumber power_list_nums net_ndiffcon_net_met1__c_net_nsd p_rnet_ndiffcon_net_met1__c_net_nsd np_rnet_ndiffcon_net_met1__c_net_nsd
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5912.0 kbytes
-selectNetsByNumber power_list_nums net_pdiffcon_net_met1__c_net_subtap p_rnet_pdiffcon_net_met1__c_net_subtap np_rnet_pdiffcon_net_met1__c_net_subtap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5984.0 kbytes
-selectNetsByNumber power_list_nums net_pdiffcon_net_met1__c_net_psd p_rnet_pdiffcon_net_met1__c_net_psd np_rnet_pdiffcon_net_met1__c_net_psd
+selectNetsByNumber power_list_nums net_met1_net_met1__c_butt p_rnet_met1_net_met1__c_butt np_rnet_met1_net_met1__c_butt
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5980.0 kbytes
+selectNetsByNumber power_list_nums net_met2 p_rnet_met2 np_rnet_met2
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5988.0 kbytes
+selectNetsByNumber power_list_nums net_met2__c p_rnet_met2__c np_rnet_met2__c
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6032.0 kbytes
+selectNetsByNumber power_list_nums net_met2_net_met2__c_butt p_rnet_met2_net_met2__c_butt np_rnet_met2_net_met2__c_butt
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5988.0 kbytes
+selectNetsByNumber power_list_nums net_met3 p_rnet_met3 np_rnet_met3
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6032.0 kbytes
+selectNetsByNumber power_list_nums net_ndiff p_rnet_ndiff np_rnet_ndiff
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5900.0 kbytes
+selectNetsByNumber power_list_nums net_ndiff_d_sub p_rnet_ndiff_d_sub np_rnet_ndiff_d_sub
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6072.0 kbytes
+selectNetsByNumber power_list_nums net_nsd p_rnet_nsd np_rnet_nsd
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6024.0 kbytes
+selectNetsByNumber power_list_nums net_pdiff p_rnet_pdiff np_rnet_pdiff
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6120.0 kbytes
+selectNetsByNumber power_list_nums net_pdiff_d_ntub p_rnet_pdiff_d_ntub np_rnet_pdiff_d_ntub
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5916.0 kbytes
+selectNetsByNumber power_list_nums net_poly1 p_rnet_poly1 np_rnet_poly1
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5924.0 kbytes
+selectNetsByNumber power_list_nums net_poly1__c p_rnet_poly1__c np_rnet_poly1__c
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5996.0 kbytes
+selectNetsByNumber power_list_nums net_poly1_net_poly1__c_butt p_rnet_poly1_net_poly1__c_butt np_rnet_poly1_net_poly1__c_butt
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5924.0 kbytes
+selectNetsByNumber power_list_nums net_poly2 p_rnet_poly2 np_rnet_poly2
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6040.0 kbytes
+selectNetsByNumber power_list_nums net_poly2__c p_rnet_poly2__c np_rnet_poly2__c
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5928.0 kbytes
+selectNetsByNumber power_list_nums net_poly2_net_poly2__c_butt p_rnet_poly2_net_poly2__c_butt np_rnet_poly2_net_poly2__c_butt
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5960.0 kbytes
+selectNetsByNumber power_list_nums net_presh_trm p_rnet_presh_trm np_rnet_presh_trm
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5980.0 kbytes
+selectNetsByNumber power_list_nums net_psd p_rnet_psd np_rnet_psd
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6004.0 kbytes
+selectNetsByNumber power_list_nums net_subtap p_rnet_subtap np_rnet_subtap
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6156.0 kbytes
+selectNetsByNumber power_list_nums net_welltap p_rnet_welltap np_rnet_welltap
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5992.0 kbytes
+selectNetsByNumber power_list_nums pnpvert10_e p_rpnpvert10_e np_rpnpvert10_e
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5904.0 kbytes
+selectNetsByNumber power_list_nums rblock_met1 p_rrblock_met1 np_rrblock_met1
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6040.0 kbytes
+selectNetsByNumber power_list_nums rblock_met2 p_rrblock_met2 np_rrblock_met2
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5980.0 kbytes
+selectNetsByNumber power_list_nums rblock_poly1 p_rrblock_poly1 np_rrblock_poly1
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6092.0 kbytes
+selectNetsByNumber power_list_nums rblock_poly2 p_rrblock_poly2 np_rrblock_poly2
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5968.0 kbytes
+selectNetsByNumber power_list_nums net_psub p_rnet_psub np_rnet_psub
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6152.0 kbytes
+selectNetsByNumber power_list_nums net_nwell p_rnet_nwell np_rnet_nwell
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5988.0 kbytes
+selectNetsByNumber power_list_nums pnpvert10_c p_rpnpvert10_c np_rpnpvert10_c
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6052.0 kbytes
+selectNetsByNumber power_list_nums net_poly1con_net_met1_net_poly1 p_rnet_poly1con_net_met1_net_poly1 np_rnet_poly1con_net_met1_net_poly1
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6068.0 kbytes
+selectNetsByNumber power_list_nums net_poly2con_net_met1_net_poly2 p_rnet_poly2con_net_met1_net_poly2 np_rnet_poly2con_net_met1_net_poly2
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6032.0 kbytes
+selectNetsByNumber power_list_nums net_presh_trm_net_poly2_ovia p_rnet_presh_trm_net_poly2_ovia np_rnet_presh_trm_net_poly2_ovia
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5992.0 kbytes
+selectNetsByNumber power_list_nums net_via1_net_met2_net_met1 p_rnet_via1_net_met2_net_met1 np_rnet_via1_net_met2_net_met1
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5916.0 kbytes
+selectNetsByNumber power_list_nums net_via2_met2_net_met3_net_met2 p_rnet_via2_met2_net_met3_net_met2 np_rnet_via2_met2_net_met3_net_met2
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5940.0 kbytes
+selectNetsByNumber power_list_nums net_via2_met2_net_met3_net_met2__c p_rnet_via2_met2_net_met3_net_met2__c np_rnet_via2_met2_net_met3_net_met2__c
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5972.0 kbytes
+selectNetsByNumber power_list_nums net_via1_net_met2__c_net_met1__c p_rnet_via1_net_met2__c_net_met1__c np_rnet_via1_net_met2__c_net_met1__c
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6156.0 kbytes
+selectNetsByNumber power_list_nums net_via1_net_met2_net_met1__c p_rnet_via1_net_met2_net_met1__c np_rnet_via1_net_met2_net_met1__c
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6016.0 kbytes
+selectNetsByNumber power_list_nums net_via1_net_met2__c_net_met1 p_rnet_via1_net_met2__c_net_met1 np_rnet_via1_net_met2__c_net_met1
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5860.0 kbytes
+selectNetsByNumber power_list_nums net_poly2con_net_met1__c_net_poly2__c p_rnet_poly2con_net_met1__c_net_poly2__c np_rnet_poly2con_net_met1__c_net_poly2__c
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6092.0 kbytes
+selectNetsByNumber power_list_nums net_poly2con_net_met1_net_poly2__c p_rnet_poly2con_net_met1_net_poly2__c np_rnet_poly2con_net_met1_net_poly2__c
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5920.0 kbytes
+selectNetsByNumber power_list_nums net_poly2con_net_met1__c_net_poly2 p_rnet_poly2con_net_met1__c_net_poly2 np_rnet_poly2con_net_met1__c_net_poly2
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5932.0 kbytes
+selectNetsByNumber power_list_nums net_poly1con_net_met1__c_net_poly1__c p_rnet_poly1con_net_met1__c_net_poly1__c np_rnet_poly1con_net_met1__c_net_poly1__c
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5900.0 kbytes
+selectNetsByNumber power_list_nums net_poly1con_net_met1_net_poly1__c p_rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1con_net_met1_net_poly1__c
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6068.0 kbytes
+selectNetsByNumber power_list_nums net_poly1con_net_met1__c_net_poly1 p_rnet_poly1con_net_met1__c_net_poly1 np_rnet_poly1con_net_met1__c_net_poly1
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5920.0 kbytes
+selectNetsByNumber power_list_nums net_ndiffcon_net_met1_net_welltap p_rnet_ndiffcon_net_met1_net_welltap np_rnet_ndiffcon_net_met1_net_welltap
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5948.0 kbytes
+selectNetsByNumber power_list_nums net_ndiffcon_net_met1_net_nsd p_rnet_ndiffcon_net_met1_net_nsd np_rnet_ndiffcon_net_met1_net_nsd
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6032.0 kbytes
+selectNetsByNumber power_list_nums net_pdiffcon_net_met1_net_subtap p_rnet_pdiffcon_net_met1_net_subtap np_rnet_pdiffcon_net_met1_net_subtap
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6044.0 kbytes
+selectNetsByNumber power_list_nums net_pdiffcon_net_met1_net_psd p_rnet_pdiffcon_net_met1_net_psd np_rnet_pdiffcon_net_met1_net_psd
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5988.0 kbytes
+selectNetsByNumber power_list_nums net_ndiffcon_net_met1__c_net_welltap p_rnet_ndiffcon_net_met1__c_net_welltap np_rnet_ndiffcon_net_met1__c_net_welltap
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5980.0 kbytes
+selectNetsByNumber power_list_nums net_ndiffcon_net_met1__c_net_nsd p_rnet_ndiffcon_net_met1__c_net_nsd np_rnet_ndiffcon_net_met1__c_net_nsd
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6016.0 kbytes
+selectNetsByNumber power_list_nums net_pdiffcon_net_met1__c_net_subtap p_rnet_pdiffcon_net_met1__c_net_subtap np_rnet_pdiffcon_net_met1__c_net_subtap
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5944.0 kbytes
+selectNetsByNumber power_list_nums net_pdiffcon_net_met1__c_net_psd p_rnet_pdiffcon_net_met1__c_net_psd np_rnet_pdiffcon_net_met1__c_net_psd
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6008.0 kbytes
 mv power_list_nums_orig power_list_nums
 
 #==========================================================#
@@ -2006,31 +2001,31 @@ mv power_list_nums_orig power_list_nums
 mergevia -V -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	np_rnet_poly1con_net_met1_net_poly1 rnet_poly1con_net_met1_net_poly1 \
 	- np_rnet_met1 np_rnet_poly1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30632.0 kbytes
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 30632.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 30680.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 30680.0 kbytes
 cp rnet_poly1con_net_met1_net_poly1 rnet_poly1con_net_met1_net_poly1_orig
 mergevia -V -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	np_rnet_poly2con_net_met1_net_poly2 rnet_poly2con_net_met1_net_poly2 \
 	- np_rnet_met1 np_rnet_poly2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30804.0 kbytes
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 30804.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30700.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 30700.0 kbytes
 cp rnet_poly2con_net_met1_net_poly2 rnet_poly2con_net_met1_net_poly2_orig
 mergevia -V -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	np_rnet_presh_trm_net_poly2_ovia rnet_presh_trm_net_poly2_ovia - \
 	np_rnet_presh_trm np_rnet_poly2
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23224.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23164.0 kbytes
 cp rnet_presh_trm_net_poly2_ovia rnet_presh_trm_net_poly2_ovia_orig
 mergevia -V -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	np_rnet_via1_net_met2_net_met1 rnet_via1_net_met2_net_met1 - \
 	np_rnet_met2 np_rnet_met1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30680.0 kbytes
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 30680.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 30504.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 30504.0 kbytes
 cp rnet_via1_net_met2_net_met1 rnet_via1_net_met2_net_met1_orig
 mergevia -V -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	np_rnet_via2_met2_net_met3_net_met2 rnet_via2_met2_net_met3_net_met2 \
 	- np_rnet_met3 np_rnet_met2
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 30636.0 kbytes
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 30636.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30628.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 30628.0 kbytes
 cp rnet_via2_met2_net_met3_net_met2 rnet_via2_met2_net_met3_net_met2_orig
 
 #==========================================================#
@@ -2038,11 +2033,11 @@ cp rnet_via2_met2_net_met3_net_met2 rnet_via2_met2_net_met3_net_met2_orig
 #==========================================================#
 
 createMosfetGateTerminal -V NMOS_device_MOS_1 np_rnet_poly1 NMOS_device_MOS_1_mgvia
-createMosfetGateTerminal took 0.17 user, 0.27 sys, 0.00 elapsed, 4512.0 kbytes
+createMosfetGateTerminal took 0.27 user, 0.35 sys, 1.00 elapsed, 4512.0 kbytes
 createMosfetGateTerminal -V PMOS_device_MOS_5 np_rnet_poly1 PMOS_device_MOS_5_mgvia
-createMosfetGateTerminal took 0.26 user, 0.34 sys, 1.00 elapsed, 4524.0 kbytes
+createMosfetGateTerminal took 0.28 user, 0.33 sys, 0.00 elapsed, 4480.0 kbytes
 grow -V 0.001 VERT10_device_BJT_82 g_VERT10_device_BJT_82
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6220.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6092.0 kbytes
 /bin/rm -f g_VERT10_device_BJT_82
 
 #==========================================================#
@@ -2051,30 +2046,30 @@ grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6220.0 kbytes
 
 createResistorTerminals RPOLYH_NTUB_device_RES_66 np_rnet_poly2 RPOLYH_NTUB_device_RES_66_rvia
 
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6220.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6936.0 kbytes
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7000.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6112.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7112.0 kbytes
+geom took  0.00 user, 0.00 sys, 1.00 elapsed, 7012.0 kbytes
 #==========================================================#
 # Create resistive interconnect CAP terminals
 #==========================================================#
 
 createCapDiodeTerm CPOLY_NTUB_device_CAP_84 np_rnet_poly2 CPOLY_NTUB_device_CAP_84_net_poly2_cvia
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6884.0 kbytes
-write edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6084.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6452.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7000.0 kbytes
+write edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6020.0 kbytes
+sort edges took  0.00 user, 0.01 sys, 0.00 elapsed, 6412.0 kbytes
 createCapDiodeTerm CPOLY_NTUB_device_CAP_84 np_rnet_poly1 CPOLY_NTUB_device_CAP_84_net_poly1_cvia
 
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6860.0 kbytes
-write edges took  0.00 user, 0.01 sys, 0.00 elapsed, 6160.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6552.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6892.0 kbytes
+write edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6164.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6556.0 kbytes
 #==========================================================#
 # Create resistive interconnect GENERIC device terminals
 #==========================================================#
 
 grow -V 0.001 CVAR_device_Device_85 g_CVAR_device_Device_85
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6140.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6088.0 kbytes
 geom -V g_CVAR_device_Device_85 np_rnet_poly1 - tmp_CVAR_device_Device_85_net_poly1_gdvia,11,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6896.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6892.0 kbytes
 ereduce -V -n2 -r tmp_CVAR_device_Device_85_net_poly1_gdvia CVAR_device_Device_85_net_poly1_gdvia
 /bin/rm -f tmp_CVAR_device_Device_85_net_poly1_gdvia
 
@@ -2085,19 +2080,19 @@ ereduce -V -n2 -r tmp_CVAR_device_Device_85_net_poly1_gdvia CVAR_device_Device_8
 flatlabel -V -tc -F MET1_pintext MET1_pintext_nr_labs
 INFO (FLTLBL-89003): exec labsort -V MET1_pintext_nr_labs
 
-sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4564.0 kbytes
-flatlabel took 0.00 user, 0.00 sys, 0.00 elapsed, 6168.0 kbytes
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4680.0 kbytes
+flatlabel took 0.00 user, 0.00 sys, 0.00 elapsed, 6060.0 kbytes
 flatlabel -V -tc -F MET2_pintext MET2_pintext_nr_labs
 INFO (FLTLBL-89003): exec labsort -V MET2_pintext_nr_labs
 
-sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4688.0 kbytes
-flatlabel took 0.00 user, 0.00 sys, 0.00 elapsed, 6216.0 kbytes
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4620.0 kbytes
+flatlabel took 0.00 user, 0.00 sys, 0.00 elapsed, 6168.0 kbytes
 flatlabel -V -tc -F MET3_pintext MET3_pintext_nr_labs
 
 INFO (FLTLBL-89003): exec labsort -V MET3_pintext_nr_labs
 
-sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4872.0 kbytes
-flatlabel took 0.00 user, 0.00 sys, 0.00 elapsed, 6232.0 kbytes
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4892.0 kbytes
+flatlabel took 0.00 user, 0.00 sys, 0.00 elapsed, 6140.0 kbytes
 #==========================================================#
 # Assign net numbers to cut regions
 #==========================================================#
@@ -2155,7 +2150,7 @@ connect -V -relocate NET np_rMET1_pinshape:np_rMET1_pinshape.conn \
 	MET1_pintext_nr_labs,1 MET2_pintext_nr_labs,2 MET3_pintext_nr_labs,3 \
 	MET1_pintext_nr_labs,8 MET2_pintext_nr_labs,10
 
-relocate took 0.05 user, 0.26 sys, 0.00 elapsed, 275688.0 kbytes
+relocate took 0.06 user, 0.28 sys, 1.00 elapsed, 275760.0 kbytes
 
 MET2_pintext_nr_labs:
 
@@ -2163,196 +2158,196 @@ MET2_pintext_nr_labs:
 MET1_pintext_nr_labs:
 
 
-connect took  0.01 user, 0.00 sys, 0.00 elapsed, 275732.0 kbytes
+connect took  0.00 user, 0.00 sys, 0.00 elapsed, 275824.0 kbytes
 #==========================================================#
 # Assign net numbers to resistor vias
 #==========================================================#
 
 geom -V net_met1_MET1_pinshape_ovia np_rMET1_pinshape.conn - tmp_rnet_met1_MET1_pinshape_ovia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7004.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6840.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_met1_MET1_pinshape_ovia rnet_met1_MET1_pinshape_ovia - \
 	np_rnet_met1 np_rMET1_pinshape
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 31148.0 kbytes
-stamp took  0.54 user, 0.29 sys, 1.00 elapsed, 275656.0 kbytes
-mergevia took 0.54 user, 0.33 sys, 1.00 elapsed, 31148.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 31264.0 kbytes
+stamp took  0.54 user, 0.29 sys, 1.00 elapsed, 275496.0 kbytes
+mergevia took 0.54 user, 0.34 sys, 1.00 elapsed, 31264.0 kbytes
 [dofork] stamp -V tmp_rnet_met1_MET1_pinshape_ovia rnet_met1_MET1_pinshape_ovia
 cp rnet_met1_MET1_pinshape_ovia rnet_met1_MET1_pinshape_ovia_orig
 /bin/rm -f tmp_rnet_met1_MET1_pinshape_ovia
 geom -V net_met1_net_met1_net_met1__c_butt_ovia np_rnet_met1_net_met1__c_butt.conn - tmp_rnet_met1_net_met1_net_met1__c_butt_ovia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6948.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6816.0 kbytes
 [ -r rnet_met1_net_met1_net_met1__c_butt_ovia ] && /bin/rm -f rnet_met1_net_met1_net_met1__c_butt_ovia
 /bin/mv -f tmp_rnet_met1_net_met1_net_met1__c_butt_ovia rnet_met1_net_met1_net_met1__c_butt_ovia
 geom -V net_met2_MET2_pinshape_ovia np_rMET2_pinshape.conn - tmp_rnet_met2_MET2_pinshape_ovia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7004.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_met2_MET2_pinshape_ovia rnet_met2_MET2_pinshape_ovia - \
 	np_rnet_met2 np_rMET2_pinshape
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30688.0 kbytes
-stamp took  0.53 user, 0.29 sys, 0.00 elapsed, 274996.0 kbytes
-mergevia took 0.53 user, 0.33 sys, 0.00 elapsed, 30688.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30616.0 kbytes
+stamp took  0.56 user, 0.27 sys, 1.00 elapsed, 275020.0 kbytes
+mergevia took 0.56 user, 0.31 sys, 1.00 elapsed, 30616.0 kbytes
 [dofork] stamp -V tmp_rnet_met2_MET2_pinshape_ovia rnet_met2_MET2_pinshape_ovia
 cp rnet_met2_MET2_pinshape_ovia rnet_met2_MET2_pinshape_ovia_orig
 /bin/rm -f tmp_rnet_met2_MET2_pinshape_ovia
 geom -V net_met2_net_met2_net_met2__c_butt_ovia np_rnet_met2_net_met2__c_butt.conn - tmp_rnet_met2_net_met2_net_met2__c_butt_ovia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6932.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6960.0 kbytes
 [ -r rnet_met2_net_met2_net_met2__c_butt_ovia ] && /bin/rm -f rnet_met2_net_met2_net_met2__c_butt_ovia
 /bin/mv -f tmp_rnet_met2_net_met2_net_met2__c_butt_ovia rnet_met2_net_met2_net_met2__c_butt_ovia
 geom -V net_met3_MET3_pinshape_ovia np_rMET3_pinshape.conn - tmp_rnet_met3_MET3_pinshape_ovia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6828.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_met3_MET3_pinshape_ovia rnet_met3_MET3_pinshape_ovia - \
 	np_rnet_met3 np_rMET3_pinshape
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30688.0 kbytes
-stamp took  0.53 user, 0.24 sys, 0.00 elapsed, 275012.0 kbytes
-mergevia took 0.53 user, 0.27 sys, 0.00 elapsed, 30688.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30676.0 kbytes
+stamp took  0.55 user, 0.24 sys, 1.00 elapsed, 274972.0 kbytes
+mergevia took 0.55 user, 0.26 sys, 1.00 elapsed, 30676.0 kbytes
 [dofork] stamp -V tmp_rnet_met3_MET3_pinshape_ovia rnet_met3_MET3_pinshape_ovia
 cp rnet_met3_MET3_pinshape_ovia rnet_met3_MET3_pinshape_ovia_orig
 /bin/rm -f tmp_rnet_met3_MET3_pinshape_ovia
 geom -V net_ndiffcon_net_met1_net_nsd np_rnet_nsd.conn - tmp_rnet_ndiffcon_net_met1_net_nsd,11,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6828.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7000.0 kbytes
 geom -V np_rnet_ndiffcon_net_met1_net_nsd np_rnet_nsd.conn - np_rnet_ndiffcon_net_met1_net_nsd,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6876.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6948.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_ndiffcon_net_met1_net_nsd rnet_ndiffcon_net_met1_net_nsd - \
 	np_rnet_met1 np_rnet_nsd
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30484.0 kbytes
-stamp took  0.54 user, 0.28 sys, 0.00 elapsed, 274864.0 kbytes
-mergevia took 0.54 user, 0.32 sys, 0.00 elapsed, 30484.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30308.0 kbytes
+stamp took  0.28 user, 0.22 sys, 0.00 elapsed, 274656.0 kbytes
+mergevia took 0.29 user, 0.27 sys, 1.00 elapsed, 30308.0 kbytes
 [dofork] stamp -V tmp_rnet_ndiffcon_net_met1_net_nsd rnet_ndiffcon_net_met1_net_nsd
 cp rnet_ndiffcon_net_met1_net_nsd rnet_ndiffcon_net_met1_net_nsd_orig
 /bin/rm -f tmp_rnet_ndiffcon_net_met1_net_nsd
 geom -V net_ndiffcon_net_met1_net_welltap np_rnet_welltap.conn - tmp_rnet_ndiffcon_net_met1_net_welltap,11,i,2
-geom took  0.02 user, 0.00 sys, 0.00 elapsed, 7536.0 kbytes
+geom took  0.00 user, 0.02 sys, 0.00 elapsed, 7456.0 kbytes
 geom -V np_rnet_ndiffcon_net_met1_net_welltap np_rnet_welltap.conn - np_rnet_ndiffcon_net_met1_net_welltap,11,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7488.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 7536.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_ndiffcon_net_met1_net_welltap \
 	rnet_ndiffcon_net_met1_net_welltap - np_rnet_met1 np_rnet_welltap
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 30632.0 kbytes
-stamp took  0.59 user, 0.27 sys, 1.00 elapsed, 276100.0 kbytes
-mergevia took 0.59 user, 0.31 sys, 1.00 elapsed, 30632.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 30728.0 kbytes
+stamp took  0.34 user, 0.21 sys, 0.00 elapsed, 276240.0 kbytes
+mergevia took 0.34 user, 0.25 sys, 0.00 elapsed, 30728.0 kbytes
 [dofork] stamp -V tmp_rnet_ndiffcon_net_met1_net_welltap rnet_ndiffcon_net_met1_net_welltap
 cp rnet_ndiffcon_net_met1_net_welltap rnet_ndiffcon_net_met1_net_welltap_orig
 /bin/rm -f tmp_rnet_ndiffcon_net_met1_net_welltap
 geom -V net_pdiffcon_net_met1_net_psd np_rnet_psd.conn - tmp_rnet_pdiffcon_net_met1_net_psd,11,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7216.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7296.0 kbytes
 geom -V np_rnet_pdiffcon_net_met1_net_psd np_rnet_psd.conn - np_rnet_pdiffcon_net_met1_net_psd,11,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7228.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 7124.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_pdiffcon_net_met1_net_psd rnet_pdiffcon_net_met1_net_psd - \
 	np_rnet_met1 np_rnet_psd
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30632.0 kbytes
-stamp took  0.57 user, 0.28 sys, 1.00 elapsed, 275584.0 kbytes
-mergevia took 0.59 user, 0.32 sys, 1.00 elapsed, 30632.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30688.0 kbytes
+stamp took  0.53 user, 0.25 sys, 0.00 elapsed, 275664.0 kbytes
+mergevia took 0.53 user, 0.29 sys, 0.00 elapsed, 30688.0 kbytes
 [dofork] stamp -V tmp_rnet_pdiffcon_net_met1_net_psd rnet_pdiffcon_net_met1_net_psd
 cp rnet_pdiffcon_net_met1_net_psd rnet_pdiffcon_net_met1_net_psd_orig
 /bin/rm -f tmp_rnet_pdiffcon_net_met1_net_psd
 geom -V net_pdiffcon_net_met1_net_subtap np_rnet_subtap.conn - tmp_rnet_pdiffcon_net_met1_net_subtap,11,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7404.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7368.0 kbytes
 geom -V np_rnet_pdiffcon_net_met1_net_subtap np_rnet_subtap.conn - np_rnet_pdiffcon_net_met1_net_subtap,11,i,2
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 7536.0 kbytes
+geom took  0.01 user, 0.01 sys, 1.00 elapsed, 7600.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_pdiffcon_net_met1_net_subtap \
 	rnet_pdiffcon_net_met1_net_subtap - np_rnet_met1 np_rnet_subtap
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30636.0 kbytes
-stamp took  0.53 user, 0.30 sys, 1.00 elapsed, 275864.0 kbytes
-mergevia took 0.53 user, 0.34 sys, 1.00 elapsed, 30636.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30692.0 kbytes
+stamp took  0.52 user, 0.28 sys, 0.00 elapsed, 275848.0 kbytes
+mergevia took 0.52 user, 0.32 sys, 1.00 elapsed, 30692.0 kbytes
 [dofork] stamp -V tmp_rnet_pdiffcon_net_met1_net_subtap rnet_pdiffcon_net_met1_net_subtap
 cp rnet_pdiffcon_net_met1_net_subtap rnet_pdiffcon_net_met1_net_subtap_orig
 /bin/rm -f tmp_rnet_pdiffcon_net_met1_net_subtap
 geom -V net_poly1_net_poly1_net_poly1__c_butt_ovia np_rnet_poly1_net_poly1__c_butt.conn - tmp_rnet_poly1_net_poly1_net_poly1__c_butt_ovia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6928.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6828.0 kbytes
 [ -r rnet_poly1_net_poly1_net_poly1__c_butt_ovia ] && /bin/rm -f rnet_poly1_net_poly1_net_poly1__c_butt_ovia
 /bin/mv -f tmp_rnet_poly1_net_poly1_net_poly1__c_butt_ovia rnet_poly1_net_poly1_net_poly1__c_butt_ovia
 geom -V net_poly1con_net_met1__c_net_poly1 np_rnet_met1__c.conn - tmp_rnet_poly1con_net_met1__c_net_poly1,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6856.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6956.0 kbytes
 geom -V np_rnet_poly1con_net_met1__c_net_poly1 np_rnet_met1__c.conn - np_rnet_poly1con_net_met1__c_net_poly1,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6936.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6932.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_poly1con_net_met1__c_net_poly1 \
 	rnet_poly1con_net_met1__c_net_poly1 - np_rnet_poly1 np_rnet_met1__c
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23028.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23000.0 kbytes
 cp rnet_poly1con_net_met1__c_net_poly1 rnet_poly1con_net_met1__c_net_poly1_orig
 /bin/rm -f tmp_rnet_poly1con_net_met1__c_net_poly1
 geom -V net_poly1con_net_met1_net_poly1__c np_rnet_poly1__c.conn - tmp_rnet_poly1con_net_met1_net_poly1__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6824.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
 geom -V np_rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1__c.conn - np_rnet_poly1con_net_met1_net_poly1__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6816.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6832.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_poly1con_net_met1_net_poly1__c \
 	rnet_poly1con_net_met1_net_poly1__c - np_rnet_met1 np_rnet_poly1__c
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23104.0 kbytes
+mergevia took 0.00 user, 0.01 sys, 0.00 elapsed, 23012.0 kbytes
 cp rnet_poly1con_net_met1_net_poly1__c rnet_poly1con_net_met1_net_poly1__c_orig
 /bin/rm -f tmp_rnet_poly1con_net_met1_net_poly1__c
 geom -V net_poly2_net_poly2_net_poly2__c_butt_ovia np_rnet_poly2_net_poly2__c_butt.conn - tmp_rnet_poly2_net_poly2_net_poly2__c_butt_ovia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6948.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6944.0 kbytes
 [ -r rnet_poly2_net_poly2_net_poly2__c_butt_ovia ] && /bin/rm -f rnet_poly2_net_poly2_net_poly2__c_butt_ovia
 /bin/mv -f tmp_rnet_poly2_net_poly2_net_poly2__c_butt_ovia rnet_poly2_net_poly2_net_poly2__c_butt_ovia
 geom -V net_poly2con_net_met1__c_net_poly2 np_rnet_met1__c.conn - tmp_rnet_poly2con_net_met1__c_net_poly2,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6844.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6904.0 kbytes
 geom -V np_rnet_poly2con_net_met1__c_net_poly2 np_rnet_met1__c.conn - np_rnet_poly2con_net_met1__c_net_poly2,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_poly2con_net_met1__c_net_poly2 \
 	rnet_poly2con_net_met1__c_net_poly2 - np_rnet_poly2 np_rnet_met1__c
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23180.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23208.0 kbytes
 cp rnet_poly2con_net_met1__c_net_poly2 rnet_poly2con_net_met1__c_net_poly2_orig
 /bin/rm -f tmp_rnet_poly2con_net_met1__c_net_poly2
 geom -V net_poly2con_net_met1_net_poly2__c np_rnet_poly2__c.conn - tmp_rnet_poly2con_net_met1_net_poly2__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7040.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7004.0 kbytes
 geom -V np_rnet_poly2con_net_met1_net_poly2__c np_rnet_poly2__c.conn - np_rnet_poly2con_net_met1_net_poly2__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6860.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6856.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_poly2con_net_met1_net_poly2__c \
 	rnet_poly2con_net_met1_net_poly2__c - np_rnet_met1 np_rnet_poly2__c
-mergevia took 0.00 user, 0.01 sys, 0.00 elapsed, 23296.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23028.0 kbytes
 cp rnet_poly2con_net_met1_net_poly2__c rnet_poly2con_net_met1_net_poly2__c_orig
 /bin/rm -f tmp_rnet_poly2con_net_met1_net_poly2__c
 geom -V net_presh_trm_net_poly2__c_ovia np_rnet_poly2__c.conn - tmp_rnet_presh_trm_net_poly2__c_ovia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6936.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6748.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_presh_trm_net_poly2__c_ovia rnet_presh_trm_net_poly2__c_ovia \
 	- np_rnet_presh_trm np_rnet_poly2__c
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30360.0 kbytes
-stamp took  0.26 user, 0.22 sys, 1.00 elapsed, 275100.0 kbytes
-mergevia took 0.26 user, 0.26 sys, 1.00 elapsed, 30360.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30404.0 kbytes
+stamp took  0.50 user, 0.28 sys, 1.00 elapsed, 274988.0 kbytes
+mergevia took 0.50 user, 0.33 sys, 1.00 elapsed, 30404.0 kbytes
 [dofork] stamp -V tmp_rnet_presh_trm_net_poly2__c_ovia rnet_presh_trm_net_poly2__c_ovia
 cp rnet_presh_trm_net_poly2__c_ovia rnet_presh_trm_net_poly2__c_ovia_orig
 /bin/rm -f tmp_rnet_presh_trm_net_poly2__c_ovia
 geom -V net_via1_net_met2__c_net_met1 np_rnet_met2__c.conn - tmp_rnet_via1_net_met2__c_net_met1,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6816.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6944.0 kbytes
 geom -V np_rnet_via1_net_met2__c_net_met1 np_rnet_met2__c.conn - np_rnet_via1_net_met2__c_net_met1,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6900.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6776.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_via1_net_met2__c_net_met1 rnet_via1_net_met2__c_net_met1 - \
 	np_rnet_met1 np_rnet_met2__c
-mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23212.0 kbytes
+mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 23072.0 kbytes
 cp rnet_via1_net_met2__c_net_met1 rnet_via1_net_met2__c_net_met1_orig
 /bin/rm -f tmp_rnet_via1_net_met2__c_net_met1
 geom -V net_via1_net_met2_net_met1__c np_rnet_met1__c.conn - tmp_rnet_via1_net_met2_net_met1__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
 geom -V np_rnet_via1_net_met2_net_met1__c np_rnet_met1__c.conn - np_rnet_via1_net_met2_net_met1__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7044.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_via1_net_met2_net_met1__c rnet_via1_net_met2_net_met1__c - \
 	np_rnet_met2 np_rnet_met1__c
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30388.0 kbytes
-stamp took  0.29 user, 0.20 sys, 1.00 elapsed, 274680.0 kbytes
-mergevia took 0.29 user, 0.23 sys, 1.00 elapsed, 30388.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30432.0 kbytes
+stamp took  0.45 user, 0.20 sys, 1.00 elapsed, 274768.0 kbytes
+mergevia took 0.45 user, 0.25 sys, 1.00 elapsed, 30432.0 kbytes
 [dofork] stamp -V tmp_rnet_via1_net_met2_net_met1__c rnet_via1_net_met2_net_met1__c
 cp rnet_via1_net_met2_net_met1__c rnet_via1_net_met2_net_met1__c_orig
 /bin/rm -f tmp_rnet_via1_net_met2_net_met1__c
 geom -V net_via2_met2_net_met3_net_met2__c np_rnet_met2__c.conn - tmp_rnet_via2_met2_net_met3_net_met2__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6896.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6820.0 kbytes
 geom -V np_rnet_via2_met2_net_met3_net_met2__c np_rnet_met2__c.conn - np_rnet_via2_met2_net_met3_net_met2__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7040.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6872.0 kbytes
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_via2_met2_net_met3_net_met2__c \
 	rnet_via2_met2_net_met3_net_met2__c - np_rnet_met3 np_rnet_met2__c
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30316.0 kbytes
-stamp took  0.58 user, 0.28 sys, 1.00 elapsed, 275084.0 kbytes
-mergevia took 0.58 user, 0.33 sys, 1.00 elapsed, 30316.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 30300.0 kbytes
+stamp took  0.42 user, 0.20 sys, 1.00 elapsed, 275080.0 kbytes
+mergevia took 0.42 user, 0.25 sys, 1.00 elapsed, 30300.0 kbytes
 [dofork] stamp -V tmp_rnet_via2_met2_net_met3_net_met2__c rnet_via2_met2_net_met3_net_met2__c
 cp rnet_via2_met2_net_met3_net_met2__c rnet_via2_met2_net_met3_net_met2__c_orig
 /bin/rm -f tmp_rnet_via2_met2_net_met3_net_met2__c
@@ -2377,13 +2372,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_welltap.conn tmp_net_welltap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6096.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5976.0 kbytes
 epick -V -reo -e tmp_net_welltap -c np_rnet_welltap.conn tmp1_net_welltap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5972.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6084.0 kbytes
 geom -V tmp1_net_welltap np_rnet_welltap - tmp1_net_welltap,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6824.0 kbytes
 geom -V tmp_net_welltap,tmp1_net_welltap - np_rnet_welltap,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6852.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6752.0 kbytes
 /bin/rm -f tmp_net_welltap tmp1_net_welltap
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2401,13 +2396,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_subtap.conn tmp_net_subtap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6108.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5944.0 kbytes
 epick -V -reo -e tmp_net_subtap -c np_rnet_subtap.conn tmp1_net_subtap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5904.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5944.0 kbytes
 geom -V tmp1_net_subtap np_rnet_subtap - tmp1_net_subtap,11,i,2
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6884.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7008.0 kbytes
 geom -V tmp_net_subtap,tmp1_net_subtap - np_rnet_subtap,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6824.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6840.0 kbytes
 /bin/rm -f tmp_net_subtap tmp1_net_subtap
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2425,13 +2420,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_ndiff_d_sub.conn tmp_net_ndiff_d_sub
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5900.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5920.0 kbytes
 epick -V -reo -e tmp_net_ndiff_d_sub -c np_rnet_ndiff_d_sub.conn tmp1_net_ndiff_d_sub
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5912.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5964.0 kbytes
 geom -V tmp1_net_ndiff_d_sub np_rnet_ndiff_d_sub - tmp1_net_ndiff_d_sub,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7044.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6832.0 kbytes
 geom -V tmp_net_ndiff_d_sub,tmp1_net_ndiff_d_sub - np_rnet_ndiff_d_sub,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6820.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6928.0 kbytes
 /bin/rm -f tmp_net_ndiff_d_sub tmp1_net_ndiff_d_sub
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2449,13 +2444,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_nsd.conn tmp_net_nsd
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5984.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6032.0 kbytes
 epick -V -reo -e tmp_net_nsd -c np_rnet_nsd.conn tmp1_net_nsd
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5912.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5972.0 kbytes
 geom -V tmp1_net_nsd np_rnet_nsd - tmp1_net_nsd,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6872.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6812.0 kbytes
 geom -V tmp_net_nsd,tmp1_net_nsd - np_rnet_nsd,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6960.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6728.0 kbytes
 /bin/rm -f tmp_net_nsd tmp1_net_nsd
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2473,13 +2468,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_pdiff_d_ntub.conn tmp_net_pdiff_d_ntub
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6032.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6024.0 kbytes
 epick -V -reo -e tmp_net_pdiff_d_ntub -c np_rnet_pdiff_d_ntub.conn tmp1_net_pdiff_d_ntub
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5936.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6008.0 kbytes
 geom -V tmp1_net_pdiff_d_ntub np_rnet_pdiff_d_ntub - tmp1_net_pdiff_d_ntub,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6808.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
 geom -V tmp_net_pdiff_d_ntub,tmp1_net_pdiff_d_ntub - np_rnet_pdiff_d_ntub,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6836.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6804.0 kbytes
 /bin/rm -f tmp_net_pdiff_d_ntub tmp1_net_pdiff_d_ntub
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2497,13 +2492,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_psd.conn tmp_net_psd
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5912.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5964.0 kbytes
 epick -V -reo -e tmp_net_psd -c np_rnet_psd.conn tmp1_net_psd
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5952.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6004.0 kbytes
 geom -V tmp1_net_psd np_rnet_psd - tmp1_net_psd,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7012.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6824.0 kbytes
 geom -V tmp_net_psd,tmp1_net_psd - np_rnet_psd,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6800.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6732.0 kbytes
 /bin/rm -f tmp_net_psd tmp1_net_psd
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2521,13 +2516,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rpnpvert10_e.conn tmp_pnpvert10_e
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 5900.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6040.0 kbytes
 epick -V -reo -e tmp_pnpvert10_e -c np_rpnpvert10_e.conn tmp1_pnpvert10_e
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5984.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6080.0 kbytes
 geom -V tmp1_pnpvert10_e np_rpnpvert10_e - tmp1_pnpvert10_e,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6824.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
 geom -V tmp_pnpvert10_e,tmp1_pnpvert10_e - np_rpnpvert10_e,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6868.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6820.0 kbytes
 /bin/rm -f tmp_pnpvert10_e tmp1_pnpvert10_e
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2545,13 +2540,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_met1__c.conn tmp_net_met1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5888.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5976.0 kbytes
 epick -V -reo -e tmp_net_met1__c -c np_rnet_met1__c.conn tmp1_net_met1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6008.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6024.0 kbytes
 geom -V tmp1_net_met1__c np_rnet_met1__c - tmp1_net_met1__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6948.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6924.0 kbytes
 geom -V tmp_net_met1__c,tmp1_net_met1__c - np_rnet_met1__c,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6876.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6744.0 kbytes
 /bin/rm -f tmp_net_met1__c tmp1_net_met1__c
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2569,13 +2564,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_met2__c.conn tmp_net_met2__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6108.0 kbytes
-epick -V -reo -e tmp_net_met2__c -c np_rnet_met2__c.conn tmp1_net_met2__c
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5972.0 kbytes
+epick -V -reo -e tmp_net_met2__c -c np_rnet_met2__c.conn tmp1_net_met2__c
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5984.0 kbytes
 geom -V tmp1_net_met2__c np_rnet_met2__c - tmp1_net_met2__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6896.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7004.0 kbytes
 geom -V tmp_net_met2__c,tmp1_net_met2__c - np_rnet_met2__c,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6932.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
 /bin/rm -f tmp_net_met2__c tmp1_net_met2__c
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2593,13 +2588,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_poly1__c.conn tmp_net_poly1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6088.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5936.0 kbytes
 epick -V -reo -e tmp_net_poly1__c -c np_rnet_poly1__c.conn tmp1_net_poly1__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5976.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6008.0 kbytes
 geom -V tmp1_net_poly1__c np_rnet_poly1__c - tmp1_net_poly1__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6900.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7000.0 kbytes
 geom -V tmp_net_poly1__c,tmp1_net_poly1__c - np_rnet_poly1__c,1,i,1
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 6752.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6820.0 kbytes
 /bin/rm -f tmp_net_poly1__c tmp1_net_poly1__c
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
@@ -2617,13 +2612,13 @@ epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
 	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
 	np_rnet_poly2__c.conn tmp_net_poly2__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5988.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5968.0 kbytes
 epick -V -reo -e tmp_net_poly2__c -c np_rnet_poly2__c.conn tmp1_net_poly2__c
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6096.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6040.0 kbytes
 geom -V tmp1_net_poly2__c np_rnet_poly2__c - tmp1_net_poly2__c,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6944.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
 geom -V tmp_net_poly2__c,tmp1_net_poly2__c - np_rnet_poly2__c,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6768.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6744.0 kbytes
 /bin/rm -f tmp_net_poly2__c tmp1_net_poly2__c
 
 #==========================================================#
@@ -2633,14 +2628,14 @@ geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6768.0 kbytes
 flatlabel -V  -tc -F -l flatlabel.info MET1_pintext,MET2_pintext,MET3_pintext L1T0,L2T0,L3T0
 INFO (FLTLBL-89003): exec labsort -V L1T0
 
-sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4716.0 kbytes
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4616.0 kbytes
 INFO (FLTLBL-89003): exec labsort -V L2T0
 
-sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4716.0 kbytes
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4592.0 kbytes
 INFO (FLTLBL-89003): exec labsort -V L3T0
 
-sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4908.0 kbytes
-flatlabel took 0.00 user, 0.03 sys, 0.00 elapsed, 6148.0 kbytes
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 4808.0 kbytes
+flatlabel took 0.00 user, 0.02 sys, 0.00 elapsed, 6108.0 kbytes
 # 1 net_poly1
 geom p_rnet_poly1__c,p_rnet_poly1 - p_rnet_poly1,1,i,1
 grow .001 np_rnet_poly1 g_np_rnet_poly1
@@ -2703,7 +2698,7 @@ rex -V -m -pd -I'#' -scale 1 -tech \
 	L3T0,6,I
 INFO (REX-163462):  exec rex -g -V -m -pd -I# -scale 1 -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -map p2elayermapfile -wee p2elayermapfile -N NET -e2 -P CPOLY_NTUB_device_CAP_84_net_poly2_cvia,CPOLY_NTUB_device_CAP_84_net_poly1_cvia:RPOLYH_NTUB_device_RES_66_rvia:CVAR_device_Device_85_net_poly1_gdvia -rP res.mod np_rnet_poly1::poly1_cut np_rnet_presh_trm::net_presh_trm_cut np_rnet_poly2::net_poly2_cut np_rnet_met1::met1_cut np_rnet_met2::met2_cut np_rnet_met3::met3_cut - rnet_met1_MET1_pinshape_ovia,4 rnet_met1_net_met1_net_met1__c_butt_ovia,4 rnet_met2_MET2_pinshape_ovia,5 rnet_met2_net_met2_net_met2__c_butt_ovia,5 rnet_met3_MET3_pinshape_ovia,6 rnet_ndiffcon_net_met1_net_nsd,4,t rnet_ndiffcon_net_met1_net_welltap,4,t rnet_pdiffcon_net_met1_net_psd,4,t rnet_pdiffcon_net_met1_net_subtap,4,t rnet_poly1_net_poly1_net_poly1__c_butt_ovia,1 rnet_poly1con_net_met1__c_net_poly1,1,t rnet_poly1con_net_met1_net_poly1,1,4,t rnet_poly1con_net_met1_net_poly1__c,4,t rnet_poly2_net_poly2_net_poly2__c_butt_ovia,3 rnet_poly2con_net_met1__c_net_poly2,3,t rnet_poly2con_net_met1_net_poly2,3,4,t rnet_poly2con_net_met1_net_poly2__c,4,t rnet_presh_trm_net_poly2__c_ovia,2 rnet_presh_trm_net_poly2_ovia,2,3 rnet_via1_net_met2__c_net_met1,4,t rnet_via1_net_met2_net_met1,4,5,t rnet_via1_net_met2_net_met1__c,5,t rnet_via2_met2_net_met3_net_met2,5,6,t rnet_via2_met2_net_met3_net_met2__c,6,t NMOS_device_MOS_1_mgvia,1,z PMOS_device_MOS_5_mgvia,1,z RPOLYH_NTUB_device_RES_66_rvia,3,z CPOLY_NTUB_device_CAP_84_net_poly2_cvia,3,z CPOLY_NTUB_device_CAP_84_net_poly1_cvia,1,z CVAR_device_Device_85_net_poly1_gdvia,1,z - L1T0,4,I L2T0,5,I L3T0,6,I
 
-rex took  0.00 user, 0.06 sys, 0.00 elapsed, 31032.0 kbytes
+rex took  0.00 user, 0.05 sys, 0.00 elapsed, 30964.0 kbytes
 INFO (LBMISC-215513): Socket: connection with sd 16 closed
 
 INFO (REX-163511): Forked command: REX 1
@@ -2728,62 +2723,68 @@ INFO (REX-163511): Forked command: REX 1
   
   WARNING (REX-163357): The width (0.25) at (934.025,225.275) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.225) at (1320.03,93.1875) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.225) at (1320.03,101.888) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.125) at (1505.06,78.0375) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.125) at (1505.06,86.7375) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.075) at (1504.15,77.1875) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.075) at (1504.15,85.8875) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.05) at (1504.15,67.95) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.05) at (1504.15,76.65) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.1) at (1504.55,69.725) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.1) at (1504.55,78.425) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.3) at (1505.15,68.8) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.3) at (1505.15,77.5) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.075) at (1520.1,65.6125) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.075) at (1520.1,74.3125) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.425) at (1520.55,65.4375) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.425) at (1520.55,74.1375) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  WARNING (REX-163357): The width (0.475) at (1694.97,66.5375) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  WARNING (REX-163357): The width (0.475) at (1694.97,75.2375) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
   
-  rex (np_rnet_met1) took  0.13 user, 0.07 sys, 0.00 elapsed, 39472.0 kbytes
+  WARNING (REX-163357): The width (0.4) at (511.575,132.5) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  
+  WARNING (REX-163357): The width (0.4) at (511.575,134.7) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  
+  WARNING (REX-163357): The width (0.1) at (512.85,135.1) on layer 'np_rnet_met1' is less than the  minimum width (0.5).
+  
+  rex (np_rnet_met1) took  0.14 user, 0.06 sys, 0.00 elapsed, 39904.0 kbytes
   [dofork] geom np_rnet_met1 met1_cut - np_rnet_met1,10,n
 INFO (LBMISC-215513): Socket: connection with sd 16 closed
 
 INFO (REX-163511): Forked command: REX 2
 
-  rex (np_rnet_poly1) took  0.01 user, 0.04 sys, 0.00 elapsed, 31696.0 kbytes
+  rex (np_rnet_poly1) took  0.02 user, 0.03 sys, 1.00 elapsed, 31764.0 kbytes
   [dofork] geom np_rnet_poly1 poly1_cut - np_rnet_poly1,10,n
 INFO (LBMISC-215513): Socket: connection with sd 16 closed
 
 INFO (REX-163511): Forked command: REX 3
 
-  rex (np_rnet_met2) took  0.04 user, 0.04 sys, 0.00 elapsed, 31668.0 kbytes
+  rex (np_rnet_met2) took  0.03 user, 0.02 sys, 0.00 elapsed, 31752.0 kbytes
   [dofork] geom np_rnet_met2 met2_cut - np_rnet_met2,10,n
 INFO (LBMISC-215513): Socket: connection with sd 16 closed
 
 INFO (REX-163511): Forked command: REX 4
 
-  rex (np_rnet_met3) took  0.00 user, 0.03 sys, 0.00 elapsed, 31548.0 kbytes
+  rex (np_rnet_met3) took  0.01 user, 0.03 sys, 0.00 elapsed, 31576.0 kbytes
   [dofork] geom np_rnet_met3 met3_cut - np_rnet_met3,10,n
 INFO (LBMISC-215513): Socket: connection with sd 16 closed
 
 INFO (REX-163511): Forked command: REX 5
 
-  rex (np_rnet_poly2) took  0.01 user, 0.02 sys, 0.00 elapsed, 31696.0 kbytes
+  rex (np_rnet_poly2) took  0.01 user, 0.03 sys, 0.00 elapsed, 31504.0 kbytes
   [dofork] geom np_rnet_poly2 net_poly2_cut - np_rnet_poly2,10,n
 INFO (LBMISC-215513): Socket: connection with sd 16 closed
 
 INFO (REX-163511): Forked command: REX 6
 
-  rex (np_rnet_presh_trm) took  0.01 user, 0.09 sys, 0.00 elapsed, 31284.0 kbytes
+  rex (np_rnet_presh_trm) took  0.01 user, 0.06 sys, 0.00 elapsed, 31280.0 kbytes
   [dofork] geom np_rnet_presh_trm net_presh_trm_cut - np_rnet_presh_trm,10,n
-  [dofork] geom /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/bodyorigZ5le4R /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/unbodynameSrmgph - /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/inhunbodyname4XwRuw,11,i,1
-  [dofork] emerge np_rnet_presh_trm /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/inhunbodyname4XwRuw /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/tmpbodynameoqWKai
+  [dofork] geom /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/bodyorigfmtReB /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/unbodynameVWA9Ay - /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/inhunbodynameo7zezF,11,i,1
+  [dofork] emerge np_rnet_presh_trm /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/inhunbodynameo7zezF /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/rcx_temp/tmpbodynameDBpHWi
 INFO (REX-163511): Forked command: REX 7
 
-  rexmerge took  0.00 user, 0.01 sys, 0.00 elapsed, 10312.0 kbytes
-rex took  2.12 user, 0.94 sys, 4.00 elapsed, 30716.0 kbytes
+  rexmerge took  0.00 user, 0.01 sys, 0.00 elapsed, 10116.0 kbytes
+rex took  2.14 user, 0.86 sys, 3.00 elapsed, 30756.0 kbytes
 geom -i np_rnet_poly1__c,np_rnet_poly1 - np_rnet_poly1,1,n
 geom -i np_rnet_poly2__c,np_rnet_poly2 - np_rnet_poly2,1,n
 geom -i np_rnet_met1__c,np_rnet_met1 - np_rnet_met1,1,n
@@ -2794,80 +2795,80 @@ geom -i np_rnet_met2__c,np_rnet_met2 - np_rnet_met2,1,n
 #==========================================================#
 
 stamp -V -i2 np_rnet_met1 rnet_poly1con_net_met1_net_poly1 np_rnet_poly1con_net_met1_net_poly1
-stamp took  0.52 user, 0.29 sys, 1.00 elapsed, 275308.0 kbytes
+stamp took  0.51 user, 0.30 sys, 1.00 elapsed, 275288.0 kbytes
 geom -V np_rnet_poly1con_net_met1_net_poly1,p_rnet_poly1con_net_met1_net_poly1 - rnet_poly1con_net_met1_net_poly1,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7132.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7244.0 kbytes
 stamp -V -i2 np_rnet_met1 rnet_poly2con_net_met1_net_poly2 np_rnet_poly2con_net_met1_net_poly2
-stamp took  0.51 user, 0.26 sys, 0.00 elapsed, 275016.0 kbytes
+stamp took  0.58 user, 0.27 sys, 1.00 elapsed, 275148.0 kbytes
 geom -V np_rnet_poly2con_net_met1_net_poly2,p_rnet_poly2con_net_met1_net_poly2 - rnet_poly2con_net_met1_net_poly2,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7124.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7072.0 kbytes
 stamp -V -i2 np_rnet_presh_trm rnet_presh_trm_net_poly2_ovia np_rnet_presh_trm_net_poly2_ovia
-stamp took  0.50 user, 0.29 sys, 1.00 elapsed, 275056.0 kbytes
+stamp took  0.56 user, 0.30 sys, 1.00 elapsed, 275028.0 kbytes
 geom -V np_rnet_presh_trm_net_poly2_ovia,p_rnet_presh_trm_net_poly2_ovia - rnet_presh_trm_net_poly2_ovia,1,i,1
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6808.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6712.0 kbytes
 stamp -V -i2 np_rnet_met2 rnet_via1_net_met2_net_met1 np_rnet_via1_net_met2_net_met1
-stamp took  0.87 user, 0.55 sys, 2.00 elapsed, 275952.0 kbytes
+stamp took  1.11 user, 0.61 sys, 2.00 elapsed, 275908.0 kbytes
 geom -V np_rnet_via1_net_met2_net_met1,p_rnet_via1_net_met2_net_met1 - rnet_via1_net_met2_net_met1,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7284.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 7076.0 kbytes
 stamp -V -i2 np_rnet_met3 rnet_via2_met2_net_met3_net_met2 np_rnet_via2_met2_net_met3_net_met2
-stamp took  0.82 user, 0.57 sys, 1.00 elapsed, 275316.0 kbytes
+stamp took  0.65 user, 0.47 sys, 1.00 elapsed, 275352.0 kbytes
 geom -V np_rnet_via2_met2_net_met3_net_met2,p_rnet_via2_met2_net_met3_net_met2 - rnet_via2_met2_net_met3_net_met2,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7180.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7136.0 kbytes
 stamp -V -B -i rnet_via2_met2_net_met3_net_met2__c np_rnet_via2_met2_net_met3_net_met2__c
-stamp took  0.53 user, 0.29 sys, 1.00 elapsed, 275000.0 kbytes
+stamp took  0.55 user, 0.27 sys, 1.00 elapsed, 275192.0 kbytes
 geom -V np_rnet_via2_met2_net_met3_net_met2__c,p_rnet_via2_met2_net_met3_net_met2__c - rnet_via2_met2_net_met3_net_met2__c,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6704.0 kbytes
-stamp -V -B -i rnet_via1_net_met2_net_met1__c np_rnet_via1_net_met2_net_met1__c
-stamp took  0.30 user, 0.21 sys, 1.00 elapsed, 275000.0 kbytes
-geom -V np_rnet_via1_net_met2_net_met1__c,p_rnet_via1_net_met2_net_met1__c - rnet_via1_net_met2_net_met1__c,1,i,1
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6840.0 kbytes
-stamp -V -B -i rnet_via1_net_met2__c_net_met1 np_rnet_via1_net_met2__c_net_met1
-stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6248.0 kbytes
-geom -V np_rnet_via1_net_met2__c_net_met1,p_rnet_via1_net_met2__c_net_met1 - rnet_via1_net_met2__c_net_met1,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6928.0 kbytes
-stamp -V -B -i rnet_poly2con_net_met1_net_poly2__c np_rnet_poly2con_net_met1_net_poly2__c
-stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6292.0 kbytes
-geom -V np_rnet_poly2con_net_met1_net_poly2__c,p_rnet_poly2con_net_met1_net_poly2__c - rnet_poly2con_net_met1_net_poly2__c,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
-stamp -V -B -i rnet_poly2con_net_met1__c_net_poly2 np_rnet_poly2con_net_met1__c_net_poly2
-stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6448.0 kbytes
-geom -V np_rnet_poly2con_net_met1__c_net_poly2,p_rnet_poly2con_net_met1__c_net_poly2 - rnet_poly2con_net_met1__c_net_poly2,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6808.0 kbytes
-stamp -V -B -i rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1con_net_met1_net_poly1__c
-stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6228.0 kbytes
-geom -V np_rnet_poly1con_net_met1_net_poly1__c,p_rnet_poly1con_net_met1_net_poly1__c - rnet_poly1con_net_met1_net_poly1__c,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6796.0 kbytes
-stamp -V -B -i rnet_poly1con_net_met1__c_net_poly1 np_rnet_poly1con_net_met1__c_net_poly1
-stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6248.0 kbytes
-geom -V np_rnet_poly1con_net_met1__c_net_poly1,p_rnet_poly1con_net_met1__c_net_poly1 - rnet_poly1con_net_met1__c_net_poly1,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6924.0 kbytes
+stamp -V -B -i rnet_via1_net_met2_net_met1__c np_rnet_via1_net_met2_net_met1__c
+stamp took  0.54 user, 0.29 sys, 1.00 elapsed, 275064.0 kbytes
+geom -V np_rnet_via1_net_met2_net_met1__c,p_rnet_via1_net_met2_net_met1__c - rnet_via1_net_met2_net_met1__c,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6816.0 kbytes
+stamp -V -B -i rnet_via1_net_met2__c_net_met1 np_rnet_via1_net_met2__c_net_met1
+stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6264.0 kbytes
+geom -V np_rnet_via1_net_met2__c_net_met1,p_rnet_via1_net_met2__c_net_met1 - rnet_via1_net_met2__c_net_met1,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
+stamp -V -B -i rnet_poly2con_net_met1_net_poly2__c np_rnet_poly2con_net_met1_net_poly2__c
+stamp took  0.00 user, 0.01 sys, 0.00 elapsed, 6228.0 kbytes
+geom -V np_rnet_poly2con_net_met1_net_poly2__c,p_rnet_poly2con_net_met1_net_poly2__c - rnet_poly2con_net_met1_net_poly2__c,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6832.0 kbytes
+stamp -V -B -i rnet_poly2con_net_met1__c_net_poly2 np_rnet_poly2con_net_met1__c_net_poly2
+stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6272.0 kbytes
+geom -V np_rnet_poly2con_net_met1__c_net_poly2,p_rnet_poly2con_net_met1__c_net_poly2 - rnet_poly2con_net_met1__c_net_poly2,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6924.0 kbytes
+stamp -V -B -i rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1con_net_met1_net_poly1__c
+stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6244.0 kbytes
+geom -V np_rnet_poly1con_net_met1_net_poly1__c,p_rnet_poly1con_net_met1_net_poly1__c - rnet_poly1con_net_met1_net_poly1__c,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6960.0 kbytes
+stamp -V -B -i rnet_poly1con_net_met1__c_net_poly1 np_rnet_poly1con_net_met1__c_net_poly1
+stamp took  0.00 user, 0.00 sys, 0.00 elapsed, 6364.0 kbytes
+geom -V np_rnet_poly1con_net_met1__c_net_poly1,p_rnet_poly1con_net_met1__c_net_poly1 - rnet_poly1con_net_met1__c_net_poly1,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6964.0 kbytes
 stamp -V -B -i rnet_ndiffcon_net_met1_net_welltap np_rnet_ndiffcon_net_met1_net_welltap
-stamp took  0.56 user, 0.28 sys, 1.00 elapsed, 276404.0 kbytes
+stamp took  0.45 user, 0.21 sys, 1.00 elapsed, 276432.0 kbytes
 geom -V np_rnet_ndiffcon_net_met1_net_welltap,p_rnet_ndiffcon_net_met1_net_welltap - rnet_ndiffcon_net_met1_net_welltap,1,i,1
 geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7444.0 kbytes
 stamp -V -B -i rnet_ndiffcon_net_met1_net_nsd np_rnet_ndiffcon_net_met1_net_nsd
-stamp took  0.28 user, 0.22 sys, 0.00 elapsed, 274988.0 kbytes
+stamp took  0.53 user, 0.29 sys, 1.00 elapsed, 275016.0 kbytes
 geom -V np_rnet_ndiffcon_net_met1_net_nsd,p_rnet_ndiffcon_net_met1_net_nsd - rnet_ndiffcon_net_met1_net_nsd,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6920.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6816.0 kbytes
 stamp -V -B -i rnet_pdiffcon_net_met1_net_subtap np_rnet_pdiffcon_net_met1_net_subtap
-stamp took  0.56 user, 0.22 sys, 1.00 elapsed, 275944.0 kbytes
+stamp took  0.58 user, 0.25 sys, 1.00 elapsed, 275764.0 kbytes
 geom -V np_rnet_pdiffcon_net_met1_net_subtap,p_rnet_pdiffcon_net_met1_net_subtap - rnet_pdiffcon_net_met1_net_subtap,1,i,1
-geom took  0.01 user, 0.01 sys, 0.00 elapsed, 7352.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 7512.0 kbytes
 stamp -V -B -i rnet_pdiffcon_net_met1_net_psd np_rnet_pdiffcon_net_met1_net_psd
-stamp took  0.54 user, 0.23 sys, 1.00 elapsed, 275684.0 kbytes
+stamp took  0.59 user, 0.26 sys, 1.00 elapsed, 275612.0 kbytes
 geom -V np_rnet_pdiffcon_net_met1_net_psd,p_rnet_pdiffcon_net_met1_net_psd - rnet_pdiffcon_net_met1_net_psd,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7080.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7228.0 kbytes
 stamp -V -B -i np_rnet_met1 net_met1_MET1_pinshape_ovia
-stamp took  0.55 user, 0.26 sys, 1.00 elapsed, 275176.0 kbytes
+stamp took  0.29 user, 0.21 sys, 0.00 elapsed, 274912.0 kbytes
 /bin/cp -f net_met1_MET1_pinshape_ovia rnet_met1_MET1_pinshape_ovia
 stamp -V -B -i np_rnet_met2 net_met2_MET2_pinshape_ovia
-stamp took  0.54 user, 0.26 sys, 1.00 elapsed, 275184.0 kbytes
+stamp took  0.52 user, 0.28 sys, 1.00 elapsed, 275112.0 kbytes
 /bin/cp -f net_met2_MET2_pinshape_ovia rnet_met2_MET2_pinshape_ovia
 stamp -V -B -i np_rnet_met3 net_met3_MET3_pinshape_ovia
-stamp took  0.55 user, 0.29 sys, 1.00 elapsed, 274968.0 kbytes
+stamp took  0.56 user, 0.23 sys, 1.00 elapsed, 275068.0 kbytes
 /bin/cp -f net_met3_MET3_pinshape_ovia rnet_met3_MET3_pinshape_ovia
 stamp -V -B -i np_rnet_presh_trm net_presh_trm_net_poly2__c_ovia
-stamp took  0.30 user, 0.20 sys, 0.00 elapsed, 274780.0 kbytes
+stamp took  0.49 user, 0.29 sys, 1.00 elapsed, 274680.0 kbytes
 /bin/cp -f net_presh_trm_net_poly2__c_ovia rnet_presh_trm_net_poly2__c_ovia
 
 #==========================================================#
@@ -2875,11 +2876,11 @@ stamp took  0.30 user, 0.20 sys, 0.00 elapsed, 274780.0 kbytes
 #==========================================================#
 
 stamp -V -cntr -i -B np_rnet_subtap np_rnet_psub
-stamp took  0.32 user, 0.20 sys, 1.00 elapsed, 275492.0 kbytes
+stamp took  0.52 user, 0.29 sys, 1.00 elapsed, 275552.0 kbytes
 stamp -V -cntr -i -B np_rnet_welltap np_rnet_nwell
-stamp took  0.27 user, 0.24 sys, 0.00 elapsed, 275608.0 kbytes
+stamp took  0.52 user, 0.28 sys, 0.00 elapsed, 275556.0 kbytes
 stamp -V -cntr -i -B np_rnet_psub np_rpnpvert10_c
-stamp took  0.71 user, 0.34 sys, 2.00 elapsed, 274996.0 kbytes
+stamp took  0.54 user, 0.24 sys, 0.00 elapsed, 275092.0 kbytes
 /bin/rm -f np_rMET1_pinshape.conn
 /bin/rm -f np_rMET2_pinshape.conn
 /bin/rm -f np_rMET3_pinshape.conn
@@ -3023,85 +3024,85 @@ netprint -max NET > original_maxnetfile
 
 #4 
  geom -V -i p_rnet_poly1,np_rnet_poly1 - so_poly1,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7400.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7216.0 kbytes
 geom -V p_rnet_poly1,np_rnet_poly1 - poly1,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
 emerge net_poly1__cut  poly1_cut temp_poly1_cut
 /bin/mv temp_poly1_cut  poly1_cut
 #4 
  geom -V -i p_rnet_poly2,p_rnet_presh_trm,np_rnet_poly2,np_rnet_presh_trm - so_poly2,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7256.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7192.0 kbytes
 #4 
  geom -V -i p_rnet_poly2,p_rnet_presh_trm,np_rnet_poly2,np_rnet_presh_trm - poly2,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7184.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7244.0 kbytes
 geom -V -i net_poly2_cut,net_presh_trm_cut - poly2_cut,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6920.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6856.0 kbytes
 geom -V net_poly2__cut,poly2_cut - poly2_cut,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6984.0 kbytes
 #4 
  geom -V -i p_rnet_met1,np_rnet_met1 - so_met1,1,n
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 7640.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 7444.0 kbytes
 geom -V p_rnet_met1,np_rnet_met1 - met1,1,i,1
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7184.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 7260.0 kbytes
 emerge net_met1__cut  met1_cut temp_met1_cut
 /bin/mv temp_met1_cut  met1_cut
 #4 
  geom -V -i p_rnet_met2,np_rnet_met2 - so_met2,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7308.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7192.0 kbytes
 geom -V p_rnet_met2,np_rnet_met2 - met2,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6828.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6896.0 kbytes
 emerge net_met2__cut  met2_cut temp_met2_cut
 /bin/mv temp_met2_cut  met2_cut
 #4 
  geom -V -i p_rnet_met3,np_rnet_met3 - so_met3,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7192.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7248.0 kbytes
 geom -V p_rnet_met3,np_rnet_met3 - met3,1,i,1
 
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6936.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6852.0 kbytes
 #==========================================================#
 # Form capacitance layers for non-resistive process layers
 #==========================================================#
 
 emerge -V p_rnet_subtap np_rnet_subtap net_subtap
-emerge took 0.00 user, 0.01 sys, 0.00 elapsed, 6088.0 kbytes
+emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 6064.0 kbytes
 emerge -V p_rnet_ndiff_d_sub np_rnet_ndiff_d_sub net_ndiff_d_sub
-emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 6100.0 kbytes
+emerge took 0.00 user, 0.01 sys, 0.00 elapsed, 6208.0 kbytes
 emerge -V p_rnet_pdiff_d_ntub np_rnet_pdiff_d_ntub net_pdiff_d_ntub
-emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 6228.0 kbytes
+emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 6016.0 kbytes
 grow -V .001 net_welltap mask
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6064.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6112.0 kbytes
 geom -V net_subtap mask - net_subtap,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6920.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6832.0 kbytes
 grow -V .001 net_subtap g_net_subtap
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6160.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6168.0 kbytes
 geom -V mask,g_net_subtap - mask,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6900.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
 geom -V net_ndiff_d_sub mask - net_ndiff_d_sub,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6860.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7004.0 kbytes
 grow -V .001 net_ndiff_d_sub g_net_ndiff_d_sub
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6080.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6108.0 kbytes
 geom -V mask,g_net_ndiff_d_sub - mask,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6900.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
 geom -V net_nsd mask - net_nsd,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6872.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6928.0 kbytes
 grow -V .001 net_nsd g_net_nsd
 geom -V mask,g_net_nsd - mask,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6840.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6732.0 kbytes
 geom -V net_pdiff_d_ntub mask - net_pdiff_d_ntub,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6824.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6988.0 kbytes
 grow -V .001 net_pdiff_d_ntub g_net_pdiff_d_ntub
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6268.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6104.0 kbytes
 geom -V mask,g_net_pdiff_d_ntub - mask,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7040.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6936.0 kbytes
 geom -V net_psd mask - net_psd,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7008.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6936.0 kbytes
 grow -V .001 net_psd g_net_psd
 geom -V mask,g_net_psd - mask,1
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6696.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
 geom -V pnpvert10_e mask - pnpvert10_e,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6928.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6856.0 kbytes
 geom -V net_welltap,net_subtap,net_ndiff_d_sub,net_nsd,net_pdiff_d_ntub,net_psd,pnpvert10_e - pdiff,1,i,1
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7072.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7164.0 kbytes
 createEmptyLayer met4
 createEmptyLayer met2cap
 
@@ -3111,17 +3112,17 @@ createEmptyLayer met2cap
 #==========================================================#
 
 grow -V 0.001 RPOLYH_NTUB_device_RES_66 g_RPOLYH_NTUB_device_RES_66
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6208.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6928.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6228.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7212.0 kbytes
 geom -V g_RPOLYH_NTUB_device_RES_66 poly2 - RPOLYH_NTUB_device_RES_66_rvia,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6920.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6912.0 kbytes
 grow -V 0.001 RPOLYH_NTUB_device_RES_66_rvia g_RPOLYH_NTUB_device_RES_66_rvia
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6148.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6136.0 kbytes
 grow -V -0.001 g_RPOLYH_NTUB_device_RES_66_rvia RPOLYH_NTUB_device_RES_66_rvia
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6968.0 kbytes
-merge input file took 0.00 user, 0.00 sys, 0.00 elapsed, 6068.0 kbytes
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6552.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6740.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6856.0 kbytes
+merge input file took 0.00 user, 0.00 sys, 0.00 elapsed, 6156.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6512.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6700.0 kbytes
 geom -V RPOLYH_NTUB_device_RES_66_rvia - RPOLYH_NTUB_device_RES_66_rvia,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
 connect RPOLYH_NTUB_device_RES_66,RPOLYH_NTUB_device_RES_66_rvia:RPOLYH_NTUB_device_RES_66_rcap - -
@@ -3136,12 +3137,12 @@ geom RPOLYH_NTUB_device_RES_66_rcap RPOLYH_NTUB_device_RES_66_rvia - RPOLYH_NTUB
 #==========================================================#
 
 geom -V poly2,RPOLYH_NTUB_device_RES_66_rcap - tmp_poly2,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7004.0 kbytes
 stamp -B poly2 tmp_poly2
 /bin/mv -f tmp_poly2 poly2
 /bin/cp poly2_cut tmpcut
 emerge -V RPOLYH_NTUB_device_RES_66_cut tmpcut poly2_cut
-emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 5976.0 kbytes
+emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 6076.0 kbytes
 /bin/rm -f tmpcut
 
 #==========================================================#
@@ -3150,49 +3151,49 @@ emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 5976.0 kbytes
 
 /bin/cp -f net_nwell net_nwell_orig
 geom -V p_rnet_nwell,np_rnet_nwell - net_nwell,1,i,1
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 7012.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
 /bin/cp -f net_psub net_psub_orig
 geom -V p_rnet_psub,np_rnet_psub - net_psub,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6936.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6956.0 kbytes
 /bin/cp -f pnpvert10_c pnpvert10_c_orig
 geom -V p_rpnpvert10_c,np_rpnpvert10_c - pnpvert10_c,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6944.0 kbytes
 /bin/cp -f pnpvert10_c pnpvert10_c.df2
 grow -V 0.001 net_nwell g_net_nwell
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6180.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6088.0 kbytes
 geom -V net_psub g_net_nwell - net_psub,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6832.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
 /bin/cp -f net_psub net_psub_preserve
 grow -V 0.001 net_psub g_net_psub
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6144.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6168.0 kbytes
 geom -V pnpvert10_c g_net_psub,g_net_nwell - pnpvert10_c,10,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6856.0 kbytes
 /bin/cp -f pnpvert10_c pnpvert10_c_preserve
 geom -V net_nwell,net_psub,pnpvert10_c - fox,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6964.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6860.0 kbytes
 xytoebbox -V -g 16.002 -e met4,met3,met2cap,met2,met1,poly2,poly1,pdiff,net_nwell,net_psub,pnpvert10_c xg_fox
-xytoebbox took  0.00 user, 0.00 sys, 0.00 elapsed, 2692.0 kbytes
+xytoebbox took  0.00 user, 0.00 sys, 0.00 elapsed, 2744.0 kbytes
 grow -V 0.001 fox g_fox
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6100.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6120.0 kbytes
 geom -V xg_fox g_fox - tmp_fox,10
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6756.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6856.0 kbytes
 epick -V -reo -D ${CAP_GROUND} tmp_fox pick_fox
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6096.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6024.0 kbytes
 grow -V -m 0.002 pick_fox g_pick_fox
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6172.0 kbytes
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6920.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6088.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6744.0 kbytes
 stamp -i fox g_pick_fox
 grow -V -m -0.002 g_pick_fox pick_fox
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6220.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6772.0 kbytes
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6816.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6176.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6848.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6796.0 kbytes
 emerge -V pick_fox fox tmp1_fox
-emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 6000.0 kbytes
+emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 5908.0 kbytes
 geom -V tmp1_fox - fox,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6864.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6840.0 kbytes
 /bin/rm -f g_pick_fox xg_fox tmp_fox tmp1_fox
 geom -V fox pdiff - fox,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6924.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
 /bin/cp -f fox fox_preserve
 geom NMOS_device_MOS_1,PMOS_device_MOS_5 - qrcgate,1,i,1
 netprint -max NET > maxnetfile
@@ -3207,51 +3208,51 @@ netprint -max NET > maxnetfile
 /bin/cp pdiff pdiff.df2
 /bin/cp fox fox.df2
 grow -V 0.002 cblock_poly2_poly1 g_cblock_poly2_poly1_1
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6120.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6276.0 kbytes
 grow -V 0.002 cblock_poly2_psub g_cblock_poly2_psub_2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6744.0 kbytes
-merge input file took 0.00 user, 0.00 sys, 0.00 elapsed, 6176.0 kbytes
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6176.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7016.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6960.0 kbytes
+merge input file took 0.00 user, 0.00 sys, 0.00 elapsed, 6104.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6104.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7104.0 kbytes
 grow -V 0.002 cblock_poly1_psub g_cblock_poly1_psub_3
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6108.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6228.0 kbytes
 geom -V g_cblock_poly2_psub_2,g_cblock_poly1_psub_3  - tmp_dev,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6888.0 kbytes
 grow -V -0.001 tmp_dev g_dev_1
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6088.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7612.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6140.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7652.0 kbytes
 geom tmp_dev g_dev_1 fox - fox_in,111,i,3 fox_out,001,i,3 fox_new_cut,101
 /bin/rm -f tmp_dev g_dev_1
 /bin/mv -f fox_new_cut fox_cut
 geom -V g_cblock_poly2_psub_2,g_cblock_poly1_psub_3  - tmp_dev,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
 grow -V -0.001 tmp_dev g_dev_2
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6176.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7688.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6100.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7628.0 kbytes
 geom tmp_dev g_dev_2 pdiff - pdiff_in,111,i,3 pdiff_out,001,i,3 pdiff_new_cut,101
 /bin/rm -f tmp_dev g_dev_2
 /bin/mv -f pdiff_new_cut pdiff_cut
 geom -V g_cblock_poly2_poly1_1,g_cblock_poly2_psub_2,g_cblock_poly1_psub_3  - \
 	tmp_dev,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6816.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6924.0 kbytes
 grow -V -0.001 tmp_dev g_dev_3
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6176.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7744.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6100.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7628.0 kbytes
 geom tmp_dev g_dev_3 poly1 - poly1_in,111,i,3 poly1_out,001,i,3 poly1_new_cut,101
 /bin/rm -f tmp_dev g_dev_3
 emerge poly1_cut poly1_new_cut tmp_cut
 /bin/mv -f tmp_cut poly1_cut
 geom -V g_cblock_poly2_poly1_1,g_cblock_poly2_psub_2  - tmp_dev,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6920.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6884.0 kbytes
 grow -V -0.001 tmp_dev g_dev_4
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6112.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7048.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6172.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 7156.0 kbytes
 geom tmp_dev g_dev_4 poly2 - poly2_in,111,i,3 poly2_out,001,i,3 poly2_new_cut,101
 /bin/rm -f tmp_dev g_dev_4
 emerge poly2_cut poly2_new_cut tmp_cut
 /bin/mv -f tmp_cut poly2_cut
 relocate -V -a -I relocatemap -n NET fox_in pdiff_in poly1_in poly2_in
-relocate took 0.00 user, 0.03 sys, 0.00 elapsed, 6192.0 kbytes
+relocate took 0.00 user, 0.03 sys, 1.00 elapsed, 6140.0 kbytes
 emerge fox_in fox_out fox
 emerge pdiff_in pdiff_out pdiff
 emerge poly1_in poly1_out poly1
@@ -3278,18 +3279,18 @@ createEmptyLayer via_m3_m2c
 #==========================================================#
 
 geom -V rnet_via2_met2_net_met3_net_met2,rnet_via2_met2_net_met3_net_met2__c - via_m3_m2,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7136.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7248.0 kbytes
 geom -V rnet_via1_net_met2_net_met1,net_via1_net_met2__c_net_met1__c,rnet_via1_net_met2_net_met1__c,rnet_via1_net_met2__c_net_met1 - via_m2_m1,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7100.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7184.0 kbytes
 geom -V rnet_poly2con_net_met1_net_poly2,net_poly2con_net_met1__c_net_poly2__c,rnet_poly2con_net_met1_net_poly2__c,rnet_poly2con_net_met1__c_net_poly2 - via_m1_p2,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6880.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6860.0 kbytes
 geom -V rnet_poly1con_net_met1_net_poly1,net_poly1con_net_met1__c_net_poly1__c,rnet_poly1con_net_met1_net_poly1__c,rnet_poly1con_net_met1__c_net_poly1 - via_m1_p1,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7136.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 7220.0 kbytes
 geom -V rnet_ndiffcon_net_met1_net_welltap,rnet_ndiffcon_net_met1_net_nsd,net_ndiffcon_net_met1__c_net_welltap,net_ndiffcon_net_met1__c_net_nsd,rnet_pdiffcon_net_met1_net_subtap,rnet_pdiffcon_net_met1_net_psd,net_pdiffcon_net_met1__c_net_subtap,net_pdiffcon_net_met1__c_net_psd - via_m1_nd,1,i,1
-geom took  0.02 user, 0.01 sys, 0.00 elapsed, 8680.0 kbytes
+geom took  0.03 user, 0.00 sys, 0.00 elapsed, 8712.0 kbytes
 geom -V rnet_pdiffcon_net_met1_net_subtap,rnet_pdiffcon_net_met1_net_psd,net_pdiffcon_net_met1__c_net_subtap,net_pdiffcon_net_met1__c_net_psd,rnet_ndiffcon_net_met1_net_welltap,rnet_ndiffcon_net_met1_net_nsd,net_ndiffcon_net_met1__c_net_welltap,net_ndiffcon_net_met1__c_net_nsd - via_m1_pd,1,i,1
 
-geom took  0.02 user, 0.01 sys, 0.00 elapsed, 8704.0 kbytes
+geom took  0.02 user, 0.01 sys, 0.00 elapsed, 8684.0 kbytes
 #==========================================================#
 # Create sip/sw3d/cn3d capacitance data files
 #==========================================================#
@@ -3393,7 +3394,7 @@ ENDCAT
 
 emerge -V NMOS_device_MOS_1 PMOS_device_MOS_5 capgen_gate
 
-emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 5904.0 kbytes
+emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 5980.0 kbytes
 #==========================================================#
 # Run pax16 to generate capfile
 #==========================================================#
@@ -3407,23 +3408,23 @@ pax16 -V -lee_off -gnd ${CAP_GROUND} -via \
 	met1:met1_cut met2:met2_cut met2cap met3:met3_cut met4 capgen_gate - \
 	/opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical/qrcTechFile - - NET \
 	- capfile
-starting mergecap took 0.00 user, 0.00 sys, 0.00 elapsed, 5992.0 kbytes
+starting mergecap took 0.00 user, 0.00 sys, 0.00 elapsed, 5984.0 kbytes
 
-total caps for file capfile.cmodel.cap = 57279
+total caps for file capfile.cmodel.cap = 57579
 
-total caps = 57279, maxnet = 0
+total caps = 57579, maxnet = 0
 
-hashtable_size_1 = 0, hashtable_size_2 = 14321
+hashtable_size_1 = 0, hashtable_size_2 = 14401
 
-hashtabsize = 14321
-mergecap took 0.02 user, 0.16 sys, 0.00 elapsed, 250856.0 kbytes
-pax16 took  11.28 user, 2.18 sys, 14.00 elapsed, 132424.0 kbytes
+hashtabsize = 14401
+mergecap took 0.01 user, 0.18 sys, 0.00 elapsed, 250852.0 kbytes
+pax16 took  11.34 user, 2.20 sys, 14.00 elapsed, 132468.0 kbytes
 relocate -V -r maxnetfile -n NET fox pdiff poly1 poly2 met2cap \
 	rnet_poly1con_net_met1_net_poly1 rnet_poly2con_net_met1_net_poly2 \
 	rnet_presh_trm_net_poly2_ovia rnet_via1_net_met2_net_met1 \
 	rnet_via2_met2_net_met3_net_met2
 
-relocate took 0.01 user, 0.08 sys, 0.00 elapsed, 5928.0 kbytes
+relocate took 0.02 user, 0.08 sys, 0.00 elapsed, 6088.0 kbytes
 #==========================================================#
 # Generate netlister data files
 #==========================================================#
@@ -3448,25 +3449,25 @@ xreduce -V -mergecap -n NET -tech \
 	VERT10_device_BJT_82.qtransr RPOLYH_NTUB_device_RES_66.resr \
 	CPOLY_NTUB_device_CAP_84.cpaxr P_NWD_device_DIODE_43.dpaxr BOXr
 
-INFO (XREDUCE-199107): Total number of resistors is 19604
+INFO (XREDUCE-199107): Total number of resistors is 20075
 
 INFO (XREDUCE-199108): d1 option renamed 0 nets
 
 INFO (XREDUCE-199108): d1 option renamed 91 nets
 
-INFO (XREDUCE-199109): minR option removed 557 resistors (3%)
+INFO (XREDUCE-199109): minR option removed 571 resistors (3%)
 
-INFO (XREDUCE-199054): Total number of capacitors in capfile is 39392
+INFO (XREDUCE-199054): Total number of capacitors in capfile is 39681
 
-INFO (XREDUCE-199052): mergecap required for 524 (3%) of 18365 nets
+INFO (XREDUCE-199052): mergecap required for 536 (3%) of 18208 nets
 
 INFO (XREDUCE-199065): minC small capacitor decoupling set to 0.1%
 
-INFO (XREDUCE-199066): minC option decoupled 5143 capacitors in capfile
+INFO (XREDUCE-199066): minC option decoupled 5279 capacitors in capfile
 
-INFO (XREDUCE-199067): the number of capacitors decreased by 3027 (8%)
+INFO (XREDUCE-199067): the number of capacitors decreased by 3045 (8%)
 
-xreduce took 0.24 user, 1.19 sys, 2.00 elapsed, 25196.0 kbytes
+xreduce took 0.31 user, 1.25 sys, 2.00 elapsed, 25220.0 kbytes
 #==========================================================#
 # Generate HSPICE file
 #==========================================================#
@@ -3508,7 +3509,7 @@ advgen -V -g0 -li -f -n -o HSPICE -TL L1T0,L2T0,L3T0 -sc caps2dversion -mx \
 	NET - \
 	/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/extview.tmp
 
-advgen took:  1.89 user, 2.40 sys, 4.00 elapsed, 30816.0 kbytes
+advgen took:  2.35 user, 2.63 sys, 5.00 elapsed, 30764.0 kbytes
 #==========================================================#
 # Create _save_layers file for Assura extracted view
 #==========================================================#
@@ -3700,13 +3701,13 @@ INFO (LBRCXM-610): Extraction finished.
 INFO (LBRCXU-108): Starting
 
  runUserCmd /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/rcxToDfII /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/__qrc.rcx_cmd -f /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT/extview.tmp -w /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT/8_Poten_PTAT -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
-2026/06/02 15:32:53 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2026/06/02 15:32:53 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2026/06/03 11:36:44 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/06/03 11:36:44 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: rcxToDfII_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:42 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/rcxToDfII on Tue Jun  2 15:32:53 2026
+run on il2244vt26_hrahimi from /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/64bit/rcxToDfII on Wed Jun  3 11:36:45 2026
 
 *WARNING* No technology dir found at /opt/pdk/ams/410/assura/c35b4/c35b4o7
 	  Defined in assura_tech map file /opt/pdk/ams/410/assura/c35b4/assura_tech.lib at line 20
@@ -3760,9 +3761,9 @@ AMS_DB set to cds
 *WARNING* (DB-270210): dbOpenCellViewByType: library 'SPIRALS_4M' does not exist
 *WARNING* No library model for device "SP090S155D auLvs SPIRALS_4M".
 
-Creating extracted view for Potentiostat 8_Poten_PTAT layout
+Creating extracted view for Potentiostat_cpoly 8_Poten_PTAT layout
 
-Schematic cell -  8_Poten_PTAT schematic Potentiostat
+Schematic cell -  8_Poten_PTAT schematic Potentiostat_cpoly
 Express Pcell license has been checked out for the Express Pcell feature.
 Save recognition layer NMOS_device
 Layer NMOS_device has 160 shapes.
@@ -3823,7 +3824,7 @@ Layer P_PD_device has 0 shapes.
 Save recognition layer NWD_device
 Layer NWD_device has 0 shapes.
 Save recognition layer P_NWD_device
-Layer P_NWD_device has 49 shapes.
+Layer P_NWD_device has 47 shapes.
 Save recognition layer ZD2SM24_device
 Layer ZD2SM24_device has 0 shapes.
 Save recognition layer ESDPD12_device
@@ -3859,7 +3860,7 @@ Layer RPOLY2PH_NTUB_device has 0 shapes.
 Save recognition layer RPOLYH_PSUB_device
 Layer RPOLYH_PSUB_device has 0 shapes.
 Save recognition layer RPOLYH_NTUB_device
-Layer RPOLYH_NTUB_device has 41 shapes.
+Layer RPOLYH_NTUB_device has 45 shapes.
 Save recognition layer RPOLY1_PSUB_device
 Layer RPOLY1_PSUB_device has 0 shapes.
 Save recognition layer RPOLY1_NTUB_device
@@ -3875,9 +3876,9 @@ Layer VERT10_device has 81 shapes.
 Save recognition layer CPOLY_PSUB_device
 Layer CPOLY_PSUB_device has 0 shapes.
 Save recognition layer CPOLY_NTUB_device
-Layer CPOLY_NTUB_device has 37 shapes.
+Layer CPOLY_NTUB_device has 42 shapes.
 Save recognition layer CVAR_device
-Layer CVAR_device has 9 shapes.
+Layer CVAR_device has 3 shapes.
 Save recognition layer PROBE_device
 Layer PROBE_device has 0 shapes.
 Save recognition layer NMOSRF_device
@@ -3911,53 +3912,53 @@ Layer net_via3 has 0 shapes.
 Copying layer net_met4
 Layer net_met4 has 0 shapes.
 Copying layer net_met3
-Layer net_met3 has 802 shapes.
+Layer net_met3 has 804 shapes.
 Copying layer net_via2_metcap
 Layer net_via2_metcap has 0 shapes.
 Copying layer net_via2_met2
-Layer net_via2_met2 has 5694 shapes.
+Layer net_via2_met2 has 5704 shapes.
 Copying layer net_met2
-Layer net_met2 has 2989 shapes.
+Layer net_met2 has 2992 shapes.
 Copying layer net_via1
-Layer net_via1 has 16129 shapes.
+Layer net_via1 has 15119 shapes.
 Copying layer net_met1
-Layer net_met1 has 8114 shapes.
+Layer net_met1 has 7634 shapes.
 Copying layer net_poly2con
-Layer net_poly2con has 2360 shapes.
+Layer net_poly2con has 2726 shapes.
 Copying layer net_poly2
-Layer net_poly2 has 235 shapes.
+Layer net_poly2 has 260 shapes.
 Copying layer net_poly1con
-Layer net_poly1con has 6864 shapes.
+Layer net_poly1con has 6885 shapes.
 Copying layer net_poly1
-Layer net_poly1 has 4149 shapes.
+Layer net_poly1 has 3533 shapes.
 Copying layer net_pdiffcon
-Layer net_pdiffcon has 34331 shapes.
+Layer net_pdiffcon has 35003 shapes.
 Copying layer net_pdiff
-Layer net_pdiff has 1528 shapes.
+Layer net_pdiff has 1530 shapes.
 Copying layer net_ndiffcon
-Layer net_ndiffcon has 31956 shapes.
+Layer net_ndiffcon has 31370 shapes.
 Copying layer net_ndiff
-Layer net_ndiff has 1465 shapes.
+Layer net_ndiff has 1182 shapes.
 Loading techComp.cxt 
 
 
-Summary for Potentiostat/8_Poten_PTAT/av_extracted
+Summary for Potentiostat_cpoly/8_Poten_PTAT/av_extracted
 
 instance count totals:
 
     lib              cell             view                    total
-    PRIMLIB          cpoly            auLvs                      37
-    PRIMLIB          cvar             auLvs                       9
+    PRIMLIB          cpoly            auLvs                      42
+    PRIMLIB          cvar             auLvs                       3
     PRIMLIB          nmos4            auLvs                     160
     PRIMLIB          pmos4            auLvs                     662
-    PRIMLIB          pnwd             auLvs                      49
-    PRIMLIB          rpolyhc          auLvs                      41
+    PRIMLIB          pnwd             auLvs                      47
+    PRIMLIB          rpolyhc          auLvs                      45
     PRIMLIB          vert10_4         auLvs                      81
-    analogLib        pcapacitor       symbol                  35019
-    analogLib        presistor        symbol                  15700
+    analogLib        pcapacitor       symbol                  35276
+    analogLib        presistor        symbol                  16125
 
 extracted view creation completed
-cpu: 5.51  elap: 6  pf: 1862  in: 19848  out: 14640  virt: 469M  phys: 1010M
+cpu: 5.65  elap: 6  pf: 1864  in: 20008  out: 14664  virt: 470M  phys: 1011M
 INFO (LBRCXM-612): Done Executing :runUserCmd
 
 INFO (LBRCXM-582): Checking in license of QTS300 24.10
@@ -3969,38 +3970,38 @@ INFO (LBRCXM-985): Summary:
  License(s) used:	QTS300 (x1)
  Design data:
     global nets:                  0
-    LVS nets:                     1566
+    LVS nets:                     841
     signal nets:                  112
-    floating nets:                1454
+    floating nets:                729
     ground net name:              GNDA
  Reduction statistics:
     Dangling Rs removed:          0
     Merged Parallel Rs:           0
     Mfactor Merged Devices:       0
-    Rs shorted by min_res option: 557
+    Rs shorted by min_res option: 571
     Merged Parallel Self Caps:    0
-    CCs filtered by minC option:  5143
+    CCs filtered by minC option:  5279
     Shorted Incomplete Nets:      0
  Output statistics:
-    R: 15700
-    C: 35019
+    R: 16125
+    C: 35276
     L: 0
 
 
 INFO (LBRCXM-920): Host name and peak memory report
  Host Name:                    il2244vt26_hrahimi
- Peak memory used:             437 MB (sampled at 15s intervals)
+ Peak memory used:             436 MB (sampled at 15s intervals)
 
 INFO (LBRCXM-982): Floating net statistics in the design:
 
-   Total floating nets =  1454
+   Total floating nets =  729
      Total signal nets =  112
-         Total LVS net = 1566
+         Total LVS net = 841
 
-INFO (LBRCXM-702): Run ended: Tue Jun  2 15:33:00 2026
+INFO (LBRCXM-702): Run ended: Wed Jun  3 11:36:51 2026
 
 
-INFO (LBRCXM-805): Quantus run took:  1m23s user, 55s sys, 2m24s elapsed
+INFO (LBRCXM-805): Quantus run took:  1m21s user, 53s sys, 2m21s elapsed
 
 
 INFO (LBRCXM-708): *****  Quantus terminated normally  *****

@@ -52,3 +52,6 @@ DEFINE IOLIB_ANA_4M $AMS_DIR/cds/HK_C35/IOLIB_ANA_4M
 DEFINE avTech /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/etc/avtech/avTech
 DEFINE FBIAS /home/hrahimi/projects/IL2244_VT26_SAUL/FBIAS/
 DEFINE POWER_TRACKS /home/hrahimi/projects/IL2244_VT26_SAUL/POWER_TRACKS/
+#Removed by ddDeleteObj: DEFINE Potentiostat_Cpoly_replaced /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Cpoly_replaced
+#Removed by ddDeleteObj: DEFINE Potentiostat_cpoly /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_cpoly
+DEFINE Potentiostat_cpoly /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_cpoly

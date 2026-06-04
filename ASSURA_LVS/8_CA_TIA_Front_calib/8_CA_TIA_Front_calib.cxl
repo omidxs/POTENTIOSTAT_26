@@ -10,15 +10,15 @@ N G G
 N S S
 N B B
 
-C "Inverter schematic Potentiostat" "Inverter layout Potentiostat"
+C "Inverter schematic Potentiostat_cpoly" "Inverter layout Potentiostat_cpoly"
 N A A
 N Q Q
 N VDDA VDDA
-N GNDA avT1611_1
+N GNDA avT1586_1
 I M_i_0 avD1_1
 I M_i_1 avD5_1
 
-C "7_Calibration_current schematic Potentiostat" "7_Calibration_current layout Potentiostat"
+C "7_Calibration_current schematic Potentiostat_cpoly" "7_Calibration_current layout Potentiostat_cpoly"
 N S2n avC14
 N S3n avC13
 N S0n avC12
@@ -36,7 +36,7 @@ N D2 avC19
 N D3 avC20
 N D4 avC21
 N curr curr
-N GNDA avT1611_1
+N GNDA avT1586_1
 N VDDA VDDA
 N S<3> S<3>
 N S<2> S<2>
@@ -76,16 +76,25 @@ C RPOLYH(RES) RPOLYH(RES)
 N PLUS PLUS
 N MINUS MINUS
 
+C "7_MUX21 schematic Potentiostat_cpoly" "7_MUX21 layout Potentiostat_cpoly"
+N SN Q
+N Out Out
+N GNDA avT1586_1
+N EN EN
+N VDDA VDDA
+N A0 A0
+N A1 A1
+I MN1 MN1/avD1_1
+I MN0 MN0/avD1_1
+I MP2 MP2/avD5_1
+I MP1 MP1/avD5_1
+I I0 I0
+
 C CPOLYA(CAP) CPOLYA(CAP)
 N PLUS PLUS
 N MINUS MINUS
 
-C CVAR(Generic) CVAR(Generic)
-N G G
-N S S
-N B B
-
-C "6_TIA_Front_Layout schematic Potentiostat" "6_TIA_Front_Layout layout Potentiostat"
+C "6_TIA_Front_Layout schematic Potentiostat_cpoly" "6_TIA_Front_Layout layout Potentiostat_cpoly"
 N net24 avC11
 N D2 avC9
 N Vm1 avC8
@@ -95,7 +104,7 @@ N D1 avC10
 N o1 avC12
 N Ibias Ibias
 N VDDA VDDA
-N GNDA avT1611_1
+N GNDA avT1586_1
 N Vin+ Vin+
 N Vin- Vin-
 N Vout Vout
@@ -116,21 +125,21 @@ I MP10<0> MP10(0)/avD5_1
 I MP20<0> avD5_25
 I MP15<0> avD5_34
 I C5<0>/C0 C5(0)/avD84_1
-I C1 C1/avD85_1
-I C0 C0/avD85_1
-I R7 avD66_1
+I C9/C0 avD84_1
+I R32 avD66_1
+I R7 avD66_2
 
-C "6_Resnet schematic Potentiostat" "6_Resnet layout Potentiostat"
+C "6_Resnet schematic Potentiostat_cpoly" "6_Resnet layout Potentiostat_cpoly"
 N net3 avC14
 N net12 avC15
-N net1 avC48
+N net1 avC16
 N net5 avC13
 N S1n avC10
 N S3n avC12
 N S0n avC9
 N S2n avC11
 N VDDA VDDA
-N GNDA avT1611_1
+N GNDA avT1586_1
 N S<3> S<3>
 N S<2> S<2>
 N S<1> S<1>
@@ -145,16 +154,16 @@ I MP14 avD5_1
 I MP15 avD5_2
 I MP5 avI22/avD5_1
 I MP3 avD5_3
-I I11 I11
-I I13 I13
-I I6 I6
-I I12 I12
 I R5 R5/avD66_1
 I R22 R10/avD66_1
 I R20 R20/avD66_1
 I R6 avD66_1
+I I11 I11
+I I13 I13
+I I6 I6
+I I12 I12
 
-C "6_CA_Front_Layout schematic Potentiostat" "6_CA_Front_Layout layout Potentiostat"
+C "6_CA_Front_Layout schematic Potentiostat_cpoly" "6_CA_Front_Layout layout Potentiostat_cpoly"
 N net6 avC12
 N C avC11
 N A avC8
@@ -167,7 +176,7 @@ N VDDA VDDA
 N Vin+ Vin+
 N Vout Vout
 N Vin- Vin-
-N GNDA avT1611_1
+N GNDA avT1586_1
 I MN10<0> avD1_6
 I MN33<0> MN33(0)/avD1_1
 I MN30 MN30/avD1_1
@@ -184,26 +193,11 @@ I MP1<0> MP1(0)/avD5_1
 I MP0<0> MP0(0)/avD5_1
 I MP32<0> avD5_2
 I C0/C0 avD84_1
-I C2 avD85_1
 I R1 avD66_1
 
-C "7_MUX21 schematic Potentiostat" "7_MUX21 layout Potentiostat"
-N SN Q
-N Out Out
-N GNDA avT1611_1
-N EN EN
-N VDDA VDDA
-N A0 A0
-N A1 A1
-I MN1 MN1/avD1_1
-I MN0 MN0/avD1_1
-I MP2 MP2/avD5_1
-I MP1 MP1/avD5_1
-I I0 I0
-
-C "8_CA_TIA_Front_calib schematic Potentiostat" "8_CA_TIA_Front_calib layout Potentiostat"
-N net2 avC27
-N net1 avC26
+C "8_CA_TIA_Front_calib schematic Potentiostat_cpoly" "8_CA_TIA_Front_calib layout Potentiostat_cpoly"
+N net2 avC21
+N net1 avC20
 N Ibias9 Ibias9
 N Ibias8 Ibias8
 N Vref Vref
@@ -223,13 +217,14 @@ N TIA_in TIA_in
 N Calib_EN Calib_EN
 N v1500 v1500
 N EN_100mV EN_100mV
-I I35 I35
-I I30 I30
+I C5/C0 avD84_1
 I C4<0>/C0 C4(0)/avD84_1
-I C0 C0/avD85_1
-I R0 avD66_1
+I C3/C0 avD84_2
+I R32 avD66_1
 I I22 I22
 I I28 I28
 I I33 I33
+I I35 I35
+I I30 I30
 I I36 I36
 
