@@ -1,0 +1,39 @@
+Starting Monte Carlo Sampling...
+
+Current time: Fri Jun  5 16:39:31 2026 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 12345
+
+MonteCarlo.6
+Number of points completed: 200
+Number of simulation errors: 0
+MonteCarlo.6 completed. 
+Current time: Fri Jun  5 18:27:46 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 6
+Poten_MC	Nominal - 
+	Bias error:	Yield	100%
+		Min -0.00289638	Max 0.00313564	Mean 3.67449e-05	Number of errors 0
+Poten_MC	Nominal - 
+	CA Loop Error:	Yield	100%
+		Min 2.83045e-06	Max 0.00264102	Mean 0.000703912	Number of errors 0
+Poten_MC	Nominal - 
+	Output noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 200
+Poten_MC	Nominal - 
+	PSRR:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+Poten_MC	Nominal - 
+	TIA loop Error:	Yield	100%
+		Min 1.93823e-07	Max 0.00239321	Mean 0.000675003	Number of errors 0
+Poten_MC	Nominal - 
+	rmsNoise(0.001 100000):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 200
+
+Poten_MC
+	Overall Yield	100%	Number of points passed	200	Total number of points	200
+
+Estimated yield = 100% (200/200), 200 errors
+Estimated yield (No opregions) = 100% (200/200)

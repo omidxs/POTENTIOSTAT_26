@@ -1,4 +1,4 @@
-//Revision 36
+//Revision 38
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -66,7 +66,6 @@ inst (VT26_IO_RING.IO_RING_S_VH:schematic).I3 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I2 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I1 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VH:schematic).I0 binding :cmos_sch;
-cell VT26_IO_RING.IO_RING_S_VHS binding :drc_extracted;
 inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I0 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I1 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I2 binding :cmos_sch;
@@ -83,6 +82,7 @@ inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I20 binding :cmos_sch;
 inst (VT26_IO_RING.IO_RING_S_VHS:schematic).I44 binding :cmos_sch;
 
 cell Potentiostat_cpoly.\8_Poten_PTAT  binding :av_extracted;
+cell Potentiostat_cpoly.\8_Poten_PTAT2  binding :schematic;
 
 
 endconfig

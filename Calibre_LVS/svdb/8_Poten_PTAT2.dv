@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/8_Poten_PTAT2.dv
+dv_start matched                                  
+dv_cell {8_Poten_PTAT2} {8_Poten_PTAT2} matched
+dv_obj_count -transformed_nets {76 76} -transformed_inst {136 136} -transformed_port {21 21}
+dv_end

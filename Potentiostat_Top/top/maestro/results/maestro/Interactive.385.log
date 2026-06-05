@@ -1,0 +1,37 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Jun  5 13:58:12 2026 
+Best design point: 1
+Design specs: 
+	Poten	corner	Nominal - 
+	Bias error		17.88u
+	Output noise		Error	No
+	CA Loop Error		102.6u
+	rmsNoise(0.001 100000)		Error	No
+	TIA loop Error		120.4u
+	PTAT	corner	Nominal - 
+	Slope		Error	No
+	PSRR		Error	No
+Design parameters: 
+	Cdl		10n
+	vdd		0
+	vtran		0
+	vref		1.615
+	vddpuls		3.3
+	R_ct		500K
+	Cdl_CE		10n
+	Rct_CE		100K
+	Rs_CE		10K
+	Rs_WE		10K
+	PTAT_EN		0
+	Calib_EN		1
+	S0		0
+	S1		0
+	S2		1
+	S3		0
+
+Interactive.385
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.385 completed. 
+Current time: Fri Jun  5 13:59:42 2026 

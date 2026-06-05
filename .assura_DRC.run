@@ -1,3 +1,3 @@
 #!/bin/sh -f
-/opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/assura /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_DRC/8_Poten_PTAT/8_Poten_PTAT.rsf -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib -restart -gui
+/opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/bin/assura /home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_DRC/8_Poten_PTAT2/8_Poten_PTAT2.rsf -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib -restart -gui
 exit $?

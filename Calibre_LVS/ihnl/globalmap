@@ -1,14 +1,16 @@
 CADENCE IHNL11140
 $model
 Potentiostat_cpoly/8_CA_TIA_Front_calib/schematic 8_CA_TIA_Front_calib
-Potentiostat_cpoly/8_Poten_PTAT/schematic 8_Poten_PTAT
+Potentiostat_cpoly/7_PTAT_Layout2/schematic 7_PTAT_Layout2
 Potentiostat_cpoly/6_CA_Front_Layout/schematic 6_CA_Front_Layout
+Potentiostat_cpoly/8_Poten_PTAT2/schematic 8_Poten_PTAT2
+POWER_TRACKS/V200_20/schematic V200_20
 Potentiostat_cpoly/7_MUX21/schematic 7_MUX21
 Potentiostat_cpoly/Inverter/schematic Inverter
 PRIMLIB/cpolyc/schematic cpolyc
 Potentiostat_cpoly/6_TIA_Front_Layout/schematic 6_TIA_Front_Layout
 Potentiostat_cpoly/7_Calibration_current/schematic 7_Calibration_current
-Potentiostat_cpoly/7_PTAT_Layout/schematic 7_PTAT_Layout
+POWER_TRACKS/V500_20/schematic V500_20
 Potentiostat_cpoly/6_Resnet/schematic 6_Resnet
 $endmodel
 $net
