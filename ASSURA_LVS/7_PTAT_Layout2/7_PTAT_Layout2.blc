@@ -2,10 +2,9 @@
 "PNPVERT10(BJT)" "PNPVERT10(BJT)"
 "PMOS4(MOS)" "PMOS4(MOS)"
 "NMOS4(MOS)" "NMOS4(MOS)"
-"CVAR(Generic)" "CVAR(Generic)"
 "CPOLYA(CAP)" "CPOLYA(CAP)"
-"6_CA_Front_Layout layout Potentiostat_cpoly" "6_CA_Front_Layout schematic Potentiostat_cpoly" "CPOLYA(CAP)" "NMOS4(MOS)" "RPOLYH(RES)" "PMOS4(MOS)"
-"7_PTAT_Layout2 layout Potentiostat_cpoly" "7_PTAT_Layout2 schematic Potentiostat_cpoly" "CPOLYA(CAP)" "NMOS4(MOS)" "PNPVERT10(BJT)" "RPOLYH(RES)" "CVAR(Generic)" "PMOS4(MOS)"
+"6_CA_Front_Layout layout Potentiostat_cpoly2" "6_CA_Front_Layout schematic Potentiostat_cpoly2" "CPOLYA(CAP)" "NMOS4(MOS)" "RPOLYH(RES)" "PMOS4(MOS)"
+"7_PTAT_Layout2 layout Potentiostat_cpoly2" "7_PTAT_Layout2 schematic Potentiostat_cpoly2" "CPOLYA(CAP)" "NMOS4(MOS)" "PNPVERT10(BJT)" "RPOLYH(RES)" "PMOS4(MOS)"
 Devices filtered from layout
 "pcapacitor"
 "P_DN_PS"

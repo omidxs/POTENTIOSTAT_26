@@ -1,0 +1,12 @@
+
+*WARNING* Unstable devices of type DIODE named "NWD" exist on layer "NWD_device_DIODE_42"
+*WARNING* device avD0_5 at 0:256.75 from cell VDD3OP layout IOLIB_4M is replaced in cell IO_RING_S_VHS layout VT26_IO_RING at 262.15:1359.4 
+	stack:
+	avI118    VDD3OP                       5.4:1359.4 r270   bind point
+	          IO_RING_S_VHS
+
+*WARNING* Unstable devices of type Generic named "RCX_DUMMY" exist on layer "P_NWD_device_Device_43"
+*WARNING* device avD0_1 at 355.35:-58.85 from cell Gm_C_filter layout YAOWEN is replaced in cell ECG_Front_End layout YAOWEN at 1451.05:603.05 
+	stack:
+	C2(0)     Gm_C_filter                  1095.7:661.9 r0   bind point
+	          ECG_Front_End

@@ -1,0 +1,65 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         topsyh.lvs.report.ext
+LAYOUT NAME:              topsyh.calibre.db ('topsyh')
+CREATION TIME:            Mon Jun  8 11:26:21 2026
+CURRENT DIRECTORY:        /home/hrahimi/projects/POTENTIOSTAT_26/Calibre_LVS
+USER NAME:                hrahimi
+CALIBRE VERSION:          v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
+
+
+
+Extraction Errors and Warnings for cell "VDD3OP"
+------------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  5
+          (1)  name  "A"  at location  (48,59.4)  on layer  610 "PADPIN"
+          (2)  name  "vdd3o!"  at location  (0.95,214.8)  on layer  604 "M3PIN"
+          (3)  name  "vdd3o!"  at location  (99.65,214.8)  on layer  604 "M3PIN"
+          The name "vdd3o!" was assigned to the net.
+
+
+Extraction Errors and Warnings for cell "VDD3RP"
+------------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  1
+          (1)  name  "A"  at location  (49.35,334.1)  on layer  603 "M2PIN"
+          (2)  name  "vdd3r1!"  at location  (1.45,322.9)  on layer  604 "M3PIN"
+          (3)  name  "vdd3r1!"  at location  (99.45,322.9)  on layer  604 "M3PIN"
+          (4)  name  "vdd3r2!"  at location  (1.45,267.1)  on layer  604 "M3PIN"
+          (5)  name  "vdd3r2!"  at location  (99.35,267.1)  on layer  604 "M3PIN"
+          The name "vdd3r1!" was assigned to the net.
+
+
+Extraction Errors and Warnings for cell "GND3RP"
+------------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  2
+          (1)  name  "A"  at location  (60.1,334.85)  on layer  603 "M2PIN"
+          (2)  name  "gnd3r!"  at location  (1.45,297.15)  on layer  604 "M3PIN"
+          The name "gnd3r!" was assigned to the net.
+
+
+Extraction Errors and Warnings for cell "GND3OP"
+------------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  4
+          (1)  name  "A"  at location  (48,59.4)  on layer  610 "PADPIN"
+          (2)  name  "gnd3o!"  at location  (1.35,147.45)  on layer  604 "M3PIN"
+          (3)  name  "gnd3o!"  at location  (99.15,147.45)  on layer  604 "M3PIN"
+          The name "gnd3o!" was assigned to the net.
+
+

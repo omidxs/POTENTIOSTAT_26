@@ -16,7 +16,7 @@ LAYOUT NAME:              7_PTAT_Layout.sp ('7_PTAT_Layout')
 SOURCE NAME:              7_PTAT_Layout.src.net ('7_PTAT_Layout')
 RULE FILE:                _c35b4c3.rules_
 RULE FILE TITLE:          DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
-CREATION TIME:            Tue Jun  2 15:19:38 2026
+CREATION TIME:            Mon Jun  8 12:03:03 2026
 CURRENT DIRECTORY:        /home/hrahimi/projects/POTENTIOSTAT_26/Calibre_LVS
 USER NAME:                hrahimi
 CALIBRE VERSION:          v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
@@ -242,15 +242,14 @@ INITIAL NUMBERS OF OBJECTS
 
  Nets:              43        43
 
- Instances:          5         5         M (4 pins)
-                    47        36    *    MN (4 pins)
+ Instances:         47        36    *    MN (4 pins)
                    294       294         MP (4 pins)
                     81        81         Q (3 pins)
-                    22        22         C (2 pins)
-                    23        23         R (2 pins)
-                    15         0    *    D (2 pins)
+                    26        26         C (2 pins)
+                    25        25         R (2 pins)
+                    12         0    *    D (2 pins)
                 ------    ------
- Total Inst:       487       461
+ Total Inst:       485       462
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -262,15 +261,14 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
  Nets:              26        26
 
- Instances:          3         3         M (4 pins)
-                    16        16         MN (4 pins)
+ Instances:         16        16         MN (4 pins)
                     20        20         MP (4 pins)
                      3         3         Q (3 pins)
-                     3         3         C (2 pins)
-                     8         8         R (2 pins)
+                     5         5         C (2 pins)
+                    10        10         R (2 pins)
                      2         2         _smn2v (4 pins)
                 ------    ------
- Total Inst:        55        55
+ Total Inst:        56        56
 
 
        * = Number of objects in layout different from number in source.
@@ -289,36 +287,35 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
    Nets:               26         26            0            0
 
-   Instances:           3          3            0            0    M(CVAR)
-                       16         16            0            0    MN(NMOS4)
+   Instances:          16         16            0            0    MN(NMOS4)
                        20         20            0            0    MP(PMOS4)
                         3          3            0            0    Q(PNPVERT10)
-                        3          3            0            0    C(CPOLYA)
-                        8          8            0            0    R(RPOLYH)
+                        5          5            0            0    C(CPOLYA)
+                       10         10            0            0    R(RPOLYH)
                         2          2            0            0    _smn2v
                   -------    -------    ---------    ---------
-   Total Inst:         55         55            0            0
+   Total Inst:         56         56            0            0
 
 
 o Statistics:
 
-   15 layout instances were filtered and their pins removed from adjoining nets.
+   12 layout instances were filtered and their pins removed from adjoining nets.
 
-   338 layout mos transistors were reduced to 35.
-     303 mos transistors were deleted by parallel reduction.
-   323 source mos transistors were reduced to 31.
-     292 mos transistors were deleted by parallel reduction.
+   335 layout mos transistors were reduced to 34.
+     301 mos transistors were deleted by parallel reduction.
+   320 source mos transistors were reduced to 30.
+     290 mos transistors were deleted by parallel reduction.
 
    80 parallel layout bipolar transistors were reduced to 2.
    80 parallel source bipolar transistors were reduced to 2.
 
-   20 parallel layout capacitors were reduced to 1.
-   20 parallel source capacitors were reduced to 1.
+   24 parallel layout capacitors were reduced to 3.
+   24 parallel source capacitors were reduced to 3.
 
    18 series layout resistors were reduced to 3.  15 connecting nets were deleted.
    18 series source resistors were reduced to 3.  15 connecting nets were deleted.
 
-   1 instance was matched arbitrarily.
+   3 instances were matched arbitrarily.
 
 
 o Initial Correspondence Points:
@@ -357,7 +354,9 @@ o Ambiguity Resolution Points:
                                    Instances
                                    ---------
 
-       X225/R0(272.075,253.600)  R(RPOLYH)                       RR25  R(RPOLYH)
+       X229/R0(272.075,253.600)  R(RPOLYH)                       RR25  R(RPOLYH)
+       R0(724.325,435.825)  R(RPOLYH)                            RR32  R(RPOLYH)
+       X246/R0(48.200,194.950)  R(RPOLYH)                        RR31  R(RPOLYH)
 
 
 

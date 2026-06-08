@@ -6,12 +6,6 @@ net_via1
 T?4381
 T?4206
 net_presh_trm
-CVAR_device_Device_85
-CVAR_device_Device_85_shape
-T?3238
-T?3236
-T?3234
-CVAR_device
 CPOLY_NTUB_device_CAP_84
 CPOLY_NTUB_device_CAP_84_shape
 T?3214
@@ -49,10 +43,8 @@ NMOS_device_MOS_1_shape
 T?1611
 T?1609
 T?1607
-T?1599
 T?1598
 T?1597
-T?1596
 net_met3
 net_met2
 net_met1
@@ -60,10 +52,8 @@ net_poly1
 cblock_poly2_psub
 cblock_poly1_psub
 cblock_poly2_poly1
-rblock_met2
 rblock_met1
 rblock_poly2
-rblock_poly1
 net_via2_met2
 net_via1
 P_NWD_device

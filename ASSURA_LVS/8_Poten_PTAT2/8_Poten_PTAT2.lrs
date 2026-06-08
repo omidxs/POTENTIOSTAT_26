@@ -1,30 +1,30 @@
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on il2244vt26_hrahimi at Thu Jun  4 14:16:27 2026
+run on il2244vt26_hrahimi at Mon Jun  8 12:14:25 2026
 
-Schematic                                         | Layout                                         | Status
--------------------------------------------------------------------------------------------------------------
-Inverter schematic Potentiostat_cpoly             | Inverter layout Potentiostat_cpoly             | matched
-7_Calibration_current schematic Potentiostat_cpoly| 7_Calibration_current layout Potentiostat_cpoly| matched
-7_MUX21 schematic Potentiostat_cpoly              | 7_MUX21 layout Potentiostat_cpoly              | matched
-6_TIA_Front_Layout schematic Potentiostat_cpoly   | 6_TIA_Front_Layout layout Potentiostat_cpoly   | matched
-6_Resnet schematic Potentiostat_cpoly             | 6_Resnet layout Potentiostat_cpoly             | matched
-6_CA_Front_Layout schematic Potentiostat_cpoly    | 6_CA_Front_Layout layout Potentiostat_cpoly    | matched
-8_CA_TIA_Front_calib schematic Potentiostat_cpoly | 8_CA_TIA_Front_calib layout Potentiostat_cpoly | matched
-7_PTAT_Layout2 schematic Potentiostat_cpoly       | 7_PTAT_Layout2 layout Potentiostat_cpoly       | matched
-V500_20 schematic POWER_TRACKS                    | V500_20 layout POWER_TRACKS                    | matched
-V200_20 schematic POWER_TRACKS                    | V200_20 layout POWER_TRACKS                    | matched
-8_Poten_PTAT2 schematic Potentiostat_cpoly        | 8_Poten_PTAT2 layout Potentiostat_cpoly        | matched
+Schematic                                          | Layout                                          | Status
+---------------------------------------------------------------------------------------------------------------
+6_CA_Front_Layout schematic Potentiostat_cpoly2    | 6_CA_Front_Layout layout Potentiostat_cpoly2    | matched
+Inverter schematic Potentiostat_cpoly2             | Inverter layout Potentiostat_cpoly2             | matched
+7_Calibration_current schematic Potentiostat_cpoly2| 7_Calibration_current layout Potentiostat_cpoly2| matched
+7_MUX21 schematic Potentiostat_cpoly2              | 7_MUX21 layout Potentiostat_cpoly2              | matched
+6_TIA_Front_Layout schematic Potentiostat_cpoly2   | 6_TIA_Front_Layout layout Potentiostat_cpoly2   | matched
+6_Resnet schematic Potentiostat_cpoly2             | 6_Resnet layout Potentiostat_cpoly2             | matched
+8_CA_TIA_Front_calib schematic Potentiostat_cpoly2 | 8_CA_TIA_Front_calib layout Potentiostat_cpoly2 | matched
+7_PTAT_Layout2 schematic Potentiostat_cpoly2       | 7_PTAT_Layout2 layout Potentiostat_cpoly2       | matched
+V500_20 schematic POWER_TRACKS                     | V500_20 layout POWER_TRACKS                     | matched
+V200_20 schematic POWER_TRACKS                     | V200_20 layout POWER_TRACKS                     | matched
+8_Poten_PTAT2 schematic Potentiostat_cpoly2        | 8_Poten_PTAT2 layout Potentiostat_cpoly2        | matched
 
 Schematic and Layout Match
 
 Schematic:
-  Library:Potentiostat_cpoly
+  Library:Potentiostat_cpoly2
   Cell   :8_Poten_PTAT2
   View   :schematic
 
 Layout:
-  Library:Potentiostat_cpoly
+  Library:Potentiostat_cpoly2
   Cell   :8_Poten_PTAT2
   View   :layout
 

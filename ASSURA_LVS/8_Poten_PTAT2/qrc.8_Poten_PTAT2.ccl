@@ -22,7 +22,7 @@ filter_res \
 	 -merge_parallel_res false \
 	 -min_res 0.001
 input_db -type assura \
-	 -design_cell_name "8_Poten_PTAT2 layout Potentiostat_cpoly" \
+	 -design_cell_name "8_Poten_PTAT2 layout Potentiostat_cpoly2" \
 	 -run_name "8_Poten_PTAT2" \
 	 -directory_name "/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT2" \
 	 -format "DFII" \

@@ -191,22 +191,6 @@ Shape               Environments Status & Error Marker
    3      X      162.350    -51.000    272.150    161.400
 
 --------------------------------------------------------------------------------
-Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 9                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1        9                425.875      216.075     451.475      231.325
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X       -6.000     -4.650      9.250     20.950
-
---------------------------------------------------------------------------------
 Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26
 
                    Cell Errors    Real Errors   Cell Placements     Environments
@@ -223,20 +207,20 @@ Shape               Environments Status & Error Marker
    1      X       -7.750     -5.750     19.000     35.250
 
 --------------------------------------------------------------------------------
-Cell Name : pmos4 layout PRIMLIB l="2u" in1=MP1281029
+Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                44                1
+                             1              1                 9                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       44                 89.475      228.925      95.575      241.325
+  1        9                425.875      216.075     451.475      231.325
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -1.200     -1.200     11.200      4.900
+   1      X       -6.000     -4.650      9.250     20.950
 
 --------------------------------------------------------------------------------
 Cell Name : pmos4 layout PRIMLIB l="350n" in1=MP628129
@@ -253,6 +237,22 @@ Shape               Environments Status & Error Marker
           1           X1         Y1         X2         Y2
 
    1      X       -1.200     -1.200     11.200      3.250
+
+--------------------------------------------------------------------------------
+Cell Name : pmos4 layout PRIMLIB l="2u" in1=MP1281029
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                44                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       44                 89.475      228.925      95.575      241.325
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.200     -1.200     11.200      4.900
 
 --------------------------------------------------------------------------------
 Cell Name : nmos4 layout PRIMLIB l="20u" in1=MN1128129
@@ -303,7 +303,7 @@ Shape               Environments Status & Error Marker
    1      X       -0.400     -0.250      5.400     11.950
 
 --------------------------------------------------------------------------------
-Cell Name : 6_CA_Front_Layout layout Potentiostat_cpoly
+Cell Name : 6_CA_Front_Layout layout Potentiostat_cpoly2
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              3              3                 1                1
@@ -321,7 +321,7 @@ Shape               Environments Status & Error Marker
    3      X       97.675     55.225    121.850     67.625
 
 --------------------------------------------------------------------------------
-Cell Name : 7_PTAT_Layout layout Potentiostat_cpoly
+Cell Name : 7_PTAT_Layout layout Potentiostat_cpoly2
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              6              6                 1                1
@@ -534,22 +534,6 @@ Shape               Environments Status & Error Marker
    3      X      162.350    -51.000    272.150    161.400
 
 --------------------------------------------------------------------------------
-Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                 9                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1        9                425.875      216.075     451.475      231.325
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X       -6.000     -4.650      9.250     20.950
-
---------------------------------------------------------------------------------
 Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="150u" r="100K" w="2u" in1=R26
 
                    Cell Errors    Real Errors   Cell Placements     Environments
@@ -566,20 +550,20 @@ Shape               Environments Status & Error Marker
    1      X       -7.750     -5.750     19.000     35.250
 
 --------------------------------------------------------------------------------
-Cell Name : pmos4 layout PRIMLIB l="2u" in1=MP1281029
+Cell Name : rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="50u" r="100K" w="800n" in1=R9
 
                    Cell Errors    Real Errors   Cell Placements     Environments
-                             1              1                44                1
+                             1              1                 9                1
 --------------------------------------------------------------------------------
 Env.  Env. Placements            X1           Y1          X2           Y2
 
-  1       44                 89.475      228.925      95.575      241.325
+  1        9                425.875      216.075     451.475      231.325
 
 Shape               Environments Status & Error Marker 
 
           1           X1         Y1         X2         Y2
 
-   1      X       -1.200     -1.200     11.200      4.900
+   1      X       -6.000     -4.650      9.250     20.950
 
 --------------------------------------------------------------------------------
 Cell Name : pmos4 layout PRIMLIB l="350n" in1=MP628129
@@ -596,6 +580,22 @@ Shape               Environments Status & Error Marker
           1           X1         Y1         X2         Y2
 
    1      X       -1.200     -1.200     11.200      3.250
+
+--------------------------------------------------------------------------------
+Cell Name : pmos4 layout PRIMLIB l="2u" in1=MP1281029
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                44                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1       44                 89.475      228.925      95.575      241.325
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -1.200     -1.200     11.200      4.900
 
 --------------------------------------------------------------------------------
 Cell Name : nmos4 layout PRIMLIB l="20u" in1=MN1128129
@@ -646,7 +646,7 @@ Shape               Environments Status & Error Marker
    1      X       -0.400     -0.250      5.400     11.950
 
 --------------------------------------------------------------------------------
-Cell Name : 6_CA_Front_Layout layout Potentiostat_cpoly
+Cell Name : 6_CA_Front_Layout layout Potentiostat_cpoly2
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              3              3                 1                1
@@ -664,7 +664,7 @@ Shape               Environments Status & Error Marker
    3      X       97.675     55.225    121.850     67.625
 
 --------------------------------------------------------------------------------
-Cell Name : 7_PTAT_Layout layout Potentiostat_cpoly
+Cell Name : 7_PTAT_Layout layout Potentiostat_cpoly2
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              6              6                 1                1

@@ -1,3 +1,11 @@
+# 2
+RPOLYH(RES): RPOLYH(RES)
+= PLUS PLUS B
+= MINUS MINUS B
+# 2
+CPOLYA(CAP): CPOLYA(CAP)
+= PLUS PLUS B
+= MINUS MINUS B
 # 4
 PMOS4(MOS): PMOS4(MOS)
 = D D B
@@ -10,25 +18,65 @@ NMOS4(MOS): NMOS4(MOS)
 = G G B
 = S S B
 = B B B
+# 38
+6_CA_Front_Layout schematic Potentiostat_cpoly2: 6_CA_Front_Layout layout Potentiostat_cpoly2
+= net6 avC12
+= C avC9
+= B avC8
+= Vm1 avC7
+= o1 avC13
+= Vm3 avC11
+= A avC10
+= GNDA avT1611_1 I
+= Ibias Ibias B
+= VDDA VDDA I
+= Vin+ Vin+ B
+= Vin- Vin- B
+= Vout Vout B
+= GNDA GNDA
+= GNDA avT1611_9
+= GNDA avT1611_8
+= GNDA avT1611_7
+= GNDA avT1611_6
+= GNDA avT1611_5
+= GNDA avT1611_4
+= GNDA avT1611_3
+= GNDA avT1611_25
+= GNDA avT1611_24
+= GNDA avT1611_23
+= GNDA avT1611_22
+= GNDA avT1611_21
+= GNDA avT1611_20
+= GNDA avT1611_2
+= GNDA avT1611_19
+= GNDA avT1611_18
+= GNDA avT1611_17
+= GNDA avT1611_16
+= GNDA avT1611_15
+= GNDA avT1611_14
+= GNDA avT1611_13
+= GNDA avT1611_12
+= GNDA avT1611_11
+= GNDA avT1611_10
 # 5
-Inverter schematic Potentiostat_cpoly: Inverter layout Potentiostat_cpoly
+Inverter schematic Potentiostat_cpoly2: Inverter layout Potentiostat_cpoly2
 = GNDA avT1611_1 I
 = A A B
 = Q Q B
 = VDDA VDDA I
 = GNDA GNDA
 # 53
-7_Calibration_current schematic Potentiostat_cpoly: 7_Calibration_current layout Potentiostat_cpoly
+7_Calibration_current schematic Potentiostat_cpoly2: 7_Calibration_current layout Potentiostat_cpoly2
 = S0n avC12
 = S3n avC13
 = S2n avC14
 = S1n avC15
-= P4 avC22
-= P3 avC23
-= P2 avC24
 = Vm1 avC10
 = o1 avC16
 = Vmc avC11
+= P4 avC22
+= P3 avC23
+= P2 avC24
 = D2 avC19
 = D3 avC20
 = Vm3 avC9
@@ -72,12 +120,8 @@ Inverter schematic Potentiostat_cpoly: Inverter layout Potentiostat_cpoly
 = GNDA avT1611_17
 = GNDA avT1611_16
 = GNDA avT1611_15
-# 2
-RPOLYH(RES): RPOLYH(RES)
-= PLUS PLUS B
-= MINUS MINUS B
 # 12
-7_MUX21 schematic Potentiostat_cpoly: 7_MUX21 layout Potentiostat_cpoly
+7_MUX21 schematic Potentiostat_cpoly2: 7_MUX21 layout Potentiostat_cpoly2
 = SN Q
 = GNDA avT1611_1 I
 = A0 A0 B
@@ -90,12 +134,8 @@ RPOLYH(RES): RPOLYH(RES)
 = GNDA avT1611_4
 = GNDA avT1611_3
 = GNDA avT1611_2
-# 2
-CPOLYA(CAP): CPOLYA(CAP)
-= PLUS PLUS B
-= MINUS MINUS B
 # 53
-6_TIA_Front_Layout schematic Potentiostat_cpoly: 6_TIA_Front_Layout layout Potentiostat_cpoly
+6_TIA_Front_Layout schematic Potentiostat_cpoly2: 6_TIA_Front_Layout layout Potentiostat_cpoly2
 = net24 avC11
 = D1 avC10
 = D2 avC9
@@ -150,7 +190,7 @@ CPOLYA(CAP): CPOLYA(CAP)
 = GNDA avT1611_11
 = GNDA avT1611_10
 # 36
-6_Resnet schematic Potentiostat_cpoly: 6_Resnet layout Potentiostat_cpoly
+6_Resnet schematic Potentiostat_cpoly2: 6_Resnet layout Potentiostat_cpoly2
 = S0n avC9
 = S1n avC10
 = S2n avC11
@@ -187,48 +227,8 @@ CPOLYA(CAP): CPOLYA(CAP)
 = GNDA avT1611_4
 = GNDA avT1611_3
 = GNDA avT1611_2
-# 38
-6_CA_Front_Layout schematic Potentiostat_cpoly: 6_CA_Front_Layout layout Potentiostat_cpoly
-= net6 avC12
-= C avC9
-= B avC8
-= Vm1 avC7
-= o1 avC13
-= Vm3 avC11
-= A avC10
-= GNDA avT1611_1 I
-= Ibias Ibias B
-= VDDA VDDA I
-= Vin+ Vin+ B
-= Vin- Vin- B
-= Vout Vout B
-= GNDA GNDA
-= GNDA avT1611_9
-= GNDA avT1611_8
-= GNDA avT1611_7
-= GNDA avT1611_6
-= GNDA avT1611_5
-= GNDA avT1611_4
-= GNDA avT1611_3
-= GNDA avT1611_25
-= GNDA avT1611_24
-= GNDA avT1611_23
-= GNDA avT1611_22
-= GNDA avT1611_21
-= GNDA avT1611_20
-= GNDA avT1611_2
-= GNDA avT1611_19
-= GNDA avT1611_18
-= GNDA avT1611_17
-= GNDA avT1611_16
-= GNDA avT1611_15
-= GNDA avT1611_14
-= GNDA avT1611_13
-= GNDA avT1611_12
-= GNDA avT1611_11
-= GNDA avT1611_10
 # 134
-8_CA_TIA_Front_calib schematic Potentiostat_cpoly: 8_CA_TIA_Front_calib layout Potentiostat_cpoly
+8_CA_TIA_Front_calib schematic Potentiostat_cpoly2: 8_CA_TIA_Front_calib layout Potentiostat_cpoly2
 = net1 avC32
 = net2 avC33
 = GNDA avT1611_1 I
@@ -364,57 +364,49 @@ CPOLYA(CAP): CPOLYA(CAP)
 = GNDA avT1611_100
 = GNDA avT1611_10
 # 3
-CVAR(Generic): CVAR(Generic)
-= G G B
-= B B B
-= S S B
-# 3
 PNPVERT10(BJT): PNPVERT10(BJT)
 = C C B
 = B B B
 = E E B
-# 167
-7_PTAT_Layout2 schematic Potentiostat_cpoly: 7_PTAT_Layout2 layout Potentiostat_cpoly
+# 164
+7_PTAT_Layout2 schematic Potentiostat_cpoly2: 7_PTAT_Layout2 layout Potentiostat_cpoly2
 = V_ptat avC15
 = Vo1 avC12
-= Ib2 avC623
+= Ib2 avC78
 = net7 Vin-
-= D1 avC6
 = Vm1 avC7
 = Vm2 avC17
 = net4 avC18
 = Vs avC11
 = D2 avC14
+= D1 avC6
 = S avC8
 = X avC10
 = Y avC9
-= Vi avC16
 = S1 avC13
-= net18 avC629
-= net15 avC618
-= net14 avC628
-= net16 avC625
-= net3 avC630
-= U avC626
-= net13 avC624
-= net12 avC619
-= net17 avC627
-= net2 avC620
-= net10 avC621
-= net8 avC632
-= net11 avC635
-= net9 avC634
-= net5 avC631
-= net6 avC633
+= Vi avC16
+= net18 avC84
+= net15 avC73
+= net14 avC83
+= net16 avC80
+= net3 avC85
+= U avC81
+= net13 avC79
+= net12 avC74
+= net17 avC82
+= net2 avC75
+= net10 avC76
+= net8 avC87
+= net11 avC90
+= net9 avC89
+= net5 avC86
+= net6 avC88
 = GNDA avT1611_1 I
 = Ibias Ibias B
 = VDDA VDDA I
 = V_ptat_inv V_ptat_inv B
 = vref vref B
 = GNDA GNDA
-= GNDA avT3238_3
-= GNDA avT3238_2
-= GNDA avT3238_1
 = GNDA avT3183_9
 = GNDA avT3183_81
 = GNDA avT3183_80
@@ -551,7 +543,7 @@ V200_20 schematic POWER_TRACKS: V200_20 layout POWER_TRACKS
 = VDD VDD I
 = GND GND I
 # 21
-8_Poten_PTAT2 schematic Potentiostat_cpoly: 8_Poten_PTAT2 layout Potentiostat_cpoly
+8_Poten_PTAT2 schematic Potentiostat_cpoly2: 8_Poten_PTAT2 layout Potentiostat_cpoly2
 = CE CE B
 = Calib_EN Calib_EN B
 = Calib_i_cur Calib_i_cur B

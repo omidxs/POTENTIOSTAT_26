@@ -1,10 +1,10 @@
 ************************************************************************
 * auCdl Netlist:
 * 
-* Library Name:  Potentiostat
+* Library Name:  Potentiostat_cpoly2
 * Top Cell Name: 7_PTAT_Layout
 * View Name:     schematic
-* Netlisted on:  Jun  2 15:19:34 2026
+* Netlisted on:  Jun  8 12:02:59 2026
 ************************************************************************
 
 *.EQUATION
@@ -28,7 +28,7 @@ CC0 MINUS PLUS $[CPOLYA] area=area perimeter=perimeter
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    6_CA_Front_Layout
 * View Name:    schematic
 ************************************************************************
@@ -170,13 +170,12 @@ MMP32<46> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
 MMP32<47> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
 MMP32<48> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
 MMP32<49> Vout Vm3 VDDA VDDA pmos4 W=2u L=10u M=1
-MC2 Ibias GNDA Ibias GNDA CVAR W=211.2u L=650.00n
 CC0 Vout net6 $[CPOLYA] area=3.47n perimeter=235.5u
 RR1 net6 C $[RPOLYH] $W=2u $L=90u
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    7_PTAT_Layout
 * View Name:    schematic
 ************************************************************************
@@ -292,6 +291,8 @@ RR17 net11 net9 $[RPOLYH] $W=0.8u $L=50u
 RR16 net9 net8 $[RPOLYH] $W=0.8u $L=50u
 RR10 net2 net5 $[RPOLYH] $W=0.8u $L=50u
 RR31 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
+RR33 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
+RR32 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
 RR30 net15 X $[RPOLYH] $W=2u $L=150u
 RR29 net16 net15 $[RPOLYH] $W=2u $L=150u
 RR25 Y U $[RPOLYH] $W=2u $L=150u
@@ -307,6 +308,10 @@ RR26 V_ptat net18 $[RPOLYH] $W=2u $L=150u
 RR28 net17 net16 $[RPOLYH] $W=2u $L=150u
 RR27 net18 net17 $[RPOLYH] $W=2u $L=150u
 RR19 V_ptat net12 $[RPOLYH] $W=2u $L=150u
+CC8 GNDA VDDA $[CPOLYA] area=688p perimeter=118u
+CC6 GNDA Ibias $[CPOLYA] area=688p perimeter=118u
+CC10 GNDA VDDA $[CPOLYA] area=2.08n perimeter=292u
+CC7 GNDA Ibias $[CPOLYA] area=2.2n perimeter=260u
 CC2<0> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
 CC2<1> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
 CC2<2> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
@@ -502,10 +507,6 @@ MMP3<16> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
 MMP3<17> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
 MMP3<18> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
 MMP3<19> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
-MC5 VDDA GNDA VDDA GNDA CVAR W=475.2u L=650.00n
-MC4 VDDA GNDA VDDA GNDA CVAR W=356.4u L=650.00n
-MC1 Ibias GNDA Ibias GNDA CVAR W=343.2u L=650.00n
-MC3 VDDA GNDA VDDA GNDA CVAR W=686.4u L=650.00n
 XI3 GNDA Ib2 VDDA vref net7 V_ptat_inv / 6_CA_Front_Layout
 .ENDS
 

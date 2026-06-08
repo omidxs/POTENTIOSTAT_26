@@ -1,5 +1,5 @@
 #!/bin/ksh
-# This script was generated Thu Jun  4 14:16:53 2026 by:
+# This script was generated Mon Jun  8 12:14:57 2026 by:
 #
 # Program: /opt/tools/cadence/installs/QUANTUS241/tools/extraction/bin/64bit/RCXspice
 # Version: 24.1.0-p089
@@ -216,10 +216,6 @@ cat global.net > power_list
 
 geom net_met1 rblock_met1 - net_met1__c,11,i,1
 geom net_met1 rblock_met1 - net_met1,10,i,1
-geom net_met2 rblock_met2 - net_met2__c,11,i,1
-geom net_met2 rblock_met2 - net_met2,10,i,1
-geom net_poly1 rblock_poly1 - net_poly1__c,11,i,1
-geom net_poly1 rblock_poly1 - net_poly1,10,i,1
 geom net_poly2 rblock_poly2 - net_poly2__c,11,i,1
 geom net_poly2 rblock_poly2 - net_poly2,10,i,1
 
@@ -230,12 +226,6 @@ geom net_poly2 rblock_poly2 - net_poly2,10,i,1
 geom -C net_met1 - net_met1,1,i,1
 geom -C net_met1__c - net_met1__c,1,i,1
 inter net_met1 net_met1__c -t net_met1_net_met1__c_butt:edge
-geom -C net_met2 - net_met2,1,i,1
-geom -C net_met2__c - net_met2__c,1,i,1
-inter net_met2 net_met2__c -t net_met2_net_met2__c_butt:edge
-geom -C net_poly1 - net_poly1,1,i,1
-geom -C net_poly1__c - net_poly1__c,1,i,1
-inter net_poly1 net_poly1__c -t net_poly1_net_poly1__c_butt:edge
 geom -C net_poly2 - net_poly2,1,i,1
 geom -C net_poly2__c - net_poly2__c,1,i,1
 inter net_poly2 net_poly2__c -t net_poly2_net_poly2__c_butt:edge
@@ -261,37 +251,25 @@ geom -V net_welltap net_ndiff - net_welltap_net_ndiff_ovia,11,i,1
 geom -V net_nsd net_ndiff - net_nsd_net_ndiff_ovia,11,i,1
 geom -V net_subtap net_pdiff - net_subtap_net_pdiff_ovia,11,i,1
 geom -V net_psd net_pdiff - net_psd_net_pdiff_ovia,11,i,1
-geom -V T?1596 rblock_poly1 - T?1596_rblock_poly1_ovia,11,i,1
 geom -V T?1597 rblock_poly2 - T?1597_rblock_poly2_ovia,11,i,1
 geom -V T?1598 rblock_met1 - T?1598_rblock_met1_ovia,11,i,1
-geom -V T?1599 rblock_met2 - T?1599_rblock_met2_ovia,11,i,1
 geom -V net_ndiff_d_sub net_ndiff - net_ndiff_d_sub_net_ndiff_ovia,11,i,1
 geom -V net_pdiff_d_ntub net_pdiff - net_pdiff_d_ntub_net_pdiff_ovia,11,i,1
 geom -V pnpvert10_e net_psd - pnpvert10_e_net_psd_ovia,11,i,1
 geom -V net_presh_trm net_poly2 - net_presh_trm_net_poly2_ovia,11,i,1
-geom -V net_via2_met2 net_met3 net_met2__c - net_via2_met2_net_met3_net_met2__c,111,i,2
-geom -V net_via1 net_met2__c net_met1__c - net_via1_net_met2__c_net_met1__c,111,i,2
 geom -V net_via1 net_met2 net_met1__c - net_via1_net_met2_net_met1__c,111,i,2
-geom -V net_via1 net_met2__c net_met1 - net_via1_net_met2__c_net_met1,111,i,2
 geom -V net_poly2con net_met1__c net_poly2__c - net_poly2con_net_met1__c_net_poly2__c,111,i,2
 geom -V net_poly2con net_met1 net_poly2__c - net_poly2con_net_met1_net_poly2__c,111,i,2
 geom -V net_poly2con net_met1__c net_poly2 - net_poly2con_net_met1__c_net_poly2,111,i,2
-geom -V net_poly1con net_met1__c net_poly1__c - net_poly1con_net_met1__c_net_poly1__c,111,i,2
-geom -V net_poly1con net_met1 net_poly1__c - net_poly1con_net_met1_net_poly1__c,111,i,2
 geom -V net_poly1con net_met1__c net_poly1 - net_poly1con_net_met1__c_net_poly1,111,i,2
 geom -V net_ndiffcon net_met1__c net_welltap - net_ndiffcon_net_met1__c_net_welltap,111,i,2
 geom -V net_ndiffcon net_met1__c net_nsd - net_ndiffcon_net_met1__c_net_nsd,111,i,2
 geom -V net_pdiffcon net_met1__c net_subtap - net_pdiffcon_net_met1__c_net_subtap,111,i,2
 geom -V net_pdiffcon net_met1__c net_psd - net_pdiffcon_net_met1__c_net_psd,111,i,2
 geom -V net_met1__c MET1_pinshape - net_met1__c_MET1_pinshape_ovia,11,i,1
-geom -V net_met2__c MET2_pinshape - net_met2__c_MET2_pinshape_ovia,11,i,1
 geom -V net_presh_trm net_poly2__c - net_presh_trm_net_poly2__c_ovia,11,i,1
 geom -V net_met1 net_met1_net_met1__c_butt - net_met1_net_met1_net_met1__c_butt_ovia,11,i,1
 geom -V net_met1__c net_met1_net_met1__c_butt - net_met1__c_net_met1_net_met1__c_butt_ovia,11,i,1
-geom -V net_met2 net_met2_net_met2__c_butt - net_met2_net_met2_net_met2__c_butt_ovia,11,i,1
-geom -V net_met2__c net_met2_net_met2__c_butt - net_met2__c_net_met2_net_met2__c_butt_ovia,11,i,1
-geom -V net_poly1 net_poly1_net_poly1__c_butt - net_poly1_net_poly1_net_poly1__c_butt_ovia,11,i,1
-geom -V net_poly1__c net_poly1_net_poly1__c_butt - net_poly1__c_net_poly1_net_poly1__c_butt_ovia,11,i,1
 geom -V net_poly2 net_poly2_net_poly2__c_butt - net_poly2_net_poly2_net_poly2__c_butt_ovia,11,i,1
 geom -V net_poly2__c net_poly2_net_poly2__c_butt - net_poly2__c_net_poly2_net_poly2__c_butt_ovia,11,i,1
 
@@ -311,7 +289,6 @@ flattenResData RPOLYH_NTUB_device_RES_66 meters
 flattenCapData CPOLY_PSUB_device_CAP_83 meters
 flattenCapData CPOLY_NTUB_device_CAP_84 meters
 flattenDiodeData P_NWD_device_DIODE_43 meters
-flattenDeviceData BOX meters
 flattenLayers cblock_poly2_poly1 cblock_poly1_psub cblock_poly2_psub
 flattenLayers -m net_via2_met2 net_via1 net_poly2con net_poly1con \
 	net_ndiffcon net_pdiffcon net_met3 net_met2 net_met1 net_poly2 \
@@ -326,33 +303,23 @@ flattenLayers -m net_via2_met2 net_via1 net_poly2con net_poly1con \
 	MET1_pinshape net_met2_MET2_pinshape_ovia MET2_pinshape \
 	net_met3_MET3_pinshape_ovia MET3_pinshape net_welltap_net_ndiff_ovia \
 	net_ndiff net_nsd_net_ndiff_ovia net_subtap_net_pdiff_ovia net_pdiff \
-	net_psd_net_pdiff_ovia T?1596_rblock_poly1_ovia T?1596 rblock_poly1 \
-	T?1597_rblock_poly2_ovia T?1597 rblock_poly2 T?1598_rblock_met1_ovia \
-	T?1598 rblock_met1 T?1599_rblock_met2_ovia T?1599 rblock_met2 \
+	net_psd_net_pdiff_ovia T?1597_rblock_poly2_ovia T?1597 rblock_poly2 \
+	T?1598_rblock_met1_ovia T?1598 rblock_met1 \
 	net_ndiff_d_sub_net_ndiff_ovia net_pdiff_d_ntub_net_pdiff_ovia \
 	pnpvert10_e_net_psd_ovia net_presh_trm_net_poly2_ovia \
-	net_via2_met2_net_met3_net_met2__c net_met2__c \
-	net_via1_net_met2__c_net_met1__c net_met1__c \
-	net_via1_net_met2_net_met1__c net_via1_net_met2__c_net_met1 \
+	net_via1_net_met2_net_met1__c net_met1__c \
 	net_poly2con_net_met1__c_net_poly2__c net_poly2__c \
 	net_poly2con_net_met1_net_poly2__c net_poly2con_net_met1__c_net_poly2 \
-	net_poly1con_net_met1__c_net_poly1__c net_poly1__c \
-	net_poly1con_net_met1_net_poly1__c net_poly1con_net_met1__c_net_poly1 \
+	net_poly1con_net_met1__c_net_poly1 \
 	net_ndiffcon_net_met1__c_net_welltap net_ndiffcon_net_met1__c_net_nsd \
 	net_pdiffcon_net_met1__c_net_subtap net_pdiffcon_net_met1__c_net_psd \
-	net_met1__c_MET1_pinshape_ovia net_met2__c_MET2_pinshape_ovia \
-	net_presh_trm_net_poly2__c_ovia \
+	net_met1__c_MET1_pinshape_ovia net_presh_trm_net_poly2__c_ovia \
 	net_met1_net_met1_net_met1__c_butt_ovia net_met1_net_met1__c_butt \
 	net_met1__c_net_met1_net_met1__c_butt_ovia \
-	net_met2_net_met2_net_met2__c_butt_ovia net_met2_net_met2__c_butt \
-	net_met2__c_net_met2_net_met2__c_butt_ovia \
-	net_poly1_net_poly1_net_poly1__c_butt_ovia \
-	net_poly1_net_poly1__c_butt \
-	net_poly1__c_net_poly1_net_poly1__c_butt_ovia \
 	net_poly2_net_poly2_net_poly2__c_butt_ovia \
 	net_poly2_net_poly2__c_butt \
-	net_poly2__c_net_poly2_net_poly2__c_butt_ovia CVAR_device_Device_85 \
-	NMOS_device_MOS_1_orig PMOS_device_MOS_5_orig
+	net_poly2__c_net_poly2_net_poly2__c_butt_ovia NMOS_device_MOS_1_orig \
+	PMOS_device_MOS_5_orig
 endFlattenInputs
 
 #==========================================================#
@@ -372,8 +339,8 @@ reconnect -cgnd ${CAP_GROUND} -float floatlvsnetsfile -tf \
 	NMOS_device_MOS_1,PMOS_device_MOS_5 -qf VERT10_device_BJT_82 -rf \
 	RPOLYH_NTUB_device_RES_66 -cf \
 	CPOLY_PSUB_device_CAP_83,CPOLY_NTUB_device_CAP_84 -df \
-	P_NWD_device_DIODE_43 -gf BOX -probe \
-	MET1_pintext:net_met1:MET1_pintext_fvia,MET2_pintext:net_met2:MET2_pintext_fvia,MET3_pintext:net_met3:MET3_pintext_fvia,MET1_pintext:net_met1__c:MET1_pintext_fvia,MET2_pintext:net_met2__c:MET2_pintext_fvia
+	P_NWD_device_DIODE_43 -probe \
+	MET1_pintext:net_met1:MET1_pintext_fvia,MET2_pintext:net_met2:MET2_pintext_fvia,MET3_pintext:net_met3:MET3_pintext_fvia,MET1_pintext:net_met1__c:MET1_pintext_fvia
 iprint -count floatlvsnetsfile > floatlvsnetsfile.txt
 geom NMOS_device_MOS_1,PMOS_device_MOS_5 - qrcgate,1,i,1
 geom -V  NMOS_device_MOS_1,PMOS_device_MOS_5 - qrcpoly__0,1,i,1
@@ -391,16 +358,12 @@ cp power_list_nums2 power_list_nums
 selectNetsByNumber power_list_nums MET1_pinshape p_rMET1_pinshape np_rMET1_pinshape
 selectNetsByNumber power_list_nums MET2_pinshape p_rMET2_pinshape np_rMET2_pinshape
 selectNetsByNumber power_list_nums MET3_pinshape p_rMET3_pinshape np_rMET3_pinshape
-selectNetsByNumber power_list_nums T?1596 p_rT?1596 np_rT?1596
 selectNetsByNumber power_list_nums T?1597 p_rT?1597 np_rT?1597
 selectNetsByNumber power_list_nums T?1598 p_rT?1598 np_rT?1598
-selectNetsByNumber power_list_nums T?1599 p_rT?1599 np_rT?1599
 selectNetsByNumber power_list_nums net_met1 p_rnet_met1 np_rnet_met1
 selectNetsByNumber power_list_nums net_met1__c p_rnet_met1__c np_rnet_met1__c
 selectNetsByNumber power_list_nums net_met1_net_met1__c_butt p_rnet_met1_net_met1__c_butt np_rnet_met1_net_met1__c_butt
 selectNetsByNumber power_list_nums net_met2 p_rnet_met2 np_rnet_met2
-selectNetsByNumber power_list_nums net_met2__c p_rnet_met2__c np_rnet_met2__c
-selectNetsByNumber power_list_nums net_met2_net_met2__c_butt p_rnet_met2_net_met2__c_butt np_rnet_met2_net_met2__c_butt
 selectNetsByNumber power_list_nums net_met3 p_rnet_met3 np_rnet_met3
 selectNetsByNumber power_list_nums net_ndiff p_rnet_ndiff np_rnet_ndiff
 selectNetsByNumber power_list_nums net_ndiff_d_sub p_rnet_ndiff_d_sub np_rnet_ndiff_d_sub
@@ -408,8 +371,6 @@ selectNetsByNumber power_list_nums net_nsd p_rnet_nsd np_rnet_nsd
 selectNetsByNumber power_list_nums net_pdiff p_rnet_pdiff np_rnet_pdiff
 selectNetsByNumber power_list_nums net_pdiff_d_ntub p_rnet_pdiff_d_ntub np_rnet_pdiff_d_ntub
 selectNetsByNumber power_list_nums net_poly1 p_rnet_poly1 np_rnet_poly1
-selectNetsByNumber power_list_nums net_poly1__c p_rnet_poly1__c np_rnet_poly1__c
-selectNetsByNumber power_list_nums net_poly1_net_poly1__c_butt p_rnet_poly1_net_poly1__c_butt np_rnet_poly1_net_poly1__c_butt
 selectNetsByNumber power_list_nums net_poly2 p_rnet_poly2 np_rnet_poly2
 selectNetsByNumber power_list_nums net_poly2__c p_rnet_poly2__c np_rnet_poly2__c
 selectNetsByNumber power_list_nums net_poly2_net_poly2__c_butt p_rnet_poly2_net_poly2__c_butt np_rnet_poly2_net_poly2__c_butt
@@ -419,8 +380,6 @@ selectNetsByNumber power_list_nums net_subtap p_rnet_subtap np_rnet_subtap
 selectNetsByNumber power_list_nums net_welltap p_rnet_welltap np_rnet_welltap
 selectNetsByNumber power_list_nums pnpvert10_e p_rpnpvert10_e np_rpnpvert10_e
 selectNetsByNumber power_list_nums rblock_met1 p_rrblock_met1 np_rrblock_met1
-selectNetsByNumber power_list_nums rblock_met2 p_rrblock_met2 np_rrblock_met2
-selectNetsByNumber power_list_nums rblock_poly1 p_rrblock_poly1 np_rrblock_poly1
 selectNetsByNumber power_list_nums rblock_poly2 p_rrblock_poly2 np_rrblock_poly2
 selectNetsByNumber power_list_nums net_psub p_rnet_psub np_rnet_psub
 selectNetsByNumber power_list_nums net_nwell p_rnet_nwell np_rnet_nwell
@@ -430,15 +389,10 @@ selectNetsByNumber power_list_nums net_poly2con_net_met1_net_poly2 p_rnet_poly2c
 selectNetsByNumber power_list_nums net_presh_trm_net_poly2_ovia p_rnet_presh_trm_net_poly2_ovia np_rnet_presh_trm_net_poly2_ovia
 selectNetsByNumber power_list_nums net_via1_net_met2_net_met1 p_rnet_via1_net_met2_net_met1 np_rnet_via1_net_met2_net_met1
 selectNetsByNumber power_list_nums net_via2_met2_net_met3_net_met2 p_rnet_via2_met2_net_met3_net_met2 np_rnet_via2_met2_net_met3_net_met2
-selectNetsByNumber power_list_nums net_via2_met2_net_met3_net_met2__c p_rnet_via2_met2_net_met3_net_met2__c np_rnet_via2_met2_net_met3_net_met2__c
-selectNetsByNumber power_list_nums net_via1_net_met2__c_net_met1__c p_rnet_via1_net_met2__c_net_met1__c np_rnet_via1_net_met2__c_net_met1__c
 selectNetsByNumber power_list_nums net_via1_net_met2_net_met1__c p_rnet_via1_net_met2_net_met1__c np_rnet_via1_net_met2_net_met1__c
-selectNetsByNumber power_list_nums net_via1_net_met2__c_net_met1 p_rnet_via1_net_met2__c_net_met1 np_rnet_via1_net_met2__c_net_met1
 selectNetsByNumber power_list_nums net_poly2con_net_met1__c_net_poly2__c p_rnet_poly2con_net_met1__c_net_poly2__c np_rnet_poly2con_net_met1__c_net_poly2__c
 selectNetsByNumber power_list_nums net_poly2con_net_met1_net_poly2__c p_rnet_poly2con_net_met1_net_poly2__c np_rnet_poly2con_net_met1_net_poly2__c
 selectNetsByNumber power_list_nums net_poly2con_net_met1__c_net_poly2 p_rnet_poly2con_net_met1__c_net_poly2 np_rnet_poly2con_net_met1__c_net_poly2
-selectNetsByNumber power_list_nums net_poly1con_net_met1__c_net_poly1__c p_rnet_poly1con_net_met1__c_net_poly1__c np_rnet_poly1con_net_met1__c_net_poly1__c
-selectNetsByNumber power_list_nums net_poly1con_net_met1_net_poly1__c p_rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1con_net_met1_net_poly1__c
 selectNetsByNumber power_list_nums net_poly1con_net_met1__c_net_poly1 p_rnet_poly1con_net_met1__c_net_poly1 np_rnet_poly1con_net_met1__c_net_poly1
 selectNetsByNumber power_list_nums net_ndiffcon_net_met1_net_welltap p_rnet_ndiffcon_net_met1_net_welltap np_rnet_ndiffcon_net_met1_net_welltap
 selectNetsByNumber power_list_nums net_ndiffcon_net_met1_net_nsd p_rnet_ndiffcon_net_met1_net_nsd np_rnet_ndiffcon_net_met1_net_nsd
@@ -501,15 +455,6 @@ createCapDiodeTerm CPOLY_NTUB_device_CAP_84 np_rnet_poly2 CPOLY_NTUB_device_CAP_
 createCapDiodeTerm CPOLY_NTUB_device_CAP_84 np_rnet_poly1 CPOLY_NTUB_device_CAP_84_net_poly1_cvia
 
 #==========================================================#
-# Create resistive interconnect GENERIC device terminals
-#==========================================================#
-
-grow -V 0.001 CVAR_device_Device_85 g_CVAR_device_Device_85
-geom -V g_CVAR_device_Device_85 np_rnet_poly1 - tmp_CVAR_device_Device_85_net_poly1_gdvia,11,n
-ereduce -V -n2 -r tmp_CVAR_device_Device_85_net_poly1_gdvia CVAR_device_Device_85_net_poly1_gdvia
-/bin/rm -f tmp_CVAR_device_Device_85_net_poly1_gdvia
-
-#==========================================================#
 # Prepare non-resistive text layers
 #==========================================================#
 
@@ -523,12 +468,9 @@ flatlabel -V -tc -F MET3_pintext MET3_pintext_nr_labs
 
 connect -V -relocate NET np_rMET1_pinshape:np_rMET1_pinshape.conn \
 	np_rMET2_pinshape:np_rMET2_pinshape.conn \
-	np_rMET3_pinshape:np_rMET3_pinshape.conn np_rT?1596:np_rT?1596.conn \
-	np_rT?1597:np_rT?1597.conn np_rT?1598:np_rT?1598.conn \
-	np_rT?1599:np_rT?1599.conn np_rnet_met1__c:np_rnet_met1__c.conn \
+	np_rMET3_pinshape:np_rMET3_pinshape.conn np_rT?1597:np_rT?1597.conn \
+	np_rT?1598:np_rT?1598.conn np_rnet_met1__c:np_rnet_met1__c.conn \
 	np_rnet_met1_net_met1__c_butt:np_rnet_met1_net_met1__c_butt.conn \
-	np_rnet_met2__c:np_rnet_met2__c.conn \
-	np_rnet_met2_net_met2__c_butt:np_rnet_met2_net_met2__c_butt.conn \
 	np_rnet_ndiff:np_rnet_ndiff.conn np_rnet_welltap:np_rnet_welltap.conn \
 	np_rnet_subtap:np_rnet_subtap.conn \
 	np_rnet_ndiff_d_sub:np_rnet_ndiff_d_sub.conn \
@@ -536,13 +478,9 @@ connect -V -relocate NET np_rMET1_pinshape:np_rMET1_pinshape.conn \
 	np_rnet_pdiff_d_ntub:np_rnet_pdiff_d_ntub.conn \
 	np_rnet_psd:np_rnet_psd.conn np_rpnpvert10_e:np_rpnpvert10_e.conn \
 	np_rnet_pdiff:np_rnet_pdiff.conn \
-	np_rnet_poly1__c:np_rnet_poly1__c.conn \
-	np_rnet_poly1_net_poly1__c_butt:np_rnet_poly1_net_poly1__c_butt.conn \
 	np_rnet_poly2__c:np_rnet_poly2__c.conn \
 	np_rnet_poly2_net_poly2__c_butt:np_rnet_poly2_net_poly2__c_butt.conn \
 	np_rrblock_met1:np_rrblock_met1.conn \
-	np_rrblock_met2:np_rrblock_met2.conn \
-	np_rrblock_poly1:np_rrblock_poly1.conn \
 	np_rrblock_poly2:np_rrblock_poly2.conn \
 	rnet_poly1con_net_met1_net_poly1 rnet_poly2con_net_met1_net_poly2 \
 	rnet_presh_trm_net_poly2_ovia rnet_via1_net_met2_net_met1 \
@@ -551,30 +489,24 @@ connect -V -relocate NET np_rMET1_pinshape:np_rMET1_pinshape.conn \
 	CPOLY_PSUB_device_CAP_83_net_poly2_cvia \
 	CPOLY_PSUB_device_CAP_83_net_poly1_cvia \
 	CPOLY_NTUB_device_CAP_84_net_poly2_cvia \
-	CPOLY_NTUB_device_CAP_84_net_poly1_cvia \
-	CVAR_device_Device_85_net_poly1_gdvia - T?1596_rblock_poly1_ovia,4,27 \
-	T?1597_rblock_poly2_ovia,5,28 T?1598_rblock_met1_ovia,6,25 \
-	T?1599_rblock_met2_ovia,7,26 net_met1__c_MET1_pinshape_ovia,8,1 \
-	net_met1__c_net_met1_net_met1__c_butt_ovia,8,9 \
-	net_met2__c_MET2_pinshape_ovia,10,2 \
-	net_met2__c_net_met2_net_met2__c_butt_ovia,10,11 \
-	net_ndiff_d_sub_net_ndiff_ovia,15,12 \
-	net_ndiffcon_net_met1__c_net_nsd,8,16 \
-	net_ndiffcon_net_met1__c_net_welltap,8,13 \
-	net_ndiffcon_net_welltap_net_nsd,13,16 net_nsd_net_ndiff_ovia,16,12 \
-	net_pdiff_d_ntub_net_pdiff_ovia,17,20 \
-	net_pdiffcon_net_met1__c_net_psd,8,18 \
-	net_pdiffcon_net_met1__c_net_subtap,8,14 \
-	net_pdiffcon_net_subtap_net_psd,14,18 \
-	net_poly1__c_net_poly1_net_poly1__c_butt_ovia,21,22 \
-	net_poly1con_net_met1__c_net_poly1__c,8,21 \
-	net_poly2__c_net_poly2_net_poly2__c_butt_ovia,23,24 \
-	net_poly2con_net_met1__c_net_poly2__c,8,23 \
-	net_psd_net_pdiff_ovia,18,20 net_subtap_net_pdiff_ovia,14,20 \
-	net_via1_net_met2__c_net_met1__c,10,8 \
-	net_welltap_net_ndiff_ovia,13,12 pnpvert10_e_net_psd_ovia,19,18 - \
+	CPOLY_NTUB_device_CAP_84_net_poly1_cvia - \
+	T?1597_rblock_poly2_ovia,4,20 T?1598_rblock_met1_ovia,5,19 \
+	net_met1__c_MET1_pinshape_ovia,6,1 \
+	net_met1__c_net_met1_net_met1__c_butt_ovia,6,7 \
+	net_ndiff_d_sub_net_ndiff_ovia,11,8 \
+	net_ndiffcon_net_met1__c_net_nsd,6,12 \
+	net_ndiffcon_net_met1__c_net_welltap,6,9 \
+	net_ndiffcon_net_welltap_net_nsd,9,12 net_nsd_net_ndiff_ovia,12,8 \
+	net_pdiff_d_ntub_net_pdiff_ovia,13,16 \
+	net_pdiffcon_net_met1__c_net_psd,6,14 \
+	net_pdiffcon_net_met1__c_net_subtap,6,10 \
+	net_pdiffcon_net_subtap_net_psd,10,14 \
+	net_poly2__c_net_poly2_net_poly2__c_butt_ovia,17,18 \
+	net_poly2con_net_met1__c_net_poly2__c,6,17 \
+	net_psd_net_pdiff_ovia,14,16 net_subtap_net_pdiff_ovia,10,16 \
+	net_welltap_net_ndiff_ovia,9,8 pnpvert10_e_net_psd_ovia,15,14 - \
 	MET1_pintext_nr_labs,1 MET2_pintext_nr_labs,2 MET3_pintext_nr_labs,3 \
-	MET1_pintext_nr_labs,8 MET2_pintext_nr_labs,10
+	MET1_pintext_nr_labs,6
 
 #==========================================================#
 # Assign net numbers to resistor vias
@@ -595,9 +527,6 @@ mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	np_rnet_met2 np_rMET2_pinshape
 cp rnet_met2_MET2_pinshape_ovia rnet_met2_MET2_pinshape_ovia_orig
 /bin/rm -f tmp_rnet_met2_MET2_pinshape_ovia
-geom -V net_met2_net_met2_net_met2__c_butt_ovia np_rnet_met2_net_met2__c_butt.conn - tmp_rnet_met2_net_met2_net_met2__c_butt_ovia,11,i,2
-[ -r rnet_met2_net_met2_net_met2__c_butt_ovia ] && /bin/rm -f rnet_met2_net_met2_net_met2__c_butt_ovia
-/bin/mv -f tmp_rnet_met2_net_met2_net_met2__c_butt_ovia rnet_met2_net_met2_net_met2__c_butt_ovia
 geom -V net_met3_MET3_pinshape_ovia np_rMET3_pinshape.conn - tmp_rnet_met3_MET3_pinshape_ovia,11,i,2
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	tmp_rnet_met3_MET3_pinshape_ovia rnet_met3_MET3_pinshape_ovia - \
@@ -632,9 +561,6 @@ mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	rnet_pdiffcon_net_met1_net_subtap - np_rnet_met1 np_rnet_subtap
 cp rnet_pdiffcon_net_met1_net_subtap rnet_pdiffcon_net_met1_net_subtap_orig
 /bin/rm -f tmp_rnet_pdiffcon_net_met1_net_subtap
-geom -V net_poly1_net_poly1_net_poly1__c_butt_ovia np_rnet_poly1_net_poly1__c_butt.conn - tmp_rnet_poly1_net_poly1_net_poly1__c_butt_ovia,11,i,2
-[ -r rnet_poly1_net_poly1_net_poly1__c_butt_ovia ] && /bin/rm -f rnet_poly1_net_poly1_net_poly1__c_butt_ovia
-/bin/mv -f tmp_rnet_poly1_net_poly1_net_poly1__c_butt_ovia rnet_poly1_net_poly1_net_poly1__c_butt_ovia
 geom -V net_poly1con_net_met1__c_net_poly1 np_rnet_met1__c.conn - tmp_rnet_poly1con_net_met1__c_net_poly1,11,i,2
 geom -V np_rnet_poly1con_net_met1__c_net_poly1 np_rnet_met1__c.conn - np_rnet_poly1con_net_met1__c_net_poly1,11,i,2
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
@@ -642,13 +568,6 @@ mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	rnet_poly1con_net_met1__c_net_poly1 - np_rnet_poly1 np_rnet_met1__c
 cp rnet_poly1con_net_met1__c_net_poly1 rnet_poly1con_net_met1__c_net_poly1_orig
 /bin/rm -f tmp_rnet_poly1con_net_met1__c_net_poly1
-geom -V net_poly1con_net_met1_net_poly1__c np_rnet_poly1__c.conn - tmp_rnet_poly1con_net_met1_net_poly1__c,11,i,2
-geom -V np_rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1__c.conn - np_rnet_poly1con_net_met1_net_poly1__c,11,i,2
-mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
-	tmp_rnet_poly1con_net_met1_net_poly1__c \
-	rnet_poly1con_net_met1_net_poly1__c - np_rnet_met1 np_rnet_poly1__c
-cp rnet_poly1con_net_met1_net_poly1__c rnet_poly1con_net_met1_net_poly1__c_orig
-/bin/rm -f tmp_rnet_poly1con_net_met1_net_poly1__c
 geom -V net_poly2_net_poly2_net_poly2__c_butt_ovia np_rnet_poly2_net_poly2__c_butt.conn - tmp_rnet_poly2_net_poly2_net_poly2__c_butt_ovia,11,i,2
 [ -r rnet_poly2_net_poly2_net_poly2__c_butt_ovia ] && /bin/rm -f rnet_poly2_net_poly2_net_poly2__c_butt_ovia
 /bin/mv -f tmp_rnet_poly2_net_poly2_net_poly2__c_butt_ovia rnet_poly2_net_poly2_net_poly2__c_butt_ovia
@@ -672,13 +591,6 @@ mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	- np_rnet_presh_trm np_rnet_poly2__c
 cp rnet_presh_trm_net_poly2__c_ovia rnet_presh_trm_net_poly2__c_ovia_orig
 /bin/rm -f tmp_rnet_presh_trm_net_poly2__c_ovia
-geom -V net_via1_net_met2__c_net_met1 np_rnet_met2__c.conn - tmp_rnet_via1_net_met2__c_net_met1,11,i,2
-geom -V np_rnet_via1_net_met2__c_net_met1 np_rnet_met2__c.conn - np_rnet_via1_net_met2__c_net_met1,11,i,2
-mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
-	tmp_rnet_via1_net_met2__c_net_met1 rnet_via1_net_met2__c_net_met1 - \
-	np_rnet_met1 np_rnet_met2__c
-cp rnet_via1_net_met2__c_net_met1 rnet_via1_net_met2__c_net_met1_orig
-/bin/rm -f tmp_rnet_via1_net_met2__c_net_met1
 geom -V net_via1_net_met2_net_met1__c np_rnet_met1__c.conn - tmp_rnet_via1_net_met2_net_met1__c,11,i,2
 geom -V np_rnet_via1_net_met2_net_met1__c np_rnet_met1__c.conn - np_rnet_via1_net_met2_net_met1__c,11,i,2
 mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
@@ -686,13 +598,6 @@ mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
 	np_rnet_met2 np_rnet_met1__c
 cp rnet_via1_net_met2_net_met1__c rnet_via1_net_met2_net_met1__c_orig
 /bin/rm -f tmp_rnet_via1_net_met2_net_met1__c
-geom -V net_via2_met2_net_met3_net_met2__c np_rnet_met2__c.conn - tmp_rnet_via2_met2_net_met3_net_met2__c,11,i,2
-geom -V np_rnet_via2_met2_net_met3_net_met2__c np_rnet_met2__c.conn - np_rnet_via2_met2_net_met3_net_met2__c,11,i,2
-mergevia -V -i -tech /opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -cnt \
-	tmp_rnet_via2_met2_net_met3_net_met2__c \
-	rnet_via2_met2_net_met3_net_met2__c - np_rnet_met3 np_rnet_met2__c
-cp rnet_via2_met2_net_met3_net_met2__c rnet_via2_met2_net_met3_net_met2__c_orig
-/bin/rm -f tmp_rnet_via2_met2_net_met3_net_met2__c
 
 #==========================================================#
 # Assign net numbers to nonresistive layers
@@ -700,19 +605,15 @@ cp rnet_via2_met2_net_met3_net_met2__c rnet_via2_met2_net_met3_net_met2__c_orig
 
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rnet_welltap.conn tmp_net_welltap
 epick -V -reo -e tmp_net_welltap -c np_rnet_welltap.conn tmp1_net_welltap
 geom -V tmp1_net_welltap np_rnet_welltap - tmp1_net_welltap,11,i,2
@@ -720,19 +621,15 @@ geom -V tmp_net_welltap,tmp1_net_welltap - np_rnet_welltap,1,i,1
 /bin/rm -f tmp_net_welltap tmp1_net_welltap
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rnet_subtap.conn tmp_net_subtap
 epick -V -reo -e tmp_net_subtap -c np_rnet_subtap.conn tmp1_net_subtap
 geom -V tmp1_net_subtap np_rnet_subtap - tmp1_net_subtap,11,i,2
@@ -740,19 +637,15 @@ geom -V tmp_net_subtap,tmp1_net_subtap - np_rnet_subtap,1,i,1
 /bin/rm -f tmp_net_subtap tmp1_net_subtap
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rnet_ndiff_d_sub.conn tmp_net_ndiff_d_sub
 epick -V -reo -e tmp_net_ndiff_d_sub -c np_rnet_ndiff_d_sub.conn tmp1_net_ndiff_d_sub
 geom -V tmp1_net_ndiff_d_sub np_rnet_ndiff_d_sub - tmp1_net_ndiff_d_sub,11,i,2
@@ -760,19 +653,15 @@ geom -V tmp_net_ndiff_d_sub,tmp1_net_ndiff_d_sub - np_rnet_ndiff_d_sub,1,i,1
 /bin/rm -f tmp_net_ndiff_d_sub tmp1_net_ndiff_d_sub
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rnet_nsd.conn tmp_net_nsd
 epick -V -reo -e tmp_net_nsd -c np_rnet_nsd.conn tmp1_net_nsd
 geom -V tmp1_net_nsd np_rnet_nsd - tmp1_net_nsd,11,i,2
@@ -780,19 +669,15 @@ geom -V tmp_net_nsd,tmp1_net_nsd - np_rnet_nsd,1,i,1
 /bin/rm -f tmp_net_nsd tmp1_net_nsd
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rnet_pdiff_d_ntub.conn tmp_net_pdiff_d_ntub
 epick -V -reo -e tmp_net_pdiff_d_ntub -c np_rnet_pdiff_d_ntub.conn tmp1_net_pdiff_d_ntub
 geom -V tmp1_net_pdiff_d_ntub np_rnet_pdiff_d_ntub - tmp1_net_pdiff_d_ntub,11,i,2
@@ -800,19 +685,15 @@ geom -V tmp_net_pdiff_d_ntub,tmp1_net_pdiff_d_ntub - np_rnet_pdiff_d_ntub,1,i,1
 /bin/rm -f tmp_net_pdiff_d_ntub tmp1_net_pdiff_d_ntub
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rnet_psd.conn tmp_net_psd
 epick -V -reo -e tmp_net_psd -c np_rnet_psd.conn tmp1_net_psd
 geom -V tmp1_net_psd np_rnet_psd - tmp1_net_psd,11,i,2
@@ -820,19 +701,15 @@ geom -V tmp_net_psd,tmp1_net_psd - np_rnet_psd,1,i,1
 /bin/rm -f tmp_net_psd tmp1_net_psd
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rpnpvert10_e.conn tmp_pnpvert10_e
 epick -V -reo -e tmp_pnpvert10_e -c np_rpnpvert10_e.conn tmp1_pnpvert10_e
 geom -V tmp1_pnpvert10_e np_rpnpvert10_e - tmp1_pnpvert10_e,11,i,2
@@ -840,19 +717,15 @@ geom -V tmp_pnpvert10_e,tmp1_pnpvert10_e - np_rpnpvert10_e,1,i,1
 /bin/rm -f tmp_pnpvert10_e tmp1_pnpvert10_e
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rnet_met1__c.conn tmp_net_met1__c
 epick -V -reo -e tmp_net_met1__c -c np_rnet_met1__c.conn tmp1_net_met1__c
 geom -V tmp1_net_met1__c np_rnet_met1__c - tmp1_net_met1__c,11,i,2
@@ -860,59 +733,15 @@ geom -V tmp_net_met1__c,tmp1_net_met1__c - np_rnet_met1__c,1,i,1
 /bin/rm -f tmp_net_met1__c tmp1_net_met1__c
 epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
 	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
+	rnet_met2_MET2_pinshape_ovia -e rnet_met3_MET3_pinshape_ovia -e \
+	rnet_ndiffcon_net_met1_net_nsd -e rnet_ndiffcon_net_met1_net_welltap \
+	-e rnet_pdiffcon_net_met1_net_psd -e \
+	rnet_pdiffcon_net_met1_net_subtap -e \
 	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
 	rnet_poly2con_net_met1__c_net_poly2 -e \
 	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
-	np_rnet_met2__c.conn tmp_net_met2__c
-epick -V -reo -e tmp_net_met2__c -c np_rnet_met2__c.conn tmp1_net_met2__c
-geom -V tmp1_net_met2__c np_rnet_met2__c - tmp1_net_met2__c,11,i,2
-geom -V tmp_net_met2__c,tmp1_net_met2__c - np_rnet_met2__c,1,i,1
-/bin/rm -f tmp_net_met2__c tmp1_net_met2__c
-epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
-	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
-	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
-	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
-	rnet_poly2con_net_met1__c_net_poly2 -e \
-	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
-	np_rnet_poly1__c.conn tmp_net_poly1__c
-epick -V -reo -e tmp_net_poly1__c -c np_rnet_poly1__c.conn tmp1_net_poly1__c
-geom -V tmp1_net_poly1__c np_rnet_poly1__c - tmp1_net_poly1__c,11,i,2
-geom -V tmp_net_poly1__c,tmp1_net_poly1__c - np_rnet_poly1__c,1,i,1
-/bin/rm -f tmp_net_poly1__c tmp1_net_poly1__c
-epick -V -reo -e rnet_met1_MET1_pinshape_ovia -e \
-	rnet_met1_net_met1_net_met1__c_butt_ovia -e \
-	rnet_met2_MET2_pinshape_ovia -e \
-	rnet_met2_net_met2_net_met2__c_butt_ovia -e \
-	rnet_met3_MET3_pinshape_ovia -e rnet_ndiffcon_net_met1_net_nsd -e \
-	rnet_ndiffcon_net_met1_net_welltap -e rnet_pdiffcon_net_met1_net_psd \
-	-e rnet_pdiffcon_net_met1_net_subtap -e \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia -e \
-	rnet_poly1con_net_met1__c_net_poly1 -e \
-	rnet_poly1con_net_met1_net_poly1__c -e \
-	rnet_poly2_net_poly2_net_poly2__c_butt_ovia -e \
-	rnet_poly2con_net_met1__c_net_poly2 -e \
-	rnet_poly2con_net_met1_net_poly2__c -e \
-	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2__c_net_met1 -e \
-	rnet_via1_net_met2_net_met1__c -e rnet_via2_met2_net_met3_net_met2__c \
+	rnet_presh_trm_net_poly2__c_ovia -e rnet_via1_net_met2_net_met1__c \
 	np_rnet_poly2__c.conn tmp_net_poly2__c
 epick -V -reo -e tmp_net_poly2__c -c np_rnet_poly2__c.conn tmp1_net_poly2__c
 geom -V tmp1_net_poly2__c np_rnet_poly2__c - tmp1_net_poly2__c,11,i,2
@@ -925,10 +754,6 @@ geom -V tmp_net_poly2__c,tmp1_net_poly2__c - np_rnet_poly2__c,1,i,1
 
 flatlabel -V  -tc -F -l flatlabel.info MET1_pintext,MET2_pintext,MET3_pintext L1T0,L2T0,L3T0
 # 1 net_poly1
-geom p_rnet_poly1__c,p_rnet_poly1 - p_rnet_poly1,1,i,1
-grow .001 np_rnet_poly1 g_np_rnet_poly1
-geom np_rnet_poly1__c,p_rnet_poly1__c g_np_rnet_poly1 - net_poly1__cut,11
-geom p_rnet_poly1 net_poly1__cut - p_rnet_poly1,10,i,1
 # 2 net_presh_trm
 # 3 net_poly2
 geom p_rnet_poly2__c,p_rnet_poly2 - p_rnet_poly2,1,i,1
@@ -941,10 +766,6 @@ grow .001 np_rnet_met1 g_np_rnet_met1
 geom np_rnet_met1__c,p_rnet_met1__c g_np_rnet_met1 - net_met1__cut,11
 geom p_rnet_met1 net_met1__cut - p_rnet_met1,10,i,1
 # 5 net_met2
-geom p_rnet_met2__c,p_rnet_met2 - p_rnet_met2,1,i,1
-grow .001 np_rnet_met2 g_np_rnet_met2
-geom np_rnet_met2__c,p_rnet_met2__c g_np_rnet_met2 - net_met2__cut,11
-geom p_rnet_met2 net_met2__cut - p_rnet_met2,10,i,1
 # 6 net_met3
 
 #==========================================================#
@@ -954,42 +775,34 @@ geom p_rnet_met2 net_met2__cut - p_rnet_met2,10,i,1
 rex -V -m -pd -I'#' -scale 1 -tech \
 	/opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -map \
 	p2elayermapfile -wee p2elayermapfile -N NET -e2 -P \
-	CPOLY_PSUB_device_CAP_83_net_poly2_cvia,CPOLY_PSUB_device_CAP_83_net_poly1_cvia,CPOLY_NTUB_device_CAP_84_net_poly2_cvia,CPOLY_NTUB_device_CAP_84_net_poly1_cvia:RPOLYH_NTUB_device_RES_66_rvia:CVAR_device_Device_85_net_poly1_gdvia \
+	CPOLY_PSUB_device_CAP_83_net_poly2_cvia,CPOLY_PSUB_device_CAP_83_net_poly1_cvia,CPOLY_NTUB_device_CAP_84_net_poly2_cvia,CPOLY_NTUB_device_CAP_84_net_poly1_cvia:RPOLYH_NTUB_device_RES_66_rvia \
 	-rP res.mod np_rnet_poly1::poly1_cut \
 	np_rnet_presh_trm::net_presh_trm_cut np_rnet_poly2::net_poly2_cut \
 	np_rnet_met1::met1_cut np_rnet_met2::met2_cut np_rnet_met3::met3_cut \
 	- rnet_met1_MET1_pinshape_ovia,4 \
 	rnet_met1_net_met1_net_met1__c_butt_ovia,4 \
-	rnet_met2_MET2_pinshape_ovia,5 \
-	rnet_met2_net_met2_net_met2__c_butt_ovia,5 \
-	rnet_met3_MET3_pinshape_ovia,6 rnet_ndiffcon_net_met1_net_nsd,4,t \
+	rnet_met2_MET2_pinshape_ovia,5 rnet_met3_MET3_pinshape_ovia,6 \
+	rnet_ndiffcon_net_met1_net_nsd,4,t \
 	rnet_ndiffcon_net_met1_net_welltap,4,t \
 	rnet_pdiffcon_net_met1_net_psd,4,t \
 	rnet_pdiffcon_net_met1_net_subtap,4,t \
-	rnet_poly1_net_poly1_net_poly1__c_butt_ovia,1 \
 	rnet_poly1con_net_met1__c_net_poly1,1,t \
 	rnet_poly1con_net_met1_net_poly1,1,4,t \
-	rnet_poly1con_net_met1_net_poly1__c,4,t \
 	rnet_poly2_net_poly2_net_poly2__c_butt_ovia,3 \
 	rnet_poly2con_net_met1__c_net_poly2,3,t \
 	rnet_poly2con_net_met1_net_poly2,3,4,t \
 	rnet_poly2con_net_met1_net_poly2__c,4,t \
 	rnet_presh_trm_net_poly2__c_ovia,2 rnet_presh_trm_net_poly2_ovia,2,3 \
-	rnet_via1_net_met2__c_net_met1,4,t rnet_via1_net_met2_net_met1,4,5,t \
-	rnet_via1_net_met2_net_met1__c,5,t \
-	rnet_via2_met2_net_met3_net_met2,5,6,t \
-	rnet_via2_met2_net_met3_net_met2__c,6,t NMOS_device_MOS_1_mgvia,1,z \
+	rnet_via1_net_met2_net_met1,4,5,t rnet_via1_net_met2_net_met1__c,5,t \
+	rnet_via2_met2_net_met3_net_met2,5,6,t NMOS_device_MOS_1_mgvia,1,z \
 	PMOS_device_MOS_5_mgvia,1,z RPOLYH_NTUB_device_RES_66_rvia,3,z \
 	CPOLY_PSUB_device_CAP_83_net_poly2_cvia,3,z \
 	CPOLY_PSUB_device_CAP_83_net_poly1_cvia,1,z \
 	CPOLY_NTUB_device_CAP_84_net_poly2_cvia,3,z \
-	CPOLY_NTUB_device_CAP_84_net_poly1_cvia,1,z \
-	CVAR_device_Device_85_net_poly1_gdvia,1,z - L1T0,4,I L2T0,5,I \
+	CPOLY_NTUB_device_CAP_84_net_poly1_cvia,1,z - L1T0,4,I L2T0,5,I \
 	L3T0,6,I
-geom -i np_rnet_poly1__c,np_rnet_poly1 - np_rnet_poly1,1,n
 geom -i np_rnet_poly2__c,np_rnet_poly2 - np_rnet_poly2,1,n
 geom -i np_rnet_met1__c,np_rnet_met1 - np_rnet_met1,1,n
-geom -i np_rnet_met2__c,np_rnet_met2 - np_rnet_met2,1,n
 
 #==========================================================#
 # Form resistive via layers
@@ -1005,18 +818,12 @@ stamp -V -i2 np_rnet_met2 rnet_via1_net_met2_net_met1 np_rnet_via1_net_met2_net_
 geom -V np_rnet_via1_net_met2_net_met1,p_rnet_via1_net_met2_net_met1 - rnet_via1_net_met2_net_met1,1,i,1
 stamp -V -i2 np_rnet_met3 rnet_via2_met2_net_met3_net_met2 np_rnet_via2_met2_net_met3_net_met2
 geom -V np_rnet_via2_met2_net_met3_net_met2,p_rnet_via2_met2_net_met3_net_met2 - rnet_via2_met2_net_met3_net_met2,1,i,1
-stamp -V -B -i rnet_via2_met2_net_met3_net_met2__c np_rnet_via2_met2_net_met3_net_met2__c
-geom -V np_rnet_via2_met2_net_met3_net_met2__c,p_rnet_via2_met2_net_met3_net_met2__c - rnet_via2_met2_net_met3_net_met2__c,1,i,1
 stamp -V -B -i rnet_via1_net_met2_net_met1__c np_rnet_via1_net_met2_net_met1__c
 geom -V np_rnet_via1_net_met2_net_met1__c,p_rnet_via1_net_met2_net_met1__c - rnet_via1_net_met2_net_met1__c,1,i,1
-stamp -V -B -i rnet_via1_net_met2__c_net_met1 np_rnet_via1_net_met2__c_net_met1
-geom -V np_rnet_via1_net_met2__c_net_met1,p_rnet_via1_net_met2__c_net_met1 - rnet_via1_net_met2__c_net_met1,1,i,1
 stamp -V -B -i rnet_poly2con_net_met1_net_poly2__c np_rnet_poly2con_net_met1_net_poly2__c
 geom -V np_rnet_poly2con_net_met1_net_poly2__c,p_rnet_poly2con_net_met1_net_poly2__c - rnet_poly2con_net_met1_net_poly2__c,1,i,1
 stamp -V -B -i rnet_poly2con_net_met1__c_net_poly2 np_rnet_poly2con_net_met1__c_net_poly2
 geom -V np_rnet_poly2con_net_met1__c_net_poly2,p_rnet_poly2con_net_met1__c_net_poly2 - rnet_poly2con_net_met1__c_net_poly2,1,i,1
-stamp -V -B -i rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1con_net_met1_net_poly1__c
-geom -V np_rnet_poly1con_net_met1_net_poly1__c,p_rnet_poly1con_net_met1_net_poly1__c - rnet_poly1con_net_met1_net_poly1__c,1,i,1
 stamp -V -B -i rnet_poly1con_net_met1__c_net_poly1 np_rnet_poly1con_net_met1__c_net_poly1
 geom -V np_rnet_poly1con_net_met1__c_net_poly1,p_rnet_poly1con_net_met1__c_net_poly1 - rnet_poly1con_net_met1__c_net_poly1,1,i,1
 stamp -V -B -i rnet_ndiffcon_net_met1_net_welltap np_rnet_ndiffcon_net_met1_net_welltap
@@ -1046,14 +853,10 @@ stamp -V -cntr -i -B np_rnet_psub np_rpnpvert10_c
 /bin/rm -f np_rMET1_pinshape.conn
 /bin/rm -f np_rMET2_pinshape.conn
 /bin/rm -f np_rMET3_pinshape.conn
-/bin/rm -f np_rT?1596.conn
 /bin/rm -f np_rT?1597.conn
 /bin/rm -f np_rT?1598.conn
-/bin/rm -f np_rT?1599.conn
 /bin/rm -f np_rnet_met1__c.conn
 /bin/rm -f np_rnet_met1_net_met1__c_butt.conn
-/bin/rm -f np_rnet_met2__c.conn
-/bin/rm -f np_rnet_met2_net_met2__c_butt.conn
 /bin/rm -f np_rnet_ndiff.conn
 /bin/rm -f np_rnet_welltap.conn
 /bin/rm -f np_rnet_subtap.conn
@@ -1063,13 +866,9 @@ stamp -V -cntr -i -B np_rnet_psub np_rpnpvert10_c
 /bin/rm -f np_rnet_psd.conn
 /bin/rm -f np_rpnpvert10_e.conn
 /bin/rm -f np_rnet_pdiff.conn
-/bin/rm -f np_rnet_poly1__c.conn
-/bin/rm -f np_rnet_poly1_net_poly1__c_butt.conn
 /bin/rm -f np_rnet_poly2__c.conn
 /bin/rm -f np_rnet_poly2_net_poly2__c_butt.conn
 /bin/rm -f np_rrblock_met1.conn
-/bin/rm -f np_rrblock_met2.conn
-/bin/rm -f np_rrblock_poly1.conn
 /bin/rm -f np_rrblock_poly2.conn
 
 #==========================================================#
@@ -1108,8 +907,6 @@ epick -c -f floatlvsnetsfile pnpvert10_c pnpvert10_c
 # Reconnect MOSFET devices
 #==========================================================#
 
-geom np_rnet_poly1__c,NMOS_device_MOS_1_mgvia - NMOS_device_MOS_1_mgvia,1,i,1
-geom np_rnet_poly1__c,PMOS_device_MOS_5_mgvia - PMOS_device_MOS_5_mgvia,1,i,1
 reconnect -V -mbg -n NET -se2 mwires.res -t \
 	NMOS_device_MOS_1.trans:NMOS_device_MOS_1.transr NMOS_device_MOS_1 \
 	net_nsd,NMOS_device_MOS_1_mgvia,net_psub -t \
@@ -1150,11 +947,9 @@ reconnect -V -mbg -se2 rwires.res -n NET -r \
 createLink net_poly2 CPOLY_PSUB_device_CAP_83_net_poly2_cvia
 geom np_rnet_poly2__c,CPOLY_PSUB_device_CAP_83_net_poly2_cvia - CPOLY_PSUB_device_CAP_83_net_poly2_cvia,1,i,1
 createLink net_poly1 CPOLY_PSUB_device_CAP_83_net_poly1_cvia
-geom np_rnet_poly1__c,CPOLY_PSUB_device_CAP_83_net_poly1_cvia - CPOLY_PSUB_device_CAP_83_net_poly1_cvia,1,i,1
 createLink net_poly2 CPOLY_NTUB_device_CAP_84_net_poly2_cvia
 geom np_rnet_poly2__c,CPOLY_NTUB_device_CAP_84_net_poly2_cvia - CPOLY_NTUB_device_CAP_84_net_poly2_cvia,1,i,1
 createLink net_poly1 CPOLY_NTUB_device_CAP_84_net_poly1_cvia
-geom np_rnet_poly1__c,CPOLY_NTUB_device_CAP_84_net_poly1_cvia - CPOLY_NTUB_device_CAP_84_net_poly1_cvia,1,i,1
 reconnect -V -mbg -se2 cwires.res -n NET -c \
 	CPOLY_PSUB_device_CAP_83.cpax:CPOLY_PSUB_device_CAP_83.cpaxr \
 	CPOLY_PSUB_device_CAP_83 \
@@ -1173,18 +968,6 @@ reconnect -V -mbg -se2 dwires.res -n NET -c \
 	P_NWD_device_DIODE_43.dpax:P_NWD_device_DIODE_43.dpaxr \
 	P_NWD_device_DIODE_43 \
 	P_NWD_device_DIODE_43_net_psub_dvia,P_NWD_device_DIODE_43_net_nwell_dvia
-
-#==========================================================#
-# Reconnect GENERIC devices
-#==========================================================#
-
-geom p_rnet_poly1,CVAR_device_Device_85_net_poly1_gdvia - CVAR_device_Device_85_net_poly1_gdvia,1,i,1
-epick -c -f floatlvsnetsfile CVAR_device_Device_85_net_poly1_gdvia CVAR_device_Device_85_net_poly1_gdvia
-geom np_rnet_poly1__c,CVAR_device_Device_85_net_poly1_gdvia - CVAR_device_Device_85_net_poly1_gdvia,1,i,1
-createLink net_welltap CVAR_device_Device_85_net_welltap_gdvia
-createLink net_psub CVAR_device_Device_85_net_psub_gdvia
-reconnect -V -mbg -se2 bwires.res -n NET -b BOX:BOXr CVAR_device_Device_85 \
-	CVAR_device_Device_85_net_poly1_gdvia,CVAR_device_Device_85_net_welltap_gdvia,CVAR_device_Device_85_net_psub_gdvia
 netprint -max NET > original_maxnetfile
 
 #==========================================================#
@@ -1194,8 +977,6 @@ netprint -max NET > original_maxnetfile
 #4 
  geom -V -i p_rnet_poly1,np_rnet_poly1 - so_poly1,1,n
 geom -V p_rnet_poly1,np_rnet_poly1 - poly1,1,i,1
-emerge net_poly1__cut  poly1_cut temp_poly1_cut
-/bin/mv temp_poly1_cut  poly1_cut
 #4 
  geom -V -i p_rnet_poly2,p_rnet_presh_trm,np_rnet_poly2,np_rnet_presh_trm - so_poly2,1,n
 #4 
@@ -1210,8 +991,6 @@ emerge net_met1__cut  met1_cut temp_met1_cut
 #4 
  geom -V -i p_rnet_met2,np_rnet_met2 - so_met2,1,n
 geom -V p_rnet_met2,np_rnet_met2 - met2,1,i,1
-emerge net_met2__cut  met2_cut temp_met2_cut
-/bin/mv temp_met2_cut  met2_cut
 #4 
  geom -V -i p_rnet_met3,np_rnet_met3 - so_met3,1,n
 geom -V p_rnet_met3,np_rnet_met3 - met3,1,i,1
@@ -1365,10 +1144,10 @@ createEmptyLayer via_m3_m2c
 # Prepare via layers for sip
 #==========================================================#
 
-geom -V rnet_via2_met2_net_met3_net_met2,rnet_via2_met2_net_met3_net_met2__c - via_m3_m2,1,i,1
-geom -V rnet_via1_net_met2_net_met1,net_via1_net_met2__c_net_met1__c,rnet_via1_net_met2_net_met1__c,rnet_via1_net_met2__c_net_met1 - via_m2_m1,1,i,1
+geom -V rnet_via2_met2_net_met3_net_met2 - via_m3_m2,1,i,1
+geom -V rnet_via1_net_met2_net_met1,rnet_via1_net_met2_net_met1__c - via_m2_m1,1,i,1
 geom -V rnet_poly2con_net_met1_net_poly2,net_poly2con_net_met1__c_net_poly2__c,rnet_poly2con_net_met1_net_poly2__c,rnet_poly2con_net_met1__c_net_poly2 - via_m1_p2,1,i,1
-geom -V rnet_poly1con_net_met1_net_poly1,net_poly1con_net_met1__c_net_poly1__c,rnet_poly1con_net_met1_net_poly1__c,rnet_poly1con_net_met1__c_net_poly1 - via_m1_p1,1,i,1
+geom -V rnet_poly1con_net_met1_net_poly1,rnet_poly1con_net_met1__c_net_poly1 - via_m1_p1,1,i,1
 geom -V rnet_ndiffcon_net_met1_net_welltap,rnet_ndiffcon_net_met1_net_nsd,net_ndiffcon_net_met1__c_net_welltap,net_ndiffcon_net_met1__c_net_nsd,rnet_pdiffcon_net_met1_net_subtap,rnet_pdiffcon_net_met1_net_psd,net_pdiffcon_net_met1__c_net_subtap,net_pdiffcon_net_met1__c_net_psd - via_m1_nd,1,i,1
 geom -V rnet_pdiffcon_net_met1_net_subtap,rnet_pdiffcon_net_met1_net_psd,net_pdiffcon_net_met1__c_net_subtap,net_pdiffcon_net_met1__c_net_psd,rnet_ndiffcon_net_met1_net_welltap,rnet_ndiffcon_net_met1_net_nsd,net_ndiffcon_net_met1__c_net_welltap,net_ndiffcon_net_met1__c_net_nsd - via_m1_pd,1,i,1
 
@@ -1510,14 +1289,14 @@ xreduce -V -mergecap -n NET -tech \
 	/opt/pdk/ams/410/assura/c35b4/c35b4c3/RCX-typical -d1 -e \
 	met4,met3,met2cap,met2,met1,poly2,poly1,pdiff,fox,np_rnet_welltap,np_rnet_subtap,np_rnet_ndiff_d_sub,np_rnet_nsd,np_rnet_pdiff_d_ntub,np_rnet_psd,np_rpnpvert10_e,np_rnet_nwell,np_rnet_psub,np_rpnpvert10_c,rnet_poly1con_net_met1_net_poly1,rnet_poly2con_net_met1_net_poly2,rnet_presh_trm_net_poly2_ovia,rnet_via1_net_met2_net_met1,rnet_via2_met2_net_met3_net_met2 \
 	-sr -g ${CAP_GROUND},1.0 -minR 0.001 -rPvia \
-	rnet_via2_met2_net_met3_net_met2.res,rnet_via2_met2_net_met3_net_met2__c.res,rnet_via1_net_met2_net_met1.res,rnet_via1_net_met2_net_met1__c.res,rnet_via1_net_met2__c_net_met1.res,rnet_poly2con_net_met1_net_poly2.res,rnet_poly2con_net_met1_net_poly2__c.res,rnet_poly2con_net_met1__c_net_poly2.res,rnet_poly1con_net_met1_net_poly1.res,rnet_poly1con_net_met1_net_poly1__c.res,rnet_poly1con_net_met1__c_net_poly1.res,rnet_ndiffcon_net_met1_net_welltap.res,rnet_ndiffcon_net_met1_net_nsd.res,rnet_pdiffcon_net_met1_net_subtap.res,rnet_pdiffcon_net_met1_net_psd.res \
+	rnet_via2_met2_net_met3_net_met2.res,rnet_via1_net_met2_net_met1.res,rnet_via1_net_met2_net_met1__c.res,rnet_poly2con_net_met1_net_poly2.res,rnet_poly2con_net_met1_net_poly2__c.res,rnet_poly2con_net_met1__c_net_poly2.res,rnet_poly1con_net_met1_net_poly1.res,rnet_poly1con_net_met1__c_net_poly1.res,rnet_ndiffcon_net_met1_net_welltap.res,rnet_ndiffcon_net_met1_net_nsd.res,rnet_pdiffcon_net_met1_net_subtap.res,rnet_pdiffcon_net_met1_net_psd.res \
 	-rP \
-	np_rnet_poly1.res,np_rnet_presh_trm.res,np_rnet_poly2.res,np_rnet_met1.res,np_rnet_met2.res,np_rnet_met3.res,rwires.res,bwires.res,mwires.res,qwires.res,cwires.res,dwires.res \
+	np_rnet_poly1.res,np_rnet_presh_trm.res,np_rnet_poly2.res,np_rnet_met1.res,np_rnet_met2.res,np_rnet_met3.res,rwires.res,mwires.res,qwires.res,cwires.res,dwires.res \
 	-minC 1e-17 -minCper 0.1 -cap capfile L1T0 L2T0 L3T0 \
 	NMOS_device_MOS_1.transr PMOS_device_MOS_5.transr \
 	VERT10_device_BJT_82.qtransr RPOLYH_NTUB_device_RES_66.resr \
 	CPOLY_PSUB_device_CAP_83.cpaxr CPOLY_NTUB_device_CAP_84.cpaxr \
-	P_NWD_device_DIODE_43.dpaxr BOXr
+	P_NWD_device_DIODE_43.dpaxr
 
 #==========================================================#
 # Generate HSPICE file
@@ -1532,15 +1311,12 @@ advgen -V -g0 -li -f -n -o HSPICE -TL L1T0,L2T0,L3T0 -sc caps2dversion -mx \
 	np_rnet_presh_trm.res,Rnp_rnet_presh_trm.dev2 \
 	np_rnet_poly1.res,Rnp_rnet_poly1.dev2 \
 	rnet_via2_met2_net_met3_net_met2.res,Rrnet_via2_met2_net_met3_net_met2.dev2 \
-	rnet_via2_met2_net_met3_net_met2__c.res,Rrnet_via2_met2_net_met3_net_met2__c.dev2 \
 	rnet_via1_net_met2_net_met1.res,Rrnet_via1_net_met2_net_met1.dev2 \
 	rnet_via1_net_met2_net_met1__c.res,Rrnet_via1_net_met2_net_met1__c.dev2 \
-	rnet_via1_net_met2__c_net_met1.res,Rrnet_via1_net_met2__c_net_met1.dev2 \
 	rnet_poly2con_net_met1_net_poly2.res,Rrnet_poly2con_net_met1_net_poly2.dev2 \
 	rnet_poly2con_net_met1_net_poly2__c.res,Rrnet_poly2con_net_met1_net_poly2__c.dev2 \
 	rnet_poly2con_net_met1__c_net_poly2.res,Rrnet_poly2con_net_met1__c_net_poly2.dev2 \
 	rnet_poly1con_net_met1_net_poly1.res,Rrnet_poly1con_net_met1_net_poly1.dev2 \
-	rnet_poly1con_net_met1_net_poly1__c.res,Rrnet_poly1con_net_met1_net_poly1__c.dev2 \
 	rnet_poly1con_net_met1__c_net_poly1.res,Rrnet_poly1con_net_met1__c_net_poly1.dev2 \
 	rnet_ndiffcon_net_met1_net_welltap.res,Rrnet_ndiffcon_net_met1_net_welltap.dev2 \
 	rnet_ndiffcon_net_met1_net_nsd.res,Rrnet_ndiffcon_net_met1_net_nsd.dev2 \
@@ -1549,8 +1325,7 @@ advgen -V -g0 -li -f -n -o HSPICE -TL L1T0,L2T0,L3T0 -sc caps2dversion -mx \
 	-rPm mwires.mod mwires.res,mwires.dev2 -rPm qwires.mod \
 	qwires.res,qwires.dev2 -rPm rwires.mod rwires.res,rwires.dev2 -rPm \
 	cwires.mod cwires.res,cwires.dev2 -rPm dwires.mod \
-	dwires.res,dwires.dev2 -rPm bwires.mod bwires.res,bwires.dev2 -b BOXr \
-	-bl BOXL BOXSUB -rau lvsres.mod,RPOLYH_NTUB_device_RES_66.net \
+	dwires.res,dwires.dev2 -rau lvsres.mod,RPOLYH_NTUB_device_RES_66.net \
 	RPOLYH_NTUB_device_RES_66.resr -ta lvsmos.mod,NMOS_device_MOS_1.net \
 	NMOS_device_MOS_1.transr -ta lvsmos.mod,PMOS_device_MOS_5.net \
 	PMOS_device_MOS_5.transr -p lvscap.mod1,CPOLY_PSUB_device_CAP_83.net \
@@ -1592,11 +1367,6 @@ stamp -i  np_rnet_met2 rnet_met2_MET2_pinshape_ovia.reduce
 stamp -i  rnet_met2_MET2_pinshape_ovia.reduce rnet_met2_MET2_pinshape_ovia
 stamp -i  rnet_met2_MET2_pinshape_ovia net_met2_MET2_pinshape_ovia
 /bin/rm -f rnet_met2_MET2_pinshape_ovia.reduce
-ereduce  rnet_met2_net_met2_net_met2__c_butt_ovia rnet_met2_net_met2_net_met2__c_butt_ovia.reduce
-stamp -i  np_rnet_met2 rnet_met2_net_met2_net_met2__c_butt_ovia.reduce
-stamp -i  rnet_met2_net_met2_net_met2__c_butt_ovia.reduce rnet_met2_net_met2_net_met2__c_butt_ovia
-stamp -i  rnet_met2_net_met2_net_met2__c_butt_ovia net_met2_net_met2_net_met2__c_butt_ovia
-/bin/rm -f rnet_met2_net_met2_net_met2__c_butt_ovia.reduce
 ereduce  rnet_met3_MET3_pinshape_ovia rnet_met3_MET3_pinshape_ovia.reduce
 stamp -i  np_rnet_met3 rnet_met3_MET3_pinshape_ovia.reduce
 stamp -i  rnet_met3_MET3_pinshape_ovia.reduce rnet_met3_MET3_pinshape_ovia
@@ -1622,21 +1392,11 @@ stamp -i  np_rnet_met1 rnet_pdiffcon_net_met1_net_subtap.reduce
 stamp -i  rnet_pdiffcon_net_met1_net_subtap.reduce rnet_pdiffcon_net_met1_net_subtap
 stamp -i  rnet_pdiffcon_net_met1_net_subtap net_pdiffcon_net_met1_net_subtap
 /bin/rm -f rnet_pdiffcon_net_met1_net_subtap.reduce
-ereduce  rnet_poly1_net_poly1_net_poly1__c_butt_ovia rnet_poly1_net_poly1_net_poly1__c_butt_ovia.reduce
-stamp -i  np_rnet_poly1 rnet_poly1_net_poly1_net_poly1__c_butt_ovia.reduce
-stamp -i  rnet_poly1_net_poly1_net_poly1__c_butt_ovia.reduce rnet_poly1_net_poly1_net_poly1__c_butt_ovia
-stamp -i  rnet_poly1_net_poly1_net_poly1__c_butt_ovia net_poly1_net_poly1_net_poly1__c_butt_ovia
-/bin/rm -f rnet_poly1_net_poly1_net_poly1__c_butt_ovia.reduce
 ereduce  rnet_poly1con_net_met1__c_net_poly1 rnet_poly1con_net_met1__c_net_poly1.reduce
 stamp -i  np_rnet_met1__c rnet_poly1con_net_met1__c_net_poly1.reduce
 stamp -i  rnet_poly1con_net_met1__c_net_poly1.reduce rnet_poly1con_net_met1__c_net_poly1
 stamp -i  rnet_poly1con_net_met1__c_net_poly1 net_poly1con_net_met1__c_net_poly1
 /bin/rm -f rnet_poly1con_net_met1__c_net_poly1.reduce
-ereduce  rnet_poly1con_net_met1_net_poly1__c rnet_poly1con_net_met1_net_poly1__c.reduce
-stamp -i  np_rnet_met1 rnet_poly1con_net_met1_net_poly1__c.reduce
-stamp -i  rnet_poly1con_net_met1_net_poly1__c.reduce rnet_poly1con_net_met1_net_poly1__c
-stamp -i  rnet_poly1con_net_met1_net_poly1__c net_poly1con_net_met1_net_poly1__c
-/bin/rm -f rnet_poly1con_net_met1_net_poly1__c.reduce
 ereduce  rnet_poly2_net_poly2_net_poly2__c_butt_ovia rnet_poly2_net_poly2_net_poly2__c_butt_ovia.reduce
 stamp -i  np_rnet_poly2 rnet_poly2_net_poly2_net_poly2__c_butt_ovia.reduce
 stamp -i  rnet_poly2_net_poly2_net_poly2__c_butt_ovia.reduce rnet_poly2_net_poly2_net_poly2__c_butt_ovia
@@ -1657,30 +1417,20 @@ stamp -i  np_rnet_presh_trm rnet_presh_trm_net_poly2__c_ovia.reduce
 stamp -i  rnet_presh_trm_net_poly2__c_ovia.reduce rnet_presh_trm_net_poly2__c_ovia
 stamp -i  rnet_presh_trm_net_poly2__c_ovia net_presh_trm_net_poly2__c_ovia
 /bin/rm -f rnet_presh_trm_net_poly2__c_ovia.reduce
-ereduce  rnet_via1_net_met2__c_net_met1 rnet_via1_net_met2__c_net_met1.reduce
-stamp -i  np_rnet_met2__c rnet_via1_net_met2__c_net_met1.reduce
-stamp -i  rnet_via1_net_met2__c_net_met1.reduce rnet_via1_net_met2__c_net_met1
-stamp -i  rnet_via1_net_met2__c_net_met1 net_via1_net_met2__c_net_met1
-/bin/rm -f rnet_via1_net_met2__c_net_met1.reduce
 ereduce  rnet_via1_net_met2_net_met1__c rnet_via1_net_met2_net_met1__c.reduce
 stamp -i  np_rnet_met2 rnet_via1_net_met2_net_met1__c.reduce
 stamp -i  rnet_via1_net_met2_net_met1__c.reduce rnet_via1_net_met2_net_met1__c
 stamp -i  rnet_via1_net_met2_net_met1__c net_via1_net_met2_net_met1__c
 /bin/rm -f rnet_via1_net_met2_net_met1__c.reduce
-ereduce  rnet_via2_met2_net_met3_net_met2__c rnet_via2_met2_net_met3_net_met2__c.reduce
-stamp -i  np_rnet_met3 rnet_via2_met2_net_met3_net_met2__c.reduce
-stamp -i  rnet_via2_met2_net_met3_net_met2__c.reduce rnet_via2_met2_net_met3_net_met2__c
-stamp -i  rnet_via2_met2_net_met3_net_met2__c net_via2_met2_net_met3_net_met2__c
-/bin/rm -f rnet_via2_met2_net_met3_net_met2__c.reduce
 cat <<ENDCAT> _save_layers
 fox fox
 met2cap met2cap
 met4 met4
 pdiff pdiff
-net_via2_met2 np_rnet_via2_met2_net_met3_net_met2__c p_rnet_via2_met2_net_met3_net_met2__c np_rnet_via2_met2_net_met3_net_met2 p_rnet_via2_met2_net_met3_net_met2
-net_via1 np_rnet_via1_net_met2__c_net_met1 p_rnet_via1_net_met2__c_net_met1 np_rnet_via1_net_met2_net_met1__c p_rnet_via1_net_met2_net_met1__c np_rnet_via1_net_met2__c_net_met1__c p_rnet_via1_net_met2__c_net_met1__c np_rnet_via1_net_met2_net_met1 p_rnet_via1_net_met2_net_met1
+net_via2_met2 np_rnet_via2_met2_net_met3_net_met2 p_rnet_via2_met2_net_met3_net_met2
+net_via1 np_rnet_via1_net_met2_net_met1__c p_rnet_via1_net_met2_net_met1__c np_rnet_via1_net_met2_net_met1 p_rnet_via1_net_met2_net_met1
 net_poly2con np_rnet_poly2con_net_met1__c_net_poly2 p_rnet_poly2con_net_met1__c_net_poly2 np_rnet_poly2con_net_met1_net_poly2__c p_rnet_poly2con_net_met1_net_poly2__c np_rnet_poly2con_net_met1__c_net_poly2__c p_rnet_poly2con_net_met1__c_net_poly2__c np_rnet_poly2con_net_met1_net_poly2 p_rnet_poly2con_net_met1_net_poly2
-net_poly1con np_rnet_poly1con_net_met1__c_net_poly1 p_rnet_poly1con_net_met1__c_net_poly1 np_rnet_poly1con_net_met1_net_poly1__c p_rnet_poly1con_net_met1_net_poly1__c np_rnet_poly1con_net_met1__c_net_poly1__c p_rnet_poly1con_net_met1__c_net_poly1__c np_rnet_poly1con_net_met1_net_poly1 p_rnet_poly1con_net_met1_net_poly1
+net_poly1con np_rnet_poly1con_net_met1__c_net_poly1 p_rnet_poly1con_net_met1__c_net_poly1 np_rnet_poly1con_net_met1_net_poly1 p_rnet_poly1con_net_met1_net_poly1
 net_ndiffcon np_rnet_ndiffcon_net_met1__c_net_nsd p_rnet_ndiffcon_net_met1__c_net_nsd np_rnet_ndiffcon_net_met1__c_net_welltap p_rnet_ndiffcon_net_met1__c_net_welltap net_ndiffcon_net_welltap_net_nsd np_rnet_ndiffcon_net_met1_net_nsd p_rnet_ndiffcon_net_met1_net_nsd np_rnet_ndiffcon_net_met1_net_welltap p_rnet_ndiffcon_net_met1_net_welltap
 net_pdiffcon np_rnet_pdiffcon_net_met1__c_net_psd p_rnet_pdiffcon_net_met1__c_net_psd np_rnet_pdiffcon_net_met1__c_net_subtap p_rnet_pdiffcon_net_met1__c_net_subtap net_pdiffcon_net_subtap_net_psd np_rnet_pdiffcon_net_met1_net_psd p_rnet_pdiffcon_net_met1_net_psd np_rnet_pdiffcon_net_met1_net_subtap p_rnet_pdiffcon_net_met1_net_subtap
 net_met3 np_rnet_met3 p_rnet_met3
@@ -1711,40 +1461,24 @@ net_nsd_net_ndiff_ovia net_nsd_net_ndiff_ovia
 net_subtap_net_pdiff_ovia net_subtap_net_pdiff_ovia
 net_pdiff np_rnet_pdiff p_rnet_pdiff
 net_psd_net_pdiff_ovia net_psd_net_pdiff_ovia
-T?1596_rblock_poly1_ovia T?1596_rblock_poly1_ovia
-T?1596 np_rT?1596 p_rT?1596
-rblock_poly1 np_rrblock_poly1 p_rrblock_poly1
 T?1597_rblock_poly2_ovia T?1597_rblock_poly2_ovia
 T?1597 np_rT?1597 p_rT?1597
 rblock_poly2 np_rrblock_poly2 p_rrblock_poly2
 T?1598_rblock_met1_ovia T?1598_rblock_met1_ovia
 T?1598 np_rT?1598 p_rT?1598
 rblock_met1 np_rrblock_met1 p_rrblock_met1
-T?1599_rblock_met2_ovia T?1599_rblock_met2_ovia
-T?1599 np_rT?1599 p_rT?1599
-rblock_met2 np_rrblock_met2 p_rrblock_met2
 net_ndiff_d_sub_net_ndiff_ovia net_ndiff_d_sub_net_ndiff_ovia
 net_pdiff_d_ntub_net_pdiff_ovia net_pdiff_d_ntub_net_pdiff_ovia
 pnpvert10_e_net_psd_ovia pnpvert10_e_net_psd_ovia
 net_presh_trm_net_poly2_ovia np_rnet_presh_trm_net_poly2_ovia p_rnet_presh_trm_net_poly2_ovia
-net_met2__c np_rnet_met2__c p_rnet_met2__c
 net_met1__c np_rnet_met1__c p_rnet_met1__c
 net_poly2__c np_rnet_poly2__c p_rnet_poly2__c
-net_poly1__c np_rnet_poly1__c p_rnet_poly1__c
 net_met1__c_MET1_pinshape_ovia net_met1__c_MET1_pinshape_ovia
-net_met2__c_MET2_pinshape_ovia net_met2__c_MET2_pinshape_ovia
 net_presh_trm_net_poly2__c_ovia net_presh_trm_net_poly2__c_ovia
 net_met1_net_met1_net_met1__c_butt_ovia net_met1_net_met1_net_met1__c_butt_ovia
 net_met1_net_met1__c_butt np_rnet_met1_net_met1__c_butt p_rnet_met1_net_met1__c_butt
 net_met1__c_net_met1_net_met1__c_butt_ovia net_met1__c_net_met1_net_met1__c_butt_ovia
-net_met2_net_met2_net_met2__c_butt_ovia net_met2_net_met2_net_met2__c_butt_ovia
-net_met2_net_met2__c_butt np_rnet_met2_net_met2__c_butt p_rnet_met2_net_met2__c_butt
-net_met2__c_net_met2_net_met2__c_butt_ovia net_met2__c_net_met2_net_met2__c_butt_ovia
-net_poly1_net_poly1_net_poly1__c_butt_ovia net_poly1_net_poly1_net_poly1__c_butt_ovia
-net_poly1_net_poly1__c_butt np_rnet_poly1_net_poly1__c_butt p_rnet_poly1_net_poly1__c_butt
-net_poly1__c_net_poly1_net_poly1__c_butt_ovia net_poly1__c_net_poly1_net_poly1__c_butt_ovia
 net_poly2_net_poly2_net_poly2__c_butt_ovia net_poly2_net_poly2_net_poly2__c_butt_ovia
 net_poly2_net_poly2__c_butt np_rnet_poly2_net_poly2__c_butt p_rnet_poly2_net_poly2__c_butt
 net_poly2__c_net_poly2_net_poly2__c_butt_ovia net_poly2__c_net_poly2_net_poly2__c_butt_ovia
-CVAR_device_Device_85 CVAR_device_Device_85
 ENDCAT

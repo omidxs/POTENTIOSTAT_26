@@ -76,7 +76,7 @@ if( isFile("DRCinclude_local.rsf") then
 ;----------------------------------------------------------------------------
 
 avParameters(
-  ?inputLayout ( "df2" "Potentiostat_cpoly" )
+  ?inputLayout ( "df2" "Potentiostat_cpoly2" )
   ?cellName "8_Poten_PTAT2"
   ?viewName "layout"
   ?workingDirectory "ASSURA_DRC/8_Poten_PTAT2"

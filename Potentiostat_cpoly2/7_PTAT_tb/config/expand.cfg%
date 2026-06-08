@@ -1,0 +1,26 @@
+//Revision 4
+//NOTE
+// Default austriamicrosystems template for AMS Designer
+// Note:
+//      Please remember to replace the Library, Cell, and View fields
+//      for the Top Cell with the actual names used by your design.
+//END_NOTE
+
+config \7_PTAT_tb ;
+design Potentiostat_cpoly.\7_PTAT_tb :schematic;
+
+const digital behavioral, functional, schematic, symbol;
+const analog veriloga, functional, schematic, symbol;
+liblist basic, analogLib;
+
+viewlist verilogams, veriloga, behavioral, functional, \module , schematic, spectre, symbol;
+stoplist symbol, spectre;
+
+
+inst (FBIAS.fbias_por2:schematic).I1 binding :cmos_sch;
+inst (FBIAS.fbias_por2:schematic).I2 binding :cmos_sch;
+
+cell Potentiostat_cpoly.\6_CA_Front_Layout  binding :av_extracted;
+
+
+endconfig

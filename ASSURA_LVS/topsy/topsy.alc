@@ -1,0 +1,181 @@
+!<alc> v1 158
+0  280    0 G26_1_2_5300_0_r270 sub_array
+0  284    0 G106_1_7_3250_0_my sub_array
+0  282    0 G134_1_2_7300_0_r90 sub_array
+0  278    0 G106_1_7_3250_0_r0 sub_array
+0  195    0 vert10_4 layout PRIMLIB
+0  136    0 pmos4 layout PRIMLIB l="15u" in1=MP428029
+0   73    0 cvar layout PRIMLIB col=10 row=15 in1=C128529
+0   26    0 pmos4 layout PRIMLIB l="3u" in1=MP528329
+0   25    0 pmos4 layout PRIMLIB l="350n" w="5u" wtot="5u" in1=MP128729
+0   21    0 nmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MN628129
+0   18    0 nmos4 layout PRIMLIB l="4u" w="4u" wtot="4u" in1=MN8
+0   17    0 nmos4 layout PRIMLIB l="1u" ng="2" wtot="20u" in1=MN9
+0  190    0 rpolyhc layout PRIMLIB Bends=4 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="52.5u" r="35K" w="2u" in1=R50
+0  187    0 rpolyhc layout PRIMLIB Bends=30 l="4737.000u" r="580K" in1=R2
+0  180    0 rpolyhc layout PRIMLIB Bends=4 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="25u" r="50K" w="800n" in1=R27
+0  179    0 rpolyhc layout PRIMLIB Bends=28 Dummy=TRUE ResShape="90_deg" gwell="N-Well" l="5000u" r="10M" rleft="Cont" rright="Cont" id_=38be6356325ad8cb in1=R10
+0  176    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" l="500u" r="1M" w="0.8u" in1=R1
+0  174    0 rpolyhc layout PRIMLIB Bends=12 Dummy=TRUE ResShape="90_deg" gwell="N-Well" l="1000u" r="2M" rtop="Cont" w="0.8u" in1=R3
+0  172    0 rpolyhc layout PRIMLIB Bends=10 Dummy=TRUE ResShape="90_deg" gwell="N-Well" l="500u" r="1M" w="0.8u" in1=R15
+0  171    0 rpolyhc layout PRIMLIB doubleCont="Horizontal" gwell="N-Well" l="18.75u" r="12.5K" w="2u" in1=R2
+0  169    0 rpolyhc layout PRIMLIB Dummy=TRUE doubleCont="Horizontal" gwell="N-Well" l="18.75u" r="12.5K" w="2u" in1=R7
+0  160    0 rpolyhc layout PRIMLIB Bends=4 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="250u" r="500K" w="800n" in1=R11
+0  159    0 pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP24284929
+0  158    0 pmos4 layout PRIMLIB l="500n" w="5u" wtot="5u" in1=MP2528329
+0  156    0 pmos4 layout PRIMLIB l="30u" in1=MP8281129
+0  155    0 pmos4 layout PRIMLIB l="5u" w="8.35u" wtot="8.35u" in1=MP428529
+0  154    0 pmos4 layout PRIMLIB l="350n" in1=MP928329
+0  153    0 pmos4 layout PRIMLIB l="2u" w="5u" wtot="5u" in1=MP328529
+0  152    0 pmos4 layout PRIMLIB l="1u" w="5u" wtot="5u" in1=MP12
+0  150    0 pmos4 layout PRIMLIB l="4u" w="25u" wtot="25u" in1=MP128729
+0  147    0 pmos4 layout PRIMLIB l="10u" in1=MP928129
+0  146    0 pmos4 layout PRIMLIB l="1u" in1=MP2628729
+0  144    0 pmos4 layout PRIMLIB l="4u" w="5u" wtot="5u" in1=MP828329
+0  142    0 pmos4 layout PRIMLIB jd=FALSE jg="no" js=FALSE l="1u" ng="2" w="5u" in1=MP4
+0  139    0 pmos4 layout PRIMLIB l="3u" w="5u" wtot="5u" in1=MP628129
+0  138    0 pmos4 layout PRIMLIB l="5u" w="6u" wtot="6u" in1=MP2528329
+0  137    0 pmos4 layout PRIMLIB jd=FALSE js=FALSE l="350n" ng="20" w="15u" wtot="300u" in1=MP1728129
+0  135    0 pmos4 layout PRIMLIB l="4u" w="12.5u" wtot="12.5u" in1=MP928729
+0  134    0 pmos4 layout PRIMLIB l="5u" w="5u" wtot="5u" in1=MP24
+0  133    0 pmos4 layout PRIMLIB jd=FALSE jg="no" js=FALSE l="350n" ng="10" wtot="100u" in1=MP6
+0  132    0 pmos4 layout PRIMLIB l="500n" w="12.5u" wtot="12.5u" in1=MP1283129
+0  131    0 pmos4 layout PRIMLIB l="20u" w="25u" wtot="25u" in1=MP328129
+0  130    0 pmos4 layout PRIMLIB jd=FALSE js=FALSE l="4u" ng="6" w="33.35u" wtot="200u" in1=MP028129
+0  129    0 pmos4 layout PRIMLIB jd=FALSE jg="no" js=FALSE l="4u" ng="6" w="33.35u" wtot="200u" in1=MP128129
+0  127    0 pmos4 layout PRIMLIB jd=FALSE jg="no" js=FALSE l="4u" ng="10" wtot="100u" in1=MP7
+0  126    0 pmos4 layout PRIMLIB l="20u" w="12.5u" wtot="12.5u" in1=MP328329
+0  125    0 pmos4 layout PRIMLIB l="2u" in1=dummy228029
+0  124    0 pmos4 layout PRIMLIB l="4u" in1=MP128929
+0  123    0 pmos4 layout PRIMLIB l="4u" ng="10" wtot="100u" in1=MP7
+0  122    0 nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN3028329
+0  121    0 nmos4 layout PRIMLIB l="10u" in1=MN928329
+0  117    0 nmos4 layout PRIMLIB l="5u" w="33u" wtot="33u" in1=MN528329
+0  116    0 nmos4 layout PRIMLIB l="1u" w="28.5u" wtot="28.5u" in1=MN528329
+0  112    0 nmos4 layout PRIMLIB jd=FALSE jg="no" js=FALSE l="1u" ng="4" w="5u" wtot="20u" in1=MN0
+0  111    0 nmos4 layout PRIMLIB l="40u" in1=MN728129
+0  110    0 nmos4 layout PRIMLIB l="5u" in1=MN26
+0  107    0 nmos4 layout PRIMLIB l="500n" w="5u" wtot="5u" in1=MN2928029
+0  105    0 nmos4 layout PRIMLIB l="350n" w="5u" wtot="5u" in1=MN128729
+0  102    0 nmos4 layout PRIMLIB l="4u" ng="2" wtot="20u" in1=MN5
+0  100    0 nmos4 layout PRIMLIB l="10u" w="8u" wtot="8u" in1=MN828129
+0   99    0 nmos4 layout PRIMLIB l="12u" in1=MN428129
+0   97    0 nmos4 layout PRIMLIB jd=FALSE jg="no" js=FALSE l="2u" ng="2" wtot="20u" in1=MN9
+0   96    0 nmos4 layout PRIMLIB l="20u" w="15u" wtot="15u" in1=MN1628129
+0   95    0 nmos4 layout PRIMLIB l="8u" in1=MN3728329
+0   93    0 nmos4 layout PRIMLIB jd=FALSE jg="no" js=FALSE l="4u" ng="10" w="1u" in1=MN14
+0   92    0 nmos4 layout PRIMLIB l="12u" w="4u" wtot="4u" in1=MN328329
+0   91    0 nmos4 layout PRIMLIB jd=FALSE js=FALSE l="4u" ng="2" wtot="20u" in1=MN23
+0   89    0 nmos4 layout PRIMLIB l="80u" w="8u" wtot="8u" in1=MN728129
+0   86    0 nmos4 layout PRIMLIB l="4u" ng="10" w="1u" in1=MN14
+0   81    0 nmos4 layout PRIMLIB l="15u" w="7.5u" wtot="7.5u" in1=MN928329
+0   80    0 nmos4 layout PRIMLIB l="10u" w="20u" wtot="20u" in1=MN3
+0   79    0 nmos4 layout PRIMLIB jd=FALSE jg="no" js=FALSE l="8u" ng="4" w="5u" wtot="20u" in1=MN2
+0   78    0 nmos4 layout PRIMLIB l="4u" in1=MN2
+0   76    0 mux21 layout YAOWEN
+0   77    0 mux21c_f layout FECG
+0   74    0 g_padonly layout IOLIB_4M
+0   75    0 g_padonly layout IOLIB_ANA_4M
+0   72    0 cvar layout PRIMLIB col=12 row=10 in1=C028029
+0   66    0 cpolyc layout PRIMLIB area="5.78n" c="5p" l="76.45u" perimeter="304.2u" rbottom="Cont" rleft="Cont" rright="Cont" rtop="Cont" id_=6cdfb038bdd4c61d in1=C0
+0   58    0 cpolyc layout PRIMLIB area="3.5n" c="3.03p" gwell="N-Well" l="70u" perimeter="240u" rbottom="Cont" rleft="Cont" rright="Cont" id_=5d5c206d9147e606 in1=C928329
+0   57    0 cpolyc layout PRIMLIB area="1.60n" c="1.39p" l="50u" perimeter="164u" rbottom="Cont" rleft="Cont" rright="Cont" rtop="Cont" id_=44e51500f779483f in1=C028729
+0   56    0 cpolyc layout PRIMLIB area="1.26n" c="1.09p" gwell="N-Well" l="41.95u" perimeter="143.9u" rbottom="Cont" rleft="Cont" id_=1eea3daa63e42b4e in1=C928129
+0   55    0 cpolyc layout PRIMLIB area="2.1n" c="1.82p" gwell="N-Well" l="50u" perimeter="183.9u" rbottom="Cont" rleft="Cont" rright="Cont" id_=8d84e368ace3c58d in1=C6
+0   51    0 cpolyc layout PRIMLIB area="900p" c="784.32f" l="30u" perimeter="120u" rbottom="Cont" rleft="Cont" rright="Cont" rtop="Cont" id_=238c1f4f91cda9 in1=C4
+0   49    0 cpolyc layout PRIMLIB area="1n" c="871.18f" l="40u" perimeter="130u" rbottom="Cont" rleft="Cont" rright="Cont" rtop="Cont" id_=238c216f91cda9 in1=C6
+0   44    0 cpolyc layout PRIMLIB area="2.56n" c="2.22p" gwell="N-Well" l="51u" perimeter="202.4u" rbottom="Cont" rleft="Cont" id_=d867af6116578121 in1=C228029
+0   42    0 cpolyc layout PRIMLIB area="2.6n" c="2.25p" gwell="N-Well" l="51u" perimeter="204u" rbottom="Cont" rleft="Cont" rright="Cont" id_=318ecccaa27aadb6 in1=C228829
+0   41    0 cpolyc layout PRIMLIB area="6.94n" c="6p" l="83.75u" perimeter="333.3u" rbottom="Cont" rleft="Cont" rright="Cont" rtop="Cont" id_=f8dc73cbdd4c61d in1=C5
+0   39    0 cpolyc layout PRIMLIB area="3.47n" c="3p" l="59.25u" perimeter="235.5u" rbottom="Cont" rleft="Cont" rright="Cont" rtop="Cont" id_=e2439322f0930082 in1=C328529
+0   38    0 cpolyc layout PRIMLIB area="3.5n" c="3.03p" l="70u" perimeter="240u" rbottom="Cont" rleft="Cont" rright="Cont" rtop="Cont" id_=44e51500712df12b in1=C2281129
+0   37    0 cpolyc layout PRIMLIB area="4.28n" c="3.7p" l="65.8u" perimeter="261.6u" rbottom="Cont" rleft="Cont" rright="Cont" rtop="Cont" id_=44e5150040ff667 in1=C128229
+0   35    0 cpolyc layout PRIMLIB area="11.58n" c="10p" l="108.05u" perimeter="430.5u" rbottom="Cont" rleft="Cont" rright="Cont" id_=8d84e36816c15e1c in1=C628029
+0   34    0 cpolyc layout PRIMLIB area="1.23n" c="1.07p" gwell="N-Well" l="35.45u" perimeter="140.3u" rbottom="Cont" rleft="Cont" id_=d867af619ef89a5c in1=C528129
+0   32    0 cmfb_opamp1_fc layout FECG
+0   31    0 chopper_f layout YAOWEN
+0   30    0 chopper2 layout FECG
+0   29    0 V500_20 layout POWER_TRACKS
+0   28    0 INVX2 layout CORELIBD
+0   27    0 INVX1 layout CORELIBD
+0  213    0 CLKINVX1 layout CORELIBD
+0  269    0 ia_new_f layout YAOWEN
+0  268    0 gmc_5_fc layout FECG
+0  267    0 fecg_vga2_f_2 layout FECG
+0  266    0 fecg_ia_5_fc layout FECG
+0  265    0 fecg_cmfb2_fc layout FECG
+0  264    0 fecg_bandgap3_layout layout FBIAS
+0  263    0 fbias_vol_ref1_layout layout FBIAS
+0  262    0 fbias_por2_fc layout FBIAS
+0  261    0 fbias_gm_c1_f2c layout FBIAS
+0  260    0 fbias_cur_ref2_layout layout FBIAS
+0  259    0 buffer2_f_3c layout FECG
+0  258    0 XOR2X1 layout CORELIBD
+0  257    0 VGA_1 layout YAOWEN
+0  256    0 VDD3RP layout IOLIB_4M
+0  255    0 VDD3OP layout IOLIB_4M
+0  254    0 VDD3IP layout IOLIB_4M
+0  253    0 V200_20 layout POWER_TRACKS
+0  252    0 V1000_20 layout POWER_TRACKS
+0  251    0 PWRCUT_DIG_P_DX layout IOLIB_4M
+0  250    0 PERI_SPACER_5_P layout IOLIB_4M
+0  249    0 PERI_SPACER_50_P layout IOLIB_4M
+0  248    0 PERI_SPACER_2_P layout IOLIB_4M
+0  247    0 PERI_SPACER_20_P layout IOLIB_4M
+0  246    0 PERI_SPACER_10_P layout IOLIB_4M
+0  245    0 PERI_SPACER_100_P layout IOLIB_4M
+0  304  245 PERI_SPACER_100_P_VAR1 layout IOLIB_4M
+0  244    0 NOR4X1 layout CORELIBD
+0  243    0 NOR2X6 layout CORELIBD
+0  242    0 NOR2X3 layout CORELIBD
+0  241    0 NAND3X1 layout CORELIBD
+0  240    0 NAND2X2 layout CORELIBD
+0  239    0 ICP layout IOLIB_4M
+0  238    0 HAX3 layout CORELIBD
+0  237    0 Gm_C_filter layout YAOWEN
+0  236    0 GND3RP layout IOLIB_4M
+0  235    0 GND3OP layout IOLIB_4M
+0  234    0 GND3IP layout IOLIB_4M
+0  233    0 FILLCELLX8 layout CORELIBD
+0  232    0 FILLCELLX4 layout CORELIBD
+0  230    0 FILLCELLX16 layout CORELIBD
+0  228    0 FILLCAPX8 layout CORELIBD
+0  227    0 FILLCAPX4 layout CORELIBD
+0  226    0 FILLCAPX32 layout CORELIBD
+0  225    0 FILLCAPX2 layout CORELIBD
+0  224    0 FILLCAPX16 layout CORELIBD
+0  223    0 ECG_bandgap_f_v1 layout YAOWEN
+0  222    0 DLY1X1 layout CORELIBD
+0  221    0 DFCX4 layout CORELIBD
+0  220    0 DFCX3 layout CORELIBD
+0  219    0 DFCSX4 layout CORELIBD
+0  218    0 DFCSX2 layout CORELIBD
+0  217    0 Current_Voltage_Reference layout YAOWEN
+0  216    0 Constant_gm layout YAOWEN
+0  215    0 CORNERP layout IOLIB_4M
+0  214    0 CLKINVX4 layout CORELIBD
+0  211    0 CLKBUFX6 layout CORELIBD
+0  210    0 CLKBUFX4 layout CORELIBD
+0  209    0 CLKBUFX3 layout CORELIBD
+0  208    0 CLKBUFX24 layout CORELIBD
+0  205    0 CLKBUFX12 layout CORELIBD
+0  204    0 CLKBUFX10 layout CORELIBD
+0  203    0 BUFX8 layout CORELIBD
+0  212    0 CLKBUFX8 layout CORELIBD
+0  202    0 BUFX2 layout CORELIBD
+0  207    0 CLKBUFX2 layout CORELIBD
+0  201    0 BUFX16 layout CORELIBD
+0  206    0 CLKBUFX16 layout CORELIBD
+0  200    0 BUFFER layout YAOWEN
+0  199    0 AVDD3ALLP layout IOLIB_ANA_4M
+0  198    0 APRIO200P layout IOLIB_ANA_4M
+0  305  198 APRIO200P_VAR1 layout IOLIB_ANA_4M
+0  197    0 AND2X4 layout CORELIBD
+0  196    0 AGND3ALLP layout IOLIB_ANA_4M
+0  275    0 il2244_dig layout DIG_SPI
+0  274    0 fecg_front_end_f_3 layout FECG
+0  273    0 fbias_bias2_f layout FBIAS
+0  272    0 IO_RING_S_VHS layout VT26_IO_RING
+0  271    0 ECG_Front_End layout YAOWEN
+0  270    0 ECG_BIAS layout YAOWEN
+0  276    0 topsy layout VT26_TOP

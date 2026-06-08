@@ -7,7 +7,7 @@
 (unless (isCallable '_quiRestoreInputDB)
     (nprocedure (_quiRestoreInputDB args) t)
 ) ;; unless
-(_quiRestoreInputDB (_shaCCL_readPort (instring "input_db -type assura \\\n\t -design_cell_name \"8_Poten_PTAT2 layout Potentiostat_cpoly\" \\\n\t -run_name \"8_Poten_PTAT2\" \\\n\t -directory_name \"/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT2\" \\\n\t -format \"DFII\" \\\n\t -library_definitions_file \"/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib\"\n"))->input_db)
+(_quiRestoreInputDB (_shaCCL_readPort (instring "input_db -type assura \\\n\t -design_cell_name \"8_Poten_PTAT2 layout Potentiostat_cpoly2\" \\\n\t -run_name \"8_Poten_PTAT2\" \\\n\t -directory_name \"/home/hrahimi/projects/POTENTIOSTAT_26/ASSURA_LVS/8_Poten_PTAT2\" \\\n\t -format \"DFII\" \\\n\t -library_definitions_file \"/home/hrahimi/projects/POTENTIOSTAT_26/cds.lib\"\n"))->input_db)
 
 ;; dummy definition
 (unless (isCallable '_quiRestoreProcessTechnology)

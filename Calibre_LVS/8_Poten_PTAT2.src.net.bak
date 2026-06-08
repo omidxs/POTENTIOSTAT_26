@@ -1,10 +1,10 @@
 ************************************************************************
 * auCdl Netlist:
 * 
-* Library Name:  Potentiostat_cpoly
+* Library Name:  Potentiostat_cpoly2
 * Top Cell Name: 8_Poten_PTAT2
 * View Name:     schematic
-* Netlisted on:  Jun  4 14:15:17 2026
+* Netlisted on:  Jun  8 12:13:13 2026
 ************************************************************************
 
 *.EQUATION
@@ -50,7 +50,7 @@ CC0 GND VDD $[CPOLYA] area=9.8n perimeter=1.02m
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    6_CA_Front_Layout
 * View Name:    schematic
 ************************************************************************
@@ -197,7 +197,7 @@ RR1 net6 C $[RPOLYH] $W=2u $L=90u
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    7_PTAT_Layout2
 * View Name:    schematic
 ************************************************************************
@@ -313,6 +313,7 @@ RR17 net11 net9 $[RPOLYH] $W=0.8u $L=50u
 RR16 net9 net8 $[RPOLYH] $W=0.8u $L=50u
 RR10 net2 net5 $[RPOLYH] $W=0.8u $L=50u
 RR31 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
+RR33 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
 RR32 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
 RR30 net15 X $[RPOLYH] $W=2u $L=150u
 RR29 net16 net15 $[RPOLYH] $W=2u $L=150u
@@ -329,6 +330,7 @@ RR26 V_ptat net18 $[RPOLYH] $W=2u $L=150u
 RR28 net17 net16 $[RPOLYH] $W=2u $L=150u
 RR27 net18 net17 $[RPOLYH] $W=2u $L=150u
 RR19 V_ptat net12 $[RPOLYH] $W=2u $L=150u
+CC10 GNDA VDDA $[CPOLYA] area=2.08n perimeter=292u
 CC6 GNDA Ibias $[CPOLYA] area=688p perimeter=118u
 CC2<0> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
 CC2<1> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
@@ -361,6 +363,7 @@ CC2<27> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
 CC2<28> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
 CC2<29> V_ptat_inv net7 $[CPOLYA] area=2.31n perimeter=192.1u
 CC7 GNDA Ibias $[CPOLYA] area=2.2n perimeter=260u
+CC8 GNDA VDDA $[CPOLYA] area=688p perimeter=118u
 CC0 V_ptat Vo1 $[CPOLYA] area=3.47n perimeter=235.5u
 MMP13<0> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
 MMP13<1> VDDA VDDA VDDA VDDA pmos4 W=5u L=10u M=1
@@ -536,14 +539,11 @@ MMP3<16> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
 MMP3<17> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
 MMP3<18> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
 MMP3<19> S Vm1 VDDA VDDA pmos4 W=5u L=10u M=1
-MC5 VDDA GNDA VDDA GNDA CVAR W=475.2u L=650.00n
-MC4 VDDA GNDA VDDA GNDA CVAR W=356.4u L=650.00n
-MC3 VDDA GNDA VDDA GNDA CVAR W=686.4u L=650.00n
 XI3 GNDA Ib2 VDDA vref net7 V_ptat_inv / 6_CA_Front_Layout
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    Inverter
 * View Name:    schematic
 ************************************************************************
@@ -555,7 +555,7 @@ MM_i_1 Q A VDDA VDDA pmos4 W=0.7u L=0.35u M=1
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    6_Resnet
 * View Name:    schematic
 ************************************************************************
@@ -592,7 +592,7 @@ RR6 net5 Out $[RPOLYH] $W=0.8u $L=150u
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    6_TIA_Front_Layout
 * View Name:    schematic
 ************************************************************************
@@ -739,7 +739,7 @@ RR7 net24 D2 $[RPOLYH] $W=2u $L=30u
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    7_MUX21
 * View Name:    schematic
 ************************************************************************
@@ -754,7 +754,7 @@ XI0 EN GNDA SN VDDA / Inverter
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    7_Calibration_current
 * View Name:    schematic
 ************************************************************************
@@ -888,7 +888,7 @@ XI11 S<1> GNDA S1n VDDA / Inverter
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    8_CA_TIA_Front_calib
 * View Name:    schematic
 ************************************************************************
@@ -898,7 +898,7 @@ XI11 S<1> GNDA S1n VDDA / Inverter
 *.PININFO CE:B Calib_EN:B Calib_cur:B EN_100mV:B GNDA:B Ibias8:B Ibias9:B RE:B 
 *.PININFO S<3>:B S<2>:B S<1>:B S<0>:B TIA_in:B VDDA:B V_EC:B Vout:B Vref:B 
 *.PININFO WE:B v1500:B
-XI22 GNDA Ibias8 VDDA net1 RE CE / 6_CA_Front_Layout
+XI28 GNDA TIA_in Vout S<3> S<2> S<1> S<0> VDDA / 6_Resnet
 CC5 GNDA Calib_cur $[CPOLYA] area=1.73n perimeter=170.4u
 CC4<0> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
 CC4<1> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
@@ -911,18 +911,18 @@ CC4<7> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
 CC4<8> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
 CC4<9> Vout TIA_in $[CPOLYA] area=1.73n perimeter=166.3u
 CC3 GNDA Ibias9 $[CPOLYA] area=2.4n perimeter=200u
-XI28 GNDA TIA_in Vout S<3> S<2> S<1> S<0> VDDA / 6_Resnet
 XI33 GNDA Ibias9 VDDA Vref TIA_in Vout / 6_TIA_Front_Layout
 XI35 V_EC v1500 EN_100mV GNDA net1 VDDA / 7_MUX21
 XI30 WE net2 Calib_EN GNDA TIA_in VDDA / 7_MUX21
+XI36 net2 GNDA S<3> S<2> S<1> S<0> VDDA Calib_cur / 7_Calibration_current
+XI22 GNDA Ibias8 VDDA net1 RE CE / 6_CA_Front_Layout
 RR32 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
 RR0 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
 RR1 GNDA GNDA $[RPOLYH] $W=0.8u $L=5u
-XI36 net2 GNDA S<3> S<2> S<1> S<0> VDDA Calib_cur / 7_Calibration_current
 .ENDS
 
 ************************************************************************
-* Library Name: Potentiostat_cpoly
+* Library Name: Potentiostat_cpoly2
 * Cell Name:    8_Poten_PTAT2
 * View Name:    schematic
 ************************************************************************

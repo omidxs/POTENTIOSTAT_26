@@ -1,0 +1,30 @@
+Starting Monte Carlo Sampling...
+
+Current time: Mon Apr 20 13:12:44 2026 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 12345
+
+MonteCarlo.1
+Number of points completed: 200
+Number of simulation errors: 0
+MonteCarlo.1 completed. 
+Current time: Mon Apr 20 13:13:47 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 3
+Linearity_MC	Nominal - 
+	HD2:	Yield	100%
+		Min -102.741	Max -58.3329	Mean -88.8487	Number of errors 0
+Linearity_MC	Nominal - 
+	dB20(dft(VT("/Vout") 0 0.8 1024 "Rectangular" 1 "default" 1.0)):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+Linearity_MC	Nominal - 
+	deriv(VS("/Vout")):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+
+Linearity_MC
+	Overall Yield	100%	Number of points passed	200	Total number of points	200
+
+Estimated yield = 100% (200/200), 0 errors
+Estimated yield (No opregions) = 100% (200/200)

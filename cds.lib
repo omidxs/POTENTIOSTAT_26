@@ -1,4 +1,4 @@
-# File Created by  at Fri May 29 09:54:21 2026
+# File Created by  at Mon Jun  8 11:17:58 2026
 # assisted by CdsLibEditor
 # 
 # File Name:    :    cds.lib/lib.defs
@@ -55,3 +55,8 @@ DEFINE POWER_TRACKS /home/hrahimi/projects/IL2244_VT26_SAUL/POWER_TRACKS/
 #Removed by ddDeleteObj: DEFINE Potentiostat_Cpoly_replaced /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Cpoly_replaced
 #Removed by ddDeleteObj: DEFINE Potentiostat_cpoly /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_cpoly
 DEFINE Potentiostat_cpoly /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_cpoly
+DEFINE VT26_TOP /home/hrahimi/projects/IL2244_VT26_SAUL/VT26_TOP/
+DEFINE DIG_SPI /home/hrahimi/projects/IL2244_VT26_SAUL/DIG_SPI/
+DEFINE FECG /home/hrahimi/projects/IL2244_VT26_SAUL/FECG/
+DEFINE YAOWEN /home/hrahimi/projects/IL2244_VT26_SAUL/YAOWEN/
+DEFINE Potentiostat_cpoly2 /home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_cpoly2

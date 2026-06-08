@@ -1,13 +1,166 @@
 # 0
+RPOLYH(RES): RPOLYH(RES)
+# 0
+CPOLYA(CAP): CPOLYA(CAP)
+# 0
 PMOS4(MOS): PMOS4(MOS)
 # 0
 NMOS4(MOS): NMOS4(MOS)
+# 147
+6_CA_Front_Layout schematic Potentiostat_cpoly2: 6_CA_Front_Layout layout Potentiostat_cpoly2
+D C0/C0 C0/avD84_1
+S MN10<0> avD1_6
+S MN10<1> avD1_7
+S MN10<2> avD1_10
+S MN10<3> avD1_13
+S MN33<0> MN33(0)/avD1_1
+S MN33<1> MN33(1)/avD1_1
+D MN30 MN30/avD1_1
+S MN30 MN30/avD1_2
+D MN30 MN30/avD1_3
+S MN30 MN30/avD1_4
+S MN11<0> avD1_8
+S MN11<1> avD1_9
+S MN11<2> avD1_11
+S MN11<3> avD1_12
+D MN12 MN12/avD1_1
+D MN5 MN5/avD1_1
+D MN31 MN31/avD1_1
+S MN31 MN31/avD1_2
+D MN31 MN31/avD1_3
+S MN31 MN31/avD1_4
+S MN0 avD1_1
+S MN0 avD1_2
+D MN0 avD1_3
+D MN0 avD1_4
+S MN0 avD1_5
+D R1 avD66_1
+D MP31<0> avD5_32
+D MP31<1> avD5_35
+D MP31<2> avD5_37
+D MP31<3> avD5_38
+D MP31<4> avD5_56
+D MP31<5> avD5_62
+D MP31<6> avD5_64
+D MP31<7> avD5_66
+S MP35<0> avD5_1
+S MP35<1> avD5_3
+S MP35<2> avD5_4
+S MP35<3> avD5_5
+S MP35<4> avD5_9
+S MP35<5> avD5_10
+S MP35<6> avD5_15
+S MP35<7> avD5_16
+S MP35<8> avD5_19
+S MP35<9> avD5_21
+S MP35<10> avD5_22
+S MP35<11> avD5_23
+S MP35<12> avD5_25
+S MP35<13> avD5_27
+S MP35<14> avD5_29
+S MP35<15> avD5_44
+S MP35<16> avD5_46
+S MP35<17> avD5_48
+S MP35<18> avD5_51
+S MP35<19> avD5_54
+S MP35<20> avD5_57
+S MP35<21> avD5_70
+S MP35<22> avD5_71
+S MP35<23> avD5_72
+S MP35<24> avD5_73
+S MP35<25> avD5_74
+S MP35<26> avD5_75
+S MP35<27> avD5_76
+S MP35<28> avD5_79
+S MP35<29> avD5_82
+S MP35<30> avD5_83
+S MP35<31> avD5_84
+S MP35<32> avD5_91
+S MP35<33> avD5_94
+S MP35<34> avD5_95
+S MP35<35> avD5_96
+S MP34<0> MP34(0)/avD5_1
+S MP34<1> MP34(1)/avD5_1
+S MP34<2> MP34(2)/avD5_1
+S MP34<3> MP34(3)/avD5_1
+D MP5<0> avD5_36
+D MP5<1> avD5_65
+D MP1<0> MP1(0)/avD5_1
+D MP1<1> MP1(1)/avD5_1
+D MP1<2> MP1(2)/avD5_1
+D MP1<3> MP1(3)/avD5_1
+D MP1<4> MP1(4)/avD5_1
+D MP1<5> MP1(5)/avD5_1
+D MP1<6> MP1(6)/avD5_1
+D MP1<7> MP1(7)/avD5_1
+D MP1<8> MP1(8)/avD5_1
+D MP1<9> MP1(9)/avD5_1
+D MP0<0> MP0(0)/avD5_1
+D MP0<1> MP0(1)/avD5_1
+D MP0<2> MP0(2)/avD5_1
+D MP0<3> MP0(3)/avD5_1
+D MP0<4> MP0(4)/avD5_1
+D MP0<5> MP0(5)/avD5_1
+D MP0<6> MP0(6)/avD5_1
+D MP0<7> MP0(7)/avD5_1
+D MP0<8> MP0(8)/avD5_1
+D MP0<9> MP0(9)/avD5_1
+D MP32<0> avD5_2
+D MP32<1> avD5_6
+D MP32<2> avD5_7
+D MP32<3> avD5_8
+D MP32<4> avD5_11
+D MP32<5> avD5_12
+D MP32<6> avD5_13
+D MP32<7> avD5_14
+D MP32<8> avD5_17
+D MP32<9> avD5_18
+D MP32<10> avD5_20
+D MP32<11> avD5_24
+D MP32<12> avD5_26
+D MP32<13> avD5_28
+D MP32<14> avD5_30
+D MP32<15> avD5_31
+D MP32<16> avD5_33
+D MP32<17> avD5_34
+D MP32<18> avD5_39
+D MP32<19> avD5_40
+D MP32<20> avD5_41
+D MP32<21> avD5_42
+D MP32<22> avD5_43
+D MP32<23> avD5_45
+D MP32<24> avD5_47
+D MP32<25> avD5_49
+D MP32<26> avD5_50
+D MP32<27> avD5_52
+D MP32<28> avD5_53
+D MP32<29> avD5_55
+D MP32<30> avD5_58
+D MP32<31> avD5_59
+D MP32<32> avD5_60
+D MP32<33> avD5_61
+D MP32<34> avD5_63
+D MP32<35> avD5_67
+D MP32<36> avD5_68
+D MP32<37> avD5_69
+D MP32<38> avD5_77
+D MP32<39> avD5_78
+D MP32<40> avD5_80
+D MP32<41> avD5_81
+D MP32<42> avD5_85
+D MP32<43> avD5_86
+D MP32<44> avD5_87
+D MP32<45> avD5_88
+D MP32<46> avD5_89
+D MP32<47> avD5_90
+D MP32<48> avD5_92
+D MP32<49> avD5_93
 # 2
-Inverter schematic Potentiostat_cpoly: Inverter layout Potentiostat_cpoly
+Inverter schematic Potentiostat_cpoly2: Inverter layout Potentiostat_cpoly2
 D M_i_0 avD1_1
 D M_i_1 avD5_1
 # 139
-7_Calibration_current schematic Potentiostat_cpoly: 7_Calibration_current layout Potentiostat_cpoly
+7_Calibration_current schematic Potentiostat_cpoly2: 7_Calibration_current layout Potentiostat_cpoly2
 S MN2<0> avD1_3
 S MN2<1> avD1_10
 D MN20<0> avD1_5
@@ -147,10 +300,8 @@ I I12 I12 Inverter Inverter
 I I13 I13 Inverter Inverter
 I I6 I6 Inverter Inverter
 I I11 I11 Inverter Inverter
-# 0
-RPOLYH(RES): RPOLYH(RES)
 # 13
-7_MUX21 schematic Potentiostat_cpoly: 7_MUX21 layout Potentiostat_cpoly
+7_MUX21 schematic Potentiostat_cpoly2: 7_MUX21 layout Potentiostat_cpoly2
 S MN1 MN1/avD1_1
 D MN1 MN1/avD1_2
 D MN0 MN0/avD1_1
@@ -164,10 +315,8 @@ D MP1 MP1/avD5_2
 S MP1 MP1/avD5_3
 D MP1 MP1/avD5_4
 I I0 I0 Inverter Inverter
-# 0
-CPOLYA(CAP): CPOLYA(CAP)
 # 155
-6_TIA_Front_Layout schematic Potentiostat_cpoly: 6_TIA_Front_Layout layout Potentiostat_cpoly
+6_TIA_Front_Layout schematic Potentiostat_cpoly2: 6_TIA_Front_Layout layout Potentiostat_cpoly2
 D C5<0>/C0 C5(0)/avD84_1
 D C5<1>/C0 C5(1)/avD84_1
 D C5<2>/C0 C5(2)/avD84_1
@@ -324,7 +473,7 @@ D MP20<7> avD5_55
 D MP15<0> avD5_34
 D MP15<1> avD5_52
 # 28
-6_Resnet schematic Potentiostat_cpoly: 6_Resnet layout Potentiostat_cpoly
+6_Resnet schematic Potentiostat_cpoly2: 6_Resnet layout Potentiostat_cpoly2
 S MN19 avD1_1
 D MN19 avD1_2
 D MN20 MN20/avD1_1
@@ -353,157 +502,8 @@ I I11 I11 Inverter Inverter
 I I13 I13 Inverter Inverter
 I I6 I6 Inverter Inverter
 I I12 I12 Inverter Inverter
-# 147
-6_CA_Front_Layout schematic Potentiostat_cpoly: 6_CA_Front_Layout layout Potentiostat_cpoly
-D C0/C0 C0/avD84_1
-S MN10<0> avD1_6
-S MN10<1> avD1_7
-S MN10<2> avD1_10
-S MN10<3> avD1_13
-S MN33<0> MN33(0)/avD1_1
-S MN33<1> MN33(1)/avD1_1
-D MN30 MN30/avD1_1
-S MN30 MN30/avD1_2
-D MN30 MN30/avD1_3
-S MN30 MN30/avD1_4
-S MN11<0> avD1_8
-S MN11<1> avD1_9
-S MN11<2> avD1_11
-S MN11<3> avD1_12
-D MN12 MN12/avD1_1
-D MN5 MN5/avD1_1
-D MN31 MN31/avD1_1
-S MN31 MN31/avD1_2
-D MN31 MN31/avD1_3
-S MN31 MN31/avD1_4
-S MN0 avD1_1
-S MN0 avD1_2
-D MN0 avD1_3
-D MN0 avD1_4
-S MN0 avD1_5
-D R1 avD66_1
-D MP31<0> avD5_32
-D MP31<1> avD5_35
-D MP31<2> avD5_37
-D MP31<3> avD5_38
-D MP31<4> avD5_56
-D MP31<5> avD5_62
-D MP31<6> avD5_64
-D MP31<7> avD5_66
-S MP35<0> avD5_1
-S MP35<1> avD5_3
-S MP35<2> avD5_4
-S MP35<3> avD5_5
-S MP35<4> avD5_9
-S MP35<5> avD5_10
-S MP35<6> avD5_15
-S MP35<7> avD5_16
-S MP35<8> avD5_19
-S MP35<9> avD5_21
-S MP35<10> avD5_22
-S MP35<11> avD5_23
-S MP35<12> avD5_25
-S MP35<13> avD5_27
-S MP35<14> avD5_29
-S MP35<15> avD5_44
-S MP35<16> avD5_46
-S MP35<17> avD5_48
-S MP35<18> avD5_51
-S MP35<19> avD5_54
-S MP35<20> avD5_57
-S MP35<21> avD5_70
-S MP35<22> avD5_71
-S MP35<23> avD5_72
-S MP35<24> avD5_73
-S MP35<25> avD5_74
-S MP35<26> avD5_75
-S MP35<27> avD5_76
-S MP35<28> avD5_79
-S MP35<29> avD5_82
-S MP35<30> avD5_83
-S MP35<31> avD5_84
-S MP35<32> avD5_91
-S MP35<33> avD5_94
-S MP35<34> avD5_95
-S MP35<35> avD5_96
-S MP34<0> MP34(0)/avD5_1
-S MP34<1> MP34(1)/avD5_1
-S MP34<2> MP34(2)/avD5_1
-S MP34<3> MP34(3)/avD5_1
-D MP5<0> avD5_36
-D MP5<1> avD5_65
-D MP1<0> MP1(0)/avD5_1
-D MP1<1> MP1(1)/avD5_1
-D MP1<2> MP1(2)/avD5_1
-D MP1<3> MP1(3)/avD5_1
-D MP1<4> MP1(4)/avD5_1
-D MP1<5> MP1(5)/avD5_1
-D MP1<6> MP1(6)/avD5_1
-D MP1<7> MP1(7)/avD5_1
-D MP1<8> MP1(8)/avD5_1
-D MP1<9> MP1(9)/avD5_1
-D MP0<0> MP0(0)/avD5_1
-D MP0<1> MP0(1)/avD5_1
-D MP0<2> MP0(2)/avD5_1
-D MP0<3> MP0(3)/avD5_1
-D MP0<4> MP0(4)/avD5_1
-D MP0<5> MP0(5)/avD5_1
-D MP0<6> MP0(6)/avD5_1
-D MP0<7> MP0(7)/avD5_1
-D MP0<8> MP0(8)/avD5_1
-D MP0<9> MP0(9)/avD5_1
-D MP32<0> avD5_2
-D MP32<1> avD5_6
-D MP32<2> avD5_7
-D MP32<3> avD5_8
-D MP32<4> avD5_11
-D MP32<5> avD5_12
-D MP32<6> avD5_13
-D MP32<7> avD5_14
-D MP32<8> avD5_17
-D MP32<9> avD5_18
-D MP32<10> avD5_20
-D MP32<11> avD5_24
-D MP32<12> avD5_26
-D MP32<13> avD5_28
-D MP32<14> avD5_30
-D MP32<15> avD5_31
-D MP32<16> avD5_33
-D MP32<17> avD5_34
-D MP32<18> avD5_39
-D MP32<19> avD5_40
-D MP32<20> avD5_41
-D MP32<21> avD5_42
-D MP32<22> avD5_43
-D MP32<23> avD5_45
-D MP32<24> avD5_47
-D MP32<25> avD5_49
-D MP32<26> avD5_50
-D MP32<27> avD5_52
-D MP32<28> avD5_53
-D MP32<29> avD5_55
-D MP32<30> avD5_58
-D MP32<31> avD5_59
-D MP32<32> avD5_60
-D MP32<33> avD5_61
-D MP32<34> avD5_63
-D MP32<35> avD5_67
-D MP32<36> avD5_68
-D MP32<37> avD5_69
-D MP32<38> avD5_77
-D MP32<39> avD5_78
-D MP32<40> avD5_80
-D MP32<41> avD5_81
-D MP32<42> avD5_85
-D MP32<43> avD5_86
-D MP32<44> avD5_87
-D MP32<45> avD5_88
-D MP32<46> avD5_89
-D MP32<47> avD5_90
-D MP32<48> avD5_92
-D MP32<49> avD5_93
 # 21
-8_CA_TIA_Front_calib schematic Potentiostat_cpoly: 8_CA_TIA_Front_calib layout Potentiostat_cpoly
+8_CA_TIA_Front_calib schematic Potentiostat_cpoly2: 8_CA_TIA_Front_calib layout Potentiostat_cpoly2
 D C5/C0 avD84_1
 D C4<0>/C0 C4(0)/avD84_1
 D C4<1>/C0 C4(1)/avD84_1
@@ -526,11 +526,11 @@ I I35 I35 7_MUX21 7_MUX21
 I I30 I30 7_MUX21 7_MUX21
 I I36 I36 7_Calibration_current 7_Calibration_current
 # 0
-CVAR(Generic): CVAR(Generic)
-# 0
 PNPVERT10(BJT): PNPVERT10(BJT)
 # 337
-7_PTAT_Layout2 schematic Potentiostat_cpoly: 7_PTAT_Layout2 layout Potentiostat_cpoly
+7_PTAT_Layout2 schematic Potentiostat_cpoly2: 7_PTAT_Layout2 layout Potentiostat_cpoly2
+D C10/C0 avD84_3
+D C8/C0 avD84_4
 D C6/C0 avD84_1
 D C7/C0 avD84_2
 D C2<0>/C0 avI108/avI1/avD84_1
@@ -668,7 +668,8 @@ D MN2 avD1_2
 D MN1 MN1/avD1_1
 D MN0 MN0/avD1_1
 D R31 avD66_1
-D R32 avD66_2
+D R33 avD66_2
+D R32 avD66_3
 D R30 R26/avD66_1
 D R29 R29/avD66_1
 D R26 R30/avD66_1
@@ -864,9 +865,6 @@ D MP3<16> avI109/avI71/avD5_1
 D MP3<17> avI109/avI72/avD5_1
 D MP3<18> avI109/avI73/avD5_1
 D MP3<19> avI109/avI83/avD5_1
-D C5 avD85_1
-D C4 avD85_2
-D C3 avD85_3
 I I3 I3 6_CA_Front_Layout 6_CA_Front_Layout
 # 1
 V500_20 schematic POWER_TRACKS: V500_20 layout POWER_TRACKS
@@ -875,7 +873,7 @@ D C0/C0 avD83_1
 V200_20 schematic POWER_TRACKS: V200_20 layout POWER_TRACKS
 D C0/C0 avD83_1
 # 16
-8_Poten_PTAT2 schematic Potentiostat_cpoly: 8_Poten_PTAT2 layout Potentiostat_cpoly
+8_Poten_PTAT2 schematic Potentiostat_cpoly2: 8_Poten_PTAT2 layout Potentiostat_cpoly2
 I I72 I89 V200_20 V200_20
 I I82 I88 V200_20 V200_20
 I I78 I72 V200_20 V200_20

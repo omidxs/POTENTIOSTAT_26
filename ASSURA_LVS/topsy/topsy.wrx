@@ -1,0 +1,21 @@
+*WARNING* Multiple label discarded: "vdd3r1!" at (1.450, 322.900) and "vdd3r2!" on net C1.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "vdd3r2!" at (99.350, 267.100) is discarded.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "vdd3r1!" at (99.450, 322.900) is discarded.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "A" at (49.350, 334.100) is discarded.
+*WARNING* 4 net(s) with multi-label warnings found in cell 'VDD3RP layout IOLIB_4M'.
+*WARNING* Multiple label discarded: "vdd3o!" at (0.950, 214.800) and "A" on net C2.
+*WARNING* Net C2: multiple Labels on a single Net, 
+therefore, "vdd3o!" at (99.650, 214.800) is discarded.
+*WARNING* 2 net(s) with multi-label warnings found in cell 'VDD3OP layout IOLIB_4M'.
+*WARNING* 2 same-label  warnings found in cell 'PWRCUT_DIG_P_DX layout IOLIB_4M'.
+*WARNING* Multiple label discarded: "A" at (60.100, 334.850) and "gnd3r!" on net C1.
+*WARNING* 1 net(s) with multi-label warning  found in cell 'GND3RP layout IOLIB_4M'.
+*WARNING* Multiple label discarded: "gnd3o!" at (1.350, 147.450) and "A" on net C1.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "gnd3o!" at (99.150, 147.450) is discarded.
+*WARNING* 2 net(s) with multi-label warnings found in cell 'GND3OP layout IOLIB_4M'.
+*WARNING* 1 same-label  warning  found in cell 'APRIO200P layout IOLIB_ANA_4M'.
+*WARNING* 2 same-label  warnings found in cell 'AGND3ALLP layout IOLIB_ANA_4M'.

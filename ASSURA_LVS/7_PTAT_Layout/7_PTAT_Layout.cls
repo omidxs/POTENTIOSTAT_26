@@ -1,5 +1,5 @@
 *******************************************************************************
-****** 6_CA_Front_Layout schematic Potentiostat_cpoly  <vs>  6_CA_Front_Layout layout Potentiostat_cpoly
+****** 6_CA_Front_Layout schematic Potentiostat_cpoly2  <vs>  6_CA_Front_Layout layout Potentiostat_cpoly2
 *******************************************************************************
 
 Filter/Reduce statistics only. Network matching was OK.
@@ -29,7 +29,7 @@ Cell/Device                               schematic  layout   schematic  layout
 Total                                           137     147          17      17
 
 *******************************************************************************
-****** 7_PTAT_Layout schematic Potentiostat_cpoly  <vs>  7_PTAT_Layout layout Potentiostat_cpoly
+****** 7_PTAT_Layout schematic Potentiostat_cpoly2  <vs>  7_PTAT_Layout layout Potentiostat_cpoly2
 *******************************************************************************
 
 Filter/Reduce statistics only. Network matching was OK.
@@ -37,11 +37,10 @@ Filter/Reduce statistics only. Network matching was OK.
 Pre-expand Statistics                      
 ======================                          Original       
 Cell/Device                               schematic  layout
-(6_CA_Front_Layout schematic Potentiostat_cpoly, 6_CA_Front_Layout) Cell                1       1
-(CVAR) Generic                                    3       3
+(6_CA_Front_Layout schematic Potentiostat_cpoly2, 6_CA_Front_Layout) Cell               1       1
 (PMOS4) MOS                                     174       0*
-(cpolyc schematic PRIMLIB, _) Cell               23       0*
-(RPOLYH) RES                                     23       2*
+(cpolyc schematic PRIMLIB, _) Cell               25       0*
+(RPOLYH) RES                                     24       3*
 (NMOS4) MOS                                      21       3*
 (PNPVERT10) BJT                                  81       0*
 (_, cpolyc layout PRIMLIB area="3...) Cell        0       1*
@@ -49,11 +48,11 @@ Cell/Device                               schematic  layout
 (_, nmos4 layout PRIMLIB l="10u" ...) Cell        0       4*
 (_, nmos4 layout PRIMLIB l="20u" ...) Cell        0       4*
 (_, pmos4 layout PRIMLIB l="10u" ...) Cell        0      12*
-(_, pmos4 layout PRIMLIB l="350n"...) Cell        0       8*
 (_, pmos4 layout PRIMLIB l="2u" i...) Cell        0      44*
-(_, rpolyhc layout PRIMLIB Bends=...) Cell        0      12*
+(_, pmos4 layout PRIMLIB l="350n"...) Cell        0       8*
 (_, rpolyhc layout PRIMLIB Bends=...) Cell        0       9*
-(CPOLYA) CAP                                      0       2*
+(_, rpolyhc layout PRIMLIB Bends=...) Cell        0      12*
+(CPOLYA) CAP                                      0       4*
                                              ------  ------
 Total                                           326     116
 
@@ -63,11 +62,10 @@ Cell/Device                               schematic  layout   schematic  layout
 (6_CA_Front_Layout) Cell                          1       1           1       1
 (NMOS4) MOS                                      21      22*         12      12
 (PMOS4) MOS                                     174     174          14      14
-(RPOLYH) RES                                     23      23           6       6
+(RPOLYH) RES                                     24      24           6       6
 (PNPVERT10) BJT                                  81      81           3       3
-(CPOLYA) CAP                                     23      23           3       3
-(CVAR) Generic                                    3       3           3       3
+(CPOLYA) CAP                                     25      25           4       4
                                              ------  ------      ------  ------
-Total                                           326     327          42      42
+Total                                           326     327          40      40
 
 Schematic and Layout Match
