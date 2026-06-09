@@ -3,100 +3,100 @@
 dv_start unmatched                                
 dv_global
 dv_discrep 1 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "cbuf" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "cbuf" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 2 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "cbufs" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "cbufs" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 3 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "ce" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "ce" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 4 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "clk4k" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "clk4k" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 5 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "cm" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "cm" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 6 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "cmfb" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "cmfb" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 7 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "cmfbs" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "cmfbs" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 8 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "cms" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "cms" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 9 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "cvga" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "cvga" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 10 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "cvgas" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "cvgas" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 11 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "ecgs" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "ecgs" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 12 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "exc1" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "exc1" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 13 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "exc1s" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "exc1s" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 14 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "exc2" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "exc2" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 15 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "exc2s" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "exc2s" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 16 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "fecg" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "fecg" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 17 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "pot_out" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "pot_out" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 18 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "re" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "re" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 19 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "reset_l" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "reset_l" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 20 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "spi_clk" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "spi_clk" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 21 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "spi_cs" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "spi_cs" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 22 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "spi_mosi" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "spi_mosi" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 23 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "tia_in" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "tia_in" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 24 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "v_ec" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "v_ec" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 25 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "vinn" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "vinn" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 26 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "vinns" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "vinns" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 27 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "vinp" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "vinp" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 28 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "vinps" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "vinps" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 29 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "vpi" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "vpi" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 30 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "vres" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "vres" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 31 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "vress" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "vress" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_discrep 32 {Warning: Duplicate pin}
-dv_discrep_line {Duplicate pin definition "we" at line 1798 in file "topsyh.src.net"}
+dv_discrep_line {Duplicate pin definition "we" at line 1794 in file "topsyh.src.net"}
 dv_discrep_line {}
 dv_cell {topsyh} {topsyh} unmatched
 dv_obj_count -transformed_nets {1795 1741} -transformed_inst {2964 2944} -transformed_port {42 50}
@@ -149,13 +149,13 @@ dv_discrep_line {                                                            } -
 dv_discrep_line {}
 dv_discrep_line {}
 dv_discrep_line {** missing connection **                                  (_invv):}  {in} {}
-dv_discrep_line {                                                            } -sdev {XI2/XI2/MMN32} {:}  {g} {}
-dv_discrep_line {                                                            } -sdev {XI2/XI2/MMP27} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XI19/XI28/MMN32} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XI19/XI28/MMP27} {:}  {g} {}
 dv_discrep_line {}
 dv_discrep_line {}
 dv_discrep_line {** missing connection **                                  (_invv):}  {in} {}
-dv_discrep_line {                                                            } -sdev {XI19/XI28/MMN32} {:}  {g} {}
-dv_discrep_line {                                                            } -sdev {XI19/XI28/MMP27} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XI2/XI2/MMN32} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XI2/XI2/MMP27} {:}  {g} {}
 dv_discrep_line {}
 dv_discrep_line {}
 dv_discrep_line {** missing connection **                                  (_invv):}  {out} {}

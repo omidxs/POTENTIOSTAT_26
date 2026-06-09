@@ -1,7 +1,0 @@
-!<alc> v1 131
-0    1    0 cvar layout PRIMLIB col=10 row=15 in1=C128529
-0    7    0 rpolyhc layout PRIMLIB Bends=4 Dummy=TRUE ResShape="90_deg" doubleCont="Horizontal" gwell="N-Well" l="25u" r="50K" w="800n" in1=R27
-0    5    0 pmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MP428729
-0    3    0 nmos4 layout PRIMLIB l="10u" w="5u" wtot="5u" in1=MN428129
-0    2    0 nmos4 layout PRIMLIB l="5u" w="33u" wtot="33u" in1=MN528329
-0    8    0 fbias_vol_ref1_layout layout FBIAS

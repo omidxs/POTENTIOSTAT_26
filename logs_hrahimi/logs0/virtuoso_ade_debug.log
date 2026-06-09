@@ -1,397 +1,140 @@
-[ADE GUI: e600ee56-13c7-471d-8ec7-12bcd838b57d]
-[2026-06-08 12:15:45.417 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftLoggingService0 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService0.log"}
-[2026-06-08 12:15:45.538 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftNetlistService1 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
-[2026-06-08 12:15:45.539 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '3680623' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService0.log"}
-[2026-06-08 12:15:50.497 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3680649' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
-[2026-06-08 12:17:47.951 Z] [WARN] [cadence.virtuoso.ade.gui] - The following global variable(s) are enabled, but are not used by any test in the active setup:
+[ADE GUI: e6b8642f-908b-440a-bd66-028963bd6cef]
+[2026-06-08 13:32:22.760 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftLoggingService0 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService0.log"}
+[2026-06-08 13:32:22.891 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftNetlistService1 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
+[2026-06-08 13:32:22.892 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '3758568' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService0.log"}
+[2026-06-08 13:32:26.521 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3758593' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
+[2026-06-08 13:33:35.774 Z] [WARN] [cadence.virtuoso.ade.gui] - The following global variable(s) are enabled, but are not used by any test in the active setup:
 vref 
 It is recommended to delete or disable these variable(s) because they are not being considered by the simulation run. {"detailed_message": "", "message_id": "ASSEMBLER-1704"}
-[2026-06-08 12:17:48.953 Z] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "Interactive.392", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "Interactive.392", "WorkDir": "/home/hrahimi/projects/POTENTIOSTAT_26", "HistorySimDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.392", "HistoryResultsDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
-[2026-06-08 12:17:48.954 Z] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "il2244vt26_hrahimi", "processid": 3615444, "history": "Interactive.392", "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Single Run, Sweeps and Corners", "lib": "Potentiostat_Top", "cell": "top", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.36 ", "runstart": "Mon Jun  8 12:17:48 2026\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "Maestro Default", "maxjobs": "1", "ncjobpolicyname": "Netlisting Default", "ncmaxjobs": "unknown", "numtests": "1", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
-[2026-06-08 12:17:50.974 Z] [WARN] [cadence.virtuoso.ade.gui] - Could not find log file for Same Process Job 0. Log message for this job will be printed in the CDS log file. {"history": "Interactive.392", "testname": "PTAT", "detailed_message": "", "message_id": "ASSEMBLER-5028"}
-[2026-06-08 12:17:53.215 Z] [INFO] [cadence.virtuoso.ade.gui] - Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible. {"history": "Interactive.392", "testname": "PTAT", "detailed_message": "", "message_id": "ASSEMBLER-5024"}
-[2026-06-08 12:17:53.712 Z] [EVENT] [cadence.virtuoso.ade.pointevaluator] - NewPoint {"history": "Interactive.392", "point": 1, "testname": "PTAT", "event": "NewPoint", "EventSource": "ADE GUI", "HistoryName": "Interactive.392", "logFile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/virtuoso_ade_debug.log", "logFileSize": "3128"}
-[2026-06-08 12:17:53.714 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Started netlisting {"history": "Interactive.392", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:18:33.053 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Finished netlisting {"history": "Interactive.392", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:18:33.054 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "Interactive.392", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:18:33.625 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob2 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job2.log"}
-[2026-06-08 12:18:34.346 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3682434' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job2.log"}
-[2026-06-08 12:20:05.174 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.392/1/PTAT/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job2.log"}
-[2026-06-08 12:20:05.180 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.392/1/PTAT/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job2.log"}
-[2026-06-08 12:20:09.497 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.392", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:20:10.854 Z] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "Interactive.392", "point": 1, "testname": "PTAT", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "Interactive.392"}
-[2026-06-08 12:20:57.666 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3680649' stopped with exit code '0' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
-[2026-06-08 12:22:49.264 Z] [WARN] [cadence.virtuoso.ade.gui] - The following global variable(s) are enabled, but are not used by any test in the active setup:
-vref 
-It is recommended to delete or disable these variable(s) because they are not being considered by the simulation run. {"history": "Interactive.392", "point": 1, "testname": "PTAT", "detailed_message": "", "message_id": "ASSEMBLER-1704"}
-[2026-06-08 12:22:49.928 Z] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "Interactive.393", "point": 1, "testname": "PTAT", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "Interactive.393", "WorkDir": "/home/hrahimi/projects/POTENTIOSTAT_26", "HistorySimDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.393", "HistoryResultsDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
-[2026-06-08 12:22:49.929 Z] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "il2244vt26_hrahimi", "processid": 3615444, "history": "Interactive.393", "testname": "PTAT", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Single Run, Sweeps and Corners", "lib": "Potentiostat_Top", "cell": "top", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.36 ", "runstart": "Mon Jun  8 12:22:49 2026\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "Maestro Default", "maxjobs": "1", "ncjobpolicyname": "Netlisting Default", "ncmaxjobs": "unknown", "numtests": "2", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
-[2026-06-08 12:22:52.009 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "Interactive.393", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:22:56.734 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftNetlistService3 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service3.log"}
-[2026-06-08 12:22:56.844 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3684206' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service3.log"}
-[2026-06-08 12:26:51.523 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob4 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job4.log"}
-[2026-06-08 12:26:51.634 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3686991' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job4.log"}
-[2026-06-08 12:28:12.691 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.393/1/TIA_Gain_Linearity/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job4.log"}
-[2026-06-08 12:28:12.697 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.393/1/TIA_Gain_Linearity/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job4.log"}
-[2026-06-08 12:28:16.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.393", "point": 1, "testname": "TIA_Gain_Linearity"}
-[2026-06-08 12:29:06.139 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3684206' stopped with exit code '0' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service3.log"}
-[2026-06-08 12:29:25.832 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.393/1/Poten/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job2.log"}
-[2026-06-08 12:29:25.837 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.393/1/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job2.log"}
-[2026-06-08 12:29:39.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.393", "point": 1, "testname": "Poten"}
-[2026-06-08 12:29:41.746 Z] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "Interactive.393", "point": 1, "testname": "PTAT", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "Interactive.393"}
-[2026-06-08 12:32:47.973 Z] [WARN] [cadence.virtuoso.ade.gui] - The following global variable(s) are enabled, but are not used by any test in the active setup:
-vref 
-It is recommended to delete or disable these variable(s) because they are not being considered by the simulation run. {"history": "Interactive.393", "point": 1, "testname": "PTAT", "detailed_message": "", "message_id": "ASSEMBLER-1704"}
-[2026-06-08 12:32:49.150 Z] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "Interactive.394", "point": 1, "testname": "PTAT", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "Interactive.394", "WorkDir": "/home/hrahimi/projects/POTENTIOSTAT_26", "HistorySimDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.394", "HistoryResultsDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
-[2026-06-08 12:32:49.151 Z] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "il2244vt26_hrahimi", "processid": 3615444, "history": "Interactive.394", "testname": "PTAT", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Single Run, Sweeps and Corners", "lib": "Potentiostat_Top", "cell": "top", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.36 ", "runstart": "Mon Jun  8 12:32:49 2026\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "Maestro Default", "maxjobs": "8", "ncjobpolicyname": "Netlisting Default", "ncmaxjobs": "unknown", "numtests": "3", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
-[2026-06-08 12:32:52.018 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "Interactive.394", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:32:56.740 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftNetlistService5 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service5.log"}
-[2026-06-08 12:32:56.852 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3689192' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service5.log"}
-[2026-06-08 12:34:11.515 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob6 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
-[2026-06-08 12:34:11.626 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3690656' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
-[2026-06-08 12:34:16.519 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob7 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:34:16.628 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3691190' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:34:21.512 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob8 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job8.log"}
-[2026-06-08 12:34:21.621 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3691831' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job8.log"}
-[2026-06-08 12:35:14.040 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.394/1/TIA_Gain_Linearity/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:35:14.046 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.394/1/TIA_Gain_Linearity/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:35:18.497 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.394", "point": 1, "testname": "TIA_Gain_Linearity"}
-[2026-06-08 12:35:33.011 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.394/1/PTAT/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job8.log"}
-[2026-06-08 12:35:33.015 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.394/1/PTAT/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job8.log"}
-[2026-06-08 12:35:36.499 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.394", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:36:53.327 Z] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "Interactive.394", "point": 1, "testname": "PTAT", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "Interactive.394"}
-[2026-06-08 12:36:53.558 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.394/1/Poten/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
-[2026-06-08 12:36:53.629 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.394/1/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
-[2026-06-08 12:36:57.523 Z] [INFO] [cadence.virtuoso.ade.gui] - Canceled simulation of points {"history": "Interactive.394", "point": 1, "testname": "Poten"}
-[2026-06-08 12:37:18.305 Z] [WARN] [cadence.virtuoso.ade.gui] - The following global variable(s) are enabled, but are not used by any test in the active setup:
-vref 
-It is recommended to delete or disable these variable(s) because they are not being considered by the simulation run. {"history": "Interactive.394", "point": 1, "testname": "PTAT", "detailed_message": "", "message_id": "ASSEMBLER-1704"}
-[2026-06-08 12:37:18.988 Z] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "Interactive.395", "point": 1, "testname": "PTAT", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "Interactive.395", "WorkDir": "/home/hrahimi/projects/POTENTIOSTAT_26", "HistorySimDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.395", "HistoryResultsDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
-[2026-06-08 12:37:18.989 Z] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "il2244vt26_hrahimi", "processid": 3615444, "history": "Interactive.395", "testname": "PTAT", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Single Run, Sweeps and Corners", "lib": "Potentiostat_Top", "cell": "top", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.36 ", "runstart": "Mon Jun  8 12:37:18 2026\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "Maestro Default", "maxjobs": "8", "ncjobpolicyname": "Netlisting Default", "ncmaxjobs": "unknown", "numtests": "2", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
-[2026-06-08 12:37:21.440 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "Interactive.395", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:38:14.451 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.395/1/PTAT/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
-[2026-06-08 12:38:14.456 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.395/1/PTAT/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
-[2026-06-08 12:38:19.498 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.395", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:38:43.734 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.395/1/Poten/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:38:43.740 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.395/1/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:38:48.510 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.395", "point": 1, "testname": "Poten"}
-[2026-06-08 12:38:50.864 Z] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "Interactive.395", "point": 1, "testname": "PTAT", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "Interactive.395"}
-[2026-06-08 12:41:46.929 Z] [WARN] [cadence.virtuoso.ade.gui] - The following global variable(s) are enabled, but are not used by any test in the active setup:
-vref 
-It is recommended to delete or disable these variable(s) because they are not being considered by the simulation run. {"history": "Interactive.395", "point": 1, "testname": "PTAT", "detailed_message": "", "message_id": "ASSEMBLER-1704"}
-[2026-06-08 12:41:47.618 Z] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "Interactive.396", "point": 1, "testname": "PTAT", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "Interactive.396", "WorkDir": "/home/hrahimi/projects/POTENTIOSTAT_26", "HistorySimDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396", "HistoryResultsDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
-[2026-06-08 12:41:47.619 Z] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "il2244vt26_hrahimi", "processid": 3615444, "history": "Interactive.396", "testname": "PTAT", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Single Run, Sweeps and Corners", "lib": "Potentiostat_Top", "cell": "top", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.36 ", "runstart": "Mon Jun  8 12:41:47 2026\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "Maestro Default", "maxjobs": "12", "ncjobpolicyname": "Netlisting Default", "ncmaxjobs": "unknown", "numtests": "2", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "49"}
-[2026-06-08 12:41:50.369 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "Interactive.396", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:42:19.512 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob9 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job9.log"}
-[2026-06-08 12:42:19.639 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob10 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job10.log"}
-[2026-06-08 12:42:19.640 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3699354' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job9.log"}
-[2026-06-08 12:42:19.766 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob11 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job11.log"}
-[2026-06-08 12:42:19.767 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3699418' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job10.log"}
-[2026-06-08 12:42:19.893 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob12 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job12.log"}
-[2026-06-08 12:42:19.894 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3699479' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job11.log"}
-[2026-06-08 12:42:20.019 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob13 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job13.log"}
-[2026-06-08 12:42:20.020 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3699542' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job12.log"}
-[2026-06-08 12:42:20.150 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob14 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job14.log"}
-[2026-06-08 12:42:20.151 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3699652' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job13.log"}
-[2026-06-08 12:42:20.264 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3699765' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job14.log"}
-[2026-06-08 12:42:25.511 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob15 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job15.log"}
-[2026-06-08 12:42:25.636 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob16 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job16.log"}
-[2026-06-08 12:42:25.636 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3702845' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job15.log"}
-[2026-06-08 12:42:25.759 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob17 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job17.log"}
-[2026-06-08 12:42:25.760 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3702923' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job16.log"}
-[2026-06-08 12:42:25.884 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob18 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job18.log"}
-[2026-06-08 12:42:25.885 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3703061' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job17.log"}
-[2026-06-08 12:42:26.027 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3703146' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job18.log"}
-[2026-06-08 12:43:33.460 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/2/Poten/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:43:33.461 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/2/Poten/netlist/amps_evaluator.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:43:33.462 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
-[2026-06-08 12:43:38.669 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 2, "testname": "Poten"}
-[2026-06-08 12:43:49.018 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/6/Poten/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job12.log"}
-[2026-06-08 12:43:49.019 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/6/Poten/netlist/amps_evaluator.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job12.log"}
-[2026-06-08 12:43:49.020 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job12.log"}
-[2026-06-08 12:43:51.378 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/11/Poten/netlist/exprOutputs.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job17.log"}
-[2026-06-08 12:43:51.379 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job17.log"}
-[2026-06-08 12:43:51.383 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/11/Poten/netlist/amps_evaluator.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job17.log"}
-[2026-06-08 12:43:51.384 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job17.log"}
-[2026-06-08 12:43:52.293 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/4/Poten/netlist/exprOutputs.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job10.log"}
-[2026-06-08 12:43:52.294 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job10.log"}
-[2026-06-08 12:43:52.298 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/4/Poten/netlist/amps_evaluator.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job10.log"}
-[2026-06-08 12:43:52.299 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job10.log"}
-[2026-06-08 12:43:54.135 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/9/Poten/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job15.log"}
-[2026-06-08 12:43:54.139 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/9/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job15.log"}
-[2026-06-08 12:43:54.484 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/12/Poten/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job18.log"}
-[2026-06-08 12:43:54.488 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/12/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job18.log"}
-[2026-06-08 12:43:54.510 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 6, "testname": "Poten"}
-[2026-06-08 12:43:56.512 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 11, "testname": "Poten"}
-[2026-06-08 12:43:56.933 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/1/Poten/netlist/exprOutputs.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
-[2026-06-08 12:43:56.938 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/1/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
-[2026-06-08 12:43:57.529 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 4, "testname": "Poten"}
-[2026-06-08 12:43:58.515 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 9, "testname": "Poten"}
-[2026-06-08 12:43:59.505 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 12, "testname": "Poten"}
-[2026-06-08 12:44:01.512 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 1, "testname": "Poten"}
-[2026-06-08 12:44:03.654 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/3/Poten/netlist/exprOutputs.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job9.log"}
-[2026-06-08 12:44:03.654 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job9.log"}
-[2026-06-08 12:44:03.654 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/3/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job9.log"}
-[2026-06-08 12:44:05.162 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/7/Poten/netlist/exprOutputs.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job13.log"}
-[2026-06-08 12:44:05.162 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job13.log"}
-[2026-06-08 12:44:05.162 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/7/Poten/netlist/amps_evaluator.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job13.log"}
-[2026-06-08 12:44:05.162 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job13.log"}
-[2026-06-08 12:44:08.515 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 3, "testname": "Poten"}
-[2026-06-08 12:44:09.508 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 7, "testname": "Poten"}
-[2026-06-08 12:44:24.767 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/10/Poten/netlist/exprOutputs.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job16.log"}
-[2026-06-08 12:44:24.767 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job16.log"}
-[2026-06-08 12:44:24.767 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/10/Poten/netlist/amps_evaluator.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job16.log"}
-[2026-06-08 12:44:24.767 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job16.log"}
-[2026-06-08 12:44:27.902 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/5/Poten/netlist/exprOutputs.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job11.log"}
-[2026-06-08 12:44:27.902 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job11.log"}
-[2026-06-08 12:44:27.902 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/5/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job11.log"}
-[2026-06-08 12:44:29.506 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 10, "testname": "Poten"}
-[2026-06-08 12:44:33.513 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 5, "testname": "Poten"}
-[2026-06-08 12:44:33.513 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/8/Poten/netlist/exprOutputs.log' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job14.log"}
-[2026-06-08 12:44:33.513 Z] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job14.log"}
-[2026-06-08 12:44:33.513 Z] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/Interactive.396/8/Poten/netlist/amps_evaluator.log': File exists
- {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job14.log"}
-[2026-06-08 12:44:39.514 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 8, "testname": "Poten"}
-[2026-06-08 12:44:53.665 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 2, "testname": "PTAT"}
-[2026-06-08 12:44:55.507 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 13, "testname": "Poten"}
-[2026-06-08 12:44:59.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:45:00.505 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 3, "testname": "PTAT"}
-[2026-06-08 12:45:20.507 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 18, "testname": "Poten"}
-[2026-06-08 12:45:37.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 15, "testname": "Poten"}
-[2026-06-08 12:45:39.510 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 14, "testname": "Poten"}
-[2026-06-08 12:45:39.510 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 16, "testname": "Poten"}
-[2026-06-08 12:45:49.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 5, "testname": "PTAT"}
-[2026-06-08 12:45:52.504 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 4, "testname": "PTAT"}
-[2026-06-08 12:45:56.504 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 6, "testname": "PTAT"}
-[2026-06-08 12:46:00.513 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 20, "testname": "Poten"}
-[2026-06-08 12:46:11.506 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 17, "testname": "Poten"}
-[2026-06-08 12:46:23.506 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 22, "testname": "Poten"}
-[2026-06-08 12:46:25.514 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 21, "testname": "Poten"}
-[2026-06-08 12:46:29.509 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 23, "testname": "Poten"}
-[2026-06-08 12:46:31.506 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 19, "testname": "Poten"}
-[2026-06-08 12:46:47.500 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 7, "testname": "PTAT"}
-[2026-06-08 12:47:05.519 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 8, "testname": "PTAT"}
-[2026-06-08 12:47:06.511 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 26, "testname": "Poten"}
-[2026-06-08 12:47:16.514 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 24, "testname": "Poten"}
-[2026-06-08 12:47:23.514 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 27, "testname": "Poten"}
-[2026-06-08 12:47:29.503 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 9, "testname": "PTAT"}
-[2026-06-08 12:47:31.506 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 28, "testname": "Poten"}
-[2026-06-08 12:47:45.532 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 25, "testname": "Poten"}
-[2026-06-08 12:47:53.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 29, "testname": "Poten"}
-[2026-06-08 12:48:01.508 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 10, "testname": "PTAT"}
-[2026-06-08 12:48:03.510 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 31, "testname": "Poten"}
-[2026-06-08 12:48:04.505 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 30, "testname": "Poten"}
-[2026-06-08 12:48:05.515 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 11, "testname": "PTAT"}
-[2026-06-08 12:48:12.510 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 32, "testname": "Poten"}
-[2026-06-08 12:48:16.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 33, "testname": "Poten"}
-[2026-06-08 12:48:32.505 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 12, "testname": "PTAT"}
-[2026-06-08 12:48:34.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 13, "testname": "PTAT"}
-[2026-06-08 12:48:37.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 34, "testname": "Poten"}
-[2026-06-08 12:48:38.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 14, "testname": "PTAT"}
-[2026-06-08 12:48:51.511 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 15, "testname": "PTAT"}
-[2026-06-08 12:48:57.500 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 16, "testname": "PTAT"}
-[2026-06-08 12:49:02.500 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 17, "testname": "PTAT"}
-[2026-06-08 12:49:09.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 35, "testname": "Poten"}
-[2026-06-08 12:49:22.500 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 18, "testname": "PTAT"}
-[2026-06-08 12:49:31.505 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 39, "testname": "Poten"}
-[2026-06-08 12:49:35.513 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 38, "testname": "Poten"}
-[2026-06-08 12:49:42.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 20, "testname": "PTAT"}
-[2026-06-08 12:49:49.504 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 21, "testname": "PTAT"}
-[2026-06-08 12:49:51.814 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3689192' stopped with exit code '0' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service5.log"}
-[2026-06-08 12:49:57.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 22, "testname": "PTAT"}
-[2026-06-08 12:50:00.514 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 40, "testname": "Poten"}
-[2026-06-08 12:50:01.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 19, "testname": "PTAT"}
-[2026-06-08 12:50:09.531 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 37, "testname": "Poten"}
-[2026-06-08 12:50:21.521 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 42, "testname": "Poten"}
-[2026-06-08 12:50:24.506 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 43, "testname": "Poten"}
-[2026-06-08 12:50:26.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 23, "testname": "PTAT"}
-[2026-06-08 12:50:27.518 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 36, "testname": "Poten"}
-[2026-06-08 12:50:51.507 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 24, "testname": "PTAT"}
-[2026-06-08 12:50:52.508 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 26, "testname": "PTAT"}
-[2026-06-08 12:50:52.508 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 25, "testname": "PTAT"}
-[2026-06-08 12:50:57.509 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 27, "testname": "PTAT"}
-[2026-06-08 12:50:57.509 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 45, "testname": "Poten"}
-[2026-06-08 12:51:00.515 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 41, "testname": "Poten"}
-[2026-06-08 12:51:02.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 46, "testname": "Poten"}
-[2026-06-08 12:51:11.511 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 44, "testname": "Poten"}
-[2026-06-08 12:51:11.511 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 28, "testname": "PTAT"}
-[2026-06-08 12:51:20.538 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 29, "testname": "PTAT"}
-[2026-06-08 12:51:25.539 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 31, "testname": "PTAT"}
-[2026-06-08 12:51:40.521 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 32, "testname": "PTAT"}
-[2026-06-08 12:51:42.505 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 34, "testname": "PTAT"}
-[2026-06-08 12:51:43.498 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 30, "testname": "PTAT"}
-[2026-06-08 12:51:49.510 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 47, "testname": "Poten"}
-[2026-06-08 12:51:53.503 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 33, "testname": "PTAT"}
-[2026-06-08 12:51:57.509 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 35, "testname": "PTAT"}
-[2026-06-08 12:51:57.509 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 48, "testname": "Poten"}
-[2026-06-08 12:51:59.498 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 38, "testname": "PTAT"}
-[2026-06-08 12:52:21.503 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 49, "testname": "Poten"}
-[2026-06-08 12:52:26.541 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 40, "testname": "PTAT"}
-[2026-06-08 12:52:32.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 42, "testname": "PTAT"}
-[2026-06-08 12:52:33.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 43, "testname": "PTAT"}
-[2026-06-08 12:52:34.500 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 41, "testname": "PTAT"}
-[2026-06-08 12:52:36.522 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 37, "testname": "PTAT"}
-[2026-06-08 12:52:36.522 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 36, "testname": "PTAT"}
-[2026-06-08 12:52:37.499 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 39, "testname": "PTAT"}
-[2026-06-08 12:52:38.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 44, "testname": "PTAT"}
-[2026-06-08 12:52:46.518 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 47, "testname": "PTAT"}
-[2026-06-08 12:52:47.498 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 45, "testname": "PTAT"}
-[2026-06-08 12:52:48.502 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 46, "testname": "PTAT"}
-[2026-06-08 12:53:00.512 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 49, "testname": "PTAT"}
-[2026-06-08 12:53:01.519 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "Interactive.396", "point": 48, "testname": "PTAT"}
-[2026-06-08 12:53:04.065 Z] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "Interactive.396", "point": 1, "testname": "PTAT", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "Interactive.396"}
-[2026-06-08 12:54:40.163 Z] [WARN] [cadence.virtuoso.ade.gui] - The following global variable(s) are enabled, but are not used by any test in the active setup:
-vref 
-It is recommended to delete or disable these variable(s) because they are not being considered by the simulation run. {"history": "Interactive.396", "point": 1, "testname": "PTAT", "detailed_message": "", "message_id": "ASSEMBLER-1704"}
-[2026-06-08 12:54:40.163 Z] [WARN] [cadence.virtuoso.ade.gui] - The total yield may not be accurate because
+[2026-06-08 13:33:35.778 Z] [WARN] [cadence.virtuoso.ade.gui] - The total yield may not be accurate because
 no common device under test (DUT) has been specified for the enabled tests. Specify the DUT to
 ensure that the Monte Carlo distribution is matched on common instances across multiple tests.
 Click the 'Specify Instances/Devices' button on the Monte Carlo Options form, select 'All Tests'
-from the Test drop-down list, and add instances that are common across all the tests. {"history": "Interactive.396", "point": 1, "testname": "PTAT", "detailed_message": "", "message_id": "ASSEMBLER-1717"}
-[2026-06-08 12:54:40.163 Z] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "MonteCarlo.7", "point": 1, "testname": "PTAT", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "MonteCarlo.7", "WorkDir": "/home/hrahimi/projects/POTENTIOSTAT_26", "HistorySimDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.7", "HistoryResultsDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
-[2026-06-08 12:54:40.163 Z] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "il2244vt26_hrahimi", "processid": 3615444, "history": "MonteCarlo.7", "testname": "PTAT", "point": 1, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Monte Carlo Sampling", "lib": "Potentiostat_Top", "cell": "top", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.36 ", "runstart": "Mon Jun  8 12:54:40 2026\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "Maestro Default", "maxjobs": "12", "ncjobpolicyname": "Netlisting Default", "ncmaxjobs": "unknown", "numtests": "2", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
-[2026-06-08 12:54:43.473 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "MonteCarlo.7", "point": 1, "testname": "PTAT"}
-[2026-06-08 12:54:48.503 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftNetlistService19 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service19.log"}
-[2026-06-08 12:54:48.503 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3743254' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service19.log"}
-[2026-06-08 12:57:39.856 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 1, "testname": "PTAT_MC"}
-[2026-06-08 12:57:41.427 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 28, "testname": "PTAT_MC"}
-[2026-06-08 12:57:42.891 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 19, "testname": "PTAT_MC"}
-[2026-06-08 12:57:44.597 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 37, "testname": "PTAT_MC"}
-[2026-06-08 12:57:45.613 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 10, "testname": "PTAT_MC"}
-[2026-06-08 12:58:18.194 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 2, "testname": "PTAT_MC"}
-[2026-06-08 12:58:19.332 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 38, "testname": "PTAT_MC"}
-[2026-06-08 12:58:19.332 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 29, "testname": "PTAT_MC"}
-[2026-06-08 12:58:22.697 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 20, "testname": "PTAT_MC"}
-[2026-06-08 12:58:28.416 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 46, "testname": "PTAT_MC"}
-[2026-06-08 12:58:46.856 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 10, "testname": "Poten_MC"}
-[2026-06-08 12:58:54.077 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 30, "testname": "PTAT_MC"}
-[2026-06-08 12:58:54.077 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 3, "testname": "PTAT_MC"}
-[2026-06-08 12:58:54.077 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 39, "testname": "PTAT_MC"}
-[2026-06-08 12:58:57.287 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 19, "testname": "Poten_MC"}
-[2026-06-08 12:58:57.287 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 28, "testname": "Poten_MC"}
-[2026-06-08 12:58:58.190 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 46, "testname": "Poten_MC"}
-[2026-06-08 12:59:00.532 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 21, "testname": "PTAT_MC"}
-[2026-06-08 12:59:19.786 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 47, "testname": "PTAT_MC"}
-[2026-06-08 12:59:27.784 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 4, "testname": "PTAT_MC"}
-[2026-06-08 12:59:28.980 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 31, "testname": "PTAT_MC"}
-[2026-06-08 12:59:29.031 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 40, "testname": "PTAT_MC"}
-[2026-06-08 12:59:42.596 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 22, "testname": "PTAT_MC"}
-[2026-06-08 12:59:49.688 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 1, "testname": "Poten_MC"}
-[2026-06-08 12:59:52.654 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 37, "testname": "Poten_MC"}
-[2026-06-08 12:59:58.661 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 48, "testname": "PTAT_MC"}
-[2026-06-08 13:00:03.092 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 5, "testname": "PTAT_MC"}
-[2026-06-08 13:00:04.815 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 32, "testname": "PTAT_MC"}
-[2026-06-08 13:00:07.392 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 41, "testname": "PTAT_MC"}
-[2026-06-08 13:00:26.717 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 23, "testname": "PTAT_MC"}
-[2026-06-08 13:00:41.797 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 42, "testname": "PTAT_MC"}
-[2026-06-08 13:00:44.241 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 11, "testname": "Poten_MC"}
-[2026-06-08 13:00:44.241 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 6, "testname": "PTAT_MC"}
-[2026-06-08 13:00:45.871 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 33, "testname": "PTAT_MC"}
-[2026-06-08 13:00:47.242 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 29, "testname": "Poten_MC"}
-[2026-06-08 13:00:58.812 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 49, "testname": "PTAT_MC"}
-[2026-06-08 13:01:04.584 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 47, "testname": "Poten_MC"}
-[2026-06-08 13:01:07.638 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 24, "testname": "PTAT_MC"}
-[2026-06-08 13:01:12.464 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 43, "testname": "PTAT_MC"}
-[2026-06-08 13:01:17.406 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 7, "testname": "PTAT_MC"}
-[2026-06-08 13:01:18.324 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 34, "testname": "PTAT_MC"}
-[2026-06-08 13:01:23.918 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 20, "testname": "Poten_MC"}
-[2026-06-08 13:01:53.045 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3743254' stopped with exit code '0' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service19.log"}
-[2026-06-08 13:01:53.045 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 25, "testname": "PTAT_MC"}
-[2026-06-08 13:01:56.267 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 35, "testname": "PTAT_MC"}
-[2026-06-08 13:01:57.332 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 8, "testname": "PTAT_MC"}
-[2026-06-08 13:01:57.332 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 44, "testname": "PTAT_MC"}
-[2026-06-08 13:02:00.614 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 50, "testname": "PTAT_MC"}
-[2026-06-08 13:02:24.490 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 38, "testname": "Poten_MC"}
-[2026-06-08 13:02:30.499 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 2, "testname": "Poten_MC"}
-[2026-06-08 13:02:30.499 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 9, "testname": "PTAT_MC"}
-[2026-06-08 13:02:32.198 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 36, "testname": "PTAT_MC"}
-[2026-06-08 13:02:35.269 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 45, "testname": "PTAT_MC"}
-[2026-06-08 13:02:37.042 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 26, "testname": "PTAT_MC"}
-[2026-06-08 13:02:48.401 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 30, "testname": "Poten_MC"}
-[2026-06-08 13:02:54.201 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 12, "testname": "Poten_MC"}
-[2026-06-08 13:03:12.694 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 48, "testname": "Poten_MC"}
-[2026-06-08 13:03:14.573 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 27, "testname": "PTAT_MC"}
-[2026-06-08 13:03:37.239 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 31, "testname": "Poten_MC"}
-[2026-06-08 13:03:44.411 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 21, "testname": "Poten_MC"}
-[2026-06-08 13:04:01.124 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 13, "testname": "Poten_MC"}
-[2026-06-08 13:04:14.458 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 49, "testname": "Poten_MC"}
-[2026-06-08 13:04:26.578 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 39, "testname": "Poten_MC"}
-[2026-06-08 13:04:30.452 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 3, "testname": "Poten_MC"}
-[2026-06-08 13:04:44.407 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 32, "testname": "Poten_MC"}
-[2026-06-08 13:04:52.552 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 22, "testname": "Poten_MC"}
-[2026-06-08 13:05:25.501 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 14, "testname": "Poten_MC"}
-[2026-06-08 13:05:39.339 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 33, "testname": "Poten_MC"}
-[2026-06-08 13:05:42.267 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 50, "testname": "Poten_MC"}
-[2026-06-08 13:05:58.272 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 40, "testname": "Poten_MC"}
-[2026-06-08 13:06:11.398 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 4, "testname": "Poten_MC"}
-[2026-06-08 13:06:19.348 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 15, "testname": "Poten_MC"}
-[2026-06-08 13:06:25.469 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 23, "testname": "Poten_MC"}
-[2026-06-08 13:06:40.292 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 34, "testname": "Poten_MC"}
-[2026-06-08 13:07:35.421 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 16, "testname": "Poten_MC"}
-[2026-06-08 13:07:39.445 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 35, "testname": "Poten_MC"}
-[2026-06-08 13:07:59.355 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 41, "testname": "Poten_MC"}
-[2026-06-08 13:08:01.411 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 24, "testname": "Poten_MC"}
-[2026-06-08 13:08:03.423 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 5, "testname": "Poten_MC"}
-[2026-06-08 13:08:35.417 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 17, "testname": "Poten_MC"}
-[2026-06-08 13:08:40.387 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 36, "testname": "Poten_MC"}
-[2026-06-08 13:09:31.363 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 18, "testname": "Poten_MC"}
-[2026-06-08 13:09:39.602 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 6, "testname": "Poten_MC"}
-[2026-06-08 13:09:43.392 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 42, "testname": "Poten_MC"}
-[2026-06-08 13:10:11.548 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 25, "testname": "Poten_MC"}
-[2026-06-08 13:11:41.443 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 7, "testname": "Poten_MC"}
-[2026-06-08 13:11:50.430 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 43, "testname": "Poten_MC"}
-[2026-06-08 13:11:52.477 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 26, "testname": "Poten_MC"}
-[2026-06-08 13:13:16.454 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 27, "testname": "Poten_MC"}
-[2026-06-08 13:13:28.477 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 8, "testname": "Poten_MC"}
-[2026-06-08 13:13:41.448 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 44, "testname": "Poten_MC"}
-[2026-06-08 13:15:09.528 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 9, "testname": "Poten_MC"}
-[2026-06-08 13:15:11.479 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 45, "testname": "Poten_MC"}
-[2026-06-08 13:16:18.435 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 11, "testname": "PTAT_MC"}
-[2026-06-08 13:16:32.438 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 12, "testname": "PTAT_MC"}
-[2026-06-08 13:16:45.464 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 13, "testname": "PTAT_MC"}
-[2026-06-08 13:16:58.455 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 14, "testname": "PTAT_MC"}
-[2026-06-08 13:17:11.413 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 15, "testname": "PTAT_MC"}
-[2026-06-08 13:17:25.452 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 16, "testname": "PTAT_MC"}
-[2026-06-08 13:17:38.449 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 17, "testname": "PTAT_MC"}
-[2026-06-08 13:17:51.443 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.7", "point": 18, "testname": "PTAT_MC"}
-[2026-06-08 13:17:54.080 Z] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "MonteCarlo.7", "point": 1, "testname": "PTAT", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "MonteCarlo.7"}
-[2026-06-08 13:28:28.449 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '3680623' stopped with exit code '0' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService0.log"}
+from the Test drop-down list, and add instances that are common across all the tests. {"detailed_message": "", "message_id": "ASSEMBLER-1717"}
+[2026-06-08 13:33:36.588 Z] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "MonteCarlo.8", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "MonteCarlo.8", "WorkDir": "/home/hrahimi/projects/POTENTIOSTAT_26", "HistorySimDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Sim/Potentiostat_Top/top/maestro/results/maestro/MonteCarlo.8", "HistoryResultsDir": "/home/hrahimi/projects/POTENTIOSTAT_26/Potentiostat_Top/top/maestro/results/maestro"}
+[2026-06-08 13:33:36.590 Z] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "il2244vt26_hrahimi", "processid": 3757880, "history": "MonteCarlo.8", "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Monte Carlo Sampling", "lib": "Potentiostat_Top", "cell": "top", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.36 ", "runstart": "Mon Jun  8 13:33:36 2026\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "Maestro Default", "maxjobs": "12", "ncjobpolicyname": "Netlisting Default", "ncmaxjobs": "unknown", "numtests": "2", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
+[2026-06-08 13:33:38.612 Z] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "MonteCarlo.8"}
+[2026-06-08 13:34:02.530 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob2 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job2.log"}
+[2026-06-08 13:34:02.656 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob3 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job3.log"}
+[2026-06-08 13:34:02.657 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3760277' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job2.log"}
+[2026-06-08 13:34:02.799 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3760299' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job3.log"}
+[2026-06-08 13:34:07.533 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob4 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job4.log"}
+[2026-06-08 13:34:07.659 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob5 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job5.log"}
+[2026-06-08 13:34:07.660 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3761358' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job4.log"}
+[2026-06-08 13:34:07.782 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3761379' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job5.log"}
+[2026-06-08 13:34:12.541 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob6 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
+[2026-06-08 13:34:12.667 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob7 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
+[2026-06-08 13:34:12.667 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3762283' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job6.log"}
+[2026-06-08 13:34:12.775 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3762307' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job7.log"}
+[2026-06-08 13:34:17.539 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob8 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job8.log"}
+[2026-06-08 13:34:17.666 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob9 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job9.log"}
+[2026-06-08 13:34:17.667 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3763518' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job8.log"}
+[2026-06-08 13:34:17.789 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob10 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job10.log"}
+[2026-06-08 13:34:17.789 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3763539' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job9.log"}
+[2026-06-08 13:34:17.897 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3763571' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job10.log"}
+[2026-06-08 13:34:22.686 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob11 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job11.log"}
+[2026-06-08 13:34:22.860 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob12 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job12.log"}
+[2026-06-08 13:34:22.861 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3765298' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job11.log"}
+[2026-06-08 13:34:22.983 Z] [PROCESS] [cadence.virtuoso.ade.gui] - /home/hrahimi/projects/POTENTIOSTAT_26/.tmp_hrahimi/.cmddir0/swiftJob13 is starting {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job13.log"}
+[2026-06-08 13:34:22.984 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3765333' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job12.log"}
+[2026-06-08 13:34:23.098 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '3765367' is starting up on host 'il2244vt26_hrahimi' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Job13.log"}
+[2026-06-08 13:35:14.779 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 10, "testname": "Poten_MC"}
+[2026-06-08 13:35:23.365 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 1, "testname": "PTAT_MC"}
+[2026-06-08 13:35:23.369 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 37, "testname": "Poten_MC"}
+[2026-06-08 13:35:26.814 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 19, "testname": "PTAT_MC"}
+[2026-06-08 13:35:29.815 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 37, "testname": "PTAT_MC"}
+[2026-06-08 13:35:44.565 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 28, "testname": "PTAT_MC"}
+[2026-06-08 13:35:49.748 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 46, "testname": "PTAT_MC"}
+[2026-06-08 13:35:49.952 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 19, "testname": "Poten_MC"}
+[2026-06-08 13:35:49.963 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 10, "testname": "PTAT_MC"}
+[2026-06-08 13:35:53.807 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 1, "testname": "Poten_MC"}
+[2026-06-08 13:35:54.621 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 28, "testname": "Poten_MC"}
+[2026-06-08 13:36:19.839 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 38, "testname": "Poten_MC"}
+[2026-06-08 13:36:24.619 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 11, "testname": "Poten_MC"}
+[2026-06-08 13:36:24.625 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 2, "testname": "PTAT_MC"}
+[2026-06-08 13:36:33.674 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 46, "testname": "Poten_MC"}
+[2026-06-08 13:36:35.012 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 38, "testname": "PTAT_MC"}
+[2026-06-08 13:36:36.891 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 20, "testname": "PTAT_MC"}
+[2026-06-08 13:37:04.833 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 29, "testname": "PTAT_MC"}
+[2026-06-08 13:37:06.865 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 47, "testname": "PTAT_MC"}
+[2026-06-08 13:37:17.712 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 20, "testname": "Poten_MC"}
+[2026-06-08 13:37:23.508 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 11, "testname": "PTAT_MC"}
+[2026-06-08 13:37:45.819 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 39, "testname": "Poten_MC"}
+[2026-06-08 13:37:46.957 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 3, "testname": "PTAT_MC"}
+[2026-06-08 13:38:01.635 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 39, "testname": "PTAT_MC"}
+[2026-06-08 13:38:01.671 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 47, "testname": "Poten_MC"}
+[2026-06-08 13:38:05.719 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 29, "testname": "Poten_MC"}
+[2026-06-08 13:38:06.932 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 21, "testname": "PTAT_MC"}
+[2026-06-08 13:38:09.059 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 12, "testname": "Poten_MC"}
+[2026-06-08 13:38:37.864 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 40, "testname": "Poten_MC"}
+[2026-06-08 13:38:47.571 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 4, "testname": "PTAT_MC"}
+[2026-06-08 13:38:56.914 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 30, "testname": "PTAT_MC"}
+[2026-06-08 13:38:58.870 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 48, "testname": "PTAT_MC"}
+[2026-06-08 13:39:01.882 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 40, "testname": "PTAT_MC"}
+[2026-06-08 13:39:07.522 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 22, "testname": "PTAT_MC"}
+[2026-06-08 13:39:09.323 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 13, "testname": "Poten_MC"}
+[2026-06-08 13:39:26.742 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '3758593' stopped with exit code '0' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
+[2026-06-08 13:39:33.849 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 21, "testname": "Poten_MC"}
+[2026-06-08 13:39:38.802 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 12, "testname": "PTAT_MC"}
+[2026-06-08 13:39:53.373 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 41, "testname": "Poten_MC"}
+[2026-06-08 13:39:57.817 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 5, "testname": "PTAT_MC"}
+[2026-06-08 13:40:06.986 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 31, "testname": "PTAT_MC"}
+[2026-06-08 13:40:09.900 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 49, "testname": "PTAT_MC"}
+[2026-06-08 13:40:17.713 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 48, "testname": "Poten_MC"}
+[2026-06-08 13:40:17.983 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 41, "testname": "PTAT_MC"}
+[2026-06-08 13:40:26.839 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 23, "testname": "PTAT_MC"}
+[2026-06-08 13:40:40.995 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 14, "testname": "Poten_MC"}
+[2026-06-08 13:40:41.008 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 30, "testname": "Poten_MC"}
+[2026-06-08 13:40:46.939 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 42, "testname": "Poten_MC"}
+[2026-06-08 13:40:48.752 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 22, "testname": "Poten_MC"}
+[2026-06-08 13:40:55.944 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 6, "testname": "PTAT_MC"}
+[2026-06-08 13:41:13.613 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 13, "testname": "PTAT_MC"}
+[2026-06-08 13:41:22.952 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 49, "testname": "Poten_MC"}
+[2026-06-08 13:41:24.938 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 42, "testname": "PTAT_MC"}
+[2026-06-08 13:41:32.658 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 24, "testname": "PTAT_MC"}
+[2026-06-08 13:41:34.021 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 32, "testname": "PTAT_MC"}
+[2026-06-08 13:41:38.938 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 50, "testname": "PTAT_MC"}
+[2026-06-08 13:41:39.900 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 15, "testname": "Poten_MC"}
+[2026-06-08 13:41:40.869 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 43, "testname": "Poten_MC"}
+[2026-06-08 13:41:52.898 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 7, "testname": "PTAT_MC"}
+[2026-06-08 13:42:23.881 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 31, "testname": "Poten_MC"}
+[2026-06-08 13:42:27.926 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 23, "testname": "Poten_MC"}
+[2026-06-08 13:42:31.525 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 43, "testname": "PTAT_MC"}
+[2026-06-08 13:42:36.710 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 44, "testname": "Poten_MC"}
+[2026-06-08 13:42:39.860 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 33, "testname": "PTAT_MC"}
+[2026-06-08 13:42:40.504 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 25, "testname": "PTAT_MC"}
+[2026-06-08 13:42:52.045 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 8, "testname": "PTAT_MC"}
+[2026-06-08 13:42:57.953 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 14, "testname": "PTAT_MC"}
+[2026-06-08 13:43:03.857 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 50, "testname": "Poten_MC"}
+[2026-06-08 13:43:23.869 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 45, "testname": "Poten_MC"}
+[2026-06-08 13:43:26.870 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 24, "testname": "Poten_MC"}
+[2026-06-08 13:43:36.239 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 44, "testname": "PTAT_MC"}
+[2026-06-08 13:43:40.453 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 34, "testname": "PTAT_MC"}
+[2026-06-08 13:43:41.846 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 16, "testname": "Poten_MC"}
+[2026-06-08 13:43:42.932 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 9, "testname": "PTAT_MC"}
+[2026-06-08 13:43:43.678 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 26, "testname": "PTAT_MC"}
+[2026-06-08 13:44:26.832 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 45, "testname": "PTAT_MC"}
+[2026-06-08 13:44:32.804 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 17, "testname": "Poten_MC"}
+[2026-06-08 13:44:37.844 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 27, "testname": "PTAT_MC"}
+[2026-06-08 13:44:39.869 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 35, "testname": "PTAT_MC"}
+[2026-06-08 13:44:51.865 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 15, "testname": "PTAT_MC"}
+[2026-06-08 13:44:53.820 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 32, "testname": "Poten_MC"}
+[2026-06-08 13:45:13.801 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 18, "testname": "Poten_MC"}
+[2026-06-08 13:45:42.813 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 36, "testname": "PTAT_MC"}
+[2026-06-08 13:46:30.971 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 33, "testname": "Poten_MC"}
+[2026-06-08 13:46:32.065 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 16, "testname": "PTAT_MC"}
+[2026-06-08 13:48:05.990 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 17, "testname": "PTAT_MC"}
+[2026-06-08 13:48:06.923 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 34, "testname": "Poten_MC"}
+[2026-06-08 13:49:55.923 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 18, "testname": "PTAT_MC"}
+[2026-06-08 13:49:57.758 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 35, "testname": "Poten_MC"}
+[2026-06-08 13:51:13.946 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 36, "testname": "Poten_MC"}
+[2026-06-08 13:53:01.873 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 2, "testname": "Poten_MC"}
+[2026-06-08 13:54:22.903 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 3, "testname": "Poten_MC"}
+[2026-06-08 13:55:18.956 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 4, "testname": "Poten_MC"}
+[2026-06-08 13:56:26.793 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 5, "testname": "Poten_MC"}
+[2026-06-08 13:57:17.905 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 6, "testname": "Poten_MC"}
+[2026-06-08 13:58:10.863 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 7, "testname": "Poten_MC"}
+[2026-06-08 13:59:02.883 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 8, "testname": "Poten_MC"}
+[2026-06-08 14:01:31.947 Z] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "MonteCarlo.8", "point": 9, "testname": "Poten_MC"}
+[2026-06-08 14:06:06.075 Z] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "MonteCarlo.8", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "MonteCarlo.8"}
+[2026-06-08 14:06:08.781 Z] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '3758568' stopped with exit code '0' {"logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/LoggingService0.log"}

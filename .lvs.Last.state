@@ -14,14 +14,14 @@ vuiLVSFormTable = '(
 	schematicSource  "DFII"
 	layoutSource  "DFII"
 	runName  ""
-	runDir  "ASSURA_LVS/8_Poten_PTAT2"
+	runDir  "ASSURA_LVS/topsyh"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "c35b4c3"
 	runsetField  "Full"
 	extract  "/opt/pdk/ams/410/assura/c35b4/c35b4c3/extract.rul"
 	compare  "/opt/pdk/ams/410/assura/c35b4/c35b4c3/compare.rul"
-	switches  "resimulate_extracted"
+	switches  ""
 	bind  "/opt/pdk/ams/410/assura/c35b4/c35b4c3/bind.rul"
 	rsfInclude  "/opt/pdk/ams/410/assura/c35b4/c35b4c3/LVSinclude.rsf"
 	varTag  "None"
@@ -31,13 +31,13 @@ vuiLVSFormTable = '(
 	avView  nil
 	avCompareView  nil
 	additionalFunctionsButton  nil
-	schLibrary  "Potentiostat_cpoly2"
-	schCell  "8_Poten_PTAT2"
+	schLibrary  "Potentiostat_Top"
+	schCell  "topsyh"
 	schView  "schematic"
 	existingSchNetlist  nil
 	useVerilogTopCell  nil
-	layLibrary  "Potentiostat_cpoly2"
-	layCell  "8_Poten_PTAT2"
+	layLibrary  "Potentiostat_Top"
+	layCell  "topsyh"
 	layView  "layout"
 	layUseExistingNL  nil
 	extractButton  nil

@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Mon Jun  8 11:35:49 2026
+Execution Date/Time:       Tue Jun  9 05:55:19 2026
 Calibre Version:           v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
 Rule File Pathname:        _c35b4c3.rules_
 Rule File Title:           DRC/LVS 0.35 U CMOS C35B4/C35B3 REV9 polycide 3V/5V ENG-356 BRDLTSV80 REV3(last modified 22-May-2017)
@@ -1429,87 +1429,87 @@ RULECHECK SPAC_MET1_IPDEF_M1BLOCK_M1_S_2 ..................... TOTAL Result Coun
 RULECHECK SPAC_MET2_IPDEF_M2BLOCK_M2_S_2 ..................... TOTAL Result Count = 0   (0)
 RULECHECK SPAC_MET3_IPDEF_M3BLOCK_M3_S_2 ..................... TOTAL Result Count = 0   (0)
 RULECHECK SPAC_MET4THIN_IPDEF_M4BLOCK_M4_S_2 ................. TOTAL Result Count = 0   (0)
-RULECHECK OFFGRID_DUMMY_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_NTUB_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_NTUB_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_DIFF_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_DIFF_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_HVDEF_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_HVDEF_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_MIDOX_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_MIDOX_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_POLY1_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_POLY1_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_NPLUS_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_NPLUS_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_PPLUS_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_PPLUS_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_PPLUS_DPL_GUIDE001 ......................... NOT EXECUTED
-RULECHECK OFFGRID_PPLUS_DPL_ORTHOGONAL_GUIDE001 .............. NOT EXECUTED
-RULECHECK OFFGRID_HRES_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_HRES_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_POLY2_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_POLY2_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_SALEX_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_SALEX_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_CONT_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_CONT_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_MET1_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_MET1_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_M1HOLE_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_M1HOLE_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_VIA_GUIDE001 ............................... NOT EXECUTED
-RULECHECK OFFGRID_VIA_ORTHOGONAL_GUIDE001 .................... NOT EXECUTED
-RULECHECK OFFGRID_MET2_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_MET2_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_M2HOLE_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_M2HOLE_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_VIA2_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_VIA2_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_MET3_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_MET3_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_M3HOLE_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_M3HOLE_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_PAD_GUIDE001 ............................... NOT EXECUTED
-RULECHECK OFFGRID_PAD_ORTHOGONAL_GUIDE001 .................... NOT EXECUTED
-RULECHECK OFFGRID_VIA3_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_VIA3_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_MET4_GUIDE001 .............................. NOT EXECUTED
-RULECHECK OFFGRID_MET4_ORTHOGONAL_GUIDE001 ................... NOT EXECUTED
-RULECHECK OFFGRID_M4HOLE_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_M4HOLE_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_METCAP_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_METCAP_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_PCOAT_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_PCOAT_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_CELBOX_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_CELBOX_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_ZENER_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_ZENER_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_DIODE_GUIDE001 ............................. NOT EXECUTED
-RULECHECK OFFGRID_DIODE_ORTHOGONAL_GUIDE001 .................. NOT EXECUTED
-RULECHECK OFFGRID_TUBDEF_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_TUBDEF_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_RESDEF_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_RESDEF_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_RESTRM_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_RESTRM_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_METRES_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_METRES_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal1_GUIDE001 ..................... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal1_ORTHOGONAL_GUIDE001 .......... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal2_GUIDE001 ..................... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal2_ORTHOGONAL_GUIDE001 .......... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal3_GUIDE001 ..................... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal3_ORTHOGONAL_GUIDE001 .......... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal4_GUIDE001 ..................... NOT EXECUTED
-RULECHECK OFFGRID_METRES_metal4_ORTHOGONAL_GUIDE001 .......... NOT EXECUTED
-RULECHECK OFFGRID_DIFCUT_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_DIFCUT_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_PO1CUT_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_PO1CUT_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
-RULECHECK OFFGRID_PO2CUT_GUIDE001 ............................ NOT EXECUTED
-RULECHECK OFFGRID_PO2CUT_ORTHOGONAL_GUIDE001 ................. NOT EXECUTED
+RULECHECK OFFGRID_DUMMY_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_NTUB_GUIDE001 .............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_NTUB_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_DIFF_GUIDE001 .............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_DIFF_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_HVDEF_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_HVDEF_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_MIDOX_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_MIDOX_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_POLY1_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_POLY1_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_NPLUS_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_NPLUS_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PPLUS_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PPLUS_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PPLUS_DPL_GUIDE001 ......................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PPLUS_DPL_ORTHOGONAL_GUIDE001 .............. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_HRES_GUIDE001 .............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_HRES_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_POLY2_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_POLY2_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_SALEX_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_SALEX_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_CONT_GUIDE001 .............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_CONT_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_MET1_GUIDE001 .............................. TOTAL Result Count = 50  (1350)
+RULECHECK OFFGRID_MET1_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_M1HOLE_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_M1HOLE_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_VIA_GUIDE001 ............................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_VIA_ORTHOGONAL_GUIDE001 .................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_MET2_GUIDE001 .............................. TOTAL Result Count = 76  (1428)
+RULECHECK OFFGRID_MET2_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_M2HOLE_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_M2HOLE_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_VIA2_GUIDE001 .............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_VIA2_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_MET3_GUIDE001 .............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_MET3_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_M3HOLE_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_M3HOLE_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PAD_GUIDE001 ............................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PAD_ORTHOGONAL_GUIDE001 .................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_VIA3_GUIDE001 .............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_VIA3_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_MET4_GUIDE001 .............................. TOTAL Result Count = 6   (18)
+RULECHECK OFFGRID_MET4_ORTHOGONAL_GUIDE001 ................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_M4HOLE_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_M4HOLE_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METCAP_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METCAP_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PCOAT_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PCOAT_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_CELBOX_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_CELBOX_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_ZENER_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_ZENER_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_DIODE_GUIDE001 ............................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_DIODE_ORTHOGONAL_GUIDE001 .................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_TUBDEF_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_TUBDEF_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_RESDEF_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_RESDEF_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_RESTRM_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_RESTRM_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_metal1_GUIDE001 ..................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_metal1_ORTHOGONAL_GUIDE001 .......... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_metal2_GUIDE001 ..................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_metal2_ORTHOGONAL_GUIDE001 .......... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_metal3_GUIDE001 ..................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_metal3_ORTHOGONAL_GUIDE001 .......... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_metal4_GUIDE001 ..................... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_METRES_metal4_ORTHOGONAL_GUIDE001 .......... TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_DIFCUT_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_DIFCUT_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PO1CUT_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PO1CUT_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PO2CUT_GUIDE001 ............................ TOTAL Result Count = 0   (0)
+RULECHECK OFFGRID_PO2CUT_ORTHOGONAL_GUIDE001 ................. TOTAL Result Count = 0   (0)
 RULECHECK INFO_PADTSVPIN ..................................... TOTAL Result Count = 0   (0)
 RULECHECK ILL_PADTSVPIN_OUT_METTSV ........................... TOTAL Result Count = 0   (0)
 RULECHECK ILL_METTSV_MISS_PADTSVPIN .......................... TOTAL Result Count = 0   (0)
@@ -1788,9 +1788,10 @@ RULECHECK ILL_ELEMENT_PMOSML4 ................................ TOTAL Result Coun
 ---
 CELL CORNERP .......................................... TOTAL Result Count = 1   (4)
     RULECHECK ILL_FLOATING_NET_ERC .................... TOTAL Result Count = 1   (4)
-CELL PWRCUT_DIG_P_DX .................................. TOTAL Result Count = 5   (15)
+CELL PWRCUT_DIG_P_DX .................................. TOTAL Result Count = 11  (33)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 4   (12)
     RULECHECK ILL_FLOATING_NET_ERC .................... TOTAL Result Count = 1   (3)
+    RULECHECK OFFGRID_MET4_GUIDE001 ................... TOTAL Result Count = 6   (18)
 CELL PERI_SPACER_2_P .................................. TOTAL Result Count = 1   (4)
     RULECHECK ILL_FLOATING_NET_ERC .................... TOTAL Result Count = 1   (4)
 CELL PERI_SPACER_5_P .................................. TOTAL Result Count = 1   (2)
@@ -1828,41 +1829,41 @@ CELL GND3IP ........................................... TOTAL Result Count = 9  
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 4   (4)
     RULECHECK LENGTH_M2SLOT_AML1 ...................... TOTAL Result Count = 4   (4)
     RULECHECK ILL_FLOATING_NET_ERC .................... TOTAL Result Count = 1   (1)
-CELL nmos4_CDNS_78091854592102 ........................ TOTAL Result Count = 1   (168)
+CELL nmos4_CDNS_78098451601102 ........................ TOTAL Result Count = 1   (168)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 1   (168)
-CELL pmos4_CDNS_78091854592103 ........................ TOTAL Result Count = 1   (24)
+CELL pmos4_CDNS_78098451601103 ........................ TOTAL Result Count = 1   (24)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (24)
 CELL Gm_C_filter ...................................... TOTAL Result Count = 12  (36)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 8   (24)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 4   (12)
-CELL rpolyhc_CDNS_78091854592161 ...................... TOTAL Result Count = 2   (8)
+CELL rpolyhc_CDNS_78098451601161 ...................... TOTAL Result Count = 2   (8)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (4)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (4)
-CELL rpolyhc_CDNS_78091854592162 ...................... TOTAL Result Count = 1   (4)
+CELL rpolyhc_CDNS_78098451601162 ...................... TOTAL Result Count = 1   (4)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (4)
-CELL pmos4_CDNS_78091854592158 ........................ TOTAL Result Count = 1   (4)
+CELL pmos4_CDNS_78098451601158 ........................ TOTAL Result Count = 1   (4)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (4)
-CELL pmos4_CDNS_7809185459253 ......................... TOTAL Result Count = 1   (60)
+CELL pmos4_CDNS_7809845160153 ......................... TOTAL Result Count = 1   (60)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (60)
-CELL rpolyhc_CDNS_78091854592164 ...................... TOTAL Result Count = 2   (6)
+CELL rpolyhc_CDNS_78098451601164 ...................... TOTAL Result Count = 2   (6)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (3)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (3)
-CELL cpolyc_CDNS_78091854592157 ....................... TOTAL Result Count = 1   (9)
+CELL cpolyc_CDNS_78098451601157 ....................... TOTAL Result Count = 1   (9)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (9)
 CELL ia_new_f ......................................... TOTAL Result Count = 51  (51)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 8   (8)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 39  (39)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 4   (4)
-CELL pmos4_CDNS_7809185459281 ......................... TOTAL Result Count = 1   (80)
+CELL pmos4_CDNS_7809845160181 ......................... TOTAL Result Count = 1   (80)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (80)
 CELL cmfb_opamp1_fc ................................... TOTAL Result Count = 7   (28)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (4)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 2   (8)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 4   (16)
-CELL rpolyhc_CDNS_7809185459284 ....................... TOTAL Result Count = 2   (8)
+CELL rpolyhc_CDNS_7809845160184 ....................... TOTAL Result Count = 2   (8)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (4)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (4)
-CELL rpolyhc_CDNS_7809185459293 ....................... TOTAL Result Count = 3   (12)
+CELL rpolyhc_CDNS_7809845160193 ....................... TOTAL Result Count = 3   (12)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (4)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (4)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (4)
@@ -1872,27 +1873,27 @@ CELL fecg_cmfb2_fc .................................... TOTAL Result Count = 17 
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 4   (8)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 8   (16)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 3   (6)
-CELL pmos4_CDNS_78091854592169 ........................ TOTAL Result Count = 1   (24)
+CELL pmos4_CDNS_78098451601169 ........................ TOTAL Result Count = 1   (24)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (24)
-CELL pmos4_CDNS_7809185459265 ......................... TOTAL Result Count = 11  (22)
+CELL pmos4_CDNS_7809845160165 ......................... TOTAL Result Count = 11  (22)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (2)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 10  (20)
-CELL rpolyhc_CDNS_7809185459263 ....................... TOTAL Result Count = 3   (96)
+CELL rpolyhc_CDNS_7809845160163 ....................... TOTAL Result Count = 3   (96)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (32)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (32)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (32)
-CELL cpolyc_CDNS_78091854592167 ....................... TOTAL Result Count = 1   (6)
+CELL cpolyc_CDNS_78098451601167 ....................... TOTAL Result Count = 1   (6)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (6)
-CELL rpolyhc_CDNS_78091854592166 ...................... TOTAL Result Count = 1   (2)
+CELL rpolyhc_CDNS_78098451601166 ...................... TOTAL Result Count = 1   (2)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (2)
-CELL cpolyc_CDNS_7809185459261 ........................ TOTAL Result Count = 1   (2)
+CELL cpolyc_CDNS_7809845160161 ........................ TOTAL Result Count = 1   (2)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (2)
 CELL VGA_1 ............................................ TOTAL Result Count = 52  (52)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 6   (6)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 41  (41)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 4   (4)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (1)
-CELL rpolyhc_CDNS_78091854592136 ...................... TOTAL Result Count = 3   (24)
+CELL rpolyhc_CDNS_78098451601136 ...................... TOTAL Result Count = 3   (24)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (8)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (8)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (8)
@@ -1901,32 +1902,32 @@ CELL BUFFER ........................................... TOTAL Result Count = 57 
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (1)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 52  (52)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 2   (2)
-CELL rpolyhc_CDNS_7809185459256 ....................... TOTAL Result Count = 1   (2)
+CELL rpolyhc_CDNS_7809845160156 ....................... TOTAL Result Count = 1   (2)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (2)
-CELL pmos4_CDNS_7809185459252 ......................... TOTAL Result Count = 1   (4)
+CELL pmos4_CDNS_7809845160152 ......................... TOTAL Result Count = 1   (4)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (4)
-CELL rpolyhc_CDNS_7809185459258 ....................... TOTAL Result Count = 2   (4)
+CELL rpolyhc_CDNS_7809845160158 ....................... TOTAL Result Count = 2   (4)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (2)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (2)
-CELL cpolyc_CDNS_7809185459237 ........................ TOTAL Result Count = 1   (9)
+CELL cpolyc_CDNS_7809845160137 ........................ TOTAL Result Count = 1   (9)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (9)
 CELL fecg_ia_5_fc ..................................... TOTAL Result Count = 58  (58)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 13  (13)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 41  (41)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 4   (4)
-CELL cpolyc_CDNS_7809185459298 ........................ TOTAL Result Count = 1   (72)
+CELL cpolyc_CDNS_7809845160198 ........................ TOTAL Result Count = 1   (72)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (72)
 CELL gmc_5_fc ......................................... TOTAL Result Count = 5   (15)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 5   (15)
-CELL cpolyc_CDNS_7809185459268 ........................ TOTAL Result Count = 1   (6)
+CELL cpolyc_CDNS_7809845160168 ........................ TOTAL Result Count = 1   (6)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (6)
 CELL fecg_vga2_f_2 .................................... TOTAL Result Count = 46  (46)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 4   (4)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 41  (41)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (1)
-CELL pmos4_CDNS_78091854592111 ........................ TOTAL Result Count = 1   (68)
+CELL pmos4_CDNS_78098451601111 ........................ TOTAL Result Count = 1   (68)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (68)
-CELL rpolyhc_CDNS_78091854592114 ...................... TOTAL Result Count = 3   (6)
+CELL rpolyhc_CDNS_78098451601114 ...................... TOTAL Result Count = 3   (6)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (2)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (2)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (2)
@@ -1936,10 +1937,12 @@ CELL buffer2_f_3c ..................................... TOTAL Result Count = 7  
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (1)
 CELL g_padonly ........................................ TOTAL Result Count = 1   (33)
     RULECHECK INFO_BOND_PAD ........................... TOTAL Result Count = 1   (33)
-CELL APRIO200P ........................................ TOTAL Result Count = 19  (513)
+CELL APRIO200P ........................................ TOTAL Result Count = 121 (3267)
     RULECHECK ILL_RPOLY2_RATIO_RECG1 .................. TOTAL Result Count = 18  (486)
     RULECHECK ILL_FLOATING_NET_ERC .................... TOTAL Result Count = 1   (27)
-CELL pmos4_CDNS_78091854592118 ........................ TOTAL Result Count = 1   (12)
+    RULECHECK OFFGRID_MET1_GUIDE001 ................... TOTAL Result Count = 50  (1350)
+    RULECHECK OFFGRID_MET2_GUIDE001 ................... TOTAL Result Count = 52  (1404)
+CELL pmos4_CDNS_78098451601118 ........................ TOTAL Result Count = 1   (12)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 1   (12)
 CELL Constant_gm ...................................... TOTAL Result Count = 10  (10)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 8   (8)
@@ -1953,14 +1956,14 @@ CELL AVDD3ALLP ........................................ TOTAL Result Count = 11 
     RULECHECK INFO_METRES_VIA2_UNUSED ................. TOTAL Result Count = 6   (18)
     RULECHECK LENGTH_M2SLOT_AML1 ...................... TOTAL Result Count = 4   (12)
     RULECHECK ILL_FLOATING_NET_ERC .................... TOTAL Result Count = 1   (3)
-CELL cvar_CDNS_7809185459213 .......................... TOTAL Result Count = 121 (726)
+CELL cvar_CDNS_7809845160113 .......................... TOTAL Result Count = 121 (726)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (6)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 120 (720)
 CELL fbias_por2_fc .................................... TOTAL Result Count = 4   (4)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (1)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 2   (2)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (1)
-CELL pmos4_CDNS_78091854592133 ........................ TOTAL Result Count = 1   (12)
+CELL pmos4_CDNS_78098451601133 ........................ TOTAL Result Count = 1   (12)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (12)
 CELL vert10_4 ......................................... TOTAL Result Count = 1   (112)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (112)
@@ -1971,11 +1974,11 @@ CELL ECG_bandgap_f_v1 ................................. TOTAL Result Count = 68 
 CELL fbias_gm_c1_f2c .................................. TOTAL Result Count = 2   (2)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (1)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (1)
-CELL pmos4_CDNS_780918545927 .......................... TOTAL Result Count = 1   (20)
+CELL pmos4_CDNS_780984516017 .......................... TOTAL Result Count = 1   (20)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (20)
-CELL pmos4_CDNS_780918545928 .......................... TOTAL Result Count = 1   (8)
+CELL pmos4_CDNS_780984516018 .......................... TOTAL Result Count = 1   (8)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (8)
-CELL rpolyhc_CDNS_780918545921 ........................ TOTAL Result Count = 2   (90)
+CELL rpolyhc_CDNS_780984516011 ........................ TOTAL Result Count = 2   (90)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (45)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (45)
 CELL fecg_bandgap3_layout ............................. TOTAL Result Count = 42  (42)
@@ -1983,19 +1986,19 @@ CELL fecg_bandgap3_layout ............................. TOTAL Result Count = 42 
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (1)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 34  (34)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 3   (3)
-CELL cvar_CDNS_7809185459221 .......................... TOTAL Result Count = 1   (17)
+CELL cvar_CDNS_7809845160121 .......................... TOTAL Result Count = 1   (17)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (17)
 CELL fbias_cur_ref2_layout ............................ TOTAL Result Count = 6   (6)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (1)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (1)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 4   (4)
-CELL pmos4_CDNS_78091854592122 ........................ TOTAL Result Count = 1   (8)
+CELL pmos4_CDNS_78098451601122 ........................ TOTAL Result Count = 1   (8)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 1   (8)
 CELL Current_Voltage_Reference ........................ TOTAL Result Count = 29  (29)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 3   (3)
     RULECHECK INFO_GATES_CONN_VDD_ERC ................. TOTAL Result Count = 10  (10)
     RULECHECK INFO_GATES_CONN_VSS_ERC ................. TOTAL Result Count = 16  (16)
-CELL rpolyhc_CDNS_7809185459224 ....................... TOTAL Result Count = 3   (72)
+CELL rpolyhc_CDNS_7809845160124 ....................... TOTAL Result Count = 3   (72)
     RULECHECK INFO_NWELL_HOT .......................... TOTAL Result Count = 1   (24)
     RULECHECK WIDTH_RPOLYH_RECG2 ...................... TOTAL Result Count = 1   (24)
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 1   (24)
@@ -2005,7 +2008,7 @@ CELL fbias_vol_ref1_layout ............................ TOTAL Result Count = 8  
     RULECHECK INFO_HIGH_OHMIC_POLY2_NOCUT_HRES_CONN ... TOTAL Result Count = 2   (2)
 CELL PERI_SPACER_20_P ................................. TOTAL Result Count = 1   (2)
     RULECHECK ILL_FLOATING_NET_ERC .................... TOTAL Result Count = 1   (2)
-CELL topsy ............................................ TOTAL Result Count = 747 (747)
+CELL topsy ............................................ TOTAL Result Count = 771 (771)
     RULECHECK INFO_PROCESS_C35B4C3 .................... TOTAL Result Count = 1   (1)
     RULECHECK INFO_QRC_MODE_OFF ....................... TOTAL Result Count = 1   (1)
     RULECHECK INFO_RMETX_DEVICE_SHORTED ............... TOTAL Result Count = 1   (1)
@@ -2020,11 +2023,12 @@ CELL topsy ............................................ TOTAL Result Count = 747
     RULECHECK INFO_NWELL_GROUNDED_ERC ................. TOTAL Result Count = 169 (169)
     RULECHECK INFO_APERTURE ........................... TOTAL Result Count = 495 (495)
     RULECHECK INFO_PAD_4ST_STANDARD ................... TOTAL Result Count = 44  (44)
+    RULECHECK OFFGRID_MET2_GUIDE001 ................... TOTAL Result Count = 24  (24)
 ----------------------------------------------------------------------------------
 --- SUMMARY
 ---
-TOTAL CPU Time:                  21
-TOTAL REAL Time:                 24
+TOTAL CPU Time:                  25
+TOTAL REAL Time:                 26
 TOTAL Original Layer Geometries: 388947 (3178923)
-TOTAL DRC RuleChecks Executed:   1384
-TOTAL DRC Results Generated:     1509 (3870)
+TOTAL DRC RuleChecks Executed:   1465
+TOTAL DRC Results Generated:     1641 (6666)
