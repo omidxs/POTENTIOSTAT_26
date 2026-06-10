@@ -14,7 +14,7 @@ vuiDRCFormTable = '(
 	format  "DFII"
 	vui2dbxor  nil
 	runName  ""
-	runDir  "ASSURA_DRC/8_Poten_PTAT2"
+	runDir  "ASSURA_DRC/topsyh"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "c35b4c3"
@@ -29,8 +29,8 @@ vuiDRCFormTable = '(
 	avView  nil
 	additionalFunctionsButton  nil
 	limitDRCswitcher  nil
-	library  "Potentiostat_cpoly2"
-	cell  "8_Poten_PTAT2"
+	library  "Potentiostat_Top"
+	cell  "topsyh"
 	view  "layout"
 	saveExtracted  nil
 	extractedView  "drc_extracted"

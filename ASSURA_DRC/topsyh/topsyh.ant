@@ -1,0 +1,55 @@
+ ;# 12587
+    processAntenna( 
+        gate( sum (gate_T?9355 net_poly1) )
+        antenna( sum net_met3 )
+        diffusion( net_ndiff net_pdiff )
+        net_met3Ratio = ( net_met3.perimeter * 0.64 ) / gate_T?9355.area 
+        AR4_error = drcAntenna( net_met3 ( gate_T?9355 ) net_met3Ratio  400 < keep "AR4: Maximum ratio of floating MET3 edge area to connected GATE area = 400" ) 
+    )
+
+ Seq#       Net           Location          Peri of   Area of  net_met3Ratio   Cell
+                    gate_T?9355              net_met3 gate_T?9355
+
+    1     avC30  (   762.025,  1202.300)   2123.200     2.385000    569.7476  avGrid314_03
+
+    1 error detected
+--------------------------------------------------------------------------------
+ ;# 12594
+    processAntenna( 
+        gate( sum (gate_T?9357 net_poly1) )
+        antenna( sum net_met4 )
+        diffusion( net_ndiff net_pdiff )
+        net_met4Ratio = ( net_met4.perimeter * 0.925 ) / gate_T?9357.area 
+        AR5_error = drcAntenna( net_met4 ( gate_T?9357 ) net_met4Ratio  400 < keep "AR5: Maximum ratio of floating MET4 edge area to connected GATE area = 400" ) 
+    )
+
+ Seq#       Net           Location          Peri of   Area of  net_met4Ratio   Cell
+                    gate_T?9357              net_met4 gate_T?9357
+
+    1     avC23  (   462.475,   560.475)   1427.000     0.770000   1714.2532  avGrid314_03
+
+    1 error detected
+--------------------------------------------------------------------------------
+ ;# 12604
+    processAntenna( 
+        gate( sum (pres_wexp pres_exp) )
+        antenna( sum pres_lexp )
+        presRatio = pres_lexp.area / pres_wexp.area 
+        rpoly2_g1 = drcAntenna( pres_lexp ( pres_wexp ) presRatio  keep < 5 "RPOLY2_G1: Minimum number of RPOLY2 squares = 5" ) 
+    )
+
+ Seq#       Net           Location          Area of   Area of   presRatio   Cell
+                     pres_wexp             pres_lexp pres_wexp
+
+    1      avC9  (    15.000,   221.900)     4.200000     1.100000      3.8182  APRIO200P layout IOLIB_ANA_4M
+    2      avC8  (    25.500,   215.900)     2.100000     1.100000      1.9091  APRIO200P layout IOLIB_ANA_4M
+    3      avC7  (    15.000,   227.900)     4.200000     1.100000      3.8182  APRIO200P layout IOLIB_ANA_4M
+    4      avC6  (    39.400,   221.900)     4.200000     1.100000      3.8182  APRIO200P layout IOLIB_ANA_4M
+    5      avC5  (    39.400,   215.900)     4.200000     1.100000      3.8182  APRIO200P layout IOLIB_ANA_4M
+    6      avC4  (    39.400,   227.900)     4.200000     1.100000      3.8182  APRIO200P layout IOLIB_ANA_4M
+    7      avC3  (    63.800,   221.900)     4.200000     1.100000      3.8182  APRIO200P layout IOLIB_ANA_4M
+    8      avC2  (    63.800,   215.900)     4.200000     1.100000      3.8182  APRIO200P layout IOLIB_ANA_4M
+    9      avC1  (    63.800,   227.900)     4.200000     1.100000      3.8182  APRIO200P layout IOLIB_ANA_4M
+
+    9 errors detected
+--------------------------------------------------------------------------------

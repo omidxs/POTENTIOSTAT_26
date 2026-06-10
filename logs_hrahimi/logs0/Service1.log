@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2026.06.09 15:39:58.996
-\# Local time: UTC (UTC+00:00) 2026.06.09 15:39:58.996
+\# Program start time:     UTC 2026.06.10 07:27:18.591
+\# Local time: UTC (UTC+00:00) 2026.06.10 07:27:18.591
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
 \o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
-\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service1.log -mpssession virtuoso3890072 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_3890072_1781019581 -scopedPid 3890072 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid dc8a0b73-5e68-429e-ba50-72d6edb5ab33 -heartbeat /dev/shm/swift-heartbeat.LgmwCA6ab9 -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CCBBCD3CFCAD66500001E33 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_hrahimi -beanport 11300 -beanbinlog  -beanLogFile /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/amps_Service1.log -mpssession virtuoso3999022 -mpshost il2244vt26_hrahimi -davinciService DaVinciService_3999022_1781076422 -scopedPid 3999022 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid b38f656c-54a4-4ad7-8031-d433c34e7876 -heartbeat /dev/shm/swift-heartbeat.4Xhc4L2cZG -log /home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EE68E6D9506D52060E590078A72887903BA9319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0CCA9ECBEDD2D66400001E2A -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
 \# Host name (type):	il2244vt26_hrahimi (x86_64)
 \# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:2646 (1024x868)
+\# X display name (WxH):	:7349 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	      1,114 MB
-\# Available memory:	  2,335,114 MB
+\# Initial sbrk value:	      1,569 MB
+\# Available memory:	  2,334,307 MB
 \# System memory:	  3,104,512 MB
-\# Maximum memory size:	  3,103,519 MB
-\# Max mem available:	  2,335,235 MB
+\# Maximum memory size:	  3,103,064 MB
+\# Max mem available:	  2,334,429 MB
 \# Initial memory used:	        121 MB
 \#        process size:	      1,677 MB
 \# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		hrahimi
 \o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
-\# Process Id:		3891557
+\# Process Id:		4000208
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -61,13 +61,13 @@
 \o Loading asimenv.cxt 
 \o Loading dal.cxt 
 \o Loading awv.cxt 
+\# Memory report: using         223 MB, process size 1,787 MB at UTC 2026.06.10 07:27:21.034
 \o Loading socket.cxt 
 \o Loading par.cxt 
 \o Loading alvs.cxt 
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         231 MB, process size 1,873 MB at UTC 2026.06.09 15:40:01.452
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -75,12 +75,12 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso3890072, host=il2244vt26_hrahimi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso3999022, host=il2244vt26_hrahimi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 3891557 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 4000208 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [15:39:58.445434] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 1 seconds.
+\# [07:27:19.445394] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
 \o ......................................................................................
 \o            ams AG HIT-Kit v.ams_4.10
 \o ......................................................................................
@@ -110,18 +110,21 @@
 \w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 3891557' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 4000208' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
 \i _axlRunServices()
+\# [07:27:24.129264] Periodic Lic check successful
+\# [07:27:24.129266] Feature usage summary:
 \o Loading simui.cxt 
-\o [2026-06-09 15:40:04.954 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 3891557, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
-\# Available memory:      2,335,172 MB at UTC 2026.06.09 15:40:11.005
-\# Memory report: Maximum memory size now 2,335,487 MB at UTC 2026.06.09 15:40:11.005
-\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.06.09 15:40:11.005
+\o [2026-06-10 07:27:24.691 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_hrahimi", "processid": 4000208, "logfile": "/home/hrahimi/projects/POTENTIOSTAT_26/logs_hrahimi/logs0/Service1.log"}
+\# Available memory:      2,334,336 MB at UTC 2026.06.10 07:27:30.738
+\# Memory report: Maximum memory size now 2,334,650 MB at UTC 2026.06.10 07:27:30.739
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.06.10 07:27:30.739
+\o **** stopping dspf2oa nil 0 1
 \o Loading vdsil.cxt 
 \# Lic Summary:
-\# [15:40:40.060392] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
-\# [15:40:40.060434] Feature usage summary:
-\# Memory report: on exit            314 MB, process size 2,071 MB at UTC 2026.06.09 15:40:40.060
+\# [07:32:26.172211] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [07:32:26.172241] Feature usage summary:
+\# Memory report: on exit            314 MB, process size 2,071 MB at UTC 2026.06.10 07:32:26.172
 \# Memory report: peak usage         314 MB, process size 2,073 MB

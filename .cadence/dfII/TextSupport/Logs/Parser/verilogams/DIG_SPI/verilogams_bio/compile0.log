@@ -1,0 +1,21 @@
+xmvlog(64): 24.09-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	24.09-s006: Started on Jun 10, 2026 at 11:22:26 UTC
+xmvlog
+    -use5x
+    -SPECIFICUNIT stimulus
+    -zparse /tmp/vamsZparieb022
+    -NOWARN DLNOHV
+    -work DIG_SPI
+    -view verilogams_bio
+    -nostdout
+    -logfile /home/hrahimi/projects/POTENTIOSTAT_26/.cadence/dfII/TextSupport/Logs/Parser/verilogams/DIG_SPI/verilogams_bio/compile0.log
+    -messages
+    -ams
+    -cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib
+    /home/hrahimi/projects/IL2244_VT26_SAUL/DIG_SPI//stimulus/verilogams_bio/verilog.vams
+
+file: /home/hrahimi/projects/IL2244_VT26_SAUL/DIG_SPI//stimulus/verilogams_bio/verilog.vams
+	module DIG_SPI.stimulus:verilogams_bio
+		errors: 0, warnings: 0
+	 writing out DPL output:
+TOOL:	xmvlog(64)	24.09-s006: Exiting on Jun 10, 2026 at 11:22:26 UTC  (total: 00:00:00)

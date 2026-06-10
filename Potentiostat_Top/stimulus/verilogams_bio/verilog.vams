@@ -108,7 +108,12 @@ module stimulus (
 		/*Gain test FECG*/
 		/***************/
 		// Set VAMP to 0.25 mV and VIN_FREQ to 50 Hz before running this test
-		gain_test_BIO;
+		
+
+		default_test_BIO;
+		//gain_test_BIO;
+		//gain_calib_test_BIO;
+
 
 		/***************/
 		/*Filter test FECG*/
@@ -199,40 +204,103 @@ module stimulus (
     /*  TASKS  */
 	/***********/
 	// TODO; Change the delay depending on settling time of the bio-chemical
+	
+
+
+
+	task default_test_BIO;
+		begin
+
+
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3M fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+			#(50*MSEC);
+			
+		end
+	endtask
+
+
+
 	task gain_test_BIO;
 		begin
 			//change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //gain0 fECG , sets 0 to BIOCHEM
 			//send_SPI(8'h00,t_conf0);
 
-			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3 fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3M fECG , sets 0 to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 			#(50*MSEC);
 
 
-		   /*
-			//#(4*MSEC);
-			change_conf0(3'b011,3'b001,1'b1,4'b0001,1'b0,1'b0);  //gain1 default fECG , sets 0 to BIOCHEM
+		   
+		//	#(200*MSEC);
+		//	change_conf0(3'b011,3'b001,1'b1,4'b0001,1'b0,1'b0);  //gain1 default fECG , sets 0 to BIOCHEM
+		//	send_SPI(8'h00,t_conf0);
+
+			#(200*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0010,1'b0,1'b0);  //gain1M fECG , sets 0 to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 
-			#(50*MSEC);
-			change_conf0(3'b011,3'b001,1'b1,4'b0010,1'b0,1'b0);  //gain2 fECG , sets 0 to BIOCHEM
-			send_SPI(8'h00,t_conf0);
 
-			#(50*MSEC);
-			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3 fECG , sets 0 to BIOCHEM
+			#(250*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b1000,1'b0,1'b0);  //gain10M fECG , sets 0 to BIOCHEM
 			send_SPI(8'h00,t_conf0);
-
-			#(50*MSEC);
-			change_conf0(3'b011,3'b001,1'b1,4'b1000,1'b0,1'b0);  //gain3 fECG , sets 0 to BIOCHEM
+			
+         	#(250*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3M 
 			send_SPI(8'h00,t_conf0);
-			*/
+			#(50*MSEC);
+			
 		end
 	endtask
 
 
+	task gain_calib_test_BIO;
+		begin
+
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3M 
+			send_SPI(8'h00,t_conf0);
+			#(50*MSEC);
+
+
+			#(200*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0010,1'b0,1'b0);  //gain1M 
+			send_SPI(8'h00,t_conf0);
+
+
+			#(250*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b1000,1'b0,1'b0);  //gain10M
+			send_SPI(8'h00,t_conf0);
+			
+         	#(250*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b1000,1'b0,1'b1);  //gain10M, calibration on
+			send_SPI(8'h00,t_conf0);
+			
+			#(250*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b1);  //gain3M, calibration on
+			send_SPI(8'h00,t_conf0);
+		
+
+			#(250*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b1,1'b0);  //gain3M, calibration off, Constant -100mV on
+			send_SPI(8'h00,t_conf0);
+
+
+			#(250*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3M, calibration off
+			send_SPI(8'h00,t_conf0);
+			#(50*MSEC);
+			
+		end
+	endtask
+
+
+
+
+
+
 	task default_all;
 		begin
-			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //default gain and filter fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //default gain and filter fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 		
 			change_conf1(3'b011,4'b0011,1'b1);  //gain2 ECG,  default ECG
@@ -242,7 +310,7 @@ module stimulus (
 
 	task default_nocmfb_all;
 		begin
-			change_conf0(3'b011,3'b001,1'b0,4'b0000,1'b0,1'b0);  //default gain and filter fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b001,1'b0,4'b0100,1'b0,1'b0);  //default gain and filter fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 		
 			change_conf1(3'b011,4'b0011,1'b0);  //gain2 ECG,  default ECG
@@ -254,7 +322,7 @@ module stimulus (
 	task por_test_FECG;
 		begin
 			
-			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //default gain and filter fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //default gain and filter fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 		
 			change_conf1(3'b011,4'b0011,1'b1);  //gain2 ECG,  default ECG
@@ -264,7 +332,7 @@ module stimulus (
 			// Wait after the bor event has passed before config again
 			#(2200*MSEC);			
 
-			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //default gain and filter fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //default gain and filter fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 
 			change_conf1(3'b011,4'b0011,1'b1);  //gain2 ECG,  default ECG
@@ -275,38 +343,38 @@ module stimulus (
 	// FECG and BIOCHEMICAL
 	task gain_test_FECG;
 		begin
-			change_conf0(3'b011,3'b000,1'b1,4'b0000,1'b0,1'b0);  //gain0 fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b000,1'b1,4'b0100,1'b0,1'b0);  //gain0 fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 
 			#(40*MSEC);
-			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //gain1 default fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain1 default fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 
 			#(40*MSEC);
-			change_conf0(3'b011,3'b011,1'b1,4'b0000,1'b0,1'b0);  //gain2 fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b011,1'b1,4'b0100,1'b0,1'b0);  //gain2 fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 
 			#(40*MSEC);
-			change_conf0(3'b011,3'b111,1'b1,4'b0000,1'b0,1'b0);  //gain3 fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b111,1'b1,4'b0100,1'b0,1'b0);  //gain3 fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 		end
 	endtask
 
 	task filter_test_FECG;
 		begin
-			change_conf0(3'b000,3'b001,1'b1,4'b0000,1'b0,1'b0);  //filter0 fECG , sets 0 to BIOCHEM
+			change_conf0(3'b000,3'b001,1'b1,4'b0100,1'b0,1'b0);  //filter0 fECG , sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 
 			#(40*MSEC);
-			change_conf0(3'b001,3'b001,1'b1,4'b0000,1'b0,1'b0);  //filter1 , sets 0 to BIOCHEM
+			change_conf0(3'b001,3'b001,1'b1,4'b0100,1'b0,1'b0);  //filter1 , sets sets 3M to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 
 			#(40*MSEC);
-			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //filter2 (default) fECG , sets 0 to BIOCHEM
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //filter2 (default) fECG , sets 0 to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 
 			#(40*MSEC);
-			change_conf0(3'b111,3'b001,1'b1,4'b0000,1'b0,1'b0);  //filter3 fECG , sets 0 to BIOCHEM
+			change_conf0(3'b111,3'b001,1'b1,4'b0100,1'b0,1'b0);  //filter3 fECG , sets 0 to BIOCHEM
 			send_SPI(8'h00,t_conf0);
 		end
 	endtask
