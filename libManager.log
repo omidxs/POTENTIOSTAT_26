@@ -1,26 +1,348 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 04/25/2024 14:34 (csvcm36c-7) $
 \o Sub version:		sub-version  s364 
-\o Arguments:		-mpssession virtuoso3877527 -mpshost il2244vt26_hrahimi 
+\o Arguments:		-mpssession virtuoso3890072 -mpshost il2244vt26_hrahimi 
 \o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o Log file is "/home/hrahimi/projects/POTENTIOSTAT_26/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(47 27 1263 795))
+\a nrResizeWindow(cdsLibManager list(129 51 1263 795))
 \o MPS virtuoso types registered: 65
 \o changeWorkingDir("/home/hrahimi/projects/POTENTIOSTAT_26") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "Potentiostat_Top"
 \a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->libListBox->value = "Potentiostat"
+\a cdsLibManager->libLineEdit->value = "Potentiostat"
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->libListBox->value = "Potentiostat_cpoly"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_cpoly"
+\a cdsLibManager->libListBox->value = "Potentiostat_cpoly2"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_cpoly2"
+\a cdsLibManager->libListBox->value = "VT26_TOP"
+\a cdsLibManager->libLineEdit->value = "VT26_TOP"
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a lmgrLogShowPopup("mainListPopup1" 45 182 2 "topsyh_tb")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->CopyFromLibrary->value = "BORDERS"
+\a copyCellForm->CopyToLibrary->value = "BORDERS"
+\a copyCellForm->CopyFromLibrary->value = "VT26_TOP"
+\a copyCellForm->CopyFromCell->value = "topsyh_tb"
+\a copyCellForm->CopyToLibrary->value = "VT26_TOP"
+\a copyCellForm->CopyToCell->value = "topsyh_tb"
+\a copyCellForm->ViewsToCopy->value = "config maestro schematic"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "BORDERS CORELIBD DIG_SPI ESDLIB FBIAS FECG GATES IOLIB_4M IOLIB_ANA_4M LEADFRAMES PACKAGES POWER_TRACKS PRIMLIB Potentiostat Potentiostat_Top Potentiostat_cpoly Potentiostat_cpoly2 SFCLIB_C35B4C3 TECH_C35B3 TECH_C35B4 US_8ths VT26_IO_RING YAOWEN ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib connectLib dmsLib functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory xminternal xmmodels xmutils"
+\a nrSetWindowVisibility(copyCellForm "show")
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(521 90 468 659))
+\a copyCellForm->CopyToLibrary->value = "Potentiostat_Top"
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "Potentiostat_Top".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\o ERROR (CLM-173): One or more of the following problems have occurred:\n      1. The source file does not exist.\n      2. A destination file will be overwritten.\n      3. A destination file is checked out.\n      4. A destination file is opened for edit.\n      5. A destination file conflicts with another.\n      6. A source library file is not valid in a different library.\n      7. A source OpenAccess cellview master file has zero size.
+\a nrSetWindowVisibility(copyProblemsDialog "show")
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(619 353 273 133))
+\a nrResizeWindow(copyProblemsDialog list(338 170 825 441))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(624 382 273 133))
+\o Copy succeeded.
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a lmgrLogShowPopup("mainListPopup1" 51 64 2 "topsyh_tb")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(442 207 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(601 345 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "topsyh_tb" from library "Potentiostat_Top".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell 'Potentiostat_Top/topsyh_tb'.
+\a nrResizeWindow(workingDialogForm list(632 382 268 133))
+\o Deletion of 1 cell done.
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->libListBox->value = "VT26_TOP"
+\a cdsLibManager->libLineEdit->value = "VT26_TOP"
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a lmgrLogShowPopup("mainListPopup1" 31 177 2 "topsyh_tb")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->ViewsToCopy->value = ""
+\a copyCellForm->CopyFromCell->value = ""
+\a copyCellForm->CopyToCell->value = ""
+\a copyCellForm->CopyFromLibrary->value = ""
+\a copyCellForm->CopyToLibrary->value = ""
+\a copyCellForm->CopyFromLibrary->value = "BORDERS"
+\a copyCellForm->CopyToLibrary->value = "BORDERS"
+\a copyCellForm->CopyFromLibrary->value = "VT26_TOP"
+\a copyCellForm->CopyFromCell->value = "topsyh_tb"
+\a copyCellForm->CopyToLibrary->value = "VT26_TOP"
+\a copyCellForm->CopyToCell->value = "topsyh_tb"
+\a copyCellForm->ViewsToCopy->value = "config maestro schematic"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "BORDERS CORELIBD DIG_SPI ESDLIB FBIAS FECG GATES IOLIB_4M IOLIB_ANA_4M LEADFRAMES PACKAGES POWER_TRACKS PRIMLIB Potentiostat Potentiostat_Top Potentiostat_cpoly Potentiostat_cpoly2 SFCLIB_C35B4C3 TECH_C35B3 TECH_C35B4 US_8ths VT26_IO_RING YAOWEN ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib connectLib dmsLib functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory xminternal xmmodels xmutils"
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(521 90 468 659))
+\a copyCellForm->UpdateInstances->value = t
+\a copyCellForm->HowToUpdateInstances->value = "Of New Copies Only"
+\a copyCellForm->OK->value = t
+\o ERROR (CLM-208): The copy source and destination are identical.\n\nThe copy can't be done.
+\a nrSetWindowVisibility(errorDialog "show")
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(601 352 308 134))
+\a errorDialog->errorOkButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->CopyToLibrary->value = "Potentiostat_Top"
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "Potentiostat_Top".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(626 382 273 133))
+\a nrResizeWindow(copyProblemsDialog list(343 199 825 441))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(624 382 273 133))
+\o Copy succeeded.
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DIG_SPI"
+\a cdsLibManager->libLineEdit->value = "DIG_SPI"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DIG_SPI"
+\a cdsLibManager->libLineEdit->value = "DIG_SPI"
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "stimulus"
+\a cdsLibManager->cellLineEdit->value = "stimulus"
+\a lmgrLogShowPopup("mainListPopup1" 35 116 2 "stimulus")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->ViewsToCopy->value = ""
+\a copyCellForm->CopyFromCell->value = ""
+\a copyCellForm->CopyToCell->value = ""
+\a copyCellForm->CopyFromLibrary->value = ""
+\a copyCellForm->CopyToLibrary->value = ""
+\a copyCellForm->CopyFromLibrary->value = "BORDERS"
+\a copyCellForm->CopyToLibrary->value = "BORDERS"
+\a copyCellForm->CopyFromLibrary->value = "DIG_SPI"
+\a copyCellForm->CopyFromCell->value = "stimulus"
+\a copyCellForm->CopyToLibrary->value = "DIG_SPI"
+\a copyCellForm->CopyToCell->value = "stimulus"
+\a copyCellForm->ViewsToCopy->value = "symbol verilogams verilogams_bio verilogams_por"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "BORDERS CORELIBD ESDLIB FBIAS FECG GATES IOLIB_4M IOLIB_ANA_4M LEADFRAMES PACKAGES POWER_TRACKS PRIMLIB Potentiostat Potentiostat_Top Potentiostat_cpoly Potentiostat_cpoly2 SFCLIB_C35B4C3 TECH_C35B3 TECH_C35B4 US_8ths VT26_IO_RING VT26_TOP YAOWEN ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib connectLib dmsLib functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory xminternal xmmodels xmutils"
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->CopyToLibrary->value = "Potentiostat_Top"
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "Potentiostat_Top".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(632 382 273 133))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(624 382 273 133))
+\o Copy succeeded.
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "stimulus"
+\a cdsLibManager->cellLineEdit->value = "stimulus"
 \a cdsLibManager->cellListBox->value = "top"
 \a cdsLibManager->cellLineEdit->value = "top"
+\a cdsLibManager->cellListBox->value = "top_tb"
+\a cdsLibManager->cellLineEdit->value = "top_tb"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->cellListBox->value = "top_tb"
+\a cdsLibManager->cellLineEdit->value = "top_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 4 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DIG_SPI"
+\a cdsLibManager->libLineEdit->value = "DIG_SPI"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "stimulus"
+\a cdsLibManager->cellLineEdit->value = "stimulus"
+\a cdsLibManager->viewListBox->value = "verilogams_bio"
+\a cdsLibManager->viewLineEdit->value = "verilogams_bio"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "verilogams_bio"
+\a cdsLibManager->viewLineEdit->value = "verilogams_bio"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "verilogams"
+\a cdsLibManager->viewLineEdit->value = "verilogams"
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "stimulus"
+\a cdsLibManager->cellLineEdit->value = "stimulus"
+\a cdsLibManager->viewListBox->value = "verilogams"
+\a cdsLibManager->viewLineEdit->value = "verilogams"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "verilogams"
+\a cdsLibManager->viewLineEdit->value = "verilogams"
+\a cdsLibManager->viewListBox->value = "verilogams_bio"
+\a cdsLibManager->viewLineEdit->value = "verilogams_bio"
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
@@ -31,14 +353,46 @@
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Potentiostat_Top"
 \a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
-\a cdsLibManager->cellListBox->value = "top"
-\a cdsLibManager->cellLineEdit->value = "top"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "config"
+\a cdsLibManager->viewLineEdit->value = "config"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DIG_SPI"
+\a cdsLibManager->libLineEdit->value = "DIG_SPI"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "stimulus"
+\a cdsLibManager->cellLineEdit->value = "stimulus"
+\a cdsLibManager->viewListBox->value = "verilogams_bio"
+\a cdsLibManager->viewLineEdit->value = "verilogams_bio"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "verilogams_bio"
+\a cdsLibManager->viewLineEdit->value = "verilogams_bio"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "VT26_TOP"
 \a cdsLibManager->libLineEdit->value = "VT26_TOP"
@@ -46,67 +400,443 @@
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "top"
-\a cdsLibManager->cellLineEdit->value = "top"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "top_tb"
-\a cdsLibManager->cellLineEdit->value = "top_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 55 62 2 "top_tb")
+\a lmgrLogShowPopup("mainListPopup1" 42 61 2 "topsyh")
 \a cdsLibManager->copySimpleButton->value = t
 \a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->ViewsToCopy->value = ""
+\a copyCellForm->CopyFromCell->value = ""
+\a copyCellForm->CopyToCell->value = ""
+\a copyCellForm->CopyFromLibrary->value = ""
+\a copyCellForm->CopyToLibrary->value = ""
 \a copyCellForm->CopyFromLibrary->value = "BORDERS"
 \a copyCellForm->CopyToLibrary->value = "BORDERS"
-\a copyCellForm->CopyFromLibrary->value = "VT26_TOP"
-\a copyCellForm->CopyFromCell->value = "top_tb"
-\a copyCellForm->CopyToLibrary->value = "VT26_TOP"
-\a copyCellForm->CopyToCell->value = "top_tb"
-\a copyCellForm->ViewsToCopy->value = "config maestro schematic"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "BORDERS CORELIBD DIG_SPI ESDLIB FBIAS FECG GATES IOLIB_4M IOLIB_ANA_4M LEADFRAMES PACKAGES POWER_TRACKS PRIMLIB Potentiostat Potentiostat_Top Potentiostat_cpoly Potentiostat_cpoly2 SFCLIB_C35B4C3 TECH_C35B3 TECH_C35B4 US_8ths VT26_IO_RING YAOWEN ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib connectLib dmsLib functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory xminternal xmmodels xmutils"
-\a nrSetWindowVisibility(copyCellForm "show")
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(439 66 468 659))
+\a copyCellForm->CopyFromLibrary->value = "Potentiostat_Top"
+\a copyCellForm->CopyFromCell->value = "topsyh"
 \a copyCellForm->CopyToLibrary->value = "Potentiostat_Top"
-\a copyCellForm->UpdateInstances->value = t
-\a copyCellForm->HowToUpdateInstances->value = "Of New Copies Only"
+\a copyCellForm->CopyToCell->value = "topsyh"
+\a copyCellForm->ViewsToCopy->value = "layout schematic symbol"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "BORDERS CORELIBD DIG_SPI ESDLIB FBIAS FECG GATES IOLIB_4M IOLIB_ANA_4M LEADFRAMES PACKAGES POWER_TRACKS PRIMLIB Potentiostat Potentiostat_cpoly Potentiostat_cpoly2 SFCLIB_C35B4C3 TECH_C35B3 TECH_C35B4 US_8ths VT26_IO_RING VT26_TOP YAOWEN ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib connectLib dmsLib functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory xminternal xmmodels xmutils"
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->CopyToCell->value = "topsyh_backup"
 \a copyCellForm->OK->value = t
 \o Beginning simple copy to library "Potentiostat_Top".
 \o Processing files to be copied...
-\a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(workingDialogForm)
-\o ERROR (CLM-173): One or more of the following problems have occurred:\n      1. The source file does not exist.\n      2. A destination file will be overwritten.\n      3. A destination file is checked out.\n      4. A destination file is opened for edit.\n      5. A destination file conflicts with another.\n      6. A source library file is not valid in a different library.\n      7. A source OpenAccess cellview master file has zero size.
-\a nrSetWindowVisibility(copyProblemsDialog "show")
-\a nrSetCurrentWindow(copyProblemsDialog)
-\a nrResizeWindow(workingDialogForm list(537 329 273 133))
-\a nrResizeWindow(copyProblemsDialog list(256 146 825 441))
-\a copyProblemsDialog->OK->value = t
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(542 358 273 133))
-\a workingDialogForm->Close->value = t
-\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(624 382 273 133))
 \o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 39 58 2 "topsyh")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(442 207 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(601 345 268 91))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 38 64 2 "topsyh")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(601 345 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "topsyh" from library "Potentiostat_Top".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell 'Potentiostat_Top/topsyh'.
+\o Deletion of 1 cell done.
+\a nrResizeWindow(workingDialogForm list(632 382 268 133))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->libListBox->value = "VT26_TOP"
+\a cdsLibManager->libLineEdit->value = "VT26_TOP"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 5 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "topsyh_backup"
+\a cdsLibManager->cellLineEdit->value = "topsyh_backup"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 40 57 2 "topsyh_backup")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "topsyh_backup"
+\a nrSetWindowVisibility(basicRenameForm "show")
+\a basicRenameForm->basicRenameToEdit->value = "topsyh_backup"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(636 324 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "topsyh"
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "topsyh_backup" to "topsyh" in library "Potentiostat_Top".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(626 382 268 133))
+\o Rename succeeded.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "av_extracted"
+\a cdsLibManager->viewLineEdit->value = "av_extracted"
+\a lmgrLogShowPopup("mainListPopup2" 74 8 2 "av_extracted")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "av_extracted"
+\a basicRenameForm->basicRenameToEdit->value = "av_extracted"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(641 353 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "av_extracted_rc_fast"
+\a basicRenameForm->OK->value = t
+\o Renaming View "av_extracted" to "av_extracted_rc_fast" in library "Potentiostat_Top".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(626 382 268 133))
+\o Rename succeeded.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup2" 70 31 2 "layout")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->UpdateInstances->value = t
+\a copyViewForm->CopyFromLibrary->value = "BORDERS"
+\a copyViewForm->CopyToLibrary->value = "BORDERS"
+\a copyViewForm->CopyFromLibrary->value = "Potentiostat_Top"
+\a copyViewForm->CopyFromCell->value = "topsyh"
+\a copyViewForm->CopyFromView->value = "layout"
+\a copyViewForm->CopyToLibrary->value = "Potentiostat_Top"
+\a copyViewForm->CopyToCell->value = "topsyh"
+\a copyViewForm->CopyToView->value = "layout"
+\a copyViewForm->ViewsToCopy->value = "layout"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "BORDERS CORELIBD DIG_SPI ESDLIB FBIAS FECG GATES IOLIB_4M IOLIB_ANA_4M LEADFRAMES PACKAGES POWER_TRACKS PRIMLIB Potentiostat Potentiostat_cpoly Potentiostat_cpoly2 SFCLIB_C35B4C3 TECH_C35B3 TECH_C35B4 US_8ths VT26_IO_RING VT26_TOP YAOWEN ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib connectLib dmsLib functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory xminternal xmmodels xmutils"
+\a nrSetWindowVisibility(copyViewForm "show")
+\a nrSetCurrentWindow(copyViewForm)
+\a nrResizeWindow(copyViewForm list(521 84 468 671))
+\a copyViewForm->CopyToCell->value = "topsyh_Backup"
+\a copyViewForm->OK->value = t
+\o Beginning simple copy to library "Potentiostat_Top".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(624 382 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "topsyh_Backup"
+\a cdsLibManager->cellLineEdit->value = "topsyh_Backup"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "topsyh_tb"
+\a cdsLibManager->cellLineEdit->value = "topsyh_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "topsyh_Backup"
+\a cdsLibManager->cellLineEdit->value = "topsyh_Backup"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "topsyh_Backup"
+\a cdsLibManager->cellLineEdit->value = "topsyh_Backup"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "av_extracted_rc_fast"
+\a cdsLibManager->viewLineEdit->value = "av_extracted_rc_fast"
+\a lmgrLogShowPopup("mainListPopup2" 51 15 2 "av_extracted_rc_fast")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->ViewsToCopy->value = ""
+\a copyViewForm->CopyFromCell->value = ""
+\a copyViewForm->CopyFromView->value = ""
+\a copyViewForm->CopyToCell->value = ""
+\a copyViewForm->CopyToView->value = ""
+\a copyViewForm->CopyFromLibrary->value = ""
+\a copyViewForm->CopyToLibrary->value = ""
+\a copyViewForm->CopyFromLibrary->value = "BORDERS"
+\a copyViewForm->CopyToLibrary->value = "BORDERS"
+\a copyViewForm->CopyFromLibrary->value = "Potentiostat_Top"
+\a copyViewForm->CopyFromCell->value = "topsyh"
+\a copyViewForm->CopyFromView->value = "av_extracted_rc_fast"
+\a copyViewForm->CopyToLibrary->value = "Potentiostat_Top"
+\a copyViewForm->CopyToCell->value = "topsyh"
+\a copyViewForm->CopyToView->value = "av_extracted_rc_fast"
+\a copyViewForm->ViewsToCopy->value = "av_extracted_rc_fast"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "BORDERS CORELIBD DIG_SPI ESDLIB FBIAS FECG GATES IOLIB_4M IOLIB_ANA_4M LEADFRAMES PACKAGES POWER_TRACKS PRIMLIB Potentiostat Potentiostat_cpoly Potentiostat_cpoly2 SFCLIB_C35B4C3 TECH_C35B3 TECH_C35B4 US_8ths VT26_IO_RING VT26_TOP YAOWEN ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib connectLib dmsLib functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory xminternal xmmodels xmutils"
+\a nrSetCurrentWindow(copyViewForm)
+\a nrResizeWindow(copyViewForm list(521 84 468 671))
+\a nrSetCurrentWindow(copyViewForm)
+\a nrResizeWindow(copyViewForm list(196 108 468 671))
+\a copyViewForm->CopyToCell->value = "topsyh_Bakcup"
+\a copyViewForm->OK->value = t
+\o Beginning simple copy to library "Potentiostat_Top".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(624 382 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewListBox->value = "av_extracted_rc_fast"
+\a cdsLibManager->viewLineEdit->value = "av_extracted_rc_fast"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "av_extracted_rc_fast"
+\a cdsLibManager->viewLineEdit->value = "av_extracted_rc_fast"
+\a nrSetCurrentWindow(cdsLibManager)
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a cdsLibManager->cellListBox->value = "topsyh_Backup"
+\a cdsLibManager->cellLineEdit->value = "topsyh_Backup"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "topsyh_Bakcup"
+\a cdsLibManager->cellLineEdit->value = "topsyh_Bakcup"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "av_extracted_rc_fast"
+\a cdsLibManager->viewLineEdit->value = "av_extracted_rc_fast"
+\a cdsLibManager->cellListBox->value = "topsyh_Backup"
+\a cdsLibManager->cellLineEdit->value = "topsyh_Backup"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "topsyh_Bakcup"
+\a cdsLibManager->cellLineEdit->value = "topsyh_Bakcup"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "av_extracted_rc_fast"
+\a cdsLibManager->viewLineEdit->value = "av_extracted_rc_fast"
+\a lmgrLogShowPopup("mainListPopup2" 46 12 2 "av_extracted_rc_fast")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->ViewsToCopy->value = ""
+\a copyViewForm->CopyFromCell->value = ""
+\a copyViewForm->CopyFromView->value = ""
+\a copyViewForm->CopyToCell->value = ""
+\a copyViewForm->CopyToView->value = ""
+\a copyViewForm->CopyFromLibrary->value = ""
+\a copyViewForm->CopyToLibrary->value = ""
+\a copyViewForm->CopyFromLibrary->value = "BORDERS"
+\a copyViewForm->CopyToLibrary->value = "BORDERS"
+\a copyViewForm->CopyFromLibrary->value = "Potentiostat_Top"
+\a copyViewForm->CopyFromCell->value = "topsyh_Bakcup"
+\a copyViewForm->CopyFromView->value = "av_extracted_rc_fast"
+\a copyViewForm->CopyToLibrary->value = "Potentiostat_Top"
+\a copyViewForm->CopyToCell->value = "topsyh_Bakcup"
+\a copyViewForm->CopyToView->value = "av_extracted_rc_fast"
+\a copyViewForm->ViewsToCopy->value = "av_extracted_rc_fast"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "BORDERS CORELIBD DIG_SPI ESDLIB FBIAS FECG GATES IOLIB_4M IOLIB_ANA_4M LEADFRAMES PACKAGES POWER_TRACKS PRIMLIB Potentiostat Potentiostat_cpoly Potentiostat_cpoly2 SFCLIB_C35B4C3 TECH_C35B3 TECH_C35B4 US_8ths VT26_IO_RING VT26_TOP YAOWEN ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib connectLib dmsLib functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory xminternal xmmodels xmutils"
+\a nrSetCurrentWindow(copyViewForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "av_extracted_rc_fast"
+\a cdsLibManager->viewLineEdit->value = "av_extracted_rc_fast"
+\a lmgrLogShowPopup("mainListPopup2" 96 8 2 "av_extracted_rc_fast")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(601 345 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "av_extracted_rc_fast" from cell "topsyh" in library "Potentiostat_Top".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'Potentiostat_Top/topsyh/av_extracted_rc_fast'.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(632 382 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Potentiostat_Top"
+\a cdsLibManager->libLineEdit->value = "Potentiostat_Top"
+\a cdsLibManager->cellListBox->value = "topsyh"
+\a cdsLibManager->cellLineEdit->value = "topsyh"
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown

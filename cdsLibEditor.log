@@ -1,81 +1,10 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
 \o Sub version:		sub-version  s364 
-\o Arguments:		-cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib -mpssession virtuoso3615444 -mpshost il2244vt26_hrahimi -mpsversion 6.18 
+\o Arguments:		-cdslib /home/hrahimi/projects/POTENTIOSTAT_26/cds.lib -mpssession virtuoso3890072 -mpshost il2244vt26_hrahimi -mpsversion 6.18 
 \o Working Directory:	il2244vt26_hrahimi:/home/hrahimi/projects/POTENTIOSTAT_26
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		5.9.1
 \a nrSetCurrentWindow(cdsLibEditor)
-\a nrResizeWindow(cdsLibEditor list(1447 252 500 400))
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrListItemAction(cdsLibEditor->mainTable 0 0)
-\o Active cell: 0 0 "analogLib"
-\a nrListItemAction(cdsLibEditor->mainTable 44 1)
-\o Active cell: 44 1 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 44 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/VT26_TOP/")
-\a nrListItemAction(cdsLibEditor->mainTable 44 0)
-\o Active cell: 44 0 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 44 0 "VT26_TOP")
-\a nrListItemAction(cdsLibEditor->mainTable 41 1)
-\o Active cell: 41 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/FBIAS/"
-\a cdsLibEditor->fileSaveButton->value = t
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrResizeWindow(cdsLibEditor list(1991 248 500 400))
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrListItemAction(cdsLibEditor->mainTable 45 1)
-\o Active cell: 45 1 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 45 1 "VT26_TOP/")
-\a nrListItemAction(cdsLibEditor->mainTable 44 1)
-\o Active cell: 44 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/VT26_TOP/"
-\a nrListItemAction(cdsLibEditor->mainTable 42 1)
-\o Active cell: 42 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/POWER_TRACKS/"
-\a nrListItemAction(cdsLibEditor->mainTable 44 1)
-\o Active cell: 44 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/VT26_TOP/"
-\a nrListItemAction(cdsLibEditor->mainTable 45 1)
-\o Active cell: 45 1 "VT26_TOP/"
-\a nrListItemRename(cdsLibEditor->mainTable, 45 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/DIG_SPI/")
-\a nrListItemAction(cdsLibEditor->mainTable 45 0)
-\o Active cell: 45 0 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 45 0 "DIG_SPI")
-\a nrListItemAction(cdsLibEditor->mainTable 45 1)
-\o Active cell: 45 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/DIG_SPI/"
-\a nrListItemAction(cdsLibEditor->mainTable 46 1)
-\o Active cell: 46 1 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 46 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/FECG")
-\a nrListItemRename(cdsLibEditor->mainTable, 46 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/FECG/")
-\a nrListItemAction(cdsLibEditor->mainTable 42 1)
-\o Active cell: 42 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/POWER_TRACKS/"
-\a nrListItemAction(cdsLibEditor->mainTable 46 0)
-\o Active cell: 46 0 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 46 0 "FECG")
-\a nrListItemAction(cdsLibEditor->mainTable 46 1)
-\o Active cell: 46 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/FECG/"
-\a nrListItemAction(cdsLibEditor->mainTable 47 1)
-\o Active cell: 47 1 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 47 1 "YAOWEN")
-\a nrListItemAction(cdsLibEditor->mainTable 47 0)
-\o Active cell: 47 0 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 47 0 "YAOWEN")
-\o QUESTION (CLE-200): The directory "YAOWEN" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
-\a nrSetWindowVisibility(needCreateDialog "show")
-\a nrSetCurrentWindow(needCreateDialog)
-\a nrResizeWindow(needCreateDialog list(2061 319 350 200))
-\a needCreateDialog->yesButton->value = t
-\a newLibraryDialog->filePathComboBox->value = "/home/hrahimi/projects/POTENTIOSTAT_26"
-\a newLibraryDialog->libraryName->value = "YAOWEN"
-\a newLibraryDialog->useMappedName->value = nil
-\a nrSetWindowVisibility(newLibraryDialog "show")
-\a nrListItemAction(cdsLibEditor->mainTable 46 1)
-\o Active cell: 46 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/FECG/"
-\a nrSetCurrentWindow(newLibraryDialog)
-\a nrResizeWindow(newLibraryDialog list(1431 170 531 513))
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrListItemAction(cdsLibEditor->mainTable 47 1)
-\o Active cell: 47 1 "YAOWEN"
-\a nrListItemRename(cdsLibEditor->mainTable, 47 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/YAOWEN/")
-\a nrListItemAction(cdsLibEditor->mainTable 46 1)
-\o Active cell: 46 1 "/home/hrahimi/projects/IL2244_VT26_SAUL/FECG/"
-\a nrSetCurrentWindow(cdsLibEditor)
-\a cdsLibEditor->fileSaveButton->value = t
-\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(1444 236 500 400))
 \a exit(0)

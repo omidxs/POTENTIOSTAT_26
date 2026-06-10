@@ -1,0 +1,561 @@
+//Verilog-AMS HDL for "DIG_SPI", "stimulus" "verilogams"
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+`timescale 1us/ 1ps
+
+/***********************************************************/
+// Digital stimulus for IL2244       
+// Author: Saul Rodriguez            
+// Date: 2026-06-04                  
+							
+// Tasks:
+
+// change_conf0(input [2:0] fecg_filter, 
+//				     input [2:0] fecg_gain,
+//                    input fecg_bg_sel, 
+//                    input [3:0] bio_gain,
+//					 input bio_ptat_en,
+//					 input bio_calib_en);
+//
+// 	change_conf1(input [2:0] ecg_filter, 
+//				     input [3:0] ecg_gain,
+//                      input ecg_bg_sel);
+//
+// 	gain_test_FECG;  	// Set VAMP to 0.25 mV and VIN_FREQ to 50 Hz before running this test
+//
+//  	filter_test_FECG;    	// Set VAMP to 1 mV and VIN_FREQ to 800 Hzbefore running this test
+
+
+
+/*************************************/
+
+
+module stimulus ( 
+	output reg SPI_Clk,
+	output reg SPI_MOSI,
+	output reg SPI_CS,
+	output reg reset_l,	
+	output reg porborn);
+
+	parameter SPI_CLK_DELAY = 1; // 500 kHz
+	parameter MSEC = 1000;
+
+    reg [7:0] TX_data; // Data to send through MOSI	
+	
+
+	// Transmitted signals
+	reg [2:0] t_fECG_filter;  // control fECG GMC filter bandwidth
+    reg [2:0] t_fECG_gain; // Controls the fECG variable gain
+    reg t_fECG_BG_sel; // Control fECG selection of external/internal bandgap
+	
+	reg [3:0] t_BIO_Gain; // Controls the Bio potential gain
+	reg t_Bio_Ptat_EN; // Control the enable of the PTAT
+	reg t_Bio_Calib_EN; // Enable calibration mode
+	
+    reg [2:0] t_ECG_filter;  // control ECG GMC filter bandwidth
+    reg [3:0] t_ECG_gain; // Controls the fECG variable gain
+    reg t_ECG_BG_sel; // Control the ECG selection of external/internal bandgap
+
+	reg [31:0] t_conf0; // Transmitted configuration word 0
+	reg [31:0] t_conf1; // Transmitted configuration word 1
+
+	// Received signals
+	
+	wire [2:0] fECG_filter;  // control fECG GMC filter bandwidth
+    wire [2:0] fECG_gain; // Controls the fECG variable gain
+    wire fECG_BG_sel; // Control fECG selection of external/internal bandgap
+	wire [3:0] BIO_Gain; // Controls the Bio potential gain
+	wire Bio_Ptat_EN; // Control the enable of the PTAT
+	wire Bio_Calib_EN; // Enable calibration mode
+	
+    wire [2:0] ECG_filter;  // control ECG GMC filter bandwidth
+    wire [3:0] ECG_gain; // Controls the fECG variable gain
+    wire ECG_BG_sel; // Control the ECG selection of external/internal bandgap
+ 
+
+    initial begin
+        // Required for EDA Playground
+		$dumpfile("dump.vcd"); 
+		$dumpvars;
+		$display("******************************************");
+		$display("Test IL2244 VT26");
+
+		porborn = 1'b1; // Power-on-Reset/Brown-out-Reset (L)
+        TX_data = 8'h00;
+		reset_l = 1'b1;		
+		SPI_CS = 1'b1;
+		SPI_Clk = 1'b0;
+		SPI_MOSI = 1'b0;
+
+        //Reset
+		#(10*SPI_CLK_DELAY) reset_l = 1'b0;
+		#(10*SPI_CLK_DELAY) reset_l = 1'b1;
+		#(10*SPI_CLK_DELAY);
+
+		/****************/
+		/* Default conf, internal CMFB enabled */
+		/****************/
+		//default_all;
+
+		/****************/
+		/* Default conf no intern CMFB (needs to connect 3rd RL electrode ) */
+		/****************/
+		//default_nocmfb_all;
+
+		/***************/
+		/*Gain test FECG*/
+		/***************/
+		// Set VAMP to 0.25 mV and VIN_FREQ to 50 Hz before running this test
+		gain_test_BIO;
+
+		/***************/
+		/*Filter test FECG*/
+		/***************/
+		// Set VAMP to 1 mV and VIN_FREQ to 800 Hz before running this test
+		//filter_test_FECG;
+
+		/***************/
+		/*POR BOR  test*/
+		/***************/
+		// Set a delay after the porl signal is finised before configuring a register
+		// A BOR event can be placed at 2000ms
+		// Disable the Reset section above!
+		//#(10*MSEC);
+	    //por_test_FECG;
+
+
+		/*****************/
+		/* Gain Test ECG */
+		/*****************/
+		//gain_test_ECG;
+
+
+		/*****************/
+		/* Filter Test ECG */
+		/*****************/
+		//filter_test_ECG;
+ 
+		// Change conf0
+		//change_conf0(3'b101,3'b111,1'b1,4'b1010,1'b0,1'b1);
+/*
+		change_conf0(3'b011,3'b000,1'b1,4'b0000,1'b0,1'b0);  //gain0 fECG , sets 0 to BIOCHEM
+		send_SPI(8'h00,t_conf0);
+
+		#(40*MSEC);
+		change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //default fECG , sets 0 to BIOCHEM
+		send_SPI(8'h00,t_conf0);
+
+		#(40*MSEC);
+		change_conf0(3'b011,3'b011,1'b1,4'b0000,1'b0,1'b0);  //default fECG , sets 0 to BIOCHEM
+		send_SPI(8'h00,t_conf0);
+
+		#(40*MSEC);
+		change_conf0(3'b011,3'b111,1'b1,4'b0000,1'b0,1'b0);  //default fECG , sets 0 to BIOCHEM
+		send_SPI(8'h00,t_conf0);
+*/
+		
+
+        //send_SPI(8'h00,32'haabbccdd);
+		//send_SPI(8'h00,t_conf0);
+		//check_conf0;
+
+		// Change conf1
+		//change_conf1(3'b101,4'b1111,1'b1);
+        //send_SPI(8'h01,t_conf1);
+		//check_conf1;
+		
+		// Send wrong address
+		//$display("ERROR TEST: SENDING WRONG ADDRESS");
+        //send_SPI(8'h02,32'h55aadd22);
+
+		// Send wrong number of bytes
+        //send_SPI_error(8'h01,32'h11223344);
+
+		// Change conf0 again
+        //send_SPI(8'h00,32'hbbeeccaa);
+		//check_conf0;
+
+		// Change conf0 again
+        //send_SPI(8'h00,t_conf0);
+		//check_conf0;
+
+
+        #(10000000*SPI_CLK_DELAY); 
+		$display("******************************************");		
+		$finish;
+        
+    end
+
+	initial begin
+		$sdf_annotate ("/home/saul/projects/IL2244_VT26_DIG/DIG_SPI/innovus/output/design_slow.sdf",I0,, "sdf.log", "MAXIMUM");
+	end
+
+	reg[8*6:1] str1; // String for printing OK or ERROR
+
+
+	/***********/
+    /*  TASKS  */
+	/***********/
+	// TODO; Change the delay depending on settling time of the bio-chemical
+	task gain_test_BIO;
+		begin
+			//change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //gain0 fECG , sets 0 to BIOCHEM
+			//send_SPI(8'h00,t_conf0);
+
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+			#(50*MSEC);
+
+
+		   /*
+			//#(4*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0001,1'b0,1'b0);  //gain1 default fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(50*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0010,1'b0,1'b0);  //gain2 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(50*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0100,1'b0,1'b0);  //gain3 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(50*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b1000,1'b0,1'b0);  //gain3 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+			*/
+		end
+	endtask
+
+
+	task default_all;
+		begin
+			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //default gain and filter fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+		
+			change_conf1(3'b011,4'b0011,1'b1);  //gain2 ECG,  default ECG
+			send_SPI(8'h01,t_conf1);
+		end
+	endtask
+
+	task default_nocmfb_all;
+		begin
+			change_conf0(3'b011,3'b001,1'b0,4'b0000,1'b0,1'b0);  //default gain and filter fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+		
+			change_conf1(3'b011,4'b0011,1'b0);  //gain2 ECG,  default ECG
+			send_SPI(8'h01,t_conf1);
+		end
+	endtask
+
+
+	task por_test_FECG;
+		begin
+			
+			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //default gain and filter fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+		
+			change_conf1(3'b011,4'b0011,1'b1);  //gain2 ECG,  default ECG
+			send_SPI(8'h01,t_conf1);
+
+			// A BOR event should happen at around 2000ms
+			// Wait after the bor event has passed before config again
+			#(2200*MSEC);			
+
+			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //default gain and filter fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			change_conf1(3'b011,4'b0011,1'b1);  //gain2 ECG,  default ECG
+			send_SPI(8'h01,t_conf1);
+		end
+	endtask
+
+	// FECG and BIOCHEMICAL
+	task gain_test_FECG;
+		begin
+			change_conf0(3'b011,3'b000,1'b1,4'b0000,1'b0,1'b0);  //gain0 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(40*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //gain1 default fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(40*MSEC);
+			change_conf0(3'b011,3'b011,1'b1,4'b0000,1'b0,1'b0);  //gain2 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(40*MSEC);
+			change_conf0(3'b011,3'b111,1'b1,4'b0000,1'b0,1'b0);  //gain3 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+		end
+	endtask
+
+	task filter_test_FECG;
+		begin
+			change_conf0(3'b000,3'b001,1'b1,4'b0000,1'b0,1'b0);  //filter0 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(40*MSEC);
+			change_conf0(3'b001,3'b001,1'b1,4'b0000,1'b0,1'b0);  //filter1 , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(40*MSEC);
+			change_conf0(3'b011,3'b001,1'b1,4'b0000,1'b0,1'b0);  //filter2 (default) fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+
+			#(40*MSEC);
+			change_conf0(3'b111,3'b001,1'b1,4'b0000,1'b0,1'b0);  //filter3 fECG , sets 0 to BIOCHEM
+			send_SPI(8'h00,t_conf0);
+		end
+	endtask
+
+	//ECG
+	task gain_test_ECG;
+		begin
+			change_conf1(3'b011,4'b0000,1'b1);  //gain0 ECG 
+			send_SPI(8'h01,t_conf1);
+
+			#(40*MSEC);
+			change_conf1(3'b011,4'b0001,1'b1);  //gain1
+			send_SPI(8'h01,t_conf1);
+
+			#(40*MSEC);
+			change_conf1(3'b011,4'b0011,1'b1);  //gain2 ECG,  default ECG
+			send_SPI(8'h01,t_conf1);
+
+			#(40*MSEC);
+			change_conf1(3'b011,4'b0111,1'b1);  //gain3 ECG,
+			send_SPI(8'h01,t_conf1);
+
+			#(40*MSEC);
+			change_conf1(3'b011,4'b1111,1'b1);  //gain3 ECG,
+			send_SPI(8'h01,t_conf1);		
+
+		end
+	endtask
+
+	task filter_test_ECG;
+		begin
+			change_conf1(3'b000,4'b0011,1'b1);  //filter0 ECG 
+			send_SPI(8'h01,t_conf1);
+
+			#(40*MSEC);
+			change_conf1(3'b001,4'b0011,1'b1);  //filter1 default ECG
+			send_SPI(8'h01,t_conf1);
+
+			#(40*MSEC);
+			change_conf1(3'b011,4'b0011,1'b1);  //filter2 ECG,
+			send_SPI(8'h01,t_conf1);
+
+			#(40*MSEC);
+			change_conf1(3'b111,4'b0011,1'b1);  //filter3 ECG,
+			send_SPI(8'h01,t_conf1);
+
+		end
+	endtask
+
+
+
+	task update_conf;
+		begin
+			t_conf0[2:0] = t_fECG_filter;
+			t_conf0[5:3] = t_fECG_gain;
+			t_conf0[6] = t_fECG_BG_sel;
+
+			t_conf0[10:7] = t_BIO_Gain;
+			t_conf0[11] = t_Bio_Ptat_EN;
+			t_conf0[12] = t_Bio_Calib_EN;
+
+			t_conf0[31:13] = 0; // Unused bits set to 0
+
+			t_conf1[2:0] = t_ECG_filter;
+			t_conf1[6:3] = t_ECG_gain;
+			t_conf1[7] = t_ECG_BG_sel;
+
+			t_conf1[31:8] = 0; // Unused bits set to 0
+		end
+	endtask
+
+	task change_conf0(input [2:0] fecg_filter, 
+				     input [2:0] fecg_gain,
+                      input fecg_bg_sel, 
+                      input [3:0] bio_gain,
+					 input bio_ptat_en,
+					 input bio_calib_en);
+		begin
+			t_fECG_filter = fecg_filter;
+			t_fECG_gain = fecg_gain;
+			t_fECG_BG_sel = fecg_bg_sel;
+
+			t_BIO_Gain = bio_gain;
+			t_Bio_Ptat_EN = bio_ptat_en;
+			t_Bio_Calib_EN = bio_calib_en;
+
+			#1 update_conf;
+		    #1;
+		end
+
+    endtask
+
+	task change_conf1(input [2:0] ecg_filter, 
+				     input [3:0] ecg_gain,
+                      input ecg_bg_sel);
+		begin
+			t_ECG_filter = ecg_filter;
+			t_ECG_gain = ecg_gain;
+			t_ECG_BG_sel = ecg_bg_sel;
+
+			#1 update_conf;
+			#1;
+		end
+
+    endtask
+
+	task check_conf0;
+		begin
+			str1 = (fECG_filter == t_fECG_filter && 
+					fECG_gain == t_fECG_gain && 
+					fECG_BG_sel == t_fECG_BG_sel &&
+					BIO_Gain == t_BIO_Gain &&
+					Bio_Ptat_EN == t_Bio_Ptat_EN &&
+					Bio_Calib_EN == t_Bio_Calib_EN)? "OK" : "ERROR";
+			$display("conf0 write result: %s", str1);
+		end
+	endtask
+
+	task check_conf1;
+		begin
+			str1 = (ECG_filter == t_ECG_filter && 
+					ECG_gain == t_ECG_gain && 
+					ECG_BG_sel == t_ECG_BG_sel )? "OK" : "ERROR";
+			$display("conf1 write result: %s", str1);
+		end
+	endtask	
+
+
+    task send_SPI(input [7:0] add, input [31:0] data);
+		begin
+			SPI_CS = 1'b0;
+			#(4*SPI_CLK_DELAY); // models delay between CS and SPI master data
+			
+			send_byte(add);
+			send_byte(data[31:24]);
+			send_byte(data[23:16]);
+			send_byte(data[15:8]);
+			send_byte(data[7:0]);
+			
+			#(4*SPI_CLK_DELAY); // models delay between CS and SPI master 
+			SPI_CS = 1'b1;	
+			
+			//Check values
+			#(4*SPI_CLK_DELAY);
+
+			$display("sent SPI add 0x%X, data 0x%X at time:",add, data, $time);
+/*			
+			case (add)
+				8'h00:  	begin
+								str1 = (data == conf0)? "OK" : "ERROR";
+								$display("sent conf0 0x%X, register conf0 0x%X, %s", data, conf0, str1);
+							end
+				8'h01: 		begin
+								str1 = (data == conf1)? "OK" : "ERROR";
+								$display("sent conf1 0x%X, register conf0 0x%X, %s", data, conf1, str1);
+							end
+				default:	begin
+								$display(" 					ERROR WRONG ADDRESS");
+							end
+
+			endcase
+
+			$display("conf0 = 0x%X ",conf0);
+			$display("conf1 = 0x%X ",conf1);
+*/
+			
+		end
+	endtask
+	
+	// This function sends an incomplete word of 32 bits instead of 40
+	task send_SPI_error(input [7:0] add, input [31:0] data);
+		begin
+			$display("ERROR TEST: SENDING INCOMPLETE WORD");
+			SPI_CS = 1'b0;
+			#(4*SPI_CLK_DELAY); // models delay between CS and SPI master data
+			
+			send_byte(add);
+			send_byte(data[31:24]);
+			send_byte(data[23:16]);
+			//send_byte(data[15:8]);
+			send_byte(data[7:0]);
+			
+			#(4*SPI_CLK_DELAY); // models delay between CS and SPI master 
+			SPI_CS = 1'b1;	
+			
+			//Check values
+			#(4*SPI_CLK_DELAY);
+
+			$display("sent SPI add 0x%X, data 0x%X at time:",add, data, $time);
+
+		end
+	endtask
+
+    task send_byte(input [7:0] data);
+		begin
+			TX_data = data;			
+
+			SPI_Clk = 1'b0;
+			SPI_MOSI = TX_data[7];
+						
+			#SPI_CLK_DELAY;		
+			SPI_Clk = 1'b1;
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b0;
+			SPI_MOSI = TX_data[6];
+		
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b1;			
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b0;
+			SPI_MOSI = TX_data[5];
+				
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b1;
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b0;
+			SPI_MOSI = TX_data[4];
+
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b1;
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b0;
+			SPI_MOSI = TX_data[3];
+		
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b1;			
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b0;
+			SPI_MOSI = TX_data[2];
+
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b1;			
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b0;
+			SPI_MOSI = TX_data[1];
+
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b1;			
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b0;
+			SPI_MOSI = TX_data[0];
+		
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b1;
+			
+			#SPI_CLK_DELAY;
+			SPI_Clk = 1'b0;
+						
+		end
+	endtask
+
+endmodule 
